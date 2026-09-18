@@ -1,0 +1,17 @@
+# Fichiers système Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Fichiers macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers de logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+user_diff.txt
