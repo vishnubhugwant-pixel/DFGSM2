@@ -1601,8 +1601,164 @@ window.DATA_UE4 = [
         },
         "correctAnswers": ["B"],
         "explanation": "B ✅ VRAI : Le sinus coronaire (ou sinus veineux du cœur) est la veine principale de drainage du myocarde, se jetant dans l'atrium droit.\nA ❌ FAUX : Aucun rapport avec la face.\nC ❌ FAUX : Le sinus transverse de Theile est un espace péricardique séreux.\nD & E ❌ FAUX : Ce sont les caractéristiques des sinus de Valsalva aortiques."
+    },
+
+    // ============================================================
+    // Dr CLERICI — Cardiologie / Électrophysiologie & ECG
+    // Annales 2012 à 2023 (10 QCMs : indices 103 à 112)
+    // ============================================================
+
+    // Q104 — UE4-CL-01 — Annales 2022-2023 : Cas clinique n°2 (Infarctus péri-opératoire et VNI)
+    {
+        "id": "UE4-CL-01",
+        "text": "[Annales 2022-2023 — Cas clinique n°2]\nContexte : Patient opéré en urgence d'un hémo-pneumothorax droit. En réanimation, la biologie retrouve une troponine très élevée à 40 000 ng/mL et une hyperlactatémie à 4 mmol/L. L'échocardiographie montre une altération de novo très sévère de la FEVG à 20 %. Cliniquement, le patient présente des crépitants bibasaux, une SpO2 à 95 % sous 2 L/min d'O2 et une pression artérielle basse à 85/40 mmHg. L'ECG montre un sus-décalage majeur du segment ST de V1 à V6, en DI et aVL.\n\nSélectionner la ou les proposition(s) correcte(s) :",
+        "options": {
+            "A": "Il s'agit d'un infarctus du myocarde péri-opératoire.",
+            "B": "Il s'agit d'une arythmie complète par fibrillation auriculaire (ACFA) mal tolérée (perte de l'onde P sur l'ECG).",
+            "C": "Il doit bénéficier en urgence d'une coronarographie afin de déterminer si une artère coronaire est occluse.",
+            "D": "Le mettre sous ventilation non invasive (VNI) et augmenter ses pressions intrathoraciques pour aider son cœur gauche pourrait lui être bénéfique.",
+            "E": "Le mettre sous noradrénaline afin de recruter du volume sanguin, d'améliorer sa précharge et son débit cardiaque pourrait lui être bénéfique."
+        },
+        "correctAnswers": ["A", "C", "D"],
+        "explanation": "A, C et D ✅ VRAIS :\n- A : L'ECG objective un volumineux sus-décalage du segment ST (ondes de Pardee) dans le territoire antérieur étendu (V1 à V6, DI, aVL). Associé à l'ascension majeure de la troponine (40 000 ng/mL) et au contexte chirurgical lourd, il s'agit d'un infarctus du myocarde péri-opératoire.\n- C : Le patient est en état de choc cardiogénique franc (hypotension artérielle à 85/40 mmHg, hyperlactatémie à 4 mmol/L, FEVG effondrée à 20 %) sur un syndrome coronarien aigu avec sus-décalage du ST (SCA ST+). Une revascularisation par coronarographie en extrême urgence est vitale.\n- D : En cas de défaillance ventriculaire gauche sévère (FEVG 20 %) compliquée d'un œdème aigu du poumon cardiogénique (crépitants), la ventilation non invasive en pression positive (VNI) est très bénéfique. Elle augmente la pression intrathoracique, ce qui diminue le retour veineux (diminution de la précharge) et réduit la tension pariétale télésystolique du VG (diminution de la post-charge), soulageant immédiatement le travail du ventricule gauche.\nB ❌ FAUX : Sur le tracé, le rythme reste sinusal : les ondes P régulières précèdent chaque complexe QRS (particulièrement visibles en DII et en précordiales). Ce n'est pas une ACFA.\nE ❌ FAUX : La noradrénaline est un vasoconstricteur artériel prédominant (effet alpha-1). Elle augmente la post-charge (ce qui majore le travail imposé à un VG défaillant). Elle ne sert pas à « recruter du volume sanguin » ni à améliorer primitivement le débit cardiaque (ce qui relèverait plutôt d'un inotrope comme la dobutamine)."
+    },
+
+    // Q105 — UE4-CL-02 — Annales 2021-2022 : Circuit de conduction électrique cardiaque
+    {
+        "id": "UE4-CL-02",
+        "text": "[Annales 2021-2022] Concernant le circuit de conduction électrique cardiaque, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Les veines pulmonaires font partie intégrante du tissu de conduction électrique cardiaque.",
+            "B": "Le nœud sinusal est essentiellement dépendant du système orthosympathique.",
+            "C": "Le nœud auriculo-ventriculaire possède la capacité de réduire la vitesse de conduction de l'influx électrique.",
+            "D": "Le nœud d'Aschoff-Tawara est situé à l'ostium de la veine cave supérieure.",
+            "E": "Le faisceau de Bachmann fait partie des voies internodales."
+        },
+        "correctAnswers": ["C", "E"],
+        "explanation": "C et E ✅ VRAIS :\n- C : Le nœud auriculo-ventriculaire (NAV) ralentit physiologiquement la conduction de l'influx électrique (retard d'environ 0,10 seconde, visible sur l'intervalle PR). Ce délai permet aux oreillettes de se contracter et d'achever le remplissage des ventricules avant la systole ventriculaire.\n- E : Le faisceau de Bachmann (branche antérieure du système internodal) assure la transmission rapide et synchronisée de l'influx électrique de l'atrium droit vers l'atrium gauche.\nA ❌ FAUX : Bien que les manchons myocardiques des veines pulmonaires puissent générer des foyers d'ectopies déclenchant la fibrillation auriculaire, ils ne font pas partie du tissu cardionecteur spécialisé.\nB ❌ FAUX : Au repos, le nœud sinusal (de Keith et Flack) est sous l'influence inhibitrice prépondérante du système nerveux parasympathique (nerf vague), maintenant la fréquence de repos entre 60 et 80 bpm.\nD ❌ FAUX : Le nœud d'Aschoff-Tawara désigne le NŒUD AURICULO-VENTRICULAIRE (NAV). Il est situé dans la partie basse du septum interatrial droit (triangle de Koch, près de l'ostium du sinus coronaire). C'est le nœud sinusal qui est situé à l'abouchement de la veine cave supérieure."
+    },
+
+    // Q106 — UE4-CL-03 — Annales 2021-2022 / 2011-2012 : Le faisceau de His
+    {
+        "id": "UE4-CL-03",
+        "text": "[Annales 2021-2022 / 2011-2012] Concernant le faisceau de His, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Il est localisé sur le versant ventriculaire gauche de la jonction auriculo-ventriculaire.",
+            "B": "Son activité électrique est bien visualisée sur l'ECG de surface.",
+            "C": "Sa déficience peut nécessiter l'implantation d'un stimulateur cardiaque définitif (pacemaker).",
+            "D": "Il appartient au triangle d'Einthoven.",
+            "E": "C'est un centre d'automatisme secondaire."
+        },
+        "correctAnswers": ["C", "E"],
+        "explanation": "C et E ✅ VRAIS :\n- C : Une altération de la conduction au niveau du faisceau de His (BAV de haut degré infranodal) bloque la commande ventriculaire et expose à des syncopes graves (Adams-Stokes) ou à la mort subite ; elle justifie l'implantation en urgence d'un stimulateur cardiaque définitif (pacemaker).\n- E : Si le stimulateur physiologique (nœud sinusal) est défaillant, le faisceau de His et la jonction AV peuvent prendre le relais comme pacemaker secondaire avec un rythme d'échappement intrinsèque de 40 à 60 bpm.\nA ❌ FAUX : Le faisceau de His naît du NAV, chemine dans le trigone fibreux droit puis le long du septum interventriculaire membraneux avant de se diviser en branches droite et gauche.\nB ❌ FAUX : Le potentiel hisien est de très faible amplitude (quelques microvolts) et ne peut être détecté sur un ECG de surface standard ; il nécessite un enregistrement endocavitaire par cathéter (exploration électrophysiologique).\nD ❌ FAUX : Le triangle d'Einthoven est un artifice géométrique lié aux dérivations périphériques des membres (D1, D2, D3), sans aucun rapport avec l'anatomie du faisceau de His."
+    },
+
+    // Q107 — UE4-CL-04 — Annales 2021-2022 / 2011-2012 : Innervation cardiaque et rapports
+    {
+        "id": "UE4-CL-04",
+        "text": "[Annales 2021-2022 / 2011-2012] Concernant l'innervation cardiaque et ses rapports anatomiques, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "La stimulation du système orthosympathique est responsable du malaise vagal.",
+            "B": "Le nerf récurrentiel passe sous le tronc artériel brachio-céphalique (TABC).",
+            "C": "Le nœud sinusal ne reçoit aucune afférence nerveuse extrinsèque.",
+            "D": "Le trajet du nerf phrénique gauche passe sur la paroi latérale du ventricule gauche dans son cheminement.",
+            "E": "Le nerf vague (X) est le médiateur du système parasympathique cardiaque."
+        },
+        "correctAnswers": ["D", "E"],
+        "explanation": "D et E ✅ VRAIS :\n- D : Le nerf phrénique gauche descend entre la plèvre médiastinale et le péricarde fibreux en longeant directement la paroi latérale du ventricule gauche (rapport chirurgical capital lors d'une intervention ou de la mise en place d'une sonde de resynchronisation VG par le sinus coronaire).\n- E : Le nerf vague (Xème paire de nerfs crâniens) est le neurotransmetteur exclusif du système parasympathique cardio-modérateur (bradycardisant, inotrope et dromotrope négatif).\nA ❌ FAUX : Le malaise vagal résulte d'une hyperstimulation du système PARASYMPATHIQUE (vagal), provoquant bradycardie et chute de pression artérielle.\nB ❌ FAUX : Le nerf laryngé récurrent GAUCHE passe sous la crosse aortique, tandis que le récurrent DROIT passe sous l'artère sous-clavière droite (et non sous le TABC).\nC ❌ FAUX : Le nœud sinusal est richement innervé par les contingents sympathiques et parasympathiques extrinsèques qui modulent continuellement sa fréquence de décharge."
+    },
+
+    // Q108 — UE4-CL-05 — Annales 2021-2022 / 2018-2019 : Principes fondamentaux de l'ECG
+    {
+        "id": "UE4-CL-05",
+        "text": "[Annales 2021-2022 / 2018-2019 / 2011-2012] Concernant les principes fondamentaux de l'électrocardiogramme (ECG), quelles sont les propositions exactes ?",
+        "options": {
+            "A": "L'onde P correspond à la dépolarisation des oreillettes.",
+            "B": "Le tracé de l'ECG de surface dépend de la position des électrodes.",
+            "C": "Lorsque l'électrode exploratrice voit venir le front de dépolarisation, elle enregistre une déflexion positive.",
+            "D": "La dérivation V1 participe au triangle d'Einthoven.",
+            "E": "Les dérivations unipolaires précordiales (V1 à V6) étudient l'activité électrique cardiaque dans le plan horizontal."
+        },
+        "correctAnswers": ["A", "B", "C", "E"],
+        "explanation": "A, B, C et E ✅ VRAIS :\n- A : L'onde P traduit la systole électrique (onde de dépolarisation) des deux atriums.\n- B : Chaque dérivation correspond à une projection vectorielle spécifique de l'activité dipolaire du cœur selon la position spatiale des électrodes.\n- C : Règle électrophysiologique de base : un front de dépolarisation (charges positives) progressant vers une électrode exploratrice enregistre une onde positive au-dessus de la ligne isoélectrique.\n- E : Les électrodes thoraciques V1 à V6 étudient le cœur dans une coupe transversale (plan horizontal).\nD ❌ FAUX : Le triangle d'Einthoven est formé uniquement par les dérivations bipolaires frontales des membres : D1, D2 et D3. V1 est une dérivation précordiale."
+    },
+
+    // Q109 — UE4-CL-06 — Annales 2021-2022 / 2011-2012 : Dérivations de l'ECG et axe cardiaque
+    {
+        "id": "UE4-CL-06",
+        "text": "[Annales 2021-2022 / 2011-2012] Concernant les dérivations standards de l'ECG et l'axe électrique cardiaque, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Il existe 12 dérivations standards dans l'ECG conventionnel.",
+            "B": "Les dérivations D1, D2, D3 constituent les dérivations bipolaires du triangle d'Einthoven.",
+            "C": "Les dérivations aVR, aVL, aVF constituent les dérivations unipolaires des membres explorant le cœur dans le plan horizontal.",
+            "D": "Les dérivations unipolaires précordiales (V1 à V6) étudient l'activité électrique cardiaque dans le plan horizontal.",
+            "E": "L'axe cardiaque normal du complexe QRS se situe entre +30° et -110°."
+        },
+        "correctAnswers": ["A", "B", "D"],
+        "explanation": "A, B et D ✅ VRAIS :\n- A : Un tracé standard à 12 dérivations comporte 6 dérivations périphériques des membres (D1, D2, D3, aVR, aVL, aVF) et 6 dérivations thoraciques (V1 à V6).\n- B : D1, D2 et D3 mesurent la différence de potentiel entre deux électrodes de membres et forment le triangle géométrique d'Einthoven.\n- D : Les dérivations V1 à V6 explorent le cœur selon le plan horizontal (axial).\nC ❌ FAUX : Les dérivations aVR, aVL et aVF (Goldberger) explorent le cœur dans le PLAN FRONTAL (comme D1-D3), et non dans le plan horizontal.\nE ❌ FAUX : L'axe électrique moyen normal du QRS se situe physiologiquement entre -30° et +90° (quadrant inférieur gauche du système triaxial de Bailey)."
+    },
+
+    // Q110 — UE4-CL-07 — Annales 2019-2020 / 2015-2016 : Nœud de Keith et Flack
+    {
+        "id": "UE4-CL-07",
+        "text": "[Annales 2019-2020 / 2015-2016] Concernant le nœud de Keith et Flack, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "C'est une structure épicardique située à la jonction de l'oreillette et du ventricule droit.",
+            "B": "Il s'appelle aussi le nœud sinusal ou sino-atrial.",
+            "C": "Il constitue le centre d'automatisme primaire du cœur.",
+            "D": "Son activité automatique spontanée est de 40 battements par minute.",
+            "E": "Son activité automatique est modulée par le système nerveux autonome."
+        },
+        "correctAnswers": ["B", "C", "E"],
+        "explanation": "B, C et E ✅ VRAIS :\n- B : Nœud de Keith et Flack est le synonyme historique du nœud sinusal.\n- C : C'est le centre d'automatisme primaire (pacemaker physiologique) car il possède la pente de dépolarisation diastolique spontanée la plus rapide de tout le système cardionecteur.\n- E : Le système nerveux autonome module étroitement son rythme : le tonus vagal parasympathique le ralentit, tandis que la stimulation sympathique l'accélère.\nA ❌ FAUX : Il est situé dans la partie haute de l'oreillette droite, près de l'abouchement de la veine cave supérieure (et non à la jonction auriculo-ventriculaire).\nD ❌ FAUX : Sa fréquence propre automatique est de 60 à 100 battements/min. Une fréquence de 40 à 60 bpm correspond au centre d'automatisme secondaire (nœud auriculo-ventriculaire / faisceau de His)."
+    },
+
+    // Q111 — UE4-CL-08 — Annales 2019-2020 : Dérivations bipolaires de l'ECG
+    {
+        "id": "UE4-CL-08",
+        "text": "[Annales 2019-2020] Concernant les dérivations bipolaires de l'ECG, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Elles étudient l'activité électrique cardiaque dans le plan horizontal.",
+            "B": "Elles utilisent une électrode neutre de référence (la borne centrale de Wilson).",
+            "C": "Elles sont représentées par les dérivations D1, D2 et D3.",
+            "D": "La dérivation D1 enregistre le vecteur électrique entre le bras droit et le bras gauche.",
+            "E": "Elles constituent le triangle d'Einthoven."
+        },
+        "correctAnswers": ["C", "D", "E"],
+        "explanation": "C, D et E ✅ VRAIS :\n- C : Les trois dérivations bipolaires standard sont D1, D2 et D3.\n- D : D1 enregistre la différence de potentiel entre le bras gauche (+) et le bras droit (-).\n- E : D1, D2 et D3 relient les sommets bras droit, bras gauche et jambe gauche pour former le triangle d'Einthoven.\nA ❌ FAUX : Elles étudient le cœur dans le PLAN FRONTAL.\nB ❌ FAUX : Ce sont les dérivations unipolaires précordiales (V1 à V6) qui utilisent la borne centrale de Wilson comme référence de potentiel zéro virtuel. Les dérivations bipolaires mesurent une tension entre deux électrodes actives."
+    },
+
+    // Q112 — UE4-CL-09 — Annales 2019-2020 : Innervation cardiaque et nerfs laryngés
+    {
+        "id": "UE4-CL-09",
+        "text": "[Annales 2019-2020] Concernant l'innervation cardiaque et ses relations nerveuses, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Le nerf récurrentiel (nerf laryngé récurrent) est une branche du nerf Vague (X).",
+            "B": "Le nerf récurrentiel gauche passe sous la crosse aortique alors que le nerf récurrentiel droit passe sous le tronc artériel brachio-céphalique (TABC).",
+            "C": "Le nœud auriculo-ventriculaire ne reçoit aucune afférence nerveuse extrinsèque.",
+            "D": "Le système parasympathique cardiaque est représenté par le nerf Vague (X).",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["A", "D"],
+        "explanation": "A et D ✅ VRAIS :\n- A : Les nerfs récurrents (laryngés récurrents) sont des branches collatérales directes du nerf vague (X).\n- D : Le contingent parasympathique cardiomodérateur chemine entièrement au sein des nerfs vagues droit et gauche.\nB ❌ FAUX : Piège anatomique classique : le récurrent gauche passe bien sous la crosse de l'aorte (au niveau du ligament artériel), mais le récurrent droit passe sous l'artère SOUS-CLAVIÈRE droite, et non sous le tronc artériel brachio-céphalique (TABC).\nC ❌ FAUX : Le NAV reçoit une riche innervation autonome (sympathique et parasympathique) régulant la vitesse de conduction auriculo-ventriculaire.\nE ❌ FAUX : Les propositions A et D sont exactes."
+    },
+
+    // Q113 — UE4-CL-10 — Annales Session 2 / Divers : Principes et repères de l'ECG
+    {
+        "id": "UE4-CL-10",
+        "text": "[Annales Session 2 / Divers] Concernant les principes d'enregistrement et de repérage de l'ECG, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "L'axe cardiaque normal se situe entre 0° et 180°.",
+            "B": "L'axe moyen du QRS est perpendiculaire à la dérivation nulle (isodiphasique).",
+            "C": "L'axe moyen du QRS a la direction de la dérivation la plus voltée.",
+            "D": "La dérivation V1 est obtenue en positionnant l'électrode au niveau du 4ème espace intercostal au bord droit du sternum.",
+            "E": "C'est Einthoven qui a précisé la notion de phases électriques cardiaques en 1789."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B, C et D ✅ VRAIS :\n- B : Propriété vectorielle fondamentale : si une dérivation est équiphasique ou nulle (somme des ondes positives et négatives = 0), l'axe du QRS est perpendiculaire à cette dérivation.\n- C : L'axe moyen du cœur est parallèle à la dérivation frontale dans laquelle la somme algébrique du complexe QRS présente la plus grande amplitude positive.\n- D : C'est le repère anatomique standard : V1 au 4ème espace intercostal (EIC) au bord droit du sternum (ligne parasternale droite), et V2 au 4ème EIC au bord gauche du sternum.\nA ❌ FAUX : L'axe cardiaque normal se situe entre -30° et +90°.\nE ❌ FAUX : Willem Einthoven a inventé l'électrocardiogramme à galvanomètre à corde au tout début du XXème siècle (vers 1901), et non en 1789 (date de la Révolution française !)."
     }
 
 ];
 
 window.ALL_QCM_DATA["UE4"] = window.DATA_UE4;
+

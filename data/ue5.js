@@ -801,8 +801,457 @@ window.DATA_UE5 = [
         },
         "correctAnswers": ["A", "B", "C", "D"],
         "explanation": "A, B, C & D ✅ VRAI : Le rétrocontrôle tubulo-glomérulaire couple le débit tubulaire distal au tonus artériolaire glomérulaire. Lorsque le DFG baisse, le débit tubulaire ralentit, le NaCl est davantage réabsorbé en amont dans l'anse de Henle, et arrive en faible quantité à la macula densa. Celle-ci déclenche une vasodilatation de l'artériole afférente (via l'oxyde nitrique et les prostaglandines) et une sécrétion de rénine pour ré-augmenter le DFG.\nE ❌ FAUX : À l'inverse, un excès de NaCl à la macula densa (hyperfiltration) entraîne la libération d'adénosine qui CONSTRICTE l'artériole afférente pour freiner et normaliser le DFG."
+    },
+
+    // ============================================================
+    // Dr. DI-ASCIA — Physiologie du sel (Item 267)
+    // UE5.S3 (4 QCMs : indices 51 à 54)
+    // ============================================================
+
+    // Q52 — QCM 1 : Bilan du sodium et compartiments liquidiens
+    {
+        "id": "UE5-DA-01",
+        "text": "Concernant le bilan du sodium, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Les apports ou les pertes en chlorure de sodium modifient le volume extracellulaire.",
+            "B": "Les apports ou les pertes en chlorure de sodium modifient le volume intracellulaire.",
+            "C": "L'évaluation du volume extracellulaire est clinique.",
+            "D": "Le pli cutané est un signe de déshydratation intracellulaire.",
+            "E": "L'hypernatrémie est un signe de déshydratation extracellulaire."
+        },
+        "correctAnswers": ["A", "C"],
+        "explanation": "A et C ✅ VRAIS :\n- A : Le sodium (Na+) et le chlore (Cl-) sont les principaux déterminants osmotiques du volume du secteur extracellulaire. Toute variation de leur quantité entraîne une variation de volume de ce secteur (en iso-osmotique).\n- C : L'évaluation du bilan sodé et donc du volume extracellulaire est purement CLINIQUE : pression artérielle, fréquence cardiaque, présence d'œdèmes périphériques, pli cutané, turgescence jugulaire et suivi du poids.\nB ❌ FAUX : Le sodium est confiné dans le secteur extracellulaire (grâce à la pompe Na+/K+ ATPase membranaire ubiquitaire). Les variations du bilan sodé ne modifient pas directement le volume intracellulaire ; c'est le bilan de l'EAU pure qui régit l'hydratation intracellulaire.\nD ❌ FAUX : Le pli cutané est un signe clinique classique de déshydratation EXTRACELLULAIRE (hypovolémie par bilan sodé négatif). La déshydratation intracellulaire se manifeste cliniquement par la soif et des troubles neurologiques, et s'évalue biologiquement (hypernatrémie / hyperosmolarité).\nE ❌ FAUX : L'hypernatrémie (trouble de la concentration de sodium) reflète un déficit en eau libre, c'est-à-dire une déshydratation INTRACELLULAIRE, et non un trouble exclusif du stock sodé extracellulaire."
+    },
+
+    // Q53 — QCM 2 : Entrées, sorties et équivalences du sodium
+    {
+        "id": "UE5-DA-02",
+        "text": "Concernant les apports, les pertes et l'homéostasie du sodium, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "À l'équilibre, les sorties rénales de sodium correspondent aux entrées alimentaires de sodium.",
+            "B": "Lorsque les apports en sodium augmentent, l'excrétion rénale de sodium augmente afin que le volume extracellulaire reste stable.",
+            "C": "1g NaCl = 13 mmol de NaCl.",
+            "D": "Les pertes extrarénales de sodium sont négligeables, sauf en cas de transpiration massive ou de diarrhées abondantes.",
+            "E": "La consommation quotidienne de boucané, riche en sodium, n'est pas recommandée au long cours."
+        },
+        "correctAnswers": ["A", "B", "D", "E"],
+        "explanation": "A, B, D et E ✅ VRAIS :\n- A : C'est le principe fondamental de l'homéostasie à l'état stable (bilan nul) : Entrées (apports alimentaires) = Sorties (urines principalement).\n- B : C'est le mécanisme adaptatif de régulation (sécrétion de peptide natriurétique atrial / ANP et inhibition du SRAA) permettant d'éliminer la charge sodée pour maintenir la stabilité de la volémie efficace et de la pression artérielle.\n- D : En conditions physiologiques, les pertes sudorales et fécales de sodium sont minimes (< 5-10 mmol/j). Le rein est l'effecteur régulateur quasi exclusif. Seules des situations pathologiques (diarrhées aiguës, sueurs profuses à l'effort extrême) créent des pertes extrarénales majeures.\n- E : Le boucané (comme les charcuteries et viandes fumées/salées traditionnelles) apporte une quantité massive de sel. Une consommation excessive chronique dépasse ou fatigue les capacités de régulation, favorisant l'HTA et la rétention hydrosodée.\nC ❌ FAUX : 1 g de NaCl correspond à 17 mmol de NaCl (Masse molaire NaCl = 58,5 g/mol → 1/0,0585 ≈ 17,1 mmol). C'est 1 g de KCl qui équivaut à environ 13 mmol (Masse molaire KCl = 74,5 g/mol)."
+    },
+
+    // Q54 — QCM 3 : Réabsorption tubulaire et régulation hormonale (Aldostérone / 11b-HSD2)
+    {
+        "id": "UE5-DA-03",
+        "text": "Concernant la réabsorption tubulaire du sodium et sa régulation hormonale, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "La réabsorption de sodium a lieu sur tous les segments tubulaires.",
+            "B": "Le néphron proximal est le site de la régulation fine du bilan du sodium.",
+            "C": "Les diurétiques sont des inhibiteurs des transporteurs tubulaires du sodium.",
+            "D": "L'aldostérone agit via le récepteur aux minéralocorticoïdes au niveau du tube collecteur.",
+            "E": "L'enzyme 11β-hydroxystéroïde déshydrogénase (11β-HSD2) est chargée de dégrader le cortisol afin de permettre l'action seule de l'aldostérone sur le récepteur aux minéralocorticoïdes."
+        },
+        "correctAnswers": ["C", "D", "E"],
+        "explanation": "C, D et E ✅ VRAIS :\n- C : Tous les diurétiques agissent en inhibant des transporteurs spécifiques de sodium le long du tubule (furosémide sur NKCC2, thiazidiques sur NCC, amiloride sur ENaC), augmentant la natriurèse et diminuant le volume extracellulaire.\n- D : L'aldostérone se lie au récepteur nucléaire des minéralocorticoïdes (MR) dans les cellules principales du tube collecteur cortical pour stimuler l'expression du canal sodique apical ENaC et de la pompe basolatérale Na+/K+ ATPase, augmentant la réabsorption de Na+ et la sécrétion de K+ et H+.\n- E : Le cortisol circulant a la même affinité que l'aldostérone pour le récepteur MR. L'enzyme 11β-HSD2 le métabolise en cortisone inactive, protégeant le récepteur MR et permettant à l'aldostérone d'exercer seule sa régulation fine.\nA ❌ FAUX : La réabsorption de sodium n'a PAS lieu sur tous les segments : la branche descendante fine de l'anse de Henle est strictement perméable à l'eau mais imperméable aux solutés (aucun transport de sodium).\nB ❌ FAUX : Le néphron proximal (TCP) assure une réabsorption massive (environ les 2/3 du sodium filtré) mais non régulée par les hormones. C'est le néphron distal (tube collecteur) qui est le site de la régulation fine sous l'action de l'aldostérone."
+    },
+
+    // Q55 — QCM 4 : Finalités du bilan sodé, SRAA et macula densa
+    {
+        "id": "UE5-DA-04",
+        "text": "Concernant la régulation hémodynamique et hormonale du bilan sodé, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Le bilan sodé est ajusté pour permettre un maintien d'une volémie et d'une pression artérielle normale.",
+            "B": "Le bilan sodé est ajusté pour permettre le maintien d'une natrémie normale.",
+            "C": "L'augmentation de la concentration de Na au niveau du TCD stimule la sécrétion de rénine.",
+            "D": "En cas de déshydratation extracellulaire, le système rénine-angiotensine-aldostérone est inhibé.",
+            "E": "L'angiotensine 2 est vasoconstrictrice et inhibitrice de la réabsorption sodée."
+        },
+        "correctAnswers": ["A"],
+        "explanation": "A ✅ VRAI : La finalité physiologique de la régulation du capital sodé de l'organisme est de maintenir la volémie efficace, le remplissage vasculaire et la pression artérielle de perfusion des organes.\nB ❌ FAUX : La natrémie (concentration sérique du sodium) est le reflet de l'OSMOLARITÉ plasmatique et dépend de l'équilibre du bilan de l'EAU (régulé par la soif et l'hormone antidiurétique ADH / vasopressine), et non du bilan sodé pur.\nC ❌ FAUX : C'est la DIMINUTION de la concentration de NaCl arrivant au niveau de la macula densa (traduisant une baisse de la filtration glomérulaire ou une hypovolémie) qui stimule la sécrétion de rénine par les cellules juxtaglomérulaires. À l'inverse, une augmentation de NaCl inhibe la rénine.\nD ❌ FAUX : En cas de déshydratation extracellulaire (hypovolémie vraie par pertes sodées), la baisse de pression de perfusion rénale et la baisse de délivrance de sel à la macula densa ACTIVENT puissamment le SRAA afin de restaurer le stock sodé et la pression artérielle.\nE ❌ FAUX : L'angiotensine II est un puissant vasoconstricteur mais elle est ACTIVATRICE de la réabsorption sodée : elle stimule directement le cotransporteur Na+/H+ (NHE3) au niveau du tube proximal et stimule la synthèse surrénalienne d'aldostérone qui réabsorbe le sodium au niveau du tube collecteur."
+    },
+
+    // ============================================================
+    // Dr. DI-ASCIA — Physiologie du potassium & Dyskaliémies
+    // Cours et Annales 2017-2023 (9 QCMs : indices 55 à 63)
+    // ============================================================
+
+    // Q56 — QCM 5 du cours : Bilan et répartition du potassium
+    {
+        "id": "UE5-DA-05",
+        "text": "Concernant le bilan et la répartition du potassium, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Le potassium est un ion également réparti entre le secteur extracellulaire et intracellulaire.",
+            "B": "La charge alimentaire potassique serait mortelle si les transferts intracellulaires immédiats n'existaient pas.",
+            "C": "Letchis, bananes, goyaves ou patates douces sont des grands pourvoyeurs de potassium.",
+            "D": "1g KCl = 13 mmol de KCl.",
+            "E": "Les pertes digestives de potassium sont négligeables, même en cas de diarrhées."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B, C et D ✅ VRAIS :\n- B : Un repas standard apporte une charge potassique importante (~7 mmol) par rapport au pool extracellulaire total (~15-20 mmol dans tout le sang). Sans un transfert immédiat quasi-total vers le compartiment intracellulaire, cette charge entraînerait une hyperkaliémie majeure létale par arrêt cardiaque.\n- C : Les fruits et féculents tropicaux (letchis, bananes, goyaves, patates douces) sont particulièrement riches en potassium (à surveiller chez l'insuffisant rénal).\n- D : 1 g de KCl correspond à environ 13 mmol de K+ (valeur à connaître par cœur, vs 1 g de NaCl = 17 mmol).\nA ❌ FAUX : Le potassium est très inégalement réparti : 98 % est intracellulaire (concentration de 100 à 150 mmol/L, maintenue par la pompe Na+/K+ ATPase) et seulement 2 % est extracellulaire (concentration étroite de 3,5 à 5,0 mmol/L).\nE ❌ FAUX : Si les pertes digestives physiologiques sont faibles (~10 mmol/j), les diarrhées profuses ou vomissements représentent une cause majeure de pertes extrarénales conduisant à une hypokaliémie sévère."
+    },
+
+    // Q57 — QCM 6 du cours : Facteurs régulant les transferts transcellulaires
+    {
+        "id": "UE5-DA-06",
+        "text": "Concernant les facteurs régulant les transferts transcellulaires et le bilan du potassium, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "La stimulation bêta-2 sympathique favorise le transfert extracellulaire de potassium.",
+            "B": "L'administration d'insuline favorise le transfert intracellulaire de potassium.",
+            "C": "L'acidose métabolique favorise le transfert extracellulaire de potassium.",
+            "D": "L'alcalose respiratoire favorise le transfert intracellulaire du potassium.",
+            "E": "Le tube collecteur est le site de la régulation fine du potassium."
+        },
+        "correctAnswers": ["B", "C", "D", "E"],
+        "explanation": "B, C, D et E ✅ VRAIS :\n- B : L'insuline stimule directement la pompe Na+/K+ ATPase et favorise l'entrée rapide du K+ dans les cellules (effet hypokaliémiant, utilisé en urgence dans l'hyperkaliémie).\n- C : L'acidose métabolique (hors acidoses organiques) provoque un échange d'ions H+ entrant contre du K+ sortant, favorisant la sortie du potassium des cellules vers le secteur extracellulaire (hyperkaliémie de transfert).\n- D : À l'inverse, l'alcalose (métabolique ou respiratoire) fait sortir les H+ et fait entrer le potassium dans la cellule (hypokaliémie de transfert).\n- E : Le néphron proximal réabsorbe la majorité du potassium filtré de façon constante. C'est la cellule principale du tube collecteur cortical qui assure la régulation fine de l'excrétion urinaire de potassium sous le contrôle de l'aldostérone.\nA ❌ FAUX : Les agonistes bêta-2 adrénergiques (comme la stimulation sympathique ou le salbutamol) stimulent la pompe Na+/K+ ATPase et favorisent l'ENTRÉE (transfert intracellulaire) du potassium, entraînant une baisse de la kaliémie (effet hypokaliémiant)."
+    },
+
+    // Q58 — QCM 7 du cours : Régulation rénale et hormonale du potassium
+    {
+        "id": "UE5-DA-07",
+        "text": "Concernant la régulation rénale et hormonale du potassium, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Le système rénine-angiotensine-aldostérone est le principal régulateur de l'excrétion du potassium.",
+            "B": "La régulation rénale du potassium est une régulation à court terme, permettant de gérer le flux alimentaire immédiat de potassium.",
+            "C": "L'hyperkaliémie stimule la sécrétion d'aldostérone.",
+            "D": "Réabsorption de sodium et sécrétion de potassium sont étroitement liées au niveau de la cellule principale du tube collecteur.",
+            "E": "L'activation excessive du système rénine-angiotensine-aldostérone aboutit à un phénotype d'hypotension artérielle, d'hypokaliémie et d'acidose métabolique."
+        },
+        "correctAnswers": ["A", "C", "D"],
+        "explanation": "A, C et D ✅ VRAIS :\n- A : L'aldostérone est l'hormone clé de l'excrétion rénale du potassium : elle augmente la réabsorption de Na+ via ENaC et la sécrétion de K+ via les canaux ROMK.\n- C : L'augmentation de la kaliémie stimule directement la zone glomérulée du cortex surrénalien pour sécréter de l'aldostérone, indépendamment de la rénine.\n- D : Au pôle apical de la cellule principale, l'entrée de Na+ via ENaC crée une lumière tubulaire électronégative qui attire et favorise l'extrusion passive de K+ via les canaux potassiques ROMK (sécrétion couplée à la réabsorption sodée).\nB ❌ FAUX : La régulation rénale est une régulation à MOYEN/LONG TERME (délai de plusieurs heures). L'adaptation immédiate à court terme face à la charge alimentaire repose sur le transfert intracellulaire rapide (insuline, tonus adrénergique).\nE ❌ FAUX : L'hyperactivation du SRAA (ex : hyperaldostéronisme primaire / syndrome de Conn) entraîne une HTA (par rétention sodée), une HYPOKALIÉMIE (par fuite urinaire de K+) et une ALCALOSE métabolique (par sécrétion conjointe de protons H+ par les cellules intercalaires alpha)."
+    },
+
+    // Q59 — Annales 2017-2018 DFGSM3 : Kaliémie et potentiel de membrane
+    {
+        "id": "UE5-DA-08",
+        "text": "[Annales 2017-2018] Concernant la kaliémie et son rôle physiologique, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Elle a des valeurs normales comprises entre 3,0 et 5,0 mM.",
+            "B": "Elle ne varie jamais.",
+            "C": "Elle est maintenue dans les valeurs normales en post-prandial immédiat grâce à un transfert en intracellulaire du potassium.",
+            "D": "Elle est maintenue dans les valeurs normales en post-prandial immédiat grâce à l'augmentation de l'excrétion rénale.",
+            "E": "Elle contrôle le potentiel de membrane et donc la contractilité musculaire."
+        },
+        "correctAnswers": ["C", "E"],
+        "explanation": "C et E ✅ VRAIS :\n- C : En période post-prandiale immédiate, la sécrétion d'insuline induite par le repas stimule la pompe Na+/K+ ATPase et fait entrer transitoirement le potassium dans les cellules musculaires et hépatiques pour éviter l'hyperkaliémie.\n- E : Le rapport entre potassium intracellulaire et extracellulaire ([K+]int / [K+]ext) détermine le potentiel de repos membranaire (équation de Nernst), conditionnant l'excitabilité et la contractilité des cellules myocardiques et musculaires striées.\nA ❌ FAUX : Les valeurs normales de référence de la kaliémie sont strictement de 3,5 à 5,0 mmol/L (ou mM).\nB ❌ FAUX : La kaliémie varie physiologiquement dans d'étroites limites en fonction des repas, de l'exercice physique et de l'équilibre acido-basique.\nD ❌ FAUX : L'excrétion rénale est un processus adaptatif plus lent qui élimine la charge potassique sur plusieurs heures, et non en post-prandial immédiat."
+    },
+
+    // Q60 — Annales 2018-2019 DFGSM3 : Métabolisme, absorption et sécrétion du K+
+    {
+        "id": "UE5-DA-09",
+        "text": "[Annales 2018-2019] Concernant le métabolisme et l'élimination du potassium, quelle est la proposition exacte ?",
+        "options": {
+            "A": "Le potassium est surtout trouvé dans le secteur extracellulaire.",
+            "B": "L'absorption digestive du potassium est de 20% du potassium ingéré lors de l'alimentation.",
+            "C": "Le potassium trouvé dans l'urine est le potassium qui a échappé à la réabsorption par les cellules rénales le long du néphron.",
+            "D": "La concentration du potassium dans le sang est sujette à de larges variations au cours de la journée.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["E"],
+        "explanation": "E ✅ VRAI (Aucune des propositions ci-dessus n'est exacte) :\nA ❌ FAUX : 98 % du potassium se trouve dans le secteur intracellulaire (seulement 2 % dans le secteur extracellulaire).\nB ❌ FAUX : L'absorption digestive du potassium est passive et quasi-complète (environ 90 % du potassium ingéré est absorbé).\nC ❌ FAUX : Le potassium filtré au glomérule est réabsorbé à plus de 90-95 % en amont (tube proximal et anse de Henle). Le potassium présent dans l'urine finale provient essentiellement d'une SÉCRÉTION tubulaire distale active au niveau du tube collecteur cortical sous l'action de l'aldostérone.\nD ❌ FAUX : La kaliémie est régulée de façon extrêmement stricte et précise entre 3,5 et 5,0 mmol/L pour prévenir tout risque de troubles du rythme cardiaque mortels."
+    },
+
+    // Q61 — Annales 2018-2019 DFGSM3 : Charge potassique et variations des compartiments
+    {
+        "id": "UE5-DA-10",
+        "text": "[Annales 2018-2019] Concernant les variations des compartiments potassiques, quelle(s) proposition(s) est/sont exacte(s) ?",
+        "options": {
+            "A": "La quantité de potassium ingérée en un repas représente une fraction importante du potassium extracellulaire.",
+            "B": "Le maintien de la kaliémie en post-prandial fait intervenir un transfert rapide du potassium du secteur extracellulaire vers le secteur intracellulaire.",
+            "C": "Une augmentation du potassium intracellulaire de 3 mmol/L a des conséquences négligeables.",
+            "D": "Une augmentation du potassium extracellulaire de 3 mmol/L a des conséquences importantes.",
+            "E": "Toutes les propositions ci-dessus sont exactes."
+        },
+        "correctAnswers": ["A", "B", "C", "D", "E"],
+        "explanation": "A, B, C, D et E ✅ TOUTES VRAIES :\n- A : Un repas apporte couramment 20 à 40 mmol de potassium, alors que le pool extracellulaire total n'est que d'environ 60 mmol (4 mmol/L × 15 L) ; c'est donc une fraction majeure.\n- B : Ce transfert rapide vers les cellules (médié par l'insuline et les catécholamines) prévient l'élévation toxique de la kaliémie.\n- C : La concentration intracellulaire étant déjà très élevée (100-150 mmol/L), une variation de +3 mmol/L représente une fluctuation relative infime (< 3 %) sans impact fonctionnel.\n- D : En revanche, dans le sang (3,5-5,0 mmol/L), une augmentation de +3 mmol/L porte la kaliémie à 6,5-8,0 mmol/L, niveau d'hyperkaliémie sévère engageant le pronostic vital par fibrillation ventriculaire ou asystolie."
+    },
+
+    // Q62 — Annales 2022-2023 DFGSM2 : Prise en charge des troubles du potassium
+    {
+        "id": "UE5-DA-11",
+        "text": "[Annales 2022-2023] Concernant la prise en charge thérapeutique des troubles du potassium, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Le gluconate de calcium ne modifie pas le niveau d'hyperkaliémie.",
+            "B": "L'administration d'insuline favorise le transfert intracellulaire de potassium.",
+            "C": "L'alcalinisation favorise le transfert extracellulaire de potassium.",
+            "D": "L'épuration extrarénale est le traitement de référence en cas d'hyperkaliémie sévère chez un patient oligoanurique.",
+            "E": "Une hypokaliémie sans signes ECG se traite par l'administration per os de chlorure de sodium."
+        },
+        "correctAnswers": ["A", "B", "D"],
+        "explanation": "A, B et D ✅ VRAIS :\n- A : Les sels de calcium (gluconate ou chlorure de calcium) sont des cardioprotecteurs membranaires d'action immédiate qui stabilisent le potentiel de membrane myocardique sans modifier la kaliémie sérique.\n- B : L'insuline intraveineuse (associée à du sérum glucosé pour éviter l'hypoglycémie) active la pompe Na+/K+ ATPase et fait chuter la kaliémie par transfert intracellulaire en 15 à 30 minutes.\n- D : Chez le patient anurique, les diurétiques de l'anse sont inefficaces ; l'hémodialyse (épuration extrarénale) est le seul moyen rapide et efficace de soustraire le potassium de l'organisme.\nC ❌ FAUX : L'alcalinisation plasmatique (bicarbonate de sodium) favorise l'ENTRÉE (transfert intracellulaire) du potassium, et non sa sortie.\nE ❌ FAUX : Une hypokaliémie se traite par une supplémentation en CHLORURE DE POTASSIUM (KCl) per os (ex : Diffu-K), et non en chlorure de sodium (NaCl)."
+    },
+
+    // Q63 — Annales 2022-2023 DFGSM2 : Médicaments pourvoyeurs d'hypokaliémie
+    {
+        "id": "UE5-DA-12",
+        "text": "[Annales 2022-2023] Parmi ces classes médicamenteuses, lesquelles sont pourvoyeuses d'hypokaliémie ?",
+        "options": {
+            "A": "Les inhibiteurs de l'enzyme de conversion de l'angiotensinogène (IEC).",
+            "B": "Les diurétiques thiazidiques.",
+            "C": "Les anti-inflammatoires non stéroïdiens (AINS).",
+            "D": "Les anti-aldostérones (spironolactone, éplérénone).",
+            "E": "L'insuline."
+        },
+        "correctAnswers": ["B", "E"],
+        "explanation": "B et E ✅ VRAIS :\n- B : Les diurétiques thiazidiques (comme les diurétiques de l'anse) augmentent la charge en sodium et le débit au niveau du tube collecteur, stimulant l'excrétion urinaire de potassium (diurétiques hypokaliémiants).\n- E : L'insuline stimule la recapture cellulaire de potassium et est une cause fréquente d'hypokaliémie iatrogène lors de la prise en charge d'une acidocétose diabétique.\nA, C et D ❌ FAUX : Ce sont tous des pourvoyeurs majeurs d'HYPERKALIÉMIE :\n- A : Les IEC bloquent la formation d'angiotensine II et donc la sécrétion d'aldostérone, réduisant l'excrétion de K+.\n- C : Les AINS inhibent la synthèse de prostaglandines rénales vasodilatatrices, induisant un hyporéninisme-hypoaldostéronisme secondaire avec rétention potassique.\n- D : Les anti-aldostérones sont des diurétiques dits « épargneurs de potassium » (antagonistes compétitifs du récepteur MR)."
+    },
+
+    // Q64 — Annales 2022-2023 DFGSM2 : Étiologies et diagnostic des dyskaliémies
+    {
+        "id": "UE5-DA-13",
+        "text": "[Annales 2022-2023] Concernant les étiologies et la démarche diagnostique des dyskaliémies, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "L'insuffisance rénale est une situation particulièrement à risque d'hyperkaliémie.",
+            "B": "Une lyse cellulaire massive se traduira par une hypokaliémie.",
+            "C": "Une hypokaliémie avec hypertension artérielle oriente vers une hypoactivation du système rénine-angiotensine-aldostérone.",
+            "D": "L'acidose métabolique favorise le transfert extracellulaire de potassium et l'hyperkaliémie.",
+            "E": "Une hypokaliémie avec une kaliurèse effondrée évoque une cause extrarénale."
+        },
+        "correctAnswers": ["A", "D", "E"],
+        "explanation": "A, D et E ✅ VRAIS :\n- A : Le rein assurant 90 % de l'élimination du potassium, la réduction de la masse néphronique fonctionnelle (en particulier avec DFG < 15-30 mL/min) limite l'excrétion potassique et expose à l'hyperkaliémie.\n- D : L'acidose métabolique minérale entraîne une sortie du potassium intracellulaire vers le plasma (hyperkaliémie de transfert).\n- E : Face à une hypokaliémie, une kaliurèse basse (< 15-20 mmol/24h) prouve que le rein s'adapte correctement en réabsorbant le potassium ; la fuite est donc d'origine digestive (diarrhée, laxatifs) ou par transfert.\nB ❌ FAUX : Comme 98 % du potassium est stocké dans les cellules, une rhabdomyolyse massive, une hémolyse ou une lyse tumorale libère brutalement d'énormes quantités de potassium dans le sang et provoque une HYPERKALIÉMIE aiguë menaçante.\nC ❌ FAUX : L'association HTA + hypokaliémie évoque au contraire une HYPERACTIVATION du SRAA ou un hyperminéralocorticisme (hyperaldostéronisme primaire ou secondaire, sténose d'artère rénale, syndrome de Cushing), car l'aldostérone retient le sel et l'eau (HTA) tout en éliminant le potassium dans les urines (hypokaliémie)."
+    },
+
+    // =========================================================================
+    // UE5.S3 - NÉPHROLOGIE : Dr LE FLECHER Arnaud
+    // Bilan de l'eau (Physiologie de l'eau - Troubles hydroélectrolytiques)
+    // =========================================================================
+
+    // Q65 — UE5-LF-EAU-01 — Question 1 : Bilan de l'eau & gradient cortico-papillaire
+    {
+        "id": "UE5-LF-EAU-01",
+        "text": "Concernant le bilan de l'eau et le pouvoir de concentration/dilution des urines, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Une osmolarité urinaire à 50 mosmol/L traduit l'absence de réabsorption d'eau dans le canal collecteur.",
+            "B": "En l'absence d'ADH, l'osmolarité urinaire ne peut pas atteindre la valeur maximale de concentration.",
+            "C": "Une osmolarité urinaire à 1200 mOsmol/L traduit forcément la présence d'ADH.",
+            "D": "L'ADH n'est pas nécessaire à l'établissement du gradient cortico-papillaire.",
+            "E": "Aucune des réponses précédentes n'est exacte."
+        },
+        "correctAnswers": ["A", "B", "C", "D"],
+        "explanation": "A, B, C et D ✅ VRAIS :\n- A : En l'absence complète d'ADH (ou en cas de diabète insipide complet), le canal collecteur reste totalement imperméable à l'eau. L'urine hypotonique issue du TCD (environ 50 à 60-100 mosmol/L) est éliminée sans réabsorption d'eau, correspondant à la dilution urinaire maximale.\n- B : Pour concentrer les urines jusqu'à la valeur maximale de 1200 mosmol/L, l'organisme a impérativement besoin d'ADH afin de recruter et insérer les aquaporines 2 à la membrane apicale du canal collecteur.\n- C : Une urine concentrée à 1200 mOsmol/L (valeur maximale théorique chez l'Homme) prouve que l'eau a été massivement réabsorbée par équilibration osmotique avec l'interstitium médullaire profond, ce qui nécessite formellement la perméabilisation à l'eau induite par l'ADH.\n- D : Le gradient cortico-papillaire (qui passe de 300 mOsm/L au cortex à 1200 mOsm/L à la pointe de la papille) est généré en amont par la réabsorption active de NaCl dans la branche large ascendante de l'anse de Henlé (multiplicateur à contre-courant) et le recyclage de l'urée. L'ADH n'établit pas ce gradient ; elle permet à l'eau tubulaire de suivre ce gradient osmotique préexistant.\nE ❌ FAUX : A, B, C et D sont exactes."
+    },
+
+    // Q66 — UE5-LF-EAU-02 — Question 2 : Manipulation tubulaire de l'eau et du sodium
+    {
+        "id": "UE5-LF-EAU-02",
+        "text": "Concernant la manipulation tubulaire rénale de l'eau et du sodium le long du néphron, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "Le tube contourné proximal réabsorbe plus de la moitié de l'eau filtrée par le glomérule.",
+            "B": "L'osmolarité du flux tubulaire est minimale à la fin du tube contourné distal.",
+            "C": "La réabsorption d'eau dans le canal collecteur est paracellulaire.",
+            "D": "Dans l'anse de Henlé, la réabsorption d'H2O et de Na ne se font pas dans les mêmes segments.",
+            "E": "La charge hydrique filtrée est égale au débit de filtration glomérulaire."
+        },
+        "correctAnswers": ["A", "B", "D", "E"],
+        "explanation": "A, B, D et E ✅ VRAIS :\n- A : Le tube contourné proximal (TCP) assure une réabsorption iso-osmotique massive d'environ 65 % (donc bien plus de la moitié) de l'eau et du sodium filtrés par le glomérule (le tubule proximal au sens large en réabsorbe environ 90 %).\n- B : La branche large ascendante de Henlé et le TCD réabsorbent activement du NaCl (via NKCC2 et NCC) tout en étant strictement imperméables à l'eau (« segment de dilution ») : le fluide tubulaire y est donc dilué jusqu'à son minimum physiologique (~60 mosmol/L) à l'entrée du canal collecteur.\n- D : Dans l'anse de Henlé, il existe une dissociation anatomofonctionnelle stricte : la branche descendante fine réabsorbe l'eau (perméable via AQP1) mais pas le Na, tandis que la branche large ascendante réabsorbe activement le Na (via NKCC2) mais est totalement imperméable à l'eau.\n- E : L'eau représentant le solvant exclusif de l'ultrafiltrat plasmatique sans restriction glomérulaire, la charge hydrique filtrée par unité de temps correspond rigoureusement au débit de filtration glomérulaire (DFG, environ 180 L/jour ou 120 mL/min).\nC ❌ FAUX : La réabsorption de l'eau dans le canal collecteur sous l'effet de l'ADH est STRICTEMENT TRANSCELLULAIRE : l'eau pénètre dans la cellule principale par les aquaporines 2 (AQP2) insérées au pôle apical, puis ressort vers l'interstitium par les aquaporines 3 et 4 (AQP3/AQP4) constitutivement présentes au pôle basolatéral."
+    },
+
+    // Q67 — UE5-LF-EAU-03 — Question 3 : ADH, stimuli et pouvoir de concentration urinaire
+    {
+        "id": "UE5-LF-EAU-03",
+        "text": "Concernant l'hormone antidiurétique (ADH / arginine-vasopressine) et les mécanismes de concentration des urines, quelles sont les propositions exactes ?",
+        "options": {
+            "A": "L'hormone anti-diurétique (ADH) est une hormone peptidique synthétisée par la post-hypophyse.",
+            "B": "La sécrétion d'ADH est stimulée par l'hyperosmolarité et l'hypervolémie.",
+            "C": "L'ADH perméabilise le canal collecteur à l'eau en activant l'expression à la membrane apicale de l'aquaporine de type 2.",
+            "D": "La présence d'ADH est nécessaire et suffisante pour concentrer les urines.",
+            "E": "Le pouvoir maximal de concentration des urines est dépendant du gradient cortico-papillaire."
+        },
+        "correctAnswers": ["C", "E"],
+    },
+
+    // =========================================================================
+    // UE5.S3 - NÉPHROLOGIE : Dr LE FLECHER
+    // Œdèmes et anomalies du volume (Physiologie, Sémiologie & Cas cliniques)
+    // =========================================================================
+
+    // -------------------------------------------------------------------------
+    // PARTIE 1 : QUESTIONS DE COURS THÉORIQUES (PHYSIOLOGIE & SÉMIOLOGIE)
+    // -------------------------------------------------------------------------
+
+    // Q68 — UE5-LF-OED-01 — QCM 1 : Répartition des compartiments liquidiens
+    {
+        "id": "UE5-LF-OED-01",
+        "text": "Concernant la répartition des volumes liquidiens chez un individu sain, quelle(s) est/sont la/les proposition(s) exacte(s) ?",
+        "options": {
+            "A": "L'eau totale représente environ 60 % du poids du corps chez l'adulte.",
+            "B": "Le secteur intracellulaire (IC) contient environ 15 % de l'eau totale corporelle.",
+            "C": "Le secteur interstitiel représente 15 % du poids corporel.",
+            "D": "Le volume plasmatique représente environ 5 % du poids corporel.",
+            "E": "L'œdème correspond à une accumulation anormale de liquide visible ou palpable dans le compartiment plasmatique."
+        },
+        "correctAnswers": ["A", "C", "D"],
+        "explanation": "A, C et D ✅ VRAIS :\n- A : L'eau corporelle totale représente environ 60 % du poids chez l'homme adulte (50 à 55 % chez la femme).\n- C : Le compartiment extracellulaire (20 % du poids total) est composé du liquide interstitiel (15 % du poids) et du plasma (5 % du poids).\n- D : Le volume plasmatique circulant intravasculaire représente environ 5 % du poids corporel (soit environ 3 à 3,5 L).\nB et E ❌ FAUX :\n- B : Le secteur intracellulaire représente 40 % du poids corporel, soit les 2/3 (environ 67 %) de l'eau corporelle totale (et non 15 %).\n- E : Par définition, un œdème est une accumulation pathologique visible ou palpable de liquide dans le tissu INTERSTITIEL (secteur extracellulaire extravasculaire), et non dans le plasma."
+    },
+
+    // Q69 — UE5-LF-OED-02 — QCM 2 : Caractéristiques sémiologiques des œdèmes
+    {
+        "id": "UE5-LF-OED-02",
+        "text": "Concernant les caractéristiques cliniques des œdèmes, quelle(s) est/sont la/les proposition(s) exacte(s) ?",
+        "options": {
+            "A": "Les œdèmes de cause locale sont typiquement bilatéraux et symétriques.",
+            "B": "Les œdèmes généralisés sont blancs, mous, indolores et prennent le godet.",
+            "C": "Les œdèmes généralisés se répartissent préférentiellement dans les zones déclives.",
+            "D": "Un œdème inflammatoire localisé est typiquement dur, rouge, chaud et douloureux, ne prenant pas le godet.",
+            "E": "La présence d'une dermite ocre et de varices oriente d'emblée vers un œdème généralisé d'origine rénale."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B, C et D ✅ VRAIS :\n- B : Les œdèmes par rétention hydrosodée diffuse (hyperhydratation extracellulaire) répondent aux 4 qualificatifs classiques : blancs, mous, indolores et prenant le godet (dépression cupuliforme persistante à la pression digitale).\n- C : En raison de l'effet de la pesanteur qui majore la pression hydrostatique capillaire, ils prédominent dans les régions déclives (chevilles et jambes en position debout/assise ; région lombaire et face postérieure des cuisses en décubitus ; paupières au réveil).\n- D : L'œdème inflammatoire local (cellulite, érysipèle, piqûre, thrombophlébite superficielle) associe les quatre signes cardinaux de l'inflammation (rougeur, chaleur, douleur, induration) et ne prend généralement pas le godet.\nA et E ❌ FAUX :\n- A : Les œdèmes de cause locale (veineuse, lymphatique ou inflammatoire) sont typiquement unilatéraux ou asymétriques.\n- E : La dermite ocre (pigmentation brunâtre purpurique), l'atrophie blanche et les varices sont des signes trophiques cutanés hautement caractéristiques d'une insuffisance veineuse chronique périphérique (cause locale de stase), et non d'une cause rénale."
+    },
+
+    // Q70 — UE5-LF-OED-03 — QCM 3 : Étiologies des œdèmes de cause locale
+    {
+        "id": "UE5-LF-OED-03",
+        "text": "Quelle(s) étiologie(s) peu(ven)t être responsable(s) d'un œdème localisé ?",
+        "options": {
+            "A": "Une thrombose veineuse profonde (TVP).",
+            "B": "Un traitement par inhibiteur calcique (ex : amlodipine).",
+            "C": "Une filariose lymphatique.",
+            "D": "Une compression veineuse ou lymphatique par une adénopathie tumorale.",
+            "E": "Un syndrome néphrotique pur."
+        },
+        "correctAnswers": ["A", "B", "C", "D"],
+        "explanation": "A, B, C et D ✅ VRAIS :\n- A : La thrombose veineuse profonde obstrue le lit d'évacuation veineux, augmentant massivement la pression hydrostatique capillaire d'amont dans le membre atteint (œdème asymétrique).\n- B : Les inhibiteurs calciques dihydropyridiniques induisent une vasodilatation artériolaire précapillaire sélective sans dilatation veinulaire post-capillaire, ce qui augmente la pression hydrostatique capillaire et favorise des œdèmes bimalléolaires locaux précapillaires (sans rétention hydrosodée systémique ni prise de poids).\n- C : La filariose lymphatique (Wuchereria bancrofti) obstrue les vaisseaux lymphatiques et crée un lymphœdème périphérique d'obstacle.\n- D : Une adénopathie compressive ilio-fémorale ou pelvienne entrave le retour veineux/lymphatique unilatéral.\nE ❌ FAUX : Le syndrome néphrotique est une cause systémique majeure d'œdèmes généralisés bilatéraux et symétriques (voire d'anasarque) par baisse diffuse de la pression oncotique et rétention hydrosodée rénale."
+    },
+
+    // Q71 — UE5-LF-OED-04 — QCM 4 : Physiopathologie et forces de Starling
+    {
+        "id": "UE5-LF-OED-04",
+        "text": "Concernant les mécanismes physiopathologiques régissant la formation des œdèmes généralisés, quelle(s) est/sont la/les proposition(s) exacte(s) ?",
+        "options": {
+            "A": "L'œdème devient cliniquement décelable lorsque le gain de poids lié à l'eau atteint +3 à 5 % du poids du corps.",
+            "B": "Une augmentation de la pression hydrostatique capillaire favorise la filtration d'eau vers le secteur interstitiel.",
+            "C": "Une baisse de la pression oncotique intracapillaire diminue le gradient favorisant la sortie d'eau.",
+            "D": "La constitution d'œdèmes généralisés requiert à la fois une altération de l'hémodynamique capillaire et une rétention hydrosodée rénale.",
+            "E": "Le terme « anasarque » définit un œdème généralisé associé à un épanchement liquidien dans les trois séreuses (plèvre, péricarde, péritoine)."
+        },
+        "correctAnswers": ["A", "B", "D", "E"],
+        "explanation": "A, B, D et E ✅ VRAIS :\n- A : Une rétention hydrosodée d'au moins 2 à 4 litres (soit une prise de poids de 3 à 5 %) est nécessaire avant que les œdèmes ne deviennent visibles ou ne prennent le godet à l'examen clinique.\n- B : Selon l'équation des forces de Starling, la pression hydrostatique intracapillaire (Pc) constitue la force motrice principale poussant le fluide vers l'interstitium.\n- D : Deux conditions indispensables doivent être réunies : 1) une anomalie locale des forces de Starling (augmentation de Pc ou baisse de Pi_c) permettant la fuite capillaire, et 2) une rétention active de sodium et d'eau par le rein pour entretenir et amplifier l'expansion du compartiment extracellulaire.\n- E : L'anasarque représente l'extrême de la surcharge interstitielle, combinant des œdèmes sous-cutanés massifs et des épanchements des séreuses (ascite, pleurésie transsudative, épanchement péricardique).\nC ❌ FAUX : La pression oncotique intracapillaire (exercée par les protéines et l'albumine) est la force qui retient l'eau dans le vaisseau. Sa diminution (hypoalbuminémie < 30 g/L) AUGMENTE au contraire la filtration nette et favorise puissamment la sortie d'eau vers l'interstitium."
+    },
+
+    // Q72 — UE5-LF-OED-05 — QCM 5 : Hypovolémie vraie versus Hypovolémie relative
+    {
+        "id": "UE5-LF-OED-05",
+        "text": "Concernant la physiopathologie de la volémie et des états d'hydratation, quelle(s) est/sont la/les proposition(s) exacte(s) ?",
+        "options": {
+            "A": "L'hypovolémie vraie s'accompagne toujours d'une réduction simultanée du volume interstitiel et du volume plasmatique.",
+            "B": "L'hypovolémie relative (ou efficace) se caractérise par un volume extracellulaire total diminué.",
+            "C": "L'activation du système rénine-angiotensine-aldostérone (SRAA) n'intervient que dans l'hypovolémie vraie.",
+            "D": "L'insuffisance cardiaque, la cirrhose hépatique et le syndrome néphrotique sont les trois grandes causes d'hypovolémie relative.",
+            "E": "Dans la cirrhose hépatique, l'hypovolémie relative résulte d'une vasodilatation splanchnique médiée notamment par le monoxyde d'azote (NO)."
+        },
+        "correctAnswers": ["A", "D", "E"],
+        "explanation": "A, D et E ✅ VRAIS :\n- A : L'hypovolémie vraie (déshydratation extracellulaire) est due à une perte nette externe de sodium et d'eau (digestive, rénale ou cutanée) : les compartiments plasmatique et interstitiel diminuent de concert (hypotension + pli cutané).\n- D : Ces 3 grandes pathologies partagent une baisse du volume circulant efficace artériel perçu par les barorécepteurs, malgré une surcharge hydrosodée interstitielle globale.\n- E : L'hypertension portale entraîne une libération locale massive de monoxyde d'azote (NO), induisant une vasodilatation splanchnique majeure qui séquestre le volume sanguin et effondre le volume artériel efficace.\nB et C ❌ FAUX :\n- B : Dans l'hypovolémie relative, le volume extracellulaire TOTAL est au contraire AUGMENTÉ (excès d'eau et de sel dans l'interstitium avec œdèmes et prise de poids), mais le volume circulant efficace artériel (VCE) est diminué.\n- C : Le SRAA, le système sympathique et l'ADH sont activés dès que les barorécepteurs à haute pression perçoivent une baisse du VCE, que ce soit par hypovolémie vraie (pertes) OU par hypovolémie relative (insuffisance cardiaque, cirrhose, néphrotique)."
+    },
+
+    // Q73 — UE5-LF-OED-06 — QCM 6 : Marqueurs cliniques et biologiques des compartiments
+    {
+        "id": "UE5-LF-OED-06",
+        "text": "Concernant l'évaluation clinique et biologique des compartiments liquidiens de l'organisme, quelle(s) est/sont la/les proposition(s) exacte(s) ?",
+        "options": {
+            "A": "La natrémie est le reflet direct et exclusif du volume extracellulaire.",
+            "B": "Une hyponatrémie traduit une hyperhydratation intracellulaire.",
+            "C": "La présence d'un pli cutané est le témoin d'une baisse du volume interstitiel.",
+            "D": "Une hypotension artérielle associée à une tachycardie réflexe traduit une diminution du secteur plasmatique.",
+            "E": "L'œdème aigu du poumon (OAP) et l'hypertension artérielle traduisent une surcharge du secteur intracellulaire."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B, C et D ✅ VRAIS :\n- B : La natrémie reflète l'osmolalité plasmatique efficace. Une hyponatrémie ([Na+] < 135 mmol/L) signe une hypo-osmolalité entraînant un mouvement d'eau vers les cellules (gonflement cellulaire = hyperhydratation intracellulaire).\n- C : L'affaissement de la matrice du tissu sous-cutané par déplétion du liquide interstitiel est responsable du signe du pli cutané persistant.\n- D : L'hypotension artérielle (notamment orthostatique) et la tachycardie compensatrice sont les signes cliniques majeurs de l'hypovolémie plasmatique intravasculaire.\nA et E ❌ FAUX :\n- A : La natrémie n'indique JAMAIS le volume extracellulaire ; elle reflète l'état d'hydratation INTRACELLULAIRE (balance de l'eau libre). L'évaluation du volume extracellulaire est PUREMENT CLINIQUE (poids, PA, œdèmes, turgescence jugulaire, pli cutané).\n- E : L'HTA et l'OAP sont des signes de surcharge du secteur PLASMATIQUE / EXTRACELLULAIRE (hyperpression hydrostatique capillaire pulmonaire), sans lien avec le secteur intracellulaire."
+    },
+
+    // -------------------------------------------------------------------------
+    // PARTIE 2 : CAS CLINIQUES DU COURS TRANSFORMÉS EN QCM D'ANNALES
+    // -------------------------------------------------------------------------
+
+    // Q74 — UE5-LF-OED-07 — Cas Clinique n°1 : Déshydratation extracellulaire pure
+    {
+        "id": "UE5-LF-OED-07",
+        "text": "[Cas Clinique 1] Monsieur P., 65 ans, consulte pour des diarrhées aiguës profuses évoluant depuis 5 jours. Il a perdu 3 kg. À l'examen clinique : TA = 95/55 mmHg, FC = 95 bpm, absence d'œdèmes des membres inférieurs, absence de turgescence jugulaire, présence d'un pli cutané franc. Bilan biologique : Natrémie = 140 mmol/L, Kaliémie = 4,6 mmol/L, Chlorémie = 105 mmol/L, Glycémie = 6 mmol/L.\n\nQuelle(s) est/sont la/les proposition(s) exacte(s) concernant l'état hydro-électrolytique et la prise en charge de ce patient ?",
+        "options": {
+            "A": "Le secteur intracellulaire est diminué.",
+            "B": "Le secteur interstitiel est diminué.",
+            "C": "Le secteur plasmatique est diminué, définissant une hypovolémie vraie.",
+            "D": "Une restriction hydrique doit être prescrite immédiatement.",
+            "E": "La prise en charge repose sur un remplissage vasculaire par du soluté salé isotonique (NaCl 0,9 %)."
+        },
+        "correctAnswers": ["B", "C", "E"],
+        "explanation": "B, C et E ✅ VRAIS :\n- B : Le pli cutané franc et la perte de poids de 3 kg témoignent d'une déplétion nette du compartiment interstitiel.\n- C : L'hypotension artérielle (95/55 mmHg) et la tachycardie signent l'hypovolémie plasmatique. La baisse conjointe des compartiments interstitiel et plasmatique avec natrémie normale définit la déshydratation extracellulaire pure (hypovolémie vraie par pertes digestives iso-osmotiques).\n- E : Le traitement étiopathogénique de l'hypovolémie vraie consiste en un apport de sodium et d'eau en proportions iso-osmotiques par soluté salé isotonique (NaCl 0,9 %).\nA et D ❌ FAUX :\n- A : La natrémie est strictement normale à 140 mmol/L : l'osmolalité plasmatique est respectée et le secteur intracellulaire est rigoureusement normal.\n- D : Il n'y a aucune hyperhydratation intracellulaire ; la restriction hydrique est formellement contre-indiquée car elle aggraverait le déficit volémique global."
+    },
+
+    // Q75 — UE5-LF-OED-08 — Cas Clinique n°2 : Insuffisance cardiaque & hypovolémie relative
+    {
+        "id": "UE5-LF-OED-08",
+        "text": "[Cas Clinique 2] Madame X., 60 ans, consulte pour une dyspnée d'effort d'aggravation progressive (stade NYHA III). À l'examen clinique : TA = 80/65 mmHg, FC = 80 bpm. Présence d'œdèmes des membres inférieurs bilatéraux prenant le godet et d'un reflux hépato-jugulaire franc. Il n'y a pas de pli cutané. Bilan biologique : Natrémie = 138 mmol/L, Kaliémie = 4,2 mmol/L, Glycémie = 5 mmol/L.\n\nQuelle(s) est/sont la/les proposition(s) exacte(s) ?",
+        "options": {
+            "A": "Le secteur intracellulaire est augmenté du fait de la présence des œdèmes.",
+            "B": "Le secteur interstitiel est augmenté.",
+            "C": "La patiente présente un état d'hypovolémie relative (ou efficace).",
+            "D": "Le traitement indiqué comprend une restriction sodée (2 à 4 g/jour de NaCl) associée à un diurétique de l'anse.",
+            "E": "L'objectif thérapeutique de perte de poids sous diurétiques est d'au moins 3 kg par jour."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B, C et D ✅ VRAIS :\n- B : Les œdèmes des membres inférieurs bilatéraux prenant le godet traduisent l'expansion hydrique pathologique du secteur interstitiel.\n- C : La pression artérielle est basse (80/65 mmHg) car le débit cardiaque systolique est effondré : bien que le capital hydrosodé global soit augmenté dans l'interstitium, le volume artériel circulant perçu par le rein est insuffisant, réalisant une hypovolémie relative typique de l'insuffisance cardiaque congestive.\n- D : Le traitement vise à freiner la rétention hydrosodée par une restriction sodée modérée (2-4 g/j de NaCl) et l'élimination de la surcharge par un diurétique de l'anse (furosémide).\nA et E ❌ FAUX :\n- A : La natrémie est normale (138 mmol/L) : le secteur intracellulaire est normal. Les œdèmes siègent dans le secteur extracellulaire.\n- E : Une déplétion trop brutale risque de précipiter un collapsus cardiovasculaire et une insuffisance rénale aiguë fonctionnelle : l'objectif de perte de poids sous diurétiques ne doit pas dépasser 1 kg par jour (ou 0,5 à 1 kg/j)."
+    },
+
+    // Q76 — UE5-LF-OED-09 — Cas Clinique n°3 : Cirrhose décompensée, ascite & hyponatrémie
+    {
+        "id": "UE5-LF-OED-09",
+        "text": "[Cas Clinique 3] Madame T., 58 ans, est suivie pour une cirrhose hépatique d'origine alcoolique au stade de décompensation avec ascite volumineuse et tendue. À l'examen clinique : TA = 90/50 mmHg, FC = 105 bpm, pas d'œdème périphérique franc des membres inférieurs. Bilan biologique : Natrémie = 133 mmol/L, Kaliémie = 4,5 mmol/L, Glycémie = 4 mmol/L.\n\nQuelle(s) est/sont la/les proposition(s) exacte(s) ?",
+        "options": {
+            "A": "Le secteur intracellulaire est augmenté.",
+            "B": "L'ascite correspond à une accumulation de fluide au sein du secteur interstitiel péritonéal.",
+            "C": "La patiente est en hypovolémie vraie par fuite de sodium.",
+            "D": "Une restriction hydrique est indiquée pour corriger l'hyponatrémie de dilution.",
+            "E": "Le traitement doit associer une restriction sodée (2 à 4 g/j) et un diurétique."
+        },
+        "correctAnswers": ["A", "B", "D", "E"],
+        "explanation": "A, B, D et E ✅ VRAIS :\n- A : La natrémie est abaissée à 133 mmol/L (< 135 mmol/L) : cette hypo-osmolalité plasmatique crée un appel d'eau osmotique vers les cellules, caractérisant une hyperhydratation intracellulaire (secteur IC augmenté).\n- B : L'ascite représente l'expansion massive du liquide interstitiel de la cavité péritonéale (troisième secteur péritonéal).\n- D : L'hyponatrémie résulte d'une rétention d'eau libre supérieure à la rétention de sodium (sécrétion non osmotique d'ADH induite par l'hypovolémie efficace) : elle justifie une restriction des apports liquidiens (restriction hydrique, ex : 500 à 1000 mL/j).\n- E : Pour réduire la surcharge hydrosodée globale et l'ascite, la prise en charge associe une restriction sodée (2 à 4 g de NaCl/j) et un traitement diurétique (spironolactone ± furosémide).\nC ❌ FAUX : Il s'agit d'une hypovolémie relative (vasodilatation splanchnique et séquestration veineuse portale) avec capital sodé et hydrique total fortement augmenté dans l'organisme."
+    },
+
+    // Q77 — UE5-LF-OED-10 — Cas Clinique n°4 : Syndrome néphrotique & anasarque
+    {
+        "id": "UE5-LF-OED-10",
+        "text": "[Cas Clinique 4] Madame B., 46 ans, présente une prise de poids rapide avec œdèmes diffus généralisés et anasarque. Données cliniques et paracliniques : Albuminémie = 15 g/L, Albuminurie = 600 mg/mmol de créatininurie, TA = 100/60 mmHg, FC = 92 bpm, pas de pli cutané, Natrémie = 137 mmol/L, Glycémie = 4 mmol/L.\n\nQuelle(s) est/sont la/les proposition(s) exacte(s) ?",
+        "options": {
+            "A": "Le tableau biologique signe un syndrome néphrotique.",
+            "B": "La fuite d'eau vers le secteur interstitiel est expliquée par un effondrement de la pression oncotique intravasculaire.",
+            "C": "Le secteur intracellulaire de cette patiente est effondré.",
+            "D": "Le profil correspond à une hypovolémie relative avec secteur interstitiel augmenté et secteur plasmatique diminué.",
+            "E": "Une restriction sodée associée à une prescription de furosémide est recommandée."
+        },
+        "correctAnswers": ["A", "B", "D", "E"],
+        "explanation": "A, B, D et E ✅ VRAIS :\n- A : L'association d'une protéinurie massive (> 300 mg/mmol ou > 3 g/24h) et d'une hypoalbuminémie profonde < 30 g/L (ici 15 g/L) définit biologiquement le syndrome néphrotique.\n- B : La chute drastique de l'albuminémie effondre la pression oncotique intracapillaire, ce qui déséquilibre les forces de Starling et provoque une extravasation massive d'eau et de sodium vers le tissu interstitiel.\n- D : La fuite liquidienne hors des vaisseaux vide le secteur plasmatique (hypovolémie efficace avec tendance à l'hypotension) tout en inondant l'interstitium (anasarque), réalisant le profil d'hypovolémie relative.\n- E : Le traitement symptomatique de la rétention hydrosodée repose sur la restriction sodée (2-4 g/j) et les diurétiques de l'anse (furosémide) pour forcer la natriurèse.\nC ❌ FAUX : La natrémie est normale (137 mmol/L), ce qui atteste d'une osmolalité plasmatique conservée et d'un secteur intracellulaire strictement normal."
+    },
+
+    // Q78 — UE5-LF-OED-11 — Cas Clinique n°5 : Déshydratation globale caniculaire du sujet âgé
+    {
+        "id": "UE5-LF-OED-11",
+        "text": "[Cas Clinique 5] Monsieur C., 80 ans, est hospitalisé pour des troubles cognitifs aigus dans un contexte de canicule estivale prolongée. Examen clinique : TA = 95/60 mmHg, FC = 110 bpm, pas d'œdème périphérique, présence d'un pli cutané franc. Biologie : Natrémie = 158 mmol/L, osmolalité plasmatique calculée très augmentée.\n\nConcernant la situation de Monsieur C., quelle(s) est/sont la/les proposition(s) exacte(s) ?",
+        "options": {
+            "A": "Le patient présente une déshydratation intracellulaire isolée.",
+            "B": "Le secteur intracellulaire est diminué en raison de l'hypernatrémie majeure.",
+            "C": "Le patient est en hypovolémie vraie avec diminution conjointe des trois secteurs (intracellulaire, interstitiel et plasmatique).",
+            "D": "Il convient de stimuler la prise de boissons orales et/ou de perfuser du soluté glucosé à 5 % (G5 %).",
+            "E": "Une perfusion de soluté hypotonique à 0,45 % de NaCl constitue une alternative thérapeutique adaptée."
+        },
+        "correctAnswers": ["B", "C", "D", "E"],
+        "explanation": "B, C, D et E ✅ VRAIS :\n- B : L'hypernatrémie sévère à 158 mmol/L crée une hyperosmolarité extracellulaire majeure, attirant l'eau hors des cellules et provoquant une déshydratation intracellulaire (rétraction neuronale responsable des troubles cognitifs).\n- C : Le pli cutané (secteur interstitiel diminué) associé à l'hypotension et la tachycardie (secteur plasmatique diminué) prouve qu'il existe une déshydratation extracellulaire (hypovolémie vraie). Avec le déficit intracellulaire, les 3 compartiments sont tous diminués : c'est une déshydratation globale (mixte).\n- D : L'apport d'eau libre hypotonique (boisson si conscient, ou perfusion de sérum glucosé à 5 % sans sodium) est essentiel pour corriger le déficit intracellulaire et réduire progressivement l'hypernatrémie.\n- E : Le soluté salé demi-isotonique (NaCl 0,45 %) apporte simultanément du sel pour remplir le compartiment extracellulaire et 50 % d'eau libre pour réhydrater les cellules.\nA ❌ FAUX : La présence du pli cutané, de l'hypotension et de la tachycardie élimine formellement le caractère isolé de la déshydratation intracellulaire."
+    },
+
+    // Q79 — UE5-LF-OED-12 — Cas Clinique n°6 : Hypovolémie vraie & hyperhydratation intracellulaire
+    {
+        "id": "UE5-LF-OED-12",
+        "text": "[Cas Clinique 6] Monsieur P., 66 ans, présente des diarrhées profuses depuis 5 jours et a perdu 3 kg. Examen clinique : TA = 95/55 mmHg, FC = 95 bpm, présence d'un pli cutané, pas d'œdème périphérique. Bilan biologique : Natrémie = 130 mmol/L, Kaliémie = 4,6 mmol/L, Glycémie = 6 mmol/L.\n\nQuelle(s) est/sont la/les proposition(s) exacte(s) ?",
+        "options": {
+            "A": "Le secteur intracellulaire est augmenté.",
+            "B": "Le secteur interstitiel est diminué.",
+            "C": "Le patient présente un état d'hypovolémie vraie.",
+            "D": "Le traitement doit comporter une restriction hydrique pour traiter l'hyponatrémie.",
+            "E": "Une expansion volémique par perfusion de NaCl 0,9 % est indiquée en première intention pour restaurer le secteur extracellulaire."
+        },
+        "correctAnswers": ["A", "B", "C", "D", "E"],
+        "explanation": "A, B, C, D et E ✅ TOUTES VRAIES :\n- A : L'hyponatrémie à 130 mmol/L correspond à une hypo-osmolalité plasmatique, responsable d'un transfert osmotique d'eau libre vers les cellules : le secteur intracellulaire est donc augmenté (hyperhydratation intracellulaire).\n- B : Le pli cutané et la perte de poids attestent de la déplétion du secteur interstitiel.\n- C : Les pertes digestives ont déplété à la fois le secteur interstitiel et le secteur plasmatique (hypotension, tachycardie), réalisant une déshydratation extracellulaire (hypovolémie vraie).\n- D : Face à une hyponatrémie de dilution (excès d'eau libre par rapport au sodium dans les cellules), la restriction des apports en eau pure (restriction hydrique) est requise.\n- E : La réexpansion du volume extracellulaire par du NaCl à 0,9 % (isotonique, apportant du sodium) traite l'hypovolémie vraie sans aggraver l'hypo-osmolarité plasmatique."
     }
 
 ];
 
 window.ALL_QCM_DATA["UE5"] = window.DATA_UE5;
+
+

@@ -683,6 +683,414 @@ window.DATA_UE2 = [
         "explanation": "B ✅ VRAI : La scintigraphie des parathyroïdes utilise classiquement le ⁹⁹ᵐTc-MIBI (méthoxy-isobutyl-isonitrile). Ce traceur est capté préférentiellement par les cellules à haute activité mitochondriale, comme les adénomes parathyroïdiens hyperfonctionnels. La scintigraphie parathyroïdienne (souvent couplée à un scanner 4D) permet de localiser un adénome avant chirurgie.\\nA ❌ FAUX : L'iode 123 est utilisé pour explorer la thyroïde (scintigraphie thyroïdienne) — pas les parathyroïdes.\\nC ❌ FAUX : Le ¹⁸F-FDG est le traceur de référence en oncologie TEP pour détecter les tumeurs hypermétaboliques — pas pour l'exploration parathyroïdienne standard.\\nD ❌ FAUX : L'Yttrium 90 est un émetteur bêta- pur utilisé en radiothérapie interne vectorisée (radioembolisation hépatique, radiosynoviorthèse) — pas en imagerie diagnostique."
     }
 
+,
+
+    // ============================================================
+    // QCM IA — REVEL Cédric
+    // Introduction au traitement de l'imagerie médicale
+    // (20 QCMs : indices CR-23 à CR-42)
+    // ============================================================
+
+    // --- I. Détection et formation du signal ---
+
+    // Q46
+    {
+        "id": "UE2-CR-23",
+        "text": "En imagerie TEP, qu'est-ce qui est à l'origine de l'erreur de parallaxe ?",
+        "options": {
+            "A": "Le mouvement respiratoire du patient pendant l'acquisition de l'image.",
+            "B": "Le fait que le photon traverse plusieurs cristaux en biais lorsqu'il s'éloigne du centre du champ de vue.",
+            "C": "L'atténuation du signal par les structures osseuses denses du patient.",
+            "D": "Un défaut d'étalonnage du cristal piézoélectrique."
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : Selon le cours, si un photon provient du centre du FOV, la ligne de réponse (LOR) est bien localisée. Mais plus la source s'éloigne du centre, plus le photon a de chances de frapper les cristaux avec un angle, traversant plusieurs cristaux avant de s'arrêter. Cela décale le signal et fausse le calcul de la ligne de réponse, créant une erreur de parallaxe.\\\\nA ❌ FAUX : Le mouvement respiratoire génère un artefact de flou cinétique, mais n'est pas à l'origine de l'erreur de parallaxe.\\\\nC ❌ FAUX : L'atténuation par les structures osseuses est un phénomène distinct, corrigé séparément via le CT de correction d'atténuation.\\\\nD ❌ FAUX : Le cristal piézoélectrique est propre à l'échographie (effet piézoélectrique) — il n'a aucun rôle dans la TEP."
+    },
+
+    // Q47
+    {
+        "id": "UE2-CR-24",
+        "text": "Quel est le principal avantage d'un TEP avec un champ de vue (FOV) axial élargi (ex : 106 cm) par rapport à un TEP classique (ex : 16 cm) ?",
+        "options": {
+            "A": "Il permet de réduire la résolution spatiale pour améliorer le contraste.",
+            "B": "Il permet de réaliser l'examen en supprimant l'utilisation de produits radioactifs.",
+            "C": "Il permet de couvrir l'ensemble du corps en une seule acquisition et de collecter davantage de signal.",
+            "D": "Il élimine totalement l'apparition du bruit de speckle."
+        },
+        "correctAnswers": ["C"],
+        "explanation": "C ✅ VRAI : Les TEP traditionnels de 16 cm nécessitent plusieurs « pas » successifs pour couvrir le corps entier. Un FOV de 106 cm permet une acquisition unique du corps entier et collecte beaucoup plus de signal simultanément, améliorant la sensibilité et réduisant le temps d'examen.\\\\nA ❌ FAUX : Un FOV élargi n'implique pas de réduction de la résolution spatiale ; l'objectif est au contraire d'améliorer la sensibilité de détection.\\\\nB ❌ FAUX : Un TEP, quel que soit son FOV, nécessite impérativement l'injection d'un radiotraceur — c'est le principe même de la technique.\\\\nD ❌ FAUX : Le bruit de speckle est un artefact propre à l'échographie (ondes ultrasonores) — il est sans rapport avec la TEP."
+    },
+
+    // Q48
+    {
+        "id": "UE2-CR-25",
+        "text": "Que décrit exactement la Fonction d'Étalement du Point (PSF) ?",
+        "options": {
+            "A": "La probabilité d'erreur de diagnostic par l'algorithme d'intelligence artificielle.",
+            "B": "La réponse d'un système d'imagerie face à un point source ou un point objet.",
+            "C": "La fréquence d'émission des ultrasons par une sonde échographique.",
+            "D": "Le temps de demi-vie du produit radiopharmaceutique."
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : La PSF (Point Spread Function) décrit comment un système va « étaler » et déformer un point lumineux parfait. Connaître cette fonction permet d'appliquer une correction géométrique pour retrouver la forme originale de l'objet.\\\\nA ❌ FAUX : La PSF est un concept physique caractérisant le système optique ou détecteur — elle n'est pas liée à la probabilité d'erreur algorithmique.\\\\nC ❌ FAUX : La fréquence d'émission des ultrasons caractérise la sonde échographique, pas la PSF d'un imageur nucléaire ou radiologique.\\\\nD ❌ FAUX : Le temps de demi-vie est une propriété du radionucléide (combien de temps la moitié des noyaux se désintègrent), sans lien avec la PSF."
+    },
+
+    // Q49
+    {
+        "id": "UE2-CR-26",
+        "text": "Sur la courbe de la fonction de dispersion linéique, que représente la FWHM (Largeur à mi-hauteur) ?",
+        "options": {
+            "A": "Le contraste global de l'image.",
+            "B": "La distance maximale de pénétration des ultrasons dans le corps.",
+            "C": "La mesure de l'amplitude de la fonction, qui définit la résolution du système.",
+            "D": "La quantité de rayonnement absorbée par le patient."
+        },
+        "correctAnswers": ["C"],
+        "explanation": "C ✅ VRAI : La FWHM (Full Width at Half Maximum) se mesure à la moitié du maximum du pic du signal. Plus cette largeur est fine, plus le système est capable de séparer deux points proches (meilleure résolution spatiale). Elle est l'indicateur standard de la résolution en imagerie médicale.\\\\nA ❌ FAUX : Le contraste est défini par la différence de signal entre deux régions — c'est une notion distincte de la résolution spatiale quantifiée par la FWHM.\\\\nB ❌ FAUX : La pénétration des ultrasons dans le corps est liée à leur fréquence et aux propriétés des tissus — ce n'est pas ce que mesure la FWHM.\\\\nD ❌ FAUX : La quantité de rayonnement absorbée est la dose (en Gray ou Sievert) — sans rapport avec la FWHM."
+    },
+
+    // Q50
+    {
+        "id": "UE2-CR-27",
+        "text": "En traitement du signal, si l'image est le résultat de l'objet convoluté par la fonction de transfert du système, quelle opération permet de retrouver la netteté de l'objet initial ?",
+        "options": {
+            "A": "La rétroprojection simple.",
+            "B": "La quantification.",
+            "C": "L'échantillonnage de Shannon.",
+            "D": "La déconvolution."
+        },
+        "correctAnswers": ["D"],
+        "explanation": "D ✅ VRAI : Le système dégrade le signal (convolution). Si l'on connaît la fonction de transfert (comme la PSF), on peut effectuer l'opération mathématique inverse, appelée déconvolution, pour « désétaler » le point et améliorer la résolution de l'image.\\\\nA ❌ FAUX : La rétroprojection simple est un algorithme de reconstruction tomographique — elle ne corrige pas l'étalement dû à la PSF.\\\\nB ❌ FAUX : La quantification est l'opération qui discrétise un signal continu en niveaux discrets — elle ne restaure pas la résolution d'une image convoluée.\\\\nC ❌ FAUX : L'échantillonnage de Shannon concerne la fréquence d'acquisition nécessaire pour éviter le repliement de spectre — il s'agit d'une condition sur la grille d'acquisition, pas d'une correction de convolution."
+    },
+
+    // --- II. Reconstruction d'image ---
+
+    // Q51
+    {
+        "id": "UE2-CR-28",
+        "text": "Dans la reconstruction par rétroprojection, qu'appelle-t-on un « sinogramme » ?",
+        "options": {
+            "A": "L'ensemble des lignes de projection acquises sous tous les angles pour une même coupe.",
+            "B": "Le graphique illustrant la fréquence cardiaque du patient pendant l'examen.",
+            "C": "L'image finale en 3D après application des filtres de Fourier.",
+            "D": "Le spectre des fréquences sonores en échographie Doppler."
+        },
+        "correctAnswers": ["A"],
+        "explanation": "A ✅ VRAI : Le scanner tourne autour du patient et acquiert des lignes de projection à chaque angle. L'empilement de toutes ces projections pour une coupe donnée forme une image intermédiaire appelée sinogramme, dont la forme sinusoïdale caractéristique a donné son nom.\\\\nB ❌ FAUX : La fréquence cardiaque est suivie par un moniteur ECG — elle n'a aucun rapport avec le sinogramme.\\\\nC ❌ FAUX : L'image 3D après reconstruction est le résultat final obtenu après traitement du sinogramme — ce n'est pas le sinogramme lui-même.\\\\nD ❌ FAUX : L'échographie Doppler analyse les décalages de fréquence des ultrasons pour mesurer des flux sanguins — le concept de sinogramme est propre à la tomographie par rayons gamma ou X."
+    },
+
+    // Q52
+    {
+        "id": "UE2-CR-29",
+        "text": "Lors d'une rétroprojection simple, que se passe-t-il si le nombre d'angles de projection est trop faible ?",
+        "options": {
+            "A": "L'image devient totalement noire (hypoéchogène).",
+            "B": "Il apparaît un artefact géométrique d'épandage en étoile.",
+            "C": "L'image subit une hallucination algorithmique systématique.",
+            "D": "La résolution s'améliore mais le temps de calcul augmente."
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : La rétroprojection simple étale les densités mesurées dans la direction de chaque projection. S'il n'y a pas assez de projections (ex : 3 ou 4 angles), les bandes se croisent en formant un motif d'étoile très visible — c'est l'artefact d'épandage en étoile (star artifact).\\\\nA ❌ FAUX : Une image noire signifierait une absence totale de signal — la rétroprojection avec peu d'angles donne au contraire une image floue et étoilée, pas noire.\\\\nC ❌ FAUX : Les hallucinations algorithmiques sont propres aux réseaux de neurones profonds (Deep Learning) — la rétroprojection est un algorithme déterministe sans apprentissage.\\\\nD ❌ FAUX : Un plus grand nombre d'angles améliore la qualité de l'image mais ralentit le calcul — l'inverse est vrai (moins d'angles = plus rapide mais moins bon)."
+    },
+
+    // Q53
+    {
+        "id": "UE2-CR-30",
+        "text": "Dans l'espace de Fourier, à quoi correspondent les « hautes fréquences spatiales » ?",
+        "options": {
+            "A": "Aux grandes structures largement séparées (qui portent le contraste global).",
+            "B": "Au bruit de fond lié aux ondes radio.",
+            "C": "Aux petites structures rapprochées (qui portent les détails fins).",
+            "D": "Aux mouvements lents du patient."
+        },
+        "correctAnswers": ["C"],
+        "explanation": "C ✅ VRAI : Dans le domaine fréquentiel, les hautes fréquences définissent les détails fins et les bords nets (structures petites et proches). Les basses fréquences portent les grandes masses et le contraste global. Amplifier les hautes fréquences améliore la résolution mais aussi le bruit.\\\\nA ❌ FAUX : Les grandes structures largement séparées correspondent aux basses fréquences spatiales dans l'espace de Fourier.\\\\nB ❌ FAUX : Les ondes radio sont une notion propre aux champs électromagnétiques de radiofréquence (IRM) — les fréquences spatiales de Fourier sont un concept mathématique distinct.\\\\nD ❌ FAUX : Les mouvements du patient introduisent des artefacts temporels (flou cinétique) — cela est distinct des fréquences spatiales de l'image."
+    },
+
+    // Q54
+    {
+        "id": "UE2-CR-31",
+        "text": "Quel est le grand avantage de la reconstruction itérative par rapport à la rétroprojection filtrée historique ?",
+        "options": {
+            "A": "Elle est beaucoup plus rapide et ne nécessite aucun calcul informatique lourd.",
+            "B": "Elle permet d'intégrer des modèles physiques comme l'atténuation, la diffusion et la réponse du détecteur.",
+            "C": "Elle se passe totalement de l'étape du sinogramme.",
+            "D": "Elle divise par dix la dose de rayonnements délivrée au patient."
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : La méthode itérative modélise le problème sous forme d'un immense système d'équations (matrice). Son atout majeur est de pouvoir inclure dans la formule de projection des corrections physiques précises : diffusion, atténuation, réponse du détecteur (PSF) — ce que la rétroprojection filtrée classique ne peut pas intégrer.\\\\nA ❌ FAUX : C'est l'inverse : la reconstruction itérative est bien plus lourde en calcul et nécessite de nombreuses itérations ; la rétroprojection filtrée est l'approche rapide historique.\\\\nC ❌ FAUX : La reconstruction itérative peut également utiliser le sinogramme comme données d'entrée ; elle ne supprime pas cette étape.\\\\nD ❌ FAUX : La reconstruction itérative améliore la qualité de l'image à dose fixe, mais elle n'agit pas directement sur la dose d'irradiation délivrée au patient."
+    },
+
+    // Q55
+    {
+        "id": "UE2-CR-32",
+        "text": "Que désigne le terme « subsets » (sous-ensembles) dans la méthode de reconstruction itérative ?",
+        "options": {
+            "A": "Le découpage du corps du patient en plusieurs zones anatomiques.",
+            "B": "Le regroupement des projections en petits paquets traités en parallèle pour accélérer les calculs.",
+            "C": "L'élimination des pixels inutiles dans les coins de l'image.",
+            "D": "Le filtrage exclusif des basses fréquences spatiales."
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : Face aux millions d'équations à résoudre, les algorithmes itératifs (comme l'OSEM — Ordered Subset Expectation Maximization) divisent les projections en sous-ensembles (subsets) pour itérer plus rapidement. Chaque subset permet une mise à jour partielle, accélérant considérablement la convergence.\\\\nA ❌ FAUX : Le découpage anatomique du corps est une opération de segmentation d'image — ce n'est pas le sens de « subsets » en reconstruction itérative.\\\\nC ❌ FAUX : L'élimination de pixels de coins relève du masquage ou du recadrage d'image — sans rapport avec la notion de subsets algorithmiques.\\\\nD ❌ FAUX : Le filtrage des fréquences spatiales est propre à la rétroprojection filtrée (filtre de Fourier) — les subsets sont un concept d'optimisation algorithmique itératif."
+    },
+
+    // --- III. Analyse critique et notions générales ---
+
+    // Q56
+    {
+        "id": "UE2-CR-33",
+        "text": "Quel biais méthodologique le professeur souligne-t-il dans la publicité pour le TEP « ultra haute résolution » ?",
+        "options": {
+            "A": "La publicité compare l'imagerie TEP à l'échographie, ce qui n'a pas de sens.",
+            "B": "La publicité utilise des patients virtuels générés par IA.",
+            "C": "Elle compare une rétroprojection simple obsolète à une reconstruction itérative moderne incluant la PSF.",
+            "D": "Elle modifie l'échelle de l'image pour faire paraître le FOV plus grand."
+        },
+        "correctAnswers": ["C"],
+        "explanation": "C ✅ VRAI : La comparaison est biaisée car elle ne compare pas deux machines à algorithme équivalent (itératif vs itératif + PSF), mais elle compare l'ancienne technique sans itération ni correction matérielle à la nouvelle technique complète. Cela exagère artificiellement le bénéfice de la seule option PSF et constitue un biais de comparaison délibéré.\\\\nA ❌ FAUX : La publicité ne compare pas la TEP à l'échographie — elle compare deux reconstructions TEP différentes.\\\\nB ❌ FAUX : Le cours ne mentionne pas l'utilisation de patients virtuels générés par IA dans cette publicité.\\\\nD ❌ FAUX : La manipulation de l'échelle n'est pas le biais identifié — c'est bien la comparaison inégale des algorithmes de reconstruction qui est soulevée."
+    },
+
+    // Q57
+    {
+        "id": "UE2-CR-34",
+        "text": "En oncologie, si une lésion mesure 1 mm et que la résolution du système (ex : iode 131) est de 1,5 cm, que verra le médecin sur l'image ?",
+        "options": {
+            "A": "L'image sera parfaite car la détectabilité compense la résolution.",
+            "B": "La lésion sera totalement invisible car elle est plus petite que la résolution.",
+            "C": "Une tache diffuse d'environ 1,5 à 2 cm, indiquant que la lésion est détectée mais non résolue.",
+            "D": "Deux lésions distinctes apparaîtront en raison de l'artefact d'épandage."
+        },
+        "correctAnswers": ["C"],
+        "explanation": "C ✅ VRAI : Il ne faut pas confondre résolution spatiale et détectabilité. Une lésion très émettrice mais très petite sera détectée, mais elle « bavera » sur l'image et apparaîtra comme une grosse tache floue correspondant à la résolution limite de la machine. La lésion de 1 mm sera vue comme une tache d'environ 1,5–2 cm avec un imageur iode 131.\\\\nA ❌ FAUX : La détectabilité permet de voir qu'il existe un signal, mais ne restaure pas la résolution — l'image ne sera pas parfaite.\\\\nB ❌ FAUX : La lésion sera détectable si son activité est suffisante — ce qui n'est pas la même chose que d'être résolue spatialement.\\\\nD ❌ FAUX : L'artefact d'épandage en étoile est lié à la rétroprojection avec peu d'angles — il ne crée pas de doublement d'une lésion unique."
+    },
+
+    // Q58
+    {
+        "id": "UE2-CR-35",
+        "text": "Selon le théorème de Shannon appliqué à l'imagerie, quelle condition est nécessaire pour éviter la perte d'information spatiale ?",
+        "options": {
+            "A": "La fréquence d'échantillonnage doit être égale à la fréquence maximale (Fe = Fm).",
+            "B": "La fréquence d'échantillonnage doit être au moins le double de la fréquence maximale (Fe ≥ 2Fm).",
+            "C": "La matrice doit contenir au moins 40 niveaux de gris.",
+            "D": "La largeur à mi-hauteur doit être nulle."
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : Le théorème de Shannon-Nyquist stipule que Fe ≥ 2Fm. Concrètement en imagerie, pour distinguer séparément deux objets (deux points d'activité), il faut qu'il y ait au moins un pixel vide entre les deux sur la matrice d'acquisition, sinon l'information est perdue par repliement de spectre (aliasing).\\\\nA ❌ FAUX : Si Fe = Fm, le théorème de Shannon n'est pas respecté — il faut au moins le double de la fréquence maximale, pas son égal.\\\\nC ❌ FAUX : Le nombre de niveaux de gris concerne la résolution en contraste (quantification), non la résolution spatiale décrite par Shannon.\\\\nD ❌ FAUX : Une FWHM nulle serait un système idéal sans étalement — c'est physiquement impossible, et ce n'est pas la condition de Shannon."
+    },
+
+    // Q59
+    {
+        "id": "UE2-CR-36",
+        "text": "Comment se calcule le contraste C entre une cible (N2) et le tissu adjacent (N1) ?",
+        "options": {
+            "A": "C = (N2 + N1) / 2",
+            "B": "C = N2 / (N1 - N2)",
+            "C": "C = (N2 - N1) / N1",
+            "D": "C = N1 × N2"
+        },
+        "correctAnswers": ["C"],
+        "explanation": "C ✅ VRAI : Le contraste est défini par la différence de signal entre les deux régions, divisée par le signal de la région de référence adjacente : C = (N2 − N1) / N1. Plus le contraste est élevé, plus la cible se distingue facilement du fond.\\\\nA ❌ FAUX : (N2 + N1) / 2 est la moyenne des deux signaux — cela ne mesure pas leur différence relative.\\\\nB ❌ FAUX : N2 / (N1 − N2) n'est pas la formule standard du contraste en imagerie médicale.\\\\nD ❌ FAUX : N1 × N2 est un produit sans signification pour le contraste — il n'y a aucune raison physique de multiplier deux valeurs de signal pour calculer leur différence relative."
+    },
+
+    // Q60
+    {
+        "id": "UE2-CR-37",
+        "text": "Quel est le risque principal soulevé par l'utilisation du Deep Learning pour débruiter des images acquises très rapidement ?",
+        "options": {
+            "A": "La création d'artefacts en étoile impossibles à filtrer.",
+            "B": "L'apparition d'hallucinations algorithmiques créant ou effaçant des lésions médicales.",
+            "C": "La destruction physique des cristaux scintillateurs par surchauffe.",
+            "D": "L'inversion automatique du contraste (le noir devient blanc)."
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : Le réseau de neurones « prédit » l'image nette à partir du bruit. Dans un contexte médical, une erreur de prédiction (hallucination algorithmique) peut générer une image qui a l'air très réaliste mais qui invente une tumeur ou en efface une réelle — ce qui constitue un risque diagnostique majeur.\\\\nA ❌ FAUX : Les artefacts en étoile sont propres à la rétroprojection avec peu d'angles — ce n'est pas le risque spécifique du Deep Learning de débruitage.\\\\nC ❌ FAUX : Les algorithmes d'IA traitent les données numériques a posteriori — ils n'ont aucun effet physique sur les détecteurs ou cristaux.\\\\nD ❌ FAUX : Le Deep Learning ne provoque pas d'inversion automatique du contraste — c'est une crainte non documentée dans ce contexte."
+    },
+
+    // --- IV. Échographie ---
+
+    // Q61
+    {
+        "id": "UE2-CR-38",
+        "text": "Quel phénomène physique est exploité par la céramique PZT située dans la sonde d'échographie ?",
+        "options": {
+            "A": "L'effet Doppler continu.",
+            "B": "Le rayonnement continu de freinage.",
+            "C": "L'effet photoélectrique.",
+            "D": "L'effet piézoélectrique."
+        },
+        "correctAnswers": ["D"],
+        "explanation": "D ✅ VRAI : Les cristaux PZT (Zircono-Titanate de Plomb) se déforment sous l'action d'un champ électrique pour générer des ultrasons (effet piézoélectrique inverse), et créent un courant électrique lorsqu'ils reçoivent l'écho mécanique en retour (effet piézoélectrique direct). Ce double rôle émetteur/récepteur est au cœur du fonctionnement de la sonde.\\\\nA ❌ FAUX : L'effet Doppler est le décalage de fréquence des ultrasons réfléchis par les structures en mouvement — c'est un phénomène observable, pas le mécanisme de génération des ultrasons.\\\\nB ❌ FAUX : Le rayonnement de freinage (Bremsstrahlung) est produit lors du freinage d'électrons rapides par un noyau — c'est le mécanisme de production des rayons X dans un tube radiogène.\\\\nC ❌ FAUX : L'effet photoélectrique correspond à l'éjection d'électrons d'un matériau sous l'action de photons — c'est un mécanisme d'interaction des rayonnements ionisants, pas de génération d'ultrasons."
+    },
+
+    // Q62
+    {
+        "id": "UE2-CR-39",
+        "text": "Pourquoi un échographiste utiliserait-il une sonde basse fréquence (ex : 3 MHz) plutôt qu'une sonde haute fréquence (ex : 12 MHz) ?",
+        "options": {
+            "A": "Pour examiner une structure très superficielle comme la thyroïde.",
+            "B": "Pour obtenir la résolution spatiale la plus fine possible, de l'ordre du dixième de millimètre.",
+            "C": "Pour examiner des structures profondes (abdomen, pelvis) car les basses fréquences pénètrent mieux les tissus.",
+            "D": "Pour éviter l'utilisation de gel acoustique."
+        },
+        "correctAnswers": ["C"],
+        "explanation": "C ✅ VRAI : C'est le compromis fondamental en échographie : les hautes fréquences sont très précises (meilleure résolution spatiale) mais s'atténuent très vite dans les tissus. Les basses fréquences ont une résolution moindre mais voyagent plus profondément dans le corps, ce qui est indispensable pour l'exploration abdominale ou pelvienne.\\\\nA ❌ FAUX : Pour une structure superficielle comme la thyroïde, c'est une sonde haute fréquence (7–15 MHz) qui est utilisée, afin d'obtenir la meilleure résolution spatiale possible sur une faible profondeur.\\\\nB ❌ FAUX : Une résolution spatiale fine est obtenue avec des hautes fréquences, pas des basses fréquences.\\\\nD ❌ FAUX : Le gel acoustique est toujours nécessaire quelle que soit la fréquence de la sonde — son rôle est d'assurer le couplage acoustique en éliminant l'air entre la sonde et la peau."
+    },
+
+    // Q63
+    {
+        "id": "UE2-CR-40",
+        "text": "À l'échographie, comment apparaît un liquide simple (sans particules en suspension) ?",
+        "options": {
+            "A": "Très blanc, avec une ombre acoustique postérieure.",
+            "B": "Noir (anéchogène), car il laisse passer les sons sans renvoyer d'écho.",
+            "C": "Comme une mosaïque de couleurs clignotantes.",
+            "D": "Gris clair homogène."
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : Les liquides simples (comme l'urine dans la vessie, un kyste séreux) ne réfléchissent pas les ultrasons car ils sont homogènes et dépourvus d'interfaces. Il n'y a donc pas d'écho en retour, et l'absence de signal est traduite par la couleur noire sur l'écran (image anéchogène). On observe souvent un renforcement postérieur caractéristique.\\\\nA ❌ FAUX : Une image très blanche (hyperéchogène) avec une ombre acoustique postérieure est typique d'une structure calcifiée (calcul biliaire, calcification) qui réfléchit fortement les ultrasons.\\\\nC ❌ FAUX : Une mosaïque de couleurs en mode Doppler couleur peut indiquer un flux turbulent — ce n'est pas l'apparence d'un liquide simple en mode B.\\\\nD ❌ FAUX : Un gris clair homogène est typique d'un parenchyme comme le foie ou la rate — les liquides simples sont noirs (anéchogènes), pas gris."
+    },
+
+    // Q64
+    {
+        "id": "UE2-CR-41",
+        "text": "Quelle est l'utilité du mode Tm (Time motion) en échographie ?",
+        "options": {
+            "A": "Analyser la vascularisation en couleur.",
+            "B": "Reconstruire l'organe en 3 dimensions.",
+            "C": "Évaluer précisément le mouvement et la taille des structures très mobiles, comme les valves ou les parois du cœur.",
+            "D": "Améliorer la pénétration des ultrasons chez les patients obèses."
+        },
+        "correctAnswers": ["C"],
+        "explanation": "C ✅ VRAI : Le mode Tm (Time-motion, ou mode M) affiche l'évolution d'une unique ligne de tir (ordonnée) au cours du temps (abscisse). C'est historiquement et cliniquement très utilisé en échocardiographie pour mesurer l'épaisseur et la dynamique du ventricule gauche, des valves cardiaques et de la paroi myocardique.\\\\nA ❌ FAUX : L'analyse de la vascularisation en couleur est le rôle du mode Doppler couleur (ou énergie) — pas du mode Tm.\\\\nB ❌ FAUX : La reconstruction 3D est réalisée par l'échographie 3D ou 4D — le mode Tm ne génère pas de volume mais une courbe temporelle monodimensionnelle.\\\\nD ❌ FAUX : La pénétration des ultrasons dépend de la fréquence de la sonde et non du mode d'affichage — le mode Tm ne modifie pas la profondeur de pénétration."
+    },
+
+    // Q65
+    {
+        "id": "UE2-CR-42",
+        "text": "Pourquoi le médecin applique-t-il systématiquement du gel sur la peau avant l'examen échographique ?",
+        "options": {
+            "A": "Pour refroidir les cristaux piézoélectriques de la sonde qui chauffent rapidement.",
+            "B": "Pour désinfecter la peau et éviter les infections nosocomiales.",
+            "C": "Pour annuler l'importante atténuation des ultrasons causée par la fine couche d'air entre la sonde et la peau.",
+            "D": "Pour augmenter artificiellement la fréquence d'émission de la sonde."
+        },
+        "correctAnswers": ["C"],
+        "explanation": "C ✅ VRAI : L'impédance acoustique de l'air est très différente de celle de la peau, ce qui provoquerait une réflexion quasi-totale des ultrasons à l'interface air-peau et empêcherait leur pénétration dans l'organisme. Le gel acoustique, ayant une impédance proche de celle de la peau et des tissus, assure un couplage acoustique optimal et permet aux ultrasons de traverser efficacement l'interface sonde-patient.\\n\\nA ❌ FAUX : Les cristaux PZT ne chauffent pas de façon significative en utilisation clinique normale — le gel n'a pas de rôle de refroidissement.\\n\\nB ❌ FAUX : Le gel échographique n'est pas un désinfectant — la décontamination de la sonde est réalisée séparément par des lingettes désinfectantes adaptées.\\n\\nD ❌ FAUX : La fréquence d'émission de la sonde est fixée par ses propriétés piézoélectriques et l'électronique — le gel n'a aucune influence sur cette caractéristique."
+    },
+
+    // ============================================================
+    // Pr. OLICHON AURÉLIEN — Développement pré-clinique & Toxicologie du médicament
+    // UE2.S3 Bases fondamentales en sciences médicales
+    // Annales 2020-2023 & Diapositives du cours (7 QCMs : indices 65 à 71)
+    // ============================================================
+
+    // Q66 — UE2-OL-09 — Annales 2021-2022 Q20 / Cours Diapo 57 : Essais précliniques et règle des 3R
+    {
+        "id": "UE2-OL-09",
+        "text": "[Annales 2021-2022 / Diapo cours] Concernant les essais précliniques et l'expérimentation animale :",
+        "options": {
+            "A": "L’éthique animale recommande la règle des 3R : Réduire, Raffiner et Remplacer.",
+            "B": "Ils consistent entre autres à étudier la reprotoxicité (effet sur la reproduction et la fertilité).",
+            "C": "La toxicité chronique se mesure par la DL50.",
+            "D": "La toxicité subaiguë évalue l’aptitude du produit à s’accumuler dans les tissus.",
+            "E": "Aucune des réponses ci-dessus n’est exacte."
+        },
+        "correctAnswers": ["A", "B", "D"],
+        "explanation": "A, B et D ✅ VRAIS :\n- A : La règle des 3R de Russell et Burch (1959) est le socle éthique et légal de l'expérimentation animale : Remplacer par des méthodes alternatives in vitro/in silico, Réduire le nombre d'animaux utilisés au strict nécessaire, et Raffiner les conditions d'hébergement, d'anesthésie et d'analgésie pour minimiser la douleur.\n- B : Les études de sécurité obligatoires évaluent la reprotoxicité selon 3 segments : Segment I (fertilité et accouplement), Segment II (tératogenèse et organogenèse), et Segment III (développement péri- et post-natal).\n- D : L'étude de toxicité subaiguë (injections réitérées pendant 28 à 90 jours sur 2 espèces) analyse l'accumulation tissulaire, la tolérance d'organes cibles et la réversibilité des lésions.\nC ❌ FAUX : La toxicité chronique (expositions répétées sur plusieurs mois) se quantifie par la NOAEL et la LOAEL. La DL50 (Dose Létale 50) est le paramètre historique mesuré lors des tests de toxicité AIGUË (dose unique massive).\nE ❌ FAUX : Les propositions A, B et D sont exactes."
+    },
+
+    // Q67 — UE2-OL-10 — Annales 2022-2023 Q27 : Notions fondamentales de toxicologie expérimentale
+    {
+        "id": "UE2-OL-10",
+        "text": "[Annales 2022-2023] À propos des concepts fondamentaux de la toxicologie expérimentale :",
+        "options": {
+            "A": "La dose maximale sans effet toxique ou nocif observable (NOAEL) est systématiquement évaluée.",
+            "B": "La dose maximale pour laquelle un effet toxique est observé (LOAEL) est évaluée.",
+            "C": "La toxicologie étudie les voies de signalisation induisant des dommages cellulaires ou tissulaires (Adverse Outcome Pathway - AOP).",
+            "D": "La toxicologie s'intéresse à l'exposition chez les sujets sensibles (enfants, femmes enceintes, personnes âgées).",
+            "E": "Les intoxications chez l'enfant sont fréquemment liées à l'ingestion accidentelle de produits liquides."
+        },
+        "correctAnswers": ["A", "C", "D", "E"],
+        "explanation": "A, C, D et E ✅ VRAIS :\n- A : La NOAEL (No Observed Adverse Effect Level) est la dose maximale d'une substance ne provoquant aucun effet nocif statistiquement significatif ; c'est le paramètre pivot pour calculer la dose initiale sans risque chez l'homme (MRSD).\n- C : Le concept d'AOP (Adverse Outcome Pathway) modélise la chaîne causale d'événements depuis l'interaction moléculaire initiale jusqu'aux conséquences néfastes à l'échelle de l'organisme ou de la population.\n- D : La vulnérabilité toxicologique dépend des particularités pharmacocinétiques des populations spécifiques (immaturité métabolique/rénale du nouveau-né, barrière fœtoplacentaire, déclin physiologique du sujet âgé).\n- E : Les accidents domestiques par ingestion de produits ménagers ou médicaments liquides représentent l'étiologie prépondérante des intoxications pédiatriques accidentelles.\nB ❌ FAUX : La LOAEL (Lowest Observed Adverse Effect Level) est la dose MINIMALE (et non maximale) pour laquelle le premier effet nocif statistiquement significatif est détecté."
+    },
+
+    // Q68 — UE2-OL-11 — Annales 2022-2023 Q28 : Éthique des 3R et sécurité préclinique
+    {
+        "id": "UE2-OL-11",
+        "text": "[Annales 2022-2023] Concernant les exigences réglementaires et éthiques des essais précliniques :",
+        "options": {
+            "A": "L'éthique animale recommande les 3R signifiant : Reproduire, Restreindre et Répliquer.",
+            "B": "La règle des 3R consiste à optimiser les conditions d'élevage, d'hébergement ainsi que les conditions d'euthanasie des animaux de laboratoire.",
+            "C": "Les études de sécurité précliniques consistent entre autres à étudier la tératogenèse.",
+            "D": "La toxicité chronique se caractérise par la détermination de la NOAEL et de la LOAEL.",
+            "E": "La toxicité aiguë évalue l'aptitude d'une molécule à entraîner des perturbations biologiques à long terme."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B, C et D ✅ VRAIS :\n- B : Cela correspond au principe du « Raffinement » (Refine) : enrichissement du milieu, anesthésie/analgésie appropriée et méthodes de sacrifice indolores agréées.\n- C : L'évaluation de la tératogenèse (apparition de malformations congénitales chez le fœtus après exposition in utero lors de l'organogenèse) fait partie intégrante du Segment II des études de reprotoxicité.\n- D : La toxicité chronique (administrations réitérées sur 6 à 9 mois) sert à déterminer la NOAEL et la LOAEL pour fixer la marge de sécurité.\nA ❌ FAUX : Les 3R signifient obligatoirement Réduire (Reduce), Raffiner (Refine) et Remplacer (Replace).\nE ❌ FAUX : La toxicité aiguë évalue les effets toxiques et létaux survenant IMMÉDIATEMENT ou dans les 14 jours suivant l'administration d'une DOSE UNIQUE (recherche de la DL50 ou de la dose maximale tolérée HNTD). Les perturbations à long terme relèvent des toxicités chroniques."
+    },
+
+    // Q69 — UE2-OL-12 — Annales 2022-2023 Q29 : Les 3 piliers du développement préclinique
+    {
+        "id": "UE2-OL-12",
+        "text": "[Annales 2022-2023] Concernant les différentes étapes et composantes du développement préclinique :",
+        "options": {
+            "A": "Le développement préclinique du médicament comprend trois types d'études : la pharmacodynamie, la pharmacocinétique et la sécurité (toxicologie).",
+            "B": "Les études de pharmacodynamie permettent entre autres de déterminer les doses efficaces et d'établir les relations dose-effet.",
+            "C": "Les études de pharmacodynamie permettent de déterminer les doses entraînant l'effet principal recherché et celles entraînant des effets secondaires.",
+            "D": "Lors du développement préclinique d'un médicament, des études sont réalisées chez l'homme pour éliminer les candidats médicaments à risque toxique.",
+            "E": "Les études de sécurité comprennent la toxicité générale, la mutagénèse, la cancérogénèse et la reprotoxicité."
+        },
+        "correctAnswers": ["A", "B", "C", "E"],
+        "explanation": "A, B, C et E ✅ VRAIS :\n- A : Les trois piliers scientifiques obligatoires du dossier préclinique sont la pharmacodynamie (action sur l'organisme), la pharmacocinétique (ADME chez l'animal) et la sécurité préclinique (toxicologie générale et spécifique).\n- B : La pharmacodynamie in vitro et in vivo détermine la DE50 (Dose Efficace 50), la CE50, l'efficacité maximale (Emax) et la puissance de la molécule.\n- C : Elle étudie la sélectivité pour la cible thérapeutique principale et dose les interactions sur des cibles secondaires (effets latéraux/indésirables).\n- E : Le programme de sécurité toxicologique regroupe la toxicité aiguë/chronique, la génotoxicité/mutagénèse, la cancérogénèse et la reprotoxicité.\nD ❌ FAUX : La phase préclinique est STRICTEMENT NON-HUMAINE : elle se déroule in vitro, ex vivo et in vivo chez l'animal. L'administration à l'homme (Phase I clinique) n'est autorisée qu'après validation complète et approbation réglementaire du dossier préclinique."
+    },
+
+    // Q70 — UE2-OL-13 — Annales 2022-2023 Q30 : Méthodologie et limites de la toxicologie préclinique
+    {
+        "id": "UE2-OL-13",
+        "text": "[Annales 2022-2023] Concernant la méthodologie et les limites des essais de toxicologie préclinique :",
+        "options": {
+            "A": "Ils consistent généralement à évaluer la mortalité chez des animaux modèles de pathologies incurables.",
+            "B": "Les études de toxicité à dose unique et à doses réitérées doivent impérativement être réalisées avant toute première administration chez l'homme.",
+            "C": "Les études de toxicité aiguë évaluent le pouvoir tératogène de la molécule.",
+            "D": "Les études de toxicité aiguë participent à la détermination de l'index thérapeutique.",
+            "E": "La transférabilité des résultats précliniques de l'animal à l'homme est constante, vérifiée et parfaite."
+        },
+        "correctAnswers": ["B", "D"],
+        "explanation": "B et D ✅ VRAIS :\n- B : L'évaluation toxicologique complète (dose unique + doses répétées sur au moins deux espèces de mammifères dont un non-rongeur) est un prérequis réglementaire obligatoire (ICH) avant l'autorisation du premier essai clinique de phase I (First-in-Human).\n- D : L'index thérapeutique (IT) évalue la marge de sécurité relative : il correspond au rapport entre la dose létale (DL50 issue de la toxicité aiguë) et la dose efficace (DE50 issue de la pharmacodynamie) : IT = DL50 / DE50.\nA ❌ FAUX : La toxicologie utilise des animaux SAINS (normaux) pour isoler la toxicité intrinsèque du produit sans interférence d'une maladie. Les modèles animaux pathologiques sont réservés aux études d'efficacité pharmacodynamique.\nC ❌ FAUX : La tératogenèse est étudiée dans le cadre de la reprotoxicité (femelles gravides exposées pendant l'organogenèse, Segment II), et non dans les tests de toxicité aiguë systémique standard.\nE ❌ FAUX : L'extrapolation de l'animal à l'homme présente des limites majeures en raison des différences inter-espèces de métabolisme (variabilité des cytochromes P450, récepteurs, sensibilité tissulaire). C'est pourquoi la toxicité clinique humaine peut différer des prédictions animales."
+    },
+
+    // Q71 — UE2-OL-14 — Annales 2020-2021 Q19 : Études de sécurité, mutagénèse et cancérogénèse
+    {
+        "id": "UE2-OL-14",
+        "text": "[Annales 2020-2021] Concernant les études de sécurité et les critères d'évaluation précliniques :",
+        "options": {
+            "A": "L'éthique animale impose la mise en œuvre de la règle des 3R : Réduire, Raffiner et Remplacer.",
+            "B": "Les études de sécurité précliniques comportent obligatoirement l'évaluation des effets mutagènes et cancérogènes.",
+            "C": "La toxicité chronique d'un xénobiotique s'évalue principalement par la mesure de la DL50.",
+            "D": "La toxicité aiguë permet d'évaluer l'aptitude du candidat médicament à s'accumuler dans les tissus de l'organisme.",
+            "E": "Aucune des réponses ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["A", "B"],
+        "explanation": "A et B ✅ VRAIS :\n- A : La réglementation européenne et internationale impose l'application rigoureuse des 3R dans tout protocole préclinique.\n- B : La mutagénèse/génotoxicité (tests de mutations géniques in vitro et anomalies chromosomiques in vivo) et la cancérogénèse (études au long cours sur 2 ans chez le rongeur) sont obligatoires pour tout candidat médicament destiné à une utilisation humaine chronique.\nC ❌ FAUX : La DL50 caractérise la toxicité AIGUË (dose unique). La toxicité chronique est caractérisée par la dose sans effet toxique observable (NOAEL) et la première dose toxique (LOAEL).\nD ❌ FAUX : L'accumulation tissulaire nécessite des administrations répétées au cours du temps : elle est donc évaluée lors des études de toxicité subaiguë ou chronique (doses réitérées), et non en toxicité aiguë.\nE ❌ FAUX : Les propositions A et B sont exactes."
+    },
+
+    // Q72 — UE2-OL-15 — Annales 2020-2021 Q20 : Test d'Ames, doses réitérées et index thérapeutique
+    {
+        "id": "UE2-OL-15",
+        "text": "[Annales 2020-2021] À propos des essais précliniques et des tests toxicologiques spécialisés :",
+        "options": {
+            "A": "Ils consistent à évaluer en priorité la mortalité sur des modèles animaux génétiquement modifiés pour développer une pathologie.",
+            "B": "Les études de toxicité aiguë permettent de déterminer l'index thérapeutique du candidat médicament.",
+            "C": "Les études de toxicité à doses réitérées évaluent l'aptitude du produit à présenter des effets indésirables sur le long terme.",
+            "D": "Le test d'Ames est un test in vitro de référence visant à mettre en évidence un effet mutagène.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B, C et D ✅ VRAIS :\n- B : L'index thérapeutique (IT = DL50 / DE50) compare la toxicité aiguë létale à la dose pharmacologiquement efficace ; plus l'index est élevé, plus le médicament est maniable et sûr.\n- C : Les études à doses réitérées (subaiguës 28-90 j, chroniques 6-9 mois) permettent de détecter les toxicités cumulatives d'organes, l'accumulation tissulaire et les perturbations biologiques retardées.\n- D : Le test d'Ames utilise des souches mutantes d'histidine de Salmonella typhimurium (ou E. coli) pour évaluer la capacité d'un xénobiotique (avec ou sans activation métabolique par une fraction hépatique S9) à induire des mutations réverses de l'ADN.\nA ❌ FAUX : L'évaluation toxicologique de la mortalité est réalisée sur des animaux sains pour mesurer la toxicité propre du principe actif.\nE ❌ FAUX : B, C et D sont exactes."
+    }
+
 ];
 
 window.ALL_QCM_DATA["UE2"] = window.DATA_UE2;
+

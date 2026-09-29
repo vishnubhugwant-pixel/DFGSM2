@@ -622,7 +622,564 @@ window.DATA_UE6 = [
         "correctAnswers": ["B"],
         "explanation": "B VRAI : La diversité extrême des récepteurs à l'antigène (BCR des lymphocytes B et TCR des lymphocytes T) est générée au cours de la lymphopoïèse par des remaniements et recombinaisons somatiques de segments géniques discontinus : les segments variables V, de diversité D (pour chaînes lourdes et TCRβ/δ) et de jonction J (recombinaison V(D)J).\nA FAUX : La théorie germinale exclusive (un gène codant complet pour chaque anticorps) a été réfutée car le nombre limité de gènes du génome humain ne pourrait jamais expliquer les millions de spécificités d'anticorps différentes.\nC FAUX : Ces réarrangements requièrent obligatoirement un complexe enzymatique spécifique de la recombinaison somatique, notamment les endonucléases de la recombinase V(D)J codées par RAG-1 et RAG-2, ainsi que l'enzyme TdT (terminal désoxynucléotidyl transférase) qui génère une diversité jonctionnelle en insérant des nucléotides aléatoires.\nD FAUX : Ces réarrangements somatiques sont strictement limités aux cellules de la lignée lymphocytaire (lymphocytes B dans la moelle osseuse, lymphocytes T dans le thymus) et ne se produisent dans aucune autre cellule de l'organisme."
     }
+,
+
+    // ============================================================
+    // MODULE : IMMUNITÉ INNÉE NON SPÉCIFIQUE — PHAGOCYTOSE
+    // Enseignant : Pr Jean-Jacques HOARAU
+    // Annales 2012-2015 (36 QCMs : indices 45 à 80)
+    // ============================================================
+
+    // ===== ANNALES 2012 — SESSION 1 =====
+
+    // Q46
+    {
+        "id": "UE6-JJH-01",
+        "text": "[Annales 2012 — Session 1, Q2] Les PAMPs (motifs moléculaires associés aux pathogènes) sont :",
+        "options": {
+            "A": "Produits par l'organisme hôte en réponse à une infection par des microbes.",
+            "B": "Exprimés à la surface des cellules apoptotiques.",
+            "C": "Communs à de grandes classes d'agents infectieux.",
+            "D": "Des motifs qui mutent fréquemment pour permettre l'échappement aux systèmes de reconnaissance de l'immunité innée.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["C"],
+        "explanation": "C ✅ VRAI : Les PAMPs sont communs à de nombreux agents infectieux (bactéries, virus, champignons…) et expliquent la réponse stéréotypée de l'immunité innée. Ce sont des structures hautement conservées au cours de l'évolution et indispensables à la survie du microbe.\nA ❌ FAUX : Les PAMPs sont produits par les pathogènes, non par l'hôte. L'hôte possède les récepteurs (PRR) pour les reconnaître.\nB ❌ FAUX : Les motifs exprimés par les cellules apoptotiques ou endommagées du soi sont des DAMPs (signaux de danger), reconnus par les récepteurs Scavenger.\nD ❌ FAUX : Au contraire, les PAMPs sont des structures « hautement conservées au cours de l'évolution » et indispensables à la survie du microbe — ils ne mutent donc pas facilement."
+    },
+
+    // Q47
+    {
+        "id": "UE6-JJH-02",
+        "text": "[Annales 2012 — Session 1, Q3] Les médiateurs chimiques de l'immunité non spécifique comprennent :",
+        "options": {
+            "A": "Les interférons.",
+            "B": "Le lysozyme.",
+            "C": "La cryptidine.",
+            "D": "Le facteur du complément C3b.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["A", "B", "C", "D"],
+        "explanation": "A ✅ VRAI : Les interférons (notamment de type I comme l'IFN-alpha et bêta) sont produits lors de la réponse innée antivirale.\nB ✅ VRAI : Le lysozyme est un agent chimique non spécifique (enzyme hydrolytique) majeur des sécrétions.\nC ✅ VRAI : Les cryptidines sont une sous-famille de défensines (peptides antimicrobiens de l'immunité innée).\nD ✅ VRAI : Le système du complément (dont fait partie C3b, opsonine majeure) est une composante moléculaire majeure de l'immunité innée.\nE ❌ FAUX : Toutes les propositions A, B, C et D sont vraies."
+    },
+
+    // Q48
+    {
+        "id": "UE6-JJH-03",
+        "text": "[Annales 2012 — Session 1, Q4] Les cellules phagocytaires comprennent :",
+        "options": {
+            "A": "Les mastocytes.",
+            "B": "Les basophiles.",
+            "C": "Les lymphocytes NK.",
+            "D": "Les éosinophiles.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["A", "D"],
+        "explanation": "A ✅ VRAI : Les mastocytes sont listés parmi les cellules phagocytaires avec les macrophages, neutrophiles et éosinophiles.\nD ✅ VRAI : Les éosinophiles sont des phagocytes professionnels, impliqués notamment dans la lutte contre les parasites.\nB ❌ FAUX : Les basophiles ne font pas de phagocytose.\nC ❌ FAUX : Les lymphocytes NK sont des cellules tueuses cytotoxiques qui ne font pas de phagocytose.\nE ❌ FAUX : A et D sont vraies."
+    },
+
+    // Q49
+    {
+        "id": "UE6-JJH-04",
+        "text": "[Annales 2012 — Session 1, Q5] Remettre dans l'ordre chronologique la séquence de la phagocytose :\n\n1. Le phagosome fusionne avec un lysosome.\n2. Les bactéries se lient aux récepteurs des phagocytes.\n3. Les produits de digestion sont libérés des cellules.\n4. Les bactéries sont ingérées, formant un phagosome.\n5. Les enzymes lysosomales digèrent le matériel ingéré.",
+        "options": {
+            "A": "1-2-3-4-5",
+            "B": "2-4-1-5-3",
+            "C": "5-3-1-4-2",
+            "D": "2-1-4-5-3",
+            "E": "3-1-2-4-5"
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : L'ordre correct est 2→4→1→5→3 :\n1ère étape (2) : Reconnaissance et capture du pathogène par les récepteurs.\n2ème étape (4) : Ingestion/internalisation formant le phagosome.\n3ème étape (1) : Fusion du phagosome avec les lysosomes → phagolysosome.\n4ème étape (5) : Digestion et destruction du matériel ingéré par les enzymes.\n5ème étape (3) : Libération (exocytose) des produits de digestion dans le milieu extérieur."
+    },
+
+    // Q50
+    {
+        "id": "UE6-JJH-05",
+        "text": "[Annales 2012 — Session 1, Q6] Un macrophage :",
+        "options": {
+            "A": "Est une cellule mononucléée circulante.",
+            "B": "Est un phagocyte.",
+            "C": "Possède des lysosomes plus nombreux et plus complexes que les monocytes.",
+            "D": "Sécrète des médiateurs solubles agissant sur les leucocytes.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B ✅ VRAI : Le macrophage est le phagocyte professionnel par excellence (système phagocytaire mononucléé).\nC ✅ VRAI : Lors de sa différenciation tissulaire, le cytoplasme du macrophage s'enrichit en organites (plus nombreux, plus complexes) par rapport au monocyte.\nD ✅ VRAI : Les macrophages activés sécrètent des cytokines et des chimiokines (médiateurs solubles) qui recrutent et agissent sur d'autres leucocytes.\nA ❌ FAUX : Le monocyte est la cellule circulante. Le macrophage est un monocyte qui a quitté le sang et s'est implanté dans les tissus (cellule résidente)."
+    },
+
+    // Q51
+    {
+        "id": "UE6-JJH-06",
+        "text": "[Annales 2012 — Session 1, Q7] Concernant les interactions entre les cellules endothéliales et les phagocytes :",
+        "options": {
+            "A": "Les intégrines permettent des interactions fortes.",
+            "B": "La L-sélectine est exprimée par les cellules endothéliales.",
+            "C": "Les sélectines interviennent dans les étapes de roulement (rolling).",
+            "D": "PECAM est exprimé par les cellules endothéliales et les leucocytes activés.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["A", "C", "D"],
+        "explanation": "A ✅ VRAI : Les intégrines font partie des « molécules d'adhésion fortes » permettant l'immobilisation des leucocytes sur l'endothélium.\nC ✅ VRAI : Les sélectines assurent l'adhésion faible et le phénomène de roulement (rolling) à la surface de l'endothélium.\nD ✅ VRAI : Le PECAM-1 (CD31) est exprimé à la fois par les cellules endothéliales et les leucocytes pour permettre la diapédèse par interaction homotypique.\nB ❌ FAUX : La L-sélectine (CD62L) est exprimée par les Leucocytes, tandis que les sélectines E et P sont sur les cellules endothéliales."
+    },
+
+    // Q52
+    {
+        "id": "UE6-JJH-07",
+        "text": "[Annales 2012 — Session 1, Q8] Les récepteurs de reconnaissance de motifs moléculaires (PRRs) :",
+        "options": {
+            "A": "Reconnaissent des motifs moléculaires associés aux pathogènes (PAMPs).",
+            "B": "Reconnaissent des motifs moléculaires associés à des signaux de danger (DAMPs).",
+            "C": "Sont présents exclusivement à la surface des cellules.",
+            "D": "Peuvent être sécrétés.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["A", "D"],
+        "explanation": "A ✅ VRAI : C'est la définition même des PRR (Pathogen Recognition Receptors).\nD ✅ VRAI : Il existe des PRR sécrétés ou solubles, comme la MBL ou la CRP.\nB ❌ FAUX : Ce sont les récepteurs Scavenger (SR) qui reconnaissent les DAMPs (soi altéré/danger), en opposition aux PRR classiques.\nC ❌ FAUX : Les PRR ne sont pas qu'à la surface : ils peuvent être intracellulaires/endosomaux (ex : TLR3, 7, 8, 9, NLRs) ou sécrétés."
+    },
+
+    // Q53
+    {
+        "id": "UE6-JJH-08",
+        "text": "[Annales 2012 — Session 1, Q9] La lectine liant le mannose (MBL) :",
+        "options": {
+            "A": "Est un PRR endocytique.",
+            "B": "Appartient à la famille des collectines.",
+            "C": "Est synthétisée par les hépatocytes.",
+            "D": "Joue un rôle important dans la reconnaissance des déterminants protéiques.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["B", "C"],
+        "explanation": "B ✅ VRAI : La MBL appartient à la famille des collectines, possédant un domaine collagène et un domaine lectine (C-type lectin).\nC ✅ VRAI : La MBL est une protéine de la phase aiguë produite par les hépatocytes du foie.\nA ❌ FAUX : La MBL est un PRR sécrété (soluble), et non endocytique (comme le MMR).\nD ❌ FAUX : C'est une lectine — elle reconnaît des déterminants glucidiques (sucres comme le mannose), pas protéiques."
+    },
+
+    // Q54
+    {
+        "id": "UE6-JJH-09",
+        "text": "[Annales 2012 — Session 1, Q10] La reconnaissance du LPS par le TLR4 :",
+        "options": {
+            "A": "Fait intervenir l'hétérodimère TLR4/TLR2.",
+            "B": "Requiert le facteur MD-2.",
+            "C": "Fait intervenir la molécule CD14 chez les monocytes.",
+            "D": "Active la phagocytose.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B ✅ VRAI : La reconnaissance du LPS par le TLR4 nécessite la co-protéine adaptatrice MD-2 qui se fixe au domaine extracellulaire du TLR4.\nC ✅ VRAI : Le LPS est capté par la LBP (LPS Binding Protein), transféré au CD14 membranaire des monocytes/macrophages, puis présenté au complexe TLR4/MD-2.\nD ✅ VRAI : L'activation des TLR stimule les fonctions effectrices de la cellule, dont la phagocytose.\nA ❌ FAUX : Le TLR4 forme généralement un homodimère (TLR4/TLR4), pas un hétérodimère TLR4/TLR2."
+    },
+
+    // Q55
+    {
+        "id": "UE6-JJH-10",
+        "text": "[Annales 2012 — Session 1, Q11] Concernant la signalisation intracellulaire des TLRs :",
+        "options": {
+            "A": "Elle nécessite des protéines adaptatrices qui interagissent avec les domaines TIR.",
+            "B": "L'adaptateur le plus commun des TLRs est MyD88.",
+            "C": "Elle fait intervenir des protéines kinases.",
+            "D": "Elle permet d'activer la voie des MAP kinases.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["A", "B", "C", "D"],
+        "explanation": "A ✅ VRAI : Le domaine intracellulaire TIR des TLRs s'associe à des protéines adaptatrices cytoplasmiques (MyD88, TRIF, TIRAP, TRAM).\nB ✅ VRAI : La protéine MyD88 est la principale protéine adaptatrice pour la majorité des TLRs.\nC ✅ VRAI : La voie MyD88 recrute des kinases (IRAK-1, IRAK-4, TRAF6) aboutissant à l'activation de NF-kB et des MAP kinases.\nD ✅ VRAI : L'activation de la voie aboutit à l'activation des MAP kinases (p38, ERK, JNK) et du facteur de transcription NF-kB."
+    },
+
+    // Q56
+    {
+        "id": "UE6-JJH-11",
+        "text": "[Annales 2012 — Session 1, Q12] Les fonctions immunes des TLRs sont, entre autres, capables :",
+        "options": {
+            "A": "D'induire une réponse immunitaire innée immédiate.",
+            "B": "D'activer les cellules dendritiques.",
+            "C": "D'induire la production de cytokines pro-inflammatoires.",
+            "D": "D'induire la présentation antigénique.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["A", "B", "C", "D"],
+        "explanation": "A ✅ VRAI : Les TLRs déclenchent immédiatement la réponse innée via l'activation de NF-kB.\nB ✅ VRAI : Les TLRs activent les cellules dendritiques, induisant leur maturation et leur migration vers les ganglions.\nC ✅ VRAI : L'activation des TLRs déclenche la production de cytokines pro-inflammatoires (IL-1β, TNF-α, IL-6, IL-12) via NF-kB.\nD ✅ VRAI : Les TLRs augmentent l'expression du CMH-II et des molécules de co-stimulation sur les CPA, favorisant la présentation antigénique et faisant le lien avec l'immunité adaptative."
+    },
+
+    // ===== ANNALES 2012 — SESSION 2 =====
+
+    // Q57
+    {
+        "id": "UE6-JJH-12",
+        "text": "[Annales 2012 — Session 2, Q10] Le récepteur au mannose des macrophages (MMR) :",
+        "options": {
+            "A": "Est un récepteur transmembranaire.",
+            "B": "Est un récepteur endocytique.",
+            "C": "Est capable de reconnaître certains virus comme le VIH.",
+            "D": "Déclenche la phagocytose de bactéries.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["A", "B", "C", "D"],
+        "explanation": "A ✅ VRAI : Le MMR (CD206) est un récepteur transmembranaire de type I (single-pass).\nB ✅ VRAI : C'est un PRR endocytique (lectine de type C) de la famille des récepteurs endocytiques qui permet la phagocytose.\nC ✅ VRAI : Le MMR reconnaît des motifs glycosylés sur certains virus, dont le VIH (gp120 mannosylée).\nD ✅ VRAI : En liant les résidus mannose/fucose présents sur la paroi bactérienne, il déclenche la phagocytose des bactéries."
+    },
+
+    // Q58
+    {
+        "id": "UE6-JJH-13",
+        "text": "[Annales 2012 — Session 2, Q11] Concernant les Toll-like Receptors (TLRs) :",
+        "options": {
+            "A": "Ce sont des récepteurs à 7 domaines transmembranaires couplés aux protéines G.",
+            "B": "La reconnaissance de leur ligand a une action uniquement à la surface cellulaire.",
+            "C": "Ils peuvent exister sous forme d'hétérodimères.",
+            "D": "Le domaine intracellulaire TIR est semblable à celui du récepteur de l'IL-1.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["C", "D"],
+        "explanation": "C ✅ VRAI : Les TLRs peuvent être monomériques ou dimériques (le plus souvent hétérodimériques, comme TLR2/TLR1 ou TLR2/TLR6).\nD ✅ VRAI : Le domaine TIR signifie « Toll/Interleukin-1 Receptor-like domain » car il est homologue à celui des récepteurs de l'IL-1.\nA ❌ FAUX : Les récepteurs à 7 domaines transmembranaires (RCPG) sont les récepteurs pour les chimiokines, pas les TLRs. Les TLRs ont un seul domaine transmembranaire.\nB ❌ FAUX : Les TLRs peuvent être endosomaux (TLR3, 7, 8, 9) pour détecter les acides nucléiques intracellulaires des pathogènes."
+    },
+
+    // ===== ANNALES 2013 — SESSION 1 =====
+
+    // Q59
+    {
+        "id": "UE6-JJH-14",
+        "text": "[Annales 2013 — Session 1, Q10] Concernant les neutrophiles :",
+        "options": {
+            "A": "Suite à une infection, ils sont les premières cellules à migrer sur le site infectieux.",
+            "B": "Ils possèdent des récepteurs de l'IL-8.",
+            "C": "Ils représentent 45-70% des leucocytes circulants.",
+            "D": "Ils ont un rôle principalement antibactérien et antifongique.",
+            "E": "En cas d'infection, ils sont produits en masse, ce qui se traduit dans le sang par une hyperleucocytose."
+        },
+        "correctAnswers": ["A", "B", "C", "D", "E"],
+        "explanation": "A ✅ VRAI : Les neutrophiles sont les premières cellules mobilisées sur un foyer inflammatoire.\nB ✅ VRAI : L'IL-8 (CXCL8) est la chimiokine majeure qui recrute les neutrophiles ; ils expriment donc son récepteur CXCR1/CXCR2.\nC ✅ VRAI : Ils représentent 40 à 70% des leucocytes sanguins.\nD ✅ VRAI : Leur activité est surtout dirigée contre les bactéries et les champignons/parasites.\nE ✅ VRAI : L'infection provoque une hyperleucocytose neutrophile transitoire dans le sang (neutrophilie inflammatoire)."
+    },
+
+    // Q60
+    {
+        "id": "UE6-JJH-15",
+        "text": "[Annales 2013 — Session 1, Q11] Concernant la poussée respiratoire (burst oxydatif) au cours de la phagocytose :",
+        "options": {
+            "A": "Elle conduit à la production de radicaux oxygénés (ROS).",
+            "B": "Elle conduit à la production de radicaux azotés (RNS).",
+            "C": "Elle est responsable de l'allongement de la durée de vie des phagocytes.",
+            "D": "Elle se poursuit dans les phagolysosomes après exocytose.",
+            "E": "Elle permet l'oxydation des protéines et lipides des agents infectieux."
+        },
+        "correctAnswers": ["A", "E"],
+        "explanation": "A ✅ VRAI : La poussée respiratoire (activation de la NADPH oxydase) génère l'anion superoxyde (O2•−), point de départ des radicaux libres d'oxygène (ROS) : H2O2, •OH, HOCl.\nE ✅ VRAI : Les radicaux provoquent la peroxydation des lipides membranaires, la dénaturation des protéines et l'altération de l'ADN bactérien.\nB ❌ FAUX : Bien que les RNS (via iNOS) soient aussi produits par les phagocytes, le terme « burst oxydatif / poussée respiratoire » désigne spécifiquement la consommation d'oxygène pour produire les ROS.\nC ❌ FAUX : L'auto-toxicité de ces radicaux réduit considérablement la durée de vie du phagocyte (apoptose rapide du neutrophile après le burst).\nD ❌ FAUX : Le burst oxydatif se déroule à l'intérieur du phagolysosome, pas après exocytose."
+    },
+
+    // Q61
+    {
+        "id": "UE6-JJH-16",
+        "text": "[Annales 2013 — Session 1, Q12] Concernant le système phagocytaire mononucléé :",
+        "options": {
+            "A": "Il est constitué de cellules circulantes et de cellules résidentes dans les tissus.",
+            "B": "Il comprend les macrophages.",
+            "C": "Il inclut les histiocytes.",
+            "D": "Il inclut les ostéoclastes.",
+            "E": "Il inclut les fibroblastes péritonéaux."
+        },
+        "correctAnswers": ["A", "B", "C", "D"],
+        "explanation": "A ✅ VRAI : Le système est composé des monocytes (circulants) qui deviennent des macrophages (tissulaires résidents).\nB ✅ VRAI : Le macrophage est la cellule centrale de ce système.\nC ✅ VRAI : Les histiocytes (macrophages du tissu conjonctif) sont des macrophages résidents du tissu conjonctif.\nD ✅ VRAI : Les ostéoclastes (dans l'os) sont des macrophages géants multinucléés résidents.\nE ❌ FAUX : Les fibroblastes sont des cellules du tissu conjonctif, distinctes du système phagocytaire mononucléé."
+    },
+
+    // Q62
+    {
+        "id": "UE6-JJH-17",
+        "text": "[Annales 2013 — Session 1, Q13] Concernant les macrophages :",
+        "options": {
+            "A": "Ils sécrètent une fraction du complément.",
+            "B": "Ce sont des cellules présentatrices d'antigènes.",
+            "C": "Ce sont des cellules extrêmement mobiles.",
+            "D": "Ils peuvent se déformer pour former des pseudopodes.",
+            "E": "L'activation spécifique des macrophages peut induire l'ingestion de cellules du soi non modifiées."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B ✅ VRAI : Contrairement aux neutrophiles, les macrophages font le lien avec l'immunité adaptative en présentant l'antigène via le CMH-II (CPA professionnel).\nC ✅ VRAI : Les macrophages ont une grande plasticité cellulaire et sont très mobiles dans les tissus.\nD ✅ VRAI : Ils émettent des évaginations (pseudopodes) pour capturer les pathogènes par phagocytose.\nA — Partiellement vrai en immunologie générale (certains facteurs du complément comme C1q sont synthétisés par les macrophages), mais ce n'est pas le focus de ce cours.\nE ❌ FAUX : L'ingestion de cellules du soi se fait sur le soi ALTÉRÉ ou apoptotique via les récepteurs Scavenger. Ingérer du soi normal (non modifié) serait un processus pathologique."
+    },
+
+    // Q63
+    {
+        "id": "UE6-JJH-18",
+        "text": "[Annales 2013 — Session 1, Q14] Concernant le chimiotactisme :",
+        "options": {
+            "A": "Il s'agit de la capacité des cellules à se déplacer en réponse à un gradient de concentration d'une substance.",
+            "B": "Seules les cellules du système immunitaire sont sensibles aux composés chimioattractants.",
+            "C": "Certains facteurs du complément tels que les facteurs C3a et C5a sont des chimioattractants.",
+            "D": "Le chimiotactisme peut être induit par les produits d'oxydation et de dégradation de la membrane.",
+            "E": "Certains produits issus du clivage de protéines bactériennes sont de puissants chimioattractants."
+        },
+        "correctAnswers": ["A", "C", "D", "E"],
+        "explanation": "A ✅ VRAI : C'est la définition du chimiotactisme : déplacement orienté selon un gradient chimique.\nC ✅ VRAI : C3a et C5a (anaphylatoxines) sont d'importants agents chimiotactiques recrutant les phagocytes.\nD ✅ VRAI : Les dérivés de l'acide arachidonique issus de la dégradation membranaire (leucotriène B4, PAF) sont chimiotactiques.\nE ✅ VRAI : Le motif fMLP (formyl-méthionyl-leucyl-phénylalanine), issu de protéines bactériennes, attire directement les phagocytes via le récepteur FPR.\nB ❌ FAUX : Des cellules non spécialisées de l'immunité (ex : cellules endothéliales) peuvent aussi répondre à des processus de chimiotactisme."
+    },
+
+    // Q64
+    {
+        "id": "UE6-JJH-19",
+        "text": "[Annales 2013 — Session 1, Q15] Concernant les intégrines :",
+        "options": {
+            "A": "Elles sont impliquées dans les interactions cellulaires fortes.",
+            "B": "Ce sont des hétérodimères alpha/bêta.",
+            "C": "La chaîne bêta des intégrines impliquées dans l'interaction phagocyte/endothélium est essentiellement de type bêta 2.",
+            "D": "CR3 et CR4 ont pour ligands certains facteurs du complément tels que iC3b et C3b.",
+            "E": "Les intégrines CR3 et CR4 sont exprimées par les monocytes et macrophages."
+        },
+        "correctAnswers": ["A", "B", "C", "D", "E"],
+        "explanation": "A ✅ VRAI : Les intégrines assurent l'adhésion forte après le roulement (rolling) médiée par les sélectines.\nB ✅ VRAI : Les intégrines sont toutes des hétérodimères non-covalents constitués d'une chaîne alpha et d'une chaîne bêta.\nC ✅ VRAI : Les leucocytes expriment principalement des intégrines à sous-unité bêta 2 (CD18) pour l'interaction avec l'endothélium (LFA-1 : CD11a/CD18 ; Mac-1 : CD11b/CD18).\nD ✅ VRAI : CR3 (Mac-1, CD11b/CD18) et CR4 (CD11c/CD18) servent de récepteurs pour les fragments du complément (iC3b principalement) pour faciliter la phagocytose par opsonisation.\nE ✅ VRAI : CR3 et CR4 sont exprimés par les phagocytes mononucléés (monocytes, macrophages) ainsi que par les neutrophiles."
+    },
+
+    // Q65
+    {
+        "id": "UE6-JJH-20",
+        "text": "[Annales 2013 — Session 1, Q16] Concernant le lipopolysaccharide (LPS) des bactéries Gram négatives :",
+        "options": {
+            "A": "Il s'agit d'un DAMP.",
+            "B": "C'est un puissant activateur de l'immunité innée.",
+            "C": "Sa présence dans le sang peut être à l'origine d'un choc septique.",
+            "D": "Le lipide A constitue un déterminant antigénique.",
+            "E": "La chaîne O du LPS est liée directement à la chaîne lipidique A."
+        },
+        "correctAnswers": ["B", "C"],
+        "explanation": "B ✅ VRAI : Le LPS, reconnu par TLR4, déclenche une très forte réponse inflammatoire systémique.\nC ✅ VRAI : L'endotoxémie (LPS dans le sang) peut déclencher un choc septique par libération massive de cytokines pro-inflammatoires (tempête cytokinique).\nA ❌ FAUX : Le LPS est un PAMP (motif associé au pathogène), pas un DAMP (signal de danger endogène).\nD ❌ FAUX : Le lipide A est responsable de l'activité endotoxique (toxicité). C'est la chaîne latérale O (antigène O) qui est la partie antigénique variable.\nE ❌ FAUX : La chaîne O n'est pas directement liée au lipide A ; ils sont séparés par une région centrale polysaccharidique (core oligosaccharidique)."
+    },
+
+    // Q66
+    {
+        "id": "UE6-JJH-21",
+        "text": "[Annales 2013 — Session 1, Q17] Concernant la MBL (Lectine liant le Mannose) :",
+        "options": {
+            "A": "Elle permet d'activer la voie classique du complément.",
+            "B": "Elle permet d'activer la voie alterne du complément.",
+            "C": "Elle permet d'opsoniser l'agent pathogène pour induire la phagocytose.",
+            "D": "Elle permet la reconnaissance de PAMPs de nature glucidique de type mannose/fucose.",
+            "E": "La reconnaissance des motifs glucidiques de surface des agents pathogènes par la MBL est conditionnée par l'espacement entre les glucides."
+        },
+        "correctAnswers": ["C", "D", "E"],
+        "explanation": "C ✅ VRAI : En se fixant aux sucres bactériens, la MBL agit comme opsonine et favorise la phagocytose par les macrophages.\nD ✅ VRAI : Elle reconnaît des sucres comme le mannose et le fucose présents sur les pathogènes (PRR sécrété de la famille des collectines).\nE ✅ VRAI : L'organisation membranaire et l'espacement des sucres sur le pathogène sont différents de ceux des cellules eucaryotes, ce qui permet à la MBL de discriminer le non-soi.\nA ❌ FAUX : La MBL active la « voie des lectines » du complément (distincte de la voie classique).\nB ❌ FAUX : La voie alterne est activée spontanément par l'hydrolyse de C3 — ce n'est pas le mécanisme de la MBL."
+    },
+
+    // Q67
+    {
+        "id": "UE6-JJH-22",
+        "text": "[Annales 2013 — Session 1, Q20] Concernant les TLRs :",
+        "options": {
+            "A": "Ce sont des protéines transmembranaires présentes uniquement à la surface des leucocytes.",
+            "B": "Les TLRs sont conservés chez de nombreux organismes vivants incluant les insectes.",
+            "C": "10 TLRs ont été identifiés chez l'homme.",
+            "D": "Les TLRs sont des PRRs de signalisation possédant un domaine intracellulaire contenant un site catalytique de type kinase.",
+            "E": "Le domaine intracellulaire des TLRs présente des homologies avec le domaine TIR de l'interleukine 1."
+        },
+        "correctAnswers": ["B", "C", "E"],
+        "explanation": "B ✅ VRAI : Les TLRs sont conservés de la drosophile à l'homme (Toll chez les insectes → TLR chez les vertébrés).\nC ✅ VRAI : 10 TLRs fonctionnels ont été identifiés chez l'homme (TLR1 à TLR10).\nE ✅ VRAI : Le domaine TIR porte ce nom justement à cause de son homologie avec le récepteur de l'IL-1.\nA ❌ FAUX : Les TLRs ne sont pas uniquement à la surface (présents dans les endosomes) et ne sont pas exclusifs aux leucocytes (présents sur les cellules épithéliales, endothéliales, etc.).\nD ❌ FAUX : Le domaine intracellulaire est un domaine TIR (Toll/IL-1 Receptor), qui n'est pas lui-même une kinase — il recrute des adaptateurs qui activent ensuite des kinases (IRAK-1, IRAK-4)."
+    },
+
+    // ===== ANNALES 2013 — SESSION 2 =====
+
+    // Q68
+    {
+        "id": "UE6-JJH-23",
+        "text": "[Annales 2013 — Session 2, Q4] Parmi les cellules suivantes, lesquelles correspondent à des cellules phagocytaires :",
+        "options": {
+            "A": "Neutrophile.",
+            "B": "NK.",
+            "C": "Éosinophile.",
+            "D": "Basophile.",
+            "E": "Mastocytes."
+        },
+        "correctAnswers": ["A", "C", "E"],
+        "explanation": "A ✅ VRAI : Les neutrophiles sont les phagocytes les plus abondants du sang.\nC ✅ VRAI : Les éosinophiles ont une capacité phagocytaire, dirigée notamment contre les parasites.\nE ✅ VRAI : Les mastocytes font de la phagocytose (macrophages, neutrophiles, éosinophiles et mastocytes = phagocytes).\nB ❌ FAUX : Les cellules NK sont des cellules tueuses cytotoxiques (immunité innée cytotoxique), elles ne font pas de phagocytose.\nD ❌ FAUX : Les basophiles ne font pas de phagocytose — ils ont un rôle dans les réponses allergiques et antiparasitaires (dégranulation)."
+    },
+
+    // Q69
+    {
+        "id": "UE6-JJH-24",
+        "text": "[Annales 2013 — Session 2, Q5] Concernant la phagocytose :",
+        "options": {
+            "A": "Elle nécessite la reconnaissance préalable de la cellule cible par l'intermédiaire de récepteurs.",
+            "B": "Elle nécessite l'action des anticorps.",
+            "C": "Elle nécessite l'intervention d'opsonines.",
+            "D": "Elle implique des déformations de la membrane cytoplasmique.",
+            "E": "Elle conduit toujours à l'élimination des agents infectieux."
+        },
+        "correctAnswers": ["A", "D"],
+        "explanation": "A ✅ VRAI : La reconnaissance directe (via les PRR endocytiques comme le MMR) ou indirecte (via les récepteurs Fc ou du complément pour les opsonines) est le prérequis à la phagocytose.\nD ✅ VRAI : La phagocytose implique des déformations majeures de la membrane cytoplasmique avec émission de pseudopodes (polymérisation de l'actine).\nB ❌ FAUX : Elle peut se faire sans anticorps via la reconnaissance directe des PAMPs par les PRR endocytiques.\nC ❌ FAUX : Elle peut également se réaliser sans opsonines par reconnaissance directe des motifs moléculaires du pathogène.\nE ❌ FAUX : Certains micro-organismes (ex : bactéries encapsulées, Mycobacterium tuberculosis) développent des stratégies d'échappement et résistent à l'élimination intraphagocytaire."
+    },
+
+    // Q70
+    {
+        "id": "UE6-JJH-25",
+        "text": "[Annales 2013 — Session 2, Q6] Concernant les granules primaires et secondaires des neutrophiles :",
+        "options": {
+            "A": "Ils renferment des protéines à activité lytique et bactéricide.",
+            "B": "Les granules secondaires sont plus gros et plus denses que les granules primaires.",
+            "C": "Ils renferment tous les deux du lysozyme.",
+            "D": "Les granules secondaires sont riches en collagénase.",
+            "E": "Les granules primaires sont riches en lactoferrine."
+        },
+        "correctAnswers": ["A", "C"],
+        "explanation": "A ✅ VRAI : Granules primaires (azurophiles) et secondaires (spécifiques) contiennent tous deux l'arsenal antimicrobien (enzymes hydrolytiques, peptides antimicrobiens).\nC ✅ VRAI : Le lysozyme est présent dans les deux types de granules des neutrophiles.\nB ❌ FAUX : Les granules primaires (azurophiles) sont les plus gros et les plus denses — les secondaires sont plus petits.\nD ❌ FAUX : La collagénase est caractéristique des granules tertiaires (gélatinase), et non des granules secondaires.\nE ❌ FAUX : La lactoferrine est présente dans les granules secondaires (spécifiques), pas dans les granules primaires."
+    },
+
+    // Q71
+    {
+        "id": "UE6-JJH-26",
+        "text": "[Annales 2013 — Session 2, Q7] Concernant les macrophages :",
+        "options": {
+            "A": "Ils sont 5 à 10 fois plus gros que les monocytes.",
+            "B": "Les cellules mésangiales sont des macrophages du rein.",
+            "C": "Ils possèdent une capacité phagocytaire accrue par rapport aux monocytes.",
+            "D": "Ils renferment des organites intracellulaires appelés phagosomes.",
+            "E": "Les macrophages au repos sont incapables de sécréter des protéines cytotoxiques."
+        },
+        "correctAnswers": ["A", "B", "C", "E"],
+        "explanation": "A ✅ VRAI : Le macrophage est 5 à 10 fois plus grand que le monocyte dont il dérive.\nB ✅ VRAI : Les cellules mésangiales du glomérule rénal sont des macrophages résidents du rein.\nC ✅ VRAI : La différenciation monocyte → macrophage s'accompagne d'une augmentation du nombre de lysosomes et d'une capacité phagocytaire accrue.\nE ✅ VRAI : La sécrétion de protéines cytotoxiques (ex : TNF-α, IL-1β en grande quantité) est le propre du macrophage ACTIVÉ — le macrophage au repos ne les sécrète pas en quantités significatives.\nD — Le phagosome est une vésicule d'endocytose transitoire formée pendant la phagocytose, pas un organite permanent (contrairement aux lysosomes)."
+    },
+
+    // Q72
+    {
+        "id": "UE6-JJH-27",
+        "text": "[Annales 2013 — Session 2, Q8] Concernant les molécules d'adhésion cellulaire (MAC) :",
+        "options": {
+            "A": "Elles sont exprimées uniquement de façon constitutive.",
+            "B": "Leur expression est restreinte aux leucocytes et aux cellules de l'endothélium vasculaire.",
+            "C": "Elles appartiennent à 4 familles de protéines (Sélectines, Mucines, Intégrines, Superfamille des Immunoglobulines).",
+            "D": "Leur fonction est d'immobiliser les leucocytes au niveau de l'endothélium vasculaire.",
+            "E": "Les MAC induisent la formation du complexe d'attaque membranaire."
+        },
+        "correctAnswers": ["C", "D"],
+        "explanation": "C ✅ VRAI : Les 4 grandes familles de molécules d'adhésion sont : les Sélectines, les Mucines (ligands des sélectines), les Intégrines et la Superfamille des Immunoglobulines (ICAM, VCAM, PECAM).\nD ✅ VRAI : L'adhésion (roulement puis arrêt/immobilisation) est la fonction principale des MAC pour permettre le passage trans-endothélial.\nA ❌ FAUX : L'expression de nombreuses MAC est inductible par l'inflammation (ex : E-sélectine, VCAM-1 apparaissent après activation endothéliale par les cytokines).\nB ❌ FAUX : Les MAC interviennent plus largement dans les interactions cellule-cellule et cellule-matrice (ex : interaction CPA-lymphocyte T pour la synapse immunologique).\nE ❌ FAUX : Le complexe d'attaque membranaire (CAM : C5b-9) est la voie finale du système du complément — sans rapport avec les molécules d'adhésion."
+    },
+
+    // Q73
+    {
+        "id": "UE6-JJH-28",
+        "text": "[Annales 2013 — Session 2, Q9] Concernant les sélectines impliquées dans l'interaction leucocyte-endothélium :",
+        "options": {
+            "A": "Les sélectines P et E sont exprimées au niveau des cellules endothéliales uniquement après activation.",
+            "B": "La sélectine L est exprimée par la plupart des leucocytes circulants.",
+            "C": "La sélectine P est exprimée immédiatement à la surface cellulaire après activation.",
+            "D": "Après activation, la sélectine P est néo-synthétisée.",
+            "E": "Les sélectines interagissent avec des ligands sialylés portés par des mucines."
+        },
+        "correctAnswers": ["A", "B", "C", "E"],
+        "explanation": "A ✅ VRAI : Les sélectines E et P ne sont exprimées sur l'endothélium qu'après activation (par les cytokines pro-inflammatoires ou les thrombines).\nB ✅ VRAI : La L-sélectine (CD62L) est constitutive sur la plupart des leucocytes circulants (neutrophiles, lymphocytes, monocytes).\nC ✅ VRAI : La P-sélectine est pré-stockée dans les corps de Weibel-Palade (endothélium) et les granules alpha (plaquettes), permettant une expression ultra-rapide (minutes) à la surface sans néosynthèse.\nE ✅ VRAI : Les ligands des sélectines sont des composés glucidiques sialylés (ex : Sialyl-Lewis X, PSGL-1) portés par des protéines de type mucine à la surface des leucocytes.\nD ❌ FAUX : C'est la E-sélectine qui nécessite une néosynthèse protéique (4-8 heures) après activation endothéliale. La P-sélectine provient de ses stocks intracellulaires préformés."
+    },
+
+    // Q74
+    {
+        "id": "UE6-JJH-29",
+        "text": "[Annales 2013 — Session 2, Q10] Parmi les molécules d'adhésion cellulaire suivantes, lesquelles appartiennent à la superfamille des immunoglobulines :",
+        "options": {
+            "A": "LFA-1.",
+            "B": "ICAM-1.",
+            "C": "VCAM-1.",
+            "D": "PECAM-1 (CD31).",
+            "E": "Sélectine-L."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B ✅ VRAI : ICAM-1 (CD54) appartient à la superfamille des IgG — c'est le ligand des intégrines LFA-1 et Mac-1.\nC ✅ VRAI : VCAM-1 (CD106) appartient à la superfamille des IgG — c'est le ligand de l'intégrine VLA-4.\nD ✅ VRAI : PECAM-1 (CD31) appartient à la superfamille des IgG et permet la diapédèse par interaction homotypique.\nA ❌ FAUX : LFA-1 (CD11a/CD18) est une intégrine (hétérodimère alpha/bêta) exprimée sur les leucocytes — pas un membre de la superfamille des IgG.\nE ❌ FAUX : La L-sélectine (CD62L) appartient à la famille des sélectines (lectines de type C à calcium)."
+    },
+
+    // ===== ANNALES 2014 — SESSION 1 =====
+
+    // Q75
+    {
+        "id": "UE6-JJH-30",
+        "text": "[Annales 2014 — Session 1, Q1] Concernant l'immunité innée :",
+        "options": {
+            "A": "Elle fait appel à des récepteurs invariants.",
+            "B": "Son apparition est concomitante à celle de l'immunité adaptative.",
+            "C": "Elle est capable de faire face à la diversité des microbes.",
+            "D": "Elle permet d'orienter la réponse adaptative.",
+            "E": "Elle fait intervenir uniquement des récepteurs exprimés à la membrane."
+        },
+        "correctAnswers": ["A", "C", "D"],
+        "explanation": "A ✅ VRAI : Les PRRs sont des récepteurs invariants germinaux (codés tels quels dans le génome, sans réarrangement somatique).\nC ✅ VRAI : En ciblant des PAMPs communs à de vastes groupes de microbes, l'immunité innée gère une grande diversité d'agents pathogènes.\nD ✅ VRAI : Les cytokines produites par la réponse innée (via les TLRs, etc.) polarisent la réponse adaptative (orientation Th1/Th2/Th17/Treg).\nB ❌ FAUX : L'immunité innée est apparue bien avant l'immunité adaptative dans l'évolution (présente chez tous les multicellulaires, y compris les invertébrés).\nE ❌ FAUX : Elle utilise aussi des récepteurs sécrétés (MBL, CRP) ou cytosoliques (NLRs, RIG-I, cGAS-STING)."
+    },
+
+    // Q76
+    {
+        "id": "UE6-JJH-31",
+        "text": "[Annales 2014 — Session 1, Q11] Concernant les cellules NK :",
+        "options": {
+            "A": "Ce sont des cellules lymphoïdes granulaires.",
+            "B": "Elles présentent un TCR alpha/bêta similaire à celui des lymphocytes T.",
+            "C": "Elles sont dépourvues de TCR gamma/delta.",
+            "D": "Elles expriment des récepteurs de type lectine.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["A", "C", "D"],
+        "explanation": "A ✅ VRAI : Les cellules NK appartiennent à la lignée lymphoïde et contiennent des granules cytoplasmiques (perforine, granzymes) — ce sont des « large granular lymphocytes ».\nC ✅ VRAI : Les NK n'expriment aucun TCR (ni alpha/beta ni gamma/delta) — leur reconnaissance repose sur un équilibre de récepteurs activateurs/inhibiteurs.\nD ✅ VRAI : Les NK expriment divers récepteurs activateurs/inhibiteurs, dont beaucoup appartiennent à la famille des lectines de type C (NKG2A, NKG2C, NKG2D, NKp44) ou à la famille des immunoglobulines (KIR).\nB ❌ FAUX : Les NK n'expriment pas de TCR — c'est précisément ce qui les distingue des lymphocytes T."
+    },
+
+    // Q77
+    {
+        "id": "UE6-JJH-32",
+        "text": "[Annales 2014 — Session 1, Q12] Concernant les cellules NK :",
+        "options": {
+            "A": "Elles sont actives contre les cellules infectées par des pathogènes intracellulaires.",
+            "B": "Elles sont actives contre les pathogènes extracellulaires.",
+            "C": "Elles renferment des granules cytoplasmiques à perforine.",
+            "D": "Elles ont une activité anti-tumorale.",
+            "E": "Aucune des propositions ci-dessus."
+        },
+        "correctAnswers": ["A", "C", "D"],
+        "explanation": "A ✅ VRAI : Les NK agissent contre les cellules du soi infectées par des agents intracellulaires (virus, certaines bactéries intracellulaires) qui ont perdu l'expression du CMH-I (stratégie d'évasion du « missing self »).\nC ✅ VRAI : Les NK utilisent des granules de perforine et de granzymes pour induire l'apoptose des cellules cibles.\nD ✅ VRAI : Les cellules tumorales surexpriment souvent des ligands activateurs (NKG2D-L) et réduisent l'expression du CMH-I, ce qui déclenche la cytotoxicité NK.\nB ❌ FAUX : L'action des NK cible la cellule infectée du soi (ou tumorale), pas le pathogène extracellulaire libre."
+    },
+
+    // Q78
+    {
+        "id": "UE6-JJH-33",
+        "text": "[Annales 2014 — Session 1, Q13] Remettre dans l'ordre chronologique la séquence suivante :\n\n1. Infection d'une cellule par un virus.\n2. Destruction d'une cellule infectée par les LT cytotoxiques.\n3. Modification du taux d'expression des molécules du CMH I.\n4. Destruction d'une cellule infectée par les NK.\n5. Production d'interférons.",
+        "options": {
+            "A": "1-2-3-4-5",
+            "B": "1-5-3-4-2",
+            "C": "1-4-5-3-2",
+            "D": "1-3-5-2-4"
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : L'ordre correct est 1→5→3→4→2 :\nÉtape 1 : Le virus infecte la cellule.\nÉtape 5 : La cellule infectée produit des interférons de type I (IFN-alpha/bêta) pour signaler l'infection aux cellules voisines et au système immunitaire.\nÉtape 3 : En stratégie d'évasion virale, le virus modifie/diminue l'expression du CMH-I à la surface de la cellule infectée.\nÉtape 4 : Cette perte de CMH-I (« missing self ») active les cellules NK qui détruisent très tôt la cellule infectée (réponse innée rapide).\nÉtape 2 : Plus tard (4-7 jours), la réponse adaptative se met en place et les lymphocytes T cytotoxiques (CD8+) prennent le relais."
+    },
+
+    // ===== ANNALES 2015 — SESSION 1 =====
+
+    // Q79
+    {
+        "id": "UE6-JJH-34",
+        "text": "[Annales 2015 — Session 1, Q1] Concernant le lipopolysaccharide (LPS) :",
+        "options": {
+            "A": "Il s'agit du PAMP le plus exprimé par les bactéries Gram positives.",
+            "B": "Il est reconnu par le TLR4.",
+            "C": "Il est reconnu par le TLR2.",
+            "D": "Sa présence dans le sang ne constitue pas un facteur de risque.",
+            "E": "Il induit la production de TNF-alpha par les phagocytes mononucléés."
+        },
+        "correctAnswers": ["B", "E"],
+        "explanation": "B ✅ VRAI : Le LPS est le ligand spécifique du TLR4 (en association avec CD14 et MD-2) — c'est la voie de reconnaissance paradigmatique.\nE ✅ VRAI : L'activation de TLR4 par le LPS déclenche la voie NF-kB conduisant à la libération de cytokines pro-inflammatoires (TNF-alpha, IL-1β, IL-6, IL-12) par les macrophages et monocytes.\nA ❌ FAUX : Le LPS caractérise la membrane externe des bactéries Gram négatives. Les bactéries Gram positives possèdent du peptidoglycane et de l'acide lipotéichoïque (reconnus par TLR2).\nC ❌ FAUX : TLR2 reconnaît le peptidoglycane des Gram+ et des lipoprotéines bactériennes, mais pas le LPS.\nD ❌ FAUX : L'endotoxémie (LPS dans le sang) est un facteur majeur de risque de choc septique et de défaillance multiviscérale."
+    },
+
+    // Q80
+    {
+        "id": "UE6-JJH-35",
+        "text": "[Annales 2015 — Session 1, Q8] Concernant la dégranulation des mastocytes :",
+        "options": {
+            "A": "Elle peut être induite par la simple liaison des IgE avec le récepteur FcεRI.",
+            "B": "Elle peut être induite par la liaison croisée (cross-linking) entre les IgE et le FcεRI.",
+            "C": "Le récepteur de haute affinité aux IgE (FcεRI) est constitué de 3 chaînes chez les mastocytes et les basophiles.",
+            "D": "L'action des anaphylatoxines peut contribuer à cette dégranulation.",
+            "E": "Elle peut résulter de l'action de divers médicaments tels que la codéine."
+        },
+        "correctAnswers": ["B", "D", "E"],
+        "explanation": "B ✅ VRAI : C'est la liaison croisée (cross-linking / pontage) des IgE fixées sur FcεRI par l'antigène multivalent qui déclenche le signal de dégranulation (agrégation des récepteurs et activation des tyrosine-kinases).\nD ✅ VRAI : C3a et C5a (anaphylatoxines) provoquent la dégranulation directe des mastocytes et basophiles via leurs récepteurs spécifiques (C3aR, C5aR).\nE ✅ VRAI : Certains médicaments (codéine, morphine, vancomycine) sont des histamino-libérateurs non spécifiques (dégranulation directe sans IgE).\nA ❌ FAUX : La simple liaison des IgE au FcεRI (chargement en IgE) ne suffit pas à déclencher la dégranulation — il faut obligatoirement le cross-linking par l'antigène.\nC ❌ FAUX : Le FcεRI est un tétramère composé de 4 chaînes : 1 chaîne alpha (liaison aux IgE), 1 chaîne bêta (signal) et 2 chaînes gamma (signal/ITAM) — pas 3."
+    },
+
+    // Q81
+    {
+        "id": "UE6-JJH-36",
+        "text": "[Annales 2015 — Session 1, Q14] Remettre dans l'ordre chronologique la séquence générale d'action de l'interféron bêta :\n\n1. Activation du facteur de transcription IRF3.\n2. Sécrétion de l'IFN-β.\n3. Infection d'un fibroblaste par un agent viral.\n4. Activation de la voie JAK/STAT.\n5. Fixation de l'IFN-β sur le récepteur IFNAR.\n6. Transcription des ISGs et induction de la réponse antivirale.",
+        "options": {
+            "A": "1-2-3-4-5-6",
+            "B": "3-1-2-5-4-6",
+            "C": "3-5-1-2-4-6",
+            "D": "3-1-4-2-5-6"
+        },
+        "correctAnswers": ["B"],
+        "explanation": "B ✅ VRAI : L'ordre correct est 3→1→2→5→4→6 :\nÉtape 3 : L'infection virale du fibroblaste est détectée par les PRR cytosoliques (TLR3, RIG-I, MDA5).\nÉtape 1 : La signalisation active la cascade TRIF/TBK1/IKKε qui phosphoryle IRF3 (facteur de transcription des IFN de type I).\nÉtape 2 : IRF3 actif induit la transcription et la sécrétion d'IFN-β (et IFN-α).\nÉtape 5 : L'IFN-β sécrété agit de façon autocrine (même cellule) et paracrine (cellules voisines) en se fixant sur IFNAR (récepteur hétérodimérique IFNAR1/IFNAR2).\nÉtape 4 : La fixation de l'IFN-β à IFNAR active la cascade JAK/STAT (JAK1/TYK2 → STAT1/STAT2 → ISGF3).\nÉtape 6 : ISGF3 migre au noyau, se fixe sur les ISRE et induit la transcription des ISGs (Interferon-Stimulated Genes), établissant l'état antiviral cellulaire."
+    }
+
 ];
 
 window.ALL_QCM_DATA["UE6"] = window.DATA_UE6;
-
