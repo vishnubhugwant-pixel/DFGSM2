@@ -1087,10 +1087,106 @@ window.DATA_UE2 = [
             "E": "Aucune des propositions ci-dessus n'est exacte."
         },
         "correctAnswers": ["B", "C", "D"],
-        "explanation": "B, C et D ✅ VRAIS :\n- B : L'index thérapeutique (IT = DL50 / DE50) compare la toxicité aiguë létale à la dose pharmacologiquement efficace ; plus l'index est élevé, plus le médicament est maniable et sûr.\n- C : Les études à doses réitérées (subaiguës 28-90 j, chroniques 6-9 mois) permettent de détecter les toxicités cumulatives d'organes, l'accumulation tissulaire et les perturbations biologiques retardées.\n- D : Le test d'Ames utilise des souches mutantes d'histidine de Salmonella typhimurium (ou E. coli) pour évaluer la capacité d'un xénobiotique (avec ou sans activation métabolique par une fraction hépatique S9) à induire des mutations réverses de l'ADN.\nA ❌ FAUX : L'évaluation toxicologique de la mortalité est réalisée sur des animaux sains pour mesurer la toxicité propre du principe actif.\nE ❌ FAUX : B, C et D sont exactes."
+    },
+
+    // ============================================================
+    // Pr. GONTHIER — Bases moléculaires et cellulaires de la pathologie de l'obésité (1/2)
+    // UE2.S3 Bases fondamentales en sciences médicales (2025-2026)
+    // 6 QCMs : indices 72 à 77
+    // ============================================================
+
+    // Q73 — UE2-GO-01 — Question 1 : Définition et diagnostic de l'obésité
+    {
+        "id": "UE2-GO-01",
+        "text": "Parmi les propositions suivantes concernant la définition et le diagnostic de l'obésité, laquelle ou lesquelles sont exactes ?",
+        "options": {
+            "A": "L'obésité est définie par l'OMS depuis 1997 comme une maladie métabolique chronique évolutive.",
+            "B": "Chez l'homme, on parle de situation d'obésité lorsque la masse grasse corporelle dépasse 20 % du poids total.",
+            "C": "Un Indice de Masse Corporelle (IMC) de 32 kg/m² correspond à une obésité de classe II.",
+            "D": "Le tour de taille est un indicateur de la masse grasse intra-abdominale (viscérale).",
+            "E": "Les seuils d'alerte pour le tour de taille sont définis à ≥ 102 cm chez l'homme et ≥ 88 cm chez la femme."
+        },
+        "correctAnswers": ["A", "D", "E"],
+        "explanation": "A, D et E ✅ VRAIS :\n- A : En 1997, l'Organisation Mondiale de la Santé (OMS) a officiellement reconnu l'obésité comme une maladie métabolique chronique évolutive, marquant un tournant épidémiologique et médical majeur.\n- D : Le tour de taille (mesuré à mi-distance entre le bord inférieur de la dernière côte et la crête iliaque) reflète fidèlement la masse grasse viscérale intra-abdominale, qui est la plus délétère sur le plan métabolique et cardiovasculaire.\n- E : Selon les critères de l'OMS et de l'ATP III, les seuils définissant l'obésité abdominale sont un tour de taille ≥ 102 cm chez l'homme et ≥ 88 cm chez la femme.\nB et C ❌ FAUX :\n- B : Chez l'homme, la masse grasse physiologique normale représente 10 à 20 % du poids corporel. On parle d'obésité lorsque la masse grasse dépasse 25 % chez l'homme (et > 35 % chez la femme).\n- C : Selon la classification de l'OMS :\n  • IMC 25 à 29,9 kg/m² : Surpoids\n  • IMC 30 à 34,9 kg/m² : Obésité de classe I (modérée) — donc 32 kg/m² est de classe I\n  • IMC 35 à 39,9 kg/m² : Obésité de classe II (sévère)\n  • IMC ≥ 40 kg/m² : Obésité de classe III (morbide / massive)."
+    },
+
+    // Q74 — UE2-GO-02 — Question 2 : Chirurgie bariatrique
+    {
+        "id": "UE2-GO-02",
+        "text": "Quels sont les critères et caractéristiques concernant l'éligibilité et la réalisation de la chirurgie bariatrique en France ?",
+        "options": {
+            "A": "Elle est accessible à tout patient ayant un IMC supérieur à 35 kg/m², sans autre condition.",
+            "B": "Elle est strictement interdite chez les femmes enceintes et les mineurs.",
+            "C": "Un patient avec un IMC de 39,99 kg/m² sans aucune comorbidité est automatiquement éligible.",
+            "D": "Le bypass gastrique est une chirurgie irréversible.",
+            "E": "La chirurgie bariatrique agit uniquement selon un principe de restriction de la quantité d'aliments."
+        },
+        "correctAnswers": ["B", "D"],
+        "explanation": "B et D ✅ VRAIS :\n- B : En France (recommandations HAS), la chirurgie bariatrique est formellement contre-indiquée chez les mineurs (< 18 ans, sauf dérogations exceptionnelles très encadrées) et chez la femme enceinte ou en projet gestationnel immédiat.\n- D : Le bypass gastrique (court-circuit gastrique en Y de Roux) modifie définitivement l'anatomie digestive en créant une petite poche gastrique anastomosée à une anse jéjunale exclue : c'est une intervention considérée comme irréversible (contrairement à l'anneau gastrique ajustable qui est réversible).\nA, C et E ❌ FAUX :\n- A & C : Pour un IMC compris entre 35 et 39,99 kg/m² (classe II), la chirurgie bariatrique n'est autorisée QU'EN PRÉSENCE d'au moins une comorbidité sévère associée (diabète de type 2, HTA non contrôlée, SAOS sévère, stéatohépatite non alcoolique, arthrose invalidante). Un patient avec un IMC de 39,99 kg/m² sans comorbidité n'est donc PAS éligible (le seuil sans condition de comorbidité est IMC ≥ 40 kg/m²).\n- E : La chirurgie bariatrique repose sur deux mécanismes : le principe de restriction (diminution du volume gastrique : anneau, sleeve gastrectomie) ET/OU le principe de malabsorption (court-circuit de l'intestin grêle diminuant l'assimilation des nutriments : bypass, dérivation biliopancréatique)."
+    },
+
+    // Q75 — UE2-GO-03 — Question 3 : Les différents tissus adipeux
+    {
+        "id": "UE2-GO-03",
+        "text": "À propos des différents types de tissus adipeux abordés dans le cours :",
+        "options": {
+            "A": "Le tissu adipeux brun a pour rôle de réguler la thermogenèse grâce à la protéine découplante UCP.",
+            "B": "Le tissu adipeux rose dérive du tissu adipeux brun sous l'effet du froid.",
+            "C": "Le tissu adipeux beige est capable de se comporter à la fois comme du tissu adipeux blanc et brun.",
+            "D": "Pendant la grossesse et l'allaitement, le tissu adipeux rose stocke des microgouttelettes de lait riche en triglycérides.",
+            "E": "Chez l'adulte humain, le tissu adipeux brun est le tissu graisseux majoritaire."
+        },
+        "correctAnswers": ["A", "C", "D"],
+        "explanation": "A, C et D ✅ VRAIS :\n- A : Le tissu adipeux brun (BAT) est très riche en mitochondries contenant la thermogénine ou protéine découplante UCP1 (Uncoupling Protein 1), qui dissipe le gradient électrochimique de protons sous forme de chaleur au lieu de synthétiser de l'ATP (thermogenèse sans frisson).\n- C : Le tissu adipeux beige (présent au sein des dépôts blancs) présente une grande plasticité phénotypique (« browning ») : il peut basculer d'un état de stockage de type blanc vers un phénotype thermogénique actif exprimant UCP1 sous l'effet du froid ou des catécholamines.\n- D : Le tissu adipeux rose provient d'une transdifférenciation des adipocytes blancs de la glande mammaire lors de la gestation et de la lactation ; il acquiert une machinerie sécrétoire stockant et sécrétant des gouttelettes lipidiques de lait.\nB et E ❌ FAUX :\n- B : Le tissu adipeux rose dérive du tissu adipeux BLANC mammaire sous l'influence hormonale de la grossesse (œstrogènes, prolactine), et non du tissu brun ni du froid.\n- E : Chez l'adulte humain, le tissu adipeux blanc est très largement majoritaire (> 95 % de la masse grasse totale). Le tissu brun, abondant chez le nouveau-né et les mammifères hibernants, régresse très fortement à l'âge adulte (vestiges au niveau supraclaviculaire, paravertébral et périrénal)."
+    },
+
+    // Q76 — UE2-GO-04 — Question 4 : Triglycérides et métabolisme
+    {
+        "id": "UE2-GO-04",
+        "text": "Concernant les triglycérides et la physiologie métabolique du tissu adipeux :",
+        "options": {
+            "A": "Un triglycéride est composé d'une molécule de glycérol estérifiée par trois acides aminés.",
+            "B": "Les triglycérides représentent environ 95 % des lipides alimentaires totaux.",
+            "C": "La combustion d'un gramme d'acide gras libère environ 4 kcal, soit autant que le glucose.",
+            "D": "Lors d'un jeûne prolongé, la lipolyse libère des acides gras et du glycérol dans le sang.",
+            "E": "Les acides gras libres issus de la lipolyse sont solubles dans le sang et montent directement au cerveau pour y être utilisés comme source d'énergie."
+        },
+        "correctAnswers": ["B", "D"],
+        "explanation": "B et D ✅ VRAIS :\n- B : Les triglycérides (ou triacylglycérols) constituent la forme prédominante des lipides ingérés (environ 95 % des graisses alimentaires), le reste étant formé de phospholipides, de cholestérol libre/estérifié et de vitamines liposolubles.\n- D : En période de jeûne ou sous stimulation adrénergique/glucagon, la cascade lipolytique (ATGL, lipase hormono-sensible LHS, MGL) hydrolyse les triglycérides intracellulaires et libère des acides gras non estérifiés (AGNE) et du glycérol dans la circulation générale.\nA, C et E ❌ FAUX :\n- A : Un triglycéride est formé d'un squelette de glycérol (trialcool) estérifié par 3 ACIDES GRAS (et non par des acides aminés).\n- C : L'oxydation complète d'un gramme d'acides gras / lipides libère 9 kcal/g (haute densité énergétique), alors que les glucides et les protéines ne libèrent que 4 kcal/g.\n- E : Les acides gras libres sont hydrophobes et insolubles dans l'eau : ils circulent dans le plasma transportés par l'ALBUMINE. De plus, ils ne traversent pas la barrière hémato-encéphalique en quantité suffisante et ne peuvent PAS être utilisés directement par les neurones cérébraux. Le cerveau utilise le glucose ou les corps cétoniques (acacétoacétate, β-hydroxybutyrate) synthétisés par le foie à partir des acides gras."
+    },
+
+    // Q77 — UE2-GO-05 — Question 5 : Outils de mesure et imagerie
+    {
+        "id": "UE2-GO-05",
+        "text": "Concernant les méthodes d'exploration clinique et paraclinique de l'adiposité :",
+        "options": {
+            "A": "L'impédancemétrie corporelle mesure la résistance des tissus riches en eau, comme le tissu graisseux, à un courant électrique.",
+            "B": "La méthode DEXA (absorptiométrie biphotonique à rayons X) permet de quantifier les dépôts graisseux selon leur localisation anatomique.",
+            "C": "La méthode DEXA permet également de mesurer la densité minérale osseuse.",
+            "D": "L'impédancemétrie corporelle est une méthode très coûteuse nécessitant un manipulateur spécialisé.",
+            "E": "L'imagerie par IRM permet de distinguer très clairement le tissu adipeux sous-cutané du tissu adipeux intra-viscéral."
+        },
+        "correctAnswers": ["B", "C", "E"],
+        "explanation": "B, C et E ✅ VRAIS :\n- B : La DEXA (Dual-energy X-ray Absorptiometry) est la méthode de référence clinique pour analyser la composition corporelle compartimentale (masse grasse, masse maigre) et sa distribution régionale (androïde vs gynoïde).\n- C : La DEXA est également l'examen gold standard de référence en rhumatologie pour l'ostéodensitométrie (mesure de la DMO pour le diagnostic de l'ostéoporose).\n- E : L'IRM (et la tomodensitométrie/scanner) offre une excellente résolution en contraste pour séparer nettement le tissu adipeux sous-cutané (SCAT) du tissu adipeux intra-abdominal/viscéral (VAT), dont l'excès conditionne le risque cardiovasculaire.\nA et D ❌ FAUX :\n- A : L'impédancemétrie bioélectrique (BIA) repose sur le principe que l'eau et les électrolytes de la masse maigre conduisent le courant électrique, tandis que le tissu adipeux (pauvre en eau) présente une RÉSISTANCE (impédance) élevée au passage du courant.\n- D : L'impédancemétrie est une méthode simple, rapide, non invasive, portative et de FAIBLE COÛT, utilisable en routine au cabinet médical sans manipulateur spécialisé (contrairement à la DEXA ou à l'IRM qui sont coûteuses et nécessitent du personnel dédié)."
+    },
+
+    // Q78 — UE2-GO-06 — Question 6 : Épidémiologie et causes de l'obésité
+    {
+        "id": "UE2-GO-06",
+        "text": "Parmi les propositions suivantes concernant l'épidémiologie, les profils cliniques et les déterminants de l'obésité :",
+        "options": {
+            "A": "À La Réunion, près de la moitié de la population (environ 47 %) est considérée en surcharge pondérale.",
+            "B": "L'origine purement génétique explique plus de 50 % des cas d'obésité dans le monde.",
+            "C": "L'obésité est systématiquement associée à une dysbiose du microbiote bactérien intestinal.",
+            "D": "L'obésité de profil « androïde » correspond à une accumulation de gras au niveau du petit bassin, des fesses et des cuisses.",
+            "E": "Le tissu adipeux blanc est considéré comme une véritable glande endocrine capable de sécréter des hormones."
+        },
+        "correctAnswers": ["A", "C", "E"],
+        "explanation": "A, C et E ✅ VRAIS :\n- A : Les enquêtes épidémiologiques régionales récentes (2020-2022) mettent en évidence qu'environ 47 % des Réunionnais sont en surcharge pondérale (surpoids + obésité, dont environ 16 à 17 % d'obésité).\n- C : Chez les patients avec obésité, on retrouve de façon constante une dysbiose intestinale (altération du ratio Firmicutes/Bacteroidetes, baisse de la diversité bactérienne, augmentation de la perméabilité intestinale et endotoxémie métabolique).\n- E : L'adipocyte blanc n'est pas un simple lieu de stockage inerte : c'est une véritable cellule endocrine qui sécrète de nombreuses adipokines (leptine, adiponectine, résistine), cytokines pro-inflammatoires (TNF-α, IL-6) et composants du système rénine-angiotensine.\nB et D ❌ FAUX :\n- B : Les obésités monogéniques (mutations du récepteur MC4R, leptine, POMC) ou purement génétiques sont rares et représentent MOINS DE 10 % des cas. L'obésité commune est une pathologie complexe et polygénique résultant d'interactions entre un terrain de susceptibilité génétique et un environnement obésogène (alimentation ultratransformée, sédentarité, sommeil, perturbateurs endocriniens).\n- D : L'obésité androïde (dite en « pomme ») prédomine sur la partie haute du corps (tronc, abdomen, cou) et est associée à un risque métabolique élevé. La répartition sur le petit bassin, les hanches, les fesses et les cuisses correspond au profil « GYNOÏDE » (dit en « poire »)."
     }
 
 ];
 
 window.ALL_QCM_DATA["UE2"] = window.DATA_UE2;
+
 
