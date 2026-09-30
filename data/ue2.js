@@ -1183,10 +1183,274 @@ window.DATA_UE2 = [
         },
         "correctAnswers": ["A", "C", "E"],
         "explanation": "A, C et E ✅ VRAIS :\n- A : Les enquêtes épidémiologiques régionales récentes (2020-2022) mettent en évidence qu'environ 47 % des Réunionnais sont en surcharge pondérale (surpoids + obésité, dont environ 16 à 17 % d'obésité).\n- C : Chez les patients avec obésité, on retrouve de façon constante une dysbiose intestinale (altération du ratio Firmicutes/Bacteroidetes, baisse de la diversité bactérienne, augmentation de la perméabilité intestinale et endotoxémie métabolique).\n- E : L'adipocyte blanc n'est pas un simple lieu de stockage inerte : c'est une véritable cellule endocrine qui sécrète de nombreuses adipokines (leptine, adiponectine, résistine), cytokines pro-inflammatoires (TNF-α, IL-6) et composants du système rénine-angiotensine.\nB et D ❌ FAUX :\n- B : Les obésités monogéniques (mutations du récepteur MC4R, leptine, POMC) ou purement génétiques sont rares et représentent MOINS DE 10 % des cas. L'obésité commune est une pathologie complexe et polygénique résultant d'interactions entre un terrain de susceptibilité génétique et un environnement obésogène (alimentation ultratransformée, sédentarité, sommeil, perturbateurs endocriniens).\n- D : L'obésité androïde (dite en « pomme ») prédomine sur la partie haute du corps (tronc, abdomen, cou) et est associée à un risque métabolique élevé. La répartition sur le petit bassin, les hanches, les fesses et les cuisses correspond au profil « GYNOÏDE » (dit en « poire »)."
+    },
+
+    // ============================================================
+    // Dr. A. OLICHON — Bases de toxicologie cellulaire et moléculaire
+    // UE2.S3 Bases fondamentales en sciences médicales (2025-2026)
+    // 17 QCMs : indices 78 à 94
+    // - Série 1 : Diapositives du cours (7 QCMs, indices 78 à 84)
+    // - Série 2 : Annales 2018-2023 (10 QCMs, indices 85 à 94)
+    // ============================================================
+
+    // Q79 — UE2-OL-TOX-01 — Diapositives p.29/30 : Toxicométrie (DL50, NOAEL, LOAEL, IT)
+    {
+        "id": "UE2-OL-TOX-01",
+        "text": "[Diapositives] À propos de la toxicométrie, on retrouve :",
+        "options": {
+            "A": "La détermination de la dose létale médiane DL50.",
+            "B": "La détermination de l'index thérapeutique pour les médicaments.",
+            "C": "La dose maximale pour laquelle aucun effet toxique ou nocif n'est observé (NOAEL).",
+            "D": "La dose maximale pour laquelle un effet toxique est observé (LOAEL).",
+            "E": "Aucune des réponses ci-dessus n'est vraie."
+        },
+        "correctAnswers": ["A", "B", "C"],
+        "explanation": "A, B et C ✅ VRAIS :\n- A : La DL50 (dose létale médiane provoquant la mort de 50 % des animaux testés lors d'une exposition aiguë) est un indicateur clé en toxicométrie pour comparer la toxicité intrinsèque des substances.\n- B : L'index thérapeutique (IT = DL50 / DE50) est un paramètre central en toxicologie préclinique et pharmacologique pour évaluer la marge de sécurité d'un composé.\n- C : Le NOAEL (No Observed Adverse Effect Level) est la dose maximale sans effet toxique ou nocif statistiquement observable.\nD et E ❌ FAUX :\n- D : Le LOAEL (Lowest Observed Adverse Effect Level) est la dose MINIMALE (et non maximale) pour laquelle un premier effet toxique ou indésirable est statistiquement observé."
+    },
+
+    // Q80 — UE2-OL-TOX-02 — Diapositives p.35 : Monitoring biologique
+    {
+        "id": "UE2-OL-TOX-02",
+        "text": "[Diapositives] Concernant le monitoring biologique :",
+        "options": {
+            "A": "Il comprend le dosage des métabolites dans le sang ou l'urine des personnes exposées.",
+            "B": "Il est utilisé pour évaluer l'exposition humaine réelle.",
+            "C": "Il comprend le dosage des toxiques dans les cours d'eau.",
+            "D": "Il comprend le dosage de la pollution de l'air.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["A", "B"],
+        "explanation": "A et B ✅ VRAIS :\n- A : Le monitoring (surveillance) biologique repose sur des prélèvements biologiques (sang, urine, air exhalé, phanères) pour doser le composé parent ou ses métabolites.\n- B : Il permet d'évaluer la dose interne effectivement absorbée et l'exposition humaine réelle en intégrant l'ensemble des voies de pénétration.\nC, D et E ❌ FAUX :\n- C et D : Le dosage dans les cours d'eau, l'air ambiant ou les sols correspond au « monitoring d'ambiance ou environnemental », et non au monitoring biologique."
+    },
+
+    // Q81 — UE2-OL-TOX-03 — Diapositives p.55 : Cytochromes P450
+    {
+        "id": "UE2-OL-TOX-03",
+        "text": "[Diapositives] À propos des cytochromes P450 :",
+        "options": {
+            "A": "Ce sont des enzymes de biotransformation de phase I.",
+            "B": "Ce sont des enzymes de biotransformation de phase II.",
+            "C": "Ils sont exprimés principalement dans les cellules sanguines.",
+            "D": "Ils peuvent être à l'origine du phénomène d'activation métabolique.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["A", "D"],
+        "explanation": "A et D ✅ VRAIS :\n- A : Les cytochromes P450 (CYP) appartiennent à la phase I (enzymes de fonctionnalisation catalysant des oxydations, réductions ou hydrolyses).\n- D : Les CYP450 peuvent transformer une substance pro-toxique inactive en un métabolite hautement réactif et toxique (bioactivation métabolique), comme pour le paracétamol (formation de NAPQI par CYP2E1) ou le benzo[a]pyrène (formation d'époxydes mutagènes).\nB, C et E ❌ FAUX :\n- B : La phase II correspond aux enzymes de conjugaison (UGT, SULT, GST, NAT).\n- C : Les cytochromes P450 sont très majoritairement exprimés dans le foie (microsomes du réticulum endoplasmique des hépatocytes), et non dans les cellules sanguines circulantes."
+    },
+
+    // Q82 — UE2-OL-TOX-04 — Diapositives p.55 : Métabolisme d'un xénobiotique
+    {
+        "id": "UE2-OL-TOX-04",
+        "text": "[Diapositives] Concernant le métabolisme d'un xénobiotique dans l'organisme :",
+        "options": {
+            "A": "Les réactions de transfert font partie de la phase I.",
+            "B": "Les réactions d'hydrolyse font partie de la phase II.",
+            "C": "La glucuronoconjugaison est une réaction de phase III.",
+            "D": "L'acétylation est une réaction de phase IV.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["E"],
+        "explanation": "E ✅ VRAI : Aucune des propositions n'est exacte.\nA, B, C et D ❌ FAUX :\n- A : Les réactions de transfert (méthyltransférase, sulfotransférase...) sont caractéristiques des conjugaisons de la PHASE II.\n- B : Les réactions d'hydrolyse (époxyde hydrolase, carboxylestérases) font partie des réactions de fonctionnalisation de la PHASE I.\n- C : La glucuronoconjugaison (via les UGT) est la voie majeure de conjugaison de la PHASE II (et non de la phase III).\n- D : L'acétylation (via les NAT) est également une réaction de PHASE II. La phase III correspond à l'élimination/efflux cellulaire via des transporteurs membranaires (P-gp, MRP, BCRP). Il n'existe pas de phase IV."
+    },
+
+    // Q83 — UE2-OL-TOX-05 — Diapositives p.55 : Enzymes de phase I de détoxification
+    {
+        "id": "UE2-OL-TOX-05",
+        "text": "[Diapositives] Concernant les enzymes de phase I de détoxification :",
+        "options": {
+            "A": "Les cytochromes P450 en font partie.",
+            "B": "L'époxyde hydrolase en fait partie.",
+            "C": "Elles sont fortement exprimées dans les microsomes hépatiques.",
+            "D": "Leur action peut varier en fonction de polymorphismes génétiques.",
+            "E": "Aucune des réponses ci-dessus n'est vraie."
+        },
+        "correctAnswers": ["A", "B", "C", "D"],
+        "explanation": "A, B, C et D ✅ VRAIS :\n- A : Les cytochromes P450 représentent le système enzymatique majeur de phase I.\n- B : L'époxyde hydrolase est une enzyme clé de phase I catalysant l'hydrolyse protectrice des époxydes réactifs en diols moins toxiques.\n- C : La fraction microsomale (réticulum endoplasmique) des hépatocytes héberge la majorité de ces enzymes.\n- D : Les polymorphismes génétiques (ex: CYP2D6, CYP2C9, CYP2C19) induisent une variabilité interindividuelle majeure (métaboliseurs lents, intermédiaires, rapides ou ultrarapides).\nE ❌ FAUX."
+    },
+
+    // Q84 — UE2-OL-TOX-06 — Diapositives p.55 : Phase II de détoxification
+    {
+        "id": "UE2-OL-TOX-06",
+        "text": "[Diapositives] Concernant la phase II de détoxification :",
+        "options": {
+            "A": "Elle vise à diminuer l'hydrosolubilité des xénobiotiques.",
+            "B": "La glucuronoconjugaison en est une voie majeure.",
+            "C": "Les glutathion-S-transférases sont des enzymes de phase II.",
+            "D": "Elle permet de greffer ou démasquer des groupements fonctionnels sur des toxiques.",
+            "E": "Aucune des réponses ci-dessus n'est vraie."
+        },
+        "correctAnswers": ["B", "C"],
+        "explanation": "B et C ✅ VRAIS :\n- B : La glucuronoconjugaison (catalysée par les UDP-glucuronosyltransférases UGT) est la voie de conjugaison quantitativement la plus importante et de haute capacité.\n- C : Les GST (Glutathion-S-Transférases) sont des enzymes clés de phase II qui conjuguent le glutathion réduit (GSH) aux métabolites électrophiles toxiques pour les neutraliser.\nA, D et E ❌ FAUX :\n- A : Le rôle fondamental du métabolisme de phase II est d'AUGMENTER l'hydrosolubilité (polarité) pour empêcher la réabsorption tubulaire rénale et favoriser l'excrétion urinaire ou biliaire.\n- D : Greffer ou démasquer de petits groupements fonctionnels (-OH, -NH2, -COOH, -SH) est le rôle de la PHASE I. La phase II greffe des molécules volumineuses hautement polaires (acide glucuronique, sulfate, glutathion)."
+    },
+
+    // Q85 — UE2-OL-TOX-07 — Diapositives p.63 : Composés toxiques & Index thérapeutique
+    {
+        "id": "UE2-OL-TOX-07",
+        "text": "[Diapositives] À propos des composés toxiques :",
+        "options": {
+            "A": "Les xénobiotiques sont tous des composés toxiques.",
+            "B": "Les xénobiotiques nécessitent toujours une bioactivation pour devenir toxiques.",
+            "C": "Les toxiques environnementaux sont biotransformés par des voies différentes des médicaments.",
+            "D": "Plus l'index thérapeutique des médicaments est élevé, plus il y a de risque de toxicité.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["E"],
+        "explanation": "E ✅ VRAI : Aucune des propositions n'est exacte.\nA, B, C et D ❌ FAUX :\n- A : Un xénobiotique est une substance étrangère à l'organisme vivant. Selon le principe de Paracelse, c'est la DOSE qui fait le poison ; un xénobiotique n'est pas toxique en soi s'il est à dose subtoxique.\n- B : De nombreux toxiques sont nocifs d'emblée sans bioactivation (acides/bases corrosifs, solvants membranaires, métaux lourds). La bioactivation n'est qu'un mécanisme particulier.\n- C : Les polluants de l'environnement utilisent les mêmes systèmes enzymatiques hépatiques et extra-hépatiques (CYP450, UGT, GST, transporteurs d'efflux) que les médicaments.\n- D : L'index thérapeutique (IT = DL50 / DE50) mesure la sécurité : plus il est ÉLEVÉ, plus la marge de sécurité est grande et moins le médicament est dangereux."
+    },
+
+    // Q86 — UE2-OL-TOX-08 — Annales 2018-2019 Q30 : Monitoring biologique
+    {
+        "id": "UE2-OL-TOX-08",
+        "text": "[Annales 2018-2019] En cas d'exposition d'une population à un produit toxique, le monitoring biologique inclut le dosage :",
+        "options": {
+            "A": "du produit dans le milieu ambiant (air, eau...).",
+            "B": "des métabolites du produit dans le milieu ambiant (air, eau...).",
+            "C": "du produit dans le sang et/ou l'urine des personnes exposées.",
+            "D": "des métabolites du produit dans le sang et/ou l'urine des personnes exposées.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["C", "D"],
+        "explanation": "C et D ✅ VRAIS :\n- C et D : Le monitoring biologique analyse des matrices biologiques humaines (sang, sérum, urine, cheveux) pour doser le produit parent non transformé et/ou ses métabolites de biotransformation, reflétant la dose interne absorbée.\nA et B ❌ FAUX :\n- A et B : Le dosage du toxique ou de ses produits dans le milieu ambiant (air, eau de boisson, cours d'eau, sol) constitue le MONITORING ENVIRONNEMENTAL (ou d'ambiance)."
+    },
+
+    // Q87 — UE2-OL-TOX-09 — Annales 2020-2021 Q18 : Principes généraux de toxicologie
+    {
+        "id": "UE2-OL-TOX-09",
+        "text": "[Annales 2020-2021] Concernant la toxicologie :",
+        "options": {
+            "A": "L'exposition à des toxiques est indépendante de l'individu.",
+            "B": "La toxicité peut être aiguë ou chronique.",
+            "C": "Les combinaisons de molécules peuvent avoir des effets additifs.",
+            "D": "Les génotoxiques peuvent entraîner une toxicité à long terme.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["B", "C", "D"],
+        "explanation": "B, C et D ✅ VRAIS :\n- B : La toxicité aiguë fait suite à une exposition brève/unique à forte dose, tandis que la toxicité chronique résulte d'expositions répétées à faibles doses au long cours.\n- C : Lors de poly-expositions (effet cocktail), les interactions peuvent être additives (somme des effets), synergiques (amplification supérieure à la somme) ou antagonistes.\n- D : Les agents génotoxiques altèrent le matériel génétique (ADN) sans seuil d'effet strict et peuvent induire des mutations, des cancers ou des effets reprotoxiques transmissibles à long terme.\nA ❌ FAUX : La toxicité est fortement dépendante de l'individu (variabilité génétique des enzymes du métabolisme, âge, sexe, pathologies, état nutritionnel)."
+    },
+
+    // Q88 — UE2-OL-TOX-10 — Annales 2021-2022 Q48 : Risque, danger et impact sanitaire
+    {
+        "id": "UE2-OL-TOX-10",
+        "text": "[Annales 2021-2022] À propos de l'exposition à des toxiques :",
+        "options": {
+            "A": "Le risque correspond à une probabilité d'exposition d'une population donnée.",
+            "B": "Le danger correspond au risque en facteur de l'exposition.",
+            "C": "Le danger correspond à la mise en évidence d'une toxicité potentielle d'un composé.",
+            "D": "Selon le danger, l'exposition et la proportion de population exposée, un impact sanitaire pourra être établi.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["C", "D"],
+        "explanation": "C et D ✅ VRAIS :\n- C : Le DANGER est une propriété biologique intrinsèque à la molécule : il traduit sa capacité à induire un dommage ou un effet toxique (cancérogène, neurotoxique, reprotoxique).\n- D : L'impact sanitaire sur une collectivité résulte de la combinaison du risque individuel et de l'effectif ou de la proportion de la population exposée (Impact sanitaire = Risque × Population exposée).\nA et B ❌ FAUX :\n- A : Le RISQUE est la probabilité d'occurrence d'un effet néfaste chez un individu ou une population résultant de l'exposition à un danger donné.\n- B : L'équation fondamentale est : RISQUE = DANGER × EXPOSITION. Sans exposition, le risque est nul quel que soit le danger intrinsèque."
+    },
+
+    // Q89 — UE2-OL-TOX-11 — Annales 2021-2022 Q49 : Toxicocinétique & élimination
+    {
+        "id": "UE2-OL-TOX-11",
+        "text": "[Annales 2021-2022] À propos de la toxicocinétique :",
+        "options": {
+            "A": "Les principales voies d'absorption lors d'intoxication aiguë sont les voies digestives, pulmonaires et cutanées.",
+            "B": "La toxicité chronique d'un composé peut être liée à un volume de distribution élevé.",
+            "C": "La métabolisation de xénobiotiques est une voie de détoxification.",
+            "D": "Les bases faibles excrétées par les glomérules rénaux sont fortement réabsorbées lors de l'acidification des urines.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["A", "B", "C"],
+        "explanation": "A, B et C ✅ VRAIS :\n- A : L'ingestion (voie digestive), l'inhalation (voie pulmonaire) et la voie cutanée (contact percutané) représentent les 3 voies d'absorption prépondérantes lors d'intoxications aiguës.\n- B : Un volume de distribution (Vd) très grand reflète une haute lipophilie et une séquestration tissulaire (tissu adipeux), empêchant une clairance rapide et favorisant la bioaccumulation et la toxicité chronique.\n- C : La métabolisation (phases I et II) est le mécanisme physiologique protecteur majeur de détoxification et d'élimination (même si des bioactivations peuvent survenir).\nD ❌ FAUX : À pH acide, une BASE FAIBLE se protonise sous forme ionisée (BH+). Sous cette forme chargée hydrophile, elle ne franchit plus les membranes des tubules par diffusion passive et n'est donc PAS réabsorbée : elle est au contraire piégée et éliminée dans les urines (piégeage ionique)."
+    },
+
+    // Q90 — UE2-OL-TOX-12 — Annales 2021-2022 Q50 : Monitoring biologique
+    {
+        "id": "UE2-OL-TOX-12",
+        "text": "[Annales 2021-2022] Concernant le monitoring biologique des xénobiotiques, il comprend le dosage :",
+        "options": {
+            "A": "Des toxiques dans les cheveux.",
+            "B": "Des métabolites dans les urines.",
+            "C": "De substances dans l'air exhalé.",
+            "D": "De génotoxiques dans l'alimentation.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["A", "B", "C"],
+        "explanation": "A, B et C ✅ VRAIS :\n- A : Les cheveux permettent une analyse rétrospective d'exposition cumulative sur plusieurs semaines à plusieurs mois (métaux lourds, drogues, toxiques organiques).\n- B : L'urine est le milieu biologique non invasif standard pour doser les métabolites de phase I et de phase II éliminés.\n- C : L'air alvéolaire exhalé permet de quantifier les composés volatils (alcool, hydrocarbures aromatiques, solvants organiques).\nD ❌ FAUX : Le dosage de toxiques dans les denrées alimentaires relève du contrôle environnemental et de la sécurité sanitaire des aliments, et non du monitoring biologique qui est réalisé exclusivement sur des échantillons d'origine humaine."
+    },
+
+    // Q91 — UE2-OL-TOX-13 — Annales 2021-2022 Q51 : Métabolisme de phase I et phase II
+    {
+        "id": "UE2-OL-TOX-13",
+        "text": "[Annales 2021-2022] Concernant le métabolisme des xénobiotiques :",
+        "options": {
+            "A": "Les réactions d'hydrolyse font partie de la phase I.",
+            "B": "Les réactions de transfert font partie de la phase II.",
+            "C": "La sulfoconjugaison est une réaction de phase I.",
+            "D": "L'acétylation est une réaction de phase II.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["A", "B", "D"],
+        "explanation": "A, B et D ✅ VRAIS :\n- A : Les hydrolyses (par les estérases, peptidases, époxyde hydrolases) sont des réactions de fonctionnalisation de phase I.\n- B : Les réactions catalysées par des transférases (SULT, UGT, GST, NAT) sont les réactions de conjugaison caractéristiques de la phase II.\n- D : L'acétylation (catalysée par les N-acétyltransférases NAT1 et NAT2) est une réaction de conjugaison de phase II.\nC ❌ FAUX : La sulfoconjugaison (catalysée par les sulfotransférases SULT) est une réaction de PHASE II (et non de phase I)."
+    },
+
+    // Q92 — UE2-OL-TOX-14 — Annales 2021-2022 Q52 : Toxicité du paracétamol
+    {
+        "id": "UE2-OL-TOX-14",
+        "text": "[Annales 2021-2022] À propos de la toxicité du paracétamol :",
+        "options": {
+            "A": "La toxicité du paracétamol implique sa bioactivation.",
+            "B": "Le métabolite toxique du paracétamol est le glutathion.",
+            "C": "La détoxification du paracétamol passe par la formation de N-Acétyl ParabenzoQuinone-Imine.",
+            "D": "La métabolisation du paracétamol induit la production d'espèces réactives oxygénées.",
+            "E": "Aucune des propositions ci-dessus n'est exacte."
+        },
+        "correctAnswers": ["A"],
+        "explanation": "A ✅ VRAI : Le paracétamol est un toxique indirect qui nécessite une bioactivation hépatique par les cytochromes P450 (principalement CYP2E1) pour être oxydé en un métabolite électrophile très toxique : le NAPQI (N-acétyl-p-benzoquinone imine).\nB, C, D et E ❌ FAUX :\n- B : Le glutathion (GSH) n'est pas le métabolite toxique, c'est la molécule protectrice hépatocytaire qui neutralise le NAPQI par conjugaison.\n- C : Le NAPQI est précisément le métabolite toxique nécrosant ; sa production correspond à la voie toxique et non à la détoxification.\n- D : L'événement primaire cytotoxique est la déplétion complète des stocks hépatiques de glutathion par liaison au NAPQI suivie de la liaison covalente du NAPQI aux protéines et macromolécules cellulaires."
+    },
+
+    // Q93 — UE2-OL-TOX-15 — Annales 2022-2023 Q25 : Exposition aux xénobiotiques & P-gp
+    {
+        "id": "UE2-OL-TOX-15",
+        "text": "[Annales 2022-2023] Concernant l'exposition aux xénobiotiques :",
+        "options": {
+            "A": "Les principales voies d'absorption lors d'intoxication aiguë sont les voies digestives, pulmonaires et cutanées.",
+            "B": "La diffusion passive dépend de la liposolubilité et du gradient de concentration.",
+            "C": "La diffusion des acides faibles est favorisée à pH acide.",
+            "D": "La distribution dans les graisses des molécules lipophiles diminue leur probabilité de bioaccumulation.",
+            "E": "Les protéines de transport d'efflux telles que la P-gp diminuent la distribution tissulaire des xénobiotiques."
+        },
+        "correctAnswers": ["A", "B", "C", "E"],
+        "explanation": "A, B, C et E ✅ VRAIS :\n- A : Ce sont les trois voies majeures d'absorption en toxicologie aiguë.\n- B : La diffusion passive transmembranaire simple est régie par la loi de Fick (gradient de concentration et liposolubilité / coefficient de partage).\n- C : À pH acide, un acide faible est sous forme non ionisée (AH), liposoluble et apolaire, ce qui favorise son passage transmembranaire passif.\n- E : Les pompes d'efflux actives de la famille ABC (comme la P-glycoprotéine / P-gp) rejettent les molécules vers le milieu extracellulaire (lumière intestinale, capillaires sanguins cérébraux, canalicules biliaires), réduisant ainsi leur imprégnation et distribution dans les tissus cibles.\nD ❌ FAUX : La séquestration des composés lipophiles dans le tissu adipeux AUGMENTE considérablement leur rétention corporelle, leur temps de demi-vie et leur bioaccumulation (ex: polluants organiques persistants)."
+    },
+
+    // Q94 — UE2-OL-TOX-16 — Annales 2022-2023 Q26 : Composés toxiques, synergie et inducteurs
+    {
+        "id": "UE2-OL-TOX-16",
+        "text": "[Annales 2022-2023] À propos des composés toxiques :",
+        "options": {
+            "A": "La toxicité peut résulter de l'effet synergique de l'exposition à plusieurs composés à des doses individuelles non dangereuses.",
+            "B": "Les inducteurs enzymatiques induisent une métabolisation accrue des xénobiotiques.",
+            "C": "La biotransformation des substances environnementales peut conduire à la formation de composés toxiques.",
+            "D": "L'additivité des effets de deux substances toxiques exacerbe moins l'effet toxique que la synergie.",
+            "E": "Le benzopyrène est une substance produite par métabolisation du paracétamol."
+        },
+        "correctAnswers": ["A", "B", "C", "D"],
+        "explanation": "A, B, C et D ✅ VRAIS :\n- A : L'effet cocktail / synergie permet à plusieurs molécules combinées de franchir le seuil de nocivité même si chacune est individuellement présente à une dose inférieure à sa dose sans effet observable (NOAEL).\n- B : L'induction enzymatique (synthèse accrue d'enzymes comme les CYP450) augmente la vitesse de biotransformation des substrats.\n- C : La bioactivation hépatique ou extra-hépatique peut convertir un polluant environnemental bénin en un métabolite hautement réactif toxique ou cancérigène.\n- D : L'additivité équivaut à la somme mathématique des effets (1 + 1 = 2), alors que la synergie démultiplie l'effet (1 + 1 > 2) ; elle exacerbe donc bien plus la réponse toxique globale.\nE ❌ FAUX : Le benzo[a]pyrène est un polluant environnemental classique (hydrocarbure aromatique polycyclique de combustion) ; il n'a aucun lien métabolique avec le paracétamol dont le métabolite réactif est le NAPQI."
+    },
+
+    // Q95 — UE2-OL-TOX-17 — Annales 2022-2023 Q27 : Toxicologie expérimentale, AOP & enfants
+    {
+        "id": "UE2-OL-TOX-17",
+        "text": "[Annales 2022-2023] À propos de la toxicologie expérimentale :",
+        "options": {
+            "A": "La dose maximale pour laquelle aucun effet toxique ou nocif n'est observé (NOAEL) est évaluée.",
+            "B": "La dose maximale pour laquelle un effet toxique est observé (LOAEL) est évaluée.",
+            "C": "La toxicologie étudie les voies de signalisations pouvant induire des dommages cellulaires ou tissulaires induits par les toxiques (adverse outcome pathway).",
+            "D": "La toxicologie s'intéresse à l'exposition chez les sujets sensibles, enfants, femmes enceintes et personnes âgées.",
+            "E": "Les intoxications chez l'enfant sont fréquemment liées à l'ingestion accidentelle de liquides."
+        },
+        "correctAnswers": ["A", "C", "D", "E"],
+        "explanation": "A, C, D et E ✅ VRAIS :\n- A : La détermination du NOAEL (dose sans effet adverse observable) est un paramètre central de la toxicologie réglementaire et de sécurité.\n- C : Les AOP (Adverse Outcome Pathways) décrivent la chaîne causale d'événements reliant la cible moléculaire initiale aux altérations cellulaires, tissulaires et à la toxicité au niveau de l'organisme entier.\n- D : Les populations vulnérables (pédiatrie, grossesse, gériatrie) possèdent des spécificités toxicocinétiques majeures nécessitant des facteurs de sécurité particuliers.\n- E : L'ingestion accidentelle de produits liquides domestiques (détergents, solvants, eau de Javel) est la cause la plus fréquente d'intoxication pédiatrique aiguë.\nB ❌ FAUX : Le LOAEL est la dose MINIMALE (et non maximale) pour laquelle un premier effet indésirable est statistiquement observé."
     }
 
 ];
 
 window.ALL_QCM_DATA["UE2"] = window.DATA_UE2;
+
 
 
