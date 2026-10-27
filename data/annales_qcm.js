@@ -1632,7 +1632,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "A",
       "C"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les modifications des fonctions rénales impliquent une adaptation de posologie. ; C) Une hypoalbuminémie peut être associée à un surdosage des certains médicaments."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La diminution de la clairance rénale liée à l'âge (baisse physiologique du DFG) modifie l'élimination des médicaments à élimination rénale, imposant une adaptation (réduction) de la posologie pour éviter le surdosage.\n• B (Faux) : La demi-vie plasmatique (T1/2) des médicaments éliminés par voie rénale ou hépatique est généralement augmentée chez le sujet âgé en raison de la diminution des fonctions d'élimination et des modifications du volume de distribution.\n• C (Vrai) : Chez le sujet âgé, la baisse de la synthèse protéique hépatique entraîne souvent une hypoalbuminémie. Moins de molécules médicamenteuses sont liées aux protéines plasmatiques, ce qui augmente la fraction libre active et le risque de surdosage toxique (ex: AVK).\n• D (Faux) : L'effet de premier passage hépatique est généralement diminué (ou altéré) chez le sujet âgé en raison de la réduction du flux sanguin hépatique et de la masse fonctionnelle hépatocytaire.\n• E (Faux) : Le volume de distribution des médicaments liposolubles est augmenté (et non diminué) chez le sujet âgé en raison de l'augmentation relative de la masse grasse (tandis que l'eau corporelle totale diminue, réduisant le Vd des médicaments hydrosolubles)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-02",
@@ -1648,7 +1648,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) La barrière hémato encéphalique est immature. ; D) Les T1/2 (demi-vie) d'élimination des médicaments sont augmentées."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le volume de distribution (notamment extracellulaire et hydrique total) est augmenté chez le nouveau-né par rapport à l'adulte (l'eau totale représente 75-80% du poids corporel).\n• B (Faux) : L'excrétion rénale (filtration glomérulaire et sécrétion tubulaire) est immature et réduite chez le nouveau-né, diminuant la clairance rénale.\n• C (Vrai) : La barrière hémato-encéphalique est immature et plus perméable chez le nouveau-né, ce qui majore le risque de passage de médicaments neurotoxiques dans le système nerveux central.\n• D (Vrai) : En raison de l'immature filtration rénale et du métabolisme hépatique ralenti, les demi-vies d'élimination (T1/2) des médicaments sont augmentées.\n• E (Faux) : Les cytochromes P450 hépatiques ne sont pas exprimés à des niveaux constants en période périnatale ; leur expression et leur activité varient considérablement selon les isoenzymes au cours de l'ontogenèse (certaines sont basales ou absentes, d'autres transitoires)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-03",
@@ -1663,7 +1663,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : C) La demi-vie plasmatique dépend de la clairance et du volume de distribution (T1/2 = 0,693 * Vd / Cl)."
+    "explanation": "Correction détaillée :\n• A (Faux) : La demi-vie plasmatique dépend à la fois du volume de distribution (Vd) et de la clairance (Cl), selon la formule fondamentale T1/2 = (0.693 × Vd) / Cl. Elle ne dépend pas uniquement du volume de distribution.\n• B (Faux) : La biodisponibilité (F) influence la concentration maximale (Cmax) et l'aire sous la courbe (ASC), mais la demi-vie d'élimination est une constante intrinsèque du devenir du principe actif dans l'organisme.\n• C (Vrai) : T1/2 est directement proportionnelle au volume de distribution (Vd) et inversement proportionnelle à la clairance (Cl).\n• D (Faux) : La clairance intervient, mais pas la biodisponibilité.\n• E (Faux) : La posologie détermine l'intensité de l'effet et les concentrations atteintes, mais ne modifie pas la demi-vie d'élimination du médicament."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-04",
@@ -1679,7 +1679,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "B",
       "C"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Au bout de 5 demi-vies du médicament ; C) Lorsque les valeurs de Cmax sont identique après chaque prise du médicament (état d'équilibre ou steady-state)."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'état d'équilibre (steady-state) est atteint au bout de 5 demi-vies (et non arbitrairement de 4 intervalles tau, sauf si l'intervalle d'administration tau correspond précisément à la demi-vie).\n• B (Vrai) : Il faut compter environ 5 demi-vies d'élimination pour que les concentrations s'accumulent et atteignent l'état d'équilibre stable (environ 97% du plateau de concentration).\n• C (Vrai) : À l'état d'équilibre, les concentrations maximales (Cmax) successives après chaque prise sont identiques d'une administration à l'autre.\n• D (Faux) : L'atteinte de l'équilibre est un phénomène purement pharmacocinétique (lié aux demi-vies T1/2) ; les Cmax et Cmin peuvent tout à fait se situer en dehors de l'intervalle thérapeutique si la posologie est mal adaptée.\n• E (Faux) : La clairance d'élimination reste une constante pour un médicament administré aux doses thérapeutiques habituelles (cinétique linéaire d'ordre 1), indépendamment du fait que l'équilibre soit atteint ou non."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-05",
@@ -1696,7 +1696,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il est recommandé pour certains médicaments immunodépresseurs. ; C) Il est justifié si l'index thérapeutique est étroit. ; E) Il est utile pour individualiser le traitement par des anti-cancéreux inhibiteurs de récepteurs à activité tyrosine kinase."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le suivi thérapeutique pharmacologique (STP) est fortement recommandé pour certains antibiotiques à marge thérapeutique étroite (ex: aminosides, glycopeptides) afin de prévenir la néphrotoxicité et l'ototoxicité.\n• B (Faux) : Pour les antivitamines K (AVK), on ne réalise pas de dosage de la concentration plasmatique du médicament lui-même, mais on mesure l'effet pharmacologique anticoagulant global via l'INR (International Normalized Ratio).\n• C (Vrai) : Le STP est pleinement indiqué et justifié lorsque la marge thérapeutique est étroite (distance faible entre la concentration efficace et la concentration toxique).\n• D (Faux) : Les anti-inflammatoires non stéroïdiens (AINS) ne font pas l'objet d'un suivi thérapeutique pharmacologique de routine.\n• E (Vrai) : Il est très utile en oncologie pour individualiser et optimiser les traitements par inhibiteurs de tyrosine kinase (ITK) afin de garantir l'efficacité tout en prévenant les toxicités sévères."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-06",
@@ -1713,7 +1713,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "B",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On retrouve des variabilités interindividuelles. ; B) Elle peut être due à des interactions médicamenteuses. ; D) On retrouve l'impact de la consommation d'alcool et de tabac."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il existe une forte variabilité interindividuelle dans la réponse aux médicaments (liée au polymorphisme génétique, à l'âge, au poids, à la fonction rénale et hépatique).\n• B (Vrai) : Les interactions médicamenteuses (induction ou inhibition enzymatique, compétition sur la liaison aux protéines plasmatiques) modifient la pharmacocinétique ou la pharmacodynamie.\n• C (Faux) : La variabilité n'augmente pas « de façon proportionnelle » (terme mathématique strict faux), même si la fréquence des variations et des événements iatrogènes augmente globalement chez le sujet âgé.\n• D (Vrai) : La consommation d'alcool (inducteur ou inhibiteur selon l'usage aigu ou chronique) et de tabac (inducteur puissant du CYP1A2) modifie l'effet des médicaments.\n• E (Faux) : La variabilité ne dépend pas uniquement du fond génétique ; elle dépend aussi de facteurs environnementaux, physiologiques, pathologiques et iatrogènes."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-07",
@@ -1730,7 +1730,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On parle de métaboliseurs lents. ; C) On parle de métaboliseurs rapides. ; E) On parle de l'effet inhibiteur enzymatique du jus de pamplemousse."
+    "explanation": "Correction détaillée :\n• A (Vrai) : On classe les patients selon leur profil métabolique en métaboliseurs lents (absence d'activité enzymatique normale par mutation délétère).\n• B (Faux) : Le terme « métaboliseurs anormaux » n'est pas la terminologie officielle ; la classification internationale distingue les métaboliseurs lents, intermédiaires, rapides (normaux) et ultrarapides.\n• C (Vrai) : On identifie des métaboliseurs rapides ou ultrarapides (souvent porteurs de duplications géniques conduisant à une surexpression de l'enzyme).\n• D (Faux) : Les hydrocarbures polycycliques de la fumée de tabac exercent un effet inducteur enzymatique puissant (notamment sur le CYP1A2), et non un effet inhibiteur.\n• E (Vrai) : Le jus de pamplemousse est un inhibiteur enzymatique puissant (inhibition irréversible du CYP3A4 intestinal par les furanocoumarines)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-08",
@@ -1747,7 +1747,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La toxicité est augmentée en cas de prise aiguë d'alcool. ; C) La détoxification implique la glutathion S transférase. ; D) La toxicité du paracétamol implique sa biotransformation en N-AcétylParabenzoQuinone-Imine (NAPQI)."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le métabolite toxique n'est pas sulfoconjugué ; la sulfo-conjugaison est une voie métabolique de phase II non toxique (voie d'élimination physiologique saturable). Le métabolite réactif toxique est le NAPQI.\n• B (Vrai) : La consommation chronique d'alcool majore la toxicité du paracétamol en induisant le CYP2E1 (qui surproduit le NAPQI) et en appauvrissant les réserves hépatiques en glutathion.\n• C (Vrai) : La détoxification du métabolite toxique (NAPQI) nécessite sa conjugaison au glutathion grâce aux glutathion-S-transférases (ou spontanément).\n• D (Vrai) : La toxicité hépatique du paracétamol en cas de surdosage est due à sa bioactivation oxydative en N-acétyl-p-benzoquinone imine (NAPQI).\n• E (Faux) : La toxicité aiguë du paracétamol induit une nécrose hépatocellulaire centro-lobulaire (cytolyse hépatique massive) et non pancréatique."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-09",
@@ -1763,7 +1763,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "A",
       "B"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils permettent de mesurer la dose maximale tolérée sur des sujets sains sans comorbidité. ; B) Ils visent à identifier la dose minimale avec des effets nocifs observables (LOAEL)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les essais de phase I sont les premiers essais réalisés chez l'homme, le plus souvent sur de petits groupes de volontaires sains (sans comorbidités), pour déterminer la tolérance clinique/biologique et la dose maximale tolérée (DMT).\n• B (Vrai) : Ils permettent d'identifier les effets indésirables initiaux et d'approcher la dose minimale avec effets nocifs observables (NOAEL / LOAEL transposées de l'animal).\n• C (Faux) : On ne recherche en aucun cas la « dose minimale létale » chez l'homme (ce qui serait formellement non éthique et illégal), mais la dose maximale tolérée thérapeutique.\n• D (Faux) : Les essais cliniques de phase I sont conduits chez l'être humain (les tests de toxicologie sur l'animal relèvent de la phase préclinique).\n• E (Faux) : La biodistribution tissulaire globale par autoradiographie ou radio-marquage est étudiée lors des étapes précliniques ; en phase I humaine, on mesure les paramètres pharmacocinétiques plasmatiques et urinaires."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-10",
@@ -1780,7 +1780,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Ils permettent de repérer des effets indésirables éventuels. ; C) Ils permettent de déterminer la dose thérapeutique optimale d'un médicament chez des patients. ; D) Ils permettent d'optimiser la posologie du médicament."
+    "explanation": "Correction détaillée :\n• A (Faux) : La phase II explore l'activité thérapeutique préliminaire et la dose efficace, mais la démonstration formelle et comparative de l'efficacité clinique à grande échelle relève des essais de phase III.\n• B (Vrai) : Ils permettent de repérer les effets indésirables fréquents sur une cohorte homogène de patients malades ciblés.\n• C (Vrai) : Ils visent à déterminer la dose thérapeutique optimale et le rythme d'administration chez les patients.\n• D (Vrai) : Ils contribuent à optimiser les schémas posologiques en vue des essais de phase III.\n• E (Faux) : Les essais de phase II ne sont pas des essais croisés par défaut ; il s'agit le plus souvent d'essais pilotes exploratoires (phase IIa) puis d'essais randomisés en groupes parallèles de recherche de dose (phase IIb)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-11",
@@ -1797,7 +1797,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le critère de jugement principal est un critère clinique. ; C) Ce sont des essais comparatifs, randomisés, avec procédure d'insu. ; D) Ils sont réalisés en vue de démontrer l'efficacité du candidat médicament."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le critère de jugement principal de la phase III est un critère clinique pertinent pour le patient (survie globale, rémission, guérison, amélioration des symptômes).\n• B (Faux) : Les essais de phase III comparent des patients malades soit à un groupe recevant un placebo, soit au traitement de référence existant (contrôle actif), et non à des sujets sains.\n• C (Vrai) : Ce sont des essais pivots comparatifs, randomisés, multicentriques, menés en double insu (en aveugle) chaque fois que c'est possible afin de minimiser les biais d'évaluation.\n• D (Vrai) : Leur objectif majeur est d'apporter la preuve statistique et clinique formelle de l'efficacité et de la sécurité du candidat médicament sur une large population.\n• E (Faux) : L'évaluation officielle finale du rapport bénéfice/risque en vue de la commercialisation est validée par les agences réglementaires du médicament (ANSM, EMA, FDA) lors de l'instruction du dossier d'Autorisation de Mise sur le Marché (AMM)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-12",
@@ -1813,7 +1813,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Leur activité est modulée par des aliments. ; D) Leur activité catalytique varie selon des polymorphismes génétiques."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les cytochromes P450 sont des enzymes de la famille des oxydases à fonction mixte (mono-oxygénases à hème), et non des transférases (les transférases correspondent aux enzymes de phase II de conjugaison).\n• B (Faux) : Ils ne sont pas tous exprimés à maturité dès la naissance ; leur expression varie selon l'ontogenèse (certains isoenzymes comme le CYP3A7 fœtal diminuent tandis que CYP3A4 ou CYP1A2 augmentent dans les semaines/mois post-nataux).\n• C (Vrai) : Leur activité peut être modulée par des substances alimentaires (ex: inhibition du CYP3A4 par le jus de pamplemousse, induction du CYP1A2 par les viandes grillées au charbon de bois ou les crucifères).\n• D (Vrai) : Leur activité varie considérablement d'un individu à l'autre en fonction de polymorphismes génétiques (allèles fonctionnels, non fonctionnels ou dupliqués).\n• E (Faux) : Leur expression n'est pas constante ni ubiquitaire (ils sont principalement et majoritairement exprimés dans les hépatocytes et les entérocytes de l'intestin grêle)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-13",
@@ -1831,7 +1831,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La toxicité peut résulter de l'effet additif de l'exposition à plusieurs composés à des doses individuelles non dangereuses. ; B) Les toxiques environnementaux sont biotransformés par des voies similaires à celles des médicaments. ; C) Les combinaisons de xénobiotiques peuvent avoir des effets cocktails. ; E) La toxicité peut être aiguë ou chronique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La toxicité peut résulter d'un effet additif ou cumulatif de plusieurs substances chimiques présentes à des doses individuellement inférieures à leur seuil de toxicité unitaire.\n• B (Vrai) : Les xénobiotiques environnementaux empruntent les mêmes voies métaboliques hépatiques (cytochromes P450, glucuronoconjugaison, sulfoconjugaison) que les médicaments.\n• C (Vrai) : L'exposition simultanée à plusieurs xénobiotiques peut engendrer des interactions et des « effets cocktails » avec des réponses synergiques.\n• D (Faux) : Tous les xénobiotiques ne sont pas intrinsèquement toxiques (un xénobiotique désigne simplement une substance chimique étrangère à un organisme vivant, ce qui englobe aussi la plupart des médicaments bien tolérés).\n• E (Vrai) : La toxicité peut être aiguë (conséquence d'une exposition unique brève et massive) ou chronique (résultant d'expositions répétées à long terme)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-14",
@@ -1847,7 +1847,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) La glucuronoconjugaison est une réaction de phase II. ; E) La métabolisation de xénobiotique est une voie de détoxification."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les réactions d'hydrolyse (par des estérases ou peptidases) font partie des réactions de fonctionnalisation de la Phase I.\n• B (Faux) : Les réactions de transfert (conjugaison) constituent la Phase II du métabolisme des xénobiotiques.\n• C (Faux) : L'acétylation (catalysée par les N-acétyltransférases NAT) est une réaction de Phase II (conjugaison).\n• D (Vrai) : La glucuronoconjugaison (catalysée par les UDP-glucuronosyltransférases UGT) est une voie quantitativement majeure de Phase II.\n• E (Vrai) : La métabolisation a pour finalité générale (sauf en cas de métabolite réactif bioactivé) de rendre les composés plus hydrosolubles (plus polaires) pour faciliter leur excrétion rénale ou biliaire, jouant ainsi un rôle de détoxification."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-15",
@@ -1865,7 +1865,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle s'intéresse aux polymorphismes des gènes codant des cibles des médicaments. ; B) Les métaboliseurs rapides présentent entre autres un nombre excessif d'allèles sauvages de gènes codant des enzymes de biotransformation. ; D) Elle est étudiée dès la phase clinique II du développement d'un médicament. ; E) Elle consiste entre autres à identifier les mutations de cibles de thérapies anticancéreuses."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La pharmacogénétique étudie l'impact de la variabilité génétique (polymorphismes, mutations) sur les gènes codant pour les enzymes de biotransformation, les transporteurs membranaires ou les récepteurs/cibles de médicaments.\n• B (Vrai) : Les métaboliseurs rapides (ou ultrarapides) possèdent des allèles fonctionnels normaux ou des duplications géniques qui augmentent la synthèse et l'activité des enzymes du métabolisme.\n• C (Faux) : Les métaboliseurs lents présentent des mutations avec perte de fonction (allèles non fonctionnels ou délétions), et non des duplications de gènes.\n• D (Vrai) : Les études pharmacogénétiques sont intégrées dès le développement clinique (phases II/III) pour anticiper et expliquer les variabilités d'efficacité et les risques d'effets indésirables.\n• E (Vrai) : Elle permet d'identifier des altérations moléculaires somatiques tumorales (ex: mutations activatrices d'EGFR ou BRAF V600E) pour prescrire des thérapies ciblées personnalisées."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-16",
@@ -1881,7 +1881,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "B",
       "C"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) se définit par un IMC supérieur ou égal à 30 kg/m² chez l'homme. ; C) se caractérise par un IMC supérieur ou égal à 40 kg/m² en cas d'obésité dite morbide."
+    "explanation": "Correction détaillée :\n• A (Faux) : Selon l'OMS, le seuil de surpoids est un IMC ≥ 25 kg/m² et le seuil d'obésité est un IMC ≥ 30 kg/m², indépendamment du sexe.\n• B (Vrai) : L'obésité clinique chez l'adulte est définie par un Indice de Masse Corporelle (IMC) ≥ 30 kg/m² (aussi bien chez l'homme que chez la femme).\n• C (Vrai) : L'obésité de grade 3 (dite morbide ou sévère) se caractérise bien par un IMC ≥ 40 kg/m².\n• D (Faux) : La chirurgie bariatrique est indiquée pour un IMC ≥ 40 kg/m² (ou ≥ 35 kg/m² en présence de comorbidités sévères comme le diabète de type 2 ou le SAOS), et non dès 30 kg/m².\n• E (Faux) : Même si un excès de masse grasse (> 30-35% chez la femme) caractérise l'adiposité, la définition et le diagnostic clinique standardisés de l'obésité reposent sur l'IMC."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-17",
@@ -1898,7 +1898,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "B",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une prise en charge des complications d'ordre somatique ; B) Une prise en charge des complications d'ordre psycho-social ; E) Une prescription diététique et une activité physique adaptée"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La prise en charge globale de l'obésité inclut impérativement le dépistage et le traitement des comorbidités associées (diabète de type 2, HTA, dyslipidémie, apnée obstructive du sommeil).\n• B (Vrai) : La prise en charge psychologique et sociale est indispensable (soutien face à la stigmatisation, traitement des troubles du comportement alimentaire).\n• C (Faux) : Les probiotiques et polyphénols font l'objet de recherches nutritionnelles, mais ne constituent pas le socle thérapeutique validé par les recommandations médicales.\n• D (Faux) : Les Bacteroidetes sont un phylum bactérien commensal de l'intestin (dont le ratio avec les Firmicutes est altéré dans l'obésité), mais on ne les prescrit pas comme « prébiotiques » (les prébiotiques sont des fibres non digestibles nourrissant les bactéries).\n• E (Vrai) : Les piliers fondamentaux de la prise en charge de l'obésité reposent sur la prescription diététique personnalisée et la reprise d'une Activité Physique Adaptée (APA)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-18",
@@ -1916,7 +1916,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Ils sont d'origine conjonctive pour les tissus dits viscéraux. ; C) Le tissu adipeux glutéal est un tissu sous-cutané. ; D) Le tissu adipeux mésentérique est un tissu omental. ; E) Le tissu adipeux responsable du stockage des triglycérides correspond au tissu adipeux blanc sous-cutané comme le tissu adipeux fémoral."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les tissus adipeux dérivent embryologiquement du mésenchyme (tissu conjonctif d'origine mésodermique) et non du tissu épithélial.\n• B (Vrai) : Les tissus adipeux viscéraux sont formés de tissu conjonctif spécialisé.\n• C (Vrai) : Le tissu adipeux glutéal est un tissu adipeux blanc sous-cutané (disposition gynoïde caractéristique).\n• D (Vrai) : Le tissu adipeux mésentérique correspond à un contingent de tissu adipeux viscéral / omental profond.\n• E (Vrai) : Le tissu adipeux blanc sous-cutané (glutéal, fémoral, abdominal) a pour rôle physiologique majeur le stockage d'énergie sous forme de triglycérides intracellulaires."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-19",
@@ -1932,7 +1932,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Un stress oxydatif causé par des dérégulations mitochondriales et du réticulum endoplasmique ; E) Une sous-production d'enzymes antioxydantes"
+    "explanation": "Correction détaillée :\n• A (Faux) : Dans l'obésité morbide, les adipocytes subissent une hypertrophie volumique majeure (et une hyperplasie de préadipocytes), et non une atrophie.\n• B (Faux) : La mutation du gène db code le récepteur de la leptine chez la souris db/db ; l'immense majorité des obésités humaines morbides sont polygéniques et non liées à cette mutation spécifique.\n• C (Faux) : Dans l'obésité morbide, la leptine est fortement surproduite (hyperleptinémie traduisant une résistance centrale à la leptine), tandis que l'adiponectine (hormone anti-inflammatoire et insulino-sensibilisante) est effondrée.\n• D (Vrai) : L'obésité morbide génère un stress oxydatif tissulaire important avec un dysfonctionnement des mitochondries et un stress du réticulum endoplasmique adipocytaire.\n• E (Vrai) : On observe localement un épuisement des défenses enzymatiques antioxydantes tissulaires, ce qui aggrave l'inflammation chronique à bas bruit du tissu adipeux."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-20",
@@ -1947,7 +1947,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
     "correctAnswers": [
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : E) Une surproduction de radicaux libres engendrant un stress du réticulum endoplasmique"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les adipocytes uniloculaires du tissu adipeux blanc stockent des triglycérides au sein d'une volumineuse vacuole lipidique centrale unique (et non des amas de cholestérol estérifié).\n• B (Faux) : La lipolyse est stimulée par le jeûne et les catécholamines (via les récepteurs bêta-adrénergiques) et fortement inhibée par l'insuline (le glucagon a un effet lipolytique très mineur chez l'homme).\n• C (Faux) : La résistine est une adipokine pro-inflammatoire surproduite par le tissu adipeux en situation d'obésité et d'insulinorésistance.\n• D (Faux) : La ghréline est une hormone orexigène synthétisée principalement par les cellules endocrines de l'estomac, et non par le tissu adipeux.\n• E (Vrai) : L'excès de lipides conduit à une surcharge de stockage (lipotoxicité) entraînant une production accrue d'espèces réactives de l'oxygène et un stress du réticulum endoplasmique."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-21",
@@ -1964,7 +1964,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "B",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle nécessite le récepteur membranaire de l'insuline à activité tyrosine kinase. ; B) Elle implique les protéines kinases médiatrices PI3K et Akt. ; D) Elle active la translocation du transporteur GLUT-4 du cytosol vers la membrane plasmique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'insuline se lie à la sous-unité alpha de son récepteur membranaire tétramérique, ce qui stimule l'activité tyrosine kinase intrinsèque de sa sous-unité bêta intracellulaire.\n• B (Vrai) : La phosphorylation des protéines substrats (IRS) recrute et active la PI3K (phosphatidylinositol 3-kinase), qui active à son tour la protéine kinase B (Akt/PKB).\n• C (Faux) : NF-κB est un facteur de transcription pro-inflammatoire ; la translocation de GLUT-4 dépend de la cascade PI3K/Akt et non de la voie NF-κB.\n• D (Vrai) : L'activation de la kinase Akt stimule la translocation vésiculaire des transporteurs de glucose GLUT-4 depuis le cytosol vers la membrane plasmique pour internaliser le glucose.\n• E (Faux) : L'action de l'insuline sur l'adipocyte mature est métabolique (lipogenèse, captage du glucose, inhibition de la lipolyse) ; elle ne contrôle pas directement la prolifération des adipocytes matures (qui ne se divisent plus)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-22",
@@ -1979,7 +1979,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
     "correctAnswers": [
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : E) L'indice de masse corporelle"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le poids absolu et le tour de taille sont des mesures anthropométriques informatives, mais le diagnostic formel et la classification de l'obésité reposent sur l'IMC.\n• B (Faux) : L'adiposité abdominale (tour de taille) mesure le risque cardiovasculaire et métabolique, mais ne définit pas à elle seule l'obésité.\n• C (Faux) : Le dosage des triglycérides fait partie du bilan métabolique et lipidique, pas du diagnostic de l'obésité.\n• D (Faux) : Ces paramètres constituent les critères du syndrome métabolique selon la FID/NCEP-ATPIII, non la définition de l'obésité.\n• E (Vrai) : L'Indice de Masse Corporelle (IMC = Poids en kg / Taille² en m) est le critère clinique standard international retenu par l'OMS pour poser le diagnostic d'obésité (IMC ≥ 30 kg/m²)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-23",
@@ -1996,7 +1996,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'histamine joue un rôle important au stade initial. ; C) Elle se déroule initialement dans un tissu conjonctif vascularisé. ; E) Elle contribue à la formation de l'oedème inflammatoire."
+    "explanation": "Correction détaillée :\n• A (Faux) : La phase vasculo-exsudative regroupe les modifications vasculaires (vasodilatation, congestion active) et liquidiennes (exsudation, œdème) ; la phase cellulaire (infiltrat leucocytaire) lui succède et s'y surajoute.\n• B (Vrai) : L'histamine, libérée immédiatement par les mastocytes dégranulés, induit une vasodilatation artériolaire précoce et une ouverture des jonctions endothéliales (hyperperméabilité capillaire).\n• C (Vrai) : La réaction inflammatoire aiguë vasculo-exsudative se déroule obligatoirement dans un tissu conjonctif vascularisé.\n• D (Vrai / Faux selon annale) : La stase sanguine et l'exsudation plasmatique favorisent la margination leucocytaire immédiatement suivie par la diapédèse (l'annale officielle retenait les items B, C et E comme caractéristiques cardinales de la phase vasculo-exsudative).\n• E (Vrai) : La fuite plasmatique trans-endothéliale de liquide riche en protéines forme l'œdème inflammatoire (exsudat)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-24",
@@ -2011,7 +2011,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
     "correctAnswers": [
       "B"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : B) Les principaux marqueurs de l'inflammation utilisés en diagnostique sont des protéines qui participent directement à la défense de l'organisme."
+    "explanation": "Correction détaillée :\n• A (Faux) : La VS (vitesse de sédimentation) est un marqueur indirect très sensible mais totalement non spécifique du syndrome inflammatoire biologique.\n• B (Vrai) : Les protéines de la réaction inflammatoire (PRI) produites par le foie (CRP, fibrinogène, haptoglobine, orosomucoïde) participent directement à la défense immunitaire innée, à l'opsonisation ou au remodelage tissulaire.\n• C (Vrai / Faux selon annale) : La CRP et la SAA présentent une cinétique rapide et une élévation majeure (multiplication par 100 à 1000), mais cette amplitude n'est pas partagée par toutes les PRI (ex: fibrinogène et haptoglobine ne sont multipliés que par 2 à 4), ce qui explique que l'annale officielle ait retenu uniquement B comme affirmation générale.\n• D (Faux) : Les marqueurs à cinétique intermédiaire ou lente (comme l'orosomucoïde, le fibrinogène ou la baisse de l'albumine) sont précieux pour surveiller l'évolution des inflammations subaiguës ou chroniques.\n• E (Faux) : L'orosomucoïde (alpha-1-glycoprotéine acide) a une cinétique semi-retardée (pic en 48 à 72 heures) ; le marqueur ultra-précoce par excellence est la CRP (pic dès 24h)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-25",
@@ -2029,7 +2029,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle est caractérisée par la prédominance de la réaction cellulaire. ; B) Après quelques jours d'évolution, le tissu de granulation inflammatoire s'enrichi de polynucléaires et de leucocytes mononucléées au sein d'une matrice extra cellulaire oedémateuse. ; D) C'est une inflammation productive caractérisée par la prolifération de fibroblastes. ; E) Elle permet d'assurer la détersion du foyer lésionnel par les phagocytes."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'inflammation granulomateuse est dominée par une réaction cellulaire organisée chronique, caractérisée par des macrophages activés modifiés, des cellules épithélioïdes et des cellules géantes multinucléées.\n• B (Vrai) : À la phase initiale, on retrouve une composante vasculo-exsudative avec un infiltrat cellulaire mixte comprenant des polynucléaires et des cellules mononucléées.\n• C (Faux) : Ce sont les monocytes sanguins circulants qui migrent dans le tissu et se différencient en macrophages tissulaires puis en cellules épithélioïdes (et non l'inverse).\n• D (Vrai) : L'inflammation granulomateuse est productive : elle stimule les fibroblastes et s'accompagne d'un dépôt de collagène (fibrose péricanalaire ou périphérique).\n• E (Vrai) : Elle a pour rôle biologique d'isoler, de séquestrer et de détruire des agents pathogènes ou particules non dégradables (ex: Mycobacterium tuberculosis, corps étrangers)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-26",
@@ -2047,7 +2047,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Une réaction inflammatoire peut se manifester d'emblée sous une forme chronique, la phase aiguë vasculo-exsudative passant alors inaperçue, étant brève et/ou asymptomatique. ; C) Elle n'a aucune tendance à la guérison spontanée. ; D) Elle peut être causée par une détersion incomplète. ; E) Une infection par le VHB (Virus de l'hépatite B) peut être la cause d'une hépatite chronique."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les phénomènes vasculo-exsudatifs intenses (rougeur, chaleur, œdème massif) prédominent dans l'inflammation aiguë, alors que l'inflammation chronique est marquée par la prédominance cellulaire et la fibrose.\n• B (Vrai) : Une inflammation chronique peut débuter de manière tout à fait insidieuse et silencieuse, sans être précédée d'une phase aiguë symptomatique reconnaissable.\n• C (Vrai) : L'inflammation chronique a une faible tendance à la résolution spontanée tant que le stimulus antigénique ou pathologique causal persiste.\n• D (Vrai) : Une détersion incomplète d'un foyer nécrotique ou la présence d'un corps étranger non résorbable entretient indéfiniment la chronicité du processus inflammatoire.\n• E (Vrai) : La persistance du virus de l'hépatite B (VHB) dans les hépatocytes est l'étiologie typique d'une hépatite chronique évoluant vers la cirrhose."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-27",
@@ -2064,7 +2064,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "B",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle succède progressivement à la phase vasculo-exsudative et est contemporaine de la phase cellulaire. ; B) Les phagocytes participent au processus d'élimination des tissus nécrosés. ; E) Elle s'accompagne d'une production de dérivés oxygénés toxiques pouvant entrainer une altération des tissus sains."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La détersion succède à la phase vasculo-exsudative et se déroule parallèlement à la phase cellulaire d'infiltrat leucocytaire.\n• B (Vrai) : Les cellules phagocytaires (macrophages et polynucléaires neutrophiles) assurent l'élimination des débris nécrotiques, des micro-organismes et de l'exsudat.\n• C (Vrai / Faux selon annale) : La phase de cicatrisation et de bourgeonnement charnu ne peut débuter efficacement que lorsque le foyer a été correctement détergé (l'annale officielle retenait A, B et E).\n• D (Faux) : La détersion n'est pas systématiquement externe ; elle est le plus souvent purement interne (phagocytose et drainage lymphatique) ; la détersion externe par fistulisation ou vomique n'est qu'une éventualité.\n• E (Vrai) : La détersion phagocytaire s'accompagne d'une explosion respiratoire (« burst oxydatif ») libérant des espèces réactives de l'oxygène et des protéases pouvant altérer les tissus sains environnants."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-28",
@@ -2080,7 +2080,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Elle agit comme une opsonine. ; D) Au cours de la réaction inflammatoire, son taux augmente dès la 6ème heure pour atteindre son maximum au bout de 24 à 48h."
+    "explanation": "Correction détaillée :\n• A (Faux) : La CRP présente une cinétique beaucoup plus rapide que le fibrinogène : elle commence à monter dès la 6e heure et double toutes les 8h, alors que le pic de fibrinogène ne survient qu'après 48 à 72 heures.\n• B (Faux) : La CRP n'est pas une protéine de la cascade du complément (c'est une pentraxine hépatique), bien qu'elle soit capable d'activer la voie classique du complément après liaison à son ligand.\n• C (Vrai) : La CRP agit comme une opsonine non spécifique qui se lie aux polysaccharides bactériens (phosphocholine) et facilite leur phagocytose par les macrophages.\n• D (Vrai) : Sa concentration sérique augmente dès la 6e heure post-agression tissulaire et atteint son pic maximal entre 24 et 48 heures.\n• E (Faux) : L'élévation de la CRP n'est pas synonyme d'infection bactérienne (elle augmente également lors de traumatismes tissulaires, de nécroses ischémiques, de rhumatismes inflammatoires ou de pathologies tumorales)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-29",
@@ -2095,7 +2095,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : C) La VS est modérément accélérée."
+    "explanation": "Correction détaillée :\n• A (Faux) : Une vitesse de sédimentation (VS) isolée à 35 mm à la 1ère heure indique une accélération modérée mais ne permet pas d'affirmer avec certitude un syndrome inflammatoire évolutif (la VS est influencée par l'anémie, l'âge, l'état d'hydratation ou une hypergammaglobulinémie polyclonale).\n• B (Faux) : Chez l'homme de moins de 50 ans, la valeur physiologique normale de la VS à la 1ère heure est généralement inférieure à 15 mm. Une valeur de 35 mm est donc anormale.\n• C (Vrai) : Une VS à 35 mm à la 1ère heure correspond à une élévation modérée de la vitesse de sédimentation.\n• D (Faux) : L'accélération de la VS est totalement non spécifique ; elle ne permet en aucun cas d'affirmer l'origine bactérienne d'une infection.\n• E (Faux) : La lecture à la 2e heure fait partie intégrante de la méthode de Westergren et permet de calculer l'index de Katz."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-30",
@@ -2112,7 +2112,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) fait intervenir des médiateurs chimiques locaux et généraux. ; C) aboutit habituellement à une réparation tissulaire. ; D) peut favoriser le développement d'une sclérose."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'inflammation fait intervenir des médiateurs chimiques locaux (amines vasoactives, eicosanoïdes, cytokines) et des réponses systémiques générales (fièvre hypothalamique, synthèse hépatique des PRI, leucocytose médullaire).\n• B (Faux) : L'inflammation peut être déclenchée par des causes non infectieuses variées (traumatismes physiques, brûlures thermiques, ischémie tissulaire, réactions allergiques, maladies auto-immunes).\n• C (Vrai) : L'issue physiologique de la réaction inflammatoire aiguë est la restitution tissulaire complète (ad integrum) ou la cicatrisation (réparation conjonctive fibreuse).\n• D (Vrai) : La persistance et la chronicisation de l'inflammation conduisent à une stimulation des myofibroblastes et à une accumulation anormale de matrice extracellulaire (fibrose/sclérose).\n• E (Faux) : L'aspect morphologique et histopathologique de l'inflammation varie considérablement selon l'organe atteint (ex: poumon, foie, rein) et la nature de l'agresseur."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-31",
@@ -2128,7 +2128,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Une immunohistochimie pour la détection de la perte d'expression de protéines du système du MisMatch Repair (MMR) ; D) Une recherche de la mutation somatique du gène KRAS"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le test de recherche de sang occulte dans les selles (Hemoccult / test immunologique fécal) est un examen de dépistage de masse chez le sujet asymptomatique, et non un examen d'oncologie moléculaire chez un patient porteur d'un cancer métastatique avéré.\n• B (Faux) : La recherche de mutations activatrices du récepteur EGFR est réalisée dans le cancer bronchique non à petites cellules ; dans le cancer colorectal métastatique, on teste les oncogènes effecteurs d'aval (KRAS, NRAS, BRAF).\n• C (Vrai) : Chez un patient jeune (40 ans) présentant un cancer colorectal, la recherche d'une instabilité microsatellitaire (statut MSI / phénotype dMMR) par immunohistochimie des protéines de réparation de l'ADN (MLH1, MSH2, MSH6, PMS2) est systématique pour dépister un syndrome de Lynch et guider l'immunothérapie.\n• D (Vrai) : La recherche de mutations somatiques des gènes KRAS et NRAS (exons 2, 3 et 4) est indispensable et systématique : la présence d'une mutation confère une résistance intrinsèque aux anticorps monoclonaux anti-EGFR (cétuximab, panitumumab).\n• E (Faux) : La recherche de mutations constitutionnelles des gènes BRCA1 et BRCA2 relève de la prédisposition héréditaire aux cancers du sein et de l'ovaire, pas de la prise en charge standard du cancer colorectal."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-32",
@@ -2144,7 +2144,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Séquençage nouvelle génération ; E) PCR avec des sondes spécifiques des séquences mutées et non mutées"
+    "explanation": "Correction détaillée :\n• A (Faux) : La FISH (hybridation in situ en fluorescence) interphasique sert à détecter des anomalies chromosomiques de structure ou de nombre (translocations, amplifications de gènes comme HER2, délétions), mais n'a pas la résolution pour détecter une mutation ponctuelle d'un seul nucléotide comme G12V.\n• B (Faux) : L'immunohistochimie met en évidence des protéines tissulaires ; bien qu'il existe quelques anticorps dirigés contre des mutations spécifiques (comme BRAF V600E), le génotypage de référence de KRAS repose sur la biologie moléculaire de l'ADN.\n• C (Faux) : La puce CGH (hybridation génomique comparative) détecte les gains ou pertes de matériel chromosomique (variations du nombre de copies CNV), pas les mutations nucléotidiques ponctuelles.\n• D (Vrai) : Le séquençage à haut débit de nouvelle génération (NGS - Next Generation Sequencing) permet d'identifier précisément et simultanément toutes les mutations ponctuelles de l'oncogène KRAS.\n• E (Vrai) : Les techniques de PCR spécifique d'allèle (ou PCR par allèle-spécifique / sondes TaqMan) permettent de cibler et de discriminer spécifiquement la mutation G12V."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-33",
@@ -2163,7 +2163,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A, B, C, D, E (Toutes les propositions sont exactes)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La présence d'une mutation activatrice sur un oncogène (ex: addiction oncogénique) constitue un biomarqueur prédictif majeur de réponse positive à un traitement ciblé inhibant cette voie.\n• B (Vrai) : À l'inverse, une mutation activatrice d'un effecteur en aval (comme les mutations de KRAS ou NRAS) est un facteur prédictif de résistance aux thérapies ciblant le récepteur en amont (anti-EGFR).\n• C (Vrai) : Dans les adénocarcinomes pulmonaires, les mutations activatrices du domaine kinase de l'EGFR prédisent une sensibilité élevée aux inhibiteurs de tyrosine kinase de l'EGFR (ex: osimertinib).\n• D (Vrai) : L'apparition de la mutation secondaire T790M sur l'exon 20 de l'EGFR est un mécanisme classique conférant une résistance acquise aux ITK de 1ère et 2e génération.\n• E (Vrai) : Le concept de thérapie « agnostique de l'histologie » (tumor-agnostic) permet de traiter des tumeurs de localisations primitives très différentes avec la même molécule si elles partagent la même altération moléculaire oncogénique cible (ex: fusions NTRK, déficit MMR)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-34",
@@ -2179,7 +2179,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "A",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Immunohistochimie anti-PDL1 ; E) Recherche d'une mutation du gène BRAF (notamment BRAF V600E)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'évaluation immunohistochimique de l'expression tumorale de PD-L1 peut être réalisée pour orienter ou compléter la décision de traitement par inhibiteurs de points de contrôle immunitaire (anti-PD-1 / anti-CTLA-4).\n• B (Faux) : L'EGFR n'est pas une cible thérapeutique dans le mélanome malin cutané ; les anticorps anti-EGFR n'y ont aucune efficacité.\n• C (Faux) : Le séquençage du gène EGFR n'a aucune indication ni utilité clinique dans le mélanome cutané.\n• D (Faux) : L'analyse de l'oncogène KRAS est indiquée dans les adénocarcinomes colorectaux, pancréatiques et bronchiques, mais pas dans le mélanome.\n• E (Vrai) : La recherche d'une mutation somatique de l'oncogène BRAF au codon 600 (mutation V600E ou V600K dans l'exon 15) est obligatoire et systématique dans le mélanome métastatique pour prescrire l'association d'un inhibiteur de BRAF et d'un inhibiteur de MEK."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-35",
@@ -2196,7 +2196,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Un facteur prédictif à une réponse thérapeutique ciblée X est mis en évidence en comparant selon le statut du biomarqueur la réponse des patients recevant la thérapeutique ciblée X par rapport à ceux recevant un traitement standard non ciblé. ; C) La mise en évidence d'un biomarqueur pronostique se fait en comparant les courbes de survie des patients présentant ce biomarqueur et ceux ne le présentant pas. ; D) La mise en évidence d'un biomarqueur prédictif se fait en comparant les courbes de survie des patients présentant ce biomarqueur et ceux ne le présentant pas."
+    "explanation": "Correction détaillée :\n• A (Faux) : Un facteur pronostique renseigne sur l'évolution naturelle de la pathologie et la survie globale d'un patient indépendamment du traitement administré, ou sous traitement standard uniforme (et non en comparant la réponse relative entre deux traitements distincts, ce qui définit un biomarqueur prédictif).\n• B (Vrai) : Un facteur prédictif permet d'anticiper la probabilité d'efficacité ou de toxicité d'un traitement spécifique en fonction du statut du biomarqueur chez le patient.\n• C (Vrai) : Un biomarqueur pronostique discrimine significativement les courbes de survie (sans progression ou globale) de deux populations de patients recevant le même traitement de référence.\n• D (Vrai) : Sur le plan biostatistique, la validation d'un biomarqueur prédictif repose sur la démonstration d'un terme d'interaction significatif entre le statut du biomarqueur et le type de traitement.\n• E (Faux) : Un même biomarqueur peut parfaitement posséder une double valeur pronostique et prédictive (par exemple, le statut HER2 amplifié dans le cancer du sein confère un pronostic péjoratif mais prédit une réponse majeure au trastuzumab)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-36",
@@ -2214,7 +2214,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) présentent des altérations aboutissant à une perte de leur fonction dans les cellules tumorales. ; C) Les mutations qui les affectent sont le plus souvent récessives et doivent alors toucher les deux allèles. ; D) peuvent être inactivés au niveau transcriptionnel par hyper-méthylation du promoteur du gène. ; E) peuvent être inhibés au niveau post-transcriptionnel, notamment par des microARN qui entraînent la dégradation des ARNm ou bloquent leur traduction."
+    "explanation": "Correction détaillée :\n• A (Faux) : Tous les suppresseurs de tumeurs ne sont pas des enzymes de réparation de l'ADN ; certains contrôlent les points de contrôle du cycle cellulaire (comme RB1), induisent l'apoptose ou maintiennent l'inhibition de contact et l'adhésion cellulaire (comme CDH1/E-cadhérine).\n• B (Vrai) : Dans la carcinogenèse, les gènes suppresseurs de tumeurs subissent des altérations avec perte de fonction (inactivation biallélique).\n• C (Vrai) : Selon la théorie des « deux coups » de Knudson, l'effet oncogénique des suppresseurs de tumeurs est récessif au niveau cellulaire : il nécessite l'inactivation des deux allèles parentaux (mutations, délétions, perte d'hétérozygotie).\n• D (Vrai) : L'inactivation d'un gène suppresseur de tumeurs peut être d'origine épigénétique, notamment par hyperméthylation anormale des îlots CpG situés au niveau de son promoteur.\n• E (Vrai) : La surexpression de certains microARN oncogènes (oncomiRs) peut réprimer la traduction des ARN messagers de gènes suppresseurs de tumeurs, conduisant à leur extinction fonctionnelle."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-37",
@@ -2232,7 +2232,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les cellules immortalisées sont indépendantes vis-à-vis des signaux intrinsèques et extérieurs qui régulent la mort cellulaire. ; B) La transformation cellulaire entraine l'expansion clonale de cellules présentant des altérations cytologiques. ; D) La néo-angiogenèse est nécessaire à la croissance des tumeurs solides seulement au-delà d'un volume d'environ 1 mm³. ; E) Les capacités invasives et métastatiques sont liées notamment à l'altération de protéases, de molécules d'adhésion et des capacités migratoires des cellules cancéreuses."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'immortalisation cellulaire confère une capacité réplicative illimitée, notamment par réactivation de la télomérase et échappement aux voies de sénescence réplicative.\n• B (Vrai) : La transformation tumorale conduit à une instabilité génomique et à une sélection clonale progressive de cellules hautement prolifératives et atypiques.\n• C (Faux) : Les cellules cancéreuses transformées perdent l'inhibition de contact, ce qui leur permet de continuer à proliférer en s'empilant en couches multiples au lieu de s'arrêter à confluence monocouche.\n• D (Vrai) : Au-delà d'un volume tumoral d'environ 1 à 2 mm³, la diffusion passive d'oxygène et de nutriments devient insuffisante ; la néo-angiogenèse tumorale (sécrétion de VEGF) devient indispensable à la poursuite de la croissance tumorale.\n• E (Vrai) : La dissémination métastatique nécessite la dégradation de la matrice extracellulaire par des métalloprotéinases (MMP), la perte des jonctions d'adhésion intercellulaire (extinction de l'E-cadhérine) et l'acquisition d'un phénotype migratoire et invasif."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-38",
@@ -2250,7 +2250,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) sont des régulateurs physiologiques de la croissance cellulaire qui présentent un potentiel transformant en cas d'activation anormale. ; B) peuvent être activés par des translocations chromosomiques qui aboutissent à des fusions géniques. ; D) peuvent être activés par changement d'un seul nucléotide, entrainant une activation constitutive de la protéine codée. ; E) La protéine codée par un proto-oncogène peut être suractivée en absence d'anomalie du gène lui-même, par exemple par phosphorylation anormale."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les proto-oncogènes sont des gènes cellulaires normaux contrôlant la prolifération, la différenciation ou la survie cellulaire, dont la mutation activatrice (gain de fonction) les convertit en oncogènes favorisant la cancérogenèse.\n• B (Vrai) : Certaines translocations chromosomiques créent un gène de fusion codant une protéine chimérique hyperactive à activité kinase constitutive (ex: fusion BCR-ABL dans la leucémie myéloïde chronique).\n• C (Faux) : Une translocation n'altère pas obligatoirement la séquence codante de la protéine ; elle peut juxtaposer le proto-oncogène intact à un promoteur très fort (ex: translocation t(8;14) plaçant l'oncogène MYC sous le promoteur des immunoglobulines dans le lymphome de Burkitt).\n• D (Vrai) : Une mutation ponctuelle gain de fonction peut verrouiller la protéine codée dans une conformation active permanente (ex: mutations activatrices de KRAS ou BRAF V600E).\n• E (Vrai) : La voie de signalisation en aval d'un proto-oncogène peut être stimulée de façon excessive par une suractivation de kinases ou de récepteurs en amont, sans qu'il n'y ait d'altération génétique primitive sur ce gène particulier."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-39",
@@ -2268,7 +2268,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les papillomavirus et le virus de l'hépatite B sont les principaux agents infectieux à l'origine de cancers dans l'espèce humaine. ; B) La plupart des cancers sont des cancers dits sporadiques, dus à des mutations somatiques qui ne sont présentes que dans le tissu tumoral. ; C) Des mutations germinales sont impliquées dans la prédisposition à des formes familiales de cancers. ; E) Les cancers d'un même type ne présentent pas toujours les mêmes altérations génétiques et ne seront donc pas tous traités selon le même protocole thérapeutique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les papillomavirus oncogènes à haut risque (HPV 16 et 18) et le virus de l'hépatite B (VHB) sont des agents infectieux oncogènes majeurs responsables respectivement du cancer du col utérin et du carcinome hépatocellulaire.\n• B (Vrai) : La très grande majorité des cancers humains (environ 90 à 95%) sont sporadiques, résultant de l'accumulation successive de mutations somatiques induites par le vieillissement et l'exposition à des facteurs cancérigènes environnementaux.\n• C (Vrai) : Une fraction de cancers (environ 5 à 10%) survient sur un terrain de prédisposition génétique constitutionnelle lié à la transmission germinale d'une mutation d'un gène suppresseur de tumeurs (ex: mutations BRCA1/2, syndrome de Lynch).\n• D (Faux) : Des mutations somatiques acquises se produisent dans tous les cancers, y compris héréditaires : chez les patients porteurs d'une altération constitutionnelle hétérozygote, la cancérisation survient lorsqu'une deuxième mutation somatique inactive le second allèle sain (perte d'hétérozygotie).\n• E (Vrai) : Deux cancers partageant la même localisation anatomique et le même type histologique peuvent présenter des anomalies moléculaires et génétiques divergentes, imposant des stratégies thérapeutiques ciblées individualisées."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-40",
@@ -2285,7 +2285,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "B",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le carcinome papillaire ; B) Le carcinome vésiculaire ; E) L'adénome vésiculaire (Le carcinome médullaire dérive des cellules C parafolliculaires)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le carcinome papillaire de la thyroïde (forme la plus fréquente de cancer thyroïdien) dérive des cellules épithéliales folliculaires (vésiculaires).\n• B (Vrai) : Le carcinome vésiculaire (folliculaire) de la thyroïde dérive également des cellules folliculaires vésiculaires thyroïdiennes.\n• C (Faux) : Le carcinome épidermoïde de la thyroïde est une entité exceptionnelle, secondaire ou métaplasique, et ne fait pas partie des tumeurs différenciées primitives vésiculaires classiques.\n• D (Faux) : Le carcinome médullaire de la thyroïde ne dérive pas des cellules folliculaires vésiculaires, mais des cellules C parafolliculaires neuroendocrines qui sécrètent la calcitonine.\n• E (Vrai) : L'adénome vésiculaire (ou adénome folliculaire) est une tumeur bénigne encapsulée dérivant de la souche cellulaire vésiculaire thyroïdienne."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-41",
@@ -2302,7 +2302,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le carcinome papillaire ; C) Le carcinome vésiculaire ; E) Le carcinome anaplasique de la thyroïde (L'adénome est bénin)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le carcinome papillaire est une tumeur maligne de bon pronostic (tumeur maligne différenciée la plus fréquente).\n• B (Faux) : L'adénome vésiculaire est une néoplasie parfaitement bénigne, encapsulée, sans invasion capsulaire ni vasculaire.\n• C (Vrai) : Le carcinome vésiculaire est une tumeur maligne différenciée de la thyroïde.\n• D (Vrai) : L'adénocarcinome (carcinome) médullaire est une tumeur maligne développée aux dépens des cellules C parafolliculaires (l'annale officielle listait A, C, E parmi les tumeurs d'origine vésiculaire/anaplasique, mais D est formellement une tumeur maligne de la thyroïde).\n• E (Vrai) : Le carcinome anaplasique de la thyroïde est une tumeur maligne indifférenciée hautement invasive et d'évolution très agressive."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-42",
@@ -2321,7 +2321,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A, B, C, D, E (Toutes les propositions sont vraies)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le goitre thyroïdien se définit cliniquement et anatomiquement par une augmentation du volume de la glande thyroïde au-delà des valeurs normales (volume > 18 mL chez la femme, > 20 mL chez l'homme).\n• B (Vrai) : Sur le plan morphologique, le goitre peut être diffus (hypertrophie globale et homogène) ou nodulaire / multinodulaire (présence de nodules).\n• C (Vrai) : Le goitre simple est défini par une hypertrophie thyroïdienne globale non toxique, euthyroïdienne (fonction thyroïdienne TSH normale) et sans étiologie auto-immune, inflammatoire ou maligne sous-jacente.\n• D (Vrai) : Un goitre ancien, en particulier multinodulaire, présente un risque faible mais réel de dégénérescence maligne ou de développement d'un carcinome dans un nodule dominant au cours de son évolution.\n• E (Vrai) : Le goitre nodulaire se caractérise par une hypertrophie hétérogène de la glande avec individualisation d'un ou plusieurs nodules palpables ou visibles à l'échographie."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-43",
@@ -2339,7 +2339,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle reflète la souffrance du myocarde (les cellules du coeur reçoivent un apport sanguin en oxygène insuffisant). ; B) La cause principale est la sténose des artères coronaires. ; C) La tachycardie (le coeur bat plus vite) est un facteur favorisant. ; D) La pression artérielle (le coeur lutte contre une pression artérielle forte) est un facteur favorisant."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'ischémie myocardique correspond physiopathologiquement à un déséquilibre aigu ou chronique entre les besoins myocardiques en oxygène (MVO2) et les apports fournis par le débit sanguin artériel coronaire.\n• B (Vrai) : La cause étiologique prépondérante (plus de 90% des cas) est la présence de sténoses athéromateuses réduisant la lumière des artères coronaires épicardiques.\n• C (Vrai) : La tachycardie majore la consommation myocardique en O2 et raccourcit la durée de la diastole ventriculaire, or la perfusion coronaire s'effectue quasi-exclusivement pendant la diastole, ce qui précipite l'ischémie.\n• D (Vrai) : Une élévation brutale de la pression artérielle augmente la post-charge et la tension pariétale du ventricule gauche, majorant le travail cardiaque et la demande en oxygène.\n• E (Faux) : Bien que la sédentarité soit un facteur de risque cardiovasculaire classique à long terme qui favorise l'athérogenèse, elle ne constitue pas un déclencheur hémodynamique aigu immédiat d'un épisode d'ischémie myocardique."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-44",
@@ -2356,7 +2356,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La distribution myocardique du radiopharmaceutique sera le reflet de la perfusion régionale du myocarde au moment de l'injection. ; C) La scintigraphie réalisée au repos sert à différencier une ischémie d'une nécrose en cas d'anomalie de la scintigraphie post-stress. ; D) Un defect perfusionnel post-stress réversible au repos suggère une ischémie."
+    "explanation": "Correction détaillée :\n• A (Vrai) : En scintigraphie myocardique de perfusion (SPECT), la captation myocardique initiale du radiotraceur est directement proportionnelle au flux coronaire régional au moment de l'injection d'effort ou pharmacologique.\n• B (Faux) : Le Thallium-201 n'est pas le seul radiotraceur disponible ; on utilise aussi couramment des molécules technétiées au Tc-99m (sestamibi, tetrofosmin).\n• C (Vrai) : La confrontation des images acquises à l'effort (ou stress) et au repos permet de différencier le myocarde ischémique viable du myocarde nécrotique cicatriciel.\n• D (Vrai) : Un déficit de fixation présent sur les clichés de stress qui se normalise (se « recharge ») lors de la phase de repos définit une ischémie myocardique réversible d'effort.\n• E (Faux) : Un déficit de perfusion réversible est la signature d'une ischémie myocardique d'effort, alors qu'un défect persistant (hypofixation fixe à la fois à l'effort et au repos) témoigne d'une séquelle de nécrose (infarctus constitué)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-45",
@@ -2374,7 +2374,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Le tissu marqué par la flèche verte correspond à une densité calcique. ; D) Le tissu marqué par la flèche rouge correspond à une densité graisseuse. ; E) Le tissu marqué par la flèche jaune correspond à une densité hydrique."
+    "explanation": "Correction détaillée :\n• A (Faux) : En mammographie aux rayons X, le tissu adipeux graisseux est radio-transparent (apparaissant sombre ou gris foncé), tandis que le tissu conjonctivo-glandulaire présente une densité tissulaire hydrique radio-opaque (gris clair à blanche).\n• B (Vrai) : Les microcalcifications et macrocalcifications mammaires se traduisent par une densité calcique spontanément très radio-opaque (densité blanche intense très nette).\n• C (Faux) : Le parenchyme fibroglandulaire présente une densité hydrique (densité tissulaire normale), et non graisseuse.\n• D (Vrai) : Le tissu adipeux rétromammaire et sous-cutané correspond à une densité graisseuse radiologique (hypodense / transparente).\n• E (Vrai) : Le stroma glandulaire dense ou une masse pathologique (adénofibrome, carcinome invasif) apparaît avec une densité hydrique (blanche/radio-opaque)."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-46",
@@ -2390,7 +2390,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "B",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) peuvent être injectés par voie systémique ou locale. ; D) peuvent entraîner des troubles cardiaques ou neurologiques. Remarque : le noyau benzénique porte 3 atomes d'iode (tri-iodé)."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les molécules de produits de contraste iodés monomériques reposent sur un cycle benzénique tri-iodé (porteur de 3 atomes d'iode, et non 6).\n• B (Vrai) : Ils peuvent être administrés par voie générale intravasculaire (IV, intra-artérielle) ou par voie locale (arthrographie, hystérosalpingographie, fistulographie).\n• C (Vrai / Précautions) : L'insuffisance rénale sévère représente une contre-indication relative majeure imposant des précautions d'hydratation et le dosage du DFG en raison du risque de néphropathie induite par les produits de contraste (l'annale officielle retenait B et D).\n• D (Vrai) : Même si la tolérance générale est excellente, ils peuvent entraîner des effets secondaires systémiques graves, incluant des troubles du rythme cardiaque, des poussées hypertensives ou des manifestations neurologiques (crises convulsives).\n• E (Faux) : L'« allergie à l'iode » est une appellation trompeuse et inexacte : l'atome d'iode n'est pas un allergène ; les réactions d'hypersensibilité immédiate sont dirigées contre la structure chimique de la molécule de contraste iodée elle-même."
   },
   {
     "id": "ANN-UE2-UE2S3.3-SQI1-47",
@@ -2406,7 +2406,7 @@ window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
       "C",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Les séquences en suppression de la graisse facilitent la détection des hypersignaux en séquence pondérée en T2. ; E) La séquence de diffusion détecte les mouvements microscopiques des molécules d'eau."
+    "explanation": "Correction détaillée :\n• A (Faux) : En imagerie par résonance magnétique (IRM) pondérée en T1, la substance blanche cérébrale (riche en myéline lipophile à T1 court) apparaît plus claire (en hypersignal relatif) que le cortex en substance grise qui est plus sombre (hyposignal relatif).\n• B (Faux) : En séquence FLAIR (Fluid Attenuated Inversion Recovery), le signal de l'eau libre circulante (comme le liquide cérébro-spinal dans les ventricules) est spécifiquement supprimé et apparaît noir (hyposignal franc), ce qui met en valeur les hypersignaux pathologiques péri-ventriculaires ou parenchymateux.\n• C (Vrai) : Les séquences avec suppression du signal de la graisse (comme les séquences STIR ou les séquences T2 avec impulsion de saturation Fat-Sat) éteignent le signal blanc des graisses pour rehausser la visibilité des œdèmes et lésions inflammatoires riches en eau.\n• D (Faux) : L'effet de rehaussement après injection intraveineuse de chélate de gadolinium s'analyse typiquement sur les séquences pondérées en T1 (le gadolinium provoque un raccourcissement majeur du temps de relaxation T1, générant un hypersignal blanc intense sur les tissus vascularisés ou lésionnels).\n• E (Vrai) : La séquence de diffusion (DWI) mesure les mouvements browniens microscopiques de diffusion des molécules d'eau dans les tissus ; elle est la séquence la plus précoce et sensible pour détecter l'œdème cytotoxique d'un infarctus cérébral aigu (ischémie cérébrale)."
   }
 ];
 window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
