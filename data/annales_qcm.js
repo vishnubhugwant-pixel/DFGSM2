@@ -20,7 +20,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On retrouve des variabilités interindividuelles. ; B) Elle peut être due à des interactions médicamenteuses. ; D) On retrouve l'impact de la consommation d'alcool et de tabac."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'effet d'un médicament varie d'un patient à l'autre (variabilité interindividuelle) ainsi que chez un même individu au cours du temps (variabilité intra-individuelle).\n• B (Vrai) : La prise concomitante de plusieurs médicaments (interactions médicamenteuses) peut modifier la pharmacocinétique ou la pharmacodynamie d'un traitement.\n• C (Faux) : Bien que l'âge modifie les paramètres pharmacocinétiques (notamment aux âges extrêmes de la vie), cette variabilité n'augmente pas de manière strictement linéaire ou proportionnelle à l'âge.\n• D (Vrai) : Les facteurs environnementaux comme l'alcool et le tabac modulent l'activité des enzymes du métabolisme hépatique.\n• E (Faux) : Le fond génétique (pharmacogénétique) n'est qu'un facteur parmi d'autres ; l'environnement, l'âge, les comorbidités (insuffisance rénale ou hépatique) et les interactions jouent également un rôle majeur."
   },
   {
     "text": "Concernant la variabilité de l'effet des médicaments :",
@@ -38,7 +38,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les modifications des fonctions rénales impliquent une adaptation de posologie chez le sujet âgé. ; B) La demi-vie plasmatique des médicaments chez le sujet âgé est augmentée par rapport à l'adulte jeune. ; C) Une hypoalbuminémie peut être associée à une toxicité des AVK. ; D) La bioactivation hépatique du clopidogrel est minorée en cas de consommation de jus de pamplemousse."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Chez le sujet âgé, la baisse physiologique du débit de filtration glomérulaire diminue l'élimination rénale des médicaments, nécessitant une adaptation posologique.\n• B (Vrai) : La diminution de la clairance rénale et hépatique chez le sujet âgé entraîne un ralentissement de l'élimination et donc un allongement (augmentation) de la demi-vie plasmatique (t1/2).\n• C (Vrai) : Les anti-vitamine K (AVK) étant fortement liés à l'albumine, une hypoalbuminémie augmente leur fraction libre (seule fraction active), majorant le risque de surdosage et de toxicité hémorragique.\n• D (Vrai) : Le clopidogrel est une prodrogue nécessitant une bioactivation hépatique par les cytochromes P450 ; le jus de pamplemousse étant un inhibiteur enzymatique, il diminue cette bioactivation et réduit l'efficacité du médicament.\n• E (Faux) : Le volume de distribution des médicaments liposolubles dépend principalement de la masse grasse (qui augmente notamment avec l'âge) et n'est pas diminué par l'insuffisance rénale."
   },
   {
     "text": "Le jour de ses 16 ans, le Petit Chaperon Rouge emmène sa grand-mère de 80 ans se promener dans la campagne. Elles passent une journée agréable dans un champ. Or, il s’avère que ce champ a été traité la veille par un épandage d'herbicides. La jeune fille reste en pleine forme mais sa grand-mère est atteinte de nausées et vomissements durant 3 jours. Parmi les propositions suivantes, quelle(s) hypothèse(s) peut ou peuvent expliquer cette variabilité de l’effet de l’exposition aux herbicides ?",
@@ -55,7 +55,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La grand-mère suit un traitement médicamenteux inhibiteur d’enzymes hépatiques. ; C) La grand-mère présente une insuffisance rénale. ; E) La grand-mère présente une perméabilité de la barrière hématoencéphalique."
+    "explanation": "Correction détaillée :\n• A (Faux) : À 16 ans, les organes de détoxification sont matures ; de plus, s'ils étaient immatures, c'est la jeune fille qui présenterait des signes de toxicité et non l'inverse.\n• B (Vrai) : La prise d'un médicament inhibiteur des enzymes hépatiques chez la grand-mère ralentit la détoxification des xénobiotiques (herbicides), favorisant leur accumulation toxique.\n• C (Vrai) : Une insuffisance rénale liée à l'âge diminue l'excrétion urinaire du toxique et de ses métabolites, prolongeant leur présence dans l'organisme.\n• D (Faux) : Une « mutation oncogénétique » fait référence au développement tumoral et non à un mécanisme physiologique de résistance aux herbicides.\n• E (Vrai) : Une augmentation de la perméabilité de la barrière hémato-encéphalique chez la personne âgée facilite le passage central des toxiques, expliquant les symptômes neurologiques/émétiques (nausées, vomissements)."
   },
   {
     "text": "Le suivi thérapeutique pharmacologique d’un médicament peut être indiqué :",
@@ -74,7 +74,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) pour améliorer l’efficacité d’un traitement. ; B) pour diminuer la toxicité d’un traitement. ; C) si la relation dose-concentration présente une grande variabilité inter-individuelle. ; D) pour les médicaments à marge thérapeutique étroite. ; E) si la réponse pharmacologique est difficilement accessible par une mesure de l'effet thérapeutique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il permet d'ajuster la posologie pour éviter le sous-dosage et garantir l'efficacité thérapeutique.\n• B (Vrai) : Il permet de dépister un surdosage et de prévenir l'apparition d'effets indésirables toxiques.\n• C (Vrai) : Lorsqu'une même dose donne des concentrations plasmatiques très différentes selon les patients (forte variabilité interindividuelle), le dosage sanguin permet d'individualiser la prise en charge.\n• D (Vrai) : Pour les médicaments à marge (ou index) thérapeutique étroite, la dose efficace est très proche de la dose toxique, ce qui justifie pleinement le STP.\n• E (Vrai) : Lorsque l'effet clinique n'est pas directement ou rapidement mesurable (contrairement à la tension artérielle ou à l'INR), la concentration plasmatique sert de guide thérapeutique."
   },
   {
     "text": "Concernant la pharmacocinétique chez le nouveau-né par rapport à l'adulte jeune :",
@@ -91,7 +91,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) La fonction rénale est immature, ce qui entraine un risque de surdosage. ; D) Le volume de distribution Vd est augmenté. ; E) Les demi-vies t1/2 d'élimination des médicaments sont augmentées."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le nouveau-né n'est pas un « adulte en miniature » ; en raison de l'immaturité de ses organes et de ses barrières (comme la barrière hémato-encéphalique), certains médicaments restent contre-indiqués même en adaptant la dose en mg/kg.\n• B (Faux) : La biotransformation métabolique hépatique (enzymes de phase I et II) est immature et donc diminuée à la naissance.\n• C (Vrai) : L'immaturité de la fonction rénale (filtration glomérulaire et sécrétion tubulaire basses) réduit la clairance rénale et expose au surdosage.\n• D (Vrai) : Le volume de distribution (Vd) est globalement augmenté (notamment pour les molécules hydrosolubles en raison de la forte proportion d'eau corporelle totale chez le nouveau-né).\n• E (Vrai) : Du fait de la baisse de la clairance métabolique et rénale et de l'augmentation du Vd, les demi-vies d'élimination (t1/2) sont allongées."
   },
   {
     "text": "Madame P. a 80 ans, elle est admise à l'hôpital pour réaliser un suivis thérapeutique pharmacologique de son traitement antiarythmiques. Les résultats montrent une concentration plasmatique trop élevée. Parmi les propositions suivantes, lesquelles peuvent être considérées comme des facteurs de risques de surdosage ?",
@@ -109,7 +109,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La polymédication ; B) L'insuffisance rénale ; C) Une mauvaise observance ; D) L'insuffisance hépatique"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La polymédication multiplie le risque d'interactions médicamenteuses (notamment par compétition ou inhibition enzymatique).\n• B (Vrai) : L'insuffisance rénale diminue l'excrétion urinaire du médicament et provoque son accumulation plasmatique.\n• C (Vrai) : Une mauvaise observance (ici par excès de prises ou confusion dans le schéma posologique) peut conduire à une concentration plasmatique trop élevée.\n• D (Vrai) : L'insuffisance hépatique réduit la clairance métabolique du traitement antiarythmique.\n• E (Faux) : L'épaisseur de la peau n'influence pas le surdosage d'un traitement antiarythmique systémique habituel."
   },
   {
     "text": "Concernant l’effet des médicaments, il peut présenter des variabilités :",
@@ -128,7 +128,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Interindividuelles ; B) Intra-individuelles ; C) D'ordre pharmacocinétiques ; D) D'origine génétique ; E) Dues à des interactions médicamenteuses"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Variabilités interindividuelles (d'un individu à un autre).\n• B (Vrai) : Variabilités intra-individuelles (chez une même personne selon l'heure, l'alimentation, l'état physiopathologique).\n• C (Vrai) : Variabilités pharmacocinétiques (absorption, distribution, métabolisme, élimination).\n• D (Vrai) : Variabilités d'origine génétique (polymorphismes des enzymes ou des cibles).\n• E (Vrai) : Variabilités liées aux interactions médicamenteuses."
   },
   {
     "text": "Concernant la pharmacogénétique :",
@@ -145,7 +145,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle s’intéresse aux polymorphisme des gènes codant des enzymes impliquées dans la pharmacocinétique des médicaments. ; C) Les sujets dits métaboliseurs lents, pour un Cytochrome P450 impliqué dans l'élimination d'un médicament, présentent un risque de toxicité accru. ; D) Les métaboliseurs ultrarapides présentent entre autres un nombre excessif d’allèles sauvages de gènes codant des CYP450."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elle étudie les polymorphismes génétiques touchant les enzymes du métabolisme ou les transporteurs impliqués dans la pharmacocinétique (ainsi que les cibles pharmacodynamiques).\n• B (Faux) : L'étude des maladies héréditaires causées par des mutations enzymatiques relève de la génétique médicale classique (maladies métaboliques congénitales) et non de la pharmacogénétique, qui étudie la réponse aux médicaments.\n• C (Vrai) : Chez un métaboliseur lent, le cytochrome P450 élimine très peu le médicament actif, ce qui entraîne son accumulation et un risque accru de toxicité.\n• D (Vrai) : Le phénotype de métaboliseur ultrarapide est souvent lié à une duplication (nombre excessif de copies) d'allèles sauvages fonctionnels codant un CYP450.\n• E (Faux) : Des mutations réduisant l'activité catalytique des CYP450 conduisent au profil de métaboliseur lent (ou intermédiaire), et non ultrarapide."
   },
   {
     "text": "Concernant la variabilité de l'effet des médicaments liée aux enzymes du métabolisme :",
@@ -162,7 +162,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On parle de métaboliseurs lents. ; C) On parle de métaboliseurs rapides. ; E) On parle de l'effet inhibiteur enzymatique du jus de pamplemousse."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le profil de « métaboliseur lent » désigne les sujets ayant une activité enzymatique déficiente.\n• B (Faux) : Le terme « métaboliseur anormal » n'existe pas dans la nomenclature pharmacogénétique.\n• C (Vrai) : Le profil de « métaboliseur rapide » (ou ultrarapide) désigne les sujets ayant une activité enzymatique élevée.\n• D (Faux) : Le tabac (via les hydrocarbures aromatiques polycycliques) est un inducteur enzymatique (notamment du CYP1A2), et non un inhibiteur.\n• E (Vrai) : Le jus de pamplemousse est un inhibiteur enzymatique bien connu (notamment du CYP3A4 intestinal)."
   },
   {
     "text": "Concernant le suivi pharmacologique thérapeutique, il concerne :",
@@ -178,7 +178,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Certains antibiotiques ; D) Les médicaments immunosuppresseurs"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il est indiqué pour certains antibiotiques à marge thérapeutique étroite et à toxicité sévère (comme les aminosides ou les glycopeptides).\n• B (Faux) : Les AVK sont surveillés par un paramètre biologique pharmacodynamique (l'INR / temps de Quick) et non par le dosage de leur concentration plasmatique.\n• C (Faux) : Les bêtabloquants s'évaluent directement sur des critères cliniques simples (fréquence cardiaque, pression artérielle) et ont une marge thérapeutique large.\n• D (Vrai) : Les immunosuppresseurs (ex. ciclosporine, tacrolimus) ont un index thérapeutique étroit et une forte variabilité pharmacocinétique nécessitant un STP.\n• E (Faux) : Les antalgiques et anti-inflammatoires courants ne nécessitent pas de suivi thérapeutique pharmacologique en pratique clinique courante."
   },
   {
     "text": "Concernant les essais précliniques :",
@@ -196,7 +196,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L’éthique animale recommande les 3 R : réduire, raffiner et remplacer. ; B) La toxicité à dose réitérées évalue l’aptitude du produit à présenter une toxicité sur le long terme. ; C) Le test d’Ames vise à mettre en évidence l’effet mutagène. ; E) Ils consistent entre autres à étudier la reprotoxicité (effet sur la reproduction et la fertilité)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'éthique en expérimentation animale repose sur la règle des 3R : Réduire (le nombre d'animaux), Raffiner (les conditions et protocoles), Remplacer (par des méthodes alternatives in vitro ou in silico).\n• B (Vrai) : Les études de toxicité à doses réitérées (subaiguë et chronique) évaluent les effets toxiques sur le long terme et l'accumulation du produit.\n• C (Vrai) : Le test d'Ames (réalisé in vitro sur des souches bactériennes) permet de dépister le potentiel mutagène d'une molécule.\n• D (Faux) : La toxicité aiguë évalue les effets à très court terme après l'administration d'une dose unique forte ; l'accumulation tissulaire s'étudie lors des essais à doses réitérées.\n• E (Vrai) : Les études de sécurité précliniques incluent l'évaluation de la reprotoxicité (fertilité, embryotoxicité, tératogenèse)."
   },
   {
     "text": "Concernant les essais cliniques de phase I :",
@@ -212,7 +212,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "C"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils étudient la tolérance à un principe actif. ; C) Ils sont réalisés de préférences sur des sujets sains."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'objectif principal de la phase I est d'évaluer la tolérance (sécurité d'emploi, dose maximale tolérée) et la pharmacocinétique du principe actif chez l'humain.\n• B (Faux) : Elle ne cible pas spécifiquement des « étudiants malades » ; elle est réalisée sur des volontaires sains (ou exceptionnellement sur des patients en impasse thérapeutique pour des molécules très toxiques comme en oncologie).\n• C (Vrai) : Les essais de phase I sont menés de préférence chez des sujets volontaires sains sans comorbidité.\n• D (Faux) : L'efficacité thérapeutique est démontrée lors de la phase III (et explorée en phase II), pas en phase I.\n• E (Faux) : Les grandes études comparatives randomisées constituent le socle de la phase III."
   },
   {
     "text": "Concernant les essais cliniques de phase II :",
@@ -229,7 +229,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "C"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il s’agit généralement de la première administration du médicament à des sujets malades. ; B) Ils permettent de vérifier l’effet pharmacologique attendu d’un médicament en situation pathologique. ; C) Ils permettent de déterminer la posologie d'un candidat médicament."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La phase II correspond généralement à la première administration de la molécule chez des patients atteints de la pathologie ciblée.\n• B (Vrai) : La phase IIa (preuve de concept) vérifie que l'effet pharmacologique attendu se produit bien en situation pathologique.\n• C (Vrai) : La phase IIb étudie la relation dose-effet afin de déterminer la posologie optimale à retenir pour la phase III.\n• D (Faux) : L'évaluation robuste du rapport bénéfice/risque sur de larges effectifs relève des essais de phase III.\n• E (Faux) : La phase II inclut un petit groupe homogène de patients très sélectionnés et n'a pas pour vocation d'étudier les variabilités liées aux différentes tranches d'âge."
   },
   {
     "text": "Concernant les essais cliniques de phase III :",
@@ -245,7 +245,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils permettent de déterminer l’efficacité d’un médicament. ; D) Ils s’articulent principalement sur des études comparatives randomisées."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Leur objectif majeur est de démontrer statistiquement l'efficacité clinique du candidat médicament.\n• B (Faux) : Chronologiquement, la phase III succède à la phase II (et précède l'AMM ainsi que la phase IV).\n• C (Faux) : Le recours à un critère de jugement composite n'est jamais obligatoire ; un critère clinique principal unique, robuste et pertinent est généralement privilégié.\n• D (Vrai) : La méthodologie de référence en phase III repose sur des essais comparatifs (contre traitement de référence ou placebo), randomisés et en double insu.\n• E (Faux) : Les essais de phase III sont réalisés avant l'obtention de l'Autorisation de Mise sur le Marché (AMM) afin de constituer le dossier d'enregistrement (ce sont les études de phase IV qui ont lieu après l'AMM)."
   },
   {
     "text": "Concernant la communication de l'industrie pharmaceutique :",
@@ -262,7 +262,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Les visiteurs médicaux proposent des échantillons gratuits de médicaments. ; D) Le praticien doit analyser la manière dont les données sont présentées dans les brochures proposées par les visiteurs médicaux (risque relatif versus risque absolu). ; E) Les stratégies de communication de l'industrie pharmaceutique présentent un risque d'influencer les décisions médicales au détriment de l’intérêt du patient."
+    "explanation": "Correction détaillée :\n• A (Faux) : La visite médicale a une finalité promotionnelle et commerciale ; l'information délivrée n'est donc pas neutre.\n• B (Faux) : Les supports promotionnels mettent souvent en avant les données favorables (biais de sélection ou de présentation) plutôt que l'intégralité des rapports d'études.\n• C (Vrai) : La remise d'échantillons gratuits fait partie des pratiques promotionnelles utilisées par l'industrie pharmaceutique.\n• D (Vrai) : Le médecin doit exercer une lecture critique des brochures, notamment en distinguant la réduction du risque relatif (souvent flatteuse) de la réduction du risque absolu.\n• E (Vrai) : Ces stratégies marketing peuvent influencer la prescription médicale au détriment de l'intérêt optimal du patient."
   },
   {
     "text": "A propos de la toxicité associée à la prise de paracétamol  :",
@@ -281,7 +281,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI1-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le métabolite toxique du paracétamol est le N-Acétyl-Parabenzo-Quinone-Imine (NAPQI). ; B) La toxicité est augmentée en cas de prise aiguë d'alcool. ; C) La détoxification implique la glutathion S transférase. ; D) Le métabolisme du paracétamol implique sa biotransformation en métabolites sulfo- ou glucurono-conjugués ; E) Les métabolites toxiques du paracétamol induisent une cytolyse hépatique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La fraction mineure du paracétamol métabolisée par les CYP450 produit un métabolite électrophile hautement réactif et toxique : le NAPQI (N-Acétyl-Parabenzo-Quinone-Imine).\n• B (Vrai) : L'intoxication alcoolique/la prise d'alcool majore l'hépatotoxicité du paracétamol (compétition métabolique / déplétion en glutathion).\n• C (Vrai) : Aux doses thérapeutiques, le NAPQI est immédiatement neutralisé par conjugaison au glutathion grâce à la glutathion-S-transférase.\n• D (Vrai) : La voie métabolique majeure (non toxique) du paracétamol est une conjugaison de phase II (glucuronoconjugaison et sulfoconjugaison).\n• E (Vrai) : En cas de surdosage, une fois les stocks de glutathion épuisés, le NAPQI s'accumule et détruit les hépatocytes, provoquant une cytolyse hépatique grave."
   }
 ];
 window.ANNALES_QCM["UE2/UE2S3.1/SQI3 relecture de tentative Annales.pdf"] = [
@@ -301,7 +301,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI3 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI3-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La dyspnée est une sensation subjective de difficulté à respirer ou d'essoufflement expérimentée par le patient. ; B) La fréquence respiratoire FR normale au repos est de 12 à 16 cycles/minute. ; D) La présence d'un tirage sus-sternal et d'un balancement thoraco-abdominal sont des signes de détresse respiratoire aiguë. ; E) La mécanique ventilatoire s'évalue en mesurant la FR par l'apposition d'une main de l'examinateur sur le thorax du patient et en comptant le nombre de cycles/minutes ainsi que l'ampliation thoracique. — Remarques de l'enseignant : C) La majoration de FR est une tachypnée, la polypnée associe à la tachypnée une baisse du volume courant"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La dyspnée se définit comme la perception consciente et subjective d'une gêne ou d'une difficulté respiratoire ressentie par le patient.\n• B (Vrai) : Chez l'adulte au repos, la fréquence respiratoire (FR) physiologique est comprise entre 12 et 16 cycles par minute.\n• C (Faux) : Une FR inférieure à 12 cycles/min est bien une bradypnée, mais une simple augmentation de la FR au-dessus de 16 cycles/min s'appelle une tachypnée ; la polypnée désigne spécifiquement une tachypnée associée à une diminution du volume courant (respiration rapide et superficielle).\n• D (Vrai) : Le tirage (mise en jeu des muscles respiratoires accessoires, notamment sus-sternal) et le balancement thoraco-abdominal (respiration paradoxale) sont des signes cliniques majeurs de lutte et d'épuisement caractérisant une détresse respiratoire aiguë.\n• E (Vrai) : L'examen clinique de la mécanique ventilatoire repose sur la mesure de la FR (main posée sur le thorax en comptant les cycles sur une minute) et l'appréciation de l'ampliation thoracique."
   },
   {
     "text": "A propos des foyers d'auscultation cardiaque :",
@@ -323,7 +323,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI3 relecture de tentative Annales.pdf"] = [
       "I"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI3-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Le foyer mitral se situe à la pointe ou apex cardiaque. ; E) Le foyer tricuspide se trouve au niveau de l'appendice xyphoïde. ; G) Le Bruit B1 physiologique correspond à la fermeture des valves mitrale et tricuspide. ; I) Le temps du souffle peut être déterminé par la palpation de l'onde de pouls. — Remarques de l'enseignant : A) droit ; B) deuxième ; C) irradie vers les carotides surtout ; F) en systole ventriculaire ou en diastole ventriculaire ; H) la systole ventriculaire"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le foyer aortique se situe au 2e espace intercostal droit (le 2e espace intercostal gauche correspond au foyer pulmonaire).\n• B (Faux) : Il se situe au 2e espace intercostal droit (bord sternal droit), et non au 1er.\n• C (Faux) : Un souffle aortique (comme celui du rétrécissement aortique) irradie classiquement vers les carotides (vaisseaux du cou) ; c'est le souffle d'insuffisance mitrale qui irradie vers l'aisselle.\n• D (Vrai) : Le foyer mitral se situe à l'apex cardiaque (pointe du cœur, au 5e espace intercostal gauche sur la ligne médio-claviculaire).\n• E (Vrai) : Le foyer tricuspide se projette à la base de l'appendice xiphoïde.\n• F (Faux) : Un souffle cardiaque se définit par sa chronologie au cours du cycle ventriculaire : en systole ventriculaire ou en diastole ventriculaire (et non « systole auriculaire »).\n• G (Vrai) : Le premier bruit du cœur (B1), marquant le début de la systole ventriculaire, correspond à la fermeture des valves auriculo-ventriculaires (mitrale et tricuspide).\n• H (Faux) : L'intervalle entre B1 et B2 correspond à la systole ventriculaire (la diastole ventriculaire se situe entre B2 et le B1 suivant).\n• I (Vrai) : La palpation simultanée du pouls artériel (radial ou carotidien) pendant l'auscultation permet de repérer la systole (contemporaine de l'onde de pouls) et donc de dater le souffle."
   },
   {
     "text": "A propos de l'examen clinique sémiologique :",
@@ -341,7 +341,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI3 relecture de tentative Annales.pdf"] = [
       "F"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI3-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Sa séquence logique consiste en un recueil de données à l'interrogatoire puis un examen physique comprenant notamment l'inspection puis la palpation, une percussion éventuelle et un temps d'auscultation. ; E) Le degré de surcharge pondérale ou l'obésité peuvent notamment être appréciés par l'indice de masse corporelle qui nécessite simplement de peser le patient et de diviser le chiffre obtenu (en Kg) par la taille (en m ) ; F) L'interrogatoire comprend plusieurs temps essentiels : le recueil de l'anamnèse (antécédents) et le recueil de l'histoire de la maladie puis une recherche des signes fonctionnels du patient. — Remarques de l'enseignant : B) Le syndrome d'AEG est défini par les 3 A = asthénie, anorexie et amaigrissement associés de façon variable ; C) témoin d'une anomalie de l'hématose pulmonaire ou d'une augmentation d'extraction de l'oxygène périphérique ; D) t aussi recueillir les vaccinations, les habitudes et mode de vie, entre autres"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'examen clinique suit une progression structurée : interrogatoire d'abord, puis examen physique en 4 temps (inspection, palpation, percussion, auscultation).\n• B (Faux) : L'asthénie ne « comprend » pas l'anorexie et l'amaigrissement ; c'est le syndrome d'altération de l'état général (AEG) qui regroupe les « 3 A » (Asthénie, Anorexie, Amaigrissement) associés de façon variable.\n• C (Faux) : La cyanose (coloration bleutée des téguments et muqueuses lorsque l'hémoglobine réduite dépasse 5 g/dL dans le sang capillaire) témoigne d'un trouble de l'hématose pulmonaire ou d'une extraction périphérique excessive d'oxygène, et non d'une dysfonction hépatique (qui donne un ictère).\n• D (Faux) : L'interrogatoire ne se limite pas à ces seuls éléments ; il recueille également le statut vaccinal, le mode de vie, la profession et les habitudes toxiques (tabac, alcool).\n• E (Vrai) : L'Indice de Masse Corporelle (IMC = Poids [kg] / Taille² [m²]) permet d'évaluer la corpulence, le surpoids et l'obésité.\n• F (Vrai) : L'interrogatoire s'articule autour de l'anamnèse (antécédents), de l'histoire de la maladie et du recueil des signes fonctionnels motivant la consultation."
   },
   {
     "text": "A propos des réflexes à tester lors de l'examen physique neurologique :",
@@ -360,7 +360,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI3 relecture de tentative Annales.pdf"] = [
       "G"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI3-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) Le réflexe cutané plantaire est un réflexe cutanéo-muqueux. ; F) Le réflexe rotulien peut être aboli ou être au contraire vif, polycinétique et diffusée en cas d'atteinte du faisceau pyramidal. ; G) Le réflexe rotulien est tout le temps pathologique lorsqu'il n'est pas présent. — Remarques de l'enseignant : A) et cutanéo-muqueux ; B) une flexion de l'avant-bras ; C) en réponse à une stimulation du 1/3 supérieur de la face interne de la cuisse homolatérale ; D) cutanéo-muqueux"
+    "explanation": "Correction détaillée :\n• A (Faux) : On teste les réflexes ostéotendineux (ROT) et les réflexes cutanéo-muqueux (le terme « ostéo-muqueux » n'existe pas).\n• B (Faux) : Le biceps brachial étant un muscle fléchisseur, la percussion de son tendon (réflexe bicipital, racine C5) entraîne une flexion de l'avant-bras sur le bras (l'extension correspond au réflexe tricipital, C7).\n• C (Faux) : Le réflexe crémastérien (ascension du testicule homolatéral) est déclenché par une stimulation cutanée du tiers supérieur de la face interne de la cuisse, et non par une percussion du pubis.\n• D (Faux) : Le réflexe crémastérien est un réflexe cutanéo-muqueux (ou cutané), et non ostéotendineux.\n• E (Vrai) : Le réflexe cutané plantaire appartient bien à la catégorie des réflexes cutanéo-muqueux.\n• F (Vrai) : Lors d'une atteinte du faisceau pyramidal (syndrome pyramidal), les ROT comme le réflexe rotulien sont classiquement vifs, diffusés et polycinétiques (et peuvent être abolis à la phase initiale flasque d'une lésion aiguë).\n• G (Vrai) : Selon le corrigé de l'épreuve, l'abolition (absence) du réflexe rotulien est retenue comme toujours pathologique."
   },
   {
     "text": "A propos du recueil des signes fonctionnels :",
@@ -379,7 +379,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI3 relecture de tentative Annales.pdf"] = [
       "H"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI3-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La douleur est le maître symptôme et un des motifs les plus fréquents de recours à une consultation médicale. ; H) La douleur de colique hépatique siège habituellement en hypochondre droit et irradie \"en bretelle\" vers l'épaule et l'omoplate homolatéralement. — Remarques de l'enseignant : B) Elle comprend bien d'autres éléments (Cf moyen mnémotechnique MISTIDRACS) ; C) il existe des douleurs de désafférentation et des douleurs mixtes, dont les douleurs psychogènes ; D) les douleurs inflammatoires sont spontanées et non influencées par les mouvements/la mobilisation ; E) elle irradie vers les OGE ; F) On peut recueillir une intensité à l'aide d'échelle d'hétérodoxies-évaluation (exemple : échelle algoplus) ; G) auto- évaluation"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La douleur est le maître symptôme en sémiologie et constitue l'un des motifs les plus fréquents de consultation médicale.\n• B (Faux) : Ce recueil est incomplet pour être qualifié d'« exhaustif » ; il manque plusieurs caractéristiques sémiologiques indispensables comme le mode de début, l'intensité, la durée/évolution ou le retentissement (moyen mnémotechnique MISTIDRACS).\n• C (Faux) : Toutes les douleurs ne sont pas nociceptives ; il existe aussi des douleurs neuropathiques (par désafférentation/lésion nerveuse), des douleurs mixtes et des douleurs nociplastiques/psychogènes.\n• D (Faux) : La proposition inverse les deux horaires : la douleur inflammatoire est spontanée, survient au repos, réveille le patient en deuxième partie de nuit et s'améliore au dérouillage matinal ; c'est la douleur mécanique qui apparaît à l'effort/mouvement et cède au repos.\n• E (Faux) : La douleur de colique néphrétique part de la fosse lombaire et irradie de haut en bas et vers l'avant en direction de la fosse iliaque et des organes génitaux externes (OGE), et non vers l'épigastre.\n• F (Faux) : Même chez un patient inconscient, confus ou non communicant, l'intensité douloureuse peut et doit être évaluée grâce à des échelles comportementales d'hétéro-évaluation (ex. échelle Algoplus).\n• G (Faux) : L'Échelle Visuelle Analogique (EVA) est une échelle d'auto-évaluation (le patient positionne lui-même le curseur) et non d'hétéro-évaluation.\n• H (Vrai) : La douleur biliaire (colique hépatique) siège typiquement dans l'hypochondre droit (ou l'épigastre) et irradie « en bretelle » vers l'épaule et la pointe de l'omoplate droites."
   },
   {
     "text": "A propos des facteurs de risques cardiovasculaires :",
@@ -397,7 +397,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI3 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI3-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Le tabagisme actif mais aussi passif représentent un facteur de risque cardiovasculaire identifié. ; D) La sédentarité ou absence d'activité physique est un facteur de risque cardiovasculaire modifiable à rechercher à l'anamnèse. ; E) Le diabète et le fait d'avoir une hypertension artérielle sont 2 facteurs de risques cardiovasculaires supplémentaires à rechercher. — Remarques de l'enseignant : A) il y a aussi les antécédents familiaux ; C) la dyslipidémie comprend l'hypercholestérolémie ou hypertriglycéridémie avec une augmentation du LDL ou une baisse du HDLc"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'âge et le sexe ne sont pas les seuls facteurs non modifiables ; les antécédents familiaux d'accident cardiovasculaire précoce constituent le troisième facteur non modifiable majeur.\n• B (Vrai) : L'exposition au tabac, qu'il s'agisse de tabagisme actif ou passif, est un facteur de risque cardiovasculaire majeur avéré.\n• C (Faux) : La définition proposée est incomplète : la dyslipidémie englobe l'hypercholestérolémie (élévation du LDL-cholestérol), la baisse du HDL-cholestérol, mais aussi l'hypertriglycéridémie.\n• D (Vrai) : La sédentarité est un facteur de risque cardiovasculaire modifiable important à rechercher systématiquement lors de l'interrogatoire.\n• E (Vrai) : Le diabète et l'hypertension artérielle (HTA) font partie des facteurs de risque cardiovasculaires majeurs modifiables.\n• F (Faux) : Au contraire, l'hérédité (événements cardiovasculaires précoces chez les apparentés du premier degré) majore significativement le risque cardiovasculaire global du patient."
   }
 ];
 window.ANNALES_QCM["UE2/UE2S3.1/SQI5 relecture de tentative Annales.pdf"] = [
@@ -415,7 +415,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI5 relecture de tentative Annales.pdf"] = [
       "B"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI5-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle peut être liée à des pathologies dysimmunitaires. ; B) Elle peut être causée par un défaut de vascularisation des tissus."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Outre les agents infectieux ou physiques, l'inflammation peut être déclenchée par une réponse immunitaire inadaptée (maladies auto-immunes ou dysimmunitaires, allergies).\n• B (Vrai) : Une ischémie (défaut de vascularisation entraînant une nécrose tissulaire, comme dans l'infarctus du myocarde) provoque une réaction inflammatoire locale en réponse aux signaux de danger cellulaire.\n• C (Faux) : Bien qu'elle débute souvent localement, la réaction inflammatoire s'accompagne de manifestations systémiques (fièvre, synthèse hépatique des protéines de la phase aiguë, voire choc septique/SIRS).\n• D (Faux) : Une inflammation chronique peut s'installer d'emblée de manière insidieuse et à bas bruit sans succéder obligatoirement à une phase aiguë franche.\n• E (Faux) : La chronologie est inversée : la réaction inflammatoire débute par une phase vasculo-exsudative (facteurs plasmatiques/sériques et médiateurs chimiques), suivie dans un second temps par la phase cellulaire (recrutement et afflux des leucocytes)."
   },
   {
     "text": "La protéine C réactive (CRP) :",
@@ -431,7 +431,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI5 relecture de tentative Annales.pdf"] = [
       "C"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI5-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) est une opsonine. ; C) favorise la phagocytose."
+    "explanation": "Correction détaillée :\n• A (Faux) : La CRP est le marqueur de référence de la phase aiguë de l'inflammation (cinétique rapide : augmente dès la 6e heure, pic en 24 à 48h, demi-vie courte).\n• B (Vrai) : La CRP se fixe à la surface des pathogènes ou des cellules nécrosées et agit comme une opsonine.\n• C (Vrai) : En opsonisant les cibles et en activant la voie classique du complément, elle facilite leur reconnaissance et leur élimination par phagocytose.\n• D (Faux) : La CRP est synthétisée par le foie (hépatocytes), et non par la thyroïde.\n• E (Faux) : Sa transcription hépatique est stimulée (et non inhibée) par les cytokines pro-inflammatoires pyrogènes : l'interleukine-6 (IL-6), l'interleukine-1 (IL-1) et le TNF-alpha."
   },
   {
     "text": "Parmi les affirmations suivantes, la(les)quelle(s) correspond(ent) à l'œdème inflammatoire ?",
@@ -447,7 +447,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI5 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI5-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'exsudat correspond à un épanchement de liquide de nature séreuse. ; D) Il résulte de l'activation du système immunitaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'œdème inflammatoire résulte d'une vasodilatation (et non d'une vasoconstriction) associée à une augmentation (et non une diminution) de la perméabilité vasculaire.\n• B (Vrai) : Il correspond à la formation d'un exsudat, c'est-à-dire un épanchement liquidien séreux riche en protéines plasmatiques dans le tissu interstitiel.\n• C (Faux) : Les cytokines pro-inflammatoires et les médiateurs vasoactifs (histamine, bradykinine) jouent un rôle central dans l'activation endothéliale et l'hyperperméabilité capillaire responsable de l'œdème.\n• D (Vrai) : Il découle directement de l'activation du système immunitaire inné lors de la phase vasculo-exsudative.\n• E (Faux) : L'œdème de Quincke (angio-œdème) est d'origine allergique (anaphylactique) ou bradykinique, et non d'origine ischémique."
   },
   {
     "text": "Parmi ces marqueurs, le(s)quel(s) fait(font) partie des PRI (Protéines de la Réaction inflammatoire) dont le taux diminue lors du déclenchement d'une réaction inflammatoire ?",
@@ -462,7 +462,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI5 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI5-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) La transferrine"
+    "explanation": "Correction détaillée :\n• A, B, C, D (Faux) : La CRP, l'haptoglobine, la protéine sérique amyloïde A (SAA) et le fibrinogène sont des PRI dites « positives » dont la concentration plasmatique augmente lors de l'inflammation.\n• E (Vrai) : La transferrine (tout comme l'albumine et la préalbumine) est une PRI dite « négative » : le foie réduit sa synthèse au profit des protéines inflammatoires prioritaires, ce qui entraîne une diminution de son taux sanguin."
   },
   {
     "text": "Concernant les réactions inflammatoires chroniques :",
@@ -480,7 +480,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI5 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI5-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elles peuvent durer plusieurs mois voire plusieurs années. ; B) Une inflammation chronique et silencieuse est néfaste à l'organisme. ; D) Elles peuvent persister parce qu'une infection ou une blessure n'a pas bien guéri. ; E) Elles sont caractérisées par la prédominance de la fibrose."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Contrairement à l'inflammation aiguë qui est brève, l'inflammation chronique persiste sur plusieurs mois, voire plusieurs années.\n• B (Vrai) : Même à bas bruit (silencieuse), elle exerce un effet délétère prolongé sur les tissus et favorise de nombreuses pathologies dégénératives, métaboliques ou cardiovasculaires.\n• C (Faux) : Si la cause déclenchante finit par être éradiquée ou contrôlée par un traitement, une inflammation chronique peut se résoudre (bien qu'elle laisse souvent des séquelles fibreuses).\n• D (Vrai) : La persistance de l'agent pathogène (infection mal contrôlée), d'un corps étranger ou d'un défaut de détersion empêche la guérison et entretient la chronicité.\n• E (Vrai) : Sur le plan histologique, l'inflammation chronique se caractérise par la coexistence de destruction tissulaire et de tentatives de réparation menant à une accumulation de collagène (fibrose ou sclérose)."
   },
   {
     "text": "Remettez dans l’ordre les différentes phases associées à la réaction inflammatoire :\na. Détersion\nb. Phase cellulaire\nc. Phase vasculo-exsudative\nd. Réparation/Cicatrisation",
@@ -495,7 +495,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI5 relecture de tentative Annales.pdf"] = [
       "C"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI5-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) c b a d"
+    "explanation": "Correction détaillée :\nOrdre chronologique physiopathologique :\n• c. Phase vasculo-exsudative : congestion active (vasodilatation) et œdème inflammatoire (exsudation).\n• b. Phase cellulaire : margination, diapédèse leucocytaire et formation du granulome inflammatoire.\n• a. Détersion : élimination des débris nécrotiques, des agents pathogènes et de l'exsudat par phagocytose (ou drainage).\n• d. Réparation / Cicatrisation : bourgeon charnu, régénération épithéliale ou cicatrisation fibreuse.\nLes propositions A (a-b-c-d), B (a-c-b-d), D (b-c-a-d) et E (c-a-b-d) sont donc fausses car elles inversent l'enchaînement de ces 4 étapes."
   },
   {
     "text": "Parmi les cellules suivantes, laquelle (lesquelles) fait(font) partie du granulome inflammatoire ?",
@@ -514,7 +514,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI5 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI5-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Neutrophile (PMN) ; B) Macrophage ; C) Lymphocyte T ; D) Fibroblaste ; E) Mastocyte"
+    "explanation": "Correction détaillée :\n• A, B, C, D, E (Vrai) : En anatomopathologie francophone, le terme de « granulome inflammatoire » (ou tissu de granulation lors de la phase cellulaire et de réparation) désigne l'ensemble polymorphe des cellules présentes au sein du foyer inflammatoire, réunissant les cellules sanguines recrutées (polynucléaires neutrophiles, macrophages, lymphocytes T) et les cellules résidentes ou stromales activées (mastocytes, fibroblastes)."
   },
   {
     "text": "Parmi les médiateurs chimiques de l'inflammation suivant, lequel(lesquels) agit(agissent) sur les récepteurs nociceptifs ?",
@@ -530,7 +530,7 @@ window.ANNALES_QCM["UE2/UE2S3.1/SQI5 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.1-SQI5-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Prostaglandines ; E) Leucotriènes — Remarques de l'enseignant : E) Réponse vrai mais possiblement non clairement exposé en cours contrairement aux Prostaglandines"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'IL-12 est une cytokine orientant la différenciation lymphocytaire (réponse Th1), sans action directe majeure sur les nocicepteurs périphériques.\n• B (Faux) : La CRP est une protéine hépatique d'opsonisation et un marqueur biologique, elle ne stimule pas les terminaisons nerveuses nociceptives.\n• C (Vrai) : Les prostaglandines (synthétisées via les cyclo-oxygénases COX) sensibilisent directement les terminaisons nerveuses nociceptives périphériques, abaissant leur seuil d'activation (hyperalgésie inflammatoire).\n• D (Faux) : L'IL-8 (CXCL8) est principalement une chimiokine responsable du chimiotactisme des polynucléaires neutrophiles.\n• E (Vrai) : Les leucotriènes (issus de la voie de la lipo-oxygénase à partir de l'acide arachidonique) participent également à la sensibilisation des récepteurs nociceptifs (bien que ce point ait été moins détaillé en cours que pour les prostaglandines, il est compté vrai dans le corrigé officiel)."
   }
 ];
 window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
