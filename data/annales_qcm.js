@@ -2424,7 +2424,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant la pharmacologie chez le sujet âgé :",
     "id": "ANN-UE2-UE2S34-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les modifications des fonctions rénales impliquent une adaptation de posologie. ; C) Une hypoalbuminémie peut être associée à un surdosage des certains médicaments."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les modifications physiologiques liées à l'âge (notamment la baisse du débit sanguin rénal et de la clairance de la créatinine liée à la chute du DFG) imposent une adaptation (réduction) de la posologie pour éviter les surdosages.\n• B (Faux) : La demi-vie plasmatique (T1/2) des médicaments éliminés par voie rénale ou hépatique est généralement augmentée (et non diminuée) chez le sujet âgé en raison de la diminution des capacités d'élimination et des modifications du volume de distribution.\n• C (Vrai) : L'hypoalbuminémie (fréquente chez le sujet âgé en raison d'une moindre synthèse hépatique et de la dénutrition) réduit la fixation protéique des médicaments acides, augmentant ainsi la fraction libre active du principe actif et le risque de surdosage toxique (ex: AVK).\n• D (Faux) : L'effet de premier passage hépatique est diminué chez le sujet âgé en raison de la baisse de la masse fonctionnelle hépatocytaire et du débit sanguin hépatique.\n• E (Faux) : Avec l'âge, la masse grasse augmente par rapport à l'eau corporelle totale, ce qui entraîne une augmentation (et non une diminution) du volume de distribution des médicaments liposolubles."
   },
   {
     "options": {
@@ -2440,7 +2440,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant la pharmacocinétique chez le nouveau-né (par rapport à l'adulte) : p",
     "id": "ANN-UE2-UE2S34-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) La barrière hémato encéphalique est immature. ; D) Les Tl /2 (demi-vie) délimination des médicaments sont augmentées."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le nouveau-né présente des caractéristiques pharmacocinétiques très spécifiques (immaturité enzymatique et rénale, répartition différente de l'eau corporelle totale 75-80%) ; on ne peut pas appliquer une simple règle proportionnelle universelle calquée sur l'adulte en mg/kg.\n• B (Faux) : L'excrétion rénale (filtration glomérulaire et sécrétion tubulaire) est immature chez le nouveau-né, ce qui se traduit par une diminution de la clairance rénale (et non une augmentation).\n• C (Vrai) : La barrière hémato-encéphalique est immature et beaucoup plus perméable chez le nouveau-né, facilitant le passage de molécules et de xénobiotiques vers le système nerveux central avec un risque majoré de neurotoxicité.\n• D (Vrai) : En raison de l'immaturité conjointe des voies métaboliques hépatiques et de l'excrétion rénale, les demi-vies d'élimination (T1/2) des médicaments sont augmentées.\n• E (Faux) : Les cytochromes P450 (CYP450) ne sont pas exprimés à des niveaux constants ; leur expression est immature et évolutive au cours de la période périnatale et de l'ontogenèse."
   },
   {
     "options": {
@@ -2454,7 +2454,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant la pharmacocinétique :",
     "id": "ANN-UE2-UE2S34-SQI1-03",
-    "explanation": "Correction détaillée :\n• A (Faux) : La demi-vie plasmatique dépend à la fois du volume de distribution (Vd) et de la clairance (Cl), selon la formule t1/2 = (0,693 * Vd) / Cl.\n• B (Faux) : Elle ne dépend pas de la biodisponibilité (qui influence la quantité absorbée, mais pas la vitesse d'élimination intrinsèque).\n• C (Vrai) : C'est la définition cinétique fondamentale de la demi-vie.\n• D (Faux) : Ni la clairance seule ni la biodisponibilité seule ne définissent la demi-vie.\n• E (Faux) : La posologie n'a pas d'impact sur la demi-vie (propriété physico-chimique et pharmacocinétique intrinsèque du principe actif)."
+    "explanation": "Correction détaillée :\n• A (Faux) : La demi-vie plasmatique dépend à la fois du volume de distribution (Vd) et de la clairance (Cl), selon la formule T1/2 = (0.693 × Vd) / Cl. Elle ne dépend pas uniquement du volume de distribution.\n• B (Faux) : La biodisponibilité (F) influence l'aire sous la courbe (ASC) et la concentration maximale (Cmax), mais n'intervient pas directement dans la formule intrinsèque de la demi-vie d'élimination.\n• C (Vrai) : Selon la formule fondamentale T1/2 = (0.693 × Vd) / Cl, la demi-vie plasmatique dépend directement du volume de distribution (Vd) et inversement de la clairance (Cl).\n• D (Faux) : La clairance et la biodisponibilité ne forment pas le couple de paramètres déterminant la demi-vie (la biodisponibilité ne figure pas dans l'équation de la demi-vie).\n• E (Faux) : La posologie n'a aucune influence sur la demi-vie d'élimination, qui est une constante pharmacocinétique intrinsèque propre au médicament et aux capacités physiologiques du patient."
   },
   {
     "options": {
@@ -2470,7 +2470,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Lors d'une administration répétée et régulière, l'équilibre de concentration plasmatique d'un médicament est atteint :",
     "id": "ANN-UE2-UE2S34-SQI1-04",
-    "explanation": "Correction détaillée :\n• A (Faux) : L'équilibre est atteint après un temps fonction de la demi-vie, et non arbitrairement de 4 intervalles tau.\n• B (Vrai) : L'état d'équilibre (Css) est atteint de manière stable au bout de 5 demi-vies du médicament.\n• C (Vrai) : À l'état d'équilibre, les concentrations maximales (Cmax) et minimales (Cmin) se reproduisent à l'identique d'une prise à l'autre.\n• D (Faux) : L'atteinte de l'équilibre est un phénomène cinétique ; le fait que Cmax et Cmin soient dans l'intervalle thérapeutique relève de la posologie efficace, pas de la définition de l'atteinte de l'état d'équilibre.\n• E (Faux) : La clairance d'élimination reste constante pour les cinétiques d'ordre 1 ; ce n'est pas cela qui définit l'atteinte de l'équilibre."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'état d'équilibre est atteint au bout de 5 demi-vies (5 × T1/2), et non au bout de 4 intervalles d'administration tau (sauf si tau coïncide exactement avec la demi-vie).\n• B (Vrai) : Il faut statistiquement compter environ 5 demi-vies d'administration répétée et régulière pour atteindre l'état d'équilibre stationnaire (plateau à environ 97%).\n• C (Vrai) : À l'état d'équilibre, les concentrations maximales (Cmax) et minimales (Cmin) d'une prise à l'autre deviennent stables et strictement reproductibles.\n• D (Vrai / Faux selon contexte) : Sur le plan clinique, l'objectif thérapeutique est que les oscillations à l'équilibre se situent dans la fenêtre thérapeutique ; toutefois, sur le plan strictement pharmacocinétique retenu par l'annale, l'état d'équilibre est atteint indépendamment du fait que la dose soit bien choisie ou non (l'annale officielle retenait B et C).\n• E (Faux) : L'atteinte de l'équilibre ne dépend pas d'une modification de la clairance d'élimination (qui reste une constante pour les cinétiques linéaires d'ordre 1)."
   },
   {
     "options": {
@@ -2487,7 +2487,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant le suivi thérapeutique pharmacologique :",
     "id": "ANN-UE2-UE2S34-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il est recommandé pour certains médicaments immunodépresseurs. ; C) Il est justifié si l'index thérapeutique est étroit. ; E) Il est utile pour individualiser le traitement par des anti-cancéreux inhibiteurs de récepteurs à activité tyrosine kinase."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le STP est fortement recommandé pour les médicaments immunosuppresseurs (ex. ciclosporine, tacrolimus) en raison de leur index thérapeutique très étroit et de leur néphrotoxicité potentielle.\n• B (Faux) : Les antivitamines K (AVK) ne font pas l'objet d'un STP dosant la concentration plasmatique de la molécule elle-même, mais d'un suivi biologique de l'effet anticoagulant global via l'INR.\n• C (Vrai) : Le STP est pleinement indiqué et justifié lorsque le médicament présente un index / une marge thérapeutique étroite.\n• D (Faux) : Les anti-inflammatoires non stéroïdiens (AINS) possèdent une marge thérapeutique large et ne nécessitent aucun suivi thérapeutique pharmacologique en routine.\n• E (Vrai) : Le STP est très utile pour individualiser et sécuriser les traitements anticancéreux ciblés, en particulier les inhibiteurs de tyrosine kinase (ITK)."
   },
   {
     "options": {
@@ -2504,7 +2504,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant la variabilité de l'effet des médicaments :",
     "id": "ANN-UE2-UE2S34-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On retrouve des variabilités interindividuelles. ; B) Elle peut être due à des interactions médicamenteuses. ; D) On retrouve l'impact de la consommation d'alcool et de tabac."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il existe une grande variabilité interindividuelle dans la réponse aux traitements médicamenteux (facteurs génétiques, poids, âge, pathologies associées).\n• B (Vrai) : Les interactions médicamenteuses (induction ou inhibition enzymatique, compétition sur les sites de fixation protéique) sont des sources majeures de variabilité pharmacocinétique et pharmacodynamique.\n• C (Faux) : La variabilité n'augmente pas de façon strictement proportionnelle à l'âge (terme mathématique faux), même si la sensibilité aux médicaments et le risque iatrogène sont globalement accrus chez le sujet âgé.\n• D (Vrai) : La consommation de substances telles que le tabac (inducteur CYP1A2) et l'alcool (inducteur ou inhibiteur selon l'exposition) impacte directement les enzymes du métabolisme et modifie l'effet des médicaments.\n• E (Faux) : La variabilité ne dépend pas uniquement du profil génétique, mais résulte d'une composante multifactorielle incluant l'environnement, l'âge, l'état nutritionnel et les comorbidités."
   },
   {
     "options": {
@@ -2521,7 +2521,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant la variabilité de l'effet des médicaments liée aux enzymes du métabolisme :",
     "id": "ANN-UE2-UE2S34-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On parle de métaboliseurs lents. ; C) On parle de métaboliseurs rapides. ; E) On parle de l'effet inhibiteur enzymatique du jus de pamplemousse."
+    "explanation": "Correction détaillée :\n• A (Vrai) : On distingue sur le plan pharmacogénétique les phénotypes de métaboliseurs lents (absence d'enzyme fonctionnelle entraînant un risque d'accumulation ou d'inefficacité selon s'il s'agit d'un principe actif ou d'une prodrogue).\n• B (Faux) : Le terme « métaboliseurs anormaux » ne fait pas partie de la nomenclature internationale officielle (qui distingue métaboliseurs lents, intermédiaires, normaux/rapides et ultrarapides).\n• C (Vrai) : On identifie également les métaboliseurs rapides ou ultrarapides (souvent porteurs d'allèles dupliqués).\n• D (Faux) : Le tabac exerce un effet inducteur enzymatique puissant (notamment sur le CYP1A2 par les hydrocarbures aromatiques polycycliques), et non un effet inhibiteur.\n• E (Vrai) : Le jus de pamplemousse est un inhibiteur enzymatique bien connu (inhibition irréversible du CYP3A4 intestinal par les furanocoumarines)."
   },
   {
     "options": {
@@ -2538,7 +2538,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "A propos de la toxicité associée à la prise de paracétamol",
     "id": "ANN-UE2-UE2S34-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La toxicité est augmentée en cas de prise aiguë d'alcool. ; C) La détoxification implique la glutathion S transférase. ; D) La toxicité du paracétamol implique sa biotransformation en N-AcétylParabenzoQuinone-lmine."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le métabolite réactif toxique n'est pas sulfoconjugué : la sulfoconjugaison est une voie métabolique de phase II non toxique (voie d'élimination physiologique saturable). Le métabolite toxique est le NAPQI.\n• B (Vrai) : La consommation d'alcool majore la toxicité du paracétamol en induisant le CYP2E1 (qui surproduit le NAPQI) et en déplétant les réserves hépatocytaires de glutathion.\n• C (Vrai) : La neutralisation et la détoxification du métabolite toxique (le NAPQI) font intervenir sa conjugaison au glutathion via la glutathion-S-transférase.\n• D (Vrai) : La toxicité hépatique du paracétamol lors d'un surdosage est directement liée à sa bioactivation oxydative en NAPQI (N-acétyl-p-benzoquinone imine).\n• E (Faux) : La cytolyse massive induite par le surdosage toxique en paracétamol est une nécrose hépatocellulaire centro-lobulaire (hépatique et non pancréatique)."
   },
   {
     "options": {
@@ -2554,7 +2554,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant les essais cliniques de phase I :",
     "id": "ANN-UE2-UE2S34-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils permettent de mesurer la dose maximale tolérée sur des sujets sains sans comorbidité. ; B) Ils visent à identifier la dose minimale avec des effets nocifs observables (LOAEL)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La phase I correspond à la première administration chez l'homme, généralement menée sur un petit groupe de volontaires sains, afin d'évaluer la tolérance clinique/biologique et de mesurer la dose maximale tolérée (DMT).\n• B (Vrai) : Elle vise à identifier les effets indésirables initiaux et à approcher les seuils de tolérance (LOAEL / NOAEL transposées de la phase préclinique).\n• C (Faux) : On ne recherche en aucun cas une dose létale chez l'humain (ce qui serait formellement illégal et contraire à l'éthique médicale).\n• D (Faux) : Les essais de phase I sont conduits chez l'être humain (les expérimentations sur modèles animaux relèvent de la phase préclinique).\n• E (Faux) : La distribution tissulaire détaillée au sein de chaque organe est obtenue lors des études précliniques animales (autoradiographie, radio-marquage), et non en phase I humaine."
   },
   {
     "options": {
@@ -2571,11 +2571,11 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant les essais cliniques de phase Il :",
     "id": "ANN-UE2-UE2S34-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Ils permettent de repérer des effets indésirables éventuels. ; C) Ils permettent de déterminer la dose thérapeutique optimale d'un médicament chez des patients. ; D) Ils permettent d'optimiser la posologie du médicament."
+    "explanation": "Correction détaillée :\n• A (Faux / Nuancé) : La phase II évalue l'efficacité préliminaire et l'activité pharmacologique chez une cohorte restreinte de patients malades (phase pilote), mais la démonstration formelle et comparative de l'efficacité thérapeutique clinique relève des essais de phase III.\n• B (Vrai) : Elle permet de repérer les premiers effets indésirables fréquents en situation pathologique chez les patients cibles.\n• C (Vrai) : Elle permet de déterminer la dose thérapeutique optimale chez les patients (phase IIb de recherche de dose).\n• D (Vrai) : Elle aide à affiner et optimiser le schéma posologique en vue de la phase III.\n• E (Faux) : Les essais de phase II ne sont pas des essais comparatifs croisés par défaut ; il s'agit le plus souvent d'études pilotes ouvertes ou d'essais randomisés en groupes parallèles de recherche de dose."
   },
   {
     "options": {
-      "A": "Le critère de jugement principal est un critère clinique. v'",
+      "A": "Le critère de jugement principal est un critère clinique.",
       "B": "Ils comparent des patients à des sujets sains.",
       "C": "Ce sont des essais comparatifs, randomisés, avec procédure d'insu.",
       "D": "Ils sont réalisés en vue de démontrer l'efficacité du candidat médicament.",
@@ -2588,7 +2588,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "A propos des essais cliniques de phases Ill :",
     "id": "ANN-UE2-UE2S34-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le critère de jugement principal est un critère clinique. v' ; C) Ce sont des essais comparatifs, randomisés, avec procédure d'insu. ; D) Ils sont réalisés en vue de démontrer l'efficacité du candidat médicament."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le critère de jugement principal de la phase III est un critère clinique pertinent et direct pour le patient (survie globale, rémission, guérison, amélioration fonctionnelle).\n• B (Faux) : La phase III compare le candidat médicament soit à un placebo, soit au traitement de référence chez des patients malades, et non à des sujets sains.\n• C (Vrai) : Ce sont des essais pivots comparatifs de grande envergure, multicentriques, randomisés et menés en double insu pour éliminer les biais d'évaluation.\n• D (Vrai) : Leur objectif majeur est d'apporter la preuve statistique et clinique formelle de l'efficacité et de la sécurité d'emploi du candidat médicament.\n• E (Vrai / Faux selon annale) : La phase III fournit les données cliniques établissant le rapport bénéfice/risque (R/B), bien que sa validation réglementaire finale relève formellement des agences de santé (ANSM/EMA) lors de l'octroi de l'AMM (l'annale officielle retenait A, C, D)."
   },
   {
     "options": {
@@ -2604,7 +2604,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "A propos des cytochromes P450 :",
     "id": "ANN-UE2-UE2S34-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Leur activité est modulée par des aliments. ; D) Leur activité catalytique varie selon des polymorphismes génétiques."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les cytochromes P450 sont des enzymes de la famille des mono-oxygénases à hème (oxydoréductases à fonction mixte) et non des transférases (qui correspondent aux enzymes de phase II de conjugaison).\n• B (Faux) : Leur expression n'est pas totale ni constante dès la naissance ; elle évolue selon l'ontogenèse périnatale et post-natale.\n• C (Vrai) : Leur activité peut être modulée (induite ou inhibée) par des facteurs environnementaux, des médicaments et des constituants alimentaires (ex: pamplemousse, viandes grillées).\n• D (Vrai) : Leur activité varie fortement en fonction des polymorphismes génétiques interindividuels (allèles sauvages, mutants non fonctionnels ou duplications).\n• E (Faux) : Leur expression n'est pas constante ni uniformément ubiquitaire (ils sont principalement et majoritairement exprimés dans les hépatocytes et les entérocytes intestinaux)."
   },
   {
     "options": {
@@ -2622,22 +2622,23 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "A propos des composés toxiques :",
     "id": "ANN-UE2-UE2S34-SQI1-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La toxicité peut résulter de l'effet additif de l'exposition à plusieurs composés à des doses individuelles non dangereuses. ; B) Les toxiques environnementaux sont biotransformés par des voies similaires à celles des médicaments. ; C) Les combinaisons de xénobiotiques peuvent avoir des effets cocktails. ; E) La toxicité peut être aiguë ou chronique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La toxicité peut résulter d'un effet additif lors d'une exposition simultanée à plusieurs composés à des doses individuellement inférieures à leur seuil de toxicité propre.\n• B (Vrai) : Les xénobiotiques et toxiques environnementaux sont biotransformés par les mêmes grands systèmes enzymatiques que les médicaments (cytochromes P450 de phase I, conjugaisons de phase II).\n• C (Vrai) : Les combinaisons de xénobiotiques peuvent induire des effets cocktails synergiques.\n• D (Faux) : Tous les xénobiotiques ne sont pas toxiques (un xénobiotique désigne simplement toute substance étrangère à un organisme vivant, incluant les médicaments thérapeutiques).\n• E (Vrai) : La toxicité d'un composé peut s'exprimer sous une forme aiguë (exposition unique et massive) ou chronique (expositions répétées au long cours)."
   },
   {
     "options": {
       "A": "Les réactions d'hydrolyse font partie de la phase Il.",
       "B": "Les réactions de transfert font partie de la phase l.",
       "C": "L'acétylation est une réaction de phase l.",
-      "D": "La glucuronoconjugaison est une réaction de phase Il La métabolisation de xénobiotique est une voie de détoxification.",
+      "D": "La glucuronoconjugaison est une réaction de phase II.",
       "E": "La métabolisation de xénobiotique est une voie de détoxification."
     },
     "correctAnswers": [
-      "D"
+      "D",
+      "E"
     ],
     "text": "Concernant le métabolisme des xénobiotiques :",
     "id": "ANN-UE2-UE2S34-SQI1-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) La glucuronoconjugaison est une réaction de phase Il La métabolisation de xénobiotique est une voie de détoxification."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les réactions d'hydrolyse (par des estérases ou peptidases) font partie des réactions de fonctionnalisation de la Phase I, et non de la Phase II.\n• B (Faux) : Les réactions de transfert (conjugaison) constituent la Phase II du métabolisme.\n• C (Faux) : L'acétylation est une réaction de conjugaison de Phase II.\n• D (Vrai) : La glucuronoconjugaison (catalysée par les UDP-glucuronosyltransférases) est une réaction quantitativement majeure de Phase II.\n• E (Vrai) : La métabolisation des xénobiotiques a pour finalité générale de les rendre plus hydrosolubles (polaires) pour faciliter leur élimination rénale ou biliaire, constituant ainsi une voie de détoxification."
   },
   {
     "options": {
@@ -2655,7 +2656,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant la pharmacogénétique :",
     "id": "ANN-UE2-UE2S34-SQI1-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle s'intéresse aux polymorphismes des gènes codant des cibles des médicaments. ; B) Les métaboliseurs rapides présentent entre autres un nombre excessif d'allèles sauvages de gènes codant des enzymes de biotransformation. ; D) Elle est étudiée dès la phase clinique Il du développement d'un médicament. ; E) Elle consiste entre autres à identifier les mutations de cibles de thérapies anticancéreuses. — Remarques : x"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La pharmacogénétique étudie l'impact des polymorphismes génétiques sur les gènes codant pour les enzymes métaboliques, les transporteurs membranaires et les cibles thérapeutiques.\n• B (Vrai) : Les métaboliseurs rapides (ou ultrarapides) possèdent des allèles fonctionnels normaux ou des duplications géniques augmentant l'expression de l'enzyme.\n• C (Faux) : Les métaboliseurs lents ne présentent pas de duplications (caractéristiques des ultrarapides), mais plutôt des allèles mutés non fonctionnels ou des délétions géniques.\n• D (Vrai) : La pharmacogénétique est intégrée dès le développement clinique (phases II/III) pour expliquer et anticiper les variabilités de réponse et les toxicités.\n• E (Vrai) : Elle englobe également l'identification de mutations somatiques cibles en oncologie (ex: EGFR, BRAF) pour adapter les thérapies ciblées personnalisées."
   },
   {
     "options": {
@@ -2672,7 +2673,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Parmi les propositions suivantes, lesquelles correspondent à la phase vasculo-exsudative de la réaction inflammatoire ?",
     "id": "ANN-UE2-UE2S34-SQI1-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'histamine joue un rôle important au stade initial. ; C) Elle se déroule initialement dans un tissu conjonctif vascularisé. ; E) Elle contribue à la formation de l'oedème inflammatoire."
+    "explanation": "Correction détaillée :\n• A (Faux) : La phase vasculo-exsudative et la phase cellulaire sont deux séquences distinctes de la réaction inflammatoire aiguë ; la vasculo-exsudative regroupe les phénomènes vasculaires et l'exsudat liquidien, la phase cellulaire venant s'y greffer ensuite.\n• B (Vrai) : L'histamine, libérée immédiatement par les mastocytes dégranulés, joue un rôle prépondérant de vasodilatation artériolaire et d'hyperperméabilité capillaire au stade initial.\n• C (Vrai) : La réaction inflammatoire aiguë se déroule obligatoirement au sein d'un tissu conjonctif vascularisé.\n• D (Faux / Vrai selon annale) : La diapédèse leucocytaire marque le passage à la phase cellulaire qui succède à l'exsudation ; l'annale officielle retenait B, C et E comme strictes caractéristiques de la phase vasculo-exsudative.\n• E (Vrai) : La fuite plasmatique trans-capillaire est directement responsable de la formation de l'œdème inflammatoire (exsudat)."
   },
   {
     "options": {
@@ -2687,7 +2688,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant les marqueurs de l'inflammation :",
     "id": "ANN-UE2-UE2S34-SQI1-17",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les principaux marqueurs de l'inflammation utilisés en diagnostique sont des protéines qui participent directement à la défense de l'organisme. x"
+    "explanation": "Correction détaillée :\n• A (Faux) : La vitesse de sédimentation (VS) est un marqueur très sensible mais totalement non spécifique d'une étiologie ou d'une pathologie particulière.\n• B (Vrai) : Les principaux marqueurs biologiques utilisés en pratique diagnostique sont des protéines de la réaction inflammatoire (PRI) produites par le foie et participant directement aux défenses de l'hôte (opsonisation, hémostase, réparation).\n• C (Faux) : Seules quelques protéines comme la CRP ou la SAA présentent une élévation ultra-rapide et d'amplitude forte (multiplication par 100 à 1000) ; d'autres PRI comme le fibrinogène ou l'haptoglobine ne sont multipliées que par 2 à 4.\n• D (Faux) : Les marqueurs à cinétique intermédiaire ou lente (comme l'orosomucoïde ou le fibrinogène) présentent un grand intérêt clinique pour le diagnostic et le suivi des syndromes inflammatoires subaigus ou chroniques.\n• E (Faux) : L'orosomucoïde est un marqueur à cinétique semi-retardée (pic en 48 à 72 heures) ; le marqueur ultra-précoce de référence est la CRP (élévation dès 6 heures)."
   },
   {
     "options": {
@@ -2703,7 +2704,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant l'inflammation granulomateuse :",
     "id": "ANN-UE2-UE2S34-SQI1-18",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle est caractérisée par la prédominance de la réaction cellulaire. ; B) Après quelques jours dévolution, le tissu de granulation inflammatoire s'enrichi de polynucléaires et de leucocytes mononuclées au sein d'une matrice extra cellulaire œdémateuse. ; D) C'est une inflammation productive caractérisée par la prolifération de fibroblastes. Elle permet d'assurer la détersion du foyer lésionnel par les phagocytes."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'inflammation granulomateuse est caractérisée par la prédominance de la réaction cellulaire organisée (macrophages activés, cellules épithélioïdes et cellules géantes multinucléées).\n• B (Vrai / Faux selon annale) : Dans les premiers jours, le foyer inflammatoire s'enrichit de polynucléaires et de leucocytes mononucléés au sein d'une matrice œdémateuse (l'annale officielle comptait A, B et D vrais, bien que le granulome constitué soit une lésion chronique productive distincte du tissu de granulation précoce).\n• C (Faux) : Ce sont les monocytes sanguins qui migrent dans le tissu et se différencient en macrophages tissulaires capables de phagocytose (et non l'inverse).\n• D (Vrai) : C'est une inflammation productive marquée par la prolifération fibroblastique et la synthèse de collagène, participant à la détersion et au confinement d'agents pathogènes persistants."
   },
   {
     "options": {
@@ -2721,7 +2722,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant l'inflammation chronique :",
     "id": "ANN-UE2-UE2S34-SQI1-19",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Une réaction inflammatoire peut se manifester d'emblée sous une forme chronique, la phase aiguë vasculo- exsudative passant alors inaperçue, étant brève et/ou asymptomatique. ; C) Elle n'a aucune tendance à la guérison spontanée. ; D) Elle peut être causée par une détersion incomplète. ; E) Une infection par le VHB (Virus de l'hépatite B) peut être la cause d'une hépatite chronique. — Remarques : x"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'inflammation chronique ne se caractérise pas par des phénomènes vasculo-exsudatifs intenses (qui définissent l'inflammation aiguë), mais par la coexistence de destructions tissulaires, d'un infiltrat mononucléé et d'une fibrose.\n• B (Vrai) : Une inflammation peut s'installer d'emblée sous une forme chronique insidieuse, la phase aiguë étant passée inaperçue ou ayant été absente.\n• C (Vrai) : L'inflammation chronique n'a généralement aucune tendance spontanée à la guérison tant que l'agent causal ou le stimulus antigénique persiste.\n• D (Vrai) : Une détersion incomplète ou la persistance d'un corps étranger / débris nécrotique entretient le processus inflammatoire et pérennise la chronicité.\n• E (Vrai) : L'infection chronique par le virus de l'hépatite B (VHB) est un exemple classique d'inflammation hépatique chronique évoluant vers la fibrose et la cirrhose."
   },
   {
     "options": {
@@ -2738,7 +2739,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant la détersion lors de la réaction inflammatoire :",
     "id": "ANN-UE2-UE2S34-SQI1-20",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle succède progressivement à la phase vasculo-exsudative et est contemporaine de la phase cellulaire. ; B) Les phagocytes participent au processus d'élimination des tissus nécrosés. ; E) Elle s'accompagne d'une production de dérivés oxygénés toxiques pouvant entrainer une altération des tissus salns."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La détersion succède progressivement à la phase vasculo-exsudative et est contemporaine de la phase cellulaire d'infiltrat leucocytaire.\n• B (Vrai) : Les cellules phagocytaires (polynucléaires neutrophiles et macrophages) jouent un rôle clé dans l'élimination des débris tissulaires nécrosés et des pathogènes.\n• C (Faux / Vrai selon référentiel) : La phase de cicatrisation et de réparation tissulaire optimale ne peut s'achever qu'après détersion complète du foyer (l'annale officielle retenait A, B et E).\n• D (Faux / Nuancé) : La détersion externe n'est pas systématique ; la détersion interne (phagocytose et résorption lymphatique) constitue la voie naturelle constante, la fistulisation externe n'étant qu'une éventualité.\n• E (Vrai) : La phagocytose s'accompagne d'une libération d'espèces réactives de l'oxygène (« burst oxydatif ») et d'enzymes protéolytiques susceptibles d'altérer les tissus sains environnants."
   },
   {
     "options": {
@@ -2754,7 +2755,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant la CRP (Protéine C réactive) :",
     "id": "ANN-UE2-UE2S34-SQI1-21",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Elle agit comme une opsonine. ; D) Au cours de la réaction inflammatoire, son taux augmente dès la 6ème heure pour atteindre son maximum au bout de 24 à 48h."
+    "explanation": "Correction détaillée :\n• A (Faux) : La CRP a une cinétique rapide (élévation dès 6h, pic à 24-48h), alors que le fibrinogène a une cinétique semi-lente (pic en 48-72h) ; leurs concentrations n'évoluent pas de façon strictement synchrone.\n• B (Faux) : La CRP n'est pas un composant constitutif de la cascade du complément (c'est une pentraxine hépatique), même si sa liaison au ligand est capable d'activer la voie classique du complément.\n• C (Vrai) : La CRP agit comme une opsonine non spécifique qui se lie aux agents pathogènes et facilite leur phagocytose par les macrophages et neutrophiles.\n• D (Vrai) : Son taux plasmatique commence à s'élever dès la 6ème heure après le stimulus inflammatoire et atteint son pic maximal entre 24 et 48 heures.\n• E (Faux) : Le dosage de la CRP ne se limite aucunement à la période néonatale ; c'est un marqueur universel d'inflammation et d'infection utilisé à tous les âges de la vie."
   },
   {
     "options": {
@@ -2769,7 +2770,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Un homme de 38 ans présente une VS à 35mm à la première heure •",
     "id": "ANN-UE2-UE2S34-SQI1-22",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) La VS est modérément accélérée."
+    "explanation": "Correction détaillée :\n• A (Faux) : Une vitesse de sédimentation isolée à 35 mm à la première heure est modérément accélérée mais ne permet pas d'affirmer formellement à elle seule un syndrome inflammatoire évolutif en l'absence de données cliniques (la VS étant influencée par l'anémie, l'âge, l'état d'hydratation ou une dysglobulinémie).\n• B (Faux) : Chez un homme de 38 ans, la valeur physiologique normale de la VS à H1 est inférieure à 15 mm ; une valeur de 35 mm est donc pathologique.\n• C (Vrai) : Une valeur de VS à 35 mm à la 1ère heure témoigne d'une accélération modérée de la vitesse de sédimentation.\n• D (Faux) : L'élévation de la VS est totalement non spécifique ; elle ne permet en aucun cas d'affirmer l'origine bactérienne d'une infection.\n• E (Faux) : La mesure à la deuxième heure fait partie intégrante de la méthode de Westergren et permet d'évaluer l'indice de Katz."
   },
   {
     "options": {
@@ -2786,7 +2787,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "L'inflammation :",
     "id": "ANN-UE2-UE2S34-SQI1-23",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) fait intervenir des médiateurs chimiques locaux et généraux. ; C) aboutit habituellement à une réparation tissulaire. ; D) peut favoriser le développement d'une sclérose."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'inflammation fait intervenir des médiateurs chimiques locaux (histamine, dérivés de l'acide arachidonique, chimiokines) et des réponses systémiques générales (fièvre, sécrétion hépatique des PRI, leucocytose).\n• B (Faux) : L'inflammation n'est pas obligatoirement d'origine infectieuse (elle peut être déclenchée par des traumatismes physiques, des brûlures thermiques, des ischémies tissulaires ou des mécanismes auto-immuns).\n• C (Vrai) : L'évolution physiologique favorable de la réaction inflammatoire aiguë aboutit le plus souvent à une restitution intégrale du tissu (ad integrum) ou à une réparation cicatricielle.\n• D (Vrai) : En cas de persistance, de sévérité ou d'évolution chronique, la prolifération fibroblastique conduit à une accumulation excessive de matrice extracellulaire collagénique (fibrose ou sclérose tissulaire).\n• E (Faux) : La morphologie et la présentation histopathologique de la réaction inflammatoire varient considérablement selon l'organe ou le tissu atteint et l'agent agresseur causal."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
