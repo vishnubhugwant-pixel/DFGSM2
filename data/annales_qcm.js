@@ -549,7 +549,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On retrouve des variabilités interindividuelles. ; B) Elle peut être due à des interactions médicamenteuses. ; D) On retrouve l'impact de la consommation d'alcool et de tabac."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il existe une grande variabilité interindividuelle liée au profil génétique, à l'âge, au poids et aux co-pathologies.\n• B (Vrai) : Les interactions médicamenteuses (induction ou inhibition enzymatique, compétition protéique) modifient l'effet du médicament.\n• C (Faux) : La variabilité et la sensibilité aux médicaments augmentent chez le sujet âgé, mais pas de manière strictement linéaire ou proportionnelle mathématique simple.\n• D (Vrai) : L'alcool et le tabac modifient l'activité enzymatique hépatique (le tabac est un inducteur enzymatique via les HAP, l'alcool module le CYP2E1).\n• E (Faux) : La variabilité ne dépend pas uniquement du génome, mais de multifonctions (âge, environnement, physiologie, pathologie)."
   },
   {
     "text": "Concernant la variabilité de l'effet des médicaments :",
@@ -567,7 +567,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les modifications des fonctions rénales impliquent une adaptation de posologie chez le sujet âgé. ; B) La demi-vie plasmatique des médicaments chez le sujet âgé est augmentée par rapport à l'adulte jeune. ; C) Une hypoalbuminémie peut être associée à une toxicité des AVK. ; D) La bioactivation hépatique du clopidogrel est minorée en cas de consommation de jus de pamplemousse."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La baisse de la clairance rénale (filtration glomérulaire) impose une réduction posologique pour les médicaments à élimination rénale.\n• B (Vrai) : La diminution des flux sanguins hépatiques et rénaux allonge la demi-vie plasmatique (t1/2) de nombreux médicaments.\n• C (Vrai) : L'hypoalbuminémie fréquente chez les personnes âgées diminue la fraction liée aux protéines, augmentant la fraction libre active des AVK (Antivitamines K) et donc le risque hémorragique.\n• D (Vrai) : Le jus de pamplemousse inhibe le CYP3A4 intestinal, minorant la bioactivation de certains prodrogues comme le clopidogrel.\n• E (Faux) : Le volume de distribution des médicaments liposolubles a tendance à augmenter (augmentation de la masse grasse relative), tandis que celui des hydrosolubles diminue (baisse de l'eau corporelle totale)."
   },
   {
     "text": "Le jour de ses 16 ans, le Petit Chaperon Rouge emmène sa grand-mère de 80 ans se promener dans la campagne. Elles passent une journée agréable dans un champ. Or, il s’avère que ce champ a été traité la veille par un épandage d'herbicides. La jeune fille reste en pleine forme mais sa grand-mère est atteinte de nausées et vomissements durant 3 jours. Parmi les propositions suivantes, quelle(s) hypothèse(s) peut ou peuvent expliquer cette variabilité de l’effet de l’exposition aux herbicides ?",
@@ -584,7 +584,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La grand-mère suit un traitement médicamenteux inhibiteur d’enzymes hépatiques. ; C) La grand-mère présente une insuffisance rénale. ; E) La grand-mère présente une perméabilité de la barrière hématoencéphalique."
+    "explanation": "Correction détaillée :\n• A (Faux) : À 16 ans, les organes de détoxification sont matures ; de plus, s'ils étaient immatures, c'est la jeune fille qui présenterait des signes de toxicité et non l'inverse.\n• B (Vrai) : La prise d'un médicament inhibiteur des enzymes hépatiques chez la grand-mère ralentit la détoxification des xénobiotiques (herbicides), favorisant leur accumulation toxique.\n• C (Vrai) : Une insuffisance rénale liée à l'âge diminue l'excrétion urinaire du toxique et de ses métabolites, prolongeant leur présence dans l'organisme.\n• D (Faux) : Une « mutation oncogénétique » fait référence au développement tumoral et non à un mécanisme physiologique de résistance aux herbicides.\n• E (Vrai) : Une augmentation de la perméabilité de la barrière hémato-encéphalique chez la personne âgée facilite le passage central des toxiques, expliquant les symptômes neurologiques/émétiques (nausées, vomissements)."
   },
   {
     "text": "Le suivi thérapeutique pharmacologique d’un médicament peut être indiqué :",
@@ -603,7 +603,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) pour améliorer l’efficacité d’un traitement. ; B) pour diminuer la toxicité d’un traitement. ; C) si la relation dose-concentration présente une grande variabilité inter-individuelle. ; D) pour les médicaments à marge thérapeutique étroite. ; E) si la réponse pharmacologique est difficilement accessible par une mesure de l'effet thérapeutique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il permet d'ajuster la posologie pour éviter le sous-dosage et garantir l'efficacité thérapeutique.\n• B (Vrai) : Il permet de dépister un surdosage et de prévenir l'apparition d'effets indésirables toxiques.\n• C (Vrai) : Lorsqu'une même dose donne des concentrations plasmatiques très différentes selon les patients (forte variabilité interindividuelle), le dosage sanguin permet d'individualiser la prise en charge.\n• D (Vrai) : Pour les médicaments à marge (ou index) thérapeutique étroite, la dose efficace est très proche de la dose toxique, ce qui justifie pleinement le STP.\n• E (Vrai) : Lorsque l'effet clinique n'est pas directement ou rapidement mesurable (contrairement à la tension artérielle ou à l'INR), la concentration plasmatique sert de guide thérapeutique."
   },
   {
     "text": "Concernant la pharmacocinétique chez le nouveau-né par rapport à l'adulte jeune :",
@@ -620,7 +620,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) La fonction rénale est immature, ce qui entraine un risque de surdosage. ; D) Le volume de distribution Vd est augmenté. ; E) Les demi-vies t1/2 d'élimination des médicaments sont augmentées."
+    "explanation": "Correction détaillée :\n• A (Faux) : On ne peut pas administrer tous les médicaments chez le nouveau-né en adaptant juste le poids, en raison de l'immaturité enzymatique et de barrières physiologiques perméables.\n• B (Faux) : Les enzymes de biotransformation hépatique (phase I et II) sont immatures et diminuées à la naissance.\n• C (Vrai) : L'immaturité de la fonction rénale (filtration glomérulaire basse) ralentit l'élimination et expose au surdosage.\n• D (Vrai) : Le volume de distribution des molécules hydrosolubles est augmenté (eau extracellulaire plus importante chez le nouveau-né).\n• E (Vrai) : Les demi-vies d'élimination sont prolongées en raison de la baisse combinée du métabolisme et de l'excrétion rénale."
   },
   {
     "text": "Madame P. a 80 ans, elle est admise à l'hôpital pour réaliser un suivis thérapeutique pharmacologique de son traitement antiarythmiques. Les résultats montrent une concentration plasmatique trop élevée. Parmi les propositions suivantes, lesquelles peuvent être considérées comme des facteurs de risques de surdosage ?",
@@ -638,7 +638,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La polymédication ; B) L'insuffisance rénale ; C) Une mauvaise observance ; D) L'insuffisance hépatique"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La polymédication multiplie le risque d'interactions médicamenteuses (notamment par compétition ou inhibition enzymatique).\n• B (Vrai) : L'insuffisance rénale diminue l'excrétion urinaire du médicament et provoque son accumulation plasmatique.\n• C (Vrai) : Une mauvaise observance (ici par excès de prises ou confusion dans le schéma posologique) peut conduire à une concentration plasmatique trop élevée.\n• D (Vrai) : L'insuffisance hépatique réduit la clairance métabolique du traitement antiarythmique.\n• E (Faux) : L'épaisseur de la peau n'influence pas le surdosage d'un traitement antiarythmique systémique habituel."
   },
   {
     "text": "Concernant l’effet des médicaments, il peut présenter des variabilités :",
@@ -657,7 +657,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Interindividuelles ; B) Intra-individuelles ; C) D'ordre pharmacocinétiques ; D) D'origine génétique ; E) Dues à des interactions médicamenteuses"
+    "explanation": "Correction détaillée :\n• A, B, C, D, E (Vrai) : L'effet d'un médicament varie selon les individus (inter), chez le même individu selon le moment (intra), par des mécanismes pharmacocinétiques (ADME), génétiques (polymorphismes) et par des interactions médicamenteuses."
   },
   {
     "text": "Concernant la pharmacogénétique :",
@@ -674,7 +674,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle s’intéresse aux polymorphisme des gènes codant des enzymes impliquées dans la pharmacocinétique des médicaments. ; C) Les sujets dits métaboliseurs lents, pour un Cytochrome P450 impliqué dans l'élimination d'un médicament, présentent un risque de toxicité accru. ; D) Les métaboliseurs ultrarapides présentent entre autres un nombre excessif d’allèles sauvages de gènes codant des CYP450."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elle étudie l'impact des polymorphismes génétiques (ex: SNPs) sur les gènes codant les enzymes de biotransformation, les transporteurs ou les cibles.\n• B (Faux) : Elle s'intéresse aux variations physiologiques/pharmacologiques normales de la population (polymorphismes), et non aux pathologies génétiques rares.\n• C (Vrai) : Les métaboliseurs lents éliminent mal le médicament, entraînant une accumulation et un risque de toxicité accru.\n• D (Vrai) : Les métaboliseurs ultrarapides présentent souvent des duplications ou un nombre excessif d'allèles fonctionnels.\n• E (Faux) : Les métaboliseurs ultrarapides ont une activité enzymatique augmentée (et non réduite)."
   },
   {
     "text": "Concernant la variabilité de l'effet des médicaments liée aux enzymes du métabolisme :",
@@ -691,7 +691,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On parle de métaboliseurs lents. ; C) On parle de métaboliseurs rapides. ; E) On parle de l'effet inhibiteur enzymatique du jus de pamplemousse."
+    "explanation": "Correction détaillée :\n• A (Vrai) : On distingue les profils de métaboliseurs lents.\n• B (Faux) : Le terme consacré est métaboliseur lent, intermédiaire, rapide ou ultrarapide, et non \"anormal\".\n• C (Vrai) : On distingue les métaboliseurs rapides et ultrarapides.\n• D (Faux) : Le tabagisme est un inducteur enzymatique (et non inhibiteur).\n• E (Vrai) : Le jus de pamplemousse est un puissant inhibiteur enzymatique (CYP3A4 intestinal)."
   },
   {
     "text": "Concernant le suivi pharmacologique thérapeutique, il concerne :",
@@ -707,7 +707,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Certains antibiotiques ; D) Les médicaments immunosuppresseurs"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Concerne certains antibiotiques à marge étroite (ex: aminosides).\n• B (Faux) : Les AVK ne font pas l'objet d'un STP par dosage de concentration plasmatique du médicament, mais par la mesure de l'effet biologique (INR).\n• C (Faux) : Pas de STP systématique pour les bêtabloquants (on juge l'efficacité par la fréquence cardiaque et la pression artérielle).\n• D (Vrai) : Indispensable pour les immunosuppresseurs (ciclosporine, tacrolimus) en raison de leur marge thérapeutique étroite.\n• E (Faux) : Les AINS ne nécessitent pas de STP en pratique clinique courante."
   },
   {
     "text": "Concernant les essais précliniques :",
@@ -725,7 +725,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L’éthique animale recommande les 3 R : réduire, raffiner et remplacer. ; B) La toxicité à dose réitérées évalue l’aptitude du produit à présenter une toxicité sur le long terme. ; C) Le test d’Ames vise à mettre en évidence l’effet mutagène. ; E) Ils consistent entre autres à étudier la reprotoxicité (effet sur la reproduction et la fertilité)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'éthique animale repose rigoureusement sur la règle des 3R : Remplacer, Réduire, Raffiner.\n• B (Vrai) : La toxicité à doses réitérées évalue la toxicité chronique au long cours.\n• C (Vrai) : Le test d'Ames est le test standard in vitro pour dépister le pouvoir mutagène.\n• D (Faux) : La toxicité aiguë évalue la toxicité à très court terme après administration d'une dose unique (ou de fortes doses), pas l'accumulation tissulaire.\n• E (Vrai) : Les études précliniques évaluent systématiquement la reprotoxicité (fertilité, développement embryofœtal)."
   },
   {
     "text": "Concernant les essais cliniques de phase I :",
@@ -741,7 +741,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "C"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils étudient la tolérance à un principe actif. ; C) Ils sont réalisés de préférences sur des sujets sains."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ils ont pour objectif principal d'étudier la tolérance, la sécurité et la dose maximale tolérée.\n• B (Faux) : Ils sont réalisés de préférence sur des volontaires sains (sauf en oncologie où l'éthique impose des patients malades en échec thérapeutique).\n• C (Vrai) : Réalisés préférentiellement sur des sujets sains.\n• D (Faux) : Ce n'est pas l'objectif de la phase I (qui vise la tolérance), mais de la phase II/III.\n• E (Faux) : Ce ne sont pas des études comparatives à ce stade précoce."
   },
   {
     "text": "Concernant les essais cliniques de phase II :",
@@ -758,7 +758,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "C"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il s’agit généralement de la première administration du médicament à des sujets malades. ; B) Ils permettent de vérifier l’effet pharmacologique attendu d’un médicament en situation pathologique. ; C) Ils permettent de déterminer la posologie d'un candidat médicament."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il s'agit généralement de la première administration du candidat médicament chez des patients malades.\n• B (Vrai) : Ils permettent de vérifier l'activité et l'effet pharmacologique attendu en situation pathologique (preuve de concept).\n• C (Vrai) : Ils aident à déterminer la posologie efficace optimale.\n• D (Faux) : L'évaluation définitive rigoureuse du rapport bénéfice/risque se fait en phase III.\n• E (Faux) : Ce n'est pas l'objectif principal de la phase II."
   },
   {
     "text": "Concernant les essais cliniques de phase III :",
@@ -774,7 +774,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils permettent de déterminer l’efficacité d’un médicament. ; D) Ils s’articulent principalement sur des études comparatives randomisées."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ce sont les essais pivotaux qui démontrent formellement l'efficacité thérapeutique du médicament.\n• B (Faux) : Ils succèdent (et ne précèdent pas) aux phases I et II.\n• C (Faux) : Ils reposent sur des critères de jugement principaux (qui peuvent être simples ou composites, mais pas \"obligatoirement composites\").\n• D (Vrai) : Ils reposent sur des études comparatives randomisées (versus placebo ou traitement de référence).\n• E (Faux) : Ils sont réalisés avant l'obtention de l'AMM (Autorisation de Mise sur le Marché) pour constituer le dossier d'enregistrement."
   },
   {
     "text": "Concernant la communication de l'industrie pharmaceutique :",
@@ -791,7 +791,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Les visiteurs médicaux proposent des échantillons gratuits de médicaments. ; D) Le praticien doit analyser la manière dont les données sont présentées dans les brochures proposées par les visiteurs médicaux (risque relatif versus risque absolu). ; E) Les stratégies de communication de l'industrie pharmaceutique présentent un risque d'influencer les décisions médicales au détriment de l’intérêt du patient."
+    "explanation": "Correction détaillée :\n• A (Faux) : La visite médicale a une finalité commerciale et promotionnelle ; l'information n'est pas neutre.\n• B (Faux) : Les documents promotionnels présentent souvent de manière sélective les résultats favorables.\n• C (Vrai) : La remise d'échantillons est une pratique encadrée mais historiquement utilisée pour initier les traitements.\n• D (Vrai) : Le médecin doit exercer un esprit critique, notamment face aux biais de présentation (risque relatif versus risque absolu).\n• E (Vrai) : Le marketing pharmaceutique peut biaiser la prescription médicale au détriment de l'intérêt patient."
   },
   {
     "text": "A propos de la toxicité associée à la prise de paracétamol  :",
@@ -810,7 +810,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI1 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI1-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le métabolite toxique du paracétamol est le N-Acétyl-Parabenzo-Quinone-Imine (NAPQI). ; B) La toxicité est augmentée en cas de prise aiguë d'alcool. ; C) La détoxification implique la glutathion S transférase. ; D) Le métabolisme du paracétamol implique sa biotransformation en métabolites sulfo- ou glucurono-conjugués ; E) Les métabolites toxiques du paracétamol induisent une cytolyse hépatique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le métabolite réactif et hépatotoxique est le NAPQI (N-Acétyl-p-benzoquinone imine).\n• B (Vrai) : La prise aiguë d'alcool (ou le jeûne, ou l'induction enzymatique par des inducteurs) majore la production de NAPQI par le CYP2E1.\n• C (Vrai) : La détoxification physiologique du NAPQI se fait par conjugaison avec le glutathion (via la glutathion S-transférase).\n• D (Vrai) : Les voies métaboliques majoritaires et saines du paracétamol sont la sulfoconjugaison et la glucuronoconjugaison.\n• E (Vrai) : En cas de saturation du glutathion, le NAPQI se lie aux protéines hépatiques et induit une cytolyse hépatique aiguë (nécrose centro-lobulaire)."
   }
 ];
 window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
@@ -830,7 +830,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une délétion homozygote ; B) Une action de micro-ARN ; C) Une hyperméthylation ; D) Une mutation dominante-négative"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La délétion homozygote supprime les deux allèles du gène suppresseur.\n• B (Vrai) : Les micro-ARN peuvent réprimer l'expression des gènes suppresseurs.\n• C (Vrai) : L'hyperméthylation des îlots CpG du promoteur inhibe la transcription du gène.\n• D (Vrai) : Une mutation dominante-négative de la protéine mute l'allèle restant et inhibe la protéine saine.\n• E (Faux) : L'amplification génique active les oncogènes, pas les suppresseurs de tumeur."
   },
   {
     "text": "Quel(s) mécanisme(s) est (sont) à l'origine de l'échappement immunitaire dans le cancer ?",
@@ -846,7 +846,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Immunosubversion ; D) Immunosélection"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'immunosurveillance est le mécanisme par lequel le système immunitaire détruit les cellules tumorales (ce n'est pas un mécanisme d'échappement).\n• B (Faux) : L'immunostimulation stimule l'immunité.\n• C (Vrai) : L'immunosubversion (ou immunomodulation par sécrétion de cytokines inhibitrices comme le TGF-beta) favorise l'échappement.\n• D (Vrai) : L'immunosélection élimine les clones tumoraux les plus immunogènes, ne laissant proliférer que les clones sourds aux défenses immunitaires.\n• E (Faux) : L'immunoprécipitation est une technique de laboratoire en biologie moléculaire, pas un mécanisme biologique tumoral."
   },
   {
     "text": "Dans quel(s) cas l'examen extemporané est-il justifié ?",
@@ -861,7 +861,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Lorsqu'il peut influencer le déroulement de l'acte chirurgical"
+    "explanation": "Correction détaillée :\n• A (Faux) : Pas indiqué pour un diagnostic de bénignité simple.\n• B (Faux) : L'urgence administrative ne suffit pas.\n• C (Faux) : Une petite biopsie est généralement conservée en totalité pour l'analyse paraffinée définitive.\n• D (Vrai) : L'examen extemporané est réalisé en per-opératoire uniquement s'il est susceptible d'influencer immédiatement la stratégie et le geste chirurgical.\n• E (Faux) : Inadapté aux prélèvements cytologiques purs."
   },
   {
     "text": "Qu'est-ce que l'oncogenèse ?",
@@ -876,7 +876,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "B"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Le processus de transformation maligne d'une cellule normale"
+    "explanation": "Correction détaillée :\n• A (Faux) : C'est la cicatrisation/réparation tissulaire physiologique.\n• B (Vrai) : L'oncogenèse est le processus multi-étapes de transformation maligne d'une cellule normale.\n• C (Faux) : C'est l'homéostasie cellulaire.\n• D (Faux) : C'est la réponse immunitaire antitumorale.\n• E (Faux) : C'est la régénération tissulaire."
   },
   {
     "text": "La mutation du gène BRCA1 est liée principalement au(x) cancer(s) :",
@@ -892,7 +892,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Du sein ; D) De l'ovaire"
+    "explanation": "Correction détaillée :\n• A, B, E (Faux) : BRCA1 n'est pas le gène majeur des cancers colorectaux, de la prostate ou du pancréas sporadiques.\n• C, D (Vrai) : Les mutations germinales de BRCA1 confèrent une forte prédisposition aux cancers du sein et de l'ovaire (syndrome sein-ovaire)."
   },
   {
     "text": "La classification TNM est une classification permettant :",
@@ -909,7 +909,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) D’adapter la prise en charge thérapeutique ; C) D'évaluer le stade de la progression tumorale ; D) De déterminer le statut métastatique d'une tumeur"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le stade TNM permet d'adapter la stratégie thérapeutique (chirurgie, chimiothérapie, radiothérapie).\n• B (Faux) : Le grade (et non le TNM) classe la différenciation tumorale.\n• C (Vrai) : Le \"T\" évalue la taille et l'extension locale (stade de progression).\n• D (Vrai) : Le \"M\" détermine le statut métastatique à distance.\n• E (Faux) : Le TNM ne synthétise pas les anomalies génétiques (rôle de la biologie moléculaire)."
   },
   {
     "text": "La technique d'immunohistochimie permet de :",
@@ -926,7 +926,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "C"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Détecter des mutations génétiques ; B) Identifier la présence de protéines spécifiques ; C) Localiser la présence de protéines spécifiques"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'IHC détecte des protéines, pas directement des mutations génétiques (bien qu'elle puisse suggérer une perte d'expression protéique, ex: MMR ou surexpression de HER2, mais ce n'est pas le séquençage de la mutation).\n• B, C (Vrai) : L'IHC permet d'identifier et de localiser la présence de protéines spécifiques grâce à des anticorps marqués.\n• D, E (Faux) : L'IHC ne séquence ni l'ADN ni les ARN messagers (rôle de la PCR, du séquençage NGS)."
   },
   {
     "text": "Le syndrome ovaire-sein est causé par :",
@@ -941,7 +941,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "C"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Une inactivation des gènes BRCA1 et/ou BRCA2"
+    "explanation": "Correction détaillée :\n• A, B, D, E (Faux) : Ne causent pas le syndrome spécifique sein-ovaire.\n• C (Vrai) : Ce syndrome héréditif est causé par l'inactivation germinale des gènes suppresseurs de tumeur BRCA1 et/ou BRCA2."
   },
   {
     "text": "Le microenvironnement tumoral comprend :",
@@ -959,7 +959,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Des fibroblastes ; C) Des cellules immunitaires ; D) Des facteurs solubles dont des cytokines ; E) Des vaisseaux sanguins"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les cellules tumorales font partie de la tumeur parenchymateuse, mais le \"microenvironnement\" désigne le stroma qui les entoure (fibroblastes, vaisseaux et immunités).\n• B, C, D, E (Vrai) : Le microenvironnement tumoral comprend les fibroblastes associés au cancer (CAF), les cellules immunitaires infiltrantes, la matrice extracellulaire, les facteurs solubles (cytokines, chimiokines) et les vaisseaux sanguins (néo-vaisseaux)."
   },
   {
     "text": "La méthylation des gènes est un mécanisme :",
@@ -974,7 +974,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "B"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Epigénétique"
+    "explanation": "Correction détaillée :\n• A, C, D, E (Faux) : Ce n'est pas un mécanisme génétique (modification de séquence), physique, mécanique ou tissulaire.\n• B (Vrai) : La méthylation de l'ADN est un mécanisme épigénétique majeur (régulation de l'expression sans modifier la séquence nucléotidique)."
   },
   {
     "text": "Parmi ces caractéristiques, laquelle (lesquelles) est (sont) généralement observée(s) dans le cadre d'une tumeur maligne ?",
@@ -989,7 +989,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Caractère mal limité"
+    "explanation": "Correction détaillée :\n• A, B, C, E (Faux) : Les tumeurs malignes ont une croissance rapide, un pouvoir d'invasion, une forte activité mitotique et donnent des métastases.\n• D (Vrai) : Une tumeur maligne présente un caractère mal limité (contours irréguliers, infiltration des tissus sains adjacents)."
   },
   {
     "text": "Pour la demande d'examen anatomopathologique, quelle(s) information(s) est (sont) essentielle(s) ?",
@@ -1005,7 +1005,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Nature du prélèvement ; E) Identifiant du prescripteur"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La nature du prélèvement (site anatomique, type de biopsie) est indispensable.\n• B (Faux) : L'identifiant du pathologiste n'est pas connu au moment de la demande (il est attribué à l'arrivée au laboratoire).\n• C (Faux) : La taille du flacon est inutile.\n• D (Faux) : La taille de l'échantillon est mesurée par le pathologiste lui-même ; ce n'est pas l'information administrative primordiale comparée au prescripteur et à la nature.\n• E (Vrai) : L'identifiant du prescripteur est obligatoire pour le compte-rendu et la prise en charge médico-légale."
   },
   {
     "text": "Quel est l'objectif principal de la fixation d'un prélèvement ?",
@@ -1020,7 +1020,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "B"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Rendre le tissu imputrescible tout en conservant un état proche de l'état vivant"
+    "explanation": "Correction détaillée :\n• A (Faux) : La fixation tue les cellules, impossible de faire des cultures ultérieures.\n• B (Vrai) : Rendre le tissu imputrescible et inerte tout en conservant au mieux l'architecture morphologique proche de l'état vivant.\n• C, D, E (Faux) : Elle ne réduit pas la taille, bloque l'autolyse (ne la favorise pas) et ne sert pas pour l'extemporané (qui se fait à frais)."
   },
   {
     "text": "Le cancer colorectal dans le cadre du syndrome de Lynch est associé à :",
@@ -1036,7 +1036,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "C"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Des mutations des gènes de réparation de l'ADN ; C) Des mutations de gènes suppresseurs de tumeur"
+    "explanation": "Correction détaillée :\n• A (Faux) : BRCA1/2 concernent le sein et l'ovaire.\n• B (Vrai) : Le syndrome de Lynch (HNPCC) est lié à des mutations constitutionnelles des gènes de réparation de l'ADN (système MMR : MLH1, MSH2, MSH6, PMS2).\n• C (Vrai) : Ce sont des gènes de réparation agissant comme des suppresseurs de tumeur.\n• D, E (Faux) : HER2 et EGFR ne sont pas impliqués dans le syndrome de Lynch."
   },
   {
     "text": "Quelle est l'étape clé de la phase d'invasion tumorale ?",
@@ -1051,7 +1051,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "A"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Formation de métastases"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Dans les QCMs de cette faculté, la formation de métastases est retenue comme l'aboutissement ultime de l'invasion (au sens strict anatomo-pathologique, le franchissement de la membrane basale définit le carcinome infiltrant)."
   },
   {
     "text": "Parmi les protéines suivantes, laquelle est impliquée dans la néo-angiogenèse ?",
@@ -1066,7 +1066,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) VEGF"
+    "explanation": "Correction détaillée :\n• A, B, C, E (Faux) : BRCA1, EGFR, HER2, MSH2 ont d'autres rôles (réparation, récepteurs membranaires, etc.).\n• D (Vrai) : Le VEGF (Vascular Endothelial Growth Factor) est le principal facteur pro-angiogénique impliqué dans la néo-angiogenèse tumorale."
   },
   {
     "text": "Lequel des éléments suivants entre dans le cadre du syndrome de Lynch ?",
@@ -1081,7 +1081,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "C"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-17",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Altération des gènes de réparation PMS2 et MLH1"
+    "explanation": "Correction détaillée :\n• A, B, D, E (Faux) : Sans rapport avec BRCA1, HPV, HER2 ou PD-L1.\n• C (Vrai) : Altération des gènes du système MMR (PMS2, MLH1, MSH2, MSH6)."
   },
   {
     "text": "Qu'est-ce que la dysplasie précancéreuse ?",
@@ -1097,7 +1097,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "D"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-18",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Une lésion tumorale épithéliale sans franchissement de la membrane basale ; D) La phase de promotion du cancer"
+    "explanation": "Correction détaillée :\n• A (Faux) : Une dysplasie n'est pas invasive (pas de franchissement de la membrane basale).\n• B (Vrai) : C'est une lésion tumorale épithéliale caractérisée par des atypies cyto-architecturales sans franchissement de la membrane basale.\n• C (Faux) : Ce n'est pas encore un cancer invasif (malin avéré).\n• D (Vrai) : Correspond à la phase de promotion/progression pré-maligne.\n• E (Faux) : Ce n'est pas une simple inflammation."
   },
   {
     "text": "Quel(s) mécanisme(s) peu(ven)t activer un oncogène ?",
@@ -1114,7 +1114,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-19",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Une amplification de cet oncogène ; D) Une fusion de cet oncogène avec un autre gène ; E) Une mutation ponctuelle de cet oncogène"
+    "explanation": "Correction détaillée :\n• A (Faux) : Une délétion homozygote inactive le gène (concerne les suppresseurs).\n• B (Vrai) : L'amplification génique augmente le nombre de copies de l'oncogène.\n• C (Faux) : L'hyperméthylation inactive les gènes (éteint les suppresseurs).\n• D (Vrai) : Une fusion génique (translocation, ex: chromosome de Philadelphie BCR-ABL) crée une protéine chimérique hyperactive.\n• E (Vrai) : Une mutation ponctuelle activatrice (ex: codon 12 de KRAS) rend la protéine constitutivement active."
   },
   {
     "text": "Quel(s) facteur(s) n'est (ne sont) PAS initiateur du processus tumoral ?",
@@ -1130,7 +1130,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI2 relecture de tentative Annales.pdf"] = [
       "E"
     ],
     "id": "ANN-UE2-UE2S3.2-SQI2-20",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Alcool ; E) Pollution"
+    "explanation": "Correction détaillée :\n• A, C, D (Faux) : Sont des initiateurs reconnus (Tabac, Radiations ionisantes, Virus HPV génotoxiques).\n• B, E (Vrai) : L'alcool et la pollution : l'alcool est principalement un promoteur (ou co-carcinogène) et la pollution atmosphérique complexe englobe divers agents ; dans la classification stricte des annales, l'alcool et la pollution ne sont pas classés comme agents initiateurs directs purs."
   }
 ];
 window.ANNALES_QCM["UE2/UE2S3.2/SQI3.pdf"] = [
@@ -1148,7 +1148,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI3.pdf"] = [
       "B",
       "C"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) est une opsonine. ; C) favorise la phagocytose."
+    "explanation": "Correction détaillée :\n• A (Faux) : La CRP est le marqueur par excellence de la phase aiguë (et non chronique).\n• B (Vrai) : C'est une opsonine circulante.\n• C (Vrai) : En se fixant sur les ligands, elle favorise la phagocytose par les macrophages.\n• D (Faux) : Elle est synthétisée par le foie (hépatocytes sous l'impulsion de l'IL-6), pas par la thyroïde.\n• E (Faux) : Sa synthèse hépatique est stimulée (et non inhibée) par l'IL-6, l'IL-1 et le TNF-alpha."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI3-02",
@@ -1164,7 +1164,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI3.pdf"] = [
       "B",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'exsudat correspond à un épanchement de liquide de nature séreuse. ; D) Il résulte de l'activation du système immunitaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : Il résulte d'une augmentation de la perméabilité capillaire et d'une vasodilatation (et non d'une vasoconstriction).\n• B (Vrai) : L'exsudat est un liquide inflammatoire riche en protéines, de nature séreuse (ou fibrineuse, etc.).\n• C (Faux) : Les cytokines pro-inflammatoires jouent un rôle majeur dans l'activation endothéliale et la formation de l'œdème.\n• D (Vrai) : Il résulte de la réponse immunitaire et vasculaire (activation du système immunitaire inné).\n• E (Faux) : L'œdème de Quincke est une réaction immuno-allergique (hypersensibilité immédiate), pas d'origine ischémique."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI3-03",
@@ -1179,7 +1179,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI3.pdf"] = [
     "correctAnswers": [
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : E) La transferrine"
+    "explanation": "Correction détaillée :\n• A, B, C, D (Faux) : La CRP, l'haptoglobine, la SAA et le fibrinogène sont des PRI positives (leur taux augmente).\n• E (Vrai) : La transferrine (ainsi que l'albumine) est une PRI négative (sa synthèse hépatique diminue lors de l'inflammation)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI3-04",
@@ -1197,7 +1197,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI3.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elles peuvent durer plusieurs mois voire plusieurs années. ; B) Une inflammation chronique et silencieuse est néfaste à l'organisme. ; D) Elles peuvent persister parce qu'une infection ou une blessure n'a pas bien guéri. ; E) Elles sont caractérisées par la prédominance de la fibrose."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elles durent de plusieurs semaines à plusieurs mois/années.\n• B (Vrai) : L'inflammation chronique de bas grade silencieuse est délétère (impliquée dans l'athérosclérose, l'obésité, etc.).\n• C (Faux) : Elles peuvent être résolutives si l'agent causal est totalement éradiqué.\n• D (Vrai) : Persistent en raison d'une mauvaise élimination de l'agent pathogène ou d'une détersion incomplète.\n• E (Vrai) : Elles sont histologiquement caractérisées par la prédominance de la fibrose et de la réaction cellulaire (mononucléés, lymphocytes, macrophages)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI3-05",
@@ -1212,7 +1212,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI3.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : C) c b a d (Phase vasculo-exsudative -> Phase cellulaire -> Détersion -> Réparation/Cicatrisation)"
+    "explanation": "Correction détaillée :\nOrdre chronologique de la réaction inflammatoire aiguë :\n• c. Phase vasculo-exsudative\n• b. Phase cellulaire / Diapédèse\n• a. Détersion\n• d. Réparation / Cicatrisation\nL'ordre exact est donc : c - b - a - d."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI3-06",
@@ -1231,7 +1231,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI3.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Neutrophile (PMN) ; B) Macrophage ; C) Lymphocyte T ; D) Fibroblaste ; E) Mastocyte"
+    "explanation": "Correction détaillée :\n• A, B, C, D, E (Tous Vrais) : Le granulome inflammatoire associe polynucléaires (en phase initiale), macrophages (cellules épithélioïdes et géantes), lymphocytes T, fibroblastes (cicatrisation/fibrose) et mastocytes."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI3-07",
@@ -1247,7 +1247,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI3.pdf"] = [
       "C",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Prostaglandines ; E) Leucotriènes (Remarque enseignant : Réponse vraie mais possiblement non clairement exposée en cours contrairement aux Prostaglandines)"
+    "explanation": "Correction détaillée :\n• Prostaglandines et Leucotriènes (dérivés de l'acide arachidonique) sensibilisent directement les récepteurs nociceptifs (fibres C et A-delta), provoquant la douleur inflammatoire. (La CRP et les interleukines n'activent pas directement les nocicepteurs de façon aiguë, bien que l'IL-1 ait un rôle central dans la fièvre)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI3-08",
@@ -1263,7 +1263,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI3.pdf"] = [
       "A",
       "B"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle peut être liée à des pathologies dysimmunitaires. ; B) Elle peut être causée par un défaut de vascularisation des tissus (ex. ischémie mésentérique aiguë)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Peut être déclenchée par des maladies dysimmunitaires / auto-immunes (ex: polyarthrite rhumatoïde).\n• B (Vrai) : Causée par l'ischémie / défaut de vascularisation tissulaire (ex: infarctus du myocarde, ischémie mésentérique).\n• C (Faux) : Elle peut être générale (syndrome inflammatoire systémique, sepsis).\n• D (Faux) : Une inflammation chronique peut s'installer d'emblée de façon insidieuse sans phase aiguë bruyante préalable.\n• E (Faux) : Les facteurs vasculaires et cellulaires débutent très intriqués dès le début de la phase vasculo-exsudative."
   }
 ];
 window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
@@ -1280,7 +1280,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
     "correctAnswers": [
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : D) L'obésité est reconnue comme une maladie chronique récidivante."
+    "explanation": "Correction détaillée :\n• A, B, C (Faux) :\n- Grade 1 : IMC 30 - 34,9 kg/m²\n- Grade 2 : IMC 35 - 39,9 kg/m²\n- Grade 3 (morbide) : IMC >= 40 kg/m²\n• D (Vrai) : L'obésité morbide est définie par un IMC >= 40 kg/m²."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-02",
@@ -1296,7 +1296,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Un tour de taille supérieur ou égal à 88 cm chez la femme et supérieur ou égal à 102 cm chez l'homme indique une obésité abdominale. ; D) L'obésité sévère ou de classe 2 correspond à un IMC compris entre 35 et 39,9 kg/m²."
+    "explanation": "Correction détaillée :\n• A, B (Faux) : L'hypercholestérolémie et l'hypertriglycéridémie sont des complications métaboliques, pas des critères diagnostiques cliniques de l'obésité.\n• C, D (Vrai) : Le diagnostic repose cliniquement sur l'IMC, le tour de taille (reflet du stockage viscéral) et l'évaluation de la masse grasse."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-03",
@@ -1313,7 +1313,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Il contient une fraction stroma-vasculaire incluant des préadipocytes et des cellules immunitaires. ; C) Il sécrète des adipokines comme la leptine et l'adiponectine. ; D) Le tissu adipeux viscéral est plus fortement associé aux complications métaboliques que le tissu adipeux sous-cutané."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le tissu adipeux a une origine conjonctive (mésenchymateuse), pas épithéliale.\n• B (Vrai) : Son origine conjonctive explique la formation des dépôts adipeux omentaux et sous-cutanés.\n• C (Vrai) : Le tissu sous-cutané se trouve au niveau abdominal, fémoral, fessier, etc.\n• D (Vrai) : Le tissu viscéral est intra-abdominal (épiploon, mésentère)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-04",
@@ -1330,7 +1330,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
       "B",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une hypertrophie adipocytaire. ; B) Une hyperplasie adipocytaire. ; D) Une infiltration macrophagique formant des structures en couronne (crown-like structures)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Hypertrophie adipocytaire (augmentation du volume des adipocytes gavés de triglycérides).\n• B (Vrai) : Hyperplasie préadipocytaire (recrutement et prolifération de nouveaux préadipocytes).\n• C (Faux) : La ghréline est produite par l'estomac (orexigène), pas par le tissu adipeux.\n• D (Vrai) : Sous-production d'adiponectine (adipokine protectrice) et d'IL-10 (anti-inflammatoire)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-05",
@@ -1345,7 +1345,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
     "correctAnswers": [
       "B"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : B) Il possède une volumineuse vacuole lipidique unique refoulant le noyau en périphérie."
+    "explanation": "Correction détaillée :\n• A (Faux) : Ce ne sont pas des vacuoles multiples, mais une unique et énorme gouttelette lipidique uniloculaire centrale.\n• B (Vrai) : Accumulation massive de triglycérides stimulée par l'hyperinsulinémie.\n• C, D (Faux) : La gouttelette lipidique est unique dans le cytoplasme (le noyau est refoulé en périphérie)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-06",
@@ -1363,7 +1363,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il est favorisé par la surcharge en acides gras libres et l'hypoxie tissulaire. ; B) Il induit une activation des voies de signalisation inflammatoires comme JNK et NFκB. ; C) Il contribue à l'altération de la signalisation de l'insuline. ; D) Il est associé à une production accrue de dérivés réactifs de l'oxygène (ROS)."
+    "explanation": "Correction détaillée :\n• A, B, C, D (Vrai) : Le stress oxydatif est caractérisé par une surproduction adipocytaire de peroxyde d'hydrogène, d'anion superoxyde, de radicaux libres et d'espèces réactives de l'oxygène (ERO)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-07",
@@ -1381,7 +1381,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle est principalement sécrétée par les adipocytes blancs. ; B) Sa concentration circulante est proportionnelle à la masse grasse corporelle. ; C) Au niveau hypothalamique, elle stimule les neurones anorexigènes POMC/CART. ; D) Au niveau hypothalamique, elle inhibe les neurones orexigènes NPY/AgRP."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Exerce un effet hypophagique (coupe-faim) et anorexigène, tout comme l'insuline au niveau central.\n• B (Vrai) : Effet inverse de la ghréline (qui est hyperphagique / orexigène).\n• C, D (Vrai) : Stimule les neuropeptides anorexigènes POMC et GLP-1 dans l'hypothalamus."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-08",
@@ -1398,7 +1398,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
       "B",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Est une cause monogénique rare d'obésité sévère à début précoce. ; B) S'accompagne d'une hyperphagie massive. ; D) Peut être traité efficacement par l'administration de leptine recombinante humaine."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Sous-production de neuropeptides inhibiteurs de l'appétit comme la neurotensine.\n• B (Vrai) : Surproduction de neuropeptides orexigènes puissants comme le Neuropeptide Y (NPY).\n• C (Faux) : GLUT-2 est le transporteur hépatique/pancréatique, pas le transporteur adipocytaire principal du glucose (qui est GLUT-4).\n• D (Vrai) : Lié à une mutation du gène de la leptine (gène ob)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-09",
@@ -1415,7 +1415,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Contrairement à la plupart des adipokines, sa concentration circulante est diminuée dans l'obésité. ; C) Elle exerce des effets insulino-sensibilisateurs hépatiques et musculaires. ; D) La baisse de son taux circulant est corrélée au développement du syndrome métabolique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'adiponectinémie est paradoxalement inversement corrélée à la masse grasse (plus l'adiposité augmente, plus l'adiponectine baisse).\n• B (Faux) : L'adiponectine est anti-inflammatoire, contrairement à la résistine qui est pro-inflammatoire.\n• C (Vrai) : Effet anti-athérogène (réduit l'adhésion des monocytes à l'endothélium vasculaire).\n• D (Vrai) : Agit via ses récepteurs AdipoR1 et AdipoR2 qui appartiennent aux récepteurs couplés aux protéines G (RCPG)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-10",
@@ -1430,7 +1430,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
     "correctAnswers": [
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : E) Aucune des propositions ci-dessus n'est exacte."
+    "explanation": "Correction détaillée :\n• A (Faux) : Contrairement au déficit en leptine (où la leptine est indétectable), le déficit en récepteur LEPR présente des taux de leptine normaux ou très élevés (résistance complète).\n• B (Faux) : Le traitement par leptine recombinante est inefficace car le récepteur est muté/non fonctionnel.\n• C (Faux) : Il se transmet selon un mode autosomique récessif.\n• D (Faux) : Il s'accompagne d'un hypogonadisme hypogonadotrope et d'un retard pubertaire.\n• E (Vrai) : Aucune des propositions ci-dessus n'est exacte."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-11",
@@ -1445,7 +1445,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
     "correctAnswers": [
       "B"
     ],
-    "explanation": "Correction officielle de l'annale — bonne réponse : B) Les médiateurs intracellulaires incluent les protéines PI3K, Akt et AS160."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le récepteur de l'insuline possède une activité tyrosine-kinase intrinsèque (et non sérine-kinase).\n• B (Vrai) : La cascade de signalisation implique les protéines PI3K, Akt et AS160.\n• C (Faux) : NF-kappaB est un facteur pro-inflammatoire activé par les cytokines/obésité, pas par l'insuline saine.\n• D (Faux) : Le transporteur sensible à l'insuline dans l'adipocyte est GLUT-4 (et non GLUT-2)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-12",
@@ -1463,7 +1463,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : IL-6, TNF-alpha et MCP-1 sont des adipokines impliquées dans l'insulino-résistance adipocytaire."
+    "explanation": "Correction détaillée :\n• A, B, C, D (Vrai) : IL-6, TNF-alpha et MCP-1 sont les principales cytokines pro-inflammatoires sécrétées par le tissu adipeux hypertrophique et les macrophages infiltrants, induisant l'insulino-résistance locale et systémique."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-13",
@@ -1480,7 +1480,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Une élévation de l'endotoxémie. ; C) Une hyperperméabilité intestinale causée par la baisse du taux de protéines de type occludine. ; D) Une altération de la production de métabolites bactériens comme les acides gras à courte chaîne."
+    "explanation": "Correction détaillée :\n• A (Faux) : Akkermansia muciniphila est une bactérie bénéfique \"santé\" dont l'abondance diminue dans l'obésité.\n• B (Vrai) : Élévation de l'endotoxémie (passage de lipopolysaccharides bactériens - LPS - dans le sang).\n• C (Vrai) : Hyperperméabilité intestinale liée à la baisse des protéines de jonctions serrées (occludines).\n• D (Vrai) : Modification de la production des métabolites bactériens (acides gras à chaîne courte - AGCC)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI4-14",
@@ -1498,7 +1498,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI4.pdf"] = [
       "C",
       "D"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une prise en charge des complications d'ordre somatique. ; B) Une prise en charge des complications d'ordre psycho-social. ; C) L'utilisation de probiotiques comme des bactéries du phylum Bacteroidetes. ; D) L'utilisation de prébiotiques comme des fibres alimentaires et polyphénols végétaux."
+    "explanation": "Correction détaillée :\n• A, B (Vrai) : Prise en charge multidisciplinaire somatique (comorbidités métaboliques, articulaires, respiratoires) et psycho-sociale.\n• C (Faux) : Les probiotiques utilisés ne sont pas des Bacteroidetes bruts pathogènes.\n• D (Vrai) : Utilisation de prébiotiques (fibres, polyphénols) pour restaurer le microbiote."
   }
 ];
 window.ANNALES_QCM["UE2/UE2S3.2/SQI5.pdf"] = [
@@ -1518,7 +1518,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI5.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A, B, D, E. Remarque enseignant : La majoration de la FR est une tachypnée ; la polypnée associe à la tachypnée une baisse du volume courant."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Définition consensuelle de la dyspnée.\n• B (Vrai) : La fréquence respiratoire normale au repos chez l'adulte est de 12 à 16 cycles/min.\n• C (Faux) : En dessous = bradypnée. Au-dessus = tachypnée. La polypnée associe une tachypnée à une diminution du volume courant (respiration rapide et superficielle).\n• D (Vrai) : Le tirage (sus-sternal, intercostal) et le balancement thoraco-abdominal témoignent d'une détresse respiratoire aiguë.\n• E (Vrai) : L'examen de la mécanique ventilatoire combine la palpation (comptage des cycles, ampliation) et l'inspection."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI5-02",
@@ -1540,7 +1540,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI5.pdf"] = [
       "G",
       "I"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D, E, G, I. Remarques enseignant : Le foyer aortique est au 2ème EIC droit et irradie aux carotides. Le B1 = fermeture mitrale/tricuspide. La systole ventriculaire sépare B1 de B2. Foyer mitral à l'apex, tricuspide à l'appendice xyphoïde."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le foyer aortique se trouve au 2e espace intercostal droit (le long du sternum).\n• B (Faux) : 2e espace intercostal (pas le 1er).\n• C (Faux) : Un souffle aortique irradie vers les carotides (le souffle d'insuffisance mitrale irradie vers l'aisselle).\n• D (Vrai) : Le foyer mitral est situé à l'apex (pointe du cœur, 5e espace intercostal gauche sur la ligne médio-claviculaire).\n• E (Vrai) : Le foyer tricuspide siège à la base de l'appendice xiphoïde.\n• F (Faux) : Le temps du souffle est systolique ou diastolique ventriculaire (pas auriculaire).\n• G (Vrai) : B1 correspond à la fermeture des valves mitrale et tricuspide.\n• H (Faux) : La systole ventriculaire sépare B1 de B2.\n• I (Vrai) : La palpation simultanée d'un pouls périphérique permet de dater le souffle (systolique s'il est synchrone du pouls)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI5-03",
@@ -1558,7 +1558,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI5.pdf"] = [
       "E",
       "F"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A, E, F. Remarques enseignant : Le syndrome d'AEG regroupe les 3A (Asthénie, Anorexie, Amaigrissement). La cyanose (> 5 g/dl d'Hb réduite) traduit une anomalie d'hématose pulmonaire ou d'extraction tissulaire. L'interrogatoire recueille aussi le mode de vie, vaccinations, etc."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Séquence classique rigoureuse : Interrogatoire -> Inspection -> Palpation -> Percussion -> Auscultation.\n• B (Faux) : L'AEG est définie par la triade des 3 A : Asthénie, Anorexie, Amaigrissement.\n• C (Faux) : La cyanose est liée à un excès d'hémoglobine réduite > 5 g/dL (trouble de l'hématose ou extraction périphérique accrue), sans lien direct avec une dysfonction hépatique.\n• D (Faux) : L'interrogatoire intègre aussi les habitudes de vie, l'environnement socio-professionnel, les vaccinations et les antécédents.\n• E (Vrai) : IMC = Poids (kg) / Taille² (m²).\n• F (Vrai) : L'interrogatoire comporte l'anamnèse, l'histoire de la maladie et le recueil des signes fonctionnels."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI5-04",
@@ -1577,7 +1577,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI5.pdf"] = [
       "F",
       "G"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E, F, G. Remarques enseignant : Les deux grands types sont ostéotendineux (ROT) et cutanéo-muqueux. Le réflexe bicipital induit une flexion de l'avant-bras. Le réflexe crémastérien est cutanéo-muqueux (frottement face interne cuisse)."
+    "explanation": "Correction détaillée :\n• A (Faux) : On teste des réflexes ostéotendineux (ROT) et cutanéo-muqueux (pas ostéo-muqueux).\n• B (Faux) : Le réflexe bicipital entraîne une flexion de l'avant-bras (et non une extension).\n• C (Faux) : Le réflexe crémastérien s'obtient par stimulation de la face interne de la cuisse.\n• D (Faux) : C'est un réflexe cutané (et non ostéotendineux).\n• E (Vrai) : Le réflexe cutané plantaire (RCP) est cutanéo-muqueux.\n• F (Vrai) : Un ROT rotulien vif, polycinétique et diffus traduit une atteinte centrale (syndrome pyramidal).\n• G (Vrai) : L'abolition complète d'un ROT est toujours un signe neurologique pathologique (atteinte périphérique / arc réflexe)."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI5-05",
@@ -1596,7 +1596,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI5.pdf"] = [
       "A",
       "H"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A, H. Remarques enseignant : La colique hépatique irradie vers l'épaule droite en bretelle. La colique néphrétique irradie vers les OGE. L'EVA est une auto-évaluation. Les hétéro-évaluations (Algoplus) permettent d'évaluer la douleur chez le sujet non communicant."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La douleur est le symptôme cardinal en médecine.\n• B (Faux) : Le recueil sémiologique exhaustif s'appuie sur le mémotechnique MISTIDRACS (Mécanisme, Intensité, Siège, Type, Irradiations, Durée, Rythme, Aggravants, Calmants, Signes associés).\n• C (Faux) : Il existe aussi des douleurs neuropathiques (lésion du système nerveux) et nociceptives.\n• D (Faux) : Les douleurs inflammatoires sont spontanées, réveillent la nuit et ne sont pas calmées par le repos/mouvement (contrairement aux mécaniques).\n• E (Faux) : La colique néphrétique irradie vers les organes génitaux externes (OGE).\n• F (Faux) : Chez le patient non communicant, on utilise des échelles d'hétéro-évaluation (ex: Algoplus).\n• G (Faux) : L'Échelle Visuelle Analogique (EVA) est une échelle d'auto-évaluation.\n• H (Vrai) : La colique hépatique siège à l'hypochondre droit et irradie en bretelle vers l'omoplate et l'épaule droite."
   },
   {
     "id": "ANN-UE2-UE2S3.2-SQI5-06",
@@ -1614,7 +1614,7 @@ window.ANNALES_QCM["UE2/UE2S3.2/SQI5.pdf"] = [
       "D",
       "E"
     ],
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B, D, E. Remarques enseignant : Les FDRCV non modifiables comprennent l'âge, le sexe ET les antécédents cardiovasculaires familiaux. La dyslipidémie englobe aussi l'élévation du LDL-c et la baisse du HDL-c / hypertriglycéridémie."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'âge et le sexe sont non modifiables, mais il y a aussi l'hérédité/antécédents familiaux coronariens précoces.\n• B (Vrai) : Le tabagisme actif et passif est un FRCV majeur et modifiable.\n• C (Faux) : La dyslipidémie comprend l'hypercholestérolémie (LDL haut), l'hypertriglycéridémie et la baisse du HDL-c.\n• D (Vrai) : La sédentarité est un FRCV modifiable.\n• E (Vrai) : Le diabète et l'hypertension artérielle (HTA) sont des FRCV fondamentaux.\n• F (Faux) : Les antécédents familiaux pèsent lourd dans l'évaluation du risque cardiovasculaire global."
   }
 ];
 window.ANNALES_QCM["UE2/UE2S3.3/SQI1.pdf"] = [
@@ -2454,7 +2454,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Concernant la pharmacocinétique :",
     "id": "ANN-UE2-UE2S34-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonne réponse : C) La demi-vie plasmatique dépend de la clairance et du volume de distribution."
+    "explanation": "Correction détaillée :\n• A (Faux) : La demi-vie plasmatique dépend à la fois du volume de distribution (Vd) et de la clairance (Cl), selon la formule t1/2 = (0,693 * Vd) / Cl.\n• B (Faux) : Elle ne dépend pas de la biodisponibilité (qui influence la quantité absorbée, mais pas la vitesse d'élimination intrinsèque).\n• C (Vrai) : C'est la définition cinétique fondamentale de la demi-vie.\n• D (Faux) : Ni la clairance seule ni la biodisponibilité seule ne définissent la demi-vie.\n• E (Faux) : La posologie n'a pas d'impact sur la demi-vie (propriété physico-chimique et pharmacocinétique intrinsèque du principe actif)."
   },
   {
     "options": {
@@ -2470,7 +2470,7 @@ window.ANNALES_QCM["UE2/UE2S3.4/SQI1.pdf"] = [
     ],
     "text": "Lors d'une administration répétée et régulière, l'équilibre de concentration plasmatique d'un médicament est atteint :",
     "id": "ANN-UE2-UE2S34-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Au bout de 5 demi-vies du médicament ; C) Lorsque les valeurs de Cmax sont identique après chaque prise du médicament"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'équilibre est atteint après un temps fonction de la demi-vie, et non arbitrairement de 4 intervalles tau.\n• B (Vrai) : L'état d'équilibre (Css) est atteint de manière stable au bout de 5 demi-vies du médicament.\n• C (Vrai) : À l'état d'équilibre, les concentrations maximales (Cmax) et minimales (Cmin) se reproduisent à l'identique d'une prise à l'autre.\n• D (Faux) : L'atteinte de l'équilibre est un phénomène cinétique ; le fait que Cmax et Cmin soient dans l'intervalle thérapeutique relève de la posologie efficace, pas de la définition de l'atteinte de l'état d'équilibre.\n• E (Faux) : La clairance d'élimination reste constante pour les cinétiques d'ordre 1 ; ce n'est pas cela qui définit l'atteinte de l'équilibre."
   },
   {
     "options": {
