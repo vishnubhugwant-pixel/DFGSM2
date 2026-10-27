@@ -384,6 +384,8 @@
     <script src="data/ue10.js?v=4"></script>
     <script src="data/ue11.js?v=4"></script>
     <script src="data/ue12.js?v=4"></script>
+    <script src="data/annales.js?v=5"></script>
+    <script src="data/annales_qcm.js?v=5"></script>
 </head>
 
 <body>
@@ -1384,7 +1386,7 @@
         };
 
 
-        const Dashboard = ({ onSelectCourse, isTimerEnabled, onToggleTimer, progress, onShowProtocol, onShowStats, isAdmin, selectedGroup, onSelectGroup, onlineUsers }) => {
+        const Dashboard = ({ onSelectCourse, isTimerEnabled, onToggleTimer, progress, onShowProtocol, onShowStats, onShowAnnales, isAdmin, selectedGroup, onSelectGroup, onlineUsers }) => {
             return (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="max-w-7xl mx-auto pt-12 pb-0 px-4">
                     <div className="text-center mb-14 animate-float">
@@ -1535,12 +1537,221 @@
                                 </motion.div>
                             )
                         })}
+
+                        {/* 📚 MODULE ANNALES (PDF) */}
+                        {(window.ANNALES_DATA || []).length > 0 && (
+                            <motion.div
+                                key="annales-card"
+                                whileHover={{ scale: 1.03, y: -5, boxShadow: '0 15px 30px -10px rgba(245, 158, 11, 0.15)' }}
+                                onClick={onShowAnnales}
+                                className="glass-card p-6 rounded-[2rem] cursor-pointer group flex flex-col justify-between"
+                                style={{
+                                    borderColor: 'rgba(245, 158, 11, 0.25)',
+                                    background: 'linear-gradient(145deg, rgba(245, 158, 11, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%)'
+                                }}
+                            >
+                                <div>
+                                    <div className="flex justify-between items-start mb-4">
+                                        <span className="whitespace-nowrap text-xs font-semibold px-3 py-1 rounded-full border bg-amber-500/15 text-amber-300 border-amber-500/30">
+                                            Sujets d'annales • PDF
+                                        </span>
+                                    </div>
+                                    <h3 className="text-xl font-serif font-bold mb-3 text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug">📚 Annales</h3>
+                                    <p className="text-sm text-slate-400 leading-relaxed">Retrouve les sujets d'annales de chaque UE (SQI, DP, mDP) à consulter ou télécharger.</p>
+                                </div>
+                                <div className="pt-3 flex justify-between items-center text-[10px] uppercase text-slate-400 border-t border-white/10 mt-6">
+                                    <span className="font-mono text-slate-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/10">
+                                        {(window.ANNALES_DATA || []).length} UE
+                                    </span>
+                                    <span className="text-ghibli-accent font-bold bg-amber-500/10 px-2.5 py-1 rounded-md border border-amber-500/20">
+                                        {(window.ANNALES_DATA || []).reduce((n, ue) => n + ue.groupes.reduce((m, g) => m + g.fichiers.length, 0), 0)} PDF
+                                    </span>
+                                </div>
+                            </motion.div>
+                        )}
                     </div>
                     <Footer />
                 </motion.div>
             );
         };
 
+
+        // ==========================================
+        // 📚 MODULE ANNALES — Sujets QCM Interactifs & PDF
+        // ==========================================
+        const Annales = ({ onBack, onStartSession, selectedUE, setSelectedUE, progress }) => {
+            const data = window.ANNALES_DATA || [];
+
+            useEffect(() => { window.scrollTo(0, 0); }, [selectedUE]);
+
+            const countTotal = (ue) => ue.groupes.reduce((n, g) => n + g.fichiers.length, 0);
+            const countInteractive = (ue) => ue.groupes.reduce((n, g) => {
+                return n + g.fichiers.filter(f => {
+                    const tag = `${ue.code}/${g.dir}/${f}`;
+                    return !!(window.ANNALES_QCM && window.ANNALES_QCM[tag]);
+                }).length;
+            }, 0);
+
+            const typeInfo = (fichier) => {
+                const f = fichier.toLowerCase();
+                if (f.startsWith('mdp')) return { label: 'mDP', cls: 'bg-violet-500/10 text-violet-300 border-violet-500/25' };
+                if (f.startsWith('dp')) return { label: 'DP', cls: 'bg-sky-500/10 text-sky-300 border-sky-500/25' };
+                if (f.includes('squi')) return { label: 'SQUI', cls: 'bg-rose-500/10 text-rose-300 border-rose-500/25' };
+                if (f.includes('sqi')) return { label: 'SQI', cls: 'bg-emerald-500/10 text-emerald-300 border-emerald-500/25' };
+                return { label: 'PDF', cls: 'bg-white/5 text-slate-300 border-white/10' };
+            };
+
+            const pdfUrl = (ue, g, f) => encodeURI(`${ue.dossier}/${g.dir}/${f}`);
+
+            return (
+                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="max-w-6xl mx-auto py-12 px-4 flex flex-col min-h-screen">
+                    <button
+                        onClick={() => selectedUE ? setSelectedUE(null) : onBack()}
+                        className={`mb-8 text-left w-max flex items-center gap-2 transition-colors ${selectedUE ? 'text-amber-400 hover:text-amber-300 font-medium' : 'text-slate-400 hover:text-white'}`}
+                    >
+                        {selectedUE ? '← Retour aux Unités d\'Enseignement' : '← Retour au Tableau de Bord'}
+                    </button>
+
+                    <div className="text-center mb-2">
+                        <span className="inline-block px-3.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/25 text-[11px] font-mono font-bold tracking-widest text-amber-400 uppercase">
+                            {selectedUE ? 'Annales • ' + selectedUE.code : 'Semestre 3 (DFGSM2)'}
+                        </span>
+                    </div>
+                    <h2 className="text-4xl md:text-5xl font-serif mb-4 text-center magic-text">
+                        {selectedUE ? selectedUE.titre : '📚 Annales'}
+                    </h2>
+                    <p className="text-center text-base font-serif italic text-slate-300 mb-12">
+                        {selectedUE
+                            ? 'Lancez une série d\'annales en QCM interactif ou consultez le document original.'
+                            : 'Sélectionnez une UE pour vous entraîner sur ses annales.'}
+                    </p>
+
+                    {/* VUE 1 : LISTE DES UE */}
+                    {!selectedUE && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {data.map(ue => {
+                                const interCount = countInteractive(ue);
+                                const totCount = countTotal(ue);
+                                return (
+                                    <motion.div
+                                        key={ue.code}
+                                        whileHover={{ scale: 1.03, y: -5 }}
+                                        onClick={() => setSelectedUE(ue)}
+                                        className="glass-card p-7 rounded-[2rem] flex flex-col justify-between group border border-white/10 hover:border-amber-500/50 cursor-pointer"
+                                    >
+                                        <div>
+                                            <div className="flex justify-between items-center mb-4">
+                                                <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300 text-[10px] font-mono uppercase tracking-wider">
+                                                    📄 {ue.code}
+                                                </span>
+                                                {interCount > 0 && (
+                                                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                                                        🎯 {interCount} QCM interactif{interCount > 1 ? 's' : ''}
+                                                    </span>
+                                                )}
+                                            </div>
+                                            <h3 className="text-xl font-serif font-bold text-slate-100 mb-2 group-hover:text-amber-400 transition-colors leading-tight">{ue.titre}</h3>
+                                        </div>
+                                        <div className="mt-6 flex justify-between items-center pt-3 border-t border-white/10">
+                                            <span className="text-xs font-mono text-slate-400">{ue.groupes.length} dossier{ue.groupes.length > 1 ? 's' : ''} • {totCount} sujet{totCount > 1 ? 's' : ''}</span>
+                                            <span className="text-xs font-mono font-bold bg-white/5 border border-white/10 px-3 py-1.5 rounded-xl group-hover:bg-amber-500 group-hover:text-slate-950 transition-all">Ouvrir →</span>
+                                        </div>
+                                    </motion.div>
+                                );
+                            })}
+                        </div>
+                    )}
+
+                    {/* VUE 2 : DOSSIERS ET SUJETS DE L'UE */}
+                    {selectedUE && (
+                        <div className="space-y-8">
+                            {selectedUE.groupes.map(g => (
+                                <div key={g.dir} className="glass-card p-6 md:p-8 rounded-[2rem] border border-white/10">
+                                    <h3 className="text-xl font-serif font-bold text-amber-400 mb-5 flex items-center gap-2">
+                                        <span>📁</span> {g.nom}
+                                        <span className="text-xs font-mono text-slate-400 font-normal ml-2">{g.fichiers.length} sujet{g.fichiers.length > 1 ? 's' : ''}</span>
+                                    </h3>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        {g.fichiers.map(f => {
+                                            const tag = `${selectedUE.code}/${g.dir}/${f}`;
+                                            const qcmList = (window.ANNALES_QCM && window.ANNALES_QCM[tag]) || null;
+                                            const cleanTitle = f.replace(/\.pdf$/i, '').replace(/\s*relecture de tentative Annales/i, '');
+                                            const t = typeInfo(f);
+                                            const url = pdfUrl(selectedUE, g, f);
+
+                                            if (qcmList && qcmList.length > 0) {
+                                                let correct = 0;
+                                                let answered = 0;
+                                                qcmList.forEach(q => {
+                                                    if (progress && progress[q.id] !== undefined) {
+                                                        answered++;
+                                                        if (progress[q.id]) correct++;
+                                                    }
+                                                });
+                                                const pct = qcmList.length > 0 ? Math.round((correct / qcmList.length) * 100) : 0;
+                                                let pctColor = "text-slate-400 bg-white/5";
+                                                if (pct >= 80) pctColor = "text-emerald-400 bg-emerald-500/10";
+                                                else if (pct >= 50) pctColor = "text-amber-400 bg-amber-500/10";
+
+                                                return (
+                                                    <motion.div
+                                                        key={f}
+                                                        whileHover={{ scale: 1.02 }}
+                                                        onClick={() => onStartSession(`${selectedUE.code} • ${cleanTitle}`, qcmList)}
+                                                        className="glass-card p-5 rounded-2xl border border-amber-500/30 hover:border-amber-400 flex flex-col justify-between cursor-pointer group bg-gradient-to-br from-slate-900/60 to-slate-950/80 transition-all shadow-md"
+                                                    >
+                                                        <div>
+                                                            <div className="flex justify-between items-center mb-3">
+                                                                <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-amber-500/10 border border-amber-500/25 text-amber-300 text-[11px] font-mono font-semibold uppercase">
+                                                                    🎯 Série QCM ({qcmList.length})
+                                                                </span>
+                                                                <span className={`text-xs font-bold px-2 py-0.5 rounded-md ${pctColor}`}>
+                                                                    {pct}% acquis
+                                                                </span>
+                                                            </div>
+                                                            <h4 className="text-lg font-serif font-bold text-slate-100 group-hover:text-amber-400 transition-colors mb-1">
+                                                                {cleanTitle}
+                                                            </h4>
+                                                            <div className="flex items-center justify-between text-xs text-slate-400 mb-4">
+                                                                <span>Annales officielles corrigées • {qcmList.length} questions</span>
+                                                                <a href={url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[11px] font-mono text-amber-400/80 hover:text-amber-300 underline underline-offset-2">
+                                                                    PDF ↗
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div className="pt-3 flex justify-between items-center border-t border-white/10 text-xs font-mono">
+                                                            <span className="text-slate-400">
+                                                                {answered > 0 ? `${correct}/${qcmList.length} réussis` : `${qcmList.length} QCMs`}
+                                                            </span>
+                                                            <span className="px-3 py-1.5 rounded-xl font-bold bg-amber-500 text-slate-950 group-hover:bg-amber-400 transition-all">
+                                                                Démarrer →
+                                                            </span>
+                                                        </div>
+                                                    </motion.div>
+                                                );
+                                            } else {
+                                                return (
+                                                    <div key={f} className="flex items-center gap-3 p-4 rounded-xl bg-slate-950/40 border border-white/10 hover:border-white/20 transition-colors">
+                                                        <span className={`shrink-0 text-[10px] font-mono font-bold px-2 py-1 rounded-md border ${t.cls}`}>{t.label}</span>
+                                                        <div className="flex-1 min-w-0">
+                                                            <div className="text-sm font-medium text-slate-200 truncate">{cleanTitle}</div>
+                                                            <div className="text-[11px] text-slate-400">Document numérisé (PDF)</div>
+                                                        </div>
+                                                        <a href={url} target="_blank" rel="noopener noreferrer" className="shrink-0 text-xs font-mono text-amber-400 hover:text-amber-300 px-3 py-1.5 rounded-lg bg-amber-500/10 border border-amber-500/20">
+                                                            Consulter ↗
+                                                        </a>
+                                                    </div>
+                                                );
+                                            }
+                                        })}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                </motion.div>
+            );
+        };
 
         const Protocol = ({ onBack }) => {
             useEffect(() => {
@@ -1623,11 +1834,11 @@
             );
         };
 
-        const SubMenu = ({ course, progress, onSelectPart, onBack }) => {
+        const SubMenu = ({ course, progress, onSelectPart, onBack, selectedCours, setSelectedCours }) => {
             const [isLoading, setIsLoading] = useState(false);
             const [loadedQuestions, setLoadedQuestions] = useState(window.ALL_QCM_DATA[course.code] || []);
             const [loadError, setLoadError] = useState(null);
-            const [selectedCours, setSelectedCours] = useState(null); // Cours sélectionné à l'intérieur de l'UE
+            // selectedCours (cours sélectionné à l'intérieur de l'UE) est géré dans App pour persister après une session de QCM
 
             // Charger les données à l'affichage si elles ne sont pas encore en mémoire
             useEffect(() => {
@@ -1998,7 +2209,13 @@
                     )}
 
                     <div className="glass-card rounded-[2.5rem] p-8 md:p-12 mb-8 flex-grow">
-                        <h2 className="text-2xl md:text-3xl font-serif leading-tight mb-12 text-white">{question.text}</h2>
+                        <h2 className="text-2xl md:text-3xl font-serif leading-tight mb-8 text-white">{question.text}</h2>
+                        {question.image && (
+                            <div className="mb-8 rounded-2xl overflow-hidden border border-white/10 bg-slate-950/60 flex flex-col items-center p-3 shadow-inner">
+                                <img src={question.image} alt="Iconographie médicale" className="max-h-[420px] max-w-full rounded-xl object-contain shadow-2xl" />
+                                <span className="text-[11px] font-mono text-slate-400 mt-2">🔍 Document iconographique associé</span>
+                            </div>
+                        )}
                         <div className="space-y-4">
                             {Object.entries(question.options).map(([key, text]) => {
                                 const isSelected = selectedOptions.includes(key);
@@ -2254,6 +2471,12 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3l18 18" /><path d="M15 9.34V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v2M5.4 5.4C4.54 6.26 4 7.6 4 9v4l-2 3h16l-1 1.5M10 20v1a2 2 0 0 0 2 2 2 2 0 0 0 2-2v-1" /></svg>
                                         </button>
                                     </div>
+                                    {q.image && (
+                                        <div className="mb-6 rounded-2xl overflow-hidden border border-white/10 bg-slate-950/60 flex flex-col items-center p-3 shadow-inner">
+                                            <img src={q.image} alt="Iconographie médicale" className="max-h-[350px] max-w-full rounded-xl object-contain shadow-xl" />
+                                            <span className="text-[11px] font-mono text-slate-400 mt-2">🔍 Document iconographique associé</span>
+                                        </div>
+                                    )}
                                     <div className="grid gap-3 mb-6">
                                         {Object.entries(q.options).map(([key, text]) => {
                                             const isCorrect = q.correctAnswers.includes(key);
@@ -2593,6 +2816,8 @@
             const [view, setView] = useState('dashboard');
             const [showStats, setShowStats] = useState(false);
             const [activeCourse, setActiveCourse] = useState(null);
+            const [activeSubCours, setActiveSubCours] = useState(null);
+            const [activeAnnalesUE, setActiveAnnalesUE] = useState(null);
             const [activeQuestions, setActiveQuestions] = useState([]);
             const [partTitle, setPartTitle] = useState("");
             const [finalScore, setFinalScore] = useState({ score: 0, total: 0 });
@@ -2782,6 +3007,8 @@
                             statusText = "Dans son Carnet d'Erreurs";
                         } else if (view === 'submenu' && activeCourse) {
                             statusText = `Consulte : ${activeCourse.titre}`;
+                        } else if (view === 'annales') {
+                            statusText = "Consulte les Annales";
                         }
 
                         await db.collection('online_users').doc(currentUser.uid).set({
@@ -2852,11 +3079,12 @@
                             <Dashboard
                                 key="dash"
                                 progress={progress}
-                                onSelectCourse={c => { setActiveCourse(c); setView('submenu'); }}
+                                onSelectCourse={c => { setActiveCourse(c); setActiveSubCours(null); setView('submenu'); }}
                                 isTimerEnabled={isTimerEnabled}
                                 onToggleTimer={() => setIsTimerEnabled(!isTimerEnabled)}
                                 onShowProtocol={() => setView('protocol')}
                                 onShowStats={() => setShowStats(true)}
+                                onShowAnnales={() => setView('annales')}
                                 isAdmin={currentUser && (currentUser.email.includes('admin') || currentUser.isAdmin)}
                                 selectedGroup={selectedGroup}
                                 onSelectGroup={(g) => {
@@ -2871,10 +3099,25 @@
                             />
                         )}
                         {view === 'protocol' && <Protocol key="protocol" onBack={() => setView('dashboard')} />}
+                        {view === 'annales' && (
+                            <Annales
+                                key="annales"
+                                selectedUE={activeAnnalesUE}
+                                setSelectedUE={setActiveAnnalesUE}
+                                progress={progress}
+                                onBack={() => { setActiveAnnalesUE(null); setView('dashboard'); }}
+                                onStartSession={(title, qs) => {
+                                    setActiveCourse({ code: 'ANNALES', titre: title });
+                                    setPartTitle(title);
+                                    setActiveQuestions(qs);
+                                    setView('session');
+                                }}
+                            />
+                        )}
                         {view === 'carnet' && <CarnetErreurs key="carnet" pinnedQuestions={pinnedQuestions} togglePin={togglePin} onBack={() => setView('dashboard')} />}
-                        {view === 'submenu' && <SubMenu key="sub" course={activeCourse} progress={progress} onBack={() => setView('dashboard')} onSelectPart={(title, qs) => { setPartTitle(title); setActiveQuestions(qs); setView('session'); }} />}
-                        {view === 'session' && <Session key="sess" course={{ ...activeCourse, titre: partTitle }} questionsSubset={activeQuestions} hasTimer={isTimerEnabled} onBack={() => setView(activeCourse.code === 'CIMETIERE' ? 'dashboard' : 'submenu')} onUpdateProgress={handleProgressUpdate} onFinish={(s, t) => { setFinalScore({ score: s, total: t }); setView('bilan'); }} pinnedQuestions={pinnedQuestions} togglePin={togglePin} />}
-                        {view === 'bilan' && <Bilan key="bilan" score={finalScore.score} total={finalScore.total} onRestart={() => setView(activeCourse.code === 'CIMETIERE' ? 'dashboard' : 'submenu')} />}
+                        {view === 'submenu' && <SubMenu key="sub" course={activeCourse} progress={progress} selectedCours={activeSubCours} setSelectedCours={setActiveSubCours} onBack={() => { setActiveSubCours(null); setView('dashboard'); }} onSelectPart={(title, qs) => { setPartTitle(title); setActiveQuestions(qs); setView('session'); }} />}
+                        {view === 'session' && <Session key="sess" course={{ ...activeCourse, titre: partTitle }} questionsSubset={activeQuestions} hasTimer={isTimerEnabled} onBack={() => setView(activeCourse?.code === 'CIMETIERE' ? 'dashboard' : (activeCourse?.code === 'ANNALES' ? 'annales' : 'submenu'))} onUpdateProgress={handleProgressUpdate} onFinish={(s, t) => { setFinalScore({ score: s, total: t }); setView('bilan'); }} pinnedQuestions={pinnedQuestions} togglePin={togglePin} />}
+                        {view === 'bilan' && <Bilan key="bilan" score={finalScore.score} total={finalScore.total} onRestart={() => setView(activeCourse?.code === 'CIMETIERE' ? 'dashboard' : (activeCourse?.code === 'ANNALES' ? 'annales' : 'submenu'))} />}
                     </AnimatePresence>
                 </div>
             );

@@ -15,3 +15,6 @@ desktop.ini
 *.tmp
 *.temp
 user_diff.txt
+__pycache__/
+*.pyc
+

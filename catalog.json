@@ -1,0 +1,215 @@
+[
+  {
+    "code": "UE2",
+    "titre": "🔬 UE2 — Bases fondamentales en sciences médicales",
+    "dossier": "ANNALES DFGSM2/UE2.S3 Bases fondamentales",
+    "groupes": [
+      {
+        "nom": "UE2S3.1",
+        "dir": "UE2S3.1",
+        "fichiers": [
+          "SQI1 relecture de tentative Annales.pdf",
+          "SQI3 relecture de tentative Annales.pdf",
+          "SQI5 relecture de tentative Annales.pdf"
+        ]
+      },
+      {
+        "nom": "UE2S3.2",
+        "dir": "UE2S3.2",
+        "fichiers": [
+          "SQI1 relecture de tentative Annales.pdf",
+          "SQI2 relecture de tentative Annales.pdf",
+          "SQI3.pdf",
+          "SQI4.pdf",
+          "SQI5.pdf"
+        ]
+      },
+      {
+        "nom": "UE2S3.3",
+        "dir": "UE2S3.3",
+        "fichiers": [
+          "SQI1.pdf"
+        ]
+      },
+      {
+        "nom": "UE2S3.4",
+        "dir": "UE2S3.4",
+        "fichiers": [
+          "SQI1.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "UE3",
+    "titre": "🫁 UE3 — Pneumologie",
+    "dossier": "ANNALES DFGSM2/UE3.S3 Pneumologie",
+    "groupes": [
+      {
+        "nom": "Pneumologie 1",
+        "dir": "UE3.S3 Pneumologie 1",
+        "fichiers": [
+          "SQI1.pdf",
+          "SQI2.pdf"
+        ]
+      },
+      {
+        "nom": "Pneumologie 2",
+        "dir": "UE3.S3 Pneumologie 2",
+        "fichiers": [
+          "DP1.pdf",
+          "MDP.pdf",
+          "SQUI N.pdf",
+          "SQUI.pdf",
+          "mDP1.pdf"
+        ]
+      },
+      {
+        "nom": "Pneumologie 3",
+        "dir": "UE3.S3 Pneumologie 3",
+        "fichiers": [
+          "DP1.pdf",
+          "SQI1.pdf"
+        ]
+      },
+      {
+        "nom": "Pneumologie 4",
+        "dir": "UE3.S3 Pneumologie 4",
+        "fichiers": [
+          "SQI1.pdf"
+        ]
+      },
+      {
+        "nom": "Pneumologie 5",
+        "dir": "UE3.S3 Pneumologie 5",
+        "fichiers": [
+          "DP1.pdf",
+          "SQI1.pdf",
+          "SQI2.pdf",
+          "mDP1.pdf",
+          "mDP2.pdf",
+          "mDP3.pdf",
+          "mDP6.pdf"
+        ]
+      },
+      {
+        "nom": "Pneumologie 6",
+        "dir": "UE3.S3 Pneumologie 6",
+        "fichiers": [
+          "DP1.pdf",
+          "SQI1.pdf",
+          "mDP1.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "UE4",
+    "titre": "❤️ UE4 — Cardiologie",
+    "dossier": "ANNALES DFGSM2/UE4.S3-Cardio",
+    "groupes": [
+      {
+        "nom": "Cardiologie 1",
+        "dir": "UE4.S3-Cardio 1",
+        "fichiers": [
+          "SQI1.pdf",
+          "SQI2.pdf",
+          "SQI3.pdf",
+          "SQI4.pdf",
+          "SQI5.pdf"
+        ]
+      },
+      {
+        "nom": "Cardiologie 2",
+        "dir": "UE4.S3-Cardio 2",
+        "fichiers": [
+          "SQI Braunberger.pdf",
+          "SQI Clerici.pdf",
+          "SQI G. Corre.pdf",
+          "SQI Jamal Bey.pdf",
+          "SQI Lambert.pdf",
+          "mDP Braunberger.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "UE5",
+    "titre": "🫘 UE5 — Néphrologie",
+    "dossier": "ANNALES DFGSM2/UE5.S3 Néphrologie",
+    "groupes": [
+      {
+        "nom": "Néphrologie 1",
+        "dir": "UE5.S3 Néphrologie 1",
+        "fichiers": [
+          "DP1.pdf",
+          "SQI1.pdf",
+          "mDP1.pdf",
+          "mDP2.pdf",
+          "mDP3.pdf"
+        ]
+      },
+      {
+        "nom": "Néphrologie 2",
+        "dir": "UE5.S3 Néphrologie 2",
+        "fichiers": [
+          "SQI1.pdf"
+        ]
+      },
+      {
+        "nom": "Néphrologie 3",
+        "dir": "UE5.S3 Néphrologie 3",
+        "fichiers": [
+          "SQI1.pdf"
+        ]
+      },
+      {
+        "nom": "Néphrologie 4",
+        "dir": "UE5.S3 Néphrologie 4",
+        "fichiers": [
+          "DP1.pdf",
+          "SQI1.pdf"
+        ]
+      },
+      {
+        "nom": "Néphrologie 5",
+        "dir": "UE5.S3 Néphrologie 5",
+        "fichiers": [
+          "SQI1.pdf"
+        ]
+      },
+      {
+        "nom": "Néphrologie 6",
+        "dir": "UE5.S3 Néphrologie 6",
+        "fichiers": [
+          "SQI1.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "UE6",
+    "titre": "🛡️ UE6 — Immunologie",
+    "dossier": "ANNALES DFGSM2/UE6.S3 Immunologie",
+    "groupes": [
+      {
+        "nom": "Immunologie 1",
+        "dir": "UE6.S3 Immunologie 1",
+        "fichiers": [
+          "SQI1.pdf",
+          "SQI2.pdf",
+          "SQI3.pdf"
+        ]
+      },
+      {
+        "nom": "Immunologie 2",
+        "dir": "UE6.S3 Immunologie 2",
+        "fichiers": [
+          "SQI A. Olichon.pdf",
+          "SQI C. Lefebvre.pdf",
+          "SQI J-J. Hoarau.pdf"
+        ]
+      }
+    ]
+  }
+]
