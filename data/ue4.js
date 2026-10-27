@@ -1756,6 +1756,951 @@ window.DATA_UE4 = [
         },
         "correctAnswers": ["B", "C", "D"],
         "explanation": "B, C et D ✅ VRAIS :\n- B : Propriété vectorielle fondamentale : si une dérivation est équiphasique ou nulle (somme des ondes positives et négatives = 0), l'axe du QRS est perpendiculaire à cette dérivation.\n- C : L'axe moyen du cœur est parallèle à la dérivation frontale dans laquelle la somme algébrique du complexe QRS présente la plus grande amplitude positive.\n- D : C'est le repère anatomique standard : V1 au 4ème espace intercostal (EIC) au bord droit du sternum (ligne parasternale droite), et V2 au 4ème EIC au bord gauche du sternum.\nA ❌ FAUX : L'axe cardiaque normal se situe entre -30° et +90°.\nE ❌ FAUX : Willem Einthoven a inventé l'électrocardiogramme à galvanomètre à corde au tout début du XXème siècle (vers 1901), et non en 1789 (date de la Révolution française !)."
+    },
+
+    // ============================================================
+    // Dr E. BRAUNBERGER — Physiologie et sémiologie cardio-vasculaires
+    // Anatomie et physiologie du cœur — 50 QCM type annales (indices 113 à 162)
+    // ============================================================
+
+    {
+        "id": "UE4-EBP-01",
+        "text": "Concernant les généralités sur le cœur :",
+        "options": {
+            "A": "La définition médicale et légale actuelle de la mort repose sur l'arrêt cardiaque définitif.",
+            "B": "Au cours d'une vie, le cœur effectue environ trois milliards de battements.",
+            "C": "Le poids moyen du cœur humain est compris entre 250 et 300 grammes.",
+            "D": "Le cœur est un muscle creux animé de contractions automatiques organisées par le système cardionecteur.",
+            "E": "La fréquence cardiaque normale de l'Homme au repos est comprise entre 60 et 80 battements par minute."
+        },
+        "correctAnswers": [
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : La définition médicale et légale de la mort n'est plus l'arrêt cardiaque (notamment du fait de l'existence de moyens de suppléance comme les cœurs artificiels), mais l'arrêt du fonctionnement cérébral (mort cérébrale).\nB ✅ VRAI : Le cœur effectue environ trois milliards de battements au cours d'une vie, chiffre variant selon l'espérance de vie et la fréquence cardiaque.\nC ✅ VRAI : Le cœur pèse environ 250 à 300 grammes.\nD ✅ VRAI : C'est l'organe central du système circulatoire, un muscle creux doté d'un système de conduction électrique propre appelé système cardionecteur (ou cardioconducteur).\nE ✅ VRAI : La fréquence cardiaque normale de l'Homme au repos est de 60 à 80 bpm."
+    },
+
+    {
+        "id": "UE4-EBP-02",
+        "text": "Concernant l'organisation générale du cœur et de ses enveloppes :",
+        "options": {
+            "A": "Tout comme les deux poumons, le cœur droit et le cœur gauche ont une anatomie séparée mais un fonctionnement identique.",
+            "B": "Le cœur gauche génère des pressions élevées tandis que le cœur droit fonctionne à basse pression.",
+            "C": "Les parois du ventricule droit sont beaucoup plus épaisses que celles du ventricule gauche.",
+            "D": "Une séreuse est constituée de deux couches de cellules entre lesquelles se trouve un liquide permettant le mouvement avec un frottement très faible.",
+            "E": "Il existe trois séreuses dans l'organisme : le péricarde, la plèvre et le péritoine."
+        },
+        "correctAnswers": [
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : Contrairement aux poumons, l'anatomie du cœur droit et du cœur gauche est très imbriquée, mais leur physiologie est radicalement différente.\nB ✅ VRAI : Le cœur gauche fonctionne à haute pression et le cœur droit à basse pression.\nC ❌ FAUX : C'est l'inverse : en raison des régimes de pression, les parois du ventricule gauche sont beaucoup plus épaisses que celles du ventricule droit.\nD ✅ VRAI : Une séreuse comporte deux feuillets cellulaires séparés par un film liquidien réduisant les frottements lors des mouvements.\nE ✅ VRAI : Les trois séreuses du corps humain sont le péricarde, la plèvre et le péritoine."
+    },
+
+    {
+        "id": "UE4-EBP-03",
+        "text": "Concernant la position anatomique du cœur :",
+        "options": {
+            "A": "Le cœur est logé dans la partie supérieure du médiastin postérieur.",
+            "B": "Il se projette en regard des vertèbres thoraciques T5 à T8.",
+            "C": "Il repose sur le centre tendineux du diaphragme et suit ses mouvements lors de la respiration.",
+            "D": "Les cavités droites du cœur sont situées essentiellement en avant (antérieures) et les cavités gauches en arrière (postérieures).",
+            "E": "L'orientation générale du cœur se fait vers le haut, vers l'avant et vers la droite."
+        },
+        "correctAnswers": [
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : Le cœur est logé dans la partie inférieure du médiastin moyen, juste en arrière du sternum et au-dessus du diaphragme.\nB ✅ VRAI : Il s'étend entre la cinquième (T5) et la huitième (T8) vertèbre thoracique.\nC ✅ VRAI : Il repose sur le centre tendineux du diaphragme et suit ses mouvements pendant la respiration.\nD ✅ VRAI : Les cavités droites sont antérieures et les cavités gauches postérieures (seule une petite portion du ventricule gauche demeure antérieure).\nE ❌ FAUX : Le cœur a une obliquité générale orientée vers le bas, vers l'avant et vers la gauche."
+    },
+
+    {
+        "id": "UE4-EBP-04",
+        "text": "Concernant les traumatismes thoraciques antérieurs et les voies d'abord chirurgicales :",
+        "options": {
+            "A": "Lors d'une plaie pénétrante antérieure du thorax par arme blanche, la cavité cardiaque la plus exposée est le ventricule gauche.",
+            "B": "Une plaie cardiaque antérieure impose chirurgicalement une sternotomie médiane.",
+            "C": "Une thoracotomie gauche permet d'accéder à la face pulmonaire du cœur et au ventricule gauche.",
+            "D": "Le geste chirurgical salvateur immédiat devant une plaie du cœur consiste à boucher le trou avec le doigt avant de réaliser un point de suture.",
+            "E": "Le péricarde constitue une seconde barrière de protection du cœur après le sternum."
+        },
+        "correctAnswers": [
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : La structure la plus exposée lors d'un traumatisme pénétrant antérieur est le ventricule droit, car c'est la cavité la plus antérieure.\nB ✅ VRAI : En ouvrant le sternum en deux (sternotomie médiane), on arrive directement sur la face antérieure du cœur.\nC ✅ VRAI : La thoracotomie gauche donne accès à la partie latérale gauche du cœur (face pulmonaire et ventricule gauche).\nD ✅ VRAI : Le geste immédiat consiste à mettre le doigt sur l'orifice pour le boucher, puis à suturer.\nE ✅ VRAI : Le péricarde entoure le cœur et constitue une seconde barrière de protection juste derrière le sternum."
+    },
+
+    {
+        "id": "UE4-EBP-05",
+        "text": "Concernant les plaies ventriculaires et coronariennes :",
+        "options": {
+            "A": "La paroi du ventricule droit mesure environ 5 mm d'épaisseur.",
+            "B": "En cas de plaie perforante du ventricule gauche, le sang sort à une pression systolique d'environ 120 mmHg, rendant la tamponnade encore plus rapide et mortelle.",
+            "C": "Le ventricule gauche étant très épais, il est moins probable d'avoir une perforation complète de sa paroi que pour le ventricule droit.",
+            "D": "Les artères coronaires naissant de l'artère pulmonaire, une plaie coronarienne saigne à une pression de 30/15 mmHg.",
+            "E": "La pression dans les artères coronaires est similaire à celle de l'aorte, soit environ 120/70 mmHg."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : L'épaisseur de la paroi du ventricule droit est d'environ 5 mm (hors septum).\nB ✅ VRAI : Dans le ventricule gauche, la pression de sortie est de 120 mmHg, ce qui provoque une tamponnade extrêmement rapide et mortelle en cas de plaie.\nC ✅ VRAI : La paroi du ventricule gauche étant très épaisse (10 à 15 mm), elle est plus résistante aux plaies pénétrantes que celle du ventricule droit.\nD ❌ FAUX : Les artères coronaires naissent de l'aorte (au niveau des sinus de Valsalva) et non de l'artère pulmonaire.\nE ✅ VRAI : Naissant de l'aorte, les artères coronaires ont un régime de pression similaire à la pression aortique, soit environ 120/70 mmHg."
+    },
+
+    {
+        "id": "UE4-EBP-06",
+        "text": "Concernant l'anatomie descriptive et la morphologie externe du cœur :",
+        "options": {
+            "A": "Le cœur a globalement la forme d'une pyramide à trois faces, une base et un sommet.",
+            "B": "Le cœur tend à être plus horizontal chez les sujets longilignes et plus vertical chez les sujets corpulents.",
+            "C": "Le cœur devient plus vertical en inspiration et plus horizontal en expiration.",
+            "D": "Ses dimensions moyennes sont d'environ 12 cm de grand axe pour 10 cm de plus grand diamètre.",
+            "E": "Les sillons atrio-ventriculaires sont remplis de graisse et contiennent les artères coronaires."
+        },
+        "correctAnswers": [
+            "A",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Le cœur est décrit comme une pyramide triangulaire présentant trois faces, une base et un sommet (apex).\nB ❌ FAUX : C'est l'inverse : le cœur est plus vertical chez les sujets longilignes et plus horizontal chez les sujets corpulents.\nC ✅ VRAI : Lors des mouvements respiratoires, le cœur se verticalise en inspiration et s'horizontalise en expiration.\nD ✅ VRAI : Ses dimensions moyennes sont de 12 cm de grand axe sur 10 cm de diamètre transversal maximal.\nE ✅ VRAI : Les sillons cardiaques (notamment les deux sillons atrio-ventriculaires droit et gauche) sont comblés de graisse et abritent les artères coronaires."
+    },
+
+    {
+        "id": "UE4-EBP-07",
+        "text": "Concernant les faces du cœur :",
+        "options": {
+            "A": "La face sterno-costale (antérieure) se divise en trois parties : atriale, artérielle et ventriculaire.",
+            "B": "Au niveau de la partie artérielle de la face antérieure, l'orifice aortique se situe en avant et à gauche de l'orifice pulmonaire.",
+            "C": "La partie ventriculaire de la face sterno-costale est très majoritairement occupée par le ventricule droit.",
+            "D": "La face diaphragmatique (ou caudale) est parcourue par le sillon inter-ventriculaire postérieur et les sillons coronaires.",
+            "E": "La face pulmonaire (latérale gauche) est parcourue par le sillon coronaire gauche qui sépare l'auricule gauche en arrière du ventricule gauche en avant."
+        },
+        "correctAnswers": [
+            "A",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : La face sterno-costale comprend une partie atriale (oreillette droite et auricule droit), une partie artérielle (aorte et artère pulmonaire) et une partie ventriculaire.\nB ❌ FAUX : C'est l'inverse : l'orifice aortique se situe en arrière et à droite, tandis que l'orifice pulmonaire est situé en avant et à gauche.\nC ✅ VRAI : La partie ventriculaire antérieure est occupée très majoritairement par le ventricule droit, avec seulement une petite portion antérieure du ventricule gauche.\nD ✅ VRAI : La face diaphragmatique est orientée vers le bas et l'arrière et est parcourue par les sillons coronaires et le sillon inter-ventriculaire postérieur.\nE ✅ VRAI : La face latérale gauche (pulmonaire) est très convexe et parcourue par le sillon coronaire gauche délimitant l'auricule gauche en arrière et le ventricule gauche en avant."
+    },
+
+    {
+        "id": "UE4-EBP-08",
+        "text": "Concernant les bords, la base et l'apex du cœur :",
+        "options": {
+            "A": "Le bord droit du cœur sépare la face sterno-costale de la face diaphragmatique.",
+            "B": "Le bord gauche du cœur est dit « mousse » et sépare la face sterno-costale de la face pulmonaire.",
+            "C": "La base du cœur correspond à sa face dorsale, formée par les deux ventricules.",
+            "D": "La base du cœur est parcourue par le sillon inter-atrial, avec à droite l'abouchement des veines caves (VCS et VCI) et à gauche l'ostium des quatre veines pulmonaires.",
+            "E": "L'apex du cœur appartient au ventricule droit, tandis que le sillon inter-ventriculaire passe à gauche de l'apex."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Le bord droit sépare les faces sterno-costale et diaphragmatique.\nB ✅ VRAI : Le bord gauche, difficile à individualiser (« mousse »), correspond au ventricule gauche et sépare les faces sterno-costale et pulmonaire.\nC ❌ FAUX : La base du cœur (face postérieure ou dorsale) correspond aux deux oreillettes (atria) et non aux ventricules.\nD ✅ VRAI : Le sillon inter-atrial parcourt la base du cœur entre l'atrium droit (VCS, VCI) et l'atrium gauche (4 veines pulmonaires).\nE ❌ FAUX : L'apex du cœur (sommet de la pyramide) est formé par la pointe du ventricule gauche, et le sillon inter-ventriculaire passe à droite de l'apex."
+    },
+
+    {
+        "id": "UE4-EBP-09",
+        "text": "Concernant les rapports anatomiques antérieurs, inférieurs et latéraux du cœur :",
+        "options": {
+            "A": "En avant, la face sterno-costale est en rapport avec le thymus, organe qui régresse en tissu graisseux chez l'adulte.",
+            "B": "Les artères mammaires internes, issues des artères sous-clavières, cheminent en avant et présentent un intérêt majeur pour les pontages coronariens.",
+            "C": "À travers le diaphragme, la face inférieure du cœur répond au fundus gastrique et au lobe gauche du foie du côté gauche, et au foie du côté droit.",
+            "D": "Les nerfs phréniques droit et gauche cheminent sur les faces latérales du cœur et assurent l'innervation motrice du diaphragme.",
+            "E": "La lésion unilatérale d'un nerf phrénique provoque un abaissement permanent de la coupole diaphragmatique correspondante."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Le thymus a un rôle immunitaire chez l'enfant mais devient inutile et graisseux chez l'adulte.\nB ✅ VRAI : Les artères mammaires internes naissent des artères sous-clavières et constituent des greffons de choix lors des pontages coronariens.\nC ✅ VRAI : Le diaphragme sépare la face diaphragmatique du cœur des organes sus-mésocoliques : foie à droite, lobe gauche du foie et fundus gastrique à gauche.\nD ✅ VRAI : Les nerfs phréniques longent les faces latérales du cœur et sont les nerfs moteurs du diaphragme.\nE ❌ FAUX : La paralysie d'un nerf phrénique entraîne une ascension (et non un abaissement) de la coupole diaphragmatique correspondante."
+    },
+
+    {
+        "id": "UE4-EBP-10",
+        "text": "Concernant les rapports de la base du cœur et le choc de pointe :",
+        "options": {
+            "A": "La face dorsale de l'oreillette gauche est en rapport immédiat avec la partie thoracique de l'œsophage.",
+            "B": "L'échographie transœsophagienne (ETO) tire parti de ce rapport anatomique pour visualiser très précisément les valves mitrale et aortique.",
+            "C": "La face dorsale de l'atrium gauche est également en rapport avec l'aorte descendante, le conduit thoracique, la veine azygos et les nerfs vagues droit et gauche.",
+            "D": "La face dorsale de l'atrium droit est en rapport avec le nerf vague droit et le ligament pulmonaire droit.",
+            "E": "Le choc de pointe se palpe normalement au 4e espace intercostal droit sur la ligne axillaire antérieure."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : L'œsophage thoracique est situé juste en arrière de l'oreillette gauche.\nB ✅ VRAI : La sonde d'ETO placée dans l'œsophage se retrouve juste derrière l'oreillette gauche, offrant une vue très précise des valves mitrale et aortique.\nC ✅ VRAI : Ce sont les rapports classiques de la face dorsale de l'atrium gauche, avec les récessus rétro-œsophagiens de la plèvre.\nD ✅ VRAI : En arrière de l'atrium droit se trouvent le nerf vague droit, le ligament pulmonaire droit et la plèvre médiastinale droite.\nE ❌ FAUX : Le choc de pointe correspond à l'apex du ventricule gauche : il se palpe à gauche (région du 5e-6e espace intercostal, sur la ligne médio-claviculaire) et non à droite."
+    },
+
+    {
+        "id": "UE4-EBP-11",
+        "text": "Concernant le squelette fibreux du cœur et les anneaux valvulaires :",
+        "options": {
+            "A": "Les quatre anneaux fibreux valvulaires sont situés exactement dans le même plan anatomique.",
+            "B": "L'anneau pulmonaire est situé un peu en avant et au-dessus du plan formé par les anneaux atrio-ventriculaires et aortique.",
+            "C": "Il existe une proximité anatomique très étroite entre la valve mitrale antérieure et l'anneau aortique.",
+            "D": "Le trigone fibreux gauche réunit l'anneau aortique et l'anneau atrio-ventriculaire gauche (mitral).",
+            "E": "Le trigone fibreux droit réunit l'anneau aortique aux anneaux atrio-ventriculaires droit (tricuspide) et gauche (mitral)."
+        },
+        "correctAnswers": [
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : Seuls les anneaux atrio-ventriculaires (mitral et tricuspide) et l'anneau aortique sont dans le même plan ; l'anneau pulmonaire est décalé.\nB ✅ VRAI : L'anneau pulmonaire se situe en avant et un peu au-dessus des trois autres anneaux.\nC ✅ VRAI : Cette proximité impose une grande prudence chirurgicale lors de la réparation mitrale pour ne pas léser la valve aortique.\nD ✅ VRAI : Le trigone fibreux gauche est situé entre l'anneau mitral et l'anneau aortique.\nE ✅ VRAI : Le trigone fibreux droit relie l'anneau aortique, l'anneau mitral et l'anneau tricuspide."
+    },
+
+    {
+        "id": "UE4-EBP-12",
+        "text": "Concernant l'organisation des fibres myocardiques et la mécanique de la contraction :",
+        "options": {
+            "A": "Le muscle ventriculaire est organisé en trois couches concentriques : une couche périphérique commune aux deux ventricules, une couche moyenne propre à chaque ventricule et une couche interne propre à chaque ventricule.",
+            "B": "La couche moyenne, d'orientation circulaire ou arciforme, est la plus épaisse et assure l'essentiel de l'éjection systolique par raccourcissement circonférentiel.",
+            "C": "En systole, les fibres myocardiques se raccourcissent de 50 %, ce qui permet d'éjecter 10 à 15 % du contenu ventriculaire.",
+            "D": "En systole, le diamètre du myocarde diminue de 50 %, sa longueur diminue de 10 à 15 %, et la contraction s'accompagne d'un épaississement pariétal et d'une torsion autour du grand axe.",
+            "E": "L'épaisseur de la paroi du ventricule gauche est d'environ 10 à 15 mm, contre environ 5 mm pour celle du ventricule droit (hors septum inter-ventriculaire)."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : La couche superficielle (hélicoïdale) est commune aux deux ventricules, tandis que la couche moyenne (circulaire) et la couche interne (formant les piliers) sont propres à chaque ventricule.\nB ✅ VRAI : La couche moyenne est beaucoup plus épaisse et produit le raccourcissement circonférentiel majeur pour l'éjection.\nC ❌ FAUX : Les chiffres sont inversés : un raccourcissement des fibres de seulement 10 à 15 % suffit à produire une éjection d'environ 60 à 70 % du contenu ventriculaire.\nD ✅ VRAI : Selon le cours, le raccourcissement des fibres de 10 à 15 % réduit la longueur de 10 à 15 % et le diamètre de 50 %, grâce à l'épaississement pariétal et à l'effet de torsion.\nE ✅ VRAI : La paroi libre du VG mesure 10 à 15 mm pour générer 120 mmHg, contre 5 mm pour le VD qui génère 30 mmHg."
+    },
+
+    {
+        "id": "UE4-EBP-13",
+        "text": "Concernant les régimes de pression dans le cœur gauche :",
+        "options": {
+            "A": "Le sang circule d'une cavité cardiaque à une autre uniquement lorsque la pression en amont est supérieure à la pression de la cavité voisine en aval.",
+            "B": "La pression artérielle périphérique mesurée au bras est normalement de l'ordre de 120/70 mmHg.",
+            "C": "Dans le ventricule gauche, la pression est habituellement de 120/70 mmHg.",
+            "D": "Dans l'oreillette gauche, la pression oscille normalement entre 0 et 8 mmHg.",
+            "E": "En diastole, la pression aortique se maintient à 70-80 mmHg grâce à la fermeture de la valve aortique, tandis que la pression ventriculaire gauche chute entre 0 et 8 mmHg."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Le fonctionnement hémodynamique du cœur obéit aux lois de pression (« plomberie ») : le sang se déplace toujours de la zone de plus haute pression vers la zone de plus basse pression.\nB ✅ VRAI : La pression artérielle systémique normale au bras est d'environ 120/70 mmHg.\nC ❌ FAUX : Piège classique des annales ! Dans le ventricule gauche, la pression systolique est bien de 120 mmHg, mais la pression diastolique tombe entre 0 et 8 mmHg (soit 120 / 0 à 8 mmHg) pour permettre le remplissage depuis l'oreillette gauche.\nD ✅ VRAI : La pression dans l'oreillette gauche reste basse, entre 0 et 8 mmHg.\nE ✅ VRAI : En systole, les courbes de pression du VG et de l'aorte sont superposables en l'absence de sténose ; en diastole, la fermeture de la valve aortique maintient la pression aortique à 70-80 mmHg alors que le VG se relâche à 0-8 mmHg."
+    },
+
+    {
+        "id": "UE4-EBP-14",
+        "text": "Concernant les régimes de pression dans le cœur droit :",
+        "options": {
+            "A": "Dans l'artère pulmonaire, la pression normale est de l'ordre de 30/15 mmHg.",
+            "B": "Dans le ventricule droit, la pression normale est de l'ordre de 30/15 mmHg.",
+            "C": "Dans le ventricule droit, la pression systolique est d'environ 30 mmHg et la pression diastolique est de 0 à 5 mmHg.",
+            "D": "Dans l'oreillette droite, la pression normale est comprise entre 0 et 5 mmHg.",
+            "E": "Les pressions du cœur gauche sont plus élevées que celles du cœur droit, tant au niveau des ventricules qu'au niveau des oreillettes."
+        },
+        "correctAnswers": [
+            "A",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : La pression dans l'artère pulmonaire est d'environ 30/15 mmHg.\nB ❌ FAUX : Piège classique des annales : 30/15 mmHg est la pression de l'artère pulmonaire ; dans le ventricule droit, la pression diastolique chute à 0-5 mmHg (soit 30 / 0 à 5 mmHg).\nC ✅ VRAI : Le ventricule droit affiche une pression de 30 mmHg en systole et de 0 à 5 mmHg en diastole.\nD ✅ VRAI : La pression dans l'oreillette droite est comprise entre 0 et 5 mmHg.\nE ✅ VRAI : Le cœur gauche a des pressions supérieures à celles du cœur droit à tous les étages (VG 120 vs VD 30 ; OG 0-8 vs OD 0-5)."
+    },
+
+    {
+        "id": "UE4-EBP-15",
+        "text": "Concernant la contraction auriculaire et les sténoses valvulaires :",
+        "options": {
+            "A": "En toute fin de diastole, la contraction de l'oreillette provoque une légère élévation de pression appelée pression télédiastolique.",
+            "B": "L'augmentation de pression intra-auriculaire dépend à la fois du retour veineux et de la contraction auriculaire proprement dite.",
+            "C": "La contraction de l'oreillette est plus puissante que celle du ventricule.",
+            "D": "Lorsqu'une sténose valvulaire gêne le passage du sang, elle entraîne systématiquement une augmentation de la pression dans la cavité située en aval de l'obstacle.",
+            "E": "Dans un rétrécissement aortique serré avec un gradient de 110 mmHg, le ventricule gauche doit développer 190 mmHg en systole pour assurer une pression de 80 mmHg dans l'aorte."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Ce supplément de pression en toute fin de diastole (télédiastolique) facilite le remplissage ventriculaire.\nB ✅ VRAI : Le retour veineux remplit l'oreillette et la systole auriculaire parachève l'élévation de pression permettant le passage actif du sang vers le ventricule.\nC ❌ FAUX : La contraction de l'oreillette est bien moins puissante que celle du ventricule, mais elle suffit à propulser le sang vers le ventricule relâché.\nD ❌ FAUX : Une sténose valvulaire provoque systématiquement une augmentation de pression dans la cavité qui précède l'obstacle (c'est-à-dire en amont, et non en aval).\nE ✅ VRAI : C'est l'exemple clinique cité par le professeur : avec un obstacle créant un gradient de 110 mmHg, le VG en amont doit monter à 190 mmHg pour obtenir 80 mmHg en aval dans l'aorte."
+    },
+
+    {
+        "id": "UE4-EBP-16",
+        "text": "Concernant les communications inter-auriculaires (CIA) et les shunts gauche-droit :",
+        "options": {
+            "A": "En présence d'une communication inter-auriculaire isolée, le sang passe de l'oreillette droite vers l'oreillette gauche.",
+            "B": "Un shunt gauche-droit diminue immédiatement la saturation artérielle systémique en oxygène et provoque une cyanose précoce.",
+            "C": "La communication inter-auriculaire est une malformation fréquente et généralement bien tolérée pendant de nombreuses années.",
+            "D": "À long terme, un shunt gauche-droit entraîne une surcharge de débit dans les cavités droites.",
+            "E": "Après de nombreuses années d'évolution, l'hyperdébit pulmonaire d'un shunt gauche-droit peut provoquer une réaction de constriction de l'artère pulmonaire et une hypertension pulmonaire."
+        },
+        "correctAnswers": [
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : La pression dans l'oreillette gauche (0-8 mmHg) étant supérieure à celle de l'oreillette droite (0-5 mmHg), le sang passe de la gauche vers la droite (shunt gauche-droit).\nB ❌ FAUX : Dans un shunt gauche-droit, du sang déjà oxygéné repasse vers le cœur droit : il n'y a donc aucune baisse de la saturation artérielle en oxygène ni cyanose.\nC ✅ VRAI : Comme le sang artériel reste parfaitement oxygéné, la CIA est longtemps bien tolérée sur le plan clinique.\nD ✅ VRAI : Le passage continu de sang de la gauche vers la droite surcharge les cavités droites en volume/débit.\nE ✅ VRAI : À long terme, l'augmentation chronique du débit pulmonaire entraîne une vasoconstriction réactionnelle de l'artère pulmonaire et une hypertension artérielle pulmonaire."
+    },
+
+    {
+        "id": "UE4-EBP-17",
+        "text": "Concernant les shunts droit-gauche et la tétralogie de Fallot :",
+        "options": {
+            "A": "Pour qu'un shunt droit-gauche se produise, il faut que la pression dans les cavités droites devienne supérieure à celle des cavités gauches.",
+            "B": "Un rétrécissement (sténose) de l'artère pulmonaire augmente la pression en amont dans le ventricule droit et l'oreillette droite.",
+            "C": "La tétralogie de Fallot associe notamment un rétrécissement de l'artère pulmonaire et une communication inter-ventriculaire (CIV).",
+            "D": "Dans un shunt droit-gauche, du sang désoxygéné passe dans la circulation systémique, provoquant une hypoxémie et une cyanose (« maladie bleue »).",
+            "E": "Une surcharge barométrique du ventricule droit correspond typiquement à un obstacle à l'éjection valvulaire pulmonaire."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : L'inversion du shunt nécessite que la pression droite dépasse la pression gauche.\nB ✅ VRAI : Pour vaincre la sténose pulmonaire, le ventricule droit et l'oreillette droite en amont augmentent fortement leur pression.\nC ✅ VRAI : La tétralogie de Fallot associe une sténose de l'artère pulmonaire et une CIV, ce qui fait passer le sang du VD vers le VG.\nD ✅ VRAI : Le mélange de sang veineux désaturé (« noir ») avec le sang artériel oxygéné (« rouge ») crée une hypoxémie et une cyanose appelée « maladie bleue ».\nE ✅ VRAI : Un obstacle à l'éjection pulmonaire (sténose) crée une surcharge de pression (barométrique) droite."
+    },
+
+    {
+        "id": "UE4-EBP-18",
+        "text": "Concernant l'auscultation cardiaque normale :",
+        "options": {
+            "A": "Le premier bruit du cœur (B1 ou « POUM ») correspond à la fermeture des valves auriculo-ventriculaires (mitrale et tricuspide).",
+            "B": "Le second bruit du cœur (B2 ou « TCHA ») correspond à l'ouverture des valves ventriculo-artérielles (aortique et pulmonaire).",
+            "C": "La systole (contraction ventriculaire) se déroule entre le premier bruit (B1) et le second bruit (B2).",
+            "D": "La diastole (relâchement ventriculaire) se déroule après le second bruit (B2) jusqu'au premier bruit (B1) suivant.",
+            "E": "L'ouverture normale d'une valve cardiaque saine est audible au stéthoscope sous forme d'un troisième bruit physiologique."
+        },
+        "correctAnswers": [
+            "A",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Le B1 (« POUM ») est produit par la fermeture des valves atrio-ventriculaires au début de la systole.\nB ❌ FAUX : Le B2 (« TCHA ») correspond à la fermeture (et non à l'ouverture) des valves ventriculo-artérielles (aortique et pulmonaire) au début de la diastole.\nC ✅ VRAI : L'intervalle entre B1 et B2 est l'intervalle systolique.\nD ✅ VRAI : L'intervalle entre B2 et le B1 suivant correspond à la diastole.\nE ❌ FAUX : Ce sont uniquement les fermetures valvulaires qui produisent les deux bruits normaux (B1 et B2) à l'auscultation ; l'ouverture d'une valve saine est silencieuse."
+    },
+
+    {
+        "id": "UE4-EBP-19",
+        "text": "Concernant les quatre foyers d'auscultation cardiaque :",
+        "options": {
+            "A": "Le foyer aortique se situe dans le 2e espace intercostal gauche, près du sternum.",
+            "B": "Le foyer pulmonaire se situe dans le 2e espace intercostal gauche.",
+            "C": "Le foyer tricuspide se situe dans le 5e espace intercostal droit.",
+            "D": "Le foyer mitral se situe dans le 5e espace intercostal gauche, sur la ligne médio-claviculaire.",
+            "E": "Le foyer tricuspide est de loin le foyer le plus fréquemment ausculté en pratique clinique courante."
+        },
+        "correctAnswers": [
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : Le foyer aortique se situe dans le 2e espace intercostal droit.\nB ✅ VRAI : Le foyer pulmonaire est localisé au 2e espace intercostal gauche.\nC ✅ VRAI : Selon le cours, le foyer tricuspide est localisé au 5e espace intercostal droit.\nD ✅ VRAI : Le foyer mitral est situé au 5e espace intercostal gauche sur la ligne médio-claviculaire (région de l'apex du ventricule gauche).\nE ❌ FAUX : Le foyer tricuspide est rare et d'auscultation compliquée ; c'est le foyer mitral qui est de loin le plus fréquent."
+    },
+
+    {
+        "id": "UE4-EBP-20",
+        "text": "Concernant l'interprétation des souffles cardiaques :",
+        "options": {
+            "A": "Un souffle entendu pendant la systole (entre B1 et B2) au foyer mitral (5e espace intercostal gauche) traduit une insuffisance mitrale (fuite mitrale).",
+            "B": "Dans l'insuffisance mitrale, le sang régurgite du ventricule gauche vers l'oreillette gauche pendant la contraction ventriculaire.",
+            "C": "Un souffle systolique rugueux entendu au foyer aortique (2e espace intercostal droit) traduit un rétrécissement aortique.",
+            "D": "L'insuffisance mitrale et le rétrécissement aortique sont les deux valvulopathies les plus fréquentes.",
+            "E": "Un souffle entendu pendant la diastole (après B2) au foyer aortique traduit un rétrécissement aortique."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Un souffle systolique au foyer mitral signe une fuite de la valve mitrale (insuffisance mitrale).\nB ✅ VRAI : La valve mitrale ne se fermant pas hermétiquement en systole, le sang reflue du VG sous haute pression vers l'OG.\nC ✅ VRAI : Le rétrécissement aortique donne un souffle systolique rugueux (« POUM-PFFRRT-CHA ») au foyer aortique lors de l'éjection ventriculaire.\nD ✅ VRAI : Ce sont les deux atteintes valvulaires les plus fréquentes en clinique.\nE ❌ FAUX : Un souffle diastolique (après B2) au foyer aortique traduit une insuffisance aortique (fuite de la valve aortique en diastole) et non un rétrécissement aortique."
+    },
+
+    {
+        "id": "UE4-EBP-21",
+        "text": "Concernant l'insuffisance aortique (fuite aortique) :",
+        "options": {
+            "A": "Dans l'insuffisance aortique, la valve aortique laisse refluer du sang de l'aorte vers le ventricule gauche relâché pendant la diastole.",
+            "B": "Une endocardite infectieuse ayant détruit la valve aortique peut être responsable d'une fuite aortique massive.",
+            "C": "En cas de fuite aortique massive, la pression artérielle diastolique mesurée au bras augmente fortement (par exemple 120/100 mmHg).",
+            "D": "L'élargissement de la pression différentielle (par exemple une tension à 120/30 mmHg) est un signe clinique orientant vers une insuffisance aortique.",
+            "E": "Dans l'insuffisance aortique sévère, la chute de la pression diastolique aortique et l'élévation de la pression télédiastolique ventriculaire gauche compromettent gravement la perfusion des artères coronaires."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : La perte d'étanchéité de la valve aortique en diastole entraîne une régurgitation du sang aortique vers le VG.\nB ✅ VRAI : L'endocardite est une cause classique de destruction valvulaire entraînant une fuite aortique aiguë massive.\nC ❌ FAUX : Au contraire, le reflux de sang vers le VG pendant la diastole fait chuter la pression diastolique artérielle (par exemple à 30 mmHg au lieu de 70 mmHg).\nD ✅ VRAI : Le passage d'une tension normale (120/70) à 120/30 mmHg élargit la différentielle entre systole et diastole, signe typique d'insuffisance aortique.\nE ✅ VRAI : Comme les artères coronaires se remplissent pendant la diastole, la baisse de pression diastolique aortique associée à l'augmentation de pression télédiastolique dans le VG entrave sérieusement la perfusion coronarienne."
+    },
+
+    {
+        "id": "UE4-EBP-22",
+        "text": "Concernant l'échographie cardiaque et les techniques d'imagerie des cavités :",
+        "options": {
+            "A": "L'échographie cardiaque permet de visualiser un épanchement péricardique et d'évaluer la dilatation des cavités cardiaques.",
+            "B": "Le mode Doppler couleur permet de visualiser le sens de circulation du sang et de détecter les fuites valvulaires.",
+            "C": "L'échographie transthoracique offre une meilleure résolution que l'échographie transœsophagienne pour analyser finement la valve mitrale.",
+            "D": "La ventriculographie (ou angiographie) consiste à injecter un produit de contraste opaque aux rayons X dans la cavité ventriculaire sous scopie.",
+            "E": "La scintigraphie isotopique est une autre technique permettant de visualiser le ventricule."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : L'échographie explore à la fois le péricarde (recherche d'épanchement) et la morphologie/dilatation des cavités.\nB ✅ VRAI : Le Doppler couleur code le sens du flux sanguin et permet d'identifier et de quantifier les fuites sur les quatre valves.\nC ❌ FAUX : C'est l'échographie transœsophagienne (ETO), dont la sonde est placée juste derrière l'oreillette gauche, qui offre une exploration beaucoup plus fine des valves mitrale et aortique.\nD ✅ VRAI : L'angiographie/ventriculographie utilise un produit de contraste iodé opaque aux rayons X pour visualiser l'intérieur du ventricule et son aspect trabéculé.\nE ✅ VRAI : Le ventricule gauche peut être exploré par échographie, scintigraphie isotopique ou angiographie."
+    },
+
+    {
+        "id": "UE4-EBP-23",
+        "text": "Concernant la physiopathologie de la tamponnade cardiaque :",
+        "options": {
+            "A": "Lors d'une plaie du ventricule droit, le sang s'accumule dans le péricarde jusqu'à ce que la pression péricardique s'équilibre avec celle du ventricule droit, autour de 30 mmHg.",
+            "B": "Le péricarde étant cloisonné en loges distinctes, la pression n'augmente qu'en regard du ventricule droit.",
+            "C": "Une pression intrapéricardique de 30 mmHg comprime préférentiellement l'oreillette droite, dont la pression physiologique est la plus basse (0 à 5 mmHg).",
+            "D": "Dans la tamponnade, le choc cardiogénique est dû à une défaillance primitive de la contractilité du muscle myocardique.",
+            "E": "Du liquide dans le péricarde en quantité importante et de constitution brutale peut provoquer une tamponnade, une baisse brutale du débit cardiaque, un malaise, un arrêt cardiaque par défaut de remplissage et le décès."
+        },
+        "correctAnswers": [
+            "A",
+            "C",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Le sang sort du VD à 30 mmHg et remplit la cavité péricardique dont la pression monte jusqu'à environ 30 mmHg.\nB ❌ FAUX : Le péricarde est une enveloppe homogène et sans cloisonnement : la pression y est donc strictement identique partout.\nC ✅ VRAI : La cavité la plus comprimée est celle dont la pression interne est la plus faible, à savoir l'oreillette droite (0 à 5 mmHg).\nD ❌ FAUX : Le cœur ne fonctionne pas mal en soi : il ne parvient plus à éjecter parce qu'il ne peut plus se remplir, écrasé de l'extérieur par la pression péricardique (défaut de remplissage).\nE ✅ VRAI : Toutes ces propositions (tamponnade, arrêt par défaut de remplissage, malaise, chute du débit cardiaque, décès) sont exactes."
+    },
+
+    {
+        "id": "UE4-EBP-24",
+        "text": "Concernant les signes cliniques et le traitement de la tamponnade cardiaque :",
+        "options": {
+            "A": "La turgescence jugulaire est un signe clinique majeur de tamponnade traduisant l'obstacle au retour veineux droit.",
+            "B": "Les œdèmes des membres inférieurs (OMI) et l'ascite sont systématiquement présents dès les premières minutes d'une tamponnade aiguë traumatique.",
+            "C": "Il ne faut jamais allonger un patient en tamponnade, car la position assise favorise le retour veineux cave supérieur par gravité.",
+            "D": "En attendant le drainage chirurgical, la première mesure thérapeutique d'urgence consiste à administrer des diurétiques pour vider l'oreillette droite.",
+            "E": "Le traitement définitif de la tamponnade repose sur le drainage péricardique par ponction ou ouverture chirurgicale par voie sous-xiphoïdienne."
+        },
+        "correctAnswers": [
+            "A",
+            "C",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : L'hyperpression dans l'oreillette droite bloque le drainage de la veine cave supérieure, provoquant une turgescence des veines jugulaires.\nB ❌ FAUX : Dans la tamponnade aiguë, il n'y a pas d'OMI ; les OMI et l'ascite n'apparaissent que dans les tamponnades chroniques.\nC ✅ VRAI : Les patients sont assis et hypotendus ; selon le cours, il ne faut surtout pas les allonger sous peine de diminuer fortement le retour cave supérieur.\nD ❌ FAUX : Au contraire, en attendant la chirurgie, il faut remplir massivement le patient (solutés ou sang) pour augmenter la pression dans l'oreillette droite au-delà de la pression péricardique et maintenir un minimum de remplissage ventriculaire.\nE ✅ VRAI : Le traitement étiologique définitif est le drainage du péricarde par ponction ou par voie sous-xiphoïdienne."
+    },
+
+    {
+        "id": "UE4-EBP-25",
+        "text": "Concernant la définition et la sémiologie des états de choc :",
+        "options": {
+            "A": "Cliniquement, un état de choc se définit par une pression artérielle systolique inférieure à 90 mmHg.",
+            "B": "Le choc vagal se caractérise par une fréquence cardiaque diminuée, des extrémités froides et une pression veineuse centrale (PVC) basse, et se traite par le levage des jambes et l'atropine.",
+            "C": "Le choc cardiogénique par incompétence myocardique se caractérise par une fréquence cardiaque augmentée, des extrémités froides et une PVC augmentée, et se traite par des inotropes positifs.",
+            "D": "Le choc allergique (anaphylactique) et le choc septique sont des « chocs chauds » caractérisés par une vasodilatation périphérique, des extrémités chaudes, une tachycardie et une PVC diminuée.",
+            "E": "L'administration de corticoïdes est recommandée en première intention dans le traitement du choc septique."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : La définition clinique du choc repose sur une pression artérielle systolique < 90 mmHg.\nB ✅ VRAI : L'hyperstimulation parasympathique (vagale) ralentit le nœud sinusal (bradycardie) et crée une vasodilatation ; on allonge le patient jambes levées et on donne un vagolytique (atropine).\nC ✅ VRAI : Le cœur défaillant n'éjecte plus : le sang stagne en amont (PVC élevée), la peau se vasoconstricte (extrémités froides) et la FC s'accélère ; on stimule la contractilité par des inotropes positifs.\nD ✅ VRAI : Dans les chocs allergique et septique, l'effondrement des résistances périphériques par vasodilatation donne des extrémités chaudes (« choc chaud ») et une chute des pressions de remplissage (PVC basse).\nE ❌ FAUX : Selon le cours, les corticoïdes sont utilisés dans le choc allergique, mais ne sont pas le traitement de première intention du choc septique."
+    },
+
+    {
+        "id": "UE4-EBP-26",
+        "text": "Concernant le débit cardiaque et ses déterminants chez le sujet sain :",
+        "options": {
+            "A": "Le débit cardiaque (DC) est égal au produit de la fréquence cardiaque (FC) par le volume d'éjection systolique (VES).",
+            "B": "Le débit cardiaque de repos avoisine 5 litres par minute et peut tripler à l'effort pour atteindre environ 15 litres par minute.",
+            "C": "Chez le sujet sain, le triplement du débit cardiaque à l'effort repose principalement sur le triplement du volume d'éjection systolique.",
+            "D": "La fréquence cardiaque maximale théorique se calcule par la formule : 220 − âge.",
+            "E": "La fraction d'éjection ventriculaire gauche normale au repos est d'environ 60 %."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : La formule fondamentale à connaître est DC = FC × VES.\nB ✅ VRAI : Le débit passe d'environ 5 L/min au repos à environ 15 L/min lors d'un effort important.\nC ❌ FAUX : Si la fraction d'éjection augmente légèrement à l'effort (de 60 à 70 % sous l'effet des catécholamines), le triplement du débit cardiaque repose essentiellement sur l'augmentation de la fréquence cardiaque.\nD ✅ VRAI : La FC maximale théorique est donnée par 220 − âge.\nE ✅ VRAI : Normalement, le ventricule éjecte environ 60 % de son volume télédiastolique à chaque systole (VTD = 50 à 90 mL/m², VTS = 15 à 30 mL/m²)."
+    },
+
+    {
+        "id": "UE4-EBP-27",
+        "text": "Concernant les mécanismes d'adaptation lors d'une baisse du débit cardiaque ou d'un état de choc :",
+        "options": {
+            "A": "L'accélération de la fréquence cardiaque est le premier mécanisme compensateur, mais devient contre-productive et épuise le myocarde au-delà d'un certain seuil.",
+            "B": "La vasoconstriction périphérique permet de redistribuer le sang en priorité vers deux organes nobles : le cerveau et le cœur.",
+            "C": "La perte de connaissance est un signe d'alarme très précoce d'état de choc hémorragique ou cardiogénique.",
+            "D": "La peau est le premier territoire sacrifié par la vasoconstriction périphérique, ce qui explique la froideur cutanée et les marbrures.",
+            "E": "Les marbrures cutanées s'expliquent par une vasodilatation homogène de l'ensemble du réseau capillaire sous-cutané."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : La tachycardie compense initialement la baisse du VES, mais finit par épuiser le muscle cardiaque.\nB ✅ VRAI : Le cerveau et le cœur sont les deux organes préservés en dernier grâce à la vasoconstriction des autres territoires.\nC ❌ FAUX : Le cerveau étant perfusé en priorité jusqu'au bout, un patient en choc peut rester parfaitement conscient malgré une tension très basse ; la perte de connaissance est donc un signe d'alarme tardif et trompeur, traduisant un stade déjà très grave.\nD ✅ VRAI : La peau déleste son sang en premier, donnant froideur des extrémités et marbrures (d'où l'importance d'examiner un patient déshabillé).\nE ❌ FAUX : Les marbrures sont causées par la vasoconstriction périphérique cutanée, qui fait que certains micro-territoires restent un peu mieux vascularisés que d'autres."
+    },
+
+    {
+        "id": "UE4-EBP-28",
+        "text": "Concernant la dilatation ventriculaire et la loi de Starling dans l'insuffisance cardiaque :",
+        "options": {
+            "A": "En se dilatant, un ventricule dont la fraction d'éjection est abaissée à 30 % peut maintenir un volume d'éjection systolique normal en valeur absolue s'il double son volume télédiastolique.",
+            "B": "Selon la loi de Starling, l'étirement des fibres myocardiques augmente initialement la force de contractilité du ventricule.",
+            "C": "La dilatation ventriculaire est un mécanisme adaptatif sans limite : plus le cœur se dilate, plus sa fraction d'éjection augmente indéfiniment.",
+            "D": "Au-delà d'un certain degré d'étirement (point de rupture), les fibres myocardiques deviennent inefficaces et la contraction s'effondre.",
+            "E": "Une partie du traitement médical de l'insuffisance cardiaque consiste à lutter contre cette dilatation ventriculaire excessive."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Éjecter 30 % d'un volume doublé donne le même volume absolu éjecté qu'éjecter 60 % d'un volume normal.\nB ✅ VRAI : Dans la première partie de la loi de Starling, l'étirement des fibres augmente la contractilité.\nC ❌ FAUX : C'est un mécanisme à double tranchant (cercle vicieux) qui possède une limite stricte au-delà de laquelle la contraction devient inefficace.\nD ✅ VRAI : Lorsque les fibres sont trop étirées, elles perdent leur efficacité contractile et la fraction d'éjection chute.\nE ✅ VRAI : Lutter contre le remodelage et la dilatation excessive du ventricule est un axe majeur du traitement de l'insuffisance cardiaque."
+    },
+
+    {
+        "id": "UE4-EBP-29",
+        "text": "Concernant la radiographie thoracique de face et le rapport cardiothoracique :",
+        "options": {
+            "A": "Le rapport cardiothoracique (RCT) compare le plus grand diamètre transversal du cœur au plus grand diamètre transversal du thorax.",
+            "B": "Le rapport cardiothoracique est considéré comme normal lorsqu'il est inférieur à 0,5.",
+            "C": "Un rapport cardiothoracique supérieur à 0,6 traduit une dilatation cardiaque (cardiomégalie).",
+            "D": "Sur une radiographie thoracique normale, la coupole diaphragmatique gauche est située un peu plus haut que la coupole droite.",
+            "E": "Du fait de la présence du cœur à gauche, le volume de l'arbre pulmonaire se répartit à environ 60 % à droite et 40 % à gauche."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : C'est le rapport entre la largeur maximale de la silhouette cardiaque et la largeur maximale de la cage thoracique.\nB ✅ VRAI : Un RCT normal est inférieur à 0,5.\nC ✅ VRAI : Au-delà de 0,6, on parle de cardiomégalie radiologique.\nD ❌ FAUX : C'est le diaphragme droit qui est un peu plus haut que le gauche, notamment à cause du foie sous-jacent à droite.\nE ✅ VRAI : L'encombrement cardiaque à gauche fait que la répartition pulmonaire est d'environ 60 % à droite contre 40 % à gauche."
+    },
+
+    {
+        "id": "UE4-EBP-30",
+        "text": "Concernant les cinq arcs de la silhouette cardiaque sur une radiographie thoracique de face :",
+        "options": {
+            "A": "On décrit classiquement trois arcs à droite et deux arcs à gauche.",
+            "B": "L'arc supérieur droit est formé par la veine cave supérieure.",
+            "C": "L'arc inférieur droit est formé par l'oreillette droite.",
+            "D": "L'arc supérieur gauche est formé par la crosse de l'aorte (bouton aortique).",
+            "E": "L'arc moyen gauche correspond à l'auricule gauche (et au tronc de l'artère pulmonaire), tandis que l'arc inférieur gauche correspond au ventricule (gauche, ou droit lorsqu'il est dilaté)."
+        },
+        "correctAnswers": [
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : On décrit deux arcs à droite (supérieur et inférieur) et trois arcs à gauche (supérieur, moyen et inférieur).\nB ✅ VRAI : L'arc supérieur droit correspond à la veine cave supérieure.\nC ✅ VRAI : L'arc inférieur droit correspond à l'oreillette droite.\nD ✅ VRAI : L'arc supérieur gauche est formé par la crosse de l'aorte (bouton aortique).\nE ✅ VRAI : L'arc moyen gauche est formé par l'auricule gauche et l'artère pulmonaire, et l'arc inférieur gauche par le ventricule."
+    },
+
+    {
+        "id": "UE4-EBP-31",
+        "text": "Concernant la définition et le rôle du système cardioconducteur (cardionecteur) :",
+        "options": {
+            "A": "Le système cardioconducteur est constitué de tissu nerveux ganglionnaire dépourvu de fibres myocardiques.",
+            "B": "Ses cellules ont la propriété de se dépolariser spontanément, de façon régulière et automatique.",
+            "C": "Il synchronise la contraction des deux oreillettes d'une part, et des deux ventricules d'autre part, tout en coordonnant le relâchement auriculaire avec la contraction ventriculaire.",
+            "D": "Sans système cardioconducteur spécialisé, une transmission électrique de fibre à fibre ne permettrait pas une contraction synchrone au-delà de 30 à 40 bpm.",
+            "E": "Grâce au système cardioconducteur, la synchronisation reste efficace même lorsque la fréquence cardiaque s'accélère jusqu'à 120-140 bpm."
+        },
+        "correctAnswers": [
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : Le système cardioconducteur n'est pas du tissu nerveux mais correspond à des fibres myocardiques différenciées capables d'automatisme.\nB ✅ VRAI : Ces fibres myocardiques spécialisées se dépolarisent spontanément et régulièrement.\nC ✅ VRAI : Cette synchronisation évite qu'une cavité ne se contracte pendant que la cavité suivante est déjà sous haute pression.\nD ✅ VRAI : La conduction de proche en proche (fibre à fibre) est beaucoup trop lente et plafonnerait à 30-40 bpm.\nE ✅ VRAI : Le réseau spécialisé permet une dépolarisation quasi simultanée des fibres ventriculaires même à haute fréquence (120-140 bpm)."
+    },
+
+    {
+        "id": "UE4-EBP-32",
+        "text": "Concernant l'organisation anatomique du système cardioconducteur :",
+        "options": {
+            "A": "Le nœud sinusal est situé dans la paroi de l'oreillette gauche, à l'abouchement des veines pulmonaires.",
+            "B": "Le nœud sinusal se situe sur la face antérieure de l'oreillette droite, au pied de la veine cave supérieure.",
+            "C": "L'influx électrique passe du nœud sinusal au nœud auriculo-ventriculaire (NAV), puis au faisceau de His.",
+            "D": "Le faisceau de His se divise en une branche droite (pour le VD) et une branche gauche qui se sépare elle-même en un faisceau antérieur gauche et un faisceau postérieur gauche.",
+            "E": "Le réseau de Purkinje constitue la terminaison distale des branches de conduction au sein du myocarde ventriculaire."
+        },
+        "correctAnswers": [
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : Le nœud sinusal est situé dans l'oreillette droite, au pied de la veine cave supérieure.\nB ✅ VRAI : C'est sa localisation anatomique décrite dans le cours.\nC ✅ VRAI : C'est le trajet physiologique normal de la conduction intracardiaque.\nD ✅ VRAI : La branche gauche du faisceau de His donne deux hémibranches : le faisceau antérieur gauche et le faisceau postérieur gauche.\nE ✅ VRAI : Les branches se terminent par les fibres de Purkinje qui distribuent l'influx aux cardiomyocytes."
+    },
+
+    {
+        "id": "UE4-EBP-33",
+        "text": "Concernant les fréquences de décharge automatique et les troubles de conduction :",
+        "options": {
+            "A": "La fréquence de décharge automatique augmente progressivement au fur et à mesure que l'on descend dans l'arbre de conduction.",
+            "B": "Le nœud sinusal possède la fréquence de décharge automatique la plus rapide, d'environ 70/min.",
+            "C": "La fréquence automatique propre du nœud auriculo-ventriculaire est d'environ 40/min, et celle des branches est d'environ 20/min.",
+            "D": "En cas d'interruption bilatérale des branches droite et gauche, la fréquence cardiaque tombe à environ 20/min.",
+            "E": "Si la fréquence cardiaque chute de 60/min (où le débit est de 5 L/min) à 20/min sans augmentation possible du VES, le débit cardiaque s'effondre à environ 1,5 L/min, entraînant un choc cardiogénique."
+        },
+        "correctAnswers": [
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : La fréquence de décharge automatique diminue progressivement le long de l'arbre de conduction (70 → 40 → 20 bpm).\nB ✅ VRAI : Avec environ 70 décharges/min, le nœud sinusal impose son rythme au reste du cœur (pacemaker physiologique).\nC ✅ VRAI : Le relais nodal bat à 40/min et le relais infra-hisien (branches) bat à 20/min.\nD ✅ VRAI : Plus l'interruption est basse dans l'arbre de conduction, plus la fréquence d'échappement est lente (20/min au niveau des branches).\nE ✅ VRAI : D'après la formule DC = FC × VES, diviser la fréquence par 3 sans réserve de VES divise le débit par 3 (environ 1,5 L/min), ce qui est incompatible avec la vie et provoque un choc cardiogénique."
+    },
+
+    {
+        "id": "UE4-EBP-34",
+        "text": "Concernant le pacemaker artificiel et la resynchronisation :",
+        "options": {
+            "A": "Le pacemaker est un boîtier programmable qui délivre un influx électrique suppléant une interruption de la conduction.",
+            "B": "Les sondes de pacemaker sont habituellement introduites par l'oreillette gauche jusque dans le ventricule gauche.",
+            "C": "Un pacemaker double chambre permet de synchroniser la contraction de l'oreillette et celle du ventricule.",
+            "D": "Lorsque seul le ventricule droit est stimulé en premier par une sonde, il se contracte avant le ventricule gauche, créant un « asynchronisme » délétère sur le plan hémodynamique.",
+            "E": "Pour corriger cet asynchronisme, on peut ajouter une sonde supplémentaire afin de stimuler simultanément le ventricule gauche et le ventricule droit."
+        },
+        "correctAnswers": [
+            "A",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Le pacemaker remplace l'influx électrique défaillant en cas de bloc de conduction.\nB ❌ FAUX : Les sondes sont introduites par le réseau veineux dans l'oreillette droite jusque dans le ventricule droit (et non dans les cavités gauches où le risque thrombotique serait majeur).\nC ✅ VRAI : La programmation synchronise l'activité atriale et ventriculaire.\nD ✅ VRAI : La stimulation isolée du VD fait contracter le VD avant le VG (asynchronisme), ce qui gêne le remplissage et l'efficacité du VG.\nE ✅ VRAI : La stimulation biventriculaire (resynchronisation) rétablit une contraction simultanée des deux ventricules."
+    },
+
+    {
+        "id": "UE4-EBP-35",
+        "text": "Concernant l'électrocardiogramme (ECG) normal :",
+        "options": {
+            "A": "L'ECG enregistre l'activité électrique du cœur selon deux plans (un plan horizontal et un plan frontal).",
+            "B": "L'onde P correspond à l'activité électrique (dépolarisation) des oreillettes droite et gauche.",
+            "C": "Le complexe QRS correspond à la repolarisation des oreillettes.",
+            "D": "Dans le complexe QRS, l'onde Q est la première déflexion négative, l'onde R est la déflexion positive, et l'onde S est la seconde déflexion négative.",
+            "E": "L'onde T correspond à la repolarisation ventriculaire, pendant la diastole, au moment où les fibres ventriculaires se relâchent."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : L'ECG explore l'activité électrique dans le plan frontal (dérivations des membres) et dans le plan horizontal (dérivations précordiales V1 à V6), ce qui permet de visualiser la propagation tridimensionnelle de l'électricité cardiaque.\nB ✅ VRAI : L'onde P traduit l'activation électrique (dépolarisation) des deux oreillettes.\nC ❌ FAUX : Le complexe QRS correspond à la dépolarisation (contraction) des ventricules ; la repolarisation auriculaire est noyée dans le QRS.\nD ✅ VRAI : Q = première onde négative, R = onde positive, S = onde négative suivant l'onde R.\nE ✅ VRAI : L'onde T traduit le phénomène électrique de repolarisation ventriculaire accompagnant le relâchement des fibres."
+    },
+
+    {
+        "id": "UE4-EBP-36",
+        "text": "Concernant l'espace PR et les blocs auriculo-ventriculaires (BAV) des 1er et 2e degrés :",
+        "options": {
+            "A": "L'espace PR normal mesure entre 120 et 200 millisecondes.",
+            "B": "On parle de BAV du 1er degré lorsque l'espace PR est supérieur à 200 millisecondes, chaque onde P restant suivie d'un complexe QRS.",
+            "C": "Le BAV du 2e degré Mobitz 1 (Luciani-Wenckebach) se caractérise par un allongement progressif de l'espace PR jusqu'à une onde P bloquée (non suivie de QRS), puis le cycle recommence.",
+            "D": "Le BAV du 2e degré Mobitz 2 correspond à un blocage brutal et régulier de la conduction auriculo-ventriculaire (avec un rapport de blocage constant), sans allongement progressif préalable du PR.",
+            "E": "Dans le BAV du 1er degré, il existe une dissociation complète entre les oreillettes et les ventricules."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : La durée normale de l'espace PR est comprise entre 120 et 200 ms (0,12 à 0,20 s).\nB ✅ VRAI : Au-delà de 200 ms, il s'agit d'un simple ralentissement de la conduction appelé BAV du 1er degré.\nC ✅ VRAI : C'est la définition exacte de la période de Luciani-Wenckebach (Mobitz 1).\nD ✅ VRAI : Dans le Mobitz 2, le blocage survient brutalement, de façon régulière, avec un rapport fixe et sans allongement préalable du PR.\nE ❌ FAUX : La dissociation complète entre oreillettes et ventricules définit le BAV du 3e degré (BAV complet), et non le BAV du 1er degré."
+    },
+
+    {
+        "id": "UE4-EBP-37",
+        "text": "Concernant le bloc auriculo-ventriculaire du 3e degré (BAV complet) :",
+        "options": {
+            "A": "Dans le BAV du 3e degré, il existe une dissociation complète entre l'activité électrique des oreillettes et celle des ventricules.",
+            "B": "Les oreillettes continuent de se contracter à leur rythme sinusal normal, tandis que les ventricules battent très lentement à leur rythme d'échappement propre.",
+            "C": "Plus le siège anatomique du bloc est bas situé dans l'arbre de conduction, plus la fréquence cardiaque ventriculaire résiduelle est élevée.",
+            "D": "Le BAV du 3e degré est le BAV le plus grave et impose la pose d'un pacemaker en urgence.",
+            "E": "En urgence, une sonde d'entraînement électrosystolique temporaire peut être introduite par voie fémorale jusque dans le ventricule, avant la pose d'un pacemaker définitif par voie axillaire."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Aucun influx auriculaire ne traverse la zone bloquée : oreillettes et ventricules battent de manière totalement indépendante.\nB ✅ VRAI : Les oreillettes suivent le nœud sinusal (~70/min) tandis que les ventricules échappent au rythme du tissu sous-jacent au bloc (40 ou 20/min).\nC ❌ FAUX : C'est l'inverse : plus l'atteinte est basse dans l'arbre de conduction, plus la fréquence cardiaque de suppléance est basse.\nD ✅ VRAI : C'est une urgence vitale (risque de syncope, choc cardiogénique et arrêt cardiaque) nécessitant un appareillage immédiat.\nE ✅ VRAI : Le pacemaker peut être temporaire (sonde montée par voie fémorale dans le ventricule) ou définitif (par voie axillaire)."
+    },
+
+    {
+        "id": "UE4-EBP-38",
+        "text": "Concernant la structure histologique de la paroi cardiaque et du péricarde :",
+        "options": {
+            "A": "La paroi cardiaque proprement dite comporte trois tuniques de l'intérieur vers l'extérieur : l'endocarde, le myocarde et l'épicarde.",
+            "B": "L'endocarde est une couche monocellulaire de cellules endothéliales qui tapisse l'intérieur des cavités cardiaques ainsi que les valves, en continuité avec l'endothélium des gros vaisseaux.",
+            "C": "Une endocardite correspond à une infection de l'épicarde et de la cavité péricardique.",
+            "D": "L'épicarde correspond au feuillet viscéral du péricarde séreux, directement accolé à la surface externe du myocarde.",
+            "E": "Le squelette fibreux du cœur est constitué d'un tissu conjonctif entrelacé et entrecroisé au niveau valvulaire."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Les trois couches de la paroi du cœur sont bien l'endocarde, le myocarde et l'épicarde (le péricarde fibreux étant le sac qui entoure le cœur).\nB ✅ VRAI : L'endocarde est un endothélium monocellulaire tapissant les cavités et les valves, en continuité directe avec l'intima des gros vaisseaux.\nC ❌ FAUX : Une endocardite est une infection de l'endocarde, atteignant essentiellement les valves cardiaques.\nD ✅ VRAI : L'épicarde est le synonyme du péricarde viscéral.\nE ✅ VRAI : Le squelette fibreux est un tissu conjonctif dense entrelacé et entrecroisé."
+    },
+
+    {
+        "id": "UE4-EBP-39",
+        "text": "Concernant la morphologie interne de l'oreillette droite :",
+        "options": {
+            "A": "L'oreillette droite est une cavité de forme cylindrique qui reçoit le sang veineux désaturé par les veines caves supérieure et inférieure, pour une capacité diastolique d'environ 160 mL.",
+            "B": "Sa paroi latérale est fine et présente des reliefs musculaires appelés muscles pectinés.",
+            "C": "Sa paroi crâniale présente en arrière l'orifice de la veine cave supérieure et en avant l'auricule droit, qui recouvre la face interne de l'aorte.",
+            "D": "L'orifice de la veine cave inférieure, situé sur la paroi caudale, est bordé par la valvule d'Eustachi, qui est une valvule parfaitement continente empêchant tout reflux veineux.",
+            "E": "La paroi septale (postéro-médiale) porte une zone déprimée et amincie correspondant à la fosse ovale."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : L'oreillette droite a une forme cylindrique, une pression de 0 à 5 mmHg et une capacité d'environ 160 mL en diastole.\nB ✅ VRAI : Les muscles pectinés forment les reliefs de la paroi latérale de l'atrium droit.\nC ✅ VRAI : L'auricule droit prolonge l'atrium droit en avant et vient recouvrir la face interne de l'aorte ascendante.\nD ❌ FAUX : Question très fréquente aux annales : la valvule d'Eustachi (valvule de la VCI) est une valvule incontinente (non fonctionnelle chez l'adulte).\nE ✅ VRAI : La fosse ovale est la cicatrice déprimée du foramen ovale sur le septum inter-atrial."
+    },
+
+    {
+        "id": "UE4-EBP-40",
+        "text": "Concernant le sinus veineux coronaire :",
+        "options": {
+            "A": "L'orifice du sinus veineux coronaire s'abouche dans l'oreillette gauche, juste en avant des veines pulmonaires.",
+            "B": "L'orifice du sinus veineux coronaire se situe dans la paroi caudale de l'oreillette droite, en avant et en dedans de l'orifice de la veine cave inférieure.",
+            "C": "Le sinus veineux coronaire draine le sang veineux de l'ensemble du myocarde vers l'oreillette droite.",
+            "D": "En chirurgie cardiaque, la cardioplégie (protection du cœur) peut être injectée par voie antérograde dans l'aorte et par voie rétrograde via une canule placée dans le sinus veineux coronaire.",
+            "E": "Les artères coronaires prennent naissance directement dans le sinus veineux coronaire."
+        },
+        "correctAnswers": [
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ❌ FAUX : Le sinus veineux coronaire s'abouche dans l'oreillette droite.\nB ✅ VRAI : Il s'ouvre sur le plancher (paroi caudale) de l'atrium droit, en avant et en dedans de l'ostium de la VCI (et est bordé par la valvule de Thébésius).\nC ✅ VRAI : Il collecte le retour veineux coronaire de tout le cœur pour le ramener dans l'oreillette droite.\nD ✅ VRAI : C'est un point chirurgical important : l'injection rétrograde de cardioplégie se fait par canulation du sinus veineux coronaire.\nE ❌ FAUX : Piège d'annales : les artères coronaires naissent de l'aorte (sinus de Valsalva) et non du sinus veineux coronaire."
+    },
+
+    {
+        "id": "UE4-EBP-41",
+        "text": "Concernant le foramen ovale, le canal artériel et la circulation fœtale :",
+        "options": {
+            "A": "Pendant la vie fœtale, les poumons ne sont pas fonctionnels et deux shunts physiologiques permettent le mélange sanguin : le foramen ovale et le canal artériel.",
+            "B": "Le canal artériel relie la veine cave supérieure à l'oreillette gauche.",
+            "C": "À la naissance, la première respiration provoque un afflux de sang et une augmentation de pression dans l'oreillette gauche, ce qui plaque la membrane du foramen ovale contre le septum et ferme l'orifice.",
+            "D": "Le foramen ovale reste perméable (FOP) chez environ 20 à 25 % de la population générale.",
+            "E": "Le canal artériel, constitué de tissu ductal, se resserre et se ferme habituellement dans la semaine qui suit la naissance."
+        },
+        "correctAnswers": [
+            "A",
+            "C",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Les pressions droite et gauche étant équivalentes in utero, le foramen ovale et le canal artériel assurent le passage sanguin indispensable au fœtus.\nB ❌ FAUX : Le canal artériel est un passage situé entre la crosse de l'aorte et l'artère pulmonaire (au niveau de sa branche gauche).\nC ✅ VRAI : La membrane du foramen ovale étant située du côté gauche et plus grande que l'orifice, la montée de pression dans l'OG à la naissance la plaque contre la cloison où elle finit par se souder.\nD ✅ VRAI : Chez environ un adulte sur quatre (20 à 25 %), la membrane ne se soude pas complètement (foramen ovale perméable), laissant un passage potentiel si la pression droite augmente.\nE ✅ VRAI : Le tissu ductal du canal artériel se contracte et s'oblitère dans la première semaine de vie."
+    },
+
+    {
+        "id": "UE4-EBP-42",
+        "text": "Concernant la morphologie interne du ventricule droit (parois antérieure et inférieure) :",
+        "options": {
+            "A": "Le ventricule droit est une cavité pyramidale à trois parois (sterno-costale, diaphragmatique et septale) dont le grand axe est parallèle à celui du cœur.",
+            "B": "La paroi sterno-costale (antérieure) est la plus étendue et porte le muscle papillaire antérieur, qui est le plus volumineux des piliers du ventricule droit.",
+            "C": "Les cordages tendineux issus du muscle papillaire antérieur du VD s'insèrent sur la cuspide antérieure de la valve tricuspide.",
+            "D": "La paroi antérieure du VD est limitée à gauche par le sillon inter-ventriculaire antérieur, dans lequel chemine l'artère inter-ventriculaire antérieure (IVA).",
+            "E": "La paroi diaphragmatique (inférieure) porte le muscle papillaire postérieur, qui donne des cordages uniquement à la cuspide antérieure de la tricuspide."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : C'est une pyramide à paroi fine (5 mm) exception faite du septum inter-ventriculaire.\nB ✅ VRAI : Le pilier antérieur, implanté sur la paroi sterno-costale concave, est le pilier principal du VD.\nC ✅ VRAI : Le sommet du pilier antérieur donne les cordages destinés à la cuspide antérieure (ainsi qu'à la cuspide septale via les piliers septaux).\nD ✅ VRAI : L'IVA, artère principale du cœur, parcourt le sillon inter-ventriculaire antérieur.\nE ❌ FAUX : Le muscle papillaire postérieur (plus petit que l'antérieur) donne des cordages aux cuspides postérieure et septale de la valve tricuspide."
+    },
+
+    {
+        "id": "UE4-EBP-43",
+        "text": "Concernant la paroi septale, l'apex et la base du ventricule droit :",
+        "options": {
+            "A": "La crête supra-ventriculaire (ou éperon de Wolff) sépare la cavité ventriculaire droite en une chambre de remplissage (d'admission) et une chambre d'éjection.",
+            "B": "L'infundibulum pulmonaire (cône artériel) fait partie de la chambre d'éjection du ventricule droit et se situe juste sous la valve pulmonaire.",
+            "C": "La trabécule septo-marginale (bandelette ansiforme) est un pont musculaire reliant la paroi septale à la paroi antérieure du ventricule droit.",
+            "D": "L'apex du ventricule droit constitue l'apex anatomique du cœur.",
+            "E": "À la base du ventricule droit, l'orifice tricuspide mesure 3 à 4 cm d'ouverture, tandis que l'orifice pulmonaire mesure 20 à 25 mm et comporte trois valvules semi-lunaires."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : L'éperon de Wolff (crête supra-ventriculaire) délimite la chambre d'admission (sous la tricuspide) et la chambre d'éjection (vers l'artère pulmonaire).\nB ✅ VRAI : L'infundibulum pulmonaire conduit le sang vers l'orifice ventriculo-artériel droit.\nC ✅ VRAI : La trabécule septo-marginale unit la paroi septale à la base du pilier antérieur sur la paroi antérieure.\nD ❌ FAUX : L'apex du cœur appartient exclusivement au ventricule gauche ; l'apex du VD est situé à droite de l'apex du VG et présente un aspect très caverneux dû aux vortex.\nE ✅ VRAI : Ce sont les dimensions des deux ostiums de la base du ventricule droit."
+    },
+
+    {
+        "id": "UE4-EBP-44",
+        "text": "Concernant le fonctionnement général des valves auriculo-ventriculaires et la valve tricuspide :",
+        "options": {
+            "A": "Les valves auriculo-ventriculaires peuvent comporter 3 cusps (à droite) ou 2 cusps (à gauche).",
+            "B": "Toute valve auriculo-ventriculaire repose sur trois éléments constitutifs : un anneau fibreux, des feuillets valvulaires (cuspides ou cusps) et un appareil sous-valvulaire (cordages tendineux et piliers musculaires).",
+            "C": "L'ouverture et la fermeture des valves auriculo-ventriculaires sont des phénomènes purement passifs dictés par les gradients de pression de part et d'autre de la valve.",
+            "D": "En systole ventriculaire, les cordages tendineux tirent activement sur les feuillets pour ouvrir la valve vers le ventricule.",
+            "E": "La valve tricuspide comporte trois cuspides : la cuspide antérieure (la plus large), la cuspide postérieure et la cuspide septale (la plus petite)."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Les valves AV comportent soit 3 cusps (tricuspide), soit 2 cusps (mitrale).\nB ✅ VRAI : Ces trois éléments forment l'appareil valvulaire atrio-ventriculaire complet, comparable à un parachute et ses haubans.\nC ✅ VRAI : Les valves s'ouvrent et se ferment passivement sous l'effet des différences de pression entre oreillette et ventricule.\nD ❌ FAUX : Les cordages sont des structures fibreuses non contractiles ; en systole, reliés aux piliers, ils retiennent les bords libres des feuillets pour les empêcher de s'éverser (se retourner) dans l'oreillette pendant que la valve est fermée.\nE ✅ VRAI : La cuspide antérieure est la plus vaste, suivie de la postérieure et de la septale (la plus petite)."
+    },
+
+    {
+        "id": "UE4-EBP-45",
+        "text": "Concernant l'anatomie de l'oreillette gauche et de son auricule :",
+        "options": {
+            "A": "L'oreillette gauche est de forme plus ovoïde que l'oreillette droite et son grand axe est orienté plutôt horizontalement.",
+            "B": "Sa paroi dorsale est lisse et reçoit les quatre veines pulmonaires (deux droites et deux gauches).",
+            "C": "L'auricule gauche s'ouvre sur la partie ventrale de la paroi latérale gauche par un ostium en forme de S.",
+            "D": "L'auricule gauche est un appendice très rigide et inextensible qui empêche toute variation de volume dans l'oreillette gauche.",
+            "E": "Sur la paroi septale de l'oreillette gauche, on observe le repli semi-lunaire (concave en haut et en arrière) qui forme le fond de la fosse ovale."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Contrairement à l'OD qui est cylindrique et verticale, l'OG est ovoïde à axe horizontal.\nB ✅ VRAI : Les quatre veines pulmonaires (supérieures et inférieures, droites et gauches) s'abouchent à la face postérieure lisse de l'OG.\nC ✅ VRAI : L'ostium de l'auricule gauche a une forme caractéristique en S.\nD ❌ FAUX : Au contraire, l'auricule gauche est un appendice très élastique qui joue un rôle d'amortisseur de pression au sein de l'oreillette gauche.\nE ✅ VRAI : Ce repli semi-lunaire correspond à la valvule du foramen ovale vue du côté gauche, située en avant des deux veines pulmonaires droites."
+    },
+
+    {
+        "id": "UE4-EBP-46",
+        "text": "Concernant la fibrillation auriculaire (FA) et la fibrillation ventriculaire (FV) :",
+        "options": {
+            "A": "Dans la fibrillation auriculaire, les cellules des oreillettes se dépolarisent de façon anarchique et désynchronisée, supprimant toute contraction auriculaire efficace.",
+            "B": "La fibrillation auriculaire touche environ 15 % de la population à partir de l'âge de 70 ans.",
+            "C": "La perte de la systole auriculaire lors d'une fibrillation auriculaire fait chuter le débit cardiaque de 70 à 80 %.",
+            "D": "Dans la fibrillation auriculaire, la stagnation du sang dans l'auricule gauche favorise la formation de caillots pouvant migrer vers les artères cérébrales et causer un accident vasculaire cérébral (AVC) ischémique.",
+            "E": "Pour prévenir le risque d'AVC dans la FA, on utilise un traitement anticoagulant ou, en alternative, une prothèse d'occlusion pour fermer l'auricule gauche."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : L'activité électrique désorganisée abolit la systole mécanique de l'oreillette (tandis qu'à l'étage ventriculaire, la FV provoque un arrêt circulatoire immédiat ou « mort subite », traité par choc électrique externe).\nB ✅ VRAI : C'est un trouble du rythme extrêmement fréquent chez le sujet âgé (environ 15 % après 70 ans, selon le cours).\nC ❌ FAUX : La perte de la systole auriculaire fait perdre 15 à 20 % du débit cardiaque (le reste du remplissage ventriculaire se faisant passivement en début de diastole), ce qui se traduit souvent par une fatigue ou un pouls irrégulier.\nD ✅ VRAI : L'auricule gauche distendu et immobile est le site principal de thrombose ; lors du retour en rythme sinusal, le thrombus peut emboliser dans le VG, l'aorte et le cerveau.\nE ✅ VRAI : L'anticoagulation au long cours ou la fermeture percutanée de l'auricule gauche permettent de prévenir ces embolies systémiques."
+    },
+
+    {
+        "id": "UE4-EBP-47",
+        "text": "Concernant la morphologie interne du ventricule gauche :",
+        "options": {
+            "A": "Le ventricule gauche a la forme d'un cône aplati transversalement et possède deux muscles papillaires (piliers) principaux : un pilier antérieur et un pilier postérieur.",
+            "B": "Le pilier antérieur du VG est implanté sur la face latérale, tandis que le pilier postérieur est implanté sur la face diaphragmatique, plus proche de l'apex.",
+            "C": "Dans le ventricule gauche, le pilier antérieur envoie des cordages uniquement à la cuspide antérieure de la valve mitrale, et le pilier postérieur uniquement à la cuspide postérieure.",
+            "D": "L'aspect caverneux lié aux vortex cardiaques est moins marqué à l'apex du ventricule gauche qu'à l'apex du ventricule droit.",
+            "E": "À la base du ventricule gauche, l'orifice mitral mesure 3 à 3,5 cm de diamètre et l'orifice aortique mesure 2 à 2,5 cm de diamètre."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Contrairement au VD qui a 3 groupes de piliers, le VG possède 2 piliers majeurs (antérieur et postérieur).\nB ✅ VRAI : Le pilier antérieur naît de la paroi latérale et le pilier postérieur naît de la paroi inférieure (diaphragmatique).\nC ❌ FAUX : Piège anatomique important : chaque pilier du VG envoie des cordages à la moitié de chacune des deux cuspides (le pilier antérieur reçoit les cordages des parties ventrales des 2 cuspides et de la commissure ventrale ; le pilier postérieur ceux des parties dorsales des 2 cuspides et de la commissure dorsale).\nD ✅ VRAI : Bien que traversé par des vortex visibles en ventriculographie, l'apex du VG est moins caverneux que celui du VD.\nE ✅ VRAI : Ce sont les diamètres respectifs des ostiums mitral (3 à 3,5 cm) et aortique (2 à 2,5 cm)."
+    },
+
+    {
+        "id": "UE4-EBP-48",
+        "text": "Concernant la face septale du ventricule gauche :",
+        "options": {
+            "A": "Le septum inter-ventriculaire comporte deux zones embryologiquement différentes : une vaste partie ventro-caudale épaisse (le septum musculaire) et une étroite partie dorso-crâniale plus fine (le septum membraneux).",
+            "B": "Les communications inter-ventriculaires (CIV) touchant le septum musculaire et celles touchant le septum membraneux proviennent de défauts survenant à des stades différents de l'embryogenèse.",
+            "C": "Les valves tricuspide et mitrale s'insérant exactement au même niveau sur le septum, il n'existe aucun contact entre le ventricule gauche et l'oreillette droite.",
+            "D": "Le septum atrio-ventriculaire est une portion très mince du septum située entre l'insertion de la valve tricuspide en avant et celle de la valve mitrale en arrière.",
+            "E": "Un défaut embryologique du septum atrio-ventriculaire peut créer une communication directe entre le ventricule gauche et l'oreillette droite."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "D",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Le septum inter-ventriculaire est très concave côté VG et associe le septum musculaire (épais, ventro-caudal) et le septum membraneux (fin, dorso-crânial).\nB ✅ VRAI : Leurs origines embryologiques étant distinctes, les malformations (CIV) n'y surviennent pas au même stade de développement.\nC ❌ FAUX : Les valves tricuspide et mitrale sont légèrement décalées dans le plan vertical, ce qui ménage une portion de cloison entre le VG et l'OD.\nD ✅ VRAI : Ce décalage d'insertion définit le septum atrio-ventriculaire, qui sépare le ventricule gauche de l'atrium droit.\nE ✅ VRAI : Une perforation ou malformation de cette zone fait communiquer directement le VG avec l'OD."
+    },
+
+    {
+        "id": "UE4-EBP-49",
+        "text": "Concernant la valve mitrale et la classification de Carpentier :",
+        "options": {
+            "A": "La valve mitrale est la seule valve habituellement bicuspide du cœur : elle comprend une valve antérieure (grande valve, environ 20 mm de haut, plus haute que large) et une valve postérieure (petite valve, environ 10 mm de haut, plus large que haute).",
+            "B": "Lors d'une chirurgie mitrale, il faut privilégier la réparation valvulaire (plastie) au remplacement prothétique, et toujours tenter de conserver l'appareil sous-valvulaire pour préserver la contraction longitudinale du VG.",
+            "C": "Dans la classification de Carpentier des fuites mitrales, le type 1 correspond à un mouvement valvulaire normal avec dilatation de l'anneau, et le type 2 correspond à un prolapsus valvulaire (par élongation ou rupture de cordage, ou rupture de pilier post-infarctus).",
+            "D": "Le type 3 de Carpentier correspond à une restriction du mouvement des feuillets, dont la cause quasi exclusive (99 % des rétrécissements mitraux) à La Réunion et à Madagascar est le rhumatisme articulaire aigu (RAA) post-streptococcique.",
+            "E": "Selon la segmentation chirurgicale de Carpentier, le feuillet antérieur est divisé en deux segments (A1, A2) et le feuillet postérieur en quatre segments (P1, P2, P3, P4)."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : La valve mitrale est la valve bicuspide physiologique, formée de la grande valve antérieure (20 mm) et de la petite valve postérieure (10 mm), séparées par deux commissures.\nB ✅ VRAI : La continuité piliers-cordages-valve rapproche l'apex de la base en systole ; couper les cordages dilate et altère le VG à terme, et la réparation offre une bien meilleure survie que le remplacement.\nC ✅ VRAI : Type 1 = jeu valvulaire normal + dilatation annulaire ; Type 2 = prolapsus (le bord libre dépasse le plan de coaptation vers l'OG suite à une élongation/rupture de cordage dégénérative, infectieuse ou ischémique).\nD ✅ VRAI : Le RAA est une réaction immunologique croisée après des angines non traitées à streptocoque bêta-hémolytique dans l'enfance, provoquant atteinte articulaire, néphrite interstitielle et restriction valvulaire (type 3).\nE ❌ FAUX : Carpentier a divisé la valve antérieure en trois segments (A1, A2, A3) et la valve postérieure en trois segments en vis-à-vis (P1, P2, P3), le prolapsus de P2 étant très fréquent."
+    },
+
+    {
+        "id": "UE4-EBP-50",
+        "text": "Concernant l'ostium de l'aorte et les valves ventriculo-artérielles :",
+        "options": {
+            "A": "Habituellement, les valves ventriculo-artérielles (aortique et pulmonaire) comportent chacune trois cusps.",
+            "B": "Contrairement aux valves auriculo-ventriculaires, les valves ventriculo-artérielles fonctionnent sans appareil sous-valvulaire (ni cordages, ni piliers).",
+            "C": "Les trois cusps de la valve aortique ont une forme d'« hémi-bols » souples insérés en hauteur au niveau des commissures, ce qui les empêche de s'éverser.",
+            "D": "Les trois cusps de la valve aortique sont nommées : cusp coronaire droite, cusp coronaire gauche et cusp coronaire postérieure.",
+            "E": "Comme le ventricule droit, le ventricule gauche possède une chambre d'admission (faisant suite à la valve mitrale) et une chambre d'éjection (située juste sous la valve aortique)."
+        },
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+        ],
+        "explanation": "Correction détaillée :\nA ✅ VRAI : Les valves ventriculo-artérielles ont habituellement 3 cusps (valvules semi-lunaires ou sigmoïdes).\nB ✅ VRAI : Elles fonctionnent uniquement avec leur anneau fibreux et leurs 3 cusps, sans aucun cordage ni pilier.\nC ✅ VRAI : En systole, ces hémi-bols se plaquent contre la paroi aortique (valve ouverte) ; en diastole, la pression aortique les remplit et les accole en position d'hémi-bols (valve fermée).\nD ❌ FAUX : La troisième cusp ne donne naissance à aucune artère coronaire et s'appelle donc la cusp non coronaire (avec la cusp coronaire droite et la cusp coronaire gauche, en regard des sinus de Valsalva correspondants).\nE ✅ VRAI : Le ventricule gauche est lui aussi organisé en une chambre d'admission sous-mitrale et une chambre d'éjection sous-aortique."
     }
 
 ];
