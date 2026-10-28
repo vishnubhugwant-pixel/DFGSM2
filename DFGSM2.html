@@ -48,6 +48,72 @@
             div.innerHTML = '🚨 Unhandled Promise Rejection: ' + event.reason;
             document.body.appendChild(div);
         };
+
+        // 🛡️ SÉCURITÉ & PROTECTION DU GRIMOIRE (Anti-copie, Anti-clic-droit, Anti-inspection)
+        (function () {
+            // 1. Bloquer le clic droit (menu contextuel)
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+                return false;
+            }, { capture: true });
+
+            // 2. Bloquer les raccourcis d'inspection, d'enregistrement et de copie
+            document.addEventListener('keydown', function (e) {
+                const targetTag = (e.target && e.target.tagName) || '';
+                const isInputField = targetTag === 'INPUT' || targetTag === 'TEXTAREA' || (e.target && e.target.isContentEditable);
+                const key = e.key ? e.key.toLowerCase() : '';
+                const isCtrlOrMeta = e.ctrlKey || e.metaKey;
+
+                // Touche F12 (DevTools)
+                if (e.key === 'F12' || e.keyCode === 123) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                }
+
+                if (isCtrlOrMeta) {
+                    // Toujours bloqué : Ctrl+U (source), Ctrl+S (sauvegarder la page), Ctrl+P (imprimer en PDF)
+                    if (key === 'u' || key === 's' || key === 'p') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        return false;
+                    }
+                    // Raccourcis DevTools : Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C
+                    if (e.shiftKey && (key === 'i' || key === 'j' || key === 'c')) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        return false;
+                    }
+                    // Hors des formulaires : bloquer Ctrl+C (copier), Ctrl+X (couper), Ctrl+A (tout sélectionner)
+                    if (!isInputField && (key === 'c' || key === 'x' || key === 'a')) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        return false;
+                    }
+                }
+            }, { capture: true });
+
+            // 3. Bloquer les événements presse-papiers hors des champs de texte
+            document.addEventListener('copy', function (e) {
+                const targetTag = (e.target && e.target.tagName) || '';
+                const isInputField = targetTag === 'INPUT' || targetTag === 'TEXTAREA' || (e.target && e.target.isContentEditable);
+                if (!isInputField) e.preventDefault();
+            }, { capture: true });
+
+            document.addEventListener('cut', function (e) {
+                const targetTag = (e.target && e.target.tagName) || '';
+                const isInputField = targetTag === 'INPUT' || targetTag === 'TEXTAREA' || (e.target && e.target.isContentEditable);
+                if (!isInputField) e.preventDefault();
+            }, { capture: true });
+
+            // 4. Bloquer le glisser-déposer de texte ou d'images
+            document.addEventListener('dragstart', function (e) {
+                const targetTag = (e.target && e.target.tagName) || '';
+                if (targetTag !== 'INPUT' && targetTag !== 'TEXTAREA') {
+                    e.preventDefault();
+                }
+            }, { capture: true });
+        })();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <!-- Firebase Compat SDK -->
@@ -76,6 +142,44 @@
         }
     </script>
     <style>
+        /* 🛡️ PROTECTION ANTI-COPIE & ANTI-ASPIRATION DU CONTENU */
+        *, *::before, *::after {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-touch-callout: none;
+        }
+
+        input, textarea, [contenteditable="true"] {
+            -webkit-user-select: text !important;
+            -moz-user-select: text !important;
+            -ms-user-select: text !important;
+            user-select: text !important;
+            -webkit-touch-callout: default !important;
+        }
+
+        img {
+            -webkit-user-drag: none;
+            user-drag: none;
+        }
+
+        @media print {
+            body {
+                display: none !important;
+            }
+            html::after {
+                content: "⚠️ L'impression et la capture des contenus du Grimoire Médical sont strictement interdites afin de protéger la propriété pédagogique.";
+                display: block;
+                padding: 60px 20px;
+                font-family: sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+                color: #b91c1c;
+            }
+        }
+
         body {
             background: linear-gradient(-45deg, #0a0a1a, #1e1b4b, #0f172a, #064e3b);
             background-size: 400% 400%;
