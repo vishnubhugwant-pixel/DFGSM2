@@ -10,11 +10,11 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Le Grimoire">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=10">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png?v=10">
-    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png?v=10">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png?v=10">
-    <link rel="manifest" href="manifest.json?v=10">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=11">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png?v=11">
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png?v=11">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png?v=11">
+    <link rel="manifest" href="manifest.json?v=11">
 
     <script>
         window.onerror = function (message, source, lineno, colno, error) {
@@ -476,20 +476,20 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://unpkg.com/framer-motion@11.0.8/dist/framer-motion.js"></script>
 
-    <script src="data/ue1.js?v=10"></script>
-    <script src="data/ue2.js?v=10"></script>
-    <script src="data/ue3.js?v=10"></script>
-    <script src="data/ue4.js?v=10"></script>
-    <script src="data/ue5.js?v=10"></script>
-    <script src="data/ue6.js?v=10"></script>
-    <script src="data/ue7.js?v=10"></script>
-    <script src="data/ue8.js?v=10"></script>
-    <script src="data/ue9.js?v=10"></script>
-    <script src="data/ue10.js?v=10"></script>
-    <script src="data/ue11.js?v=10"></script>
-    <script src="data/ue12.js?v=10"></script>
-    <script src="data/annales.js?v=10"></script>
-    <script src="data/annales_qcm.js?v=10"></script>
+    <script src="data/ue1.js?v=11"></script>
+    <script src="data/ue2.js?v=11"></script>
+    <script src="data/ue3.js?v=11"></script>
+    <script src="data/ue4.js?v=11"></script>
+    <script src="data/ue5.js?v=11"></script>
+    <script src="data/ue6.js?v=11"></script>
+    <script src="data/ue7.js?v=11"></script>
+    <script src="data/ue8.js?v=11"></script>
+    <script src="data/ue9.js?v=11"></script>
+    <script src="data/ue10.js?v=11"></script>
+    <script src="data/ue11.js?v=11"></script>
+    <script src="data/ue12.js?v=11"></script>
+    <script src="data/annales.js?v=11"></script>
+    <script src="data/annales_qcm.js?v=11"></script>
 </head>
 
 <body>
@@ -2213,12 +2213,12 @@
                         <p className="text-xs text-slate-400 tracking-wider mt-1">Sélectionnez une UE pour accéder à ses modules et séances de cours</p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center max-w-6xl mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
 
                         {COURSES_DATA.map(course => {
                             let diffColor = "bg-amber-500/15 text-amber-300 border-amber-500/30";
-                            if (course.difficulte === "Très difficile" || course.difficulte === "Difficile" || course.difficulte === "Majeure") {
-                                diffColor = "bg-rose-600/20 text-rose-300 border-rose-600/30 shadow-[0_0_12px_rgba(225,29,72,0.15)]";
+                            if (course.difficulte === "Très difficile" || course.difficulte === "Difficile") {
+                                diffColor = "bg-rose-600/20 text-rose-300 border-rose-600/30 shadow-[0_0_10px_rgba(225,29,72,0.15)]";
                             } else if (course.difficulte === "Facile" || course.difficulte === "Pratique") {
                                 diffColor = "bg-emerald-600/20 text-emerald-300 border-emerald-600/30";
                             }
@@ -2231,18 +2231,12 @@
                             if (pct >= 80) pctColor = "text-emerald-400 bg-emerald-500/10";
                             else if (pct >= 50) pctColor = "text-amber-400 bg-amber-500/10";
 
-                            const isSpecial = course.titre.includes("Annales") || course.titre.includes("Colle");
-
                             return (
                                 <motion.div
                                     key={course.code}
-                                    whileHover={{ scale: 1.03, y: -5, boxShadow: isSpecial ? '0 15px 30px -10px rgba(245, 158, 11, 0.15)' : undefined }}
+                                    whileHover={{ scale: 1.03, y: -5 }}
                                     onClick={() => onSelectCourse(course)}
-                                    className="glass-card p-6 rounded-[2rem] cursor-pointer group flex flex-col justify-between"
-                                    style={isSpecial ? {
-                                        borderColor: 'rgba(245, 158, 11, 0.25)',
-                                        background: 'linear-gradient(145deg, rgba(245, 158, 11, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%)'
-                                    } : {}}
+                                    className="glass-card p-6 rounded-[2rem] cursor-pointer group flex flex-col justify-between h-full min-h-[175px]"
                                 >
                                     <div>
                                         <div className="flex justify-between items-start mb-4">
@@ -2250,30 +2244,38 @@
                                                 {course.ects ? `${course.ects} ECTS • ` : ''}{course.difficulte}
                                             </span>
                                             <div className="flex gap-2 items-center">
-                                                <span className={`text-xs font-bold px-2 py-1 rounded-md ${pctColor}`}>{pct}% acquis</span>
-                                                <SparklesIcon style={{ color: pct === 0 ? '#475569' : `rgb(245, ${158 + (pct / 100) * 60}, ${11 + (pct / 100) * 80})`, opacity: pct === 0 ? 0.3 : 0.5 + (pct / 100) * 0.5, filter: pct === 0 ? 'none' : `drop-shadow(0 0 ${10 + (pct / 100) * 30}px rgba(250, 200, 50, ${0.4 + (pct / 100) * 0.6}))`, transform: `scale(${pct === 0 ? 0.8 : 0.9 + (pct / 100) * 0.35})`, transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)' }} className="" />
+                                                <span className={`text-xs font-bold px-2 py-1 rounded-md ${pctColor}`}>
+                                                    {pct}% acquis
+                                                </span>
+                                                <SparklesIcon style={{ color: pct === 0 ? '#475569' : '#10b981' }} />
                                             </div>
                                         </div>
-                                        <h3 className="text-xl font-serif font-bold mb-3 text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug">{course.titre}</h3>
+                                        <div className="min-h-[3.25rem] flex items-center mb-3">
+                                            <h3 className="text-xl font-serif font-bold text-slate-100 group-hover:text-amber-300 transition-colors leading-snug">
+                                                {course.titre}
+                                            </h3>
+                                        </div>
                                     </div>
-                                    <div className="pt-3 flex justify-between items-center text-[10px] uppercase text-slate-400 border-t border-white/10 mt-6">
+                                    <div className="pt-3 flex justify-between items-center text-[10px] md:text-xs border-t border-white/5 mt-auto">
                                         {course.volumeHoraire ? (
-                                            <span className="font-mono text-slate-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/10 flex items-center gap-1.5">
+                                            <span className="font-mono text-slate-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/5 flex items-center gap-1.5">
                                                 <span>⏱</span>
                                                 <span>{course.volumeHoraire}</span>
                                             </span>
                                         ) : (
-                                            <span className="font-mono">{course.code}</span>
+                                            <span className="font-mono text-slate-400">{course.code}</span>
                                         )}
-                                        <span className="text-ghibli-accent font-bold bg-amber-500/10 px-2.5 py-1 rounded-md border border-amber-500/20">{course.totalQcm} QCM</span>
+                                        <span className="text-ghibli-accent font-bold bg-amber-500/10 px-2.5 py-1 rounded-md border border-amber-500/20">
+                                            {course.totalQcm} QCM
+                                        </span>
                                     </div>
                                 </motion.div>
-                            )
+                            );
                         })}
 
                         {/* 📚 MODULE ANNALES (QCM & PDF) */}
                         {(window.ANNALES_DATA || []).length > 0 && (() => {
-                            const annAllQs = (window.ALL_QCM_DATA && window.ALL_QCM_DATA['ANNALES']) || [];
+                            const annAllQs = (window.ALL_QCM_DATA && window.ALL_QCM_DATA['ANNALES']) || (window.ANNALES_QCM ? Object.values(window.ANNALES_QCM).flat() : []);
                             const annCorrect = annAllQs.filter(q => progress && progress[q.id] === true).length;
                             const annPct = annAllQs.length > 0 ? Math.round((annCorrect / annAllQs.length) * 100) : 0;
                             let annPctColor = "text-slate-400 bg-white/5";
@@ -2283,39 +2285,46 @@
                             return (
                                 <motion.div
                                     key="annales-card"
-                                    whileHover={{ scale: 1.03, y: -5, boxShadow: '0 15px 30px -10px rgba(245, 158, 11, 0.15)' }}
+                                    whileHover={{ scale: 1.03, y: -5 }}
                                     onClick={onShowAnnales}
-                                    className="glass-card p-6 rounded-[2rem] cursor-pointer group flex flex-col justify-between"
+                                    className="glass-card p-6 rounded-[2rem] cursor-pointer group flex flex-col justify-between h-full min-h-[175px]"
                                     style={{
                                         borderColor: 'rgba(245, 158, 11, 0.25)',
-                                        background: 'linear-gradient(145deg, rgba(245, 158, 11, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%)'
+                                        background: 'linear-gradient(145deg, rgba(245, 158, 11, 0.04) 0%, rgba(13, 22, 19, 0.7) 100%)'
                                     }}
                                 >
                                     <div>
                                         <div className="flex justify-between items-start mb-4">
-                                            <span className="whitespace-nowrap text-xs font-semibold px-3 py-1 rounded-full border bg-amber-500/15 text-amber-300 border-amber-500/30">
-                                                Sujets d'annales • QCM & PDF
+                                            <span className="whitespace-nowrap text-xs font-semibold px-3 py-1 rounded-full border border-amber-500/30 bg-amber-500/15 text-amber-300">
+                                                Annales • 58 Sujets
                                             </span>
                                             <div className="flex gap-2 items-center">
-                                                <span className={`text-xs font-bold px-2 py-1 rounded-md ${annPctColor}`}>{annPct}% acquis</span>
-                                                <SparklesIcon style={{ color: annPct === 0 ? '#475569' : `rgb(245, ${158 + (annPct / 100) * 60}, ${11 + (annPct / 100) * 80})`, opacity: annPct === 0 ? 0.3 : 0.5 + (annPct / 100) * 0.5, filter: annPct === 0 ? 'none' : `drop-shadow(0 0 ${10 + (annPct / 100) * 30}px rgba(250, 200, 50, ${0.4 + (annPct / 100) * 0.6}))`, transform: `scale(${annPct === 0 ? 0.8 : 0.9 + (annPct / 100) * 0.35})`, transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)' }} className="" />
+                                                <span className={`text-xs font-bold px-2 py-1 rounded-md ${annPctColor}`}>
+                                                    {annPct}% acquis
+                                                </span>
+                                                <SparklesIcon style={{ color: annPct === 0 ? '#475569' : '#10b981' }} />
                                             </div>
                                         </div>
-                                        <h3 className="text-xl font-serif font-bold mb-3 text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug">📚 Annales</h3>
-                                        <p className="text-sm text-slate-400 leading-relaxed">Retrouve les 58 sujets d'annales de chaque UE (SQI, DP, mDP) en QCM interactifs corrigés et PDF.</p>
+                                        <div className="min-h-[3.25rem] flex items-center mb-3">
+                                            <h3 className="text-xl font-serif font-bold text-slate-100 group-hover:text-amber-300 transition-colors leading-snug">
+                                                📚 Annales — Sujets Officiels
+                                            </h3>
+                                        </div>
                                     </div>
-                                    <div className="pt-3 flex justify-between items-center text-[10px] uppercase text-slate-400 border-t border-white/10 mt-6">
-                                        <span className="font-mono text-slate-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/10">
-                                            {(window.ANNALES_DATA || []).length} UE • {(window.ANNALES_DATA || []).reduce((n, ue) => n + ue.groupes.reduce((m, g) => m + g.fichiers.length, 0), 0)} PDF
+                                    <div className="pt-3 flex justify-between items-center text-[10px] md:text-xs border-t border-white/5 mt-auto">
+                                        <span className="font-mono text-slate-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/5 flex items-center gap-1.5">
+                                            <span>⏱</span>
+                                            <span>{(window.ANNALES_DATA || []).length} UE • SQI & DP</span>
                                         </span>
                                         <span className="text-ghibli-accent font-bold bg-amber-500/10 px-2.5 py-1 rounded-md border border-amber-500/20">
-                                            {annAllQs.length} QCM
+                                            {annAllQs.length || 625} QCM
                                         </span>
                                     </div>
                                 </motion.div>
                             );
                         })()}
                     </div>
+
                     <Footer />
                 </motion.div>
             );
