@@ -2797,7 +2797,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
       "B": "Ils ont des effets parasympatholytiques.",
       "C": "Ils ont une action anti-inflammatoire.",
       "D": "Ils sont utilisés en première ligne de traitement de la crise d'asthme.",
-      "E": "Leur effet bronchodilatateur est plus rapide et plus puissant que celui des beta-2-mimétiques."
+      "E": "Leur effet bronchodilatateur est plus rapide et plus puissant que celui des bêta-2-mimétiques."
     },
     "correctAnswers": [
       "A",
@@ -2805,13 +2805,13 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
     ],
     "text": "Concernant les anticholinergiques :",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ce sont des antagonistes des récepteurs muscariniques. ; B) Ils ont des effets parasympatholytiques."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ce sont des médicaments qui bloquent (antagonisent) l'action de l'acétylcholine sur les récepteurs muscariniques.\n• B (Vrai) : En bloquant les récepteurs muscariniques, ils s'opposent au système parasympathique, ce qui induit une bronchodilatation (effets parasympatholytiques).\n• C (Faux) : Ils n'ont aucune action anti-inflammatoire ; cet effet est propre aux corticoïdes.\n• D (Faux) : La première ligne de traitement de la crise d'asthme repose sur les bêta-2-mimétiques à courte durée d'action (comme le Salbutamol), et non sur les anticholinergiques.\n• E (Faux) : Leur effet bronchodilatateur est généralement moins rapide et un peu moins puissant que celui des bêta-2-mimétiques dans la crise aiguë."
   },
   {
     "options": {
       "A": "Un pH bas",
       "B": "Des bicarbonates augmentés",
-      "C": "Une PC02 abaissée",
+      "C": "Une PaCO2 abaissée",
       "D": "Des bicarbonates abaissés",
       "E": "Un pH > 7,4"
     },
@@ -2821,31 +2821,33 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
     ],
     "text": "Dans l'alcalose métabolique, on retrouve ?",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Des bicarbonates augmentés ; E) Un pH > 7,4"
+    "explanation": "Correction détaillée :\n• A (Faux) : Un pH bas définit une acidose, l'alcalose est définie par un pH augmenté.\n• B (Vrai) : L'alcalose métabolique se caractérise primitivement par une accumulation ou une augmentation sanguine des ions bicarbonates (HCO3-).\n• C (Faux) : Une PaCO2 abaissée est la caractéristique d'une alcalose respiratoire (par hyperventilation).\n• D (Faux) : Des bicarbonates abaissés signent une acidose métabolique.\n• E (Vrai) : Un pH sanguin supérieur à 7,4 (et plus précisément > 7,45) définit l'alcalémie présente lors de l'alcalose."
   },
   {
     "options": {
-      "A": "Asterixis b Sueurs",
+      "A": "Astérixis",
+      "B": "Sueurs",
       "C": "Cyanose",
       "D": "Agitation",
       "E": "Céphalées"
     },
     "correctAnswers": [
       "A",
+      "B",
       "D",
       "E"
     ],
     "text": "Parmi ces propositions, quels sont les signes cliniques caractéristiques d'une hypercapnie ?",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Asterixis b Sueurs ; D) Agitation ; E) Céphalées"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'astérixis (ou « flapping tremor ») est un signe neurologique moteur classique du retentissement de l'hypercapnie.\n• B (Vrai) : L'hypercapnie entraîne une vasodilatation périphérique, ce qui se manifeste souvent par des sueurs.\n• C (Faux) : La cyanose est le signe clinique caractéristique d'une hypoxémie (manque d'oxygène), et non d'une hypercapnie (excès de CO2).\n• D (Vrai) : L'agitation est un signe de gravité neurologique traduisant l'encéphalopathie hypercapnique.\n• E (Vrai) : La vasodilatation cérébrale induite par l'hypercapnie provoque classiquement des céphalées, souvent matinales."
   },
   {
     "options": {
       "A": "Ce sont des agonistes des récepteurs bêta-2 adrénergiques.",
-      "B": "Le formeterol est un médicament inhalé à courte durée d'action.",
+      "B": "Le formotérol est un médicament inhalé à courte durée d'action.",
       "C": "Le salbutamol est un médicament inhalé à longue durée d'action.",
-      "D": "Leurs récepteurs P2 sont exprimés dans le muscle lisse bronchique.",
-      "E": "Ils induisent une relaxation musculaire dans un délais de 1 à 15 minutes après prise inhalée."
+      "D": "Leurs récepteurs β2 sont exprimés dans le muscle lisse bronchique.",
+      "E": "Ils induisent une relaxation musculaire dans un délai de 1 à 15 minutes après prise inhalée."
     },
     "correctAnswers": [
       "A",
@@ -2854,7 +2856,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
     ],
     "text": "A propos des bêta-2 mimétiques :",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ce sont des agonistes des récepteurs bêta-2 adrénergiques. ; D) Leurs récepteurs P2 sont exprimés dans le muscle lisse bronchique. ; E) Ils induisent une relaxation musculaire dans un délais de 1 à 15 minutes après prise inhalée."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ce sont des molécules qui vont stimuler (agonistes) spécifiquement les récepteurs bêta-2 du système sympathique.\n• B (Faux) : Le formotérol est un médicament inhalé à longue durée d'action (LABA), utilisé pour le traitement de fond.\n• C (Faux) : Le salbutamol (Ventoline) est un médicament inhalé à courte durée d'action (SABA), utilisé pour la crise.\n• D (Vrai) : C'est la présence de ces récepteurs sur le muscle lisse bronchique qui permet, lors de leur stimulation, d'obtenir une relaxation et donc une bronchodilatation.\n• E (Vrai) : Leur grand avantage est leur rapidité d'action : ils agissent en 1 à 15 minutes en inhalation."
   },
   {
     "options": {
@@ -2870,21 +2872,25 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
     ],
     "text": "Donnez la(les) réponse(s) vraie(s)",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'innervation du diaphragme se fait par les nerfs phréniques dont l'origine est cervicale. ; E) Le poumon droit comprend 3 lobes pulmonaires (supérieur, moyen, inférieur) et le poumon gauche 2 lobes (supérieur, inférieur). — Remarques : partie centrale du diaphragme est tendineux ; le hile pulmonaire contient deux veines pulmonaires)."
+    "explanation": "Correction détaillée :\n• A (Faux) : C'est l'inverse : la partie centrale (centre phrénique) est tendineuse et la partie périphérique est musculaire.\n• B (Vrai) : Le diaphragme est innervé par les nerfs phréniques (droits et gauches) qui naissent des racines cervicales (C3-C4-C5).\n• C (Faux) : L'expiration normale (de repos) est un phénomène strictement passif lié au relâchement du diaphragme et à la rétraction élastique des poumons.\n• D (Faux) : Le hile pulmonaire contient deux veines pulmonaires (supérieure et inférieure) par poumon, et non une seule.\n• E (Vrai) : L'anatomie classique décrit 3 lobes à droite (séparés par deux scissures) et 2 lobes à gauche (une seule scissure) pour laisser la place au cœur."
   },
   {
     "options": {
-      "A": "Cyanose Fréquence respiratoire",
+      "A": "Cyanose",
+      "B": "Fréquence respiratoire",
       "C": "Respiration paradoxale",
-      "D": "Confusion Aucune des réponses n'est vraie"
+      "D": "Confusion",
+      "E": "Aucune des réponses n'est vraie"
     },
     "correctAnswers": [
       "A",
-      "C"
+      "B",
+      "C",
+      "D"
     ],
-    "text": "Parmi ces signes cliniques, lesquels permettent d'évaluer la gravité d'une détresse respiratoire aigüe ?",
+    "text": "Parmi ces signes cliniques, lesquels permettent d'évaluer la gravité d'une détresse respiratoire aiguë ?",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Cyanose Fréquence respiratoire ; C) Respiration paradoxale"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La cyanose est un signe de gravité extrême lié à une hypoxémie profonde.\n• B (Vrai) : Une modification extrême de la fréquence (polypnée > 30/min ou bradypnée) montre l'incapacité à maintenir la ventilation.\n• C (Vrai) : La respiration paradoxale signe un épuisement des muscles respiratoires, notamment du diaphragme.\n• D (Vrai) : La confusion est un signe de gravité neurologique de la détresse (hypoxémie ou encéphalopathie hypercapnique).\n• E (Faux) : Toutes les propositions précédentes étaient de vrais signes de gravité."
   },
   {
     "options": {
@@ -2892,7 +2898,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
       "B": "Des sympatholytiques",
       "C": "Des parasympathomimétiques",
       "D": "Des parasympatholytiques",
-      "E": "Des inhibiteurs des phosphodiesterases"
+      "E": "Des inhibiteurs des phosphodiestérases"
     },
     "correctAnswers": [
       "A",
@@ -2901,13 +2907,13 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
     ],
     "text": "A propos des médicaments bronchodilatateurs, on retrouve",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Des sympathomimétiques ; D) Des parasympatholytiques ; E) Des inhibiteurs des phosphodiesterases"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les sympathomimétiques (agonistes des récepteurs bêta-2) dilatent les bronches.\n• B (Faux) : Les sympatholytiques (comme les bêtabloquants) induisent au contraire une bronchoconstriction.\n• C (Faux) : Les parasympathomimétiques contractent le muscle lisse bronchique.\n• D (Vrai) : Les parasympatholytiques (les anticholinergiques) bloquent la contraction induite par le parasympathique, ils sont donc bronchodilatateurs.\n• E (Vrai) : L'inhibition des phosphodiestérases (comme l'action de la théophylline) augmente l'AMPc intracellulaire, provoquant la bronchodilatation."
   },
   {
     "options": {
       "A": "est une gêne au retour veineux par compression extrinsèque ou thrombose de la veine cave supérieure.",
       "B": "est dans la majorité des cas d'origine tumorale.",
-      "C": "associe une cyanose du visage, un œdème en pélerine, une turgescence jugulaire, une circulation veineuse collatérale et des céphalées en fin de nuit.",
+      "C": "associe une cyanose du visage, un œdème en pèlerine, une turgescence jugulaire, une circulation veineuse collatérale et des céphalées en fin de nuit.",
       "D": "peut être lié à un envahissement du médiastin antérieur.",
       "E": "Aucune de ces propositions"
     },
@@ -2919,14 +2925,15 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
     ],
     "text": "Le syndrome cave supérieur",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) est une gêne au retour veineux par compression extrinsèque ou thrombose de la veine cave supérieure. ; B) est dans la majorité des cas d'origine tumorale. ; C) associe une cyanose du visage, un œdème en pélerine, une turgescence jugulaire, une circulation veineuse collatérale et des céphalées en fin de nuit. ; D) peut être lié à un envahissement du médiastin antérieur."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il est défini par une obstruction ou compression (intrinsèque ou extrinsèque) empêchant le sang veineux du haut du corps de retourner au cœur via la VCS.\n• B (Vrai) : La cause principale est tumorale (cancer broncho-pulmonaire, lymphome).\n• C (Vrai) : Ce sont les signes cliniques caractéristiques liés à la stase veineuse en amont de l'obstacle.\n• D (Vrai) : Les tumeurs du médiastin antérieur (lymphome, thymome) peuvent comprimer la veine cave.\n• E (Faux) : Les propositions A à D étaient correctes."
   },
   {
     "options": {
       "A": "La fréquence respiratoire",
       "B": "Les structures musculaires et osseuses de la cage thoracique",
       "C": "La compression dynamique des voies aériennes",
-      "D": "Le parenchyme pulmonaire Le muscle lisse bronchique"
+      "D": "Le parenchyme pulmonaire",
+      "E": "Le muscle lisse bronchique"
     },
     "correctAnswers": [
       "B",
@@ -2934,7 +2941,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
     ],
     "text": "Quels facteurs déterminent la compliance des voies aériennes ?",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les structures musculaires et osseuses de la cage thoracique ; D) Le parenchyme pulmonaire Le muscle lisse bronchique"
+    "explanation": "Correction détaillée :\n• A (Faux) : La fréquence respiratoire est un paramètre ventilatoire, elle ne détermine pas les propriétés élastiques (la compliance).\n• B (Vrai) : La rigidité ou souplesse des structures musculaires et osseuses (cage thoracique) détermine la compliance thoraco-pulmonaire globale.\n• C (Faux) : La compression dynamique influence les débits (résistances) à l'expiration, pas la compliance.\n• D (Vrai) : La structure et les fibres élastiques du parenchyme déterminent la compliance pulmonaire (qui diminue en cas de fibrose ou augmente en cas d'emphysème).\n• E (Faux) : Le muscle lisse joue sur le calibre et les résistances des voies aériennes, pas sur la compliance."
   },
   {
     "options": {
@@ -2951,23 +2958,24 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI1.pdf"] = [
     ],
     "text": "Concernant le diaphragme :",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le diaphragme est un muscle strié ; il est commandé de façon automatique (la plupart du temps) ou volontaire. ; C) Les fibres qui composent le diaphragme sont adaptées à un travail en endurance : 40 % d'entre elles sont de type lent. ; E) Le contrôle nerveux du diaphragme se fait par l'intermédiaire des nerfs phréniques."
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est un muscle strié squelettique dont le contrôle est végétatif (involontaire, pendant le sommeil) mais modifiable par la volonté.\n• B (Faux) : Ce n'est pas un muscle accessoire, c'est le muscle inspiratoire principal.\n• C (Vrai) : Pour fonctionner en continu toute la vie, il est extrêmement résistant à la fatigue grâce à un fort pourcentage de fibres musculaires lentes (type I).\n• D (Faux) : Il est le moteur majeur de la ventilation.\n• E (Vrai) : Son contrôle nerveux est assuré par les deux nerfs phréniques."
   },
   {
     "options": {
-      "A": "",
-      "B": "La pression partielle artérielle en 02 est un paramètre non mesurable.",
-      "C": "Il est transporté dans le sang en majeure partie sous forme lié à l'hémoglobine.. L'oxygène diffuse de l'alvéole vers le compartiment sanguin de façon passive.",
-      "D": "La Pa02 est toujours stable.",
+      "A": "L'oxygène diffuse de façon passive à travers la membrane alvéolo-capillaire.",
+      "B": "La pression partielle artérielle en O2 est un paramètre non mesurable.",
+      "C": "Il est transporté dans le sang en majeure partie sous forme liée à l'hémoglobine.",
+      "D": "La PaO2 est toujours stable.",
       "E": "L'oxygène diffuse de l'alvéole vers le compartiment sanguin de façon passive."
     },
     "correctAnswers": [
+      "A",
       "C",
       "E"
     ],
-    "text": "Concernant l'oxygène : L'oxygène diffuse de façon passive à travers la membrane alvéolo capillaire.",
+    "text": "Concernant l'oxygène :",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Il est transporté dans le sang en majeure partie sous forme lié à l'hémoglobine.. L'oxygène diffuse de l'alvéole vers le compartiment sanguin de façon passive. ; E) L'oxygène diffuse de l'alvéole vers le compartiment sanguin de façon passive."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les échanges alvéolo-capillaires se font par diffusion purement passive selon le gradient de pression partielle en O2.\n• B (Faux) : La pression partielle artérielle en O2 (PaO2) est mesurable quotidiennement via les gaz du sang (gazométrie).\n• C (Vrai) : Plus de 98 % de l'oxygène est transporté dans le sang en se liant à l'hémoglobine (oxyhémoglobine).\n• D (Faux) : La PaO2 n'est pas « toujours » stable, elle varie avec l'âge, l'altitude et les pathologies respiratoires.\n• E (Vrai) : La diffusion de l'alvéole riche en oxygène vers le capillaire sanguin se fait passivement sans consommation d'énergie."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI2.pdf"] = [
@@ -2976,16 +2984,19 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI2.pdf"] = [
       "A": "Opacité alvéolaire systématisée",
       "B": "Opacités alvéolo-interstitielles péri-hilaires",
       "C": "Opacités infiltratives non systématisées",
-      "D": "Epanchement pleural Cardiomégalie . Aucune"
+      "D": "Épanchement pleural",
+      "E": "Cardiomégalie",
+      "F": "Aucune"
     },
     "correctAnswers": [
       "A",
       "C",
-      "D"
+      "D",
+      "F"
     ],
-    "text": "Quelles sont les anomalies pouvant être retrouvées sur la radiographie thoracique d'une pneumopathie aiguë communautaire",
+    "text": "Quelles sont les anomalies pouvant être retrouvées sur la radiographie thoracique d'une pneumopathie aiguë communautaire ?",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Opacité alvéolaire systématisée ; C) Opacités infiltratives non systématisées ; D) Epanchement pleural Cardiomégalie . Aucune"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'opacité alvéolaire systématisée (limitée à un lobe avec bronchogramme) est l'image typique de la pneumonie franche lobaire aiguë (PFLA) à Pneumocoque.\n• B (Faux) : Des opacités alvéolo-interstitielles bilatérales en « ailes de papillon » évoquent plutôt un œdème aigu du poumon (OAP) cardiogénique.\n• C (Vrai) : Les pneumonies à germes atypiques (ex : Mycoplasme) peuvent donner des opacités floues, non systématisées.\n• D (Vrai) : Un épanchement pleural dit « parapneumonique » réactionnel est fréquemment associé.\n• E (Faux) : Une cardiomégalie oriente vers une insuffisance cardiaque, ce n'est pas un signe d'infection pulmonaire.\n• F (Vrai) : La radiographie peut être normale au tout début de l'infection (avant l'apparition de l'opacité) ou chez un patient sévèrement déshydraté."
   },
   {
     "options": {
@@ -2998,9 +3009,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI2.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "Concernant la radiographie thoracique",
+    "text": "Concernant la radiographie thoracique :",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il s'agit d'un examen accessible, peu irradiant."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elle est peu coûteuse, largement disponible et son irradiation est minime.\n• B (Faux) : Elle utilise des rayons X, pas des protons.\n• C (Faux) : Le critère d'inspiration correct est de voir 6 arcs costaux antérieurs (ou 9 à 10 arcs postérieurs), mais pas 9 antérieurs.\n• D (Faux) : Le bouton aortique correspond à l'arc supérieur gauche.\n• E (Faux) : Le signe de la silhouette de Felson permet de localiser une opacité (savoir si elle est dans le même plan anatomique qu'une autre structure), pas de différencier air (pneumothorax) et liquide (pleurésie)."
   },
   {
     "options": {
@@ -3014,10 +3025,10 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI2.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Mr. J. présente une toux fébrile avec expectorations sales depuis 48h. Vous le voyez aux urgences. Voici sa radiographie • • Concernant cette radiographie :",
+    "text": "Mr. J. présente une toux fébrile avec expectorations sales depuis 48h. Vous le voyez aux urgences. Voici sa radiographie. Concernant cette radiographie :",
     "image": "data/images/annales/UE3-Pneumo1-SQI2-p2-xref62.jpeg",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Il s'agit d'un syndrome alvéolaire. ; E) Il s'agit d'une probable pneumonie infectieuse."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'opacité ne présente pas les caractéristiques typiques liquidiennes (ligne de Damoiseau, refoulement), c'est une opacité parenchymateuse.\n• B (Faux) : Les limites ne sont pas nettes et les opacités sont confluentes, ce n'est donc pas interstitiel.\n• C (Vrai) : Une opacité aux limites floues, confluente (et souvent avec bronchogramme aérique) correspond au syndrome alvéolaire (remplissage des alvéoles par du pus/liquide).\n• D (Faux) : L'IRM thoracique n'a quasiment aucune indication en urgence pour un poumon aigu, la radio et la clinique suffisent, sinon un scanner.\n• E (Vrai) : Ce syndrome alvéolaire couplé à de la fièvre et des expectorations sales est le tableau parfait d'une pneumonie infectieuse."
   },
   {
     "options": {
@@ -3032,7 +3043,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI2.pdf"] = [
     ],
     "text": "Concernant la radiographie de thorax :",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Le pneumothorax de faible abondance est visible principalement à l'apex chez un sujet debout."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le comblement des culs-de-sac pleuraux caractérise un syndrome pleural (épanchement liquidien), non interstitiel.\n• B (Faux selon la correction) : Bien qu'un épanchement majeur puisse rendre l'hémithorax radio-opaque (blanc), le terme « poumon blanc » sans précision dans cet examen spécifique orientait l'item en faux dans le barème.\n• C (Vrai) : L'air étant plus léger, il s'accumule vers le haut (l'apex) chez un patient debout.\n• D (Faux) : Dans un volumineux pneumothorax sous tension, la pression positive de l'air repousse (refoule) le médiastin du côté opposé (controlatéral).\n• E (Faux) : Le bronchogramme aérique (visualisation d'une bronche aérée au milieu de parenchyme condensé) est le signe cardinal du syndrome alvéolaire, pas interstitiel."
   },
   {
     "options": {
@@ -3040,7 +3051,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI2.pdf"] = [
       "B": "Il n'y a pas d'adipocytes.",
       "C": "Elle comprend des pneumocytes 1 et des pneumocytes 2.",
       "D": "Elle est riche en fibrocytes.",
-      "E": "Elle comprend une lame basale. vo"
+      "E": "Elle comprend une lame basale."
     },
     "correctAnswers": [
       "A",
@@ -3049,36 +3060,38 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI2.pdf"] = [
     ],
     "text": "A propos de la barrière alvéolo-capillaire :",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) C'est le lieu de l'hématose. ; B) Il n'y a pas d'adipocytes. ; E) Elle comprend une lame basale. vo"
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est le lieu unique et ultra-fin où s'effectuent les échanges gazeux O2 et CO2 (hématose).\n• B (Vrai) : Pour préserver sa finesse (moins de 1 µm), l'interstitium de la paroi alvéolaire ne contient pas de cellules graisseuses (adipocytes).\n• C (Faux) : La « barrière » histologique stricte qui sépare le sang de l'air ne comprend que le pneumocyte de type 1, les lames basales fusionnées et la cellule endothéliale. Le pneumocyte 2 n'en fait pas partie.\n• D (Faux) : Elle est très pauvre en fibrocytes pour rester extrêmement fine, une fibrose épaissirait la barrière et nuirait à la diffusion.\n• E (Vrai) : L'épithélium et l'endothélium partagent une lame basale unique fusionnée pour minimiser la distance de diffusion."
   },
   {
     "options": {
       "A": "Stade embryonnaire, stade pseudo-glandulaire, stade canaliculaire, stade sacculaire, stade alvéolaire",
       "B": "Stade pseudo-glandulaire, stade embryonnaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
       "C": "Stade embryonnaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
-      "D": "Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
+      "D": "Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire",
+      "E": "Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
     },
     "correctAnswers": [
       "A"
     ],
-    "text": "Les 5 stades de développement de l'appareil respiratoire sont dans l'ordre chronologique",
+    "text": "Les 5 stades de développement de l'appareil respiratoire sont dans l'ordre chronologique :",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-06",
-    "explanation": "Correction officielle de l'annale — bonne réponse : A) Stade embryonnaire, stade pseudo-glandulaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est l'ordre chronologique exact : embryonnaire (mise en place des bronches souches), pseudo-glandulaire, canaliculaire (vascularisation), sacculaire (ébauche alvéolaire) puis alvéolaire (maturation finale).\n• B, C, D, E (Faux) : Ces propositions présentent le mauvais ordre chronologique."
   },
   {
     "options": {
       "A": "Les pneumocytes sont recouverts de surfactant.",
       "B": "Les pneumocytes de type 2 synthétisent le surfactant.",
       "C": "Au niveau des bronchioles respiratoires, le cartilage forme un anneau complet.",
-      "D": "Les macrophages ne sont pas présents dans les alvéoles. Les alvéoles sont bordées par un épithélium riche en cellules ciliées."
+      "D": "Les macrophages ne sont pas présents dans les alvéoles.",
+      "E": "Les alvéoles sont bordées par un épithélium riche en cellules ciliées."
     },
     "correctAnswers": [
       "A",
       "B"
     ],
-    "text": "A propos des voies aériennes respiratoires •",
+    "text": "A propos des voies aériennes respiratoires :",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les pneumocytes sont recouverts de surfactant. ; B) Les pneumocytes de type 2 synthétisent le surfactant."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le surfactant est indispensable pour réduire la tension superficielle et empêcher le collapsus des alvéoles.\n• B (Vrai) : Ce sont bien les grandes cellules épithéliales appelées pneumocytes de type II (2) qui sécrètent le surfactant.\n• C (Faux) : Dès les bronchioles, il n'y a plus du tout de cartilage (le cartilage s'arrête aux bronches sous-segmentaires).\n• D (Faux) : Les macrophages alvéolaires sont bien présents, ce sont les « éboueurs » de l'alvéole chargés de phagocyter les particules inhalées.\n• E (Faux) : L'épithélium des alvéoles est très fin, pavimenteux simple (pneumocytes de type I). Les cellules ciliées ne descendent pas jusqu'aux alvéoles."
   },
   {
     "options": {
@@ -3091,41 +3104,42 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI2.pdf"] = [
     "correctAnswers": [
       "D"
     ],
-    "text": "Concernant l'image ci dessous",
+    "text": "Concernant l'image ci-dessous :",
     "image": "data/images/annales/UE3-Pneumo1-SQI2-p5-xref180.jpeg",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Opacité médiastinale antérieure droite pouvant faire évoquer un lymphome"
+    "explanation": "Correction détaillée :\n• A (Faux) : On y voit très nettement une opacité anormale et volumineuse sur le bord droit du cœur.\n• B (Faux) : Il s'agit d'un syndrome médiastinal (limites externes très nettes et continues), et non d'une condensation alvéolaire (qui serait à limites floues).\n• C (Faux) : Si l'opacité était postérieure (comme les tumeurs neurogènes), elle n'effacerait pas le bord du cœur (qui est antérieur). Ici, le signe de la silhouette est positif avec le cœur.\n• D (Vrai) : L'opacité efface le bord droit du cœur, prouvant qu'elle est située dans le compartiment antérieur (médiastin antérieur), ce qui est le territoire classique des lymphomes, thymomes ou goitres plongeants.\n• E (Faux) : Le nerf laryngé récurrent droit cravate l'artère sous-clavière beaucoup plus haut ; une masse aussi basse n'entraînerait généralement pas de paralysie récurrentielle droite."
   },
   {
     "options": {
-      "A": "des bétabloquants",
+      "A": "des bêtabloquants",
       "B": "des bêta-2-agonistes",
       "C": "des anti-inflammatoires non-stéroïdiens",
-      "D": "des agonistes du récepteurs aux leucotriènes",
-      "E": "des methylxanthines inhalées"
+      "D": "des agonistes du récepteur aux leucotriènes",
+      "E": "des méthylxanthines inhalées"
     },
     "correctAnswers": [
       "B"
     ],
     "text": "Le traitement de la crise d'asthme repose sur :",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) des bêta-2-agonistes"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les bêtabloquants provoquent une bronchoconstriction et sont formellement contre-indiqués chez l'asthmatique.\n• B (Vrai) : Les bêta-2-agonistes (inhalés, à courte durée d'action comme la Ventoline) sont le traitement de base de la crise d'asthme pour obtenir une bronchodilatation rapide.\n• C (Faux) : Les AINS (anti-inflammatoires non-stéroïdiens) ne sont pas indiqués pour traiter la crise et peuvent même la déclencher (maladie de Widal).\n• D (Faux) : Les anti-leucotriènes sont des traitements d'entretien/de fond de l'asthme, pas de traitement de la crise aiguë.\n• E (Faux) : Les dérivés de la théophylline (méthylxanthines) ne sont plus utilisés en première ligne dans la crise à cause de leurs nombreux effets secondaires et de leur marge thérapeutique étroite."
   },
   {
     "options": {
-      "A": "L'oxygénation du diaphragme . Un rôle de réservoir sanguin",
+      "A": "L'oxygénation du diaphragme",
+      "B": "Un rôle de réservoir sanguin",
       "C": "Filtre circulatoire",
-      "D": "L'oxygénation musculaire périphérique SQ12",
+      "D": "L'oxygénation musculaire périphérique",
       "E": "L'apport nutritif aux cellules du parenchyme pulmonaire"
     },
     "correctAnswers": [
-      "A",
+      "B",
       "C",
       "E"
     ],
-    "text": "Quelles fonctions assurent la circulation pulmonaire ?",
+    "text": "Quelles fonctions assure la circulation pulmonaire ?",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'oxygénation du diaphragme . Un rôle de réservoir sanguin ; C) Filtre circulatoire ; E) L'apport nutritif aux cellules du parenchyme pulmonaire"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'oxygénation du muscle diaphragme est assurée par la circulation systémique (artères phréniques issues de l'aorte), et non la circulation pulmonaire.\n• B (Vrai) : En raison de sa très grande compliance, elle stocke d'importants volumes de sang et sert de réservoir.\n• C (Vrai) : Elle filtre le sang veineux pour retenir les micro-caillots ou bulles avant qu'ils ne passent dans la circulation générale (artérielle).\n• D (Faux) : L'oxygénation des muscles périphériques (jambes, bras) relève de la circulation systémique (cœur gauche).\n• E (Vrai) : Elle participe, en plus de l'hématose, à la nutrition des structures fines du parenchyme alvéolaire."
   },
   {
     "options": {
@@ -3139,9 +3153,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 1/SQI2.pdf"] = [
       "B",
       "E"
     ],
-    "text": "SQ12 Quel(s) élément(s) ne participe(nt) pas à la régulation du pH extracellulaire ?",
+    "text": "Quel(s) élément(s) ne participe(nt) pas à la régulation du pH extracellulaire ?",
     "id": "ANN-UE3-UE3S3Pneumologie1-SQI2-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'hémoglobine ; E) L'estomac"
+    "explanation": "Correction détaillée :\n• A (Faux — cet élément participe) : Les systèmes tampons régulent très activement le pH.\n• B (Vrai) : Dans le contexte des réponses QCM de l'annale, l'hémoglobine est cochée ici comme « ne participant pas » à la régulation du pH extracellulaire (même si physiologiquement elle a un pouvoir tampon intra-érythrocytaire, l'annale attend B comme réponse juste au QCM).\n• C (Faux — cet élément participe) : La ventilation est l'organe essentiel de l'élimination du CO2 pour réguler le pH sanguin.\n• D (Faux — cet élément participe) : Les reins régulent métaboliquement le pH en excrétant des H+ et en réabsorbant des HCO3-.\n• E (Vrai) : L'estomac sécrète de l'acide pour la digestion locale, mais n'est pas un effecteur de la régulation de l'équilibre acido-basique systémique du corps humain."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/DP1.pdf"] = [
@@ -3149,7 +3163,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/DP1.pdf"] = [
     "options": {
       "A": "Il existe une opacité pulmonaire gauche.",
       "B": "Il existe une horizontalisation des arcs costaux.",
-      "C": "Il existe un aplatissement des coupoles diaphragmatique.",
+      "C": "Il existe un aplatissement des coupoles diaphragmatiques.",
       "D": "Il existe une cardiomégalie.",
       "E": "Il existe un pneumothorax droit."
     },
@@ -3157,10 +3171,10 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/DP1.pdf"] = [
       "B",
       "C"
     ],
-    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nElle apporte avec elle les résultats d'une radiographie thoracique, concernant cet examen •",
+    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne • 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nElle apporte avec elle les résultats d'une radiographie thoracique, concernant cet examen :",
     "image": "data/images/annales/UE3-Pneumo2-DP1-p2-xref15.jpeg",
     "id": "ANN-UE3-UE3S3Pneumologie2-DP1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Il existe une horizontalisation des arcs costaux. ; C) Il existe un aplatissement des coupoles diaphragmatique."
+    "explanation": "Correction détaillée :\n• A (Faux) : Il n'y a pas de foyer ni d'opacité parenchymateuse gauche.\n• B (Vrai) : L'horizontalisation des côtes témoigne d'une distension thoracique (piégeage aérique).\n• C (Vrai) : L'aplatissement des coupoles diaphragmatiques est également un signe classique de distension thoracique.\n• D (Faux) : La silhouette cardiaque est de taille normale (pas de cardiomégalie).\n• E (Faux) : La trame vasculaire pulmonaire va jusqu'à la paroi, il n'y a pas de pneumothorax droit."
   },
   {
     "options": {
@@ -3174,33 +3188,33 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/DP1.pdf"] = [
       "C",
       "E"
     ],
-    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nVous réalisez l'examen suivant 3.69 3.36 3.22 87.3 3.29 3.19 e 7.4 -3.2 1.29 1.26 98.1 1.02 79.1 2.30 2.57 83.78 68.48 79.68 95.1 7.07 3.17 s.03 71.1 se.s 3.16 4.56 73.8 44.3 4.48 2.14 47.7 2.81 31.3 2.13 0.81 45.4 4.02 1.77 2.39 34.9 3.33 4.09 22.8 Nom: Date naissance : Taille: Sexe : 164.0 Pr&lom: Age : poids : COURBES DEBIT-VOLUME ET PLETHYSMO PARAMETRES SPIROMETRIE ET PEBIT-VOHJME Date Substance CVL DEN 75 DEN 50 DEN 25 DIP 18/12/09 27 Ans 67,0 kg Post 18/12/09 <Vent01ine 90.9 90.3 72.3 44.9 38.0 D'2/1 -19.3 3.65 6.18 tL/S1 tL/SI (L/SI Concernant cet examen, quelle(s) proposition(s) est(sont) vraie(s) ?",
+    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne • 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nVous réalisez l'examen suivant (courbes débit-volume et pléthysmographie). Concernant cet examen, quelle(s) proposition(s) est(sont) vraie(s) ?",
     "image": "data/images/annales/UE3-Pneumo2-DP1-p3-xref41.jpeg",
     "id": "ANN-UE3-UE3S3Pneumologie2-DP1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Il existe une réversibilité presque significative. ; E) Il existe un syndrome obstructif modéré avant Ventoline."
+    "explanation": "Correction détaillée :\n• A (Faux) : La Capacité Pulmonaire Totale (CPT) est normale (> 80 % de la théorique), il n'y a pas de trouble ventilatoire restrictif.\n• B (Faux) : La pléthysmographie présente des défauts techniques de réalisation.\n• C (Vrai) : On observe une nette amélioration du VEMS sous bronchodilatateur (réversibilité « presque significative » selon les seuils stricts de +200 mL et +12 %).\n• D (Faux) : Les résultats pré-Ventoline montrent un rapport VEMS/CVL abaissé (< 70 %).\n• E (Vrai) : Le rapport VEMS/CVL abaissé à 68,48 % avant Ventoline traduit un trouble ventilatoire obstructif (TVO) modéré."
   },
   {
     "options": {
       "A": "Un traitement de secours par Salbutamol",
-      "B": "Un bêta mimétique de longue durée d'action seul",
+      "B": "Un bêta-mimétique de longue durée d'action seul",
       "C": "Une corticothérapie inhalée en monothérapie",
-      "D": "Un antileucotriéne",
-      "E": "Un anticholinergique de longue durée d'action."
+      "D": "Un antileucotriène",
+      "E": "Un anticholinergique de longue durée d'action"
     },
     "correctAnswers": [
       "A",
       "C",
       "D"
     ],
-    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nVous considérez que l'examen clinique, radiologique et les EFR sont compatibles avec un asthme. Quels traitements de première attention pouvez-vous proposez ?",
+    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne • 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nVous considérez que l'examen clinique, radiologique et les EFR sont compatibles avec un asthme. Quels traitements de première intention pouvez-vous proposer ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-DP1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un traitement de secours par Salbutamol ; C) Une corticothérapie inhalée en monothérapie ; D) Un antileucotriéne"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Un bronchodilatateur de courte durée d'action (BDCA : Salbutamol) est indispensable en traitement de secours à la demande.\n• B (Faux) : Un bêta-2 mimétique de longue durée d'action (LABA) ne doit jamais être prescrit seul en monothérapie dans l'asthme (toujours associé à un corticoïde inhalé).\n• C (Vrai) : Les corticoïdes inhalés (CSI) constituent le traitement de fond de référence de l'asthme.\n• D (Vrai) : Les antileucotriènes (montélukast) peuvent être proposés en alternative ou en complément dans le traitement de fond.\n• E (Faux) : Les anticholinergiques de longue durée d'action (LAMA) ne sont pas un traitement de première intention de l'asthme léger/modéré."
   },
   {
     "options": {
       "A": "Arrêt du tabac",
       "B": "Consultation avec un allergologue",
-      "C": "Arrêt des exercices physique",
+      "C": "Arrêt des exercices physiques",
       "D": "Un arrêt de travail",
       "E": "Une évaluation clinique et fonctionnelle dans trois mois"
     },
@@ -3209,15 +3223,15 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/DP1.pdf"] = [
       "B",
       "E"
     ],
-    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nQuelle(s) prise(s) en charge associez-vous par ailleurs ?",
+    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne • 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nQuelle(s) prise(s) en charge associez-vous par ailleurs ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-DP1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Arrêt du tabac ; B) Consultation avec un allergologue ; E) Une évaluation clinique et fonctionnelle dans trois mois"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'arrêt de l'exposition tabagique est indispensable car le tabac aggrave l'inflammation bronchique et réduit l'efficacité des corticoïdes inhalés.\n• B (Vrai) : Une consultation allergologique permet d'identifier et d'évincer d'éventuels facteurs déclenchants allergéniques.\n• C (Faux) : Le sport et l'activité physique ne doivent jamais être arrêtés chez l'asthmatique ; ils doivent au contraire être encouragés une fois l'asthme contrôlé.\n• D (Faux) : Un arrêt de travail n'est pas justifié devant une dyspnée d'effort isolée en consultation.\n• E (Vrai) : Un suivi clinique et fonctionnel (EFR) à 3 mois est recommandé pour évaluer le contrôle de l'asthme et la réponse au traitement de fond."
   },
   {
     "options": {
       "A": "Il s'agit d'un asthme mal contrôlé.",
       "B": "Le traitement est adapté, il faut poursuivre la même thérapeutique.",
-      "C": "Il faut majorer son traitement de fond. v'",
+      "C": "Il faut majorer son traitement de fond.",
       "D": "Il faut arrêter la corticothérapie inhalée.",
       "E": "Il s'agit d'un asthme sévère."
     },
@@ -3225,9 +3239,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/DP1.pdf"] = [
       "A",
       "C"
     ],
-    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nElle revient en consultation quatre mois plus tard au décours dun nouvel épisode de bronchite. Elle rapporte, malgré le traitement mis en place, une consommation de Ventoline trois fois par semaine et des épisodes de toux nocturne. Concernant son asthme",
+    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne • 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nElle revient en consultation quatre mois plus tard au décours d'un nouvel épisode de bronchite. Elle rapporte, malgré le traitement mis en place, une consommation de Ventoline trois fois par semaine et des épisodes de toux nocturne. Concernant son asthme :",
     "id": "ANN-UE3-UE3S3Pneumologie2-DP1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il s'agit d'un asthme mal contrôlé. ; C) Il faut majorer son traitement de fond. v'"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La consommation de Ventoline 3 fois par semaine (> 2 fois/semaine) associée à des réveils/toux nocturnes signe un asthme mal contrôlé selon les critères GINA.\n• B (Faux) : Le mauvais contrôle clinique impose d'adapter la prise en charge (après vérification de l'observance et de la technique d'inhalation).\n• C (Vrai) : Face à un asthme non contrôlé, il faut majorer le traitement de fond (passage au palier supérieur, ex : association CSI + LABA).\n• D (Faux) : On n'arrête jamais la corticothérapie inhalée qui reste le pilier du traitement de fond.\n• E (Faux) : L'asthme sévère se définit par un asthme restant non contrôlé malgré un traitement de fond maximal (paliers 4-5) bien conduit, ce qui n'est pas encore le cas ici."
   },
   {
     "options": {
@@ -3235,16 +3249,16 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/DP1.pdf"] = [
       "B": "Une douleur rythmée par la respiration",
       "C": "Un tympanisme à la percussion de l'hémithorax droit",
       "D": "Une toux productive avec une expectoration purulente",
-      "E": "Des crépitant à gauche"
+      "E": "Des crépitants à gauche"
     },
     "correctAnswers": [
       "A",
       "B",
       "C"
     ],
-    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\npartiellement correct Vous revoyez cette patiente en urgence. Elle présente une majoration aigue de sa dyspnée associé à une douleur latéro thoracique droite. À l'examen clinique, quels signes cliniques recherchez vous en faveur dun pneumothorax droit ?",
+    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne • 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nVous revoyez cette patiente en urgence. Elle présente une majoration aiguë de sa dyspnée associée à une douleur latéro-thoracique droite. À l'examen clinique, quels signes cliniques recherchez-vous en faveur d'un pneumothorax droit ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-DP1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une abolition du murmure vésiculaire à droite ; B) Une douleur rythmée par la respiration ; C) Un tympanisme à la percussion de l'hémithorax droit"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'interposition d'air dans la cavité pleurale droite abolit la transmission du murmure vésiculaire du côté atteint.\n• B (Vrai) : Le pneumothorax provoque une douleur basi- ou latéro-thoracique brutale (« en coup de poignard »), inhibant l'inspiration profonde et rythmée par la respiration.\n• C (Vrai) : La présence d'air dans l'espace pleural donne un tympanisme (hypersonorité) à la percussion de l'hémithorax droit.\n• D (Faux) : Une toux productive purulente oriente vers une infection broncho-pulmonaire et non un pneumothorax.\n• E (Faux) : Des crépitants en base gauche signeraient une atteinte alvéolaire ou interstitielle controlatérale."
   },
   {
     "options": {
@@ -3252,15 +3266,15 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/DP1.pdf"] = [
       "B": "Repos au lit et surveillance",
       "C": "Exsufflation à l'aiguille",
       "D": "Mise en place d'un drain thoracique de gros calibre en base droite",
-      "E": "Prise en charge par vidéo thoracoscopie et symphyse pleurale"
+      "E": "Prise en charge par vidéo-thoracoscopie et symphyse pleurale"
     },
     "correctAnswers": [
       "B",
       "C"
     ],
-    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nLa radiographie thoracique retrouve un décollement de l'apex pulmonaire droit s'étendant jusqu'au hile droit. Quelles options thérapeutiques peuvent être envisagée pour cette patiente ?",
+    "text": "[Cas clinique : Mme R., 27 ans, consulte pour dyspnée d'effort. En reprenant le sport récemment, elle décrit une dyspnée inhabituelle avec parfois des sifflements dans la poitrine. • Pas de symptôme nocturne • 2 à 3 épisodes de bronchite par an aux changements de saison • Pas de notion d'allergie connue mais consommation de tabac occasionnelle]\nLa radiographie thoracique retrouve un décollement de l'apex pulmonaire droit s'étendant jusqu'au hile droit. Quelles options thérapeutiques peuvent être envisagées pour cette patiente ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-DP1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Repos au lit et surveillance ; C) Exsufflation à l'aiguille"
+    "explanation": "Correction détaillée :\n• A (Faux) : La chirurgie (pleurodèse) n'est pas indiquée en première intention lors d'un premier épisode non compliqué.\n• B (Vrai) : Devant un pneumothorax spontané de faible abondance bien toléré, le simple repos avec surveillance clinique et radiologique est une option validée.\n• C (Vrai) : L'exsufflation simple à l'aiguille (ou cathéter fin) est une option de première intention si le décollement justifie une évacuation.\n• D (Faux) : Un drain thoracique de gros calibre n'est pas indiqué en première intention ici.\n• E (Faux) : La vidéo-thoracoscopie avec symphyse pleurale est réservée aux récidives ou aux fuites aériques prolongées."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/MDP.pdf"] = [
@@ -3269,16 +3283,16 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/MDP.pdf"] = [
       "A": "Les bêta-2 mimétiques agissent principalement en bloquant les récepteurs bêta-2 au niveau des muscles lisses bronchiques.",
       "B": "Les bêta-2 mimétiques agissent principalement en induisant une relaxation des cellules des muscles lisses bronchiques.",
       "C": "Les bêta-2 mimétiques sont indiqués dans le traitement de l'exacerbation des crises aiguës.",
-      "D": "Les bêta-2 mimétiques sont indiqués la réduction de l'inflammation chronique des voies respiratoires.",
+      "D": "Les bêta-2 mimétiques sont indiqués dans la réduction de l'inflammation chronique des voies respiratoires.",
       "E": "Le chef de file est l'ipratropium."
     },
     "correctAnswers": [
       "B",
       "C"
     ],
-    "text": "Concernant le traitement de la crise d'asthme par les beta-2 mimétiques :",
+    "text": "Concernant le traitement de la crise d'asthme par les bêta-2 mimétiques :",
     "id": "ANN-UE3-UE3S3Pneumologie2-MDP-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les bêta-2 mimétiques agissent principalement en induisant une relaxation des cellules des muscles lisses bronchiques. ; C) Les bêta-2 mimétiques sont indiqués dans le traitement de l'exacerbation des crises aiguës."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les bêta-2 mimétiques sont des agonistes des récepteurs bêta-2 adrénergiques, c'est-à-dire qu'ils les stimulent, et non des bloquants (antagonistes).\n• B (Vrai) : En stimulant ces récepteurs exprimés dans le muscle lisse bronchique, ils induisent une relaxation de ces cellules musculaires, ce qui entraîne la bronchodilatation.\n• C (Vrai) : Les bêta-2-agonistes à courte durée d'action sont le traitement de première intention (traitement de secours) dans la gestion des exacerbations et des crises aiguës d'asthme.\n• D (Faux) : Les bêta-2 mimétiques sont des traitements bronchodilatateurs. La réduction de l'inflammation chronique des voies respiratoires repose sur les anti-inflammatoires, principalement les corticoïdes inhalés.\n• E (Faux) : L'ipratropium n'est pas un bêta-2 mimétique, mais le chef de file des anticholinergiques (qui ont des effets parasympatholytiques)."
   },
   {
     "options": {
@@ -3286,15 +3300,15 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/MDP.pdf"] = [
       "B": "Salmétérol",
       "C": "Aténolol",
       "D": "Formotérol",
-      "E": "Montelukast"
+      "E": "Montélukast"
     },
     "correctAnswers": [
       "B",
       "D"
     ],
-    "text": "Parmi les médicaments suivants, est(sont) un(des) bêta-2 mimétique de longue durée d'action (LABA) utilisé pour la gestion de l'asthme ?",
+    "text": "Parmi les médicaments suivants, le(s)quel(s) est(sont) un(des) bêta-2 mimétique(s) de longue durée d'action (LABA) utilisé(s) pour la gestion de l'asthme ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-MDP-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Salmétérol ; D) Formotérol"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le salbutamol est un bêta-2 mimétique à courte durée d'action (SABA), utilisé pour le soulagement immédiat.\n• B (Vrai) : Le salmétérol est bien classé comme un bêta-2 mimétique à longue durée d'action (LABA).\n• C (Faux) : L'aténolol est un bêta-bloquant utilisé en cardiologie, il n'a pas sa place comme bronchodilatateur dans l'asthme (les bêta-bloquants peuvent au contraire aggraver un asthme).\n• D (Vrai) : Le formotérol est un bêta-2 mimétique à longue durée d'action (LABA).\n• E (Faux) : Le montélukast appartient à la classe thérapeutique des antileucotriènes (antagonistes des récepteurs aux leucotriènes) et non aux bêta-2 mimétiques."
   },
   {
     "options": {
@@ -3308,15 +3322,15 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/MDP.pdf"] = [
       "C",
       "D"
     ],
-    "text": "Concernant les médicaments bronchodilatateurs, on retrouve",
+    "text": "Concernant les médicaments bronchodilatateurs, on retrouve :",
     "id": "ANN-UE3-UE3S3Pneumologie2-MDP-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Des anti-leucotriènes ; D) Des inhibiteurs de phosphodiestérase"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les bronchodilatateurs incluent les sympathomimétiques (qui imitent l'action du système sympathique pour dilater les bronches), et non les sympatholytiques (qui la bloqueraient).\n• B (Faux) : On utilise des parasympatholytiques (anticholinergiques) pour lever la bronchoconstriction induite par le système parasympathique, et non des parasympathomimétiques.\n• C (Vrai) : Les anti-leucotriènes font partie de l'arsenal thérapeutique (bien qu'ils soient souvent classés parmi les anti-inflammatoires, l'annale les valide ici dans la liste globale des traitements ayant un rôle dans l'ouverture des voies aériennes).\n• D (Vrai) : Les inhibiteurs de la phosphodiestérase (comme les méthylxanthines / la théophylline) sont une classe reconnue de médicaments bronchodilatateurs.\n• E (Faux) : Les anticorps anti-IgE (comme l'omalizumab) sont indiqués dans le traitement de l'asthme allergique sévère pour contrer l'inflammation, mais ils ne sont pas des bronchodilatateurs."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
   {
     "options": {
-      "A": "Un syndrome de Claude Bernard Horner",
+      "A": "Un syndrome de Claude-Bernard-Horner",
       "B": "Une ostéoarthropathie hypertrophiante pneumique",
       "C": "Un syndrome cave supérieur",
       "D": "Un syndrome de Pancoast-Tobias",
@@ -3325,9 +3339,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
     "correctAnswers": [
       "D"
     ],
-    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois pour dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il ny a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend . - LODOZ 10/6.25 mg 1 cp matin - AMLODIPINE 5 mg 1 CP matin - ATORVASTATINE 40mg le soir - BISOPROLOL 7.5mg le matin - KARDEGIC 75 mg midi - INSULINE LENTE 24 ui le soir - METFORMINE 850mg matin et soir A l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard Horner homolatéral. Il est Performance Status OMS 1.]\nN Dans quel syndrome peut-on regrouper les symptômes et les signes cliniques du patient ?",
+    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois et dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme ; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il n'y a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend : LODOZ 10/6.25 mg 1 cp matin, AMLODIPINE 5 mg 1 cp matin, ATORVASTATINE 40 mg le soir, BISOPROLOL 7.5 mg le matin, KARDEGIC 75 mg midi, INSULINE LENTE 24 UI le soir, METFORMINE 850 mg matin et soir. À l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard-Horner homolatéral. Il est Performance Status OMS 1.]\nDans quel syndrome peut-on regrouper les symptômes et les signes cliniques du patient ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUIN-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Un syndrome de Pancoast-Tobias"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le syndrome de Claude-Bernard-Horner (ptosis, myosis, énophtalmie) n'est qu'une composante du tableau global.\n• B (Faux) : L'ostéoarthropathie hypertrophiante pneumique (syndrome de Pierre-Marie-Bamberger) associe hippocratisme digital et périostite douloureuse, mais n'explique pas l'atteinte radiculaire C8-T1 ni le CBH.\n• C (Faux) : Il n'y a pas d'œdème en pèlerine, ni de turgescence jugulaire ou de circulation veineuse collatérale.\n• D (Vrai) : Le syndrome de Pancoast-Tobias regroupe l'ensemble de ce tableau : tumeur de l'apex pulmonaire comprimant le plexus brachial inférieur (douleur radiculaire C8-T1 irradiant vers les 4e et 5e doigts) et envahissant le ganglion stellaire sympathique cervical inférieur (syndrome de Claude-Bernard-Horner homolatéral).\n• E (Faux) : La proposition D est exacte."
   },
   {
     "options": {
@@ -3340,10 +3354,10 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
     "correctAnswers": [
       "D"
     ],
-    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois pour dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il ny a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend . - LODOZ 10/6.25 mg 1 cp matin - AMLODIPINE 5 mg 1 CP matin - ATORVASTATINE 40mg le soir - BISOPROLOL 7.5mg le matin - KARDEGIC 75 mg midi - INSULINE LENTE 24 ui le soir - METFORMINE 850mg matin et soir A l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard Horner homolatéral. Il est Performance Status OMS 1.]\nVoici sa radiographie thoracique Comment décrivez-vous cette radiographie thoracique ?",
+    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois et dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme ; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il n'y a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend : LODOZ 10/6.25 mg 1 cp matin, AMLODIPINE 5 mg 1 cp matin, ATORVASTATINE 40 mg le soir, BISOPROLOL 7.5 mg le matin, KARDEGIC 75 mg midi, INSULINE LENTE 24 UI le soir, METFORMINE 850 mg matin et soir. À l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard-Horner homolatéral. Il est Performance Status OMS 1.]\nVoici sa radiographie thoracique. Comment décrivez-vous cette radiographie thoracique ?",
     "image": "data/images/annales/UE3-Pneumo2-SQUIN-p2-xref37.jpeg",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUIN-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Opacité lobaire supérieure droite"
+    "explanation": "Correction détaillée :\n• A (Faux) : La radiographie est nettement pathologique.\n• B (Faux) : L'opacité est apicale droite et non basale avec ligne de Damoiseau.\n• C (Faux) : Il n'y a pas d'hyperclarté avasculaire à gauche.\n• D (Vrai) : On observe une volumineuse opacité tissulaire systématisée occupant tout le lobe supérieur droit (apex droit).\n• E (Faux) : L'opacité est située à droite (ce qui concorde avec la symptomatologie droite du patient) et non à gauche."
   },
   {
     "options": {
@@ -3352,7 +3366,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
       "C": "Un scanner thoracique injecté",
       "D": "Une fibroscopie gastrique",
       "E": "Une IRM du rachis lombaire",
-      "F": "Un Scanner thoraco - abdominal injecté",
+      "F": "Un scanner thoraco-abdominal injecté",
       "G": "Une fibroscopie bronchique"
     },
     "correctAnswers": [
@@ -3361,9 +3375,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
       "F",
       "G"
     ],
-    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois pour dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il ny a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend . - LODOZ 10/6.25 mg 1 cp matin - AMLODIPINE 5 mg 1 CP matin - ATORVASTATINE 40mg le soir - BISOPROLOL 7.5mg le matin - KARDEGIC 75 mg midi - INSULINE LENTE 24 ui le soir - METFORMINE 850mg matin et soir A l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard Horner homolatéral. Il est Performance Status OMS 1.]\nN Quels examens paracliniques peuvent être prescrit dans l'immédiat ?",
+    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois et dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme ; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il n'y a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend : LODOZ 10/6.25 mg 1 cp matin, AMLODIPINE 5 mg 1 cp matin, ATORVASTATINE 40 mg le soir, BISOPROLOL 7.5 mg le matin, KARDEGIC 75 mg midi, INSULINE LENTE 24 UI le soir, METFORMINE 850 mg matin et soir. À l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard-Horner homolatéral. Il est Performance Status OMS 1.]\nQuels examens paracliniques peuvent être prescrits dans l'immédiat ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUIN-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un bilan biologique ; C) Un scanner thoracique injecté ; F) Un Scanner thoraco - abdominal injecté ; G) Une fibroscopie bronchique"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Un bilan biologique standard (NFS, ionogramme, fonction rénale avant injection, hémostase avant biopsie, bilan inflammatoire et nutritionnel) est indispensable.\n• B (Faux) : La radiographie thoracique vient déjà d'être réalisée.\n• C (Vrai) : Le scanner thoracique injecté est indispensable pour caractériser précisément la tumeur apicale et l'envahissement médiastino-hilaire.\n• D (Faux) : La fibroscopie gastrique n'a aucune indication ici.\n• E (Faux) : L'atteinte nerveuse est cervico-thoracique haute (C8-T1) et non lombaire.\n• F (Vrai) : Le scanner thoraco-abdominal injecté fait partie du bilan d'extension immédiat (recherche de métastases hépatiques ou surrénaliennes).\n• G (Vrai) : La fibroscopie bronchique est indispensable pour visualiser l'arbre bronchique et réaliser des biopsies à visée histologique."
   },
   {
     "options": {
@@ -3376,10 +3390,10 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois pour dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il ny a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend . - LODOZ 10/6.25 mg 1 cp matin - AMLODIPINE 5 mg 1 CP matin - ATORVASTATINE 40mg le soir - BISOPROLOL 7.5mg le matin - KARDEGIC 75 mg midi - INSULINE LENTE 24 ui le soir - METFORMINE 850mg matin et soir A l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard Horner homolatéral. Il est Performance Status OMS 1.]\nN Son bilan sanguin retrouve un syndrome inflammatoire avec une CRP à 55 mg/L et une hypoalbuminémie à 30. Le scanner thoracique (ci-dessous) retrouve une lésion tissulaire nécrotique lobaire supérieure droite de 7 cm avec infiltration hilaire et atélectasie lobaire supérieure droite complète. Adénopathies médiastino-hilaires droites. 4 n Quelle est votre hypothèse principale au vu de l'histoire de la maladie, des signes cliniques et des imageries ?",
+    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois et dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme ; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il n'y a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend : LODOZ 10/6.25 mg 1 cp matin, AMLODIPINE 5 mg 1 cp matin, ATORVASTATINE 40 mg le soir, BISOPROLOL 7.5 mg le matin, KARDEGIC 75 mg midi, INSULINE LENTE 24 UI le soir, METFORMINE 850 mg matin et soir. À l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard-Horner homolatéral. Il est Performance Status OMS 1.]\nSon bilan sanguin retrouve un syndrome inflammatoire avec une CRP à 55 mg/L et une hypoalbuminémie à 30 g/L. Le scanner thoracique (ci-dessous) retrouve une lésion tissulaire nécrotique lobaire supérieure droite de 7 cm avec infiltration hilaire et atélectasie lobaire supérieure droite complète, ainsi que des adénopathies médiastino-hilaires droites. Quelle est votre hypothèse principale au vu de l'histoire de la maladie, des signes cliniques et des imageries ?",
     "image": "data/images/annales/UE3-Pneumo2-SQUIN-p4-combined.jpeg",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUIN-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un cancer broncho-pulmonaire"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le cancer broncho-pulmonaire est l'hypothèse principale devant l'âge (65 ans), le tabagisme lourd (45 paquets-années), l'altération majeure de l'état général (-20 kg), le syndrome de Pancoast-Tobias et la masse tissulaire nécrosée avec adénopathies médiastino-hilaires au scanner.\n• B (Faux) : Un syndrome de Pancoast-Tobias avec envahissement nerveux et masse tissulaire compressive de 7 cm oriente avant tout vers une néoplasie bronchique.\n• C, D, E (Faux) : Ces pathologies ne donnent pas ce tableau de masse apicale nécrotique invasive avec Pancoast-Tobias."
   },
   {
     "options": {
@@ -3392,9 +3406,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois pour dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il ny a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend . - LODOZ 10/6.25 mg 1 cp matin - AMLODIPINE 5 mg 1 CP matin - ATORVASTATINE 40mg le soir - BISOPROLOL 7.5mg le matin - KARDEGIC 75 mg midi - INSULINE LENTE 24 ui le soir - METFORMINE 850mg matin et soir A l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard Horner homolatéral. Il est Performance Status OMS 1.]\nN Pour réaliser le diagnostic histologique, quel examen peut-on réaliser ?",
+    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois et dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme ; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il n'y a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend : LODOZ 10/6.25 mg 1 cp matin, AMLODIPINE 5 mg 1 cp matin, ATORVASTATINE 40 mg le soir, BISOPROLOL 7.5 mg le matin, KARDEGIC 75 mg midi, INSULINE LENTE 24 UI le soir, METFORMINE 850 mg matin et soir. À l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard-Horner homolatéral. Il est Performance Status OMS 1.]\nPour réaliser le diagnostic histologique, quel examen peut-on réaliser ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUIN-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une fibroscopie bronchique"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La fibroscopie bronchique (endoscopie bronchique souple) avec biopsies bronchiques est l'examen de première intention pour obtenir la preuve histologique devant une tumeur avec infiltration hilaire.\n• B (Faux) : La fibroscopie gastrique explore l'œsophage et l'estomac.\n• C (Faux) : Un bilan sanguin ne donne jamais de diagnostic histologique de certitude.\n• D (Faux) : La vidéo-thoracoscopie est un geste chirurgical invasif qui n'est pas réalisé en première intention lorsque la tumeur est accessible par fibroscopie.\n• E (Faux) : La proposition A est exacte."
   },
   {
     "options": {
@@ -3411,15 +3425,15 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
       "D",
       "E"
     ],
-    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois pour dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il ny a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend . - LODOZ 10/6.25 mg 1 cp matin - AMLODIPINE 5 mg 1 CP matin - ATORVASTATINE 40mg le soir - BISOPROLOL 7.5mg le matin - KARDEGIC 75 mg midi - INSULINE LENTE 24 ui le soir - METFORMINE 850mg matin et soir A l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard Horner homolatéral. Il est Performance Status OMS 1.]\nQuels facteurs de risque sont reconnus pour le cancer broncho pulmonaire ?",
+    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois et dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme ; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il n'y a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend : LODOZ 10/6.25 mg 1 cp matin, AMLODIPINE 5 mg 1 cp matin, ATORVASTATINE 40 mg le soir, BISOPROLOL 7.5 mg le matin, KARDEGIC 75 mg midi, INSULINE LENTE 24 UI le soir, METFORMINE 850 mg matin et soir. À l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard-Horner homolatéral. Il est Performance Status OMS 1.]\nQuels facteurs de risque sont reconnus pour le cancer broncho-pulmonaire ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUIN-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Tabagisme à 45 paquets-années ; B) Tabagisme à 20 paquets-années ; C) Hydrocarbures aromatiques polycycliques ; D) Diesel ; E) Amiante"
+    "explanation": "Correction détaillée :\n• A, B (Vrai) : Le tabagisme actif (quelle qu'en soit la quantité cumulée, à 20 comme à 45 paquets-années) est le premier facteur de risque reconnu de cancer broncho-pulmonaire.\n• C, D, E (Vrai) : Les expositions professionnelles et environnementales aux hydrocarbures aromatiques polycycliques (HAP), aux particules d'échappement diesel et aux fibres d'amiante (fréquentes chez un ancien garagiste : freins, embrayages, gaz d'échappement) sont toutes des cancérogènes bronchiques avérés."
   },
   {
     "options": {
-      "A": "Il peut bénéficier dune prise en charge chirurgicale.",
-      "B": "Il peut bénéficier dune prise en charge palliative exclusive.",
-      "C": "Il relève d'un traitement systémique par poly chimiothérapie anticancéreuse.",
+      "A": "Il peut bénéficier d'une prise en charge chirurgicale.",
+      "B": "Il peut bénéficier d'une prise en charge palliative exclusive.",
+      "C": "Il relève d'un traitement systémique par polychimiothérapie anticancéreuse.",
       "D": "Il peut bénéficier de soins de support.",
       "E": "Il ne relève pas d'une prise en charge à 100 %."
     },
@@ -3427,9 +3441,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
       "C",
       "D"
     ],
-    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois pour dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il ny a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend . - LODOZ 10/6.25 mg 1 cp matin - AMLODIPINE 5 mg 1 CP matin - ATORVASTATINE 40mg le soir - BISOPROLOL 7.5mg le matin - KARDEGIC 75 mg midi - INSULINE LENTE 24 ui le soir - METFORMINE 850mg matin et soir A l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard Horner homolatéral. Il est Performance Status OMS 1.]\nN Le bilan d'extension retrouve des lésions secondaires osseuse et hépatique. Il s'agit d'un stade métastatique. Concernant sa prise en charge •",
+    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois et dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme ; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il n'y a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend : LODOZ 10/6.25 mg 1 cp matin, AMLODIPINE 5 mg 1 cp matin, ATORVASTATINE 40 mg le soir, BISOPROLOL 7.5 mg le matin, KARDEGIC 75 mg midi, INSULINE LENTE 24 UI le soir, METFORMINE 850 mg matin et soir. À l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard-Horner homolatéral. Il est Performance Status OMS 1.]\nLe bilan d'extension retrouve des lésions secondaires osseuses et hépatiques. Il s'agit d'un stade métastatique. Concernant sa prise en charge :",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUIN-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Il relève d'un traitement systémique par poly chimiothérapie anticancéreuse. ; D) Il peut bénéficier de soins de support."
+    "explanation": "Correction détaillée :\n• A (Faux) : Au stade IV métastatique (métastases osseuses et hépatiques), la chirurgie d'exérèse thoracique curative est contre-indiquée.\n• B (Faux) : Le patient étant en bon état général fonctionnel (OMS 1), il ne relève pas de soins palliatifs exclusifs mais d'un traitement antitumoral systémique actif.\n• C (Vrai) : Un stade IV métastatique chez un patient OMS 1 relève d'un traitement systémique (polychimiothérapie / immunothérapie).\n• D (Vrai) : Les soins de support (antalgie, nutrition, accompagnement) doivent être associés dès le diagnostic.\n• E (Faux) : Le cancer broncho-pulmonaire ouvre droit à une prise en charge à 100 % au titre des Affections de Longue Durée (ALD 30)."
   },
   {
     "options": {
@@ -3437,7 +3451,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
       "B": "Mise à jour des vaccins pour la grippe et le pneumocoque",
       "C": "Prise en charge en maladie longue durée à 100 %",
       "D": "Prise en charge des douleurs osseuses",
-      "E": "Il ne releve pas d'une prise en charge psychologique",
+      "E": "Il ne relève pas d'une prise en charge psychologique",
       "F": "Arrêt de travail"
     },
     "correctAnswers": [
@@ -3447,9 +3461,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
       "D",
       "F"
     ],
-    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois pour dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il ny a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend . - LODOZ 10/6.25 mg 1 cp matin - AMLODIPINE 5 mg 1 CP matin - ATORVASTATINE 40mg le soir - BISOPROLOL 7.5mg le matin - KARDEGIC 75 mg midi - INSULINE LENTE 24 ui le soir - METFORMINE 850mg matin et soir A l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard Horner homolatéral. Il est Performance Status OMS 1.]\npartiellement correct Quels sont les autres éléments de sa prise en charge ?",
+    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois et dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme ; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il n'y a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend : LODOZ 10/6.25 mg 1 cp matin, AMLODIPINE 5 mg 1 cp matin, ATORVASTATINE 40 mg le soir, BISOPROLOL 7.5 mg le matin, KARDEGIC 75 mg midi, INSULINE LENTE 24 UI le soir, METFORMINE 850 mg matin et soir. À l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard-Horner homolatéral. Il est Performance Status OMS 1.]\nQuels sont les autres éléments de sa prise en charge ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUIN-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Aide au sevrage tabagique ; B) Mise à jour des vaccins pour la grippe et le pneumocoque ; C) Prise en charge en maladie longue durée à 100 % ; D) Prise en charge des douleurs osseuses ; F) Arrêt de travail"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'accompagnement et la consolidation du sevrage tabagique sont essentiels.\n• B (Vrai) : La mise à jour des vaccinations antipneumococcique et antigrippale est indispensable pour prévenir les surinfections sévères sous chimiothérapie.\n• C (Vrai) : Déclaration en Affection de Longue Durée (ALD 30) pour une prise en charge à 100 %.\n• D (Vrai) : Traitement antalgique adapté (paliers OMS, co-antalgiques, radiothérapie antalgique) des douleurs osseuses et neuropathiques.\n• E (Faux) : Un soutien psychologique doit au contraire toujours être proposé au patient et à ses proches.\n• F (Vrai) : Prescription d'un arrêt de travail si le patient est encore en activité."
   },
   {
     "options": {
@@ -3466,9 +3480,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
       "D",
       "E"
     ],
-    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois pour dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il ny a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend . - LODOZ 10/6.25 mg 1 cp matin - AMLODIPINE 5 mg 1 CP matin - ATORVASTATINE 40mg le soir - BISOPROLOL 7.5mg le matin - KARDEGIC 75 mg midi - INSULINE LENTE 24 ui le soir - METFORMINE 850mg matin et soir A l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard Horner homolatéral. Il est Performance Status OMS 1.]\nN Le patient a débuté son traitement, il consulte par le biais des urgences pour une aggravation récente de sa dyspnée. Quelles hypothèses diagnostics peuvent être évoqués dans ce contexte ?",
+    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois et dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme ; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il n'y a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend : LODOZ 10/6.25 mg 1 cp matin, AMLODIPINE 5 mg 1 cp matin, ATORVASTATINE 40 mg le soir, BISOPROLOL 7.5 mg le matin, KARDEGIC 75 mg midi, INSULINE LENTE 24 UI le soir, METFORMINE 850 mg matin et soir. À l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard-Horner homolatéral. Il est Performance Status OMS 1.]\nLe patient a débuté son traitement, il consulte par le biais des urgences pour une aggravation récente de sa dyspnée. Quelles hypothèses diagnostiques peuvent être évoquées dans ce contexte ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUIN-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une progression de sa maladie tumorale ; B) Une embolie pulmonaire ; C) Une toxicité de son traitement ; D) L'apparition d'une pleurésie métastatique ; E) Une complication infectieuse pulmonaire"
+    "explanation": "Correction détaillée :\n• A, B, C, D, E (Vrai) : Chez un patient suivi pour un cancer broncho-pulmonaire sous chimiothérapie, une aggravation aiguë ou subaiguë de la dyspnée doit faire évoquer l'ensemble de ces complications classiques : progression tumorale locale (atélectasie, lymphangite carcinomateuse), embolie pulmonaire (état d'hypercoagulabilité néoplasique), toxicité pulmonaire médicamenteuse de la chimiothérapie, pleurésie métastatique ou pneumopathie infectieuse sur terrain immunodéprimé."
   },
   {
     "options": {
@@ -3482,9 +3496,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI N.pdf"] = [
       "B",
       "C"
     ],
-    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois pour dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il ny a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend . - LODOZ 10/6.25 mg 1 cp matin - AMLODIPINE 5 mg 1 CP matin - ATORVASTATINE 40mg le soir - BISOPROLOL 7.5mg le matin - KARDEGIC 75 mg midi - INSULINE LENTE 24 ui le soir - METFORMINE 850mg matin et soir A l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard Horner homolatéral. Il est Performance Status OMS 1.]\nAux urgences, son état clinique s'est dégradé. Il présente un tableau de détresse respiratoire. Quels examens demandez-vous",
+    "text": "[Cas clinique : Mr C., 65 ans, est adressé aux urgences pour altération de l'état général avec perte de 20 kilos en 2 mois et dyspnée aux efforts importants avec toux. Dans ses antécédents, on note une hypertension artérielle, un diabète de type 2, un syndrome coronarien aigu traité en 2008 par angioplastie. Il ne rapporte pas d'allergie. Il vit avec sa femme ; il a 3 enfants au total. Il était garagiste. Il y a une intoxication tabagique rapportée à 20 cigarettes par jour depuis l'âge de 20 ans, sevrée depuis 3 mois. Il n'y a pas d'historique de cuisine au feu de bois. Pas d'intoxication éthylique. Sur le plan de la vaccination, les vaccins de la grippe et du pneumocoque n'ont pas été réalisés. COVID : 2 injections faites en septembre 2021. Son traitement habituel comprend : LODOZ 10/6.25 mg 1 cp matin, AMLODIPINE 5 mg 1 cp matin, ATORVASTATINE 40 mg le soir, BISOPROLOL 7.5 mg le matin, KARDEGIC 75 mg midi, INSULINE LENTE 24 UI le soir, METFORMINE 850 mg matin et soir. À l'interrogatoire, il rapporte des douleurs cervicales et des fourmillements irradiant jusqu'aux 4e et 5e doigts de la main droite. Ses constantes sont normales. L'examen clinique retrouve un hippocratisme digital et un syndrome de Claude-Bernard-Horner homolatéral. Il est Performance Status OMS 1.]\nAux urgences, son état clinique s'est dégradé. Il présente un tableau de détresse respiratoire. Quels examens demandez-vous en première intention ?",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUIN-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Une radiographie thoracique ; C) Une gazométrie artérielle"
+    "explanation": "Correction détaillée :\n• A, D (Faux) : L'angioscanner et la scintigraphie nécessitent de transporter le patient hors de la salle d'urgence, ce qui est dangereux chez un patient instable en détresse respiratoire aiguë non stabilisée.\n• B, C (Vrai) : La radiographie thoracique au lit et la gazométrie artérielle sont les deux examens de première ligne immédiatement réalisables au chevet d'un patient instable pour évaluer la gravité et orienter le diagnostic étiologique immédiat (pneumothorax, pleurésie massive, OAP, pneumopathie).\n• E (Faux) : La radio au lit et les gaz du sang font partie de l'évaluation initiale urgente concomitante aux mesures de stabilisation."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI.pdf"] = [
@@ -3492,9 +3506,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI.pdf"] = [
     "options": {
       "A": "En cas de probabilité clinique forte, il faut réaliser le dosage des D-dimères.",
       "B": "Il faut réaliser un angioscanner thoracique en cas de probabilité clinique faible et si les D-dimères sont négatifs.",
-      "C": "Les D-dimères sont positives si elles sont mesurées à 570 microgramme/l chez un patient de 52 ans.",
-      "D": "Il faut réaliser une scintigraphie pulmonaire ventilation-perfusion en cas de probabilité clinique forte et si insuffisance rénale chronique sévère.",
-      "E": "La sensibilité de la scintigraphie pulmonaire de ventilation perfusion est de 100%."
+      "C": "Les D-dimères sont positifs s'ils sont mesurés à 570 microgrammes/L chez un patient de 52 ans.",
+      "D": "Il faut réaliser une scintigraphie pulmonaire ventilation-perfusion en cas de probabilité clinique forte et d'insuffisance rénale chronique sévère.",
+      "E": "La sensibilité de la scintigraphie pulmonaire de ventilation-perfusion est de 100 %."
     },
     "correctAnswers": [
       "C",
@@ -3503,24 +3517,25 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI.pdf"] = [
     ],
     "text": "Concernant l'embolie pulmonaire :",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Les D-dimères sont positives si elles sont mesurées à 570 microgramme/l chez un patient de 52 ans. ; D) Il faut réaliser une scintigraphie pulmonaire ventilation-perfusion en cas de probabilité clinique forte et si insuffisance rénale chronique sévère. ; E) La sensibilité de la scintigraphie pulmonaire de ventilation perfusion est de 100%."
+    "explanation": "Correction détaillée :\n• A (Faux) : En cas de probabilité clinique forte, on réalise d'emblée un angioscanner thoracique. Les D-dimères ne sont utiles que pour exclure l'EP en cas de probabilité faible ou intermédiaire.\n• B (Faux) : Si la probabilité est faible et les D-dimères négatifs, le diagnostic d'embolie pulmonaire est formellement éliminé, l'angioscanner est inutile.\n• C (Vrai) : Chez les patients de plus de 50 ans, le seuil de positivité des D-dimères s'ajuste à l'âge (Âge × 10). Pour 52 ans, le seuil est de 520 µg/L. Un taux à 570 µg/L est donc positif.\n• D (Vrai) : L'insuffisance rénale sévère est une contre-indication à l'injection de produit de contraste iodé (angioscanner). La scintigraphie V/P est alors l'examen de choix.\n• E (Vrai) : Selon le cours, la sensibilité de cet examen est considérée comme excellente (~100 %) dans l'élimination de l'EP lorsqu'elle est normale."
   },
   {
     "options": {
       "A": "On peut suspecter une somnolence diurne excessive si le score d'Epworth est supérieur à 11/24.",
-      "B": "L'obésité est un facteur de risque de syndrome d'apnée du sommeil obstructif.. La macroglossie est un facteur de risque de syndrome d'apnée du sommeil obstructif.",
+      "B": "L'obésité est un facteur de risque de syndrome d'apnée du sommeil obstructif.",
       "C": "La macroglossie est un facteur de risque de syndrome d'apnée du sommeil obstructif.",
-      "D": "Le syndrome d'apnée du sommeil est sévère si l'IAH est supérieur à 15/h_",
+      "D": "Le syndrome d'apnée du sommeil est sévère si l'IAH est supérieur à 15/h.",
       "E": "La dépression est un diagnostic différentiel chez un patient présentant une somnolence diurne excessive."
     },
     "correctAnswers": [
       "A",
       "B",
+      "C",
       "E"
     ],
-    "text": "Un patient de 70 ans se présente à votre consultation pour asthénie. Il décrit des ronflements, un sommeil non réparateur et une somnolence diurne. Il vous explique qu'il se réveille souvent la nuit par manque d'air. Vous suspectez un syndrome d'apnée du sommeil et réalisez une polygraphie ventilatoire",
+    "text": "Un patient de 70 ans se présente à votre consultation pour asthénie. Il décrit des ronflements, un sommeil non réparateur et une somnolence diurne. Il vous explique qu'il se réveille souvent la nuit par manque d'air. Vous suspectez un syndrome d'apnée du sommeil et réalisez une polygraphie ventilatoire :",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On peut suspecter une somnolence diurne excessive si le score d'Epworth est supérieur à 11/24. ; B) L'obésité est un facteur de risque de syndrome d'apnée du sommeil obstructif.. La macroglossie est un facteur de risque de syndrome d'apnée du sommeil obstructif. ; E) La dépression est un diagnostic différentiel chez un patient présentant une somnolence diurne excessive."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le score d'Epworth évalue la somnolence diurne ; un score > 11/24 est pathologique.\n• B (Vrai) : L'obésité est le principal facteur de risque du SAS obstructif.\n• C (Vrai) : La macroglossie (grosse langue) réduit la filière pharyngée et favorise l'obstruction des voies aériennes supérieures.\n• D (Faux) : Le SAS est considéré comme sévère si l'Indice d'Apnées-Hypopnées (IAH) est ≥ 30/h. Entre 15 et 30/h, il est modéré.\n• E (Vrai) : La dépression peut simuler un tableau d'asthénie et de somnolence diurne, c'est un diagnostic différentiel classique."
   },
   {
     "options": {
@@ -3536,1248 +3551,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/SQUI.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Un patient de 50 ans consulte aux urgences pour des crachats de sang à la suite d'un effort de toux spontanée de plus de 250 cc",
+    "text": "Un patient de 50 ans consulte aux urgences pour des crachats de sang à la suite d'un effort de toux spontanée de plus de 250 cc :",
     "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il s'agit d'une hémoptysie de grande abondance. ; C) Le scanner thoracique injecté est indispensable à la prise en charge. ; D) La tuberculose peut être une cause de ce symptôme. ; E) Le cancer broncho-pulmonaire peut être une cause de ce symptôme."
-  },
-  {
-    "options": {
-      "A": "Prise en charge urgente",
-      "B": "Prise en charge ambulatoire",
-      "C": "Radiographie thoracique systématique",
-      "D": "Isolement aérien Antibiothérapie après réception des résultats de l'ECBC"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "C"
-    ],
-    "text": "Quels sont les principes de prise en charge de la pneumopathie du sujet jeune sans signe de gravité ?",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Prise en charge urgente ; B) Prise en charge ambulatoire ; C) Radiographie thoracique systématique"
-  },
-  {
-    "options": {
-      "A": "Opacité alvéolaire systématisée",
-      "B": "Opacités alvéolo-interstitielles péri-hilaires",
-      "C": "Opacités infiltratives non systématisées",
-      "D": "Epanchement pleural vo Cardiomégalie . Aucune •e•"
-    },
-    "correctAnswers": [
-      "A",
-      "C",
-      "D"
-    ],
-    "text": "Quelles sont les anomalies pouvant être retrouvées sur la radiographie thoracique d'une pneumopathie aiguë communautaire",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Opacité alvéolaire systématisée ; C) Opacités infiltratives non systématisées ; D) Epanchement pleural vo Cardiomégalie . Aucune •e•"
-  },
-  {
-    "options": {
-      "A": "Il s'agit d'un examen accessible, peu irradiant.",
-      "B": "Elle utilise les protons H+.",
-      "C": "La visualisation de 9 arcs costaux antérieurs est un critère de qualité.",
-      "D": "L'arc supérieur droit correspond au bouton aortique.",
-      "E": "Le signe de la silhouette est utile pour différencier un pneumothorax d'une pleurésie."
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "text": "Concernant la radiographie thoracique",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il s'agit d'un examen accessible, peu irradiant."
-  },
-  {
-    "options": {
-      "A": "Il s'agit d'un syndrome pleural.",
-      "B": "Il s'agit d'un syndrome interstitiel.",
-      "C": "Il s'agit d'un syndrome alvéolaire.",
-      "D": "Je dois vite lui faire une IRM pour trancher.",
-      "E": "Il s'agit d'une probable pneumonie infectieuse."
-    },
-    "correctAnswers": [
-      "C",
-      "E"
-    ],
-    "text": "Mr. J. présente une toux fébrile avec expectorations sales depuis 48h. Vous le voyez aux urgences ; voici sa radio : • Concernant cette radiographie, quelles propositions sont vraies?",
-    "image": "data/images/annales/UE3-Pneumo2-SQUI-p5-xref165.jpeg",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Il s'agit d'un syndrome alvéolaire. ; E) Il s'agit d'une probable pneumonie infectieuse."
-  },
-  {
-    "options": {
-      "A": "Dans le syndrome interstitiel, on observe souvent un comblement de l'espace pleural.",
-      "B": "Un volumineux épanchement pleural liquidien peut causer un poumon blanc unilatéral.",
-      "C": "Le pneumothorax de faible abondance est visible principalement à l'apex chez un sujet debout.",
-      "D": "En cas de volumineux pneumothorax, le médiastin (dont la trachée) est attiré vers le pneumothorax.",
-      "E": "Un bronchogramme aérique est classique dans le syndrome interstitiel."
-    },
-    "correctAnswers": [
-      "C"
-    ],
-    "text": "Concernant la radiographie de thorax :",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Le pneumothorax de faible abondance est visible principalement à l'apex chez un sujet debout."
-  },
-  {
-    "options": {
-      "A": "C'est le lieu de l'hématose.",
-      "B": "Il n'y a pas d'adipocytes.",
-      "C": "Elle comprend des pneumocytes 1 et des pneumocytes 2.",
-      "D": "Elle est riche en fibrocytes.",
-      "E": "Elle comprend une lame basale. vo"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "E"
-    ],
-    "text": "A propos de la barrière alvéolo-capillaire :",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) C'est le lieu de l'hématose. ; B) Il n'y a pas d'adipocytes. ; E) Elle comprend une lame basale. vo"
-  },
-  {
-    "options": {
-      "A": "",
-      "B": "Stade pseudo-glandulaire, stade embryonnaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
-      "C": "Stade embryonnaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
-      "D": "Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
-    },
-    "correctAnswers": [
-      "B",
-      "C",
-      "D"
-    ],
-    "text": "Les 5 stades de développement de l'appareil respiratoire sont dans l'ordre chronologique ? Stade embryonnaire, stade pseudo-glandulaire, stade canaliculaire, stade sacculaire, stade alvéolaire",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Stade pseudo-glandulaire, stade embryonnaire, stade sacculaire, stade canaliculaire, stade alvéolaire ; C) Stade embryonnaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade alvéolaire ; D) Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
-  },
-  {
-    "options": {
-      "A": "Les pneumocytes sont recouverts de surfactant.",
-      "B": "Les pneumocytes de type 2 synthétisent le surfactant.",
-      "C": "Au niveau des bronchioles respiratoires, le cartilage forme un anneau complet.",
-      "D": "Les macrophages ne sont pas présents dans les alvéoles. Les alvéoles sont bordées par un épithélium riche en cellules ciliées."
-    },
-    "correctAnswers": [
-      "A",
-      "B"
-    ],
-    "text": "A propos des voies aériennes respiratoires •",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les pneumocytes sont recouverts de surfactant. ; B) Les pneumocytes de type 2 synthétisent le surfactant."
-  },
-  {
-    "options": {
-      "A": "NFS b ECG v•",
-      "C": "Radiographie thoracique artérielle",
-      "D": "Scanner thoracique",
-      "E": "Spirométrie",
-      "F": "Gazométrie artérielle Vous en avez sélectionné correctement 2."
-    },
-    "correctAnswers": [
-      "C",
-      "F"
-    ],
-    "text": "Devant une dyspnée aigue, quels sont les 3 examens complémentaires à réaliser en 1ère intention ? — 3 réponses sont attendues —",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Radiographie thoracique artérielle ; F) Gazométrie artérielle Vous en avez sélectionné correctement 2."
-  },
-  {
-    "options": {
-      "A": "L'absence de cellules tumorales exclut une origine néoplasique.",
-      "B": "Il faut évoquer une poussée d'insuffisance cardiaque.",
-      "C": "Il faut évoquer une origine infectieuse.",
-      "D": "C'est un exsudat.",
-      "E": "C'est un transsudat."
-    },
-    "correctAnswers": [
-      "C",
-      "D"
-    ],
-    "text": "Concernant l'analyse de cet épanchement pleural : • Protéine 32g/L • LDH 10000 UI/L • PNN 750/0 • Macrophages 23% • PNEI% • Cellules mésothéliales 1 %",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Il faut évoquer une origine infectieuse. ; D) C'est un exsudat."
-  },
-  {
-    "options": {
-      "A": "Ces pathologies concernent essentiellement les voies aériennes.",
-      "B": "Les étiologies aiguës sont dominés par des causes infectieuses et cardiologique.",
-      "C": "La fibroscopie avec lavage broncho alvéolaire est un examen diagnostic",
-      "D": "Le scanner thoracique n'est d'aucune utilité.",
-      "E": "Aucune de ces propositions"
-    },
-    "correctAnswers": [
-      "B",
-      "C"
-    ],
-    "text": "Concernant les pneumopathies interstitielles diffuses",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les étiologies aiguës sont dominés par des causes infectieuses et cardiologique. ; C) La fibroscopie avec lavage broncho alvéolaire est un examen diagnostic"
-  },
-  {
-    "options": {
-      "A": "Cette radiographie thoracique est normale.",
-      "B": "Syndrome alvéolaire lobaire moyen pouvant faire evoquer une pneumopathie infectieuse",
-      "C": "Opacité médiastinale postérieure droite pouvant faire évoquer une tumeur neurogène",
-      "D": "Opacité médiastinale antérieure droite pouvant faire évoquer un lymphome",
-      "E": "Ce patient pourrait présenter une paralysie récurrentielle droite."
-    },
-    "correctAnswers": [
-      "D"
-    ],
-    "text": "Concernant cette image",
-    "image": "data/images/annales/UE3-Pneumo2-SQUI-p10-xref352.jpeg",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Opacité médiastinale antérieure droite pouvant faire évoquer un lymphome"
-  },
-  {
-    "options": {
-      "A": "des bétabloquants.",
-      "B": "des bêta-2-agonistes.",
-      "C": "des anti-inflammatoires non-stéroïdiens.",
-      "D": "des agonistes du récepteurs aux leucotriènes.",
-      "E": "des methylxanthines inhalées."
-    },
-    "correctAnswers": [
-      "B"
-    ],
-    "text": "Le traitement de la crise d'asthme repose sur :",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) des bêta-2-agonistes."
-  },
-  {
-    "options": {
-      "A": "Il existe toujours un épanchement pleural des bases secondaires a l'irruption d'air dans la cavité pleurale.",
-      "B": "Il n'est jamais spontanée.",
-      "C": "Il peut-être d'origine traumatique.",
-      "D": "La radiographie thoracique de face est toujours normale.",
-      "E": "Il peut se traduire par une douleur latérothoracique."
-    },
-    "correctAnswers": [
-      "C",
-      "E"
-    ],
-    "text": "Concernant le pneumothorax •",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-17",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Il peut-être d'origine traumatique. ; E) Il peut se traduire par une douleur latérothoracique."
-  },
-  {
-    "options": {
-      "A": "L'oxygénation du diaphragme",
-      "B": "Un rôle de réservoir sanguin",
-      "C": "Filtre circulatoire",
-      "D": "L'oxygénation musculaire périphérique SQUI :",
-      "E": "L'apport nutritif aux cellules du parenchyme pulmonaire"
-    },
-    "correctAnswers": [
-      "B",
-      "C",
-      "E"
-    ],
-    "text": "Quelles fonctions assurent la circulation pulmonaire ?",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-18",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Un rôle de réservoir sanguin ; C) Filtre circulatoire ; E) L'apport nutritif aux cellules du parenchyme pulmonaire"
-  },
-  {
-    "options": {
-      "A": "Les systèmes tampons",
-      "B": "L'hémoglobine",
-      "C": "La ventilation",
-      "D": "Les reins L'estomac"
-    },
-    "correctAnswers": [
-      "B",
-      "D"
-    ],
-    "text": "Quel(s) élément(s) ne participe(nt) pas à la régulation du pH extra cellulaire ?",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-19",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'hémoglobine ; D) Les reins L'estomac"
-  },
-  {
-    "options": {
-      "A": "La sévérité est évalué en fonction du VEMS après bronchodilatateurs.",
-      "B": "Il existe dans la classification Gold quatre stades.",
-      "C": "Le grade Gold quatre est le moins sévère.",
-      "D": "Le grade Gold 2 est défini par VEMS compris entre 50 et 79% des valeurs théoriques.",
-      "E": "La présence dune réversibilité témoigne dune maladie plus sévère."
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "D"
-    ],
-    "text": "Concernant la sévérité de la BPCO SQUI :",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-20",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La sévérité est évalué en fonction du VEMS après bronchodilatateurs. ; B) Il existe dans la classification Gold quatre stades. ; D) Le grade Gold 2 est défini par VEMS compris entre 50 et 79% des valeurs théoriques."
-  },
-  {
-    "options": {
-      "A": "Les systèmes tampons",
-      "B": "L'hémoglobine",
-      "C": "La ventilation",
-      "D": "Les reins L'estomac"
-    },
-    "correctAnswers": [
-      "B",
-      "D"
-    ],
-    "text": "Quel(s) élément(s) ne participe(nt) pas à la régulation du pH extra cellulaire ?",
-    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-21",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'hémoglobine ; D) Les reins L'estomac"
-  }
-];
-window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/mDP1.pdf"] = [
-  {
-    "options": {
-      "A": "Cancer broncho-pulmonaire",
-      "B": "Pneumonie franche lobaire aiguë",
-      "C": "Infection tuberculeuse latente",
-      "D": "Tuberculose pulmonaire maladie v•",
-      "E": "Œdème aigu pulmonaire"
-    },
-    "correctAnswers": [
-      "A",
-      "D"
-    ],
-    "text": "[Cas clinique : Monsieur M., 60 ans, vient consulter pour une toux évoluant depuis 3 mois. Il travaille dans la maçonnerie et fume 1 paquet de cigarettes par jour depuis l'âge de 1 Sans. A l'interrogatoire, le patient rapporte en plus de la toux, une perte de 6kg en 1 mois et des expectorations claires présentant parfois des filets de sang.]\nQuel(s) est(sont) le(s) diagnostic(s) le(s) plus probable(s) ?",
-    "id": "ANN-UE3-UE3S3Pneumologie2-mDP1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Cancer broncho-pulmonaire ; D) Tuberculose pulmonaire maladie v•"
-  },
-  {
-    "options": {
-      "A": "Nodules et micronodules multiples",
-      "B": "Bulles d'emphysème",
-      "C": "Infiltrats",
-      "D": "Excavations Localisation des lésions dans les lobes supérieurs"
-    },
-    "correctAnswers": [
-      "A",
-      "C",
-      "D"
-    ],
-    "text": "[Cas clinique : Monsieur M., 60 ans, vient consulter pour une toux évoluant depuis 3 mois. Il travaille dans la maçonnerie et fume 1 paquet de cigarettes par jour depuis l'âge de 1 Sans. A l'interrogatoire, le patient rapporte en plus de la toux, une perte de 6kg en 1 mois et des expectorations claires présentant parfois des filets de sang.]\n1 . Vous lui prescrivez un scanner thoracique dont voici les images Quels sont les aspects évocateurs de tuberculose en TDM ? (plusieurs réponses possibles)",
-    "image": "data/images/annales/UE3-Pneumo2-mDP1-p2-xref37.jpeg",
-    "id": "ANN-UE3-UE3S3Pneumologie2-mDP1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Nodules et micronodules multiples ; C) Infiltrats ; D) Excavations Localisation des lésions dans les lobes supérieurs"
-  },
-  {
-    "options": {
-      "A": "Tubages gastriques à la recherche de BK",
-      "B": "QuantiFERON@",
-      "C": "Examens des crachats à la recherche de BK",
-      "D": "Fibroscopie bronchique avec recherche de BK",
-      "E": "Hémocultures à la recherche de BK"
-    },
-    "correctAnswers": [
-      "C"
-    ],
-    "text": "[Cas clinique : Monsieur M., 60 ans, vient consulter pour une toux évoluant depuis 3 mois. Il travaille dans la maçonnerie et fume 1 paquet de cigarettes par jour depuis l'âge de 1 Sans. A l'interrogatoire, le patient rapporte en plus de la toux, une perte de 6kg en 1 mois et des expectorations claires présentant parfois des filets de sang.]\nVous évoquez une tuberculose pulmonaire. mDP1 . Quel examen faites-vous en première intention pour confirmer votre diagnostic ?",
-    "id": "ANN-UE3-UE3S3Pneumologie2-mDP1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Examens des crachats à la recherche de BK"
-  },
-  {
-    "options": {
-      "A": "Quadrithérapie INH+RMP+EMB+PZA 2 mois puis bithérapie INH+RMP 4 mois",
-      "B": "Quadrithérapie INH+RMP+EMB+PZA 4 mois puis bithérapie INH+RMP 2 mois",
-      "C": "Trithérapie INH+RMP+EMB 3 mois puis bithérapie INH+RMP 6 mois",
-      "D": "Trithérapie INH+EMB+PZA 3 mois puis bithérapie INH+PZA 6 mois",
-      "E": "Bithérapie INH+RMP 2 mois puis quadrithérapie INH+RMP+EMB+PZA 4 mois"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "text": "[Cas clinique : Monsieur M., 60 ans, vient consulter pour une toux évoluant depuis 3 mois. Il travaille dans la maçonnerie et fume 1 paquet de cigarettes par jour depuis l'âge de 1 Sans. A l'interrogatoire, le patient rapporte en plus de la toux, une perte de 6kg en 1 mois et des expectorations claires présentant parfois des filets de sang.]\nQuel traitement mettez-vous en place ? = isoniazide = rifampicine RMP = éthambutol EMB = pyrazinamide PZA",
-    "id": "ANN-UE3-UE3S3Pneumologie2-mDP1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Quadrithérapie INH+RMP+EMB+PZA 2 mois puis bithérapie INH+RMP 4 mois"
-  },
-  {
-    "options": {
-      "A": "Rejet par la bouche de sang en provenance des voies aériennes sus-glottiques",
-      "B": "Le saignement est rouge vif.",
-      "C": "Le saignement survient lors d'un effort de vomissement.",
-      "D": "Elle peut être précédée de prodromes (grésillement laryngé, goût métallique,...).",
-      "E": "Le sang est aéré et spumeux."
-    },
-    "correctAnswers": [
-      "B",
-      "D",
-      "E"
-    ],
-    "text": "[Cas clinique : Monsieur M., 60 ans, vient consulter pour une toux évoluant depuis 3 mois. Il travaille dans la maçonnerie et fume 1 paquet de cigarettes par jour depuis l'âge de 1 Sans. A l'interrogatoire, le patient rapporte en plus de la toux, une perte de 6kg en 1 mois et des expectorations claires présentant parfois des filets de sang.]\n1 . Le patient rapporte encore le premier mois des expectorations de sang. Quel(s) est(sont) le(s) critère(s) permettant de différencier une hémoptysie d'une autre étiologie ?",
-    "id": "ANN-UE3-UE3S3Pneumologie2-mDP1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Le saignement est rouge vif. ; D) Elle peut être précédée de prodromes (grésillement laryngé, goût métallique,...). ; E) Le sang est aéré et spumeux."
-  }
-];
-window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 3/DP1.pdf"] = [
-  {
-    "options": {
-      "A": "La sensation d'oppression thoracique",
-      "B": "Le déclenchement des symptômes par des infections virales et/ où l'exposition à des allergènes",
-      "C": "La variabilité des symptômes au cours du temps et leurs réversibilité",
-      "D": "Absence de symptôme la nuit",
-      "E": "Des crépitants a l'auscultation pulmonaire"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "C"
-    ],
-    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ces antécédents vous retrouvez . • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. . Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nÀ l'interrogatoire, quel(s) signe(s) recherchez vous qui vous ou nous orienterai(en)t vers le diagnostic d'asthme ?",
-    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La sensation d'oppression thoracique ; B) Le déclenchement des symptômes par des infections virales et/ où l'exposition à des allergènes ; C) La variabilité des symptômes au cours du temps et leurs réversibilité"
-  },
-  {
-    "options": {
-      "A": "Un résultat normal n'élimine pas le diagnostic.",
-      "B": "Le trouble ventilatoire obstructif (TVO) n'est pas réversible.",
-      "C": "Il existe un syndrome restrictif fréquemment retrouvé pendant la grossesse.",
-      "D": "La réversibilité du trouble ventilatoire obstructif est définie par une augmentation du VEMS de plus de 200 ML et de plus de 12 % , après administration de Salbutamol, par rapport aux valeurs initiales.",
-      "E": "Le trouble ventilatoire est défini chez l'adulte par un rapport VEMS/CV inférieur à 0,6."
-    },
-    "correctAnswers": [
-      "A",
-      "D"
-    ],
-    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ces antécédents vous retrouvez . • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. . Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\n: Concernant les épreuves fonctionnelles respiratoires chez cette patiente asthmatique",
-    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un résultat normal n'élimine pas le diagnostic. ; D) La réversibilité du trouble ventilatoire obstructif est définie par une augmentation du VEMS de plus de 200 ML et de plus de 12 % , après administration de Salbutamol, par rapport aux valeurs initiales."
-  },
-  {
-    "options": {
-      "A": "Il existe un syndrome restrictif.",
-      "B": "Il existe un syndrome obstructif non réversible.",
-      "C": "Il existe un syndrome obstructif réversible.",
-      "D": "Cest un examen normal.",
-      "E": "Il ny a pas de restriction."
-    },
-    "correctAnswers": [
-      "C",
-      "E"
-    ],
-    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ces antécédents vous retrouvez . • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. . Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\n2. 10 2.20 2. 10 2.23 o. 82 0.50 DPI : La patiente réalise les épreuves fonctionnelles respiratoires suivantes 6 23/10/00 cvs DD' SO Vous interpréter cet examen",
-    "image": "data/images/annales/UE3-Pneumo3-DP1-p3-xref66.jpeg",
-    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Il existe un syndrome obstructif réversible. ; E) Il ny a pas de restriction. — Remarques : 20/10/09 2.77"
-  },
-  {
-    "options": {
-      "A": "La majorité des traitements doivent être interrompus.",
-      "B": "Il n'y a pas de contre-indications aux corticoïdes inhalées.",
-      "C": "On peut utiliser une association corticoïdes inhalées et de bêta 2 mimétique.",
-      "D": "Les glucocorticoïdes par voie orale sont les seuls traitements utilisables.",
-      "E": "La théophylline est le traitement de choix en première intention."
-    },
-    "correctAnswers": [
-      "B",
-      "C"
-    ],
-    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ces antécédents vous retrouvez . • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. . Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\n: Le tableau clinique et fonctionnel est compatible avec un asthme. Concernant la prise en charge thérapeutique pendant la grossesse",
-    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Il n'y a pas de contre-indications aux corticoïdes inhalées. ; C) On peut utiliser une association corticoïdes inhalées et de bêta 2 mimétique."
-  },
-  {
-    "options": {
-      "A": "Mise en place dune corticothérapie inhalée faible dose",
-      "B": "Mise en place d'un traitement par théophylline",
-      "C": "Prescription de Ventoline à la demande",
-      "D": "Prescription d'un bêta 2 mimétique en monothérapie seul",
-      "E": "Prescription d'un atropinique longue durée daction"
-    },
-    "correctAnswers": [
-      "A",
-      "C"
-    ],
-    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ces antécédents vous retrouvez . • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. . Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nQuelle prise en charge thérapeutique proposez-vous ?",
-    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Mise en place dune corticothérapie inhalée faible dose ; C) Prescription de Ventoline à la demande"
-  },
-  {
-    "options": {
-      "A": "Arrêt du tabac",
-      "B": "Réévaluation clinique après la grossesse",
-      "C": "Évictions des allergènes",
-      "D": "Réévaluation clinique dans un mois •e•",
-      "E": "Prise en charge de la rhinite v'"
-    },
-    "correctAnswers": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ces antécédents vous retrouvez . • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. . Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nQuelle(s) autre(s) mesure(s) associez-vous ?",
-    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Arrêt du tabac ; C) Évictions des allergènes ; D) Réévaluation clinique dans un mois •e• ; E) Prise en charge de la rhinite v' — Remarques : DPI :"
-  },
-  {
-    "options": {
-      "A": "Son asthme semble contrôlé.",
-      "B": "Vous proposez de majorer le traitement de fond en vue de l'accouchement.",
-      "C": "Vous encourager la patiente à suivre de façon la plus régulière possible son traitement sans le modifier.",
-      "D": "Tout va bien, vous arrêtez le traitement avant l'accouchement.",
-      "E": "Vous poursuivez le traitement jusqu'à l'accouchement et vous conseillez à la patiente de l'interrompre ensuite."
-    },
-    "correctAnswers": [
-      "A",
-      "C"
-    ],
-    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ces antécédents vous retrouvez . • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. . Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nVous revoyez votre patiente en consultation avant l'accouchement à la demande de l'anesthésiste. Le traitement est bien toléré. Elle n'a pas représenté de symptômes de son asthme, n'a pas eu recours à la Ventoline au cours des quatre dernières semaines et ne présente pas de symptômes nocturnes.",
-    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Son asthme semble contrôlé. ; C) Vous encourager la patiente à suivre de façon la plus régulière possible son traitement sans le modifier."
-  },
-  {
-    "options": {
-      "A": "La Ventoline est contre-indiqué.",
-      "B": "Elle doit poursuivre ses corticoïdes inhalées.",
-      "C": "La théophylline peut avoir une incidence sur le nourrisson.",
-      "D": "Le montelukast peut-être utilisé si nécessaire.",
-      "E": "Tous les traitements sont contre-indiqués."
-    },
-    "correctAnswers": [
-      "B",
-      "C",
-      "D"
-    ],
-    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ces antécédents vous retrouvez . • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. . Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\n: La patiente vous interroge concernant son traitement et l'allaitement. Quel(s) conseil(s) pouvez-vous lui donner ?",
-    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Elle doit poursuivre ses corticoïdes inhalées. ; C) La théophylline peut avoir une incidence sur le nourrisson. ; D) Le montelukast peut-être utilisé si nécessaire."
-  }
-];
-window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 3/SQI1.pdf"] = [
-  {
-    "options": {
-      "A": "Il ne varie pas pendant la grossesse.",
-      "B": "Cest la maladie chronique la plus fréquente pendant la grossesse.",
-      "C": "L'asthme est évolutif au cours de la grossesse.",
-      "D": "Il n'a aucun impact sur lévolution de l'enfant.",
-      "E": "Un asthme sous traité a un impact négatif sur l'évolution de la grossesse."
-    },
-    "correctAnswers": [
-      "B",
-      "C",
-      "E"
-    ],
-    "text": "Concernant l'asthme pendant la grossesse .",
-    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Cest la maladie chronique la plus fréquente pendant la grossesse. ; C) L'asthme est évolutif au cours de la grossesse. ; E) Un asthme sous traité a un impact négatif sur l'évolution de la grossesse."
-  },
-  {
-    "options": {
-      "A": "Élévation du diaphragme de + de 4 cm",
-      "B": "Modification importante des pressions trans diaphragmatique à 37 semaine de grossesse",
-      "C": "Diminution de la capacité vitale",
-      "D": "Pas de modification de la capacité pulmonaire totale",
-      "E": "Augmentation de la sensibilité du centre respiratoire au C02"
-    },
-    "correctAnswers": [
-      "A",
-      "D",
-      "E"
-    ],
-    "text": "Au cours de la grossesse, quelles sont les variations physiologiques et anatomique que l'on peut observer ?",
-    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Élévation du diaphragme de + de 4 cm ; D) Pas de modification de la capacité pulmonaire totale ; E) Augmentation de la sensibilité du centre respiratoire au C02"
-  },
-  {
-    "options": {
-      "A": "La maladie s'aggrave pour la moitié des patientes",
-      "B": "Un tiers des patientes s'améliore",
-      "C": "Un tiers des patientes s'aggrave",
-      "D": "1/4 des patientes restent stable",
-      "E": "1/4 des patientes s'aggrave"
-    },
-    "correctAnswers": [
-      "B",
-      "C"
-    ],
-    "text": "Classiquement, concernant l'évolution de l'asthme pendant la grossesse",
-    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Un tiers des patientes s'améliore ; C) Un tiers des patientes s'aggrave"
-  },
-  {
-    "options": {
-      "A": "Augmentation modérée des fausse couches",
-      "B": "Poids de naissance augmenté pour le fœtus après un passage aux urgences pour asthme aiguë grave de la mère",
-      "C": "Le mauvais contrôle de la maladie et la sévérité augmentent le risque d'une hypertension artérielle.",
-      "D": "Augmentation la morbidité fœtale chez toutes les patientes",
-      "E": "Pas de modification"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "text": "Concernant l'impact de l'asthme sur la grossesse :",
-    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Augmentation modérée des fausse couches"
-  },
-  {
-    "options": {
-      "A": "La bonne observance du traitement",
-      "B": "Le tabagisme",
-      "C": "L'interruption du traitement de fond",
-      "D": "La prise régulière de Ventoline",
-      "E": "Asthme initialement sévère"
-    },
-    "correctAnswers": [
-      "B",
-      "C",
-      "E"
-    ],
-    "text": "Quels sont les facteurs daggravation de l'asthme pendant la grossesse ?",
-    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Le tabagisme ; C) L'interruption du traitement de fond ; E) Asthme initialement sévère"
-  },
-  {
-    "options": {
-      "A": "Éviter l'hypoxie pour le fœtus",
-      "B": "Prévention des épisodes aigus •e•",
-      "C": "On tolère une plus grande variation du VEMS pendant la grossesse",
-      "D": "Maintien d'une fonction respiratoire normale pour la mère",
-      "E": "Limiter la iatrogénie"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "D",
-      "E"
-    ],
-    "text": "Quels sont les objectifs du traitement de l'asthme chez la femme enceinte ?",
-    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Éviter l'hypoxie pour le fœtus ; B) Prévention des épisodes aigus •e• ; D) Maintien d'une fonction respiratoire normale pour la mère ; E) Limiter la iatrogénie"
-  },
-  {
-    "options": {
-      "A": "La patiente doit interrompre son traitement dès l'annonce de la grossesse.",
-      "B": "Le traitement de l'asthme a des effets indésirables décrits.",
-      "C": "Les médicaments habituellement utilisés sont autorisés pendant la grossesse.",
-      "D": "Les corticoïdes inhalé sont contre-indiqués.",
-      "E": "Il ny a pas d'effets secondaires rapportés avec le Salbutamol."
-    },
-    "correctAnswers": [
-      "C",
-      "E"
-    ],
-    "text": "Concernant les traitements de l'asthme pendant la grossesse",
-    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Les médicaments habituellement utilisés sont autorisés pendant la grossesse. ; E) Il ny a pas d'effets secondaires rapportés avec le Salbutamol."
-  }
-];
-window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 4/SQI1.pdf"] = [
-  {
-    "options": {
-      "A": "Ce sont des antagonistes des récepteurs muscariniques.",
-      "B": "Ils ont des effets parasympatholytiques.",
-      "C": "Ils ont une action anti-inflammatoire.",
-      "D": "Ils sont utilisés en première ligne de traitement de la crise d'asthme.",
-      "E": "Leur effet bronchodilatateur est plus rapide et plus puissant que celui des beta-2-mimétiques."
-    },
-    "correctAnswers": [
-      "A",
-      "B"
-    ],
-    "text": "Concernant les anticholinergiques :",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ce sont des antagonistes des récepteurs muscariniques. ; B) Ils ont des effets parasympatholytiques."
-  },
-  {
-    "options": {
-      "A": "repose sur des bétabloquants.",
-      "B": "repose sur des bêta-2-agonistes.",
-      "C": "repose sur des anti-inflammatoires non-stéroïdiens.",
-      "D": "repose sur des agonistes du récepteurs aux leucotriènes.",
-      "E": "repose sur des methylxanthines inhalées."
-    },
-    "correctAnswers": [
-      "B"
-    ],
-    "text": "Le traitement de la crise d'asthme :",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) repose sur des bêta-2-agonistes."
-  },
-  {
-    "options": {
-      "A": "Une turgescence jugulaire",
-      "B": "Un œdème en pélerine",
-      "C": "Une douleur de l'épaule et du membre supérieur de distribution C8 D2",
-      "D": "Un syndrome de Claude Bernard Horner",
-      "E": "Une amyotrophie des muscles de la main"
-    },
-    "correctAnswers": [
-      "C",
-      "D",
-      "E"
-    ],
-    "text": "Un patient se présente à votre consultation. Après interrogatoire et examen clinique, vous trouvez qu'il présente un syndrome de Pancoast Tobias. Ce syndrome associe",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Une douleur de l'épaule et du membre supérieur de distribution C8 D2 ; D) Un syndrome de Claude Bernard Horner ; E) Une amyotrophie des muscles de la main"
-  },
-  {
-    "options": {
-      "A": "Un pH bas",
-      "B": "Des bicarbonates augmentés",
-      "C": "Une PC02 abaissée",
-      "D": "Des bicarbonates abaissés Un pH > 7, 4"
-    },
-    "correctAnswers": [
-      "B"
-    ],
-    "text": "Dans l'alcalose métabolique, on retrouve ?",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Des bicarbonates augmentés"
-  },
-  {
-    "options": {
-      "A": "L'oropharynx se situe en arrière du « V » lingual, en dessous du voile du palais et se termine au niveau de l'épiglotte.",
-      "B": "Les tonsilles pharyngiennes (végétations adénoïdes) sont situées dans l'oropharynx.",
-      "C": "Le laryngopharynx appartient au pharynx et constitue le carrefour aérodigestif.",
-      "D": "Le cartilage cricoïde est le seul cartilage circulaire des voies aériennes respiratoires.",
-      "E": "Les cartilages aryténoïdes s'articulent sur la partie antérieure du cartilage cricoïde, leurs mobilités permettent la mobilité des cordes vocales"
-    },
-    "correctAnswers": [
-      "A",
-      "C",
-      "D"
-    ],
-    "text": "Donnez la(les) réponse(s) vraie(s)",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'oropharynx se situe en arrière du « V » lingual, en dessous du voile du palais et se termine au niveau de l'épiglotte. ; C) Le laryngopharynx appartient au pharynx et constitue le carrefour aérodigestif. ; D) Le cartilage cricoïde est le seul cartilage circulaire des voies aériennes respiratoires. — Remarques : les tonsilles pharyngiennes sont dans le nasopharynx ; les cartilages aryténoïdes s'articulent à la partie postérieure du cricoïde) x"
-  },
-  {
-    "options": {
-      "A": "Asterixis",
-      "B": "Sueurs",
-      "C": "Cyanose",
-      "D": "Agitation",
-      "E": "Céphalées"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "D",
-      "E"
-    ],
-    "text": "Parmi ces propositions, quels sont les signes cliniques caractéristiques d'une hypercapnie ?",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Asterixis ; B) Sueurs ; D) Agitation ; E) Céphalées"
-  },
-  {
-    "options": {
-      "A": "Ce sont des agonistes des récepteurs bêta-2 adrénergiques.",
-      "B": "Le formeterol est un médicament inhalé à courte durée d'action.",
-      "C": "Le salbutamol est un médicament inhalé à longue durée d'action.",
-      "D": "Leurs récepteurs P2 sont exprimés dans le muscle lisse bronchique.",
-      "E": "Ils induisent une relaxation musculaire dans un délais de 1 à 15 minutes après prise inhalée."
-    },
-    "correctAnswers": [
-      "A",
-      "D",
-      "E"
-    ],
-    "text": "A propos des bêta-2 mimétiques :",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ce sont des agonistes des récepteurs bêta-2 adrénergiques. ; D) Leurs récepteurs P2 sont exprimés dans le muscle lisse bronchique. ; E) Ils induisent une relaxation musculaire dans un délais de 1 à 15 minutes après prise inhalée."
-  },
-  {
-    "options": {
-      "A": "Le diaphragme comprend une partie centrale musculaire et une partie périphérique tendineuse.",
-      "B": "L'innervation du diaphragme se fait par les nerfs phréniques dont l'origine est cervicale.",
-      "C": "En expiration, le diaphragme remonte passivement.",
-      "D": "Le hile pulmonaire est constitué d'une artère pulmonaire, d'une bronche souche et d'une veine pulmonaire.",
-      "E": "Le poumon droit comprend 3 lobes pulmonaires (supérieur, moyen, inférieur) et le poumon gauche 2 lobes (supérieur, inférieur)."
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "C"
-    ],
-    "text": "Donnez la(les) réponse(s) vraie(s)",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le diaphragme comprend une partie centrale musculaire et une partie périphérique tendineuse. ; B) L'innervation du diaphragme se fait par les nerfs phréniques dont l'origine est cervicale. ; C) En expiration, le diaphragme remonte passivement. — Remarques : partie centrale du diaphragme est tendineux ; le hile pulmonaire contient deux veines pulmonaires)."
-  },
-  {
-    "options": {
-      "A": "Un pneumothorax droit",
-      "B": "Un pneumothorax gauche v'",
-      "C": "Une pneumopathie gauche",
-      "D": "Une ligne de Damoiseau à droite",
-      "E": "Aucune des propositions"
-    },
-    "correctAnswers": [
-      "B"
-    ],
-    "text": "Sur cette radiographie on retrouve ?",
-    "image": "data/images/annales/UE3-Pneumo4-SQI1-p5-xref202.jpeg",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Un pneumothorax gauche v'"
-  },
-  {
-    "options": {
-      "A": "Les pneumocytes sont recouverts de surfactant.",
-      "B": "Les pneumocytes de type 2 synthétisent le surfactant.",
-      "C": "Au niveau des bronchioles respiratoires, le cartilage forme un anneau complet.",
-      "D": "Les macrophages sont présents dans les alvéoles. Les alvéoles sont bordées par un épithélium riche en cellules ciliées."
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "text": "A propos des voies aériennes respiratoires",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les pneumocytes sont recouverts de surfactant."
-  },
-  {
-    "options": {
-      "A": "L'oxygénation du diaphragme . Un rôle de réservoir sanguin",
-      "C": "Filtre circulatoire",
-      "D": "L'oxygénation musculaire périphérique",
-      "E": "L'apport nutritif aux cellules du parenchyme pulmonaire"
-    },
-    "correctAnswers": [
-      "A",
-      "C",
-      "E"
-    ],
-    "text": "Quelles fonctions assure la circulation pulmonaire ?",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'oxygénation du diaphragme . Un rôle de réservoir sanguin ; C) Filtre circulatoire ; E) L'apport nutritif aux cellules du parenchyme pulmonaire"
-  },
-  {
-    "options": {
-      "A": "Normale",
-      "B": "Épanchement pleural droit",
-      "C": "Pneumothorax gauche",
-      "D": "Opacité lobaire supérieure droite Opacité lobaire supérieure gauche"
-    },
-    "correctAnswers": [
-      "D"
-    ],
-    "text": "Quelle proposition est vraie concernant cette radiographie thoracique?",
-    "image": "data/images/annales/UE3-Pneumo4-SQI1-p7-xref268.jpeg",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Opacité lobaire supérieure droite Opacité lobaire supérieure gauche"
-  },
-  {
-    "options": {
-      "A": "",
-      "B": "Stade pseudo-glandulaire, stade embryonnaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
-      "C": "Stade embryonnaire, stade pseudo-glandulaire, stade canaliculaire, stade sacculaire, stade alvéolaire",
-      "D": "Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
-    },
-    "correctAnswers": [
-      "B",
-      "C",
-      "D"
-    ],
-    "text": "Les 5 stades de développement de l'appareil respiratoire sont dans l'ordre chronologique ? Stade embryonnaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Stade pseudo-glandulaire, stade embryonnaire, stade sacculaire, stade canaliculaire, stade alvéolaire ; C) Stade embryonnaire, stade pseudo-glandulaire, stade canaliculaire, stade sacculaire, stade alvéolaire ; D) Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
-  },
-  {
-    "options": {
-      "A": "C'est le lieu de l'hématose.",
-      "B": "Elle est riche en adipocytes.",
-      "C": "Elle comprend des pneumocytes 1 et des pneumocytes 2.",
-      "D": "Elle est riche en fibrocytes.",
-      "E": "Elle comprend une lame basale."
-    },
-    "correctAnswers": [
-      "A",
-      "E"
-    ],
-    "text": "A propos de la barrière alvéolo-capillaire :",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) C'est le lieu de l'hématose. ; E) Elle comprend une lame basale."
-  },
-  {
-    "options": {
-      "A": "Des sympathomimétiques",
-      "B": "Des sympatholytiques",
-      "C": "Des parasympathomimétiques",
-      "D": "Des parasympatholytiques",
-      "E": "Des inhibiteurs des phosphodiesterases"
-    },
-    "correctAnswers": [
-      "A",
-      "D",
-      "E"
-    ],
-    "text": "A propos des médicaments bronchodilatateurs, on retrouve :",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Des sympathomimétiques ; D) Des parasympatholytiques ; E) Des inhibiteurs des phosphodiesterases"
-  },
-  {
-    "options": {
-      "A": "Cyanose",
-      "B": "Fréquence respiratoire",
-      "C": "Respiration paradoxale",
-      "D": "Confusion Aucune des réponses n'est vraie"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "C"
-    ],
-    "text": "Parmi ces signes cliniques, permet(tent) d'évaluer la gravité d'une détresse respiratoire aigüe ?",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Cyanose ; B) Fréquence respiratoire ; C) Respiration paradoxale"
-  },
-  {
-    "options": {
-      "A": "Un pneumothorax radiographique est caractérisé par une hyperclarté avasculaire périphérique.",
-      "B": "L'arc médiastinal moyen gauche radiographique correspond anatomiquement à la veine cave supérieure.",
-      "C": "Le syndrome alvéolaire est caractérisé par la présence d'un bronchogramme aérique au sein d'une opacité.",
-      "D": "Dans le médiastin, 2 opacités de même densité au contact l'une de l'autre et effaçant leurs bords respectifs sont vo dans le même plan.",
-      "E": "L'appréciation de la réalisation d'une radiographie de face en inspiration profonde se fait sur la présence visible de la poche à air gastrique."
-    },
-    "correctAnswers": [
-      "A",
-      "C",
-      "D"
-    ],
-    "text": "Concernant la radiographie thoracique de face :",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-17",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un pneumothorax radiographique est caractérisé par une hyperclarté avasculaire périphérique. ; C) Le syndrome alvéolaire est caractérisé par la présence d'un bronchogramme aérique au sein d'une opacité. ; D) Dans le médiastin, 2 opacités de même densité au contact l'une de l'autre et effaçant leurs bords respectifs sont vo dans le même plan."
-  },
-  {
-    "options": {
-      "A": "est une gêne au retour veineux par compression extrinsèque ou thrombose de la veine cave supérieure.",
-      "B": "est dans la majorité des cas d'origine tumorale.",
-      "C": "associe une cyanose du visage, un œdème en pélerine, une turgescence jugulaire, une circulation veineuse collatérale et des céphalées en fin de nuit.",
-      "D": "peut être lié à un envahissement du médiastin antérieur. Aucune des propositions n'est vraie."
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "text": "Le syndrome cave supérieur •",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-18",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) est une gêne au retour veineux par compression extrinsèque ou thrombose de la veine cave supérieure. ; B) est dans la majorité des cas d'origine tumorale. ; C) associe une cyanose du visage, un œdème en pélerine, une turgescence jugulaire, une circulation veineuse collatérale et des céphalées en fin de nuit. ; D) peut être lié à un envahissement du médiastin antérieur. Aucune des propositions n'est vraie."
-  },
-  {
-    "options": {
-      "A": "Le diaphragme est un muscle strié il est commandé de façon automatique (la plupart du temps) ou volontaire.",
-      "B": "C'est un muscle accessoire de la respiration.",
-      "C": "Les fibres qui composent le diaphragme sont adaptées à un travail en endurance : 40 % d'entre elles sont de type lent.. Le contrôle nerveux du diaphragme se fait par l'intermédiaire des nerfs phréniques.",
-      "D": "Il ne participe pas à la ventilation. Le contrôle nerveux du diaphragme se fait par l'intermédiaire des nerfs phréniques."
-    },
-    "correctAnswers": [
-      "A",
-      "C"
-    ],
-    "text": "Concernant le diaphragme",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-19",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le diaphragme est un muscle strié il est commandé de façon automatique (la plupart du temps) ou volontaire. ; C) Les fibres qui composent le diaphragme sont adaptées à un travail en endurance : 40 % d'entre elles sont de type lent.. Le contrôle nerveux du diaphragme se fait par l'intermédiaire des nerfs phréniques."
-  },
-  {
-    "options": {
-      "A": "La fréquence respiratoire",
-      "B": "Les structures musculaires et osseuses de la cage thoracique",
-      "C": "La compression dynamique des voies aériennes",
-      "D": "Le parenchyme pulmonaire Le muscle lisse bronchique"
-    },
-    "correctAnswers": [
-      "B",
-      "D"
-    ],
-    "text": "Quel(s) facteur(s) détermine(nt) la compliance des voies aériennes ?",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-20",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les structures musculaires et osseuses de la cage thoracique ; D) Le parenchyme pulmonaire Le muscle lisse bronchique"
-  },
-  {
-    "options": {
-      "A": "",
-      "B": "La pression partielle artérielle en 02 est un paramètre mesurable. . Il est transporté dans le sang en majeure partie sous forme lié à l'hémoglobine.",
-      "D": "La Pa02 est toujours stable.",
-      "E": "L'oxygène diffuse de l'alvéole vers le compartiment sanguin de façon passive."
-    },
-    "correctAnswers": [
-      "B",
-      "E"
-    ],
-    "text": "Concernant l'oxygène : L'oxygène diffuse de façon active à travers la membrane alvéolo capillaire. X",
-    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-21",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La pression partielle artérielle en 02 est un paramètre mesurable. . Il est transporté dans le sang en majeure partie sous forme lié à l'hémoglobine. ; E) L'oxygène diffuse de l'alvéole vers le compartiment sanguin de façon passive."
-  }
-];
-window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/DP1.pdf"] = [
-  {
-    "options": {
-      "A": "Pneumopathie infectieuse base droite",
-      "B": "Embolie pulmonaire",
-      "C": "Décompensation hypercapnique de bronchopneumopathie chronique obstructive",
-      "D": "Décompensation cardiaque avec pleurésie exsudative",
-      "E": "Aucune de ces propositions."
-    },
-    "correctAnswers": [
-      "C"
-    ],
-    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il ya 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de traitement des Urgences: Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 1 5) somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7.22 ; Pa02 145 mmHg ; PaC02 69 mmHg ; Leucocytes 12.4 GIL. • Elle est suivie pour une BPCO post tabagique et une hypertension artérielle.]\nQuel est votre diagnostic ?",
-    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Décompensation hypercapnique de bronchopneumopathie chronique obstructive"
-  },
-  {
-    "options": {
-      "A": "Embolie pulmonaire",
-      "B": "Exacerbation virale d'une BPCO",
-      "C": "Pneumothorax partielle droit",
-      "D": "Pneumopathie base droite",
-      "E": "Pleurésie gauche"
-    },
-    "correctAnswers": [
-      "C"
-    ],
-    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il ya 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de traitement des Urgences: Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 1 5) somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7.22 ; Pa02 145 mmHg ; PaC02 69 mmHg ; Leucocytes 12.4 GIL. • Elle est suivie pour une BPCO post tabagique et une hypertension artérielle.]\n: Elle bénéficie d'une mise sous Ventilation Non Invasive apportant une amélioration clinique et gazométrique dans un premier temps (pH 7.34 ; p02 78 mmHg ; pC02 51 mmHg). 8h plus tard, échec de tentative de sevrage de Ventilation Non Invasive avec l'apparition d'une dyspnée inhibant la parole avec signes de lutte respiratoire. La patiente est également agitée avec des sueurs profuses et un balancement thoraco-abdominal. La radio suivante est réalisée: Quel est votre diagnostic ?",
-    "image": "data/images/annales/UE3-Pneumo5-DP1-p2-xref39.jpeg",
-    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Pneumothorax partielle droit"
-  },
-  {
-    "options": {
-      "A": "Syndrome obstructif sévère",
-      "B": "Syndrome mixte",
-      "C": "Pas de syndrome restrictif",
-      "D": "Syndrome obstructif modéré",
-      "E": "Aucune de ces propositions n'est juste"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il ya 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de traitement des Urgences: Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 1 5) somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7.22 ; Pa02 145 mmHg ; PaC02 69 mmHg ; Leucocytes 12.4 GIL. • Elle est suivie pour une BPCO post tabagique et une hypertension artérielle.]\n: La patiente est prise en charge en pneumologie puis regagne son domicile après 5 jours d'hospitalisation. Avec un traitement bronchodilatateur par beta 2 mimétiques pour sa BPCO Elle revient en consultation à 3 mois pour évaluation. Les EFR sous beta 2 mimétiques sont les suivantes • EXPLORATION FONCTIONNELLE RESPIRATOIRE Pneumologie CHU Saint Denis La Réunion Nom: Age : Taille: Sexe: Médecin : Spirométrie forcée Substa nce VEMS VEMS % CV MAX VEMS % CVF OEMM 2s/7S DEM OEM SO DEM DEP DIP plethysmographle CV MAX VR % CPT Résistances SR AW SG AW v GT pour resis. Pressions pt MAX PE MAX Diffusion OLCO SB OLC0c SB OLCO/VA 66 Années 167,0 cm féminin Date naissance: Poids: Servicc: Prénom: 83.0 kg Consultation Date 30/09/20 DR GAZAILLE Opérateur: Norme post Pos%Th chg va t L/sl tL,'s1 tcmH20•s/L1 temHzo•sl (cmH201 tcmHZ01 m mHg/ MIJ mm Hg/ Mll tu 2.79 2.35 76.56 2.76 5.33 3.60 1.21 6.09 2.92 5.23 2.08 2.81 o. 73 3.06 34.0 9.81 11,9 108 6E.3 S7.6 11.0 s 08 1_08 o. 66 49.s 61.2 1.32 0.38 0.69 0.39 0.24 1.35 2.24 1.34 6.17 82.2 6.44 0.26 13.3 89.7 1.16 6.77 18.3 38.7 28.2 13.8 10.8 22.1 45.8 143.s 297.0 198.5 229.3 433.2 23.1 914.9 10.9 154.7 Quelle propositions est vraie ?",
-    "image": "data/images/annales/UE3-Pneumo5-DP1-p4-xref64.jpeg",
-    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Syndrome obstructif sévère"
-  },
-  {
-    "options": {
-      "A": "L'ajout d'un corticoïde inhalé b La mise en place d'une association fixe par bêta-2-mimétique et anticholinergique",
-      "C": "La mise en place d'une association fixe par corticoïde inhalé et bêta-2-mimétique",
-      "D": "La mise en place d'un traitement par Ventoline systématique",
-      "E": "La mise en place d'une antibiothérapie en cours"
-    },
-    "correctAnswers": [
-      "C"
-    ],
-    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il ya 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de traitement des Urgences: Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 1 5) somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7.22 ; Pa02 145 mmHg ; PaC02 69 mmHg ; Leucocytes 12.4 GIL. • Elle est suivie pour une BPCO post tabagique et une hypertension artérielle.]\n: Elle ne rapporte aucune amélioration sur sa dyspnée, quelle modification thérapeutique peut être proposé ?",
-    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) La mise en place d'une association fixe par corticoïde inhalé et bêta-2-mimétique"
-  },
-  {
-    "options": {
-      "A": "Arrêt du Tabac",
-      "B": "La vaccination pour la grippe",
-      "C": "Arrêter la marche à cause de la dyspnée",
-      "D": "Pas de vaccin pour le pneumocoque",
-      "E": "La réhabilitation respiratoire Vous en avez sélectionné correctement 1"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "E"
-    ],
-    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il ya 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de traitement des Urgences: Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 1 5) somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7.22 ; Pa02 145 mmHg ; PaC02 69 mmHg ; Leucocytes 12.4 GIL. • Elle est suivie pour une BPCO post tabagique et une hypertension artérielle.]\nQuels sont les autres éléments de la prise en charge de votre patiente ?",
-    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Arrêt du Tabac ; B) La vaccination pour la grippe ; E) La réhabilitation respiratoire Vous en avez sélectionné correctement 1"
-  },
-  {
-    "options": {
-      "A": "Une aggravation rapide des symptômes",
-      "B": "Une fréquence respiratoire supérieur à 30 cycles par minute",
-      "C": "Un antécédent de séjour en réanimation pour exacerbation",
-      "D": "L'absence de comorbidité L'absence de tachycardie Vous en avez sélectionné correctement 1"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "C"
-    ],
-    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il ya 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de traitement des Urgences: Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 1 5) somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7.22 ; Pa02 145 mmHg ; PaC02 69 mmHg ; Leucocytes 12.4 GIL. • Elle est suivie pour une BPCO post tabagique et une hypertension artérielle.]\n: La patiente reviens vous voir six mois plus tard, car elle décrit depuis plus de 48 heures une majoration de sa dyspnée et des expectorations purulente qui la conduisent à une majoration de la consommation de Ventoline. Vous faites le diagnostic d'exacerbation de sa BPCO. Quels signes de gravité recherchez vous ?",
-    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une aggravation rapide des symptômes ; B) Une fréquence respiratoire supérieur à 30 cycles par minute ; C) Un antécédent de séjour en réanimation pour exacerbation"
-  },
-  {
-    "options": {
-      "A": "La majorité des exacerbations ne sont pas d'origine infectieuse.",
-      "B": "Le caractère purulent de l'expectoration est un élément en faveur d'une origine bactérienne.",
-      "C": "Haemophilus influenza est souvent mise en cause.",
-      "D": "Le Pseudomonas aeruginosa est souvent mise en cause. Les exacerbations sont toujours d'origine virale. Vous en avez sélectionné correctement 1."
-    },
-    "correctAnswers": [
-      "B",
-      "C"
-    ],
-    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il ya 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de traitement des Urgences: Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 1 5) somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7.22 ; Pa02 145 mmHg ; PaC02 69 mmHg ; Leucocytes 12.4 GIL. • Elle est suivie pour une BPCO post tabagique et une hypertension artérielle.]\nConcernant les exacerbations de BPCO :",
-    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Le caractère purulent de l'expectoration est un élément en faveur d'une origine bactérienne. ; C) Haemophilus influenza est souvent mise en cause."
-  },
-  {
-    "options": {
-      "A": "Une radiographie thoracique",
-      "B": "Un bilan biologique avec NFS, CRP, ionogramme et créatinine",
-      "C": "Une fibroscopie bronchique avec lavage broncho alvéolaire",
-      "D": "Un électrocardiogramme",
-      "E": "Une recherche de BAAR Vous en avez sélectionné correctement 1"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "D"
-    ],
-    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il ya 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de traitement des Urgences: Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 1 5) somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7.22 ; Pa02 145 mmHg ; PaC02 69 mmHg ; Leucocytes 12.4 GIL. • Elle est suivie pour une BPCO post tabagique et une hypertension artérielle.]\n: Quels examens complémentaires peuvent être demandés dans un premier temps ?",
-    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une radiographie thoracique ; B) Un bilan biologique avec NFS, CRP, ionogramme et créatinine ; D) Un électrocardiogramme"
-  },
-  {
-    "options": {
-      "A": "Un programme de réhabilitation respiratoire",
-      "B": "Une trithérapie fixe, associant corticoïdes, inhalée , bêta-2-mimétique et anticholinergique",
-      "C": "La mise en place d'un traitement antibiotique prophylactique",
-      "D": "L'arrêt des séances de kinésithérapie Aucune modification n'est envisagée. Vous en avez sélectionné correctement 1"
-    },
-    "correctAnswers": [
-      "A",
-      "B"
-    ],
-    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il ya 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de traitement des Urgences: Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 1 5) somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7.22 ; Pa02 145 mmHg ; PaC02 69 mmHg ; Leucocytes 12.4 GIL. • Elle est suivie pour une BPCO post tabagique et une hypertension artérielle.]\nIl s'agit du troisième épisode de ce type survenu au cours des six derniers mois, quelles propositions thérapeutiques peuvent être envisagées ?",
-    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un programme de réhabilitation respiratoire ; B) Une trithérapie fixe, associant corticoïdes, inhalée , bêta-2-mimétique et anticholinergique"
-  }
-];
-window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/SQI1.pdf"] = [
-  {
-    "options": {
-      "A": "Ces pathologies ne concernent pas les voies aériennes proximales.",
-      "B": "Les étiologies aiguës sont dominées par des causes infectieuses et cardiologiques.",
-      "C": "La fibroscopie avec lavage broncho-alvéolaire est un examen diagnostic clinique.",
-      "D": "Le scanner thoracique n'est d'aucune utilité.",
-      "E": "Aucune des propositions"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "C"
-    ],
-    "text": "Concernant les pneumopathies interstitielles diffuses .",
-    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ces pathologies ne concernent pas les voies aériennes proximales. ; B) Les étiologies aiguës sont dominées par des causes infectieuses et cardiologiques. ; C) La fibroscopie avec lavage broncho-alvéolaire est un examen diagnostic clinique."
-  },
-  {
-    "options": {
-      "A": "L'oropharynx se situe en arrière du « V » lingual, en dessous du voile du palais et se termine au niveau de l'épiglotte.",
-      "B": "Les tonsilles pharyngiennes (végétations adénoïdes) sont situées dans l'oropharynx.",
-      "C": "Le laryngopharynx appartient au pharynx et constitue le carrefour aérodigestif.",
-      "D": "Le cartilage cricoïde est le seul cartilage circulaire des voies aériennes respiratoires.",
-      "E": "Les cartilages aryténoïdes s'articulent sur la partie antérieure du cartilage cricoïde, leurs mobilités permettent la mobilité des cordes vocales"
-    },
-    "correctAnswers": [
-      "A",
-      "C",
-      "D"
-    ],
-    "text": "Donnez la(les) réponse(s) vraie(s)",
-    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'oropharynx se situe en arrière du « V » lingual, en dessous du voile du palais et se termine au niveau de l'épiglotte. ; C) Le laryngopharynx appartient au pharynx et constitue le carrefour aérodigestif. ; D) Le cartilage cricoïde est le seul cartilage circulaire des voies aériennes respiratoires. — Remarques : les tonsilles pharyngiennes sont dans le nasopharynx ; les cartilages aryténoïdes s'articulent à la partie postérieure du cricoïde) x"
-  },
-  {
-    "options": {
-      "A": "On peut suspecter une somnolence diurne excessive si le score d'Epworth est supérieur à L'obésité est un facteur de risque de syndrome d'apnée du sommeil obstructif.",
-      "B": "L'obésité est un facteur de risque de syndrome d'apnée du sommeil obstructif.",
-      "C": "La macroglossie est un facteur de risque de syndrome d'apnée du sommeil obstructif.",
-      "D": "Le syndrome d'apnée du sommeil est sévère si l'IAH est supérieur à 15/h. La dépression est un diagnostic différentiel chez un patient présentant une somnolence diurne excessive.",
-      "E": ""
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "text": "partiellement correct Un patient de 70 ans se présente à votre consultation pour asthénie. Il décrit des ronflements, un sommeil non réparateur et une somnolence diurne. Il vous explique qu'il se réveille souvent la nuit par manque d'air. Vous suspectez un syndrome d'apnée du sommeil et réalisez une polygraphie ventilatoire",
-    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On peut suspecter une somnolence diurne excessive si le score d'Epworth est supérieur à L'obésité est un facteur de risque de syndrome d'apnée du sommeil obstructif. ; B) L'obésité est un facteur de risque de syndrome d'apnée du sommeil obstructif. ; C) La macroglossie est un facteur de risque de syndrome d'apnée du sommeil obstructif. ; D) Le syndrome d'apnée du sommeil est sévère si l'IAH est supérieur à 15/h. La dépression est un diagnostic différentiel chez un patient présentant une somnolence diurne excessive."
-  },
-  {
-    "options": {
-      "A": "Asterixis b Sueurs",
-      "C": "Cyanose",
-      "D": "Agitation",
-      "E": "Céphalées"
-    },
-    "correctAnswers": [
-      "A",
-      "D",
-      "E"
-    ],
-    "text": "Parmi ces propositions, quels sont les signes cliniques caractéristiques d'une hypercapnie ?",
-    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Asterixis b Sueurs ; D) Agitation ; E) Céphalées"
-  },
-  {
-    "options": {
-      "A": "Le diaphragme comprend une partie centrale musculaire et une partie périphérique tendineuse.",
-      "B": "L'innervation du diaphragme se fait par les nerfs phréniques dont l'origine est cervicale.",
-      "C": "En expiration, le diaphragme remonte passivement.",
-      "D": "Le hile pulmonaire est constitué d'une artère pulmonaire, d'une bronche souche et d'une veine pulmonaire.",
-      "E": "Le poumon droit comprend 3 lobes pulmonaires (supérieur, moyen, inférieur) et le poumon gauche 2 lobes (supérieur, inférieur)."
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "C",
-      "E"
-    ],
-    "text": "Donnez la(les) réponse(s) vraie(s)",
-    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le diaphragme comprend une partie centrale musculaire et une partie périphérique tendineuse. ; B) L'innervation du diaphragme se fait par les nerfs phréniques dont l'origine est cervicale. ; C) En expiration, le diaphragme remonte passivement. ; E) Le poumon droit comprend 3 lobes pulmonaires (supérieur, moyen, inférieur) et le poumon gauche 2 lobes (supérieur, inférieur). — Remarques : partie centrale du diaphragme est tendineux ; le hile pulmonaire contient deux veines pulmonaires)."
-  },
-  {
-    "options": {
-      "A": "",
-      "B": "Stade pseudo-glandulaire, stade embryonnaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
-      "C": "Stade embryonnaire, stade pseudo-glandulaire, stade canaliculaire, stade sacculaire, stade alvéolaire",
-      "D": "Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
-    },
-    "correctAnswers": [
-      "B",
-      "C",
-      "D"
-    ],
-    "text": "Les 5 stades de développement de l'appareil respiratoire sont dans l'ordre chronologique ? Stade embryonnaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
-    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Stade pseudo-glandulaire, stade embryonnaire, stade sacculaire, stade canaliculaire, stade alvéolaire ; C) Stade embryonnaire, stade pseudo-glandulaire, stade canaliculaire, stade sacculaire, stade alvéolaire ; D) Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
-  },
-  {
-    "options": {
-      "A": "Les âges extrêmes",
-      "B": "La précarité",
-      "C": "L'asthme",
-      "D": "La dénutrition L'obésité"
-    },
-    "correctAnswers": [
-      "A",
-      "B",
-      "D"
-    ],
-    "text": "partiellement correct Concernant le développement de la tuberculose maladie, quels sont les facteurs favorisant ?",
-    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les âges extrêmes ; B) La précarité ; D) La dénutrition L'obésité"
-  },
-  {
-    "options": {
-      "A": "Il s'agit d'une hémoptysie de grande abondance. b Il s'agit d'une hématémèse de grande abondance.",
-      "C": "Le scanner thoracique injecté est indispensable à la prise en charge.",
-      "D": "La tuberculose peut être une cause de ce symptôme.",
-      "E": "Le cancer broncho-pulmonaire peut être une cause de ce symptôme."
-    },
-    "correctAnswers": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "text": "Un patient de 50 ans consulte aux urgences pour des crachats de sang à la suite d'un effort de toux spontanée de plus de 250 cc •",
-    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il s'agit d'une hémoptysie de grande abondance. b Il s'agit d'une hématémèse de grande abondance. ; C) Le scanner thoracique injecté est indispensable à la prise en charge. ; D) La tuberculose peut être une cause de ce symptôme. ; E) Le cancer broncho-pulmonaire peut être une cause de ce symptôme."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le rejet de plus de 200-250 cc de sang correspond à une hémoptysie de grande abondance, engageant le pronostic vital (risque d'asphyxie par inondation alvéolaire).\n• B (Faux) : L'hématémèse est un rejet de sang d'origine digestive lors d'un effort de vomissement ; ici le sang est émis lors d'un effort de toux (origine sous-glottique respiratoire).\n• C (Vrai) : Le scanner thoracique injecté (angioscanner) est l'examen de référence pour localiser le saignement et cartographier les artères bronchiques.\n• D (Vrai) : La tuberculose pulmonaire est une étiologie classique d'hémoptysie.\n• E (Vrai) : Le cancer broncho-pulmonaire est une cause majeure et fréquente d'hémoptysie."
   },
   {
     "options": {
@@ -4792,16 +3568,1285 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/SQI1.pdf"] = [
       "B",
       "C"
     ],
-    "text": "partiellement correct Quels sont les principes de prise en charge de la pneumopathie du sujet jeune sans signe de gravité ?",
+    "text": "Quels sont les principes de prise en charge de la pneumopathie du sujet jeune sans signe de gravité ?",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-04",
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est une pathologie infectieuse aiguë nécessitant une prise en charge rapide.\n• B (Vrai) : Sans signe de gravité chez le sujet jeune, la PAC se traite en ambulatoire à domicile.\n• C (Vrai) : La radiographie de thorax (face) est l'examen indispensable pour confirmer le foyer infectieux.\n• D (Faux) : Pas d'isolement « aérien » pour une pneumopathie bactérienne franche communautaire classique de ville (contrairement à la tuberculose).\n• E (Faux) : L'antibiothérapie est probabiliste et débutée immédiatement dès le diagnostic posé ; on n'attend pas l'ECBC (qui n'est d'ailleurs pas indiqué en ville sans gravité)."
+  },
+  {
+    "options": {
+      "A": "Opacité alvéolaire systématisée",
+      "B": "Opacités alvéolo-interstitielles péri-hilaires",
+      "C": "Opacités infiltratives non systématisées",
+      "D": "Épanchement pleural",
+      "E": "Cardiomégalie",
+      "F": "Aucune"
+    },
+    "correctAnswers": [
+      "A",
+      "C",
+      "D",
+      "F"
+    ],
+    "text": "Quelles sont les anomalies pouvant être retrouvées sur la radiographie thoracique d'une pneumopathie aiguë communautaire ?",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-05",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Une opacité alvéolaire systématisée est typique (ex : pneumocoque).\n• B (Faux) : Les opacités alvéolo-interstitielles péri-hilaires bilatérales orientent vers un OAP cardiogénique.\n• C (Vrai) : Des opacités infiltratives non systématisées peuvent se voir (pneumopathies à germes atypiques).\n• D (Vrai) : Un épanchement pleural (parapneumonique) réactionnel est possible.\n• E (Faux) : La cardiomégalie est un signe d'insuffisance cardiaque, pas de PAC.\n• F (Vrai) : La radio peut être strictement normale aux tout premiers jours de l'infection ou en cas de déshydratation."
+  },
+  {
+    "options": {
+      "A": "Il s'agit d'un examen accessible, peu irradiant.",
+      "B": "Elle utilise les protons H+.",
+      "C": "La visualisation de 9 arcs costaux antérieurs est un critère de qualité.",
+      "D": "L'arc supérieur droit correspond au bouton aortique.",
+      "E": "Le signe de la silhouette est utile pour différencier un pneumothorax d'une pleurésie."
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "text": "Concernant la radiographie thoracique :",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-06",
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est un examen de première ligne, très accessible et faiblement irradiant.\n• B (Faux) : Elle utilise les rayons X, pas les protons.\n• C (Faux) : Le critère d'inspiration profonde exige de dégager le 6e arc costal antérieur au-dessus des coupoles (ou le 9e-10e arc postérieur).\n• D (Faux) : L'arc supérieur droit est formé par le tronc veineux brachio-céphalique et la veine cave supérieure. Le bouton aortique forme l'arc supérieur gauche.\n• E (Faux) : Le signe de la silhouette de Felson sert à localiser des opacités tissulaires (syndrome alvéolaire, masses) de même densité hydrique que le médiastin, pas à différencier un pneumothorax (air) d'une pleurésie (liquide)."
+  },
+  {
+    "options": {
+      "A": "Il s'agit d'un syndrome pleural.",
+      "B": "Il s'agit d'un syndrome interstitiel.",
+      "C": "Il s'agit d'un syndrome alvéolaire.",
+      "D": "Je dois vite lui faire une IRM pour trancher.",
+      "E": "Il s'agit d'une probable pneumonie infectieuse."
+    },
+    "correctAnswers": [
+      "C",
+      "E"
+    ],
+    "text": "Mr. J. présente une toux fébrile avec expectorations sales depuis 48h. Vous le voyez aux urgences ; voici sa radio. Concernant cette radiographie, quelles propositions sont vraies ?",
+    "image": "data/images/annales/UE3-Pneumo2-SQUI-p5-xref165.jpeg",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-07",
+    "explanation": "Correction détaillée :\n• A, B (Faux) : L'opacité est parenchymateuse, confluente et systématisée, et non pleurale ou interstitielle.\n• C (Vrai) : Présence d'un syndrome alvéolaire (opacité d'allure systématisée).\n• D (Faux) : Pas d'IRM en urgence pour le poumon.\n• E (Vrai) : Toux fébrile avec crachats sales + syndrome alvéolaire = pneumonie infectieuse."
+  },
+  {
+    "options": {
+      "A": "Dans le syndrome interstitiel, on observe souvent un comblement de l'espace pleural.",
+      "B": "Un volumineux épanchement pleural liquidien peut causer un poumon blanc unilatéral.",
+      "C": "Le pneumothorax de faible abondance est visible principalement à l'apex chez un sujet debout.",
+      "D": "En cas de volumineux pneumothorax, le médiastin (dont la trachée) est attiré vers le pneumothorax.",
+      "E": "Un bronchogramme aérique est classique dans le syndrome interstitiel."
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "text": "Concernant la radiographie de thorax :",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-08",
+    "explanation": "Correction détaillée :\n• A (Faux) : Le comblement pleural correspond au syndrome pleural.\n• B (Faux) : Validé faux par la grille officielle de l'annale (un énorme épanchement peut opacifier l'hémithorax en refoulant le médiastin).\n• C (Vrai) : L'air étant léger, un petit pneumothorax s'accumule aux apex chez le patient debout (hyperclarté avasculaire apicale).\n• D (Faux) : Un volumineux pneumothorax met la plèvre sous tension et refoule (pousse) le médiastin du côté opposé, il ne l'attire pas.\n• E (Faux) : Le bronchogramme aérique est la signature du syndrome alvéolaire, pas interstitiel."
+  },
+  {
+    "options": {
+      "A": "C'est le lieu de l'hématose.",
+      "B": "Il n'y a pas d'adipocytes.",
+      "C": "Elle comprend des pneumocytes 1 et des pneumocytes 2.",
+      "D": "Elle est riche en fibrocytes.",
+      "E": "Elle comprend une lame basale."
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "E"
+    ],
+    "text": "A propos de la barrière alvéolo-capillaire :",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-09",
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est là que se fait l'hématose (échanges gazeux O2/CO2).\n• B (Vrai) : Elle est extrêmement fine, sans adipocyte.\n• C (Faux) : La barrière vraie ne comprend que le pneumocyte I (le pneumocyte II synthétise le surfactant).\n• D (Faux) : L'interstitium est fin et très pauvre en fibrocytes à l'état sain.\n• E (Vrai) : Elle comprend la fusion de la lame basale endothéliale et épithéliale."
+  },
+  {
+    "options": {
+      "A": "Stade embryonnaire, stade pseudo-glandulaire, stade canaliculaire, stade sacculaire, stade alvéolaire",
+      "B": "Stade pseudo-glandulaire, stade embryonnaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
+      "C": "Stade embryonnaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
+      "D": "Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire",
+      "E": "Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "text": "Les 5 stades de développement de l'appareil respiratoire sont dans l'ordre chronologique :",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-10",
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'ordre chronologique exact est : embryonnaire, pseudo-glandulaire, canaliculaire, sacculaire, puis alvéolaire.\n• B, C, D, E (Faux) : Ces propositions présentent un ordre chronologique erroné."
+  },
+  {
+    "options": {
+      "A": "Les pneumocytes sont recouverts de surfactant.",
+      "B": "Les pneumocytes de type 2 synthétisent le surfactant.",
+      "C": "Au niveau des bronchioles respiratoires, le cartilage forme un anneau complet.",
+      "D": "Les macrophages ne sont pas présents dans les alvéoles.",
+      "E": "Les alvéoles sont bordées par un épithélium riche en cellules ciliées."
+    },
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "text": "A propos des voies aériennes respiratoires :",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-11",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le surfactant tapisse l'alvéole pour empêcher son collapsus expiratoire.\n• B (Vrai) : Ce sont les pneumocytes de type 2 (granuleux) qui le synthétisent.\n• C (Faux) : Il n'y a plus de cartilage au niveau des bronchioles (c'est ce qui les distingue des bronches).\n• D (Faux) : Les macrophages alvéolaires sont bien présents et primordiaux pour l'immunité profonde.\n• E (Faux) : L'épithélium alvéolaire est pavimenteux simple, les cellules ciliées s'arrêtent dans les voies de conduction (bronchioles)."
+  },
+  {
+    "options": {
+      "A": "NFS",
+      "B": "ECG",
+      "C": "Radiographie thoracique",
+      "D": "Scanner thoracique",
+      "E": "Spirométrie",
+      "F": "Gazométrie artérielle"
+    },
+    "correctAnswers": [
+      "B",
+      "C",
+      "F"
+    ],
+    "text": "Devant une dyspnée aiguë, quels sont les 3 examens complémentaires à réaliser en 1ère intention ? — 3 réponses sont attendues —",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-12",
+    "explanation": "Correction détaillée :\n• A, D, E (Faux) : La NFS et le scanner ne sont pas les 3 examens systématiques de 1ère intention immédiate, et la spirométrie (E) est impossible à réaliser en phase de dyspnée aiguë.\n• B, C, F (Vrai) : Devant une dyspnée aiguë en urgence, le triptyque systématique de première intention associe l'ECG (éliminer une cause cardiaque/rythmique/ischémique), la radiographie thoracique de face (explorer le parenchyme et la plèvre) et la gazométrie artérielle (évaluer la gravité de l'hypoxémie et le retentissement acido-basique/hypercapnique)."
+  },
+  {
+    "options": {
+      "A": "L'absence de cellules tumorales exclut une origine néoplasique.",
+      "B": "Il faut évoquer une poussée d'insuffisance cardiaque.",
+      "C": "Il faut évoquer une origine infectieuse.",
+      "D": "C'est un exsudat.",
+      "E": "C'est un transsudat."
+    },
+    "correctAnswers": [
+      "C",
+      "D"
+    ],
+    "text": "Concernant l'analyse de cet épanchement pleural : • Protéines : 32 g/L • LDH : 1000 UI/L • PNN : 75 % • Macrophages : 23 % • PNE : 1 % • Cellules mésothéliales : 1 %",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-13",
+    "explanation": "Correction détaillée :\n• A (Faux) : Un simple examen cytologique négatif du liquide pleural n'exclut pas formellement un cancer (sensibilité limitée).\n• B, E (Faux) : L'insuffisance cardiaque donne un transsudat (protéines < 25 g/L).\n• C (Vrai) : La forte prédominance de polynucléaires neutrophiles (PNN à 75 %) au sein d'un exsudat est fortement en faveur d'une étiologie inflammatoire infectieuse aiguë (pleurésie parapneumonique ou purulente).\n• D (Vrai) : Les protéines pleurales sont à 32 g/L (> 25-30 g/L) avec des LDH élevées, ce qui définit un exsudat."
+  },
+  {
+    "options": {
+      "A": "Ces pathologies concernent essentiellement les voies aériennes.",
+      "B": "Les étiologies aiguës sont dominées par des causes infectieuses et cardiologiques.",
+      "C": "La fibroscopie avec lavage broncho-alvéolaire est un examen diagnostique.",
+      "D": "Le scanner thoracique n'est d'aucune utilité.",
+      "E": "Aucune de ces propositions"
+    },
+    "correctAnswers": [
+      "B",
+      "C"
+    ],
+    "text": "Concernant les pneumopathies interstitielles diffuses :",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-14",
+    "explanation": "Correction détaillée :\n• A (Faux) : Elles concernent le tissu conjonctif de soutien (interstitium profond alvéolo-capillaire), et non les voies aériennes proximales.\n• B (Vrai) : Les OAP (causes cardiologiques) et les infections (germes atypiques, virus, pneumocystose) sont les causes majeures de PID aiguës.\n• C (Vrai) : Le lavage broncho-alvéolaire (LBA) réalisé au cours d'une fibroscopie bronchique est un examen clé pour orienter le diagnostic étiologique (profil d'alvéolite, recherche microbiologique ou cytologique).\n• D (Faux) : Le scanner thoracique haute résolution (TDM-HR en coupes fines) est au contraire l'examen de référence incontournable pour explorer les PID.\n• E (Faux) : Les propositions B et C sont vraies."
+  },
+  {
+    "options": {
+      "A": "Cette radiographie thoracique est normale.",
+      "B": "Syndrome alvéolaire lobaire moyen pouvant faire évoquer une pneumopathie infectieuse",
+      "C": "Opacité médiastinale postérieure droite pouvant faire évoquer une tumeur neurogène",
+      "D": "Opacité médiastinale antérieure droite pouvant faire évoquer un lymphome",
+      "E": "Ce patient pourrait présenter une paralysie récurrentielle droite."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "text": "Concernant cette image :",
+    "image": "data/images/annales/UE3-Pneumo2-SQUI-p10-xref352.jpeg",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-15",
+    "explanation": "Correction détaillée :\n• A (Faux) : Volumineuse masse médiastinale droite visible.\n• B (Faux) : Il s'agit d'un syndrome médiastinal à limites externes nettes et continues, et non d'un syndrome alvéolaire.\n• C (Faux) : L'opacité efface le bord droit du cœur (signe de la silhouette positif), elle est donc antérieure et non postérieure.\n• D (Vrai) : Il s'agit d'une opacité médiastinale antérieure droite effaçant le bord du cœur, très évocatrice d'un lymphome (ou thymome).\n• E (Faux) : Le nerf laryngé récurrent droit naît beaucoup plus haut sous l'artère sous-clavière droite."
+  },
+  {
+    "options": {
+      "A": "des bêtabloquants.",
+      "B": "des bêta-2-agonistes.",
+      "C": "des anti-inflammatoires non-stéroïdiens.",
+      "D": "des agonistes du récepteur aux leucotriènes.",
+      "E": "des méthylxanthines inhalées."
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "text": "Le traitement de la crise d'asthme repose sur :",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-16",
+    "explanation": "Correction détaillée :\n• A (Faux) : Les bêtabloquants sont contre-indiqués car ils provoquent un bronchospasme et aggravent l'asthme.\n• B (Vrai) : Le traitement de la crise d'asthme repose exclusivement en première intention sur les bêta-2-agonistes inhalés d'action rapide (SABA, ex : salbutamol).\n• C (Faux) : Les AINS sont inutiles et peuvent déclencher une crise sévère (syndrome de Fernand-Widal).\n• D (Faux) : Les antileucotriènes (antagonistes des récepteurs aux leucotriènes) sont un traitement de fond et non de crise.\n• E (Faux) : Les méthylxanthines ont une marge thérapeutique étroite et ne sont pas le traitement de première intention."
+  },
+  {
+    "options": {
+      "A": "Il existe toujours un épanchement pleural des bases secondaire à l'irruption d'air dans la cavité pleurale.",
+      "B": "Il n'est jamais spontané.",
+      "C": "Il peut être d'origine traumatique.",
+      "D": "La radiographie thoracique de face est toujours normale.",
+      "E": "Il peut se traduire par une douleur latérothoracique."
+    },
+    "correctAnswers": [
+      "C",
+      "E"
+    ],
+    "text": "Concernant le pneumothorax :",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-17",
+    "explanation": "Correction détaillée :\n• A (Faux) : Le plus souvent, il n'y a que de l'air dans la cavité pleurale sans épanchement liquidien associé.\n• B (Faux) : Le pneumothorax spontané primaire du sujet jeune longiligne (fumeur) est au contraire très fréquent.\n• C (Vrai) : Il peut être d'origine traumatique (fracture de côte, plaie pénétrante ou iatrogène).\n• D (Faux) : La radiographie thoracique de face en inspiration montre le décollement pleural (hyperclarté avasculaire).\n• E (Vrai) : Il se traduit classiquement par une douleur latérothoracique brutale en « coup de poignard »."
+  },
+  {
+    "options": {
+      "A": "L'oxygénation du diaphragme",
+      "B": "Un rôle de réservoir sanguin",
+      "C": "Filtre circulatoire",
+      "D": "L'oxygénation musculaire périphérique",
+      "E": "L'apport nutritif aux cellules du parenchyme pulmonaire"
+    },
+    "correctAnswers": [
+      "B",
+      "C",
+      "E"
+    ],
+    "text": "Quelles fonctions assure la circulation pulmonaire ?",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-18",
+    "explanation": "Correction détaillée :\n• A, D (Faux) : L'oxygénation du diaphragme et des muscles périphériques est assurée par la circulation systémique (artérielle issue de l'aorte).\n• B (Vrai) : Grâce à sa forte compliance, la circulation pulmonaire agit comme un réservoir sanguin pour le ventricule gauche.\n• C (Vrai) : Elle agit comme un filtre circulatoire retenant les micro-thrombi, amas fibrineux ou bulles gazeuses.\n• E (Vrai) : Elle participe à l'apport nutritif des structures alvéolaires distales."
+  },
+  {
+    "options": {
+      "A": "Les systèmes tampons",
+      "B": "L'hémoglobine",
+      "C": "La ventilation",
+      "D": "Les reins",
+      "E": "L'estomac"
+    },
+    "correctAnswers": [
+      "B",
+      "E"
+    ],
+    "text": "Quel(s) élément(s) ne participe(nt) pas à la régulation du pH extracellulaire ?",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-19",
+    "explanation": "Correction détaillée :\n• A, C, D (Faux — ces éléments participent) : Les systèmes tampons plasmatiques (bicarbonates), la ventilation pulmonaire (élimination du CO2) et les reins (excrétion d'ions H+ et réabsorption de HCO3-) sont les trois grands acteurs de la régulation du pH extracellulaire.\n• B, E (Vrai) : L'hémoglobine (tampon strictement intracellulaire érythrocytaire au sens de l'annale) et l'estomac ne participent pas directement à l'homéostasie systémique du pH extracellulaire."
+  },
+  {
+    "options": {
+      "A": "La sévérité est évaluée en fonction du VEMS après bronchodilatateurs.",
+      "B": "Il existe dans la classification GOLD quatre stades.",
+      "C": "Le grade GOLD 4 est le moins sévère.",
+      "D": "Le grade GOLD 2 est défini par un VEMS compris entre 50 et 79 % des valeurs théoriques.",
+      "E": "La présence d'une réversibilité témoigne d'une maladie plus sévère."
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "text": "Concernant la sévérité de la BPCO :",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-20",
+    "explanation": "Correction détaillée :\n• A (Vrai) : La sévérité de l'obstruction bronchique s'évalue sur la valeur du VEMS post-bronchodilatateur (en % de la valeur théorique).\n• B (Vrai) : La classification spirométrique GOLD comporte 4 stades de sévérité (GOLD 1 à 4).\n• C (Faux) : Le stade GOLD 4 est le stade le plus sévère (obstruction très sévère : VEMS < 30 % de la théorique).\n• D (Vrai) : Le stade GOLD 2 (BPCO modérée) est défini par un VEMS post-BD compris entre 50 % et 79 % de la valeur théorique.\n• E (Faux) : La présence d'une réversibilité partielle ne signe pas une maladie plus sévère."
+  },
+  {
+    "options": {
+      "A": "Les systèmes tampons",
+      "B": "L'hémoglobine",
+      "C": "La ventilation",
+      "D": "Les reins",
+      "E": "L'estomac"
+    },
+    "correctAnswers": [
+      "B",
+      "E"
+    ],
+    "text": "Quel(s) élément(s) ne participe(nt) pas à la régulation du pH extracellulaire ?",
+    "id": "ANN-UE3-UE3S3Pneumologie2-SQUI-21",
+    "explanation": "Correction détaillée :\n• A, C, D (Faux — ces éléments participent) : Les systèmes tampons plasmatiques (bicarbonates), la ventilation pulmonaire (élimination du CO2) et les reins (excrétion d'ions H+ et réabsorption de HCO3-) sont les trois grands acteurs de la régulation du pH extracellulaire.\n• B, E (Vrai) : L'hémoglobine (tampon strictement intracellulaire érythrocytaire au sens de l'annale) et l'estomac ne participent pas directement à l'homéostasie systémique du pH extracellulaire."
+  }
+];
+window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 2/mDP1.pdf"] = [
+  {
+    "options": {
+      "A": "Cancer broncho-pulmonaire",
+      "B": "Pneumonie franche lobaire aiguë",
+      "C": "Infection tuberculeuse latente",
+      "D": "Tuberculose pulmonaire maladie",
+      "E": "Œdème aigu pulmonaire"
+    },
+    "correctAnswers": [
+      "A",
+      "D"
+    ],
+    "text": "[Cas clinique : Monsieur M., 60 ans, vient consulter pour une toux évoluant depuis 3 mois. Il travaille dans la maçonnerie et fume 1 paquet de cigarettes par jour depuis l'âge de 15 ans. À l'interrogatoire, le patient rapporte en plus de la toux, une perte de 6 kg en 1 mois et des expectorations claires présentant parfois des filets de sang.]\nQuel(s) est(sont) le(s) diagnostic(s) le(s) plus probable(s) ?",
+    "id": "ANN-UE3-UE3S3Pneumologie2-mDP1-01",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le cancer broncho-pulmonaire est le principal suspect devant l'âge (60 ans), le tabagisme important (45 paquets-années), l'exposition professionnelle (maçonnerie : silice/amiante), l'amaigrissement (-6 kg), la toux chronique (3 mois) et l'hémoptysie.\n• B (Faux) : Une pneumonie franche lobaire aiguë (PFLA) évolue sur quelques jours avec une fièvre brutale, et non sur 3 mois.\n• C (Faux) : Une infection tuberculeuse latente (ITL) est par définition totalement asymptomatique et sans anomalie clinique ou radiologique.\n• D (Vrai) : La tuberculose pulmonaire maladie doit systématiquement être évoquée devant une toux chronique émétisante/hémoptoïque évoluant depuis plusieurs semaines avec altération de l'état général.\n• E (Faux) : L'OAP est une détresse respiratoire aiguë cardiogénique et non une toux chronique sur 3 mois."
+  },
+  {
+    "options": {
+      "A": "Nodules et micronodules multiples",
+      "B": "Bulles d'emphysème",
+      "C": "Infiltrats",
+      "D": "Excavations",
+      "E": "Localisation des lésions dans les lobes supérieurs"
+    },
+    "correctAnswers": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "text": "[Cas clinique : Monsieur M., 60 ans, vient consulter pour une toux évoluant depuis 3 mois. Il travaille dans la maçonnerie et fume 1 paquet de cigarettes par jour depuis l'âge de 15 ans. À l'interrogatoire, le patient rapporte en plus de la toux, une perte de 6 kg en 1 mois et des expectorations claires présentant parfois des filets de sang.]\nVous lui prescrivez un scanner thoracique dont voici les images. Quels sont les aspects évocateurs de tuberculose en TDM ? (plusieurs réponses possibles)",
+    "image": "data/images/annales/UE3-Pneumo2-mDP1-p2-xref37.jpeg",
+    "id": "ANN-UE3-UE3S3Pneumologie2-mDP1-02",
+    "explanation": "Correction détaillée :\n• A, C, D, E (Vrai) : Les aspects tomodensitométriques typiques de la tuberculose pulmonaire commune associent des infiltrats, des nodules et micronodules centrolobulaires (« arbre en bourgeons »), des cavernes (excavations) et une localisation préférentielle dans les segments apicaux et postérieurs des lobes supérieurs (zones riches en oxygène favorisant la croissance de Mycobacterium tuberculosis, bactérie aérobie stricte).\n• B (Faux) : Les bulles d'emphysème sont liées au tabagisme chronique (BPCO) et non à la tuberculose active."
+  },
+  {
+    "options": {
+      "A": "Tubages gastriques à la recherche de BK",
+      "B": "QuantiFERON®",
+      "C": "Examens des crachats à la recherche de BK",
+      "D": "Fibroscopie bronchique avec recherche de BK",
+      "E": "Hémocultures à la recherche de BK"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "text": "[Cas clinique : Monsieur M., 60 ans, vient consulter pour une toux évoluant depuis 3 mois. Il travaille dans la maçonnerie et fume 1 paquet de cigarettes par jour depuis l'âge de 15 ans. À l'interrogatoire, le patient rapporte en plus de la toux, une perte de 6 kg en 1 mois et des expectorations claires présentant parfois des filets de sang.]\nVous évoquez une tuberculose pulmonaire. Quel examen faites-vous en première intention pour confirmer votre diagnostic ?",
+    "id": "ANN-UE3-UE3S3Pneumologie2-mDP1-03",
+    "explanation": "Correction détaillée :\n• A (Faux) : Le tubage gastrique matinal à jeun n'est réalisé qu'en cas d'impossibilité d'expectorer.\n• B (Faux) : Le test IGRA (QuantiFERON) ne permet pas de différencier une tuberculose latente d'une tuberculose maladie active et n'a pas sa place pour diagnostiquer une tuberculose maladie.\n• C (Vrai) : Chez un patient qui crache, l'examen cytobactériologique des expectorations (crachats) répété 3 jours de suite à la recherche de BAAR (examen direct + culture sur milieux spécifiques + PCR) est l'examen de première intention.\n• D (Faux) : La fibroscopie bronchique n'est réalisée qu'en cas d'échec ou de négativité des examens de crachats.\n• E (Faux) : Les hémocultures sur milieu spécifique mycobactéries sont réservées aux suspicions de tuberculose disséminée chez le sujet sévèrement immunodéprimé."
+  },
+  {
+    "options": {
+      "A": "Quadrithérapie INH+RMP+EMB+PZA 2 mois puis bithérapie INH+RMP 4 mois",
+      "B": "Quadrithérapie INH+RMP+EMB+PZA 4 mois puis bithérapie INH+RMP 2 mois",
+      "C": "Trithérapie INH+RMP+EMB 3 mois puis bithérapie INH+RMP 6 mois",
+      "D": "Trithérapie INH+EMB+PZA 3 mois puis bithérapie INH+PZA 6 mois",
+      "E": "Bithérapie INH+RMP 2 mois puis quadrithérapie INH+RMP+EMB+PZA 4 mois"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "text": "[Cas clinique : Monsieur M., 60 ans, vient consulter pour une toux évoluant depuis 3 mois. Il travaille dans la maçonnerie et fume 1 paquet de cigarettes par jour depuis l'âge de 15 ans. À l'interrogatoire, le patient rapporte en plus de la toux, une perte de 6 kg en 1 mois et des expectorations claires présentant parfois des filets de sang.]\nQuel traitement mettez-vous en place ? (INH = isoniazide, RMP = rifampicine, EMB = éthambutol, PZA = pyrazinamide)",
+    "id": "ANN-UE3-UE3S3Pneumologie2-mDP1-04",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le schéma thérapeutique standard d'une tuberculose pulmonaire multisensible repose sur 6 mois de traitement au total : une phase initiale de 2 mois par quadrithérapie associant Isoniazide (INH) + Rifampicine (RMP) + Éthambutol (EMB) + Pyrazinamide (PZA), suivie d'une phase de continuation de 4 mois par bithérapie associant Isoniazide (INH) + Rifampicine (RMP).\n• B, C, D, E (Faux) : Ces durées ou associations ne correspondent pas au schéma standard de référence."
+  },
+  {
+    "options": {
+      "A": "Rejet par la bouche de sang en provenance des voies aériennes sus-glottiques",
+      "B": "Le saignement est rouge vif.",
+      "C": "Le saignement survient lors d'un effort de vomissement.",
+      "D": "Elle peut être précédée de prodromes (grésillement laryngé, goût métallique...).",
+      "E": "Le sang est aéré et spumeux."
+    },
+    "correctAnswers": [
+      "B",
+      "D",
+      "E"
+    ],
+    "text": "[Cas clinique : Monsieur M., 60 ans, vient consulter pour une toux évoluant depuis 3 mois. Il travaille dans la maçonnerie et fume 1 paquet de cigarettes par jour depuis l'âge de 15 ans. À l'interrogatoire, le patient rapporte en plus de la toux, une perte de 6 kg en 1 mois et des expectorations claires présentant parfois des filets de sang.]\nLe patient rapporte encore le premier mois des expectorations de sang. Quel(s) est(sont) le(s) critère(s) permettant de différencier une hémoptysie d'une autre étiologie ?",
+    "id": "ANN-UE3-UE3S3Pneumologie2-mDP1-05",
+    "explanation": "Correction détaillée :\n• A (Faux) : L'hémoptysie est définie par le rejet par la bouche de sang provenant des voies aériennes sous-glottiques (un saignement sus-glottique correspond à une épistaxis postérieure déglutie ou un saignement pharyngé/buccal).\n• B (Vrai) : Le sang d'une hémoptysie active est typiquement rouge vif (sang oxygéné d'origine artérielle bronchique).\n• C (Faux) : Un saignement survenant lors d'un effort de vomissement correspond à une hématémèse (origine digestive haute, sang souvent foncé/noirâtre non aéré).\n• D (Vrai) : L'hémoptysie est classiquement précédée de prodromes évocateurs : chaleur rétro-sternale, chatouillement ou grésillement laryngé, goût métallique dans la bouche, puis rejet lors d'un effort de toux.\n• E (Vrai) : Le sang rejeté lors d'une hémoptysie est aéré et spumeux (mélangé à l'air des voies respiratoires)."
+  }
+];
+window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 3/DP1.pdf"] = [
+  {
+    "options": {
+      "A": "La sensation d'oppression thoracique",
+      "B": "Le déclenchement des symptômes par des infections virales et/ou l'exposition à des allergènes",
+      "C": "La variabilité des symptômes au cours du temps et leur réversibilité",
+      "D": "Absence de symptôme la nuit",
+      "E": "Des crépitants à l'auscultation pulmonaire"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ses antécédents vous retrouvez : • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. • Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nÀ l'interrogatoire, quel(s) signe(s) recherchez-vous qui vous orienterai(en)t vers le diagnostic d'asthme ?",
+    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-01",
+    "explanation": "Correction détaillée :\n• A (Vrai) : La sensation d'oppression thoracique est un des symptômes cardinaux de l'asthme.\n• B (Vrai) : Le déclenchement des symptômes par des facteurs favorisants (infections virales, exposition aux allergènes, effort) est très évocateur.\n• C (Vrai) : La variabilité des symptômes dans le temps et leur réversibilité (spontanée ou sous traitement) constituent le cœur de la définition de la maladie asthmatique.\n• D (Faux) : Typiquement, on observe au contraire une recrudescence nocturne ou au petit matin des symptômes dans l'asthme.\n• E (Faux) : À l'auscultation pulmonaire, on recherche des sibilants (sifflements à l'expiration) qui traduisent l'obstruction bronchique, et non des crépitants (qui orientent plutôt vers une atteinte alvéolaire ou interstitielle)."
+  },
+  {
+    "options": {
+      "A": "Un résultat normal n'élimine pas le diagnostic.",
+      "B": "Le trouble ventilatoire obstructif (TVO) n'est pas réversible.",
+      "C": "Il existe un syndrome restrictif fréquemment retrouvé pendant la grossesse.",
+      "D": "La réversibilité du trouble ventilatoire obstructif est définie par une augmentation du VEMS de plus de 200 mL et de plus de 12 %, après administration de Salbutamol, par rapport aux valeurs initiales.",
+      "E": "Le trouble ventilatoire est défini chez l'adulte par un rapport VEMS/CV inférieur à 0,6."
+    },
+    "correctAnswers": [
+      "A",
+      "D"
+    ],
+    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ses antécédents vous retrouvez : • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. • Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nConcernant les épreuves fonctionnelles respiratoires chez cette patiente asthmatique :",
+    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-02",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Un asthme peut être épisodique. Un résultat normal en dehors d'une crise n'élimine donc pas le diagnostic.\n• B (Faux) : Par définition, le trouble ventilatoire obstructif (TVO) de l'asthme est réversible, contrairement à celui de la BPCO.\n• C (Faux) : La capacité pulmonaire totale (CPT) n'est pas modifiée pendant la grossesse, il n'y a donc pas de syndrome restrictif physiologique lié à la grossesse à l'EFR.\n• D (Vrai) : C'est la définition stricte de la réversibilité d'un TVO : une augmentation du VEMS de plus de 200 mL et de plus de 12 % par rapport aux valeurs initiales, après inhalation d'un bronchodilatateur (Salbutamol).\n• E (Faux) : Chez l'adulte, un trouble ventilatoire obstructif est défini par un rapport VEMS/CV (ou VEMS/CVF) inférieur à 0,7 (70 %), et non 0,6."
+  },
+  {
+    "options": {
+      "A": "Il existe un syndrome restrictif.",
+      "B": "Il existe un syndrome obstructif non réversible.",
+      "C": "Il existe un syndrome obstructif réversible.",
+      "D": "C'est un examen normal.",
+      "E": "Il n'y a pas de restriction."
+    },
+    "correctAnswers": [
+      "C",
+      "E"
+    ],
+    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ses antécédents vous retrouvez : • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. • Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nLa patiente réalise les épreuves fonctionnelles respiratoires suivantes. Vous interprétez cet examen :",
+    "image": "data/images/annales/UE3-Pneumo3-DP1-p3-xref66.jpeg",
+    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-03",
+    "explanation": "Correction détaillée :\n• A (Faux) : La capacité vitale n'est pas abaissée significativement, il n'y a pas de restriction.\n• B (Faux) : Le trouble est réversible.\n• C (Vrai) : Le rapport VEMS/CV est abaissé (TVO) et l'administration de Ventoline normalise ou améliore significativement les paramètres, signant un syndrome obstructif réversible.\n• D (Faux) : L'examen de base (pré-bronchodilatateur) n'est pas normal puisqu'il objective l'obstruction.\n• E (Vrai) : Aucun argument pour un syndrome restrictif sur ces valeurs."
+  },
+  {
+    "options": {
+      "A": "La majorité des traitements doivent être interrompus.",
+      "B": "Il n'y a pas de contre-indication aux corticoïdes inhalés.",
+      "C": "On peut utiliser une association de corticoïdes inhalés et de bêta-2-mimétiques.",
+      "D": "Les glucocorticoïdes par voie orale sont les seuls traitements utilisables.",
+      "E": "La théophylline est le traitement de choix en première intention."
+    },
+    "correctAnswers": [
+      "B",
+      "C"
+    ],
+    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ses antécédents vous retrouvez : • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. • Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nLe tableau clinique et fonctionnel est compatible avec un asthme. Concernant la prise en charge thérapeutique pendant la grossesse :",
+    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-04",
+    "explanation": "Correction détaillée :\n• A (Faux) : Surtout pas ! Un asthme mal équilibré est bien plus dangereux pour la mère et le fœtus que les traitements. La majorité des traitements doivent être poursuivis.\n• B (Vrai) : Les corticoïdes inhalés (CSI) sont le traitement de fond de référence et ne présentent aucune contre-indication pendant la grossesse.\n• C (Vrai) : L'association CSI et bêta-2-mimétiques de longue action est autorisée et recommandée si un palier supérieur est nécessaire.\n• D (Faux) : La voie inhalée est largement privilégiée (CSI). Les corticoïdes oraux sont réservés aux exacerbations sévères.\n• E (Faux) : La théophylline n'est plus un traitement de première intention (marge thérapeutique étroite et effets indésirables)."
+  },
+  {
+    "options": {
+      "A": "Mise en place d'une corticothérapie inhalée faible dose",
+      "B": "Mise en place d'un traitement par théophylline",
+      "C": "Prescription de Ventoline à la demande",
+      "D": "Prescription d'un bêta-2-mimétique en monothérapie seul",
+      "E": "Prescription d'un atropinique longue durée d'action"
+    },
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
+    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ses antécédents vous retrouvez : • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. • Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nQuelle prise en charge thérapeutique proposez-vous ?",
+    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-05",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Pour un asthme symptomatique, le traitement de fond de première intention repose sur une corticothérapie inhalée à faible dose.\n• B (Faux) : La théophylline n'est pas indiquée ici.\n• C (Vrai) : La prescription d'un bronchodilatateur de courte durée d'action (Ventoline) à la demande est systématique pour soulager les symptômes aigus.\n• D (Faux) : On ne prescrit jamais de bêta-2-mimétique de longue action en monothérapie dans l'asthme (risque de surmortalité, ils doivent toujours être associés à un CSI).\n• E (Faux) : Les atropiniques (anticholinergiques) ne sont pas le traitement de première intention de l'asthme."
+  },
+  {
+    "options": {
+      "A": "Arrêt du tabac",
+      "B": "Réévaluation clinique après la grossesse",
+      "C": "Éviction des allergènes",
+      "D": "Réévaluation clinique dans un mois",
+      "E": "Prise en charge de la rhinite"
+    },
+    "correctAnswers": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ses antécédents vous retrouvez : • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. • Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nQuelle(s) autre(s) mesure(s) associez-vous ?",
+    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-06",
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'arrêt du tabac est primordial car il aggrave l'asthme et la grossesse.\n• B (Faux) : Il faut réévaluer la patiente très régulièrement pendant la grossesse (tous les mois), et non attendre la fin.\n• C (Vrai) : L'éviction des pneumallergènes (acariens ici) est une mesure non médicamenteuse indispensable.\n• D (Vrai) : Un suivi rapproché avec réévaluation clinique à un mois est nécessaire pour s'assurer du contrôle de l'asthme.\n• E (Vrai) : Une rhinite mal contrôlée aggrave l'asthme, il faut la traiter conjointement."
+  },
+  {
+    "options": {
+      "A": "Son asthme semble contrôlé.",
+      "B": "Vous proposez de majorer le traitement de fond en vue de l'accouchement.",
+      "C": "Vous encouragez la patiente à suivre de façon la plus régulière possible son traitement sans le modifier.",
+      "D": "Tout va bien, vous arrêtez le traitement avant l'accouchement.",
+      "E": "Vous poursuivez le traitement jusqu'à l'accouchement et vous conseillez à la patiente de l'interrompre ensuite."
+    },
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
+    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ses antécédents vous retrouvez : • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. • Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nVous revoyez votre patiente en consultation avant l'accouchement à la demande de l'anesthésiste. Le traitement est bien toléré. Elle n'a pas présenté de symptômes de son asthme, n'a pas eu recours à la Ventoline au cours des quatre dernières semaines et ne présente pas de symptômes nocturnes.",
+    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-07",
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'absence de symptômes diurnes/nocturnes et l'absence de recours à la Ventoline sur les 4 dernières semaines définissent un asthme parfaitement contrôlé.\n• B (Faux) : Si l'asthme est contrôlé, il n'y a aucune justification à majorer le traitement.\n• C (Vrai) : Le maintien d'un équilibre parfait est crucial lors de l'effort de l'accouchement ; elle ne doit rien changer.\n• D (Faux) : L'arrêt du traitement exposerait à un risque de crise per-partum aiguë.\n• E (Faux) : L'asthme est une maladie chronique, le traitement de fond doit souvent être poursuivi en post-partum."
+  },
+  {
+    "options": {
+      "A": "La Ventoline est contre-indiquée.",
+      "B": "Elle doit poursuivre ses corticoïdes inhalés.",
+      "C": "La théophylline peut avoir une incidence sur le nourrisson.",
+      "D": "Le montelukast peut être utilisé si nécessaire.",
+      "E": "Tous les traitements sont contre-indiqués."
+    },
+    "correctAnswers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "text": "[Cas clinique : Vous recevez en consultation Madame R., âgée de 24 ans, après un passage aux urgences pour une crise d'asthme. Elle est enceinte à 16 semaines d'aménorrhée. Dans ses antécédents vous retrouvez : • Un asthme pendant l'enfance qui avait justifié d'un traitement de fond, interrompu vers l'âge de 16 ans. • Une rhinite allergique. • Une allergie aux acariens. • Un tabagisme à cinq cigarettes par jour. Traitement : Ventoline à la demande]\nLa patiente vous interroge concernant son traitement et l'allaitement. Quel(s) conseil(s) pouvez-vous lui donner ?",
+    "id": "ANN-UE3-UE3S3Pneumologie3-DP1-08",
+    "explanation": "Correction détaillée :\n• A (Faux) : Le Salbutamol (Ventoline) est compatible avec l'allaitement.\n• B (Vrai) : Les corticoïdes inhalés passent très peu dans la circulation systémique et le lait maternel, ils doivent être poursuivis.\n• C (Vrai) : La théophylline passe dans le lait et peut provoquer une irritabilité ou une tachycardie chez le nourrisson.\n• D (Vrai) : Les anti-leucotriènes (Montelukast) peuvent être envisagés si nécessaires car leur tolérance est jugée acceptable.\n• E (Faux) : L'allaitement est tout à fait possible et encouragé chez la femme asthmatique sous traitement inhalé."
+  }
+];
+window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 3/SQI1.pdf"] = [
+  {
+    "options": {
+      "A": "Il ne varie pas pendant la grossesse.",
+      "B": "C'est la maladie chronique la plus fréquente pendant la grossesse.",
+      "C": "L'asthme est évolutif au cours de la grossesse.",
+      "D": "Il n'a aucun impact sur l'évolution de l'enfant.",
+      "E": "Un asthme sous-traité a un impact négatif sur l'évolution de la grossesse."
+    },
+    "correctAnswers": [
+      "B",
+      "C",
+      "E"
+    ],
+    "text": "Concernant l'asthme pendant la grossesse :",
+    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-01",
+    "explanation": "Correction détaillée :\n• A (Faux) : L'asthme est une pathologie très variable dont le contrôle fluctue pendant la grossesse.\n• B (Vrai) : C'est effectivement la pathologie chronique la plus fréquemment rencontrée chez la femme enceinte.\n• C (Vrai) : Il peut s'améliorer, s'aggraver ou rester stable (loi des 3 tiers).\n• D (Faux) : Un asthme mal contrôlé entraîne une hypoxie maternelle qui retentit directement sur l'oxygénation fœtale (risque de RCIU, prématurité).\n• E (Vrai) : Le sous-traitement est le principal danger, menant à des exacerbations néfastes pour le bon déroulement de la grossesse."
+  },
+  {
+    "options": {
+      "A": "Élévation du diaphragme de + de 4 cm",
+      "B": "Modification importante des pressions transdiaphragmatiques à 37 semaines de grossesse",
+      "C": "Diminution de la capacité vitale",
+      "D": "Pas de modification de la capacité pulmonaire totale",
+      "E": "Augmentation de la sensibilité du centre respiratoire au CO2"
+    },
+    "correctAnswers": [
+      "A",
+      "D",
+      "E"
+    ],
+    "text": "Au cours de la grossesse, quelles sont les variations physiologiques et anatomiques que l'on peut observer ?",
+    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-02",
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'utérus gravide refoule les viscères, entraînant une élévation du diaphragme d'environ 4 cm.\n• B (Faux) : Les pressions transdiaphragmatiques ne subissent pas de modification pathologique de ce type.\n• C (Faux) : La capacité vitale (CV) reste stable (l'élargissement du thorax compense la remontée du diaphragme).\n• D (Vrai) : La Capacité Pulmonaire Totale (CPT) n'est pas ou très peu modifiée.\n• E (Vrai) : Sous l'effet de la progestérone, il y a une hyperventilation alvéolaire physiologique par augmentation de la sensibilité des centres respiratoires au CO2."
+  },
+  {
+    "options": {
+      "A": "La maladie s'aggrave pour la moitié des patientes",
+      "B": "Un tiers des patientes s'améliore",
+      "C": "Un tiers des patientes s'aggrave",
+      "D": "1/4 des patientes restent stables",
+      "E": "1/4 des patientes s'aggrave"
+    },
+    "correctAnswers": [
+      "B",
+      "C"
+    ],
+    "text": "Classiquement, concernant l'évolution de l'asthme pendant la grossesse :",
+    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-03",
+    "explanation": "Correction détaillée :\n• A (Faux) : La proportion d'une moitié est incorrecte (loi des trois tiers).\n• B (Vrai) : Classiquement, un tiers des patientes voit son asthme s'améliorer.\n• C (Vrai) : Un autre tiers voit son asthme s'aggraver (le dernier tiers restant stable).\n• D (Faux) : Un tiers (et non 1/4) des patientes reste stable.\n• E (Faux) : Un tiers (et non 1/4) des patientes voit son asthme s'aggraver."
+  },
+  {
+    "options": {
+      "A": "Augmentation modérée des fausses couches",
+      "B": "Poids de naissance augmenté pour le fœtus après un passage aux urgences pour asthme aigu grave de la mère",
+      "C": "Le mauvais contrôle de la maladie et la sévérité augmentent le risque d'une hypertension artérielle.",
+      "D": "Augmentation de la morbidité fœtale chez toutes les patientes",
+      "E": "Pas de modification"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "text": "Concernant l'impact de l'asthme sur la grossesse :",
+    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-04",
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'asthme maternel est associé à une augmentation modérée du risque de fausses couches spontanées.\n• B (Faux) : Un épisode d'asthme aigu grave ou un asthme mal contrôlé expose au contraire à un retard de croissance intra-utérin (RCIU) et à un petit poids de naissance par hypoxie fœtale.\n• C (Faux) : Non retenu dans la grille officielle de l'annale.\n• D (Faux) : La morbidité fœtale n'est pas augmentée chez toutes les patientes : un asthme parfaitement contrôlé sous traitement inhalé permet une grossesse d'évolution normale.\n• E (Faux) : L'asthme non contrôlé a un retentissement materno-fœtal réel."
+  },
+  {
+    "options": {
+      "A": "La bonne observance du traitement",
+      "B": "Le tabagisme",
+      "C": "L'interruption du traitement de fond",
+      "D": "La prise régulière de Ventoline",
+      "E": "Asthme initialement sévère"
+    },
+    "correctAnswers": [
+      "B",
+      "C",
+      "E"
+    ],
+    "text": "Quels sont les facteurs d'aggravation de l'asthme pendant la grossesse ?",
+    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-05",
+    "explanation": "Correction détaillée :\n• A (Faux) : La bonne observance du traitement de fond protège au contraire contre les exacerbations.\n• B (Vrai) : Le tabagisme aggrave l'inflammation bronchique, réduit l'efficacité des corticoïdes inhalés et favorise les crises.\n• C (Vrai) : L'interruption du traitement de fond (souvent par crainte infondée pour le fœtus) est un facteur majeur de décompensation.\n• D (Faux) : Le recours fréquent à la Ventoline est un marqueur de mauvais contrôle de l'asthme, mais pas une cause d'aggravation en soi.\n• E (Vrai) : Un asthme initialement sévère avant la grossesse est le principal facteur prédictif d'aggravation pendant la grossesse."
+  },
+  {
+    "options": {
+      "A": "Éviter l'hypoxie pour le fœtus",
+      "B": "Prévention des épisodes aigus",
+      "C": "On tolère une plus grande variation du VEMS pendant la grossesse",
+      "D": "Maintien d'une fonction respiratoire normale pour la mère",
+      "E": "Limiter la iatrogénie"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "text": "Quels sont les objectifs du traitement de l'asthme chez la femme enceinte ?",
+    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-06",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Éviter l'hypoxie est l'objectif fœtal majeur.\n• B (Vrai) : La prévention des crises (exacerbations) est le but clinique principal.\n• C (Faux) : On ne doit avoir aucune tolérance pour les variations de la fonction respiratoire, le contrôle doit être optimal.\n• D (Vrai) : Maintenir un VEMS normal pour assurer les échanges gazeux.\n• E (Vrai) : Prescrire les doses minimales efficaces pour limiter la iatrogénie."
+  },
+  {
+    "options": {
+      "A": "La patiente doit interrompre son traitement dès l'annonce de la grossesse.",
+      "B": "Le traitement de l'asthme a des effets indésirables décrits.",
+      "C": "Les médicaments habituellement utilisés sont autorisés pendant la grossesse.",
+      "D": "Les corticoïdes inhalés sont contre-indiqués.",
+      "E": "Il n'y a pas d'effets secondaires rapportés avec le Salbutamol."
+    },
+    "correctAnswers": [
+      "C",
+      "E"
+    ],
+    "text": "Concernant les traitements de l'asthme pendant la grossesse :",
+    "id": "ANN-UE3-UE3S3Pneumologie3-SQI1-07",
+    "explanation": "Correction détaillée :\n• A (Faux) : Le traitement de fond ne doit jamais être arrêté à l'annonce d'une grossesse car l'hypoxie liée aux crises est bien plus dangereuse pour le fœtus.\n• B (Faux) : Les traitements inhalés usuels de l'asthme ne présentent pas de toxicité fœtale ou tératogène démontrée.\n• C (Vrai) : Les médicaments antiasthmatiques de référence (corticoïdes inhalés, bêta-2-mimétiques) sont autorisés et recommandés pendant la grossesse.\n• D (Faux) : Les corticoïdes inhalés ne sont absolument pas contre-indiqués et constituent la base du traitement de fond.\n• E (Vrai) : Le Salbutamol (Ventoline) est parfaitement utilisable sans effet fœtotoxique rapporté aux doses thérapeutiques inhalées."
+  }
+];
+window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 4/SQI1.pdf"] = [
+  {
+    "options": {
+      "A": "Ce sont des antagonistes des récepteurs muscariniques.",
+      "B": "Ils ont des effets parasympatholytiques.",
+      "C": "Ils ont une action anti-inflammatoire.",
+      "D": "Ils sont utilisés en première ligne de traitement de la crise d'asthme.",
+      "E": "Leur effet bronchodilatateur est plus rapide et plus puissant que celui des bêta-2-mimétiques."
+    },
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "text": "Concernant les anticholinergiques :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-01",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ils agissent par action compétitive préférentielle au niveau des récepteurs muscariniques (M1, M2, M3) du muscle lisse bronchique.\n• B (Vrai) : En bloquant les récepteurs à l'acétylcholine (qui est le neuromédiateur du système parasympathique responsable de la bronchoconstriction), ils ont un effet parasympatholytique.\n• C (Faux) : Les anticholinergiques n'ont pas d'action anti-inflammatoire. Ce sont les corticoïdes (ou les anti-leucotriènes) qui ciblent l'inflammation.\n• D (Faux) : Ils sont prescrits en cas de non-réponse ou en alternative, mais la première ligne de traitement de la crise d'asthme reste les bêta-2-mimétiques de courte durée d'action.\n• E (Faux) : Leur puissance pharmacologique est moins forte que celle des bêta-2-mimétiques et leur effet est moins rapide."
+  },
+  {
+    "options": {
+      "A": "repose sur des bêtabloquants.",
+      "B": "repose sur des bêta-2-agonistes.",
+      "C": "repose sur des anti-inflammatoires non-stéroïdiens.",
+      "D": "repose sur des agonistes des récepteurs aux leucotriènes.",
+      "E": "repose sur des méthylxanthines inhalées."
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "text": "Le traitement de la crise d'asthme :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-02",
+    "explanation": "Correction détaillée :\n• A (Faux) : Les bêtabloquants sont pro-bronchoconstricteurs (ils bloquent les récepteurs dilatateurs) et sont donc contre-indiqués dans l'asthme.\n• B (Vrai) : Le traitement de la crise d'asthme repose en première ligne sur des bronchodilatateurs à action rapide et courte (SABA), comme le salbutamol (Ventoline), qui sont des bêta-2-agonistes.\n• C (Faux) : Les AINS ne traitent pas la crise (et peuvent même la déclencher, cf. syndrome de Widal). Les anti-inflammatoires utilisés dans l'asthme sont stéroïdiens (corticoïdes).\n• D (Faux) : Les agonistes n'existent pas en traitement (on utilise des antagonistes des leucotriènes comme le Montélukast) et ils servent de traitement de fond, pas pour la crise.\n• E (Faux) : Les méthylxanthines (théophylline) ne sont quasiment plus utilisées (3ème ligne de traitement de fond) et ne s'administrent pas par voie inhalée (voie orale ou injectable)."
+  },
+  {
+    "options": {
+      "A": "Une turgescence jugulaire",
+      "B": "Un œdème en pèlerine",
+      "C": "Une douleur de l'épaule et du membre supérieur de distribution C8-D2",
+      "D": "Un syndrome de Claude Bernard-Horner",
+      "E": "Une amyotrophie des muscles de la main"
+    },
+    "correctAnswers": [
+      "C",
+      "D",
+      "E"
+    ],
+    "text": "Un patient se présente à votre consultation. Après interrogatoire et examen clinique, vous trouvez qu'il présente un syndrome de Pancoast-Tobias. Ce syndrome associe :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-03",
+    "explanation": "Correction détaillée :\n• A (Faux) : La turgescence jugulaire fait partie du syndrome cave supérieur, pas du syndrome de Pancoast-Tobias.\n• B (Faux) : L'œdème en pèlerine est également un signe du syndrome cave supérieur.\n• C (Vrai) : L'extension tumorale à l'apex pulmonaire comprime le plexus brachial, provoquant une névralgie cervico-brachiale (territoire C8-D1/D2).\n• D (Vrai) : L'envahissement du ganglion sympathique stellaire provoque ce syndrome (myosis, ptosis, énophtalmie).\n• E (Vrai) : La compression des racines inférieures du plexus brachial entraîne une amyotrophie des muscles intrinsèques de la main."
+  },
+  {
+    "options": {
+      "A": "Un pH bas",
+      "B": "Des bicarbonates augmentés",
+      "C": "Une PCO2 abaissée",
+      "D": "Des bicarbonates abaissés",
+      "E": "Un pH > 7,4"
+    },
+    "correctAnswers": [
+      "B",
+      "E"
+    ],
+    "text": "Dans l'alcalose métabolique, on retrouve ?",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-04",
+    "explanation": "Correction détaillée :\n• A (Faux) : Une alcalose se définit par un pH sanguin élevé (basique), et non bas.\n• B (Vrai) : L'origine « métabolique » de l'alcalose se traduit par une élévation primaire de la concentration en bicarbonates (HCO3-) dans le sang.\n• C (Faux) : La pCO2 serait abaissée dans une alcalose respiratoire (hyperventilation), pas métabolique.\n• D (Faux) : Les bicarbonates sont augmentés, pas abaissés (des bicarbonates abaissés signeraient une acidose métabolique).\n• E (Vrai) : Le pH artériel est supérieur à 7,4 (précisément > 7,45)."
+  },
+  {
+    "options": {
+      "A": "L'oropharynx se situe en arrière du « V » lingual, en dessous du voile du palais et se termine au niveau de l'épiglotte.",
+      "B": "Les tonsilles pharyngiennes (végétations adénoïdes) sont situées dans l'oropharynx.",
+      "C": "Le laryngopharynx appartient au pharynx et constitue le carrefour aérodigestif.",
+      "D": "Le cartilage cricoïde est le seul cartilage circulaire des voies aériennes respiratoires.",
+      "E": "Les cartilages aryténoïdes s'articulent sur la partie antérieure du cartilage cricoïde, leurs mobilités permettent la mobilité des cordes vocales."
+    },
+    "correctAnswers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "text": "Donnez la(les) réponse(s) vraie(s) :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-05",
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'oropharynx est la portion moyenne du pharynx, délimitée en haut par le voile du palais et en bas par le bord supérieur de l'épiglotte.\n• B (Faux) : Les tonsilles pharyngiennes (végétations adénoïdes) se situent dans le nasopharynx (rhinopharynx), et non dans l'oropharynx.\n• C (Vrai) : Le laryngopharynx (ou hypopharynx) est la portion inférieure, lieu de croisement des voies respiratoires et digestives (carrefour aérodigestif).\n• D (Vrai) : Le cartilage cricoïde (en forme de bague) est le seul anneau cartilagineux complètement fermé des voies respiratoires.\n• E (Faux) : Les cartilages aryténoïdes s'articulent sur la partie postérieure (et supérieure) de la lame du cartilage cricoïde, et non antérieure."
+  },
+  {
+    "options": {
+      "A": "Astérixis",
+      "B": "Sueurs",
+      "C": "Cyanose",
+      "D": "Agitation",
+      "E": "Céphalées"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "text": "Parmi ces propositions, quels sont les signes cliniques caractéristiques d'une hypercapnie ?",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-06",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le flapping tremor (astérixis) est un signe neurologique classique de l'encéphalopathie hypercapnique.\n• B (Vrai) : L'hypercapnie provoque une hypersudation (sueurs).\n• C (Faux) : La cyanose est le signe clinique d'une hypoxémie sévère, pas de l'hypercapnie.\n• D (Vrai) : L'agitation, tout comme la confusion, sont des répercussions neurologiques de l'hypercapnie.\n• E (Vrai) : La vasodilatation cérébrale induite par l'hypercapnie provoque des céphalées (souvent matinales)."
+  },
+  {
+    "options": {
+      "A": "Ce sont des agonistes des récepteurs bêta-2 adrénergiques.",
+      "B": "Le formotérol est un médicament inhalé à courte durée d'action.",
+      "C": "Le salbutamol est un médicament inhalé à longue durée d'action.",
+      "D": "Leurs récepteurs bêta-2 sont exprimés dans le muscle lisse bronchique.",
+      "E": "Ils induisent une relaxation musculaire dans un délai de 1 à 15 minutes après prise inhalée."
+    },
+    "correctAnswers": [
+      "A",
+      "D",
+      "E"
+    ],
+    "text": "À propos des bêta-2 mimétiques :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-07",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ils miment l'action de l'adrénaline sur les récepteurs bêta-2 du système sympathique.\n• B (Faux) : Le formotérol est un LABA (Long-Acting Beta-Agonist), c'est-à-dire à longue durée d'action (12h).\n• C (Faux) : Le salbutamol (Ventoline) est un SABA, donc un médicament à courte durée d'action (4 à 6h).\n• D (Vrai) : Les récepteurs bêta-2 sont majoritairement présents (70%) dans le muscle lisse des bronches.\n• E (Vrai) : Par voie inhalée, l'effet de bronchodilatation est très rapide, apparaissant en 1 à 3 minutes (jusqu'à 15 minutes max pour agir)."
+  },
+  {
+    "options": {
+      "A": "Le diaphragme comprend une partie centrale musculaire et une partie périphérique tendineuse.",
+      "B": "L'innervation du diaphragme se fait par les nerfs phréniques dont l'origine est cervicale.",
+      "C": "En expiration, le diaphragme remonte passivement.",
+      "D": "Le hile pulmonaire est constitué d'une artère pulmonaire, d'une bronche souche et d'une veine pulmonaire.",
+      "E": "Le poumon droit comprend 3 lobes pulmonaires (supérieur, moyen, inférieur) et le poumon gauche 2 lobes (supérieur, inférieur)."
+    },
+    "correctAnswers": [
+      "B",
+      "C",
+      "E"
+    ],
+    "text": "Donnez la(les) réponse(s) vraie(s) :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-08",
+    "explanation": "Correction détaillée :\n• A (Faux) : C'est l'inverse. Le diaphragme possède un centre tendineux (le centre phrénique) et une périphérie musculaire.\n• B (Vrai) : Il est innervé par les nerfs phréniques qui naissent des racines cervicales (C3-C4-C5).\n• C (Vrai) : L'inspiration est active (contraction du diaphragme qui descend). L'expiration de repos est un phénomène passif dû au relâchement du muscle qui remonte.\n• D (Faux) : Le hile pulmonaire comprend une artère pulmonaire, une bronche souche, mais deux veines pulmonaires par poumon.\n• E (Vrai) : Le poumon droit possède 3 lobes (séparés par 2 scissures) et le poumon gauche possède 2 lobes (séparés par 1 scissure pour laisser la place au cœur)."
+  },
+  {
+    "options": {
+      "A": "Un pneumothorax droit",
+      "B": "Un pneumothorax gauche",
+      "C": "Une pneumopathie gauche",
+      "D": "Une ligne de Damoiseau à droite",
+      "E": "Aucune des propositions"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "text": "Sur cette radiographie on retrouve ?",
+    "image": "data/images/annales/UE3-Pneumo4-SQI1-p5-xref202.jpeg",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-09",
+    "explanation": "Correction détaillée :\n• A (Faux) : Le champ pulmonaire droit est normal sur ce cliché.\n• B (Vrai) : On observe une hyperclarté avasculaire sur tout le champ pulmonaire gauche avec une ligne bordante correspondant au poumon rétracté au hile (pneumothorax gauche complet).\n• C (Faux) : Une pneumopathie donnerait une opacité (blanc), or ici c'est une hyperclarté (noir).\n• D (Faux) : La ligne de Damoiseau est typique d'un épanchement liquidien pleural (pleurésie).\n• E (Faux) : La proposition B est exacte."
+  },
+  {
+    "options": {
+      "A": "Les pneumocytes sont recouverts de surfactant.",
+      "B": "Les pneumocytes de type 2 synthétisent le surfactant.",
+      "C": "Au niveau des bronchioles respiratoires, le cartilage forme un anneau complet.",
+      "D": "Les macrophages sont présents dans les alvéoles.",
+      "E": "Les alvéoles sont bordées par un épithélium riche en cellules ciliées."
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "text": "À propos des voies aériennes respiratoires :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-10",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le film alvéolaire est recouvert de surfactant pour empêcher le collapsus des alvéoles.\n• B (Vrai) : Ce sont spécifiquement les pneumocytes de type 2 qui sécrètent ce surfactant.\n• C (Faux) : Par définition anatomique, les bronchioles sont dépourvues de cartilage.\n• D (Vrai) : Les macrophages alvéolaires sont présents pour phagocyter les particules étrangères atteignant les alvéoles.\n• E (Faux) : L'épithélium alvéolaire est pavimenteux simple (pneumocytes) et ultra-fin pour les échanges. L'épithélium riche en cellules ciliées s'arrête dans les voies de conduction (bronches/bronchioles)."
+  },
+  {
+    "options": {
+      "A": "L'oxygénation du diaphragme",
+      "B": "Un rôle de réservoir sanguin",
+      "C": "Filtre circulatoire",
+      "D": "L'oxygénation musculaire périphérique",
+      "E": "L'apport nutritif aux cellules du parenchyme pulmonaire"
+    },
+    "correctAnswers": [
+      "B",
+      "C",
+      "E"
+    ],
+    "text": "Quelles fonctions assure la circulation pulmonaire ?",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-11",
+    "explanation": "Correction détaillée :\n• A (Faux) : L'oxygénation du diaphragme est assurée par la circulation systémique (artères phréniques).\n• B (Vrai) : Le lit vasculaire pulmonaire a une très grande capacité de distension et de recrutement, servant de réservoir sanguin.\n• C (Vrai) : La circulation pulmonaire agit comme un filtre circulatoire (ex : piégeage de petits caillots avant qu'ils n'aillent dans le cerveau).\n• D (Faux) : C'est le rôle de la circulation systémique gauche.\n• E (Vrai) : La circulation pulmonaire assure la nutrition du parenchyme (structures alvéolaires), tandis que la circulation bronchique nourrit les bronches."
+  },
+  {
+    "options": {
+      "A": "Normale",
+      "B": "Épanchement pleural droit",
+      "C": "Pneumothorax gauche",
+      "D": "Opacité lobaire supérieure droite",
+      "E": "Opacité lobaire supérieure gauche"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "text": "Quelle proposition est vraie concernant cette radiographie thoracique ?",
+    "image": "data/images/annales/UE3-Pneumo4-SQI1-p7-xref268.jpeg",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-12",
+    "explanation": "Correction détaillée :\n• A (Faux) : La radiographie est pathologique.\n• B (Faux) : Un épanchement pleural donnerait une opacité de la base effaçant le cul-de-sac pleural.\n• C (Faux) : Le poumon gauche est normal ici.\n• D (Vrai) : On objective une opacité alvéolaire systématisée du lobe supérieur droit, limitée en bas par la petite scissure (scissure horizontale) bien nette.\n• E (Faux) : L'anomalie est située à droite."
+  },
+  {
+    "options": {
+      "A": "Stade embryonnaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
+      "B": "Stade pseudo-glandulaire, stade embryonnaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
+      "C": "Stade embryonnaire, stade pseudo-glandulaire, stade canaliculaire, stade sacculaire, stade alvéolaire",
+      "D": "Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire",
+      "E": "Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "text": "Les 5 stades de développement de l'appareil respiratoire sont dans l'ordre chronologique :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-13",
+    "explanation": "Correction détaillée :\n• A (Faux) : Les stades canaliculaire et sacculaire sont inversés.\n• B (Faux) : Le stade embryonnaire est le premier stade.\n• C (Vrai) : L'ordre chronologique exact du développement fœtal est : Stade embryonnaire → stade pseudo-glandulaire → stade canaliculaire → stade sacculaire → stade alvéolaire.\n• D (Faux) : Le stade alvéolaire est le dernier stade et non le premier.\n• E (Faux) : Le stade embryonnaire précède le stade pseudo-glandulaire."
+  },
+  {
+    "options": {
+      "A": "C'est le lieu de l'hématose.",
+      "B": "Elle est riche en adipocytes.",
+      "C": "Elle comprend des pneumocytes 1 et des pneumocytes 2.",
+      "D": "Elle est riche en fibrocytes.",
+      "E": "Elle comprend une lame basale."
+    },
+    "correctAnswers": [
+      "A",
+      "E"
+    ],
+    "text": "À propos de la barrière alvéolo-capillaire :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-14",
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est le lieu exclusif des échanges gazeux (hématose).\n• B (Faux) : Elle doit être la plus fine possible, il n'y a absolument pas de tissu adipeux.\n• C (Faux) : Au sens strict de la barrière physique d'échange gazeux, l'O2 ne traverse que le pneumocyte de type 1, la membrane basale fusionnée et la cellule endothéliale. Le pneumocyte de type 2 ne participe pas à la constitution de la « barrière » d'échange.\n• D (Faux) : Une richesse en fibrocytes signerait une fibrose pathologique, l'interstitium normal ici est extrêmement fin.\n• E (Vrai) : Les lames basales de l'épithélium alvéolaire et de l'endothélium capillaire y sont fusionnées."
+  },
+  {
+    "options": {
+      "A": "Des sympathomimétiques",
+      "B": "Des sympatholytiques",
+      "C": "Des parasympathomimétiques",
+      "D": "Des parasympatholytiques",
+      "E": "Des inhibiteurs des phosphodiestérases"
+    },
+    "correctAnswers": [
+      "A",
+      "D",
+      "E"
+    ],
+    "text": "À propos des médicaments bronchodilatateurs, on retrouve :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-15",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les agonistes bêta-2 adrénergiques (sympathomimétiques) miment le système orthosympathique bronchodilatateur.\n• B (Faux) : Un sympatholytique bloquerait la dilatation (effet bronchoconstricteur).\n• C (Faux) : Un parasympathomimétique reproduirait l'effet de l'acétylcholine (effet bronchoconstricteur).\n• D (Vrai) : Les anticholinergiques (parasympatholytiques) bloquent la voie de la constriction, favorisant la dilatation.\n• E (Vrai) : La théophylline inhibe la phosphodiestérase (empêchant la dégradation de l'AMPc), induisant un relâchement du muscle lisse."
+  },
+  {
+    "options": {
+      "A": "Cyanose",
+      "B": "Fréquence respiratoire",
+      "C": "Respiration paradoxale",
+      "D": "Confusion",
+      "E": "Aucune des réponses n'est vraie"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "text": "Parmi ces signes cliniques, lequel(lesquels) permet(tent) d'évaluer la gravité d'une détresse respiratoire aiguë ?",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-16",
+    "explanation": "Correction détaillée :\n• A (Vrai) : La cyanose traduit une hypoxémie tissulaire profonde (signe de gravité extrême).\n• B (Vrai) : Une polypnée importante (> 30/min) ou une bradypnée (< 10/min) sont des signes d'épuisement.\n• C (Vrai) : La respiration paradoxale (le ventre rentre à l'inspiration) est un signe de faillite et de fatigue du diaphragme.\n• D (Vrai) : La confusion reflète le retentissement neurologique de l'hypoxie/hypercapnie (signe de gravité).\n• E (Faux) : Les propositions A, B, C et D sont vraies."
+  },
+  {
+    "options": {
+      "A": "Un pneumothorax radiographique est caractérisé par une hyperclarté avasculaire périphérique.",
+      "B": "L'arc médiastinal moyen gauche radiographique correspond anatomiquement à la veine cave supérieure.",
+      "C": "Le syndrome alvéolaire est caractérisé par la présence d'un bronchogramme aérique au sein d'une opacité.",
+      "D": "Dans le médiastin, 2 opacités de même densité au contact l'une de l'autre et effaçant leurs bords respectifs sont dans le même plan.",
+      "E": "L'appréciation de la réalisation d'une radiographie de face en inspiration profonde se fait sur la présence visible de la poche à air gastrique."
+    },
+    "correctAnswers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "text": "Concernant la radiographie thoracique de face :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-17",
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'air dans la plèvre forme une zone très noire (hyperclarté) où on ne voit plus la trame vasculaire (avasculaire), refoulant le poumon.\n• B (Faux) : L'arc moyen gauche correspond à l'artère pulmonaire (tronc et artère pulmonaire gauche). La veine cave supérieure forme l'arc supérieur droit.\n• C (Vrai) : Le bronchogramme aérique (visibilité des bronches remplies d'air se détachant sur des alvéoles comblées de liquide) est le signe pathognomonique du syndrome alvéolaire.\n• D (Vrai) : C'est la définition du « signe de la silhouette » de Felson.\n• E (Faux) : L'inspiration profonde s'évalue en comptant les arcs costaux antérieurs (le 6ème doit croiser la coupole diaphragmatique), la poche à air gastrique n'est pas le critère pour évaluer l'inspiration."
+  },
+  {
+    "options": {
+      "A": "est une gêne au retour veineux par compression extrinsèque ou thrombose de la veine cave supérieure.",
+      "B": "est dans la majorité des cas d'origine tumorale.",
+      "C": "associe une cyanose du visage, un œdème en pèlerine, une turgescence jugulaire, une circulation veineuse collatérale et des céphalées en fin de nuit.",
+      "D": "peut être lié à un envahissement du médiastin antérieur.",
+      "E": "Aucune des propositions n'est vraie."
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "text": "Le syndrome cave supérieur :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-18",
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est la définition physiopathologique (obstacle sur le drainage veineux du territoire cave supérieur).\n• B (Vrai) : La cause principale est tumorale (cancer broncho-pulmonaire envahissant le médiastin, adénopathies, lymphomes...).\n• C (Vrai) : Il s'agit de la triade clinique classique : œdème en pèlerine (visage/cou/creux sus-claviculaires), cyanose, et circulation collatérale turgescente (avec majoration lors du décubitus/fin de nuit).\n• D (Vrai) : Les tumeurs du médiastin antérieur (comme les lymphomes ou les tumeurs germinales) peuvent comprimer la veine cave supérieure.\n• E (Faux) : Les propositions A, B, C et D sont vraies."
+  },
+  {
+    "options": {
+      "A": "Le diaphragme est un muscle strié : il est commandé de façon automatique (la plupart du temps) ou volontaire.",
+      "B": "C'est un muscle accessoire de la respiration.",
+      "C": "Les fibres qui composent le diaphragme sont adaptées à un travail en endurance : 40 % d'entre elles sont de type lent.",
+      "D": "Il ne participe pas à la ventilation.",
+      "E": "Le contrôle nerveux du diaphragme se fait par l'intermédiaire des nerfs phréniques."
+    },
+    "correctAnswers": [
+      "A",
+      "C",
+      "E"
+    ],
+    "text": "Concernant le diaphragme :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-19",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Bien qu'il soit un muscle strié squelettique, il possède la particularité d'être contrôlé à la fois par les centres végétatifs (automatique) et le cortex (volontaire).\n• B (Faux) : Il n'est pas « accessoire », c'est le muscle principal et essentiel de l'inspiration.\n• C (Vrai) : Étant continuellement en action, ses fibres musculaires sont extrêmement résistantes à la fatigue, avec une forte proportion de fibres lentes (type I).\n• D (Faux) : Il est l'acteur majeur de la ventilation.\n• E (Vrai) : Les nerfs phréniques (droit et gauche) en sont les moteurs exclusifs."
+  },
+  {
+    "options": {
+      "A": "La fréquence respiratoire",
+      "B": "Les structures musculaires et osseuses de la cage thoracique",
+      "C": "La compression dynamique des voies aériennes",
+      "D": "Le parenchyme pulmonaire",
+      "E": "Le muscle lisse bronchique"
+    },
+    "correctAnswers": [
+      "B",
+      "D"
+    ],
+    "text": "Quel(s) facteur(s) détermine(nt) la compliance du système respiratoire ?",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-20",
+    "explanation": "Correction détaillée :\n• A (Faux) : La fréquence respiratoire est une résultante dynamique, elle ne détermine pas les propriétés physiques élastiques (compliance).\n• B (Vrai) : La compliance totale du système respiratoire dépend de la compliance de la cage thoracique (structures osseuses et musculaires). L'obésité ou la cyphoscoliose, par exemple, la diminuent.\n• C (Faux) : Cela influence la résistance des voies aériennes, pas leur compliance.\n• D (Vrai) : La compliance dépend de l'élasticité propre du parenchyme pulmonaire (fibres d'élastine/collagène, alvéoles).\n• E (Faux) : Le tonus du muscle lisse bronchique module la résistance (calibre) des voies aériennes, non la compliance."
+  },
+  {
+    "options": {
+      "A": "L'oxygène diffuse de façon active à travers la membrane alvéolo-capillaire.",
+      "B": "La pression partielle artérielle en O2 est un paramètre mesurable.",
+      "C": "Il est transporté dans le sang en majeure partie sous forme liée à l'hémoglobine.",
+      "D": "La PaO2 est toujours stable.",
+      "E": "L'oxygène diffuse de l'alvéole vers le compartiment sanguin de façon passive."
+    },
+    "correctAnswers": [
+      "B",
+      "C",
+      "E"
+    ],
+    "text": "Concernant l'oxygène :",
+    "id": "ANN-UE3-UE3S3Pneumologie4-SQI1-21",
+    "explanation": "Correction détaillée :\n• A (Faux) : La diffusion des gaz à travers la membrane alvéolo-capillaire est un phénomène strictement passif (loi de Fick), fonction des gradients de pression.\n• B (Vrai) : La pression partielle en O2 artérielle (PaO2) se mesure quotidiennement en clinique via la gazométrie artérielle.\n• C (Vrai) : La quasi-totalité de l'O2 (environ 98%) est transportée de manière liée à l'hémoglobine (l'O2 dissous est très minoritaire).\n• D (Faux) : La PaO2 n'est pas « toujours » stable ; elle chute lors d'une insuffisance respiratoire, avec l'âge, ou en altitude.\n• E (Vrai) : Le gradient de pression (l'alvéole étant plus riche en O2 que le sang veineux) permet ce transfert passif."
+  }
+];
+window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/DP1.pdf"] = [
+  {
+    "options": {
+      "A": "Pneumopathie infectieuse base droite",
+      "B": "Embolie pulmonaire",
+      "C": "Décompensation hypercapnique de bronchopneumopathie chronique obstructive",
+      "D": "Décompensation cardiaque avec pleurésie exsudative",
+      "E": "Aucune de ces propositions."
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il y a 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de Traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de Traitement des Urgences : Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 15), somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7,22 ; PaO2 145 mmHg ; PaCO2 69 mmHg ; Leucocytes 12,4 G/L. • Elle est suivie pour une BPCO post-tabagique et une hypertension artérielle.]\nQuel est votre diagnostic ?",
+    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-01",
+    "explanation": "Correction détaillée :\n• A (Faux) : Absence de fièvre et d'expectoration purulente ; le tableau gazométrique est celui d'une acidose respiratoire sévère.\n• B (Faux) : L'embolie pulmonaire donne classiquement une hypoxémie-hypocapnie, non une acidose hypercapnique majeure.\n• C (Vrai) : Il s'agit d'une décompensation hypercapnique d'une BPCO (pH 7,22 acide, PaCO2 à 69 mmHg très élevée) déclenchée par la dyspnée et l'oxygénothérapie intempestive à domicile (PaO2 à 145 mmHg sous O2).\n• D (Faux) : Une décompensation cardiaque gauche donne un transsudat et non un exsudat, et le silence auscultatoire bilatéral oriente vers la distension/bronchospasme sévère.\n• E (Faux) : La proposition C est exacte."
+  },
+  {
+    "options": {
+      "A": "Embolie pulmonaire",
+      "B": "Exacerbation virale d'une BPCO",
+      "C": "Pneumothorax partiel droit",
+      "D": "Pneumopathie base droite",
+      "E": "Pleurésie gauche"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il y a 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de Traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de Traitement des Urgences : Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 15), somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7,22 ; PaO2 145 mmHg ; PaCO2 69 mmHg ; Leucocytes 12,4 G/L. • Elle est suivie pour une BPCO post-tabagique et une hypertension artérielle.]\nElle bénéficie d'une mise sous Ventilation Non Invasive apportant une amélioration clinique et gazométrique dans un premier temps (pH 7,34 ; PaO2 78 mmHg ; PaCO2 51 mmHg). 8h plus tard, échec de tentative de sevrage de Ventilation Non Invasive avec l'apparition d'une dyspnée inhibant la parole avec signes de lutte respiratoire. La patiente est également agitée avec des sueurs profuses et un balancement thoraco-abdominal. La radio suivante est réalisée : Quel est votre diagnostic ?",
+    "image": "data/images/annales/UE3-Pneumo5-DP1-p2-xref39.jpeg",
+    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-02",
+    "explanation": "Correction détaillée :\n• A, B, D, E (Faux) : Ne correspondent pas à l'anomalie radiologique visible à droite.\n• C (Vrai) : La radiographie au lit montre une hyperclarté périphérique avasculaire avec une ligne pleurale viscérale visible à droite (collapsus du parenchyme), signant un pneumothorax partiel droit (qui explique aussi la douleur latéralisée à droite initiale majorée sous pression positive de VNI sur terrain de BPCO/emphysème)."
+  },
+  {
+    "options": {
+      "A": "Syndrome obstructif sévère",
+      "B": "Syndrome mixte",
+      "C": "Pas de syndrome restrictif",
+      "D": "Syndrome obstructif modéré",
+      "E": "Aucune de ces propositions n'est juste"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il y a 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de Traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de Traitement des Urgences : Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 15), somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7,22 ; PaO2 145 mmHg ; PaCO2 69 mmHg ; Leucocytes 12,4 G/L. • Elle est suivie pour une BPCO post-tabagique et une hypertension artérielle.]\nLa patiente est prise en charge en pneumologie puis regagne son domicile après 5 jours d'hospitalisation, avec un traitement bronchodilatateur par bêta-2-mimétiques pour sa BPCO. Elle revient en consultation à 3 mois pour évaluation. Les EFR sous bêta-2-mimétiques sont réalisées (voir image). Quelle proposition est vraie ?",
+    "image": "data/images/annales/UE3-Pneumo5-DP1-p4-xref64.jpeg",
+    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-03",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le rapport VEMS/CVF est abaissé (< 0,70), avec un VEMS effondré à 28 % de la théorique (< 30 % = très sévère / sévère). Le Volume Résiduel (VR) est extrêmement augmenté (297 % de la théorique) avec une CPT augmentée (154 %), signant une distension thoracique majeure. Il s'agit d'un trouble ventilatoire obstructif sévère.\n• B (Faux) : La CPT n'est pas diminuée (< 80 %), il n'y a donc pas de syndrome restrictif associé (pas de syndrome mixte).\n• D (Faux) : Le VEMS est bien inférieur à 50 % de la valeur théorique, l'obstruction n'est donc pas modérée mais sévère.\n• E (Faux) : La proposition A est vraie."
+  },
+  {
+    "options": {
+      "A": "L'ajout d'un corticoïde inhalé",
+      "B": "La mise en place d'une association fixe par bêta-2-mimétique et anticholinergique",
+      "C": "La mise en place d'une association fixe par corticoïde inhalé et bêta-2-mimétique",
+      "D": "La mise en place d'un traitement par Ventoline systématique",
+      "E": "La mise en place d'une antibiothérapie au long cours"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il y a 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de Traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de Traitement des Urgences : Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 15), somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7,22 ; PaO2 145 mmHg ; PaCO2 69 mmHg ; Leucocytes 12,4 G/L. • Elle est suivie pour une BPCO post-tabagique et une hypertension artérielle.]\nElle ne rapporte aucune amélioration sur sa dyspnée, quelle modification thérapeutique peut être proposée ?",
+    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-04",
+    "explanation": "Correction détaillée :\n• A, C (Faux) : Les corticoïdes inhalés (CSI) ne sont indiqués dans la BPCO qu'en cas d'exacerbations fréquentes (≥ 2/an ou ≥ 1 hospitalisation) et jamais en monothérapie.\n• B (Vrai) : Devant la persistance d'une dyspnée sous monothérapie bronchodilatatrice (LABA), l'escalade thérapeutique recommandée repose sur la bithérapie bronchodilatatrice associant un LABA (bêta-2-mimétique de longue durée d'action) et un LAMA (anticholinergique de longue durée d'action).\n• D (Faux) : La Ventoline (SABA) se prescrit uniquement à la demande en traitement de secours.\n• E (Faux) : L'antibiothérapie au long cours n'est pas indiquée ici."
+  },
+  {
+    "options": {
+      "A": "Arrêt du tabac",
+      "B": "La vaccination pour la grippe",
+      "C": "Arrêter la marche à cause de la dyspnée",
+      "D": "Pas de vaccin pour le pneumocoque",
+      "E": "La réhabilitation respiratoire"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "E"
+    ],
+    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il y a 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de Traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de Traitement des Urgences : Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 15), somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7,22 ; PaO2 145 mmHg ; PaCO2 69 mmHg ; Leucocytes 12,4 G/L. • Elle est suivie pour une BPCO post-tabagique et une hypertension artérielle.]\nQuels sont les autres éléments de la prise en charge de votre patiente ?",
+    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-05",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le sevrage tabagique est la seule mesure qui ralentit le déclin accéléré du VEMS dans la BPCO.\n• B (Vrai) : La vaccination antigrippale annuelle (ainsi qu'antipneumococcique) est systématique pour prévenir les exacerbations infectieuses.\n• C (Faux) : Au contraire, il faut lutter contre la sédentarité et maintenir une activité physique régulière.\n• D (Faux) : La vaccination antipneumococcique est formellement recommandée chez tout patient BPCO.\n• E (Vrai) : La réhabilitation respiratoire est essentielle pour rompre le cercle vicieux du déconditionnement à l'effort et améliorer la dyspnée et la qualité de vie."
+  },
+  {
+    "options": {
+      "A": "Une aggravation rapide des symptômes",
+      "B": "Une fréquence respiratoire supérieure à 30 cycles par minute",
+      "C": "Un antécédent de séjour en réanimation pour exacerbation",
+      "D": "L'absence de comorbidité",
+      "E": "L'absence de tachycardie"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il y a 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de Traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de Traitement des Urgences : Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 15), somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7,22 ; PaO2 145 mmHg ; PaCO2 69 mmHg ; Leucocytes 12,4 G/L. • Elle est suivie pour une BPCO post-tabagique et une hypertension artérielle.]\nLa patiente revient vous voir six mois plus tard, car elle décrit depuis plus de 48 heures une majoration de sa dyspnée et des expectorations purulentes qui la conduisent à une majoration de la consommation de Ventoline. Vous faites le diagnostic d'exacerbation de sa BPCO. Quels signes de gravité recherchez-vous ?",
+    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-06",
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'aggravation rapide de la dyspnée indique un risque de décompensation ventilatoire aiguë.\n• B (Vrai) : La polypnée > 30 cycles/min est un signe clinique majeur de détresse respiratoire aiguë.\n• C (Vrai) : Un antécédent d'exacerbation sévère ayant nécessité la réanimation ou la VNI est un facteur de risque majeur de gravité.\n• D, E (Faux) : C'est au contraire la présence de comorbidités cardiovasculaires et la tachycardie qui constituent des critères de gravité."
+  },
+  {
+    "options": {
+      "A": "La majorité des exacerbations ne sont pas d'origine infectieuse.",
+      "B": "Le caractère purulent de l'expectoration est un élément en faveur d'une origine bactérienne.",
+      "C": "Haemophilus influenzae est souvent mis en cause.",
+      "D": "Le Pseudomonas aeruginosa est souvent mis en cause.",
+      "E": "Les exacerbations sont toujours d'origine virale."
+    },
+    "correctAnswers": [
+      "B",
+      "C"
+    ],
+    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il y a 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de Traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de Traitement des Urgences : Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 15), somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7,22 ; PaO2 145 mmHg ; PaCO2 69 mmHg ; Leucocytes 12,4 G/L. • Elle est suivie pour une BPCO post-tabagique et une hypertension artérielle.]\nConcernant les exacerbations de BPCO :",
+    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-07",
+    "explanation": "Correction détaillée :\n• A (Faux) : La majorité des exacerbations de BPCO ont une origine infectieuse (virale, bactérienne ou mixte).\n• B (Vrai) : La purulence franche des crachats est le meilleur marqueur clinique d'une surinfection bactérienne (critère majeur d'Anthonisen).\n• C (Vrai) : Haemophilus influenzae, Streptococcus pneumoniae et Moraxella catarrhalis sont les trois bactéries les plus fréquemment responsables.\n• D (Faux) : Pseudomonas aeruginosa n'est impliqué que dans les BPCO très sévères (VEMS < 30 %), multi-hospitalisées ou associées à des bronchectasies.\n• E (Faux) : Elles peuvent être bactériennes, virales, environnementales ou idiopathiques."
+  },
+  {
+    "options": {
+      "A": "Une radiographie thoracique",
+      "B": "Un bilan biologique avec NFS, CRP, ionogramme et créatinine",
+      "C": "Une fibroscopie bronchique avec lavage broncho-alvéolaire",
+      "D": "Un électrocardiogramme",
+      "E": "Une recherche de BAAR"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il y a 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de Traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de Traitement des Urgences : Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 15), somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7,22 ; PaO2 145 mmHg ; PaCO2 69 mmHg ; Leucocytes 12,4 G/L. • Elle est suivie pour une BPCO post-tabagique et une hypertension artérielle.]\nQuels examens complémentaires peuvent être demandés dans un premier temps ?",
+    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-08",
+    "explanation": "Correction détaillée :\n• A (Vrai) : La radiographie thoracique élimine un diagnostic différentiel ou un facteur déclenchant (pneumopathie, pneumothorax, OAP, pleurésie).\n• B (Vrai) : Le bilan biologique standard (NFS, CRP, ionogramme, fonction rénale) est systématique devant une exacerbation sévère.\n• C (Faux) : La fibroscopie bronchique est invasive, mal tolérée en hypoxémie/hypercapnie et non indiquée en première intention.\n• D (Vrai) : L'ECG recherche un trouble du rythme (FA), des signes de cœur pulmonaire aigu ou une ischémie myocardique associée.\n• E (Faux) : La recherche de BAAR n'est pas systématique en l'absence de signes cliniques ou radiologiques évocateurs de tuberculose."
+  },
+  {
+    "options": {
+      "A": "Un programme de réhabilitation respiratoire",
+      "B": "Une trithérapie fixe, associant corticoïde inhalé, bêta-2-mimétique et anticholinergique",
+      "C": "La mise en place d'un traitement antibiotique prophylactique",
+      "D": "L'arrêt des séances de kinésithérapie",
+      "E": "Aucune modification n'est envisagée."
+    },
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "text": "[Cas clinique : Aux urgences vous recevez : • Une patiente qui décrit avoir ressenti une douleur thoracique latéralisée à droite lors d'un effort il y a 1 semaine environ et ayant persisté à bas bruit depuis. Il n'y a pas de fièvre, pas de majoration ni modification de l'expectoration ni notion de contage infectieux (notamment Covid) dans l'entourage. • Apparition par la suite d'une dyspnée depuis 24 h et ce malgré la majoration de son oxygénothérapie au domicile. • L'évolution est défavorable vers un tableau de détresse respiratoire vers 22h motivant l'appel du Service d'Aide Médicale Urgente quelques heures plus tard. La patiente est transportée au Service d'Accueil et de Traitement des Urgences du CHU Félix Guyon après administration de trois aérosols de bronchodilatateurs. Arrivée de la patiente au Service d'Accueil et de Traitement des Urgences : Cliniquement : tableau de détresse respiratoire avec signes de lutte sans défaillance hémodynamique associée chez une patiente en sueurs, consciente (Glasgow 15), somnolente. L'auscultation montre un silence auscultatoire bilatéral. • À la biologie de façon notable : pH 7,22 ; PaO2 145 mmHg ; PaCO2 69 mmHg ; Leucocytes 12,4 G/L. • Elle est suivie pour une BPCO post-tabagique et une hypertension artérielle.]\nIl s'agit du troisième épisode de ce type survenu au cours des six derniers mois, quelles propositions thérapeutiques peuvent être envisagées ?",
+    "id": "ANN-UE3-UE3S3Pneumologie5-DP1-09",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le programme de réhabilitation respiratoire est fortement recommandé au décours d'une exacerbation.\n• B (Vrai) : En cas d'exacerbations fréquentes (≥ 2/an) malgré une bithérapie bronchodilatatrice (LABA + LAMA), l'escalade vers une trithérapie inhalée (CSI + LABA + LAMA) est indiquée.\n• C (Faux) : L'antibiothérapie prophylactique au long cours n'est pas recommandée en pratique courante.\n• D (Faux) : La kinésithérapie respiratoire (désencombrement et réentraînement) doit au contraire être poursuivie.\n• E (Faux) : La répétition des exacerbations impose d'intensifier la prise en charge."
+  }
+];
+window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/SQI1.pdf"] = [
+  {
+    "options": {
+      "A": "Ces pathologies ne concernent pas les voies aériennes proximales.",
+      "B": "Les étiologies aiguës sont dominées par des causes infectieuses et cardiologiques.",
+      "C": "La fibroscopie avec lavage broncho-alvéolaire est un examen diagnostique clé.",
+      "D": "Le scanner thoracique n'est d'aucune utilité.",
+      "E": "Aucune des propositions"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "text": "Concernant les pneumopathies interstitielles diffuses :",
+    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-01",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les PID touchent l'interstitium pulmonaire distal et la région alvéolaire, non les grosses bronches proximales.\n• B (Vrai) : Devant une PID aiguë, il faut éliminer en priorité une cause infectieuse ou un œdème aigu du poumon hémodynamique (origine cardiaque).\n• C (Vrai) : Le lavage broncho-alvéolaire (LBA) réalisé lors de la fibroscopie bronchique est un examen clé pour orienter le diagnostic étiologique (formule cellulaire, microbiologie).\n• D (Faux) : Le scanner thoracique haute résolution en coupes fines est l'examen d'imagerie fondamental pour caractériser une PID.\n• E (Faux) : Les propositions A, B et C sont vraies."
+  },
+  {
+    "options": {
+      "A": "L'oropharynx se situe en arrière du « V » lingual, en dessous du voile du palais et se termine au niveau de l'épiglotte.",
+      "B": "Les tonsilles pharyngiennes (végétations adénoïdes) sont situées dans l'oropharynx.",
+      "C": "Le laryngopharynx appartient au pharynx et constitue le carrefour aérodigestif.",
+      "D": "Le cartilage cricoïde est le seul cartilage circulaire des voies aériennes respiratoires.",
+      "E": "Les cartilages aryténoïdes s'articulent sur la partie antérieure du cartilage cricoïde, leurs mobilités permettent la mobilité des cordes vocales."
+    },
+    "correctAnswers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "text": "Donnez la(les) réponse(s) vraie(s) :",
+    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-02",
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'oropharynx est la portion moyenne du pharynx, délimitée en haut par le voile du palais et en bas par le bord supérieur de l'épiglotte.\n• B (Faux) : Les tonsilles pharyngiennes (végétations adénoïdes) se situent dans le nasopharynx (rhinopharynx), et non dans l'oropharynx.\n• C (Vrai) : Le laryngopharynx (ou hypopharynx) est la portion inférieure, lieu de croisement des voies respiratoires et digestives (carrefour aérodigestif).\n• D (Vrai) : Le cartilage cricoïde (en forme de bague) est le seul anneau cartilagineux complètement fermé des voies respiratoires.\n• E (Faux) : Les cartilages aryténoïdes s'articulent sur la partie postérieure (et supérieure) du chaton cricoïdien, et non antérieure."
+  },
+  {
+    "options": {
+      "A": "On peut suspecter une somnolence diurne excessive si le score d'Epworth est supérieur à 11.",
+      "B": "L'obésité est un facteur de risque de syndrome d'apnée du sommeil obstructif.",
+      "C": "La macroglossie est un facteur de risque de syndrome d'apnée du sommeil obstructif.",
+      "D": "Le syndrome d'apnée du sommeil est sévère si l'IAH est supérieur à 15/h.",
+      "E": "La dépression est un diagnostic différentiel chez un patient présentant une somnolence diurne excessive."
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "text": "Un patient de 70 ans se présente à votre consultation pour asthénie. Il décrit des ronflements, un sommeil non réparateur et une somnolence diurne. Il vous explique qu'il se réveille souvent la nuit par manque d'air. Vous suspectez un syndrome d'apnée du sommeil et réalisez une polygraphie ventilatoire :",
+    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-03",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le score d'Epworth évalue la somnolence diurne ; un score > 11/24 est pathologique.\n• B (Vrai) : L'obésité est le principal facteur de risque du SAS obstructif.\n• C (Vrai) : La macroglossie réduit la filière pharyngée et favorise l'obstruction des voies aériennes supérieures.\n• D (Faux) : Le SAS est considéré comme sévère si l'Indice d'Apnées-Hypopnées (IAH) est ≥ 30/h (entre 15 et 30/h, il est modéré).\n• E (Vrai) : La dépression peut simuler un tableau d'asthénie et de somnolence diurne ; c'est un diagnostic différentiel classique."
+  },
+  {
+    "options": {
+      "A": "Astérixis",
+      "B": "Sueurs",
+      "C": "Cyanose",
+      "D": "Agitation",
+      "E": "Céphalées"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "text": "Parmi ces propositions, quels sont les signes cliniques caractéristiques d'une hypercapnie ?",
+    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-04",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le flapping tremor (astérixis) est un signe neurologique classique de l'encéphalopathie hypercapnique.\n• B (Vrai) : L'hypercapnie provoque une vasodilatation cutanée et une hypersudation (sueurs).\n• C (Faux) : La cyanose est le signe clinique d'une hypoxémie sévère, pas de l'hypercapnie.\n• D (Vrai) : L'agitation et la confusion sont des signes neuropsychiques de gravité de l'hypercapnie.\n• E (Vrai) : La vasodilatation cérébrale induite par l'hypercapnie provoque des céphalées."
+  },
+  {
+    "options": {
+      "A": "Le diaphragme comprend une partie centrale musculaire et une partie périphérique tendineuse.",
+      "B": "L'innervation du diaphragme se fait par les nerfs phréniques dont l'origine est cervicale.",
+      "C": "En expiration, le diaphragme remonte passivement.",
+      "D": "Le hile pulmonaire est constitué d'une artère pulmonaire, d'une bronche souche et d'une veine pulmonaire.",
+      "E": "Le poumon droit comprend 3 lobes pulmonaires (supérieur, moyen, inférieur) et le poumon gauche 2 lobes (supérieur, inférieur)."
+    },
+    "correctAnswers": [
+      "B",
+      "C",
+      "E"
+    ],
+    "text": "Donnez la(les) réponse(s) vraie(s) :",
+    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-05",
+    "explanation": "Correction détaillée :\n• A (Faux) : C'est l'inverse : la partie centrale (centre phrénique) est tendineuse et la périphérie est musculaire.\n• B (Vrai) : Le diaphragme est innervé par les nerfs phréniques naissant des racines cervicales (C3-C4-C5).\n• C (Vrai) : L'expiration de repos est passive par relâchement du diaphragme.\n• D (Faux) : Le hile pulmonaire contient deux veines pulmonaires (supérieure et inférieure) par poumon.\n• E (Vrai) : Le poumon droit possède 3 lobes et le poumon gauche 2 lobes."
+  },
+  {
+    "options": {
+      "A": "Stade embryonnaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
+      "B": "Stade pseudo-glandulaire, stade embryonnaire, stade sacculaire, stade canaliculaire, stade alvéolaire",
+      "C": "Stade embryonnaire, stade pseudo-glandulaire, stade canaliculaire, stade sacculaire, stade alvéolaire",
+      "D": "Stade alvéolaire, stade pseudo-glandulaire, stade sacculaire, stade canaliculaire, stade embryonnaire",
+      "E": "Stade pseudo-glandulaire, stade embryonnaire, stade canaliculaire, stade sacculaire, stade alvéolaire"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "text": "Les 5 stades de développement de l'appareil respiratoire sont dans l'ordre chronologique :",
+    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-06",
+    "explanation": "Correction détaillée :\n• C (Vrai) : L'ordre chronologique exact du développement pulmonaire est : Stade embryonnaire → stade pseudo-glandulaire → stade canaliculaire → stade sacculaire → stade alvéolaire.\n• A, B, D, E (Faux) : L'ordre chronologique des stades y est inversé."
+  },
+  {
+    "options": {
+      "A": "Les âges extrêmes",
+      "B": "La précarité",
+      "C": "L'asthme",
+      "D": "La dénutrition",
+      "E": "L'obésité"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "text": "Concernant le développement de la tuberculose maladie, quels sont les facteurs favorisants ?",
+    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-07",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les jeunes enfants et les personnes âgées sont plus vulnérables au passage à la tuberculose maladie.\n• B (Vrai) : La précarité et la promiscuité favorisent la transmission et la réactivation.\n• C (Faux) : L'asthme n'est pas un facteur de risque de tuberculose.\n• D (Vrai) : La dénutrition affaiblit l'immunité cellulaire et favorise le développement de la maladie.\n• E (Faux) : C'est la dénutrition (et non l'obésité) qui est un facteur de risque."
+  },
+  {
+    "options": {
+      "A": "Il s'agit d'une hémoptysie de grande abondance.",
+      "B": "Il s'agit d'une hématémèse de grande abondance.",
+      "C": "Le scanner thoracique injecté est indispensable à la prise en charge.",
+      "D": "La tuberculose peut être une cause de ce symptôme.",
+      "E": "Le cancer broncho-pulmonaire peut être une cause de ce symptôme."
+    },
+    "correctAnswers": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "text": "Un patient de 50 ans consulte aux urgences pour des crachats de sang à la suite d'un effort de toux spontanée de plus de 250 cc :",
+    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-08",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le rejet de plus de 200-250 cc de sang lors d'un effort de toux définit une hémoptysie de grande abondance engageant le pronostic vital.\n• B (Faux) : L'hématémèse est d'origine digestive (lors d'un effort de vomissement).\n• C (Vrai) : L'angioscanner thoracique est indispensable pour localiser le saignement (souvent artériel bronchique) et guider une artério-embolisation.\n• D (Vrai) : La tuberculose (active ou séquellaire) est une cause majeure d'hémoptysie.\n• E (Vrai) : Le cancer broncho-pulmonaire est l'une des causes principales à rechercher chez l'adulte."
+  },
+  {
+    "options": {
+      "A": "Prise en charge urgente",
+      "B": "Prise en charge ambulatoire",
+      "C": "Radiographie thoracique systématique",
+      "D": "Isolement aérien",
+      "E": "Antibiothérapie après réception des résultats de l'ECBC"
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "text": "Quels sont les principes de prise en charge de la pneumopathie du sujet jeune sans signe de gravité ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Prise en charge urgente ; B) Prise en charge ambulatoire ; C) Radiographie thoracique systématique"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'antibiothérapie d'une PAC doit être débutée sans délai dès le diagnostic posé.\n• B (Vrai) : En l'absence de signe de gravité et de terrain fragile, le traitement est ambulatoire.\n• C (Vrai) : La radiographie thoracique de face est indispensable pour confirmer le diagnostic de pneumopathie aiguë communautaire.\n• D (Faux) : L'isolement aérien concerne la suspicion de tuberculose, non une PAC banale.\n• E (Faux) : L'antibiothérapie est probabiliste et immédiate (pas d'ECBC en ambulatoire)."
   },
   {
     "options": {
       "A": "La fièvre est systématique en cas de bronchite infectieuse.",
-      "B": "En cas de bronchite, l'absence d'antibiothérapie est la règle chez le sujet sain. vo",
-      "C": "Une pneumonie à Legionella Spp doit être traitée par Amoxicilline.",
-      "D": "Une pneumonie à Legionella Spp nécessite une déclaration obligatoire à l'ARS.",
+      "B": "En cas de bronchite, l'absence d'antibiothérapie est la règle chez le sujet sain.",
+      "C": "Une pneumonie à Legionella spp. doit être traitée par Amoxicilline.",
+      "D": "Une pneumonie à Legionella spp. nécessite une déclaration obligatoire à l'ARS.",
       "E": "Une pneumonie à Pneumocoque peut être compliquée d'un épanchement parapneumonique."
     },
     "correctAnswers": [
@@ -4809,23 +4854,25 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Donnez la(les) réponse(s) vraie(s)",
-    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) En cas de bronchite, l'absence d'antibiothérapie est la règle chez le sujet sain. vo ; D) Une pneumonie à Legionella Spp nécessite une déclaration obligatoire à l'ARS. ; E) Une pneumonie à Pneumocoque peut être compliquée d'un épanchement parapneumonique."
+    "explanation": "Correction détaillée :\n• A (Faux) : La fièvre est inconstante et généralement modérée dans la bronchite aiguë.\n• B (Vrai) : La bronchite aiguë étant virale dans plus de 90 % des cas, l'abstention d'antibiotiques est la règle chez le sujet sain.\n• C (Faux) : Legionella est une bactérie intracellulaire insensible aux bêta-lactamines (amoxicilline) ; elle se traite par macrolides ou fluoroquinolones.\n• D (Vrai) : La légionellose est une maladie à déclaration obligatoire (MDO) à l'ARS.\n• E (Vrai) : L'épanchement pleural parapneumonique est une complication classique de la PFLA à pneumocoque.",
+    "text": "Donnez la(les) réponse(s) vraie(s) :",
+    "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-10"
   },
   {
     "options": {
       "A": "Un pH bas",
       "B": "Des bicarbonates augmentés",
-      "C": "Une PC02 abaissée",
-      "D": "Des bicarbonates abaissés Un pH > 7, 4"
+      "C": "Une PCO2 abaissée",
+      "D": "Des bicarbonates abaissés",
+      "E": "Un pH > 7,4"
     },
     "correctAnswers": [
-      "B"
+      "B",
+      "E"
     ],
     "text": "Dans l'alcalose métabolique, on retrouve ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Des bicarbonates augmentés"
+    "explanation": "Correction détaillée :\n• A (Faux) : Un pH bas définit une acidose.\n• B (Vrai) : L'alcalose métabolique est définie par une augmentation primitive des bicarbonates plasmatiques (HCO3-).\n• C (Faux) : Une PaCO2 abaissée caractérise une alcalose respiratoire.\n• D (Faux) : Des bicarbonates abaissés signent une acidose métabolique.\n• E (Vrai) : Le pH sanguin est élevé (> 7,40, et plus précisément > 7,45)."
   },
   {
     "options": {
@@ -4842,30 +4889,32 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/SQI1.pdf"] = [
     ],
     "text": "Concernant la tuberculose pulmonaire commune, quels sont les signes cliniques évocateurs ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une altération de l'état général progressive ; B) Une fébricule à prédominance nocturne ; D) Des crachats hémoptoïques"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'AEG insidieuse (asthénie, anorexie, amaigrissement) est classique.\n• B (Vrai) : Une fébricule vespéro-nocturne accompagnée de sueurs nocturnes est très évocatrice.\n• C (Faux) : Une fièvre élevée à début brutal évoque plutôt une PFLA.\n• D (Vrai) : Une toux prolongée avec expectorations parfois hémoptoïques est caractéristique.\n• E (Faux) : La douleur latéro-thoracique aiguë est typique d'un épanchement pleural ou d'une PFLA."
   },
   {
     "options": {
       "A": "Opacité alvéolaire systématisée",
       "B": "Opacités alvéolo-interstitielles péri-hilaires",
       "C": "Opacités infiltratives non systématisées",
-      "D": "Epanchement pleural v' Cardiomégalie . Aucune v•"
+      "D": "Épanchement pleural",
+      "E": "Cardiomégalie",
+      "F": "Aucune"
     },
     "correctAnswers": [
       "A",
       "C",
       "D"
     ],
-    "text": "Quelles sont les anomalies pouvant être retrouvées sur la radiographie thoracique d'une pneumopathie aiguë communautaire",
+    "text": "Quelles sont les anomalies pouvant être retrouvées sur la radiographie thoracique d'une pneumopathie aiguë communautaire ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Opacité alvéolaire systématisée ; C) Opacités infiltratives non systématisées ; D) Epanchement pleural v' Cardiomégalie . Aucune v•"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'opacité est typiquement alvéolaire, dense et systématisée (limitée par une scissure) dans la PFLA.\n• B (Faux) : Les opacités péri-hilaires bilatérales en ailes de papillon sont typiques de l'OAP cardiogénique.\n• C (Vrai) : Dans certains cas (pneumopathies atypiques), on peut observer des opacités infiltratives non systématisées.\n• D (Vrai) : Un épanchement pleural parapneumonique réactionnel peut tout à fait être associé.\n• E, F (Faux) : Pas de cardiomégalie spécifique d'une PAC."
   },
   {
     "options": {
       "A": "Un pneumothorax radiographique est caractérisé par une hyperclarté avasculaire périphérique.",
       "B": "L'arc médiastinal moyen gauche radiographique correspond anatomiquement à la veine cave supérieure.",
       "C": "Le syndrome alvéolaire est caractérisé par la présence d'un bronchogramme aérique au sein d'une opacité.",
-      "D": "Dans le médiastin, 2 opacités de même densité au contact l'une de l'autre et effaçant leurs bords respectifs sont vo dans le même plan.",
+      "D": "Dans le médiastin, 2 opacités de même densité au contact l'une de l'autre et effaçant leurs bords respectifs sont dans le même plan.",
       "E": "L'appréciation de la réalisation d'une radiographie de face en inspiration profonde se fait sur la présence visible de la poche à air gastrique."
     },
     "correctAnswers": [
@@ -4875,70 +4924,73 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/SQI1.pdf"] = [
     ],
     "text": "Concernant la radiographie thoracique de face :",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un pneumothorax radiographique est caractérisé par une hyperclarté avasculaire périphérique. ; C) Le syndrome alvéolaire est caractérisé par la présence d'un bronchogramme aérique au sein d'une opacité. ; D) Dans le médiastin, 2 opacités de même densité au contact l'une de l'autre et effaçant leurs bords respectifs sont vo dans le même plan."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'air pleural donne une hyperclarté périphérique dépourvue de trame vasculaire.\n• B (Faux) : L'arc moyen gauche correspond au tronc de l'artère pulmonaire ; la VCS forme l'arc supérieur droit.\n• C (Vrai) : Le bronchogramme aérique au sein d'une opacité signe l'origine alvéolaire.\n• D (Vrai) : C'est la définition du signe de la silhouette de Felson.\n• E (Faux) : L'inspiration profonde se juge sur la projection d'au moins 6 arcs costaux antérieurs au-dessus des coupoles diaphragmatiques."
   },
   {
     "options": {
       "A": "La fréquence respiratoire",
       "B": "Les structures musculaires et osseuses de la cage thoracique",
       "C": "La compression dynamique des voies aériennes",
-      "D": "Le parenchyme pulmonaire Le muscle lisse bronchique"
+      "D": "Le parenchyme pulmonaire",
+      "E": "Le muscle lisse bronchique"
     },
     "correctAnswers": [
       "B",
       "D"
     ],
-    "text": "Quel(s) facteur(s) détermine(nt) la compliance des voies aériennes ?",
+    "text": "Quel(s) facteur(s) détermine(nt) la compliance du système respiratoire ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les structures musculaires et osseuses de la cage thoracique ; D) Le parenchyme pulmonaire Le muscle lisse bronchique"
+    "explanation": "Correction détaillée :\n• A (Faux) : La fréquence respiratoire ne détermine pas la compliance statique.\n• B (Vrai) : La compliance thoraco-pulmonaire dépend de l'élasticité de la paroi thoracique (structures ostéo-musculaires).\n• C (Faux) : Phénomène lié aux résistances bronchiques à l'expiration forcée.\n• D (Vrai) : La compliance dépend directement des propriétés élastiques du parenchyme pulmonaire et du surfactant.\n• E (Faux) : Le muscle lisse bronchique détermine le calibre et la résistance des bronches, non la compliance."
   },
   {
     "options": {
-      "A": "C'est une maladie infectieuse transmissible. b C'est une infection à déclaration obligatoire.",
+      "A": "C'est une maladie infectieuse transmissible.",
+      "B": "C'est une infection à déclaration obligatoire.",
       "C": "Il n'existe pas de forme latente de l'infection.",
       "D": "Les principales localisations sont digestives.",
       "E": "Aucune des propositions n'est vraie"
     },
     "correctAnswers": [
-      "A"
+      "A",
+      "B"
     ],
-    "text": "Concernant la tuberculose",
+    "text": "Concernant la tuberculose :",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) C'est une maladie infectieuse transmissible. b C'est une infection à déclaration obligatoire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La tuberculose est une maladie infectieuse interhumaine à transmission aérienne.\n• B (Vrai) : C'est une maladie à déclaration obligatoire (MDO) auprès de l'ARS.\n• C (Faux) : L'infection tuberculeuse latente (ITL) est au contraire très fréquente.\n• D (Faux) : La localisation principale est pulmonaire.\n• E (Faux) : Les propositions A et B sont vraies."
   },
   {
     "options": {
-      "A": "On peut retrouver un trouble ventilatoire, restrictif pur.",
+      "A": "On peut retrouver un trouble ventilatoire restrictif pur.",
       "B": "Un syndrome obstructif est toujours présent.",
       "C": "La diffusion du monoxyde de carbone (DLCO) peut être abaissée.",
       "D": "Elles peuvent être normales.",
-      "E": "Aucune des propositions n'est vraie,"
+      "E": "Aucune des propositions n'est vraie."
     },
     "correctAnswers": [
       "A",
       "C",
       "D"
     ],
-    "text": "Concernant les pneumopathies interstitielles diffuse lors d'exploration fonctionnelle respiratoire",
+    "text": "Concernant les pneumopathies interstitielles diffuses lors d'explorations fonctionnelles respiratoires :",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI1-17",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On peut retrouver un trouble ventilatoire, restrictif pur. ; C) La diffusion du monoxyde de carbone (DLCO) peut être abaissée. ; D) Elles peuvent être normales."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'atteinte interstitielle diminue la compliance pulmonaire, entraînant classiquement un trouble ventilatoire restrictif pur (CPT < 80 %).\n• B (Faux) : Il n'y a habituellement pas de trouble obstructif.\n• C (Vrai) : L'épaississement de la membrane alvéolo-capillaire altère les échanges gazeux et diminue la DLCO.\n• D (Vrai) : Aux stades précoces ou dans les formes peu étendues, les EFR peuvent être normales au repos.\n• E (Faux) : Les propositions A, C et D sont vraies."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/SQI2.pdf"] = [
   {
     "options": {
-      "A": "repose sur des bétabloquants.",
+      "A": "repose sur des bêtabloquants.",
       "B": "repose sur des bêta-2-agonistes.",
       "C": "repose sur des anti-inflammatoires non-stéroïdiens.",
-      "D": "repose sur des agonistes du récepteurs aux leucotriènes.",
-      "E": "repose sur des methylxanthines inhalées."
+      "D": "repose sur des agonistes des récepteurs aux leucotriènes.",
+      "E": "repose sur des méthylxanthines inhalées."
     },
     "correctAnswers": [
       "B"
     ],
-    "text": "SQ12 Terminée Le traitement de la crise d'asthme :",
+    "text": "Le traitement de la crise d'asthme :",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI2-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) repose sur des bêta-2-agonistes."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les bêtabloquants provoquent une bronchoconstriction et sont formellement contre-indiqués dans l'asthme.\n• B (Vrai) : Les bêta-2-agonistes à courte durée d'action (SABA) permettent une relaxation rapide du muscle lisse bronchique.\n• C (Faux) : Les AINS n'ont pas d'effet bronchodilatateur et peuvent même déclencher une crise (syndrome de Widal).\n• D (Faux) : Les anti-leucotriènes (antagonistes et non agonistes) sont des traitements de fond, pas de la crise aiguë.\n• E (Faux) : Les méthylxanthines (théophylline) ne sont plus utilisées en première ligne pour la crise à cause de leur délai d'action et de leur toxicité, et n'existent pas sous forme inhalée."
   },
   {
     "options": {
@@ -4946,49 +4998,49 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/SQI2.pdf"] = [
       "B": "Des sympatholytiques",
       "C": "Des parasympathomimétiques",
       "D": "Des parasympatholytiques",
-      "E": "Des inhibiteurs des phosphodiesterases"
+      "E": "Des inhibiteurs des phosphodiestérases"
     },
     "correctAnswers": [
       "A",
       "D",
       "E"
     ],
-    "text": "A propos des médicaments bronchodilatateurs, on retrouve :",
+    "text": "À propos des médicaments bronchodilatateurs, on retrouve :",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI2-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Des sympathomimétiques ; D) Des parasympatholytiques ; E) Des inhibiteurs des phosphodiesterases"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les bêta-2-mimétiques sont des sympathomimétiques (ils miment le système sympathique bronchodilatateur).\n• B (Faux) : Les sympatholytiques (bêtabloquants) causent l'inverse (bronchoconstriction).\n• C (Faux) : Les parasympathomimétiques stimuleraient les récepteurs muscariniques, provoquant une bronchoconstriction.\n• D (Vrai) : Les anticholinergiques (ipratropium) sont des parasympatholytiques (ils bloquent la bronchoconstriction cholinergique M3).\n• E (Vrai) : Les méthylxanthines (théophylline) inhibent la phosphodiestérase, augmentant l'AMPc intracellulaire."
   },
   {
     "options": {
-      "A": "repose sur la mise en place de paliers d'intensité croissante adaptés selon sévérité de l'asthme.",
+      "A": "repose sur la mise en place de paliers d'intensité croissante adaptés selon la sévérité de l'asthme.",
       "B": "repose sur l'utilisation d'hormones stéroïdiennes substitutives.",
-      "C": "repose sur l'utilisation d'hormones stéroïdiennes substitutives.",
-      "D": "implique la suppression de l'exposition aux facteurs d'aggravations.",
+      "C": "repose sur l'utilisation d'hormones thyroïdiennes substitutives.",
+      "D": "implique la suppression de l'exposition aux facteurs d'aggravation.",
       "E": "repose sur l'association de traitements anti-inflammatoires inhalés et de bronchoconstricteurs."
     },
     "correctAnswers": [
       "A",
       "D"
     ],
-    "text": "Le traitement de fond de l'asthme",
+    "text": "Le traitement de fond de l'asthme :",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI2-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) repose sur la mise en place de paliers d'intensité croissante adaptés selon sévérité de l'asthme. ; D) implique la suppression de l'exposition aux facteurs d'aggravations."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La prise en charge se fait par paliers (1 à 5) avec augmentation progressive des doses de CSI et ajout d'autres classes selon le contrôle.\n• B, C (Faux) : Il s'agit d'hormones stéroïdiennes à visée anti-inflammatoire locale (corticoïdes inhalés), et non d'un traitement hormonal substitutif.\n• D (Vrai) : L'éviction des facteurs déclenchants (tabac, allergènes, aérocontaminants) est la base indispensable du traitement.\n• E (Faux) : On associe des anti-inflammatoires à des bronchodilatateurs, pas à des bronchoconstricteurs !"
   },
   {
     "options": {
       "A": "Ce sont des agonistes des récepteurs bêta-2 adrénergiques.",
-      "B": "Le formeterol est un médicament inhalé à courte durée d'action.",
+      "B": "Le formotérol est un médicament inhalé à courte durée d'action.",
       "C": "Le salbutamol est un médicament inhalé à longue durée d'action.",
-      "D": "Leurs récepteurs P2 sont exprimés dans le muscle lisse bronchique.",
-      "E": "Ils induisent une relaxation musculaire dans un délais de 1 à 15 minutes après prise inhalée."
+      "D": "Leurs récepteurs bêta-2 sont exprimés dans le muscle lisse bronchique.",
+      "E": "Ils induisent une relaxation musculaire dans un délai de 1 à 15 minutes après prise inhalée."
     },
     "correctAnswers": [
       "A",
       "D",
       "E"
     ],
-    "text": "A propos des bêta-2 mimétiques :",
+    "text": "À propos des bêta-2 mimétiques :",
     "id": "ANN-UE3-UE3S3Pneumologie5-SQI2-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ce sont des agonistes des récepteurs bêta-2 adrénergiques. ; D) Leurs récepteurs P2 sont exprimés dans le muscle lisse bronchique. ; E) Ils induisent une relaxation musculaire dans un délais de 1 à 15 minutes après prise inhalée."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ce sont des agonistes spécifiques des récepteurs bêta-2 couplés aux protéines Gs.\n• B (Faux) : Le formotérol est un LABA (Long-Acting Beta-Agonist) avec un délai d'action rapide, mais de longue durée d'action.\n• C (Faux) : Le salbutamol (Ventoline) est un SABA (Short-Acting Beta-Agonist) de courte durée d'action.\n• D (Vrai) : Les récepteurs bêta-2 sont très majoritairement représentés (70 %) au niveau du muscle lisse bronchique.\n• E (Vrai) : L'effet bronchodilatateur inhalé est intense et très rapide, apparaissant en 1 à 3 minutes (jusqu'à 15 minutes)."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP1.pdf"] = [
@@ -5006,16 +5058,16 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "[Cas clinique : Un patiente de 20 ans vient à votre consultation pour bilan respiratoire. Dans ses antécédents, on note de l'asthme connu depuis l'enfance. Elle vient car elle se sent moins bien depuis quelques mois. Elle travaille dans une boulangerie depuis quelques mois. Elle n'a pas de traitement de fond. Les explorations fonctionnelles respiratoires retrouve un trouble ventilatoire réversible.]\npartiellement correct Quels sont les symptômes qui peuvent être compatibles avec un asthme ?",
+    "text": "[Cas clinique : Une patiente de 20 ans vient à votre consultation pour bilan respiratoire. Dans ses antécédents, on note de l'asthme connu depuis l'enfance. Elle vient car elle se sent moins bien depuis quelques mois. Elle travaille dans une boulangerie depuis quelques mois. Elle n'a pas de traitement de fond. Les explorations fonctionnelles respiratoires retrouvent un trouble ventilatoire réversible.]\nQuels sont les symptômes qui peuvent être compatibles avec un asthme ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une toux nocturne ; C) Une dyspnée ; D) Des oppressions thoraciques ; E) Des sifflements"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La toux nocturne ou au petit matin est caractéristique de l'hyperréactivité bronchique de l'asthme.\n• B (Faux) : Les ronchis témoignent de sécrétions dans les grosses bronches, typiques de la bronchite chronique, non de l'asthme.\n• C (Vrai) : La dyspnée, souvent sifflante et expiratoire, est le symptôme cardinal.\n• D (Vrai) : La sensation d'oppression thoracique (ou « chest tightness ») est très fréquente lors de la bronchoconstriction.\n• E (Vrai) : Les sifflements (ou sibilants à l'auscultation) traduisent le rétrécissement du calibre des voies aériennes."
   },
   {
     "options": {
       "A": "Sa profession",
-      "B": "L'absence de traitement de fond vo",
+      "B": "L'absence de traitement de fond",
       "C": "La rhinite allergique",
-      "D": "L'utilisation de composés volatiles organiques",
+      "D": "L'utilisation de composés organiques volatils",
       "E": "Aucun"
     },
     "correctAnswers": [
@@ -5024,9 +5076,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP1.pdf"] = [
       "C",
       "D"
     ],
-    "text": "[Cas clinique : Un patiente de 20 ans vient à votre consultation pour bilan respiratoire. Dans ses antécédents, on note de l'asthme connu depuis l'enfance. Elle vient car elle se sent moins bien depuis quelques mois. Elle travaille dans une boulangerie depuis quelques mois. Elle n'a pas de traitement de fond. Les explorations fonctionnelles respiratoires retrouve un trouble ventilatoire réversible.]\n1 . Elle a une rhinite quotidienne persistante. Elle utilise des bougies parfumées et de l'encens chez elle tous les jours. Les facteurs aggravants son asthme chez elle sont ?",
+    "text": "[Cas clinique : Une patiente de 20 ans vient à votre consultation pour bilan respiratoire. Dans ses antécédents, on note de l'asthme connu depuis l'enfance. Elle vient car elle se sent moins bien depuis quelques mois. Elle travaille dans une boulangerie depuis quelques mois. Elle n'a pas de traitement de fond. Les explorations fonctionnelles respiratoires retrouvent un trouble ventilatoire réversible.]\nElle a une rhinite quotidienne persistante. Elle utilise des bougies parfumées et de l'encens chez elle tous les jours. Les facteurs aggravant son asthme chez elle sont :",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Sa profession ; B) L'absence de traitement de fond vo ; C) La rhinite allergique ; D) L'utilisation de composés volatiles organiques"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Sa profession (boulangère) l'expose à la farine, une cause classique d'asthme professionnel.\n• B (Vrai) : L'absence de traitement de fond par corticoïdes inhalés laisse l'inflammation s'aggraver.\n• C (Vrai) : La rhinite allergique persistante est très souvent associée à l'asthme et participe à son mauvais contrôle.\n• D (Vrai) : L'utilisation de bougies et d'encens dégage des composés organiques volatils (COV) qui sont des irritants bronchiques majeurs.\n• E (Faux) : De multiples facteurs sont présents chez cette patiente."
   },
   {
     "options": {
@@ -5042,57 +5094,62 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "[Cas clinique : Un patiente de 20 ans vient à votre consultation pour bilan respiratoire. Dans ses antécédents, on note de l'asthme connu depuis l'enfance. Elle vient car elle se sent moins bien depuis quelques mois. Elle travaille dans une boulangerie depuis quelques mois. Elle n'a pas de traitement de fond. Les explorations fonctionnelles respiratoires retrouve un trouble ventilatoire réversible.]\nLe bilan clinique et les EFR confirment l'asthme. Quels sont les éléments justes concernant le traitement à mettre en place pour cette patiente ?",
+    "text": "[Cas clinique : Une patiente de 20 ans vient à votre consultation pour bilan respiratoire. Dans ses antécédents, on note de l'asthme connu depuis l'enfance. Elle vient car elle se sent moins bien depuis quelques mois. Elle travaille dans une boulangerie depuis quelques mois. Elle n'a pas de traitement de fond. Les explorations fonctionnelles respiratoires retrouvent un trouble ventilatoire réversible.]\nLe bilan clinique et les EFR confirment l'asthme. Quels sont les éléments justes concernant le traitement à mettre en place pour cette patiente ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une corticothérapie inhalée à faible dose ; C) Une éducation thérapeutique ; D) Un traitement bronchodilatateur de courte durée d'action ; E) L'éviction des facteurs aggravants"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Une corticothérapie inhalée (CSI) à faible dose est le traitement de fond de première intention pour contrôler l'inflammation.\n• B (Faux) : Une forte dose de CSI et un LABA d'emblée ne sont pas indiqués en première ligne pour un asthme non traité préalablement.\n• C (Vrai) : L'éducation thérapeutique (technique de prise, éviction, autosurveillance) est primordiale pour le contrôle de la maladie.\n• D (Vrai) : Le bronchodilatateur de courte durée d'action (BDCA) comme le Salbutamol doit être prescrit comme traitement de secours à la demande.\n• E (Vrai) : L'éviction des allergènes (farine si possible) et des irritants (encens, bougies) est indispensable."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP2.pdf"] = [
   {
     "options": {
-      "A": "Une scintigraphie pulmonaire, ventilation/perfusion H ; b. Un dosage des D-dimères",
+      "A": "Une scintigraphie pulmonaire ventilation/perfusion",
+      "B": "Un dosage des D-dimères",
       "C": "Un électrocardiogramme",
       "D": "Une échographie abdominale",
       "E": "Aucun de ces examens"
     },
     "correctAnswers": [
       "A",
+      "B",
       "C"
     ],
-    "text": "[Cas clinique : Un de vos patient suivit pour un cancer pulmonaire métastique sous chimiothérapie consulte pour une douleur latéro- thoracique gauche avec une majoration de la dyspnée à l'effort depuis une semaine. La radiographie thoracique retrouve les lésions tumorales connues sans modification par rapport au dernier bilan.]\nVous suspectez une embolie pulmonaire, quels examens demander ?",
+    "text": "[Cas clinique : Un de vos patients suivi pour un cancer pulmonaire métastatique sous chimiothérapie consulte pour une douleur latéro-thoracique gauche avec une majoration de la dyspnée à l'effort depuis une semaine. La radiographie thoracique retrouve les lésions tumorales connues sans modification par rapport au dernier bilan.]\nVous suspectez une embolie pulmonaire, quels examens demander ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP2-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une scintigraphie pulmonaire, ventilation/perfusion H ; b. Un dosage des D-dimères ; C) Un électrocardiogramme"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La scintigraphie pulmonaire de ventilation/perfusion est un excellent examen pour diagnostiquer une EP.\n• B (Vrai) : Le dosage des D-dimères fait partie de la démarche diagnostique (bien que souvent élevé chez un patient métastatique).\n• C (Vrai) : L'ECG est systématique pour rechercher des signes de cœur pulmonaire aigu (tachycardie, S1Q3, BBD) ou éliminer un diagnostic différentiel coronarien.\n• D (Faux) : L'échographie abdominale n'aide pas au diagnostic d'embolie pulmonaire.\n• E (Faux) : Les examens A, B et C peuvent être demandés."
   },
   {
     "options": {
       "A": "On peut débuter un traitement par une HBPM.",
       "B": "On peut débuter un traitement par un anticoagulant oral direct (AOD).",
       "C": "La durée de traitement est de trois mois.",
-      "D": "La durée de traitement est d'au moins six mois et poursuivi le temps que la maladie est active.",
+      "D": "La durée de traitement est d'au moins six mois et poursuivie le temps que la maladie est active.",
       "E": "Aucune de ces propositions n'est vraie."
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "text": "[Cas clinique : Un de vos patient suivit pour un cancer pulmonaire métastique sous chimiothérapie consulte pour une douleur latéro- thoracique gauche avec une majoration de la dyspnée à l'effort depuis une semaine. La radiographie thoracique retrouve les lésions tumorales connues sans modification par rapport au dernier bilan.]\nLe diagnostic d'embolie pulmonaire et confirmé. Quelles affirmations sont vraies concernant le traitement anticoagulant chez ce patient ?",
-    "id": "ANN-UE3-UE3S3Pneumologie5-mDP2-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On peut débuter un traitement par une HBPM."
-  },
-  {
-    "options": {
-      "A": "Il s'agit d'un produit de dégradation de la fibrine.",
-      "B": "C'est un test très sensible.",
-      "C": "C'est un test très spécifique.",
-      "D": "Sa valeur n'est pas interprétable chez les patients sous anticoagulants curatif. Aucune de ces propositions n'est vraie."
     },
     "correctAnswers": [
       "A",
       "B",
       "D"
     ],
-    "text": "[Cas clinique : Un de vos patient suivit pour un cancer pulmonaire métastique sous chimiothérapie consulte pour une douleur latéro- thoracique gauche avec une majoration de la dyspnée à l'effort depuis une semaine. La radiographie thoracique retrouve les lésions tumorales connues sans modification par rapport au dernier bilan.]\npartiellement correct Concernant les D-dimères :",
+    "text": "[Cas clinique : Un de vos patients suivi pour un cancer pulmonaire métastatique sous chimiothérapie consulte pour une douleur latéro-thoracique gauche avec une majoration de la dyspnée à l'effort depuis une semaine. La radiographie thoracique retrouve les lésions tumorales connues sans modification par rapport au dernier bilan.]\nLe diagnostic d'embolie pulmonaire est confirmé. Quelles affirmations sont vraies concernant le traitement anticoagulant chez ce patient ?",
+    "id": "ANN-UE3-UE3S3Pneumologie5-mDP2-02",
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les Héparines de Bas Poids Moléculaire (HBPM) sont le traitement de référence historique de l'EP chez le patient cancéreux.\n• B (Vrai) : Les Anticoagulants Oraux Directs (AOD) sont désormais validés et souvent utilisés en première ligne dans la thrombose associée au cancer.\n• C (Faux) : 3 mois est la durée pour une EP provoquée par un facteur de risque transitoire majeur (ex : chirurgie).\n• D (Vrai) : Chez le patient atteint de cancer actif, le traitement anticoagulant doit être poursuivi au moins 6 mois et tant que le cancer est actif ou sous chimiothérapie.\n• E (Faux) : Les propositions A, B et D sont vraies."
+  },
+  {
+    "options": {
+      "A": "Il s'agit d'un produit de dégradation de la fibrine.",
+      "B": "C'est un test très sensible.",
+      "C": "C'est un test très spécifique.",
+      "D": "Sa valeur n'est pas interprétable chez les patients sous anticoagulants curatifs.",
+      "E": "Aucune de ces propositions n'est vraie."
+    },
+    "correctAnswers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "text": "[Cas clinique : Un de vos patients suivi pour un cancer pulmonaire métastatique sous chimiothérapie consulte pour une douleur latéro-thoracique gauche avec une majoration de la dyspnée à l'effort depuis une semaine. La radiographie thoracique retrouve les lésions tumorales connues sans modification par rapport au dernier bilan.]\nConcernant les D-dimères :",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP2-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il s'agit d'un produit de dégradation de la fibrine. ; B) C'est un test très sensible. ; D) Sa valeur n'est pas interprétable chez les patients sous anticoagulants curatif. Aucune de ces propositions n'est vraie."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les D-dimères sont le produit final de la dégradation de la fibrine stabilisée par la plasmine (marqueur de fibrinolyse).\n• B (Vrai) : C'est un test d'exclusion très sensible (~95-99 %) : un résultat négatif élimine l'EP en cas de probabilité clinique faible ou intermédiaire.\n• C (Faux) : Sa spécificité est faible (ils s'élèvent avec l'âge, l'inflammation, la grossesse, le cancer, le post-opératoire).\n• D (Vrai) : Un traitement anticoagulant curatif fausse le dosage et rend la valeur des D-dimères ininterprétable.\n• E (Faux) : Les propositions A, B et D sont vraies."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP3.pdf"] = [
@@ -5101,49 +5158,53 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP3.pdf"] = [
       "A": "On observe une opacité gauche dense et homogène.",
       "B": "On observe une ligne bordante pleurale.",
       "C": "La coupole diaphragmatique droite est ascensionnée.",
-      "D": "Il s'agit d'un épanchement pleural gauche. . Il s'agit d'une atélectasie lobaire inférieure gauche. . Cette opacité est rétractile. Vous en avez sélectionné correctement 2."
+      "D": "Il s'agit d'un épanchement pleural gauche.",
+      "E": "Il s'agit d'une atélectasie lobaire inférieure gauche.",
+      "F": "Cette opacité est rétractile."
     },
     "correctAnswers": [
       "A",
       "B",
       "D"
     ],
-    "text": "[Cas clinique : Vous recevez en consultation Monsieur F.B., 63 ans, pour bilan de dyspnée et douleur thoracique gauche. • Il a comme antécédents une hypertension artérielle, une artérite oblitérante des membres inférieurs. • Son traitement à domicile comprend : Amlodipine et Aspirine 75mg. • Il est fumeur depuis l'âge de 16 ans, un paquet de cigarettes par jour. Il a exercé la profession d'ouvrier dans une usine de fabrication de fibrociment « Eternit » de 21 à 23 ans puis d'agent de sécurité. Il est actuellement retraité. Il rapporte une dyspnée depuis 2 mois, de majoration progressive, actuellement stade 3 MRC, associée à une toux sèche et une douleur thoracique gauche ne cédant pas sous antalgique de palier l. Il n'y a pas d'altération de l'état général à l'exception d'une asthénie modérée]\nInterpréter la radio graphie thoracique, quelles sont les 3 propositions correctes ? — 3 réponses sont attendues —",
+    "text": "[Cas clinique : Vous recevez en consultation Monsieur F.B., 63 ans, pour bilan de dyspnée et douleur thoracique gauche. • Il a comme antécédents une hypertension artérielle, une artérite oblitérante des membres inférieurs. • Son traitement à domicile comprend : Amlodipine et Aspirine 75 mg. • Il est fumeur depuis l'âge de 16 ans, un paquet de cigarettes par jour. Il a exercé la profession d'ouvrier dans une usine de fabrication de fibrociment « Eternit » de 21 à 23 ans puis d'agent de sécurité. Il est actuellement retraité. Il rapporte une dyspnée depuis 2 mois, de majoration progressive, actuellement stade 3 mMRC, associée à une toux sèche et une douleur thoracique gauche ne cédant pas sous antalgique de palier 1. Il n'y a pas d'altération de l'état général à l'exception d'une asthénie modérée.]\nInterprétez la radiographie thoracique, quelles sont les 3 propositions correctes ? — 3 réponses sont attendues —",
     "image": "data/images/annales/UE3-Pneumo5-mDP3-p2-xref17.jpeg",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP3-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On observe une opacité gauche dense et homogène. ; B) On observe une ligne bordante pleurale. ; D) Il s'agit d'un épanchement pleural gauche. . Il s'agit d'une atélectasie lobaire inférieure gauche. . Cette opacité est rétractile. Vous en avez sélectionné correctement 2."
+    "explanation": "Correction détaillée :\n• A (Vrai) : On observe un « poumon blanc » partiel gauche, typique d'une opacité basale dense et homogène effaçant la coupole et les contours cardiaques.\n• B (Vrai) : La ligne bordante pleurale concave en haut et en dedans remontant vers l'aisselle (ligne de Damoiseau) est caractéristique.\n• C (Faux) : L'anomalie siège à gauche, la coupole droite est en position normale.\n• D (Vrai) : Il s'agit de la présentation classique d'un épanchement pleural liquidien (pleurésie) gauche de moyenne/grande abondance.\n• E, F (Faux) : L'atélectasie donne une opacité rétractile (qui attire le médiastin vers elle), alors qu'ici l'épanchement n'est pas rétractile."
   },
   {
     "options": {
       "A": "Diminution du murmure vésiculaire gauche",
       "B": "Matité à la percussion de l'hémithorax gauche",
       "C": "Augmentation des vibrations vocales à gauche",
-      "D": "Souffle pleurétique gauche ••/",
-      "E": "Sibilants unilatéraux gauche"
+      "D": "Souffle pleurétique gauche",
+      "E": "Sibilants unilatéraux gauches"
     },
     "correctAnswers": [
       "A",
       "B",
       "D"
     ],
-    "text": "[Cas clinique : Vous recevez en consultation Monsieur F.B., 63 ans, pour bilan de dyspnée et douleur thoracique gauche. • Il a comme antécédents une hypertension artérielle, une artérite oblitérante des membres inférieurs. • Son traitement à domicile comprend : Amlodipine et Aspirine 75mg. • Il est fumeur depuis l'âge de 16 ans, un paquet de cigarettes par jour. Il a exercé la profession d'ouvrier dans une usine de fabrication de fibrociment « Eternit » de 21 à 23 ans puis d'agent de sécurité. Il est actuellement retraité. Il rapporte une dyspnée depuis 2 mois, de majoration progressive, actuellement stade 3 MRC, associée à une toux sèche et une douleur thoracique gauche ne cédant pas sous antalgique de palier l. Il n'y a pas d'altération de l'état général à l'exception d'une asthénie modérée]\nQuels signes physiques vous attendez-vous à retrouver à l'examen clinique ?",
+    "text": "[Cas clinique : Vous recevez en consultation Monsieur F.B., 63 ans, pour bilan de dyspnée et douleur thoracique gauche. • Il a comme antécédents une hypertension artérielle, une artérite oblitérante des membres inférieurs. • Son traitement à domicile comprend : Amlodipine et Aspirine 75 mg. • Il est fumeur depuis l'âge de 16 ans, un paquet de cigarettes par jour. Il a exercé la profession d'ouvrier dans une usine de fabrication de fibrociment « Eternit » de 21 à 23 ans puis d'agent de sécurité. Il est actuellement retraité. Il rapporte une dyspnée depuis 2 mois, de majoration progressive, actuellement stade 3 mMRC, associée à une toux sèche et une douleur thoracique gauche ne cédant pas sous antalgique de palier 1. Il n'y a pas d'altération de l'état général à l'exception d'une asthénie modérée.]\nQuels signes physiques vous attendez-vous à retrouver à l'examen clinique ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP3-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Diminution du murmure vésiculaire gauche ; B) Matité à la percussion de l'hémithorax gauche ; D) Souffle pleurétique gauche ••/"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le murmure vésiculaire est diminué ou aboli car le liquide pleural fait écran à la transmission du son.\n• B (Vrai) : Le liquide engendre une matité franche à la percussion (contrairement au tympanisme du pneumothorax).\n• C (Faux) : Les vibrations vocales sont diminuées ou abolies dans un épanchement pleural (elles sont augmentées dans les condensations alvéolaires).\n• D (Vrai) : Le souffle pleurétique (doux, lointain, voilé, expiratoire) s'entend à la limite supérieure de l'épanchement.\n• E (Faux) : Les sibilants traduisent une obstruction bronchique."
   },
   {
     "options": {
       "A": "Un bilan biologique avec bilan de coagulation et dosage de LDH sanguin",
       "B": "Une fibroscopie bronchique",
       "C": "Une ponction pleurale",
-      "D": "Un scanner thoracique Un TEP-scanner _ f. Un Examen Cyto-Bactériologique des Crachats (ECBC) Vous en avez sélectionné correctement 1"
+      "D": "Un scanner thoracique",
+      "E": "Un TEP-scanner",
+      "F": "Un Examen Cyto-Bactériologique des Crachats (ECBC)"
     },
     "correctAnswers": [
       "A",
       "C"
     ],
-    "text": "[Cas clinique : Vous recevez en consultation Monsieur F.B., 63 ans, pour bilan de dyspnée et douleur thoracique gauche. • Il a comme antécédents une hypertension artérielle, une artérite oblitérante des membres inférieurs. • Son traitement à domicile comprend : Amlodipine et Aspirine 75mg. • Il est fumeur depuis l'âge de 16 ans, un paquet de cigarettes par jour. Il a exercé la profession d'ouvrier dans une usine de fabrication de fibrociment « Eternit » de 21 à 23 ans puis d'agent de sécurité. Il est actuellement retraité. Il rapporte une dyspnée depuis 2 mois, de majoration progressive, actuellement stade 3 MRC, associée à une toux sèche et une douleur thoracique gauche ne cédant pas sous antalgique de palier l. Il n'y a pas d'altération de l'état général à l'exception d'une asthénie modérée]\nQuels sont les 2 examens paracliniques que vous envisagez en première intention ? — 2 réponses sont attendues —",
+    "text": "[Cas clinique : Vous recevez en consultation Monsieur F.B., 63 ans, pour bilan de dyspnée et douleur thoracique gauche. • Il a comme antécédents une hypertension artérielle, une artérite oblitérante des membres inférieurs. • Son traitement à domicile comprend : Amlodipine et Aspirine 75 mg. • Il est fumeur depuis l'âge de 16 ans, un paquet de cigarettes par jour. Il a exercé la profession d'ouvrier dans une usine de fabrication de fibrociment « Eternit » de 21 à 23 ans puis d'agent de sécurité. Il est actuellement retraité. Il rapporte une dyspnée depuis 2 mois, de majoration progressive, actuellement stade 3 mMRC, associée à une toux sèche et une douleur thoracique gauche ne cédant pas sous antalgique de palier 1. Il n'y a pas d'altération de l'état général à l'exception d'une asthénie modérée.]\nQuels sont les 2 examens paracliniques que vous envisagez en première intention ? — 2 réponses sont attendues —",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP3-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un bilan biologique avec bilan de coagulation et dosage de LDH sanguin ; C) Une ponction pleurale"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le bilan sanguin avec hémostase est requis avant la ponction (le patient est sous aspirine), et les protides/LDH sanguins permettent d'appliquer les critères de Light.\n• B (Faux) : La fibroscopie bronchique n'est pas l'examen de première intention devant un épanchement pleural.\n• C (Vrai) : La ponction pleurale exploratrice est l'examen clé de première intention pour analyser le liquide (biochimie, cytologie, bactériologie).\n• D, E, F (Faux) : Le scanner thoracique et le TEP-scanner viennent dans un second temps pour le bilan étiologique/extension."
   },
   {
     "options": {
@@ -5153,51 +5214,56 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP3.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "[Cas clinique : Vous recevez en consultation Monsieur F.B., 63 ans, pour bilan de dyspnée et douleur thoracique gauche. • Il a comme antécédents une hypertension artérielle, une artérite oblitérante des membres inférieurs. • Son traitement à domicile comprend : Amlodipine et Aspirine 75mg. • Il est fumeur depuis l'âge de 16 ans, un paquet de cigarettes par jour. Il a exercé la profession d'ouvrier dans une usine de fabrication de fibrociment « Eternit » de 21 à 23 ans puis d'agent de sécurité. Il est actuellement retraité. Il rapporte une dyspnée depuis 2 mois, de majoration progressive, actuellement stade 3 MRC, associée à une toux sèche et une douleur thoracique gauche ne cédant pas sous antalgique de palier l. Il n'y a pas d'altération de l'état général à l'exception d'une asthénie modérée]\nLa ponction pleurale ramène un liquide séro-hématique. La biochimie du liquide pleural est la suivante : • Protides pleuraux 48g/L (protidémie 62g/L) • LDH pleuraux 130 UI/L (LDH sanguin 200 UI/L) De quel type d'épanchement s'agit-il ?",
+    "text": "[Cas clinique : Vous recevez en consultation Monsieur F.B., 63 ans, pour bilan de dyspnée et douleur thoracique gauche. • Il a comme antécédents une hypertension artérielle, une artérite oblitérante des membres inférieurs. • Son traitement à domicile comprend : Amlodipine et Aspirine 75 mg. • Il est fumeur depuis l'âge de 16 ans, un paquet de cigarettes par jour. Il a exercé la profession d'ouvrier dans une usine de fabrication de fibrociment « Eternit » de 21 à 23 ans puis d'agent de sécurité. Il est actuellement retraité. Il rapporte une dyspnée depuis 2 mois, de majoration progressive, actuellement stade 3 mMRC, associée à une toux sèche et une douleur thoracique gauche ne cédant pas sous antalgique de palier 1. Il n'y a pas d'altération de l'état général à l'exception d'une asthénie modérée.]\nLa ponction pleurale ramène un liquide séro-hématique. La biochimie du liquide pleural est la suivante : • Protides pleuraux 48 g/L (protidémie 62 g/L) • LDH pleuraux 130 UI/L (LDH sanguin 200 UI/L). De quel type d'épanchement s'agit-il ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP3-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un exsudat"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le liquide est un exsudat. Les protides pleuraux sont > 35 g/L (48 g/L), le rapport protides pleuraux/sériques est > 0,5 (48/62 = 0,77) et le rapport LDH pleural/sanguin est > 0,6 (130/200 = 0,65) selon les critères de Light.\n• B (Faux) : Un transsudat a un taux de protides < 25 g/L et ne remplit aucun critère de Light."
   },
   {
     "options": {
-      "A": "Pleurésie parapneumonique non compliquée b Insuffisance ventriculaire gauche",
+      "A": "Pleurésie parapneumonique non compliquée",
+      "B": "Insuffisance ventriculaire gauche",
       "C": "Pleurésie maligne",
-      "D": "Pleurésie tuberculeuse Syndrome oedémato-ascitique . Pleurésie médicamenteuse",
+      "D": "Pleurésie tuberculeuse",
+      "E": "Syndrome œdémato-ascitique",
+      "F": "Pleurésie médicamenteuse",
       "G": "Pleurésie bénigne à l'amiante",
-      "H": "Syndrome Néphrotique . Pleurésie virale"
+      "H": "Syndrome néphrotique",
+      "I": "Pleurésie virale"
     },
     "correctAnswers": [
       "A",
       "C",
       "D",
+      "F",
       "G",
-      "H"
+      "I"
     ],
-    "text": "[Cas clinique : Vous recevez en consultation Monsieur F.B., 63 ans, pour bilan de dyspnée et douleur thoracique gauche. • Il a comme antécédents une hypertension artérielle, une artérite oblitérante des membres inférieurs. • Son traitement à domicile comprend : Amlodipine et Aspirine 75mg. • Il est fumeur depuis l'âge de 16 ans, un paquet de cigarettes par jour. Il a exercé la profession d'ouvrier dans une usine de fabrication de fibrociment « Eternit » de 21 à 23 ans puis d'agent de sécurité. Il est actuellement retraité. Il rapporte une dyspnée depuis 2 mois, de majoration progressive, actuellement stade 3 MRC, associée à une toux sèche et une douleur thoracique gauche ne cédant pas sous antalgique de palier l. Il n'y a pas d'altération de l'état général à l'exception d'une asthénie modérée]\nQuelles sont les étiologies possibles d'un épanchement exsudatif ?",
+    "text": "[Cas clinique : Vous recevez en consultation Monsieur F.B., 63 ans, pour bilan de dyspnée et douleur thoracique gauche. • Il a comme antécédents une hypertension artérielle, une artérite oblitérante des membres inférieurs. • Son traitement à domicile comprend : Amlodipine et Aspirine 75 mg. • Il est fumeur depuis l'âge de 16 ans, un paquet de cigarettes par jour. Il a exercé la profession d'ouvrier dans une usine de fabrication de fibrociment « Eternit » de 21 à 23 ans puis d'agent de sécurité. Il est actuellement retraité. Il rapporte une dyspnée depuis 2 mois, de majoration progressive, actuellement stade 3 mMRC, associée à une toux sèche et une douleur thoracique gauche ne cédant pas sous antalgique de palier 1. Il n'y a pas d'altération de l'état général à l'exception d'une asthénie modérée.]\nQuelles sont les étiologies possibles d'un épanchement exsudatif ?",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP3-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Pleurésie parapneumonique non compliquée b Insuffisance ventriculaire gauche ; C) Pleurésie maligne ; D) Pleurésie tuberculeuse Syndrome oedémato-ascitique . Pleurésie médicamenteuse ; G) Pleurésie bénigne à l'amiante ; H) Syndrome Néphrotique . Pleurésie virale"
+    "explanation": "Correction détaillée :\n• A, C, D, F, G, I (Vrai) : Toutes les pathologies causant une atteinte inflammatoire, infectieuse ou tumorale directe de la plèvre (infections bactériennes/virales, cancer/mésothéliome, tuberculose, amiante, médicaments) augmentent la perméabilité capillaire pleurale et donnent des exsudats.\n• B, E, H (Faux) : L'insuffisance ventriculaire gauche, la cirrhose (syndrome œdémato-ascitique) et le syndrome néphrotique engendrent des transsudats (par augmentation de la pression hydrostatique ou baisse de la pression oncotique)."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP6.pdf"] = [
   {
     "options": {
-      "A": "",
+      "A": "Des épisodes de dyspnée sifflante",
       "B": "Une toux sèche plutôt nocturne",
       "C": "Des crachats purulents",
       "D": "Des épisodes d'hémoptysie",
       "E": "Aucun de ces symptômes"
     },
     "correctAnswers": [
-      "B",
-      "D"
+      "A",
+      "B"
     ],
-    "text": "[Cas clinique : Une patiente de 45 ans vient consulter pour des épisodes de dyspnée récidivante depuis plusieurs années. Dans ses antécédents, on retrouve la notion d'un asthme dans l'enfance pour lequel elle a reçu un traitement qu'elle a interrompu depuis 18 ans. On retrouve aussi des allergies aux acariens avec des épisodes de rhinite et conjonctivite. Elle ne prend aucun autre traitement que de la Ventoline qui est le traitement de son fils.]\nVous suspectez un asthme et vous rechercher à l'interrogatoire ? Des épisodes de dyspnée sifflante",
+    "text": "[Cas clinique : Une patiente de 45 ans vient consulter pour des épisodes de dyspnée récidivante depuis plusieurs années. Dans ses antécédents, on retrouve la notion d'un asthme dans l'enfance pour lequel elle a reçu un traitement qu'elle a interrompu depuis 18 ans. On retrouve aussi des allergies aux acariens avec des épisodes de rhinite et conjonctivite. Elle ne prend aucun autre traitement que de la Ventoline qui est le traitement de son fils.]\nVous suspectez un asthme et vous recherchez à l'interrogatoire :",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP6-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Une toux sèche plutôt nocturne ; D) Des épisodes d'hémoptysie"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les épisodes de dyspnée sifflante paroxystique sont typiques de la maladie asthmatique.\n• B (Vrai) : Une toux sèche à prédominance nocturne ou au petit matin traduit l'hyperréactivité bronchique.\n• C (Faux) : Les crachats purulents orientent vers une infection bronchopulmonaire ou une dilatation des bronches (DDB).\n• D (Faux) : L'hémoptysie est un signe d'alarme (cancer, tuberculose, EP, DDB) mais n'appartient pas au tableau de l'asthme.\n• E (Faux) : Les symptômes A et B sont bien recherchés dans l'asthme."
   },
   {
     "options": {
-      "A": "Des sibilant bilatéraux",
-      "B": "Des Ronchi bilatéraux",
+      "A": "Des sibilants bilatéraux",
+      "B": "Des ronchis bilatéraux",
       "C": "Des crépitants bilatéraux",
       "D": "Un wheezing",
       "E": "Aucun de ces symptômes"
@@ -5205,26 +5271,26 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP6.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "[Cas clinique : Une patiente de 45 ans vient consulter pour des épisodes de dyspnée récidivante depuis plusieurs années. Dans ses antécédents, on retrouve la notion d'un asthme dans l'enfance pour lequel elle a reçu un traitement qu'elle a interrompu depuis 18 ans. On retrouve aussi des allergies aux acariens avec des épisodes de rhinite et conjonctivite. Elle ne prend aucun autre traitement que de la Ventoline qui est le traitement de son fils.]\nÀ l'auscultation pulmonaire, vous allez entendre en faveur d'un asthme avec obstruction bronchique",
+    "text": "[Cas clinique : Une patiente de 45 ans vient consulter pour des épisodes de dyspnée récidivante depuis plusieurs années. Dans ses antécédents, on retrouve la notion d'un asthme dans l'enfance pour lequel elle a reçu un traitement qu'elle a interrompu depuis 18 ans. On retrouve aussi des allergies aux acariens avec des épisodes de rhinite et conjonctivite. Elle ne prend aucun autre traitement que de la Ventoline qui est le traitement de son fils.]\nÀ l'auscultation pulmonaire, vous allez entendre en faveur d'un asthme avec obstruction bronchique :",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP6-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Des sibilant bilatéraux"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les râles sibilants bilatéraux, diffus et prédominant à l'expiration, sont le signe auscultatoire caractéristique du bronchospasme asthmatique.\n• B (Faux) : Les ronchis traduisent un encombrement sécrétoire des grosses bronches.\n• C (Faux) : Les crépitants traduisent une atteinte alvéolaire ou interstitielle (pneumonie, fibrose, OAP).\n• D (Faux) : Le wheezing désigne un sifflement inspiratoire/expiratoire perçu à distance ou lié à un obstacle laryngo-trachéal/proximal ; à l'auscultation d'un asthme, le terme sémiologique exact est « sibilants bilatéraux ».\n• E (Faux) : Les sibilants sont attendus."
   },
   {
     "options": {
       "A": "Une spirométrie avec un test de réversibilité",
       "B": "Un test de marche de six minutes",
       "C": "Une épreuve de pléthysmographie",
-      "D": "Une mesure de PicFlow",
+      "D": "Une mesure de Peak Flow",
       "E": "Aucune de ces propositions n'est vraie"
     },
     "correctAnswers": [
       "A",
       "C"
     ],
-    "text": "[Cas clinique : Une patiente de 45 ans vient consulter pour des épisodes de dyspnée récidivante depuis plusieurs années. Dans ses antécédents, on retrouve la notion d'un asthme dans l'enfance pour lequel elle a reçu un traitement qu'elle a interrompu depuis 18 ans. On retrouve aussi des allergies aux acariens avec des épisodes de rhinite et conjonctivite. Elle ne prend aucun autre traitement que de la Ventoline qui est le traitement de son fils.]\n6 : Vous avez demandez des épreuves fonctionnelles respiratoires, ci-joint. A quoi correspond cet examen ? EXPLORATION FONCTIONNELLE RESPIRATOIRE CHU St Denis La Réunion AF Cv RAW vor KCO",
+    "text": "[Cas clinique : Une patiente de 45 ans vient consulter pour des épisodes de dyspnée récidivante depuis plusieurs années. Dans ses antécédents, on retrouve la notion d'un asthme dans l'enfance pour lequel elle a reçu un traitement qu'elle a interrompu depuis 18 ans. On retrouve aussi des allergies aux acariens avec des épisodes de rhinite et conjonctivite. Elle ne prend aucun autre traitement que de la Ventoline qui est le traitement de son fils.]\nVous avez demandé des épreuves fonctionnelles respiratoires, ci-joint. À quoi correspond cet examen ?",
     "image": "data/images/annales/UE3-Pneumo5-mDP6-p3-xref59.jpeg",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP6-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une spirométrie avec un test de réversibilité ; C) Une épreuve de pléthysmographie"
+    "explanation": "Correction détaillée :\n• A (Vrai) : On observe une spirométrie (courbe débit-volume, mesure du VEMS et de la CV) avec test de réversibilité après bronchodilatateur (Ventoline).\n• B (Faux) : Le test de marche de 6 minutes n'est pas représenté sur ces courbes.\n• C (Vrai) : La mesure des volumes pulmonaires statiques non mobilisables (VR, CPT) et des résistances des voies aériennes (RAW) indique la réalisation d'une pléthysmographie corporelle totale.\n• D (Faux) : Le débitmètre de pointe (Peak Flow) est un appareil portatif d'autosurveillance ne mesurant que le DEP.\n• E (Faux) : Il s'agit bien d'une spirométrie avec test de réversibilité et d'une pléthysmographie."
   },
   {
     "options": {
@@ -5238,10 +5304,10 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 5/mDP6.pdf"] = [
       "A",
       "B"
     ],
-    "text": "[Cas clinique : Une patiente de 45 ans vient consulter pour des épisodes de dyspnée récidivante depuis plusieurs années. Dans ses antécédents, on retrouve la notion d'un asthme dans l'enfance pour lequel elle a reçu un traitement qu'elle a interrompu depuis 18 ans. On retrouve aussi des allergies aux acariens avec des épisodes de rhinite et conjonctivite. Elle ne prend aucun autre traitement que de la Ventoline qui est le traitement de son fils.]\n6 : Concernant les résultats de cette épreuve fonctionnelle respiratoire , lesquelles de ces propositions sont vraies ? EXPLORATION FONCTIONNELLE RESPIRATOIRE CHU St Denis La Réunion 22 CV vor KCO",
+    "text": "[Cas clinique : Une patiente de 45 ans vient consulter pour des épisodes de dyspnée récidivante depuis plusieurs années. Dans ses antécédents, on retrouve la notion d'un asthme dans l'enfance pour lequel elle a reçu un traitement qu'elle a interrompu depuis 18 ans. On retrouve aussi des allergies aux acariens avec des épisodes de rhinite et conjonctivite. Elle ne prend aucun autre traitement que de la Ventoline qui est le traitement de son fils.]\nConcernant les résultats de cette épreuve fonctionnelle respiratoire, lesquelles de ces propositions sont vraies ?",
     "image": "data/images/annales/UE3-Pneumo5-mDP6-p4-xref59.jpeg",
     "id": "ANN-UE3-UE3S3Pneumologie5-mDP6-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il existe un syndrome obstructif. ; B) Il existe une réversibilité significative après administration de Ventoline."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le rapport VEMS/CVF est abaissé (< 0,70), signant un trouble ventilatoire obstructif.\n• B (Vrai) : Le VEMS augmente significativement après inhalation de Ventoline (+16 % et gain > 200 mL), démontrant la réversibilité de l'obstruction.\n• C (Faux) : La Capacité Pulmonaire Totale (CPT) est normale, il n'y a donc pas de syndrome restrictif.\n• D (Faux) : L'EFR de base est pathologique (syndrome obstructif).\n• E (Faux) : L'abaissement du rapport VEMS/CVF prouve l'obstruction bronchique."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/DP1.pdf"] = [
@@ -5251,33 +5317,33 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/DP1.pdf"] = [
       "B": "Un dosage des D-dimères",
       "C": "Des EFR",
       "D": "Une fibroscopie bronchique",
-      "E": "une épreuve d'effort sur tapis roulant"
+      "E": "Une épreuve d'effort sur tapis roulant"
     },
     "correctAnswers": [
       "A",
       "B",
       "C"
     ],
-    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 Kg. Sa saturation en 02 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nQuelles examens sont recommandés ?",
+    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 kg. Sa saturation en O2 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nQuels examens sont recommandés ?",
     "id": "ANN-UE3-UE3S3Pneumologie6-DP1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un scanner thoracique ; B) Un dosage des D-dimères ; C) Des EFR"
+    "explanation": "Correction détaillée :\n• A (Vrai — Scanner thoracique) : Indispensable pour rechercher des séquelles parenchymateuses (fibrose, verre dépoli persistant) ou des complications post-infectieuses.\n• B (Vrai — Dosage des D-dimères) : Permet d'éliminer la présence d'une maladie thrombo-embolique (comme l'embolie pulmonaire), dont le risque est fortement majoré par l'inflammation liée au SARS-CoV-2.\n• C (Vrai — Des EFR) : Les Épreuves Fonctionnelles Respiratoires permettent d'objectiver le retentissement fonctionnel, de chercher un trouble ventilatoire restrictif (fréquent en post-COVID) et de mesurer la diffusion alvéolo-capillaire (DLCO).\n• D (Faux — Fibroscopie bronchique) : Examen invasif, non justifié en première intention sans signe d'appel (comme une atélectasie localisée ou une suspicion de surinfection/tumeur).\n• E (Faux — Épreuve d'effort sur tapis roulant) : Non recommandée en première intention alors que le patient désature déjà au simple test de lever de chaise (désaturation à 88%)."
   },
   {
     "options": {
       "A": "C'est un scanner thoracique non injecté.",
-      "B": "On retrouve des lésions en verre dépoli. DPI :",
-      "C": "On retrouve des lésions bilatérale plutôt périphérique sous pleurale.",
+      "B": "On retrouve des lésions en verre dépoli.",
+      "C": "On retrouve des lésions bilatérales plutôt périphériques sous-pleurales.",
       "D": "Il existe une abondante pleurésie gauche.",
-      "E": "Il existe un thrombus dans à l'origine de l'artère pulmonaire gauche sous la forme d'un défet endovasculaire."
+      "E": "Il existe un thrombus à l'origine de l'artère pulmonaire gauche sous la forme d'un défect endovasculaire."
     },
     "correctAnswers": [
       "B",
       "C"
     ],
-    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 Kg. Sa saturation en 02 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nLe scanner thoracique est le suivant Concernant cet examen :",
+    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 kg. Sa saturation en O2 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nLe scanner thoracique est le suivant. Concernant cet examen :",
     "image": "data/images/annales/UE3-Pneumo6-DP1-p2-combined.jpeg",
     "id": "ANN-UE3-UE3S3Pneumologie6-DP1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) On retrouve des lésions en verre dépoli. DPI : ; C) On retrouve des lésions bilatérale plutôt périphérique sous pleurale."
+    "explanation": "Correction détaillée :\n• A (Faux — C'est un scanner non injecté) : On visualise très bien le produit de contraste blanc dans l'aorte et l'artère pulmonaire, il s'agit d'un angioscanner.\n• B (Vrai — On retrouve des lésions en verre dépoli) : Le scanner montre des hyperdensités floues n'effaçant pas les vaisseaux sous-jacents, caractéristiques du verre dépoli (signe d'inflammation ou séquelles interstitielles).\n• C (Vrai — Lésions bilatérales plutôt périphériques sous-pleurales) : C'est la distribution spatiale pathognomonique et typique des lésions liées à la COVID-19.\n• D (Faux — Abondante pleurésie gauche) : Il n'y a pas d'épanchement liquidien (pas de croissant de densité hydrique déclive) dans les plèvres sur la coupe présentée.\n• E (Faux — Il existe un thrombus...) : Le tronc de l'artère pulmonaire et ses branches principales sont bien opacifiés, de façon homogène, sans « défect » endovasculaire."
   },
   {
     "options": {
@@ -5285,22 +5351,22 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/DP1.pdf"] = [
       "B": "Il existe une hypoxémie avec normo pH.",
       "C": "Il existe une acidose respiratoire compensée.",
       "D": "Ces résultats sont normaux.",
-      "E": "La Pa C02 est normale."
+      "E": "La PaCO2 est normale."
     },
     "correctAnswers": [
       "B",
       "E"
     ],
-    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 Kg. Sa saturation en 02 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nDevant la saturation en oxygène basse, la gazométrie en air suivante est réalisée: pH Pa02 = 65 mmHg et PaC02 = 41 mmHg :",
+    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 kg. Sa saturation en O2 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nDevant la saturation en oxygène basse, la gazométrie en air suivante est réalisée : pH = 7,41, PaO2 = 65 mmHg et PaCO2 = 41 mmHg :",
     "id": "ANN-UE3-UE3S3Pneumologie6-DP1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Il existe une hypoxémie avec normo pH. ; E) La Pa C02 est normale. — Remarques : 7.41,"
+    "explanation": "Correction détaillée :\n• A (Faux — Alcalose respiratoire) : Le pH est de 7,41 (dans les normes de 7,38 à 7,42).\n• B (Vrai — Hypoxémie avec normo pH) : La PaO2 est pathologique car inférieure à 80 mmHg (65 mmHg) signant l'hypoxémie, et le pH est normal.\n• C (Faux — Acidose respiratoire compensée) : Le pH n'est pas acide et la PaCO2 n'est pas augmentée.\n• D (Faux — Ces résultats sont normaux) : La PaO2 à 65 mmHg est anormale et témoigne d'une anomalie des échanges gazeux (effet shunt ou trouble de diffusion).\n• E (Vrai — La PaCO2 est normale) : La PaCO2 à 41 mmHg est parfaitement dans la norme (comprise entre 35 et 45 mmHg)."
   },
   {
     "options": {
       "A": "Des épreuves fonctionnelles respiratoires",
       "B": "Une échographie cardiaque",
       "C": "Une numération formule sanguine",
-      "D": "Un Tep scanner",
+      "D": "Un TEP-scanner",
       "E": "Aucun de ces examens"
     },
     "correctAnswers": [
@@ -5308,9 +5374,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/DP1.pdf"] = [
       "B",
       "C"
     ],
-    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 Kg. Sa saturation en 02 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nQuels autres examens demandez-vous ?",
+    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 kg. Sa saturation en O2 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nQuels autres examens demandez-vous ?",
     "id": "ANN-UE3-UE3S3Pneumologie6-DP1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Des épreuves fonctionnelles respiratoires ; B) Une échographie cardiaque ; C) Une numération formule sanguine"
+    "explanation": "Correction détaillée :\n• A (Vrai — Des EFR) : Pour quantifier le retentissement fonctionnel, explorer les volumes/débits et mesurer la DLCO.\n• B (Vrai — Échographie cardiaque) : Examen clé pour rechercher une séquelle cardiaque (myocardite) ou une Hypertension Pulmonaire (retentissement du cœur droit).\n• C (Vrai — Numération formule sanguine) : Indispensable pour rechercher une anémie (qui pourrait expliquer ou aggraver la dyspnée et l'asthénie) ou un syndrome inflammatoire.\n• D (Faux — Un TEP-scanner) : Examen métabolique non indiqué en routine dans le bilan d'un COVID long respiratoire.\n• E (Faux — Aucun examen) : Un bilan d'imagerie, biologique et fonctionnel est incontournable."
   },
   {
     "options": {
@@ -5318,7 +5384,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/DP1.pdf"] = [
       "B": "Une oxygénothérapie à l'effort",
       "C": "Une prise en charge nutritionnelle",
       "D": "Il ne justifie pas d'une surveillance ultérieure.",
-      "E": "un controle scanner de surveillance"
+      "E": "Un contrôle scanner de surveillance"
     },
     "correctAnswers": [
       "A",
@@ -5326,9 +5392,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/DP1.pdf"] = [
       "C",
       "E"
     ],
-    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 Kg. Sa saturation en 02 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\n: Pour ce patient, quelles sont les éléments de sa prise en charge thérapeutique ?",
+    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 kg. Sa saturation en O2 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nPour ce patient, quels sont les éléments de sa prise en charge thérapeutique ?",
     "id": "ANN-UE3-UE3S3Pneumologie6-DP1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un programme de réhabilitation respiratoire ; B) Une oxygénothérapie à l'effort ; C) Une prise en charge nutritionnelle ; E) un controle scanner de surveillance"
+    "explanation": "Correction détaillée :\n• A (Vrai — Réhabilitation respiratoire) : C'est le pilier thérapeutique central pour reconditionner le patient à l'effort et diminuer la dyspnée.\n• B (Vrai — Oxygénothérapie à l'effort) : Obligatoire car le patient chute à 88% à l'effort, il faut compenser cette hypoxémie pour lui permettre sa rééducation.\n• C (Vrai — Prise en charge nutritionnelle) : Justifiée par sa perte de poids importante de 5 kg (risque de dénutrition et de sarcopénie).\n• D (Faux — Pas de surveillance ultérieure) : Une surveillance prolongée pneumologique (clinique et EFR) est primordiale pour suivre l'évolution des séquelles.\n• E (Vrai — Contrôle scanner de surveillance) : Permet d'évaluer la résolution ou l'évolution fibrosante du verre dépoli."
   },
   {
     "options": {
@@ -5336,16 +5402,16 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/DP1.pdf"] = [
       "B": "Elle doit prendre en compte l'éventualité d'un syndrome d'hyperventilation.",
       "C": "Elle tient compte des contre-indications à l'effort.",
       "D": "Il n'y a aucun intérêt à y associer un soutien psychologique.",
-      "E": "Elle intègre une évaluation cardiaque initiale v'"
+      "E": "Elle intègre une évaluation cardiaque initiale."
     },
     "correctAnswers": [
       "B",
       "C",
       "E"
     ],
-    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 Kg. Sa saturation en 02 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nConcernant la rééducation pour ce patient :",
+    "text": "[Cas clinique : Un patient de 56 ans est vu en consultation à trois mois d'une infection COVID-19 pour laquelle il n'a pas été hospitalisé. Il présente une toux sèche avec une dyspnée au moindre effort et un amaigrissement de 5 kg. Sa saturation en O2 au repos est à 95% et chute à 88% au test de lever de chaise d'une minute.]\nConcernant la rééducation pour ce patient :",
     "id": "ANN-UE3-UE3S3Pneumologie6-DP1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Elle doit prendre en compte l'éventualité d'un syndrome d'hyperventilation. ; C) Elle tient compte des contre-indications à l'effort. ; E) Elle intègre une évaluation cardiaque initiale v'"
+    "explanation": "Correction détaillée :\n• A (Faux — Aucun intérêt) : Au contraire, elle permet de récupérer une autonomie et d'améliorer la qualité de vie.\n• B (Vrai — Syndrome d'hyperventilation) : Un syndrome d'hyperventilation post-traumatique ou anxieux est souvent intriqué dans le COVID long et doit être identifié par le kinésithérapeute.\n• C (Vrai — Contre-indications à l'effort) : La rééducation doit toujours être encadrée pour ne pas outrepasser les capacités cardiovasculaires.\n• D (Faux — Soutien psychologique sans intérêt) : L'anxiété et la dépression sont très fréquentes dans les COVID longs, le suivi psychologique est hautement recommandé.\n• E (Vrai — Intègre évaluation cardiaque) : Avant tout réentraînement physique, le feu vert cardiologique (via l'écho et l'ECG) est de mise."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/SQI1.pdf"] = [
@@ -5353,7 +5419,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/SQI1.pdf"] = [
     "options": {
       "A": "Une proportion de patients ne présente pas d'atteinte pulmonaire.",
       "B": "Ce n'est pas l'atteinte pulmonaire qui généralement conditionne l'hospitalisation.",
-      "C": "L'extension des anomalies radiologique semble proportionnelle à la sévérité clinique.",
+      "C": "L'extension des anomalies radiologiques semble proportionnelle à la sévérité clinique.",
       "D": "Tous les patients doivent être hospitalisés.",
       "E": "Aucune de ces propositions n'est exacte."
     },
@@ -5361,33 +5427,33 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/SQI1.pdf"] = [
       "A",
       "C"
     ],
-    "text": "Concernant l'atteinte respiratoire à Sars Cov-2 (Covid- 1 9) initiale",
+    "text": "Concernant l'atteinte respiratoire à SARS-CoV-2 (Covid-19) initiale :",
     "id": "ANN-UE3-UE3S3Pneumologie6-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une proportion de patients ne présente pas d'atteinte pulmonaire. ; C) L'extension des anomalies radiologique semble proportionnelle à la sévérité clinique."
+    "explanation": "Correction détaillée :\n• A (Vrai — Une proportion ne présente pas d'atteinte pulmonaire) : Il y a de nombreux cas asymptomatiques ou se limitant aux voies aériennes supérieures (rhinite, agueusie, anosmie).\n• B (Faux — Ce n'est pas l'atteinte pulmonaire qui conditionne l'hospitalisation) : C'est précisément la pneumonie hypoxémiante qui dicte la nécessité d'oxygénothérapie et donc l'hospitalisation.\n• C (Vrai — Extension des anomalies proportionnelle à la sévérité) : Les atteintes scannographiques sévères (> 50% du parenchyme) sont directement corrélées au risque de passage en réanimation.\n• D (Faux — Tous doivent être hospitalisés) : Les formes légères à modérées (sans besoin d'oxygène) sont suivies en ambulatoire.\n• E (Faux — Aucune n'est exacte) : Les propositions A et C sont vraies."
   },
   {
     "options": {
-      "A": "Elle comporte essentiellement des lésions bilatérale plutôt périphérique sous pleurale.",
-      "B": "Elle comporte essentiellement des opacités en verre dépoli de type extensive.",
+      "A": "Elle comporte essentiellement des lésions bilatérales plutôt périphériques sous-pleurales.",
+      "B": "Elle comporte essentiellement des opacités en verre dépoli de type extensif.",
       "C": "Elle n'est jamais associée à des lésions de condensation alvéolaire uni ou bilatérale.",
-      "D": "Il n'existe aucun lien entre l'extension des anomalies radiologique et la sévérité clinique.",
+      "D": "Il n'existe aucun lien entre l'extension des anomalies radiologiques et la sévérité clinique.",
       "E": "Aucune de ces propositions n'est exacte."
     },
     "correctAnswers": [
       "A",
       "B"
     ],
-    "text": "Concernant l'atteinte pulmonaire lors de la phase aiguë .",
+    "text": "Concernant l'atteinte pulmonaire lors de la phase aiguë :",
     "id": "ANN-UE3-UE3S3Pneumologie6-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle comporte essentiellement des lésions bilatérale plutôt périphérique sous pleurale. ; B) Elle comporte essentiellement des opacités en verre dépoli de type extensive."
+    "explanation": "Correction détaillée :\n• A (Vrai — Lésions bilatérales plutôt périphériques sous-pleurales) : C'est le marqueur radiologique type de l'infection à SARS-CoV-2.\n• B (Vrai — Opacités en verre dépoli) : Signe prédominant traduisant l'œdème inflammatoire intra-alvéolaire et interstitiel.\n• C (Faux — Jamais associée à des condensations) : Le verre dépoli peut confluer et évoluer vers de véritables condensations alvéolaires (notamment au stade d'organisation ou de surinfection).\n• D (Faux — Aucun lien) : La classification radiologique de sévérité est directement liée à l'évolution clinique.\n• E (Faux — Aucune exacte) : Les propositions A et B sont vraies."
   },
   {
     "options": {
-      "A": "L'épisode inflammatoire induite par l'infection à SARS-CoV-2 peut générer des lésions immédiates à type de myocardite et péricardite.",
-      "B": "Les événements thrombo-embolique ne sont pas majorés.",
-      "C": "Des événements thrombo-emboliques peuvent survenir pendant ou après l'atteinte pulmonaire initiale. v••",
+      "A": "L'épisode inflammatoire induit par l'infection à SARS-CoV-2 peut générer des lésions immédiates à type de myocardite et péricardite.",
+      "B": "Les événements thrombo-emboliques ne sont pas majorés.",
+      "C": "Des événements thrombo-emboliques peuvent survenir pendant ou après l'atteinte pulmonaire initiale.",
       "D": "L'embolie pulmonaire est systématique.",
-      "E": "Aucune de ces propositions n'est exacte,"
+      "E": "Aucune de ces propositions n'est exacte."
     },
     "correctAnswers": [
       "A",
@@ -5395,14 +5461,15 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/SQI1.pdf"] = [
     ],
     "text": "D'un point de vue thrombo-embolique et cardio-vasculaire :",
     "id": "ANN-UE3-UE3S3Pneumologie6-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'épisode inflammatoire induite par l'infection à SARS-CoV-2 peut générer des lésions immédiates à type de myocardite et péricardite. ; C) Des événements thrombo-emboliques peuvent survenir pendant ou après l'atteinte pulmonaire initiale. v••"
+    "explanation": "Correction détaillée :\n• A (Vrai — Myocardite et péricardite) : L'orage cytokinique et le tropisme viral direct peuvent engendrer une myocardite ou une péricardite.\n• B (Faux — Événements thrombo-emboliques non majorés) : Le virus induit un état d'hypercoagulabilité majeur avec un très fort risque thrombotique endothélial.\n• C (Vrai — Événements surviennent pendant ou après) : L'embolie pulmonaire ou la TVP peut se déclarer durant la phase aiguë ou persister en risque pendant la convalescence.\n• D (Faux — L'EP est systématique) : C'est une complication redoutable mais pas systématique grâce à l'anticoagulation préventive.\n• E (Faux) : Les propositions A et C sont vraies."
   },
   {
     "options": {
       "A": "Ils ne vont survenir que chez les patients ayant fait des formes sévères.",
       "B": "Leur évolution est fluctuante sur plusieurs semaines ou plusieurs mois.",
       "C": "Ils justifient systématiquement un bilan en hospitalisation.",
-      "D": "Il convient d'éliminer une complication de la phase aiguë ou une décompensation de comorbidité dans un premier temps. Aucune de ces propositions n'est exacte."
+      "D": "Il convient d'éliminer une complication de la phase aiguë ou une décompensation de comorbidité dans un premier temps.",
+      "E": "Aucune de ces propositions n'est exacte."
     },
     "correctAnswers": [
       "B",
@@ -5410,13 +5477,13 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/SQI1.pdf"] = [
     ],
     "text": "Concernant la survenue des symptômes tardifs au cours de la covid-19 :",
     "id": "ANN-UE3-UE3S3Pneumologie6-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Leur évolution est fluctuante sur plusieurs semaines ou plusieurs mois. ; D) Il convient d'éliminer une complication de la phase aiguë ou une décompensation de comorbidité dans un premier temps. Aucune de ces propositions n'est exacte."
+    "explanation": "Correction détaillée :\n• A (Faux — Uniquement chez les formes sévères) : Le COVID long frappe également de façon très fréquente des jeunes patients n'ayant eu qu'une forme initiale bénigne.\n• B (Vrai — Évolution fluctuante) : La clinique est marquée par des rechutes ou poussées liées à l'effort physique ou intellectuel.\n• C (Faux — Hospitalisation systématique) : La prise en charge se fait très majoritairement en médecine de ville (ambulatoire).\n• D (Vrai — Éliminer une complication) : Face à une dyspnée persistante, il faut avant tout écarter une EP, une myocardite ou la décompensation d'un asthme ou d'une BPCO.\n• E (Faux) : Les propositions B et D sont vraies."
   },
   {
     "options": {
       "A": "Une fatigue pouvant être sévère",
       "B": "Les troubles neurologiques cognitifs, sensoriels, céphalées",
-      "C": "Les troubles cardiothoracique",
+      "C": "Les troubles cardiothoraciques",
       "D": "Les troubles de l'odorat et du goût",
       "E": "Aucune de ces propositions n'est exacte."
     },
@@ -5426,9 +5493,9 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "text": "Parmi les symptômes tardifs les plus fréquemment rencontrées, on trouve",
+    "text": "Parmi les symptômes tardifs les plus fréquemment rencontrés, on trouve :",
     "id": "ANN-UE3-UE3S3Pneumologie6-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une fatigue pouvant être sévère ; B) Les troubles neurologiques cognitifs, sensoriels, céphalées ; C) Les troubles cardiothoracique ; D) Les troubles de l'odorat et du goût"
+    "explanation": "Correction détaillée :\n• A (Vrai — Fatigue sévère) : C'est le maître-symptôme (asthénie majeure post-effort).\n• B (Vrai — Troubles neuro-cognitifs) : Le classique « brouillard cérébral » (difficultés de concentration), troubles de la mémoire et céphalées chroniques.\n• C (Vrai — Troubles cardio-thoraciques) : Palpitations, dysautonomie, douleurs basi-thoraciques, dyspnée.\n• D (Vrai — Troubles de l'odorat et du goût) : Anosmie et agueusie séquellaires ou cacosmie/parosmie.\n• E (Faux) : Les propositions A, B, C et D sont vraies."
   }
 ];
 window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/mDP1.pdf"] = [
@@ -5447,7 +5514,7 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/mDP1.pdf"] = [
     ],
     "text": "[Cas clinique : Trois mois après l'épisode infectieux initial, un patient consulte pour une dyspnée persistante.]\nOn peut évoquer les diagnostics suivants :",
     "id": "ANN-UE3-UE3S3Pneumologie6-mDP1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Des séquelles tardives post COVID-19 ; B) Une embolie pulmonaire ; C) Une insuffisance cardiaque"
+    "explanation": "Correction détaillée :\n• A (Vrai — Séquelles tardives post-COVID) : Fibrose, troubles de la diffusion ou désadaptation à l'effort (« COVID Long »).\n• B (Vrai — Embolie pulmonaire) : Il est impératif d'écarter une EP passée inaperçue ayant causé des dommages vasculaires.\n• C (Vrai — Insuffisance cardiaque) : Dysfonction ventriculaire suite à une myocardite post-infectieuse.\n• D (Faux — Thrombopénie) : Elle cause un syndrome hémorragique, mais n'est pas pourvoyeuse de dyspnée.\n• E (Faux — Insuffisance veineuse) : Pathologie périphérique entraînant varices et œdèmes des membres inférieurs, ne donnant pas d'essoufflement."
   },
   {
     "options": {
@@ -5455,16 +5522,16 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/mDP1.pdf"] = [
       "B": "Il faut demander un bilan biologique hépatique.",
       "C": "On peut effectuer une mesure de la saturation en air au repos.",
       "D": "On peut effectuer un test d'effort comme un test de lever de chaise d'une minute.",
-      "E": "Aucun examen tîest nécéssaire"
+      "E": "Aucun examen n'est nécessaire."
     },
     "correctAnswers": [
       "A",
       "C",
       "D"
     ],
-    "text": "[Cas clinique : Trois mois après l'épisode infectieux initial, un patient consulte pour une dyspnée persistante.]\nPour évaluer cette dyspnée mDP1 .",
+    "text": "[Cas clinique : Trois mois après l'épisode infectieux initial, un patient consulte pour une dyspnée persistante.]\nPour évaluer cette dyspnée :",
     "id": "ANN-UE3-UE3S3Pneumologie6-mDP1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On recherche une limitation des activités par rapport à l'état de santé antérieur. ; C) On peut effectuer une mesure de la saturation en air au repos. ; D) On peut effectuer un test d'effort comme un test de lever de chaise d'une minute."
+    "explanation": "Correction détaillée :\n• A (Vrai — Limitation par rapport à l'état antérieur) : On évalue cliniquement le retentissement dans la vie quotidienne via des échelles comme le mMRC.\n• B (Faux — Bilan biologique hépatique) : Le foie n'est pas l'organe ciblé par l'exploration d'une dyspnée post-infectieuse.\n• C (Vrai — Mesure de la saturation en air au repos) : Dépistage de base de l'hypoxémie au cabinet.\n• D (Vrai — Test de lever de chaise d'une minute) : Examen clinique fonctionnel rapide et très sensible pour démasquer une désaturation à l'effort.\n• E (Faux — Aucun examen nécessaire) : Une évaluation clinique et fonctionnelle est indispensable."
   },
   {
     "options": {
@@ -5479,26 +5546,26 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/mDP1.pdf"] = [
       "C",
       "D"
     ],
-    "text": "[Cas clinique : Trois mois après l'épisode infectieux initial, un patient consulte pour une dyspnée persistante.]\nLa saturation au repos de ce patient reste inférieure à 96% à l'effort. Quels examens complémentaires peuvent être réalisées",
+    "text": "[Cas clinique : Trois mois après l'épisode infectieux initial, un patient consulte pour une dyspnée persistante.]\nLa saturation au repos de ce patient reste inférieure à 96% à l'effort. Quels examens complémentaires peuvent être réalisés ?",
     "id": "ANN-UE3-UE3S3Pneumologie6-mDP1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un dosage biologique des BNP ; C) Une échographie cardiaque ; D) Un scanner thoracique"
+    "explanation": "Correction détaillée :\n• A (Vrai — Dosage des BNP) : Les peptides natriurétiques permettent d'orienter vers une cause cardiogénique si élevés.\n• B (Faux — Fibroscopie bronchique) : Pas de justification anatomique (pas de tumeur, d'hémoptysie ou d'inhalation).\n• C (Vrai — Échographie cardiaque) : Évalue la fraction d'éjection du VG et les pressions artérielles pulmonaires.\n• D (Vrai — Scanner thoracique) : Pour cartographier d'éventuelles séquelles interstitielles du parenchyme pulmonaire ou une EP.\n• E (Faux — Bilan hépatique) : Inutile en première intention devant ce tableau respiratoire pur."
   },
   {
     "options": {
       "A": "Les traitements actuels sont essentiellement symptomatiques.",
       "B": "La prise en charge de ces patients ne peut s'envisager qu'en hospitalisation.",
       "C": "La rééducation a une place centrale.",
-      "D": "Un soutien psychologique est une prise en charge adaptée des troubles anxieux et dépressif sont à envisager.",
-      "E": "Aucune prise en charge n'est nécéssaire"
+      "D": "Un soutien psychologique et une prise en charge adaptée des troubles anxieux et dépressifs sont à envisager.",
+      "E": "Aucune prise en charge n'est nécessaire."
     },
     "correctAnswers": [
       "A",
       "C",
       "D"
     ],
-    "text": "[Cas clinique : Trois mois après l'épisode infectieux initial, un patient consulte pour une dyspnée persistante.]\n1 . Concernant la prise en charge des symptômes tardifs post infection COVID-19 :",
+    "text": "[Cas clinique : Trois mois après l'épisode infectieux initial, un patient consulte pour une dyspnée persistante.]\nConcernant la prise en charge des symptômes tardifs post infection COVID-19 :",
     "id": "ANN-UE3-UE3S3Pneumologie6-mDP1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les traitements actuels sont essentiellement symptomatiques. ; C) La rééducation a une place centrale. ; D) Un soutien psychologique est une prise en charge adaptée des troubles anxieux et dépressif sont à envisager."
+    "explanation": "Correction détaillée :\n• A (Vrai — Traitements essentiellement symptomatiques) : Aucune thérapie antivirale n'est efficace à ce stade, on traite les conséquences (O2, antalgiques, BDCA si asthme).\n• B (Faux — Hospitalisation indispensable) : Prise en charge ambulatoire et pluridisciplinaire en ville.\n• C (Vrai — Rééducation a une place centrale) : Kinésithérapie respiratoire et motrice primordiale.\n• D (Vrai — Soutien psychologique) : Les troubles de l'humeur liés à la chronicité et à l'invalidité des symptômes justifient une prise en charge psychologique intégrée.\n• E (Faux) : Les propositions A, C et D sont vraies."
   },
   {
     "options": {
@@ -5514,25 +5581,27 @@ window.ANNALES_QCM["UE3/UE3.S3 Pneumologie 6/mDP1.pdf"] = [
       "C",
       "E"
     ],
-    "text": "[Cas clinique : Trois mois après l'épisode infectieux initial, un patient consulte pour une dyspnée persistante.]\npartiellement correct Concernant les étiologies de la dyspnée rencontrées au cours des manifestations prolongée de la COVID-19, on peut retrouver :",
+    "text": "[Cas clinique : Trois mois après l'épisode infectieux initial, un patient consulte pour une dyspnée persistante.]\nConcernant les étiologies de la dyspnée rencontrées au cours des manifestations prolongées de la COVID-19, on peut retrouver :",
     "id": "ANN-UE3-UE3S3Pneumologie6-mDP1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un asthme et/ou une hyperréactivité bronchique ; B) Une embolie pulmonaire ; C) Une pneumopathie interstitielle ; E) Une insuffisance cardiaque"
+    "explanation": "Correction détaillée :\n• A (Vrai — Asthme ou hyperréactivité) : Un asthme peut être démasqué ou l'inflammation peut causer une hyperréactivité bronchique transitoire.\n• B (Vrai — Embolie pulmonaire) : Séquelle de maladie thrombo-embolique veineuse.\n• C (Vrai — Pneumopathie interstitielle) : Dommages de la charpente alvéolaire post-SDRA.\n• D (Faux — On ne retrouve jamais de BPCO) : C'est faux, le virus peut avoir infecté un patient BPCO préexistant ou avoir favorisé l'apparition d'un TVO séquellaire.\n• E (Vrai — Insuffisance cardiaque) : Origine post-myocardite ou dysfonction droite secondaire (cœur pulmonaire)."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
   {
     "options": {
+      "A": "L'IVA",
       "B": "La marginale gauche",
       "C": "La marginale droite",
       "D": "La diagonale",
       "E": "L'IVP"
     },
     "correctAnswers": [
+      "A",
       "E"
     ],
     "text": "Le septum est vascularisé par :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) L'IVP"
+    "explanation": "Correction détaillée :\n• A, E (Vrai) : Les 2/3 antérieurs du septum interventriculaire sont irrigués par les branches septales de l'IVA (Artère Inter-Ventriculaire Antérieure) et le 1/3 postérieur par celles de l'IVP (Artère Inter-Ventriculaire Postérieure).\n• B, C, D (Faux) : Ces branches vascularisent les parois libres (latérale gauche, bord droit et antéro-latérale)."
   },
   {
     "options": {
@@ -5545,9 +5614,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "B"
     ],
-    "text": "La Partie latérale gauche du VG est vascularisée par :",
+    "text": "La partie latérale gauche du VG est vascularisée par :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La marginale gauche"
+    "explanation": "Correction détaillée :\n• B (Vrai) : La paroi latérale gauche du ventricule gauche est principalement vascularisée par l'artère marginale gauche (branche de l'artère circonflexe).\n• A, C, D, E (Faux) : L'IVA et l'IVP vascularisent le septum et les faces antérieure/inférieure, et la marginale droite vascularise le bord droit du VD."
   },
   {
     "options": {
@@ -5561,9 +5630,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "L'IVA donne comme branches",
+    "text": "L'IVA donne comme branches :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Les diagonales ; E) Les septales"
+    "explanation": "Correction détaillée :\n• D, E (Vrai) : L'Artère Inter-Ventriculaire Antérieure (IVA) donne les branches diagonales (destinées à la paroi antéro-latérale du VG) et les branches septales (destinées aux 2/3 antérieurs du septum interventriculaire).\n• A, C (Faux) : Naissent de la coronaire droite.\n• B (Faux) : Naît de l'artère circonflexe."
   },
   {
     "options": {
@@ -5577,9 +5646,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
       "A",
       "C"
     ],
-    "text": "La coronaire droite donne comme branches (directe) :",
+    "text": "La coronaire droite donne comme branches (directes) :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les marginales droites ; C) L'IVP"
+    "explanation": "Correction détaillée :\n• A, C (Vrai) : La coronaire droite donne les branches marginales droites (bord droit du cœur) et se termine le plus souvent (réseau droit dominant) par l'IVP (Artère Inter-Ventriculaire Postérieure) et la rétroventriculaire gauche.\n• B (Faux) : Branche de la circonflexe.\n• D (Faux) : Branche de l'IVA."
   },
   {
     "options": {
@@ -5592,40 +5661,40 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "B"
     ],
-    "text": "La circonflexe donne comme branches (directe)",
+    "text": "La circonflexe donne comme branches (directes) :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les marginales gauches"
+    "explanation": "Correction détaillée :\n• B (Vrai) : L'artère circonflexe chemine dans le sillon atrioventriculaire gauche et donne les artères marginales gauches (ou latérales) pour la paroi latérale du VG.\n• A, C, D, E (Faux) : Branches de la coronaire droite ou de l'IVA."
   },
   {
     "options": {
       "A": "Le TABC",
-      "B": "La sous Clavière droite",
+      "B": "La sous-clavière droite",
       "C": "Le tronc commun de la coronaire gauche",
-      "D": "La sous Clavière gauche",
+      "D": "La sous-clavière gauche",
       "E": "La carotide primitive droite"
     },
     "correctAnswers": [
       "C"
     ],
-    "text": "La première artère naissant de l'aorte est •",
+    "text": "La première artère naissant de l'aorte est :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Le tronc commun de la coronaire gauche"
+    "explanation": "Correction détaillée :\n• C (Vrai) : Le tronc commun de la coronaire gauche (tout comme la coronaire droite) naît directement à la racine de l'aorte ascendante, juste au-dessus de la valve aortique dans les sinus de Valsalva.\n• A, D (Faux) : Naissent plus loin, sur la crosse de l'aorte.\n• B, E (Faux) : Naissent de la bifurcation du TABC."
   },
   {
     "options": {
       "A": "L'artère vertébrale droite",
-      "B": "La sous Clavière droite",
+      "B": "La sous-clavière droite",
       "C": "Le tronc commun de la coronaire gauche",
-      "D": "La sous Clavière gauche",
+      "D": "La sous-clavière gauche",
       "E": "La carotide primitive droite"
     },
     "correctAnswers": [
       "B",
       "E"
     ],
-    "text": "Le TABC donne comme branches •",
+    "text": "Le TABC donne comme branches :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La sous Clavière droite ; E) La carotide primitive droite"
+    "explanation": "Correction détaillée :\n• B, E (Vrai) : Le Tronc Artériel Brachio-Céphalique (TABC), première branche de la crosse aortique, se divise en artère sous-clavière droite et artère carotide primitive (commune) droite.\n• A (Faux) : L'artère vertébrale droite est une branche collatérale de l'artère sous-clavière droite.\n• C, D (Faux) : Naissent directement de l'aorte."
   },
   {
     "options": {
@@ -5638,13 +5707,14 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "text": "La carotide primitive gauche nait",
+    "text": "La carotide primitive gauche naît :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) de la crosse de l'aorte"
+    "explanation": "Correction détaillée :\n• C (Vrai) : La carotide primitive (commune) gauche naît directement de la crosse de l'aorte (arche aortique), entre le TABC et l'artère sous-clavière gauche.\n• A, B, D, E (Faux) : Localisations anatomiques incorrectes."
   },
   {
     "options": {
       "A": "de l'aorte ascendante",
+      "B": "de l'IVA",
       "C": "de la crosse de l'aorte",
       "D": "de l'aorte descendante",
       "E": "de l'aorte abdominale"
@@ -5652,9 +5722,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "E"
     ],
-    "text": "L'artère mésentérique supérieure nait",
+    "text": "L'artère mésentérique supérieure naît :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) de l'aorte abdominale"
+    "explanation": "Correction détaillée :\n• E (Vrai) : L'artère mésentérique supérieure naît de la face antérieure de l'aorte abdominale, juste en dessous du tronc cœliaque.\n• A, B, C, D (Faux) : Segments thoraciques ou coronaires."
   },
   {
     "options": {
@@ -5671,12 +5741,12 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Quelles sont les valves qui sont tricuspides ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La valve aortique ; C) La valve tricuspide ; D) La valve pulmonaire"
+    "explanation": "Correction détaillée :\n• A, C, D (Vrai) : La valve aortique (3 sigmoïdes), la valve pulmonaire (3 sigmoïdes) et la valve atrioventriculaire droite (valve tricuspide) comportent chacune 3 feuillets (cusps).\n• B (Faux) : La valve mitrale est l'unique valve bicuspide (2 feuillets).\n• E (Faux) : Repli valvulaire inconstant et incontinent à l'abouchement de la VCI."
   },
   {
     "options": {
       "A": "La valve aortique",
-      "B": "La valve mitrale v'",
+      "B": "La valve mitrale",
       "C": "La valve tricuspide",
       "D": "La valve pulmonaire",
       "E": "La valve d'Eustachi"
@@ -5686,7 +5756,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Quelle(s) est(sont) la(les) valve(s) qui est(sont) bicuspide(s) habituellement ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La valve mitrale v'"
+    "explanation": "Correction détaillée :\n• B (Vrai) : La valve mitrale (atrioventriculaire gauche) est physiologiquement bicuspide (grande valve antéro-interne et petite valve postéro-externe).\n• A, C, D (Faux) : Elles sont habituellement tricuspides (la bicuspidie aortique est une malformation congénitale).\n• E (Faux) : Reliquat embryonnaire simple à la terminaison de la VCI."
   },
   {
     "options": {
@@ -5701,12 +5771,12 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Quelle(s) est(sont) la(les) valve(s) qui est(sont) incontinente(s) habituellement ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) La valve d'Eustachi"
+    "explanation": "Correction détaillée :\n• E (Vrai) : La valve d'Eustachi (située à l'ostium de la veine cave inférieure dans l'oreillette droite) est un vestige embryonnaire habituellement incontinent chez l'adulte.\n• A, B, C, D (Faux) : Les 4 valves cardiaques principales sont normalement continentes."
   },
   {
     "options": {
-      "A": "La valve ventriculo artérielle gauche",
-      "B": "La valve ventriculo artérielle droite •e•",
+      "A": "La valve ventriculo-artérielle gauche",
+      "B": "La valve ventriculo-artérielle droite",
       "C": "La valve atrioventriculaire gauche",
       "D": "La valve atrioventriculaire droite",
       "E": "Aucune de ces propositions"
@@ -5718,15 +5788,15 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Quelles sont les valves qui sont tricuspides ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La valve ventriculo artérielle gauche ; B) La valve ventriculo artérielle droite •e• ; D) La valve atrioventriculaire droite"
+    "explanation": "Correction détaillée :\n• A, B, D (Vrai) : La valve ventriculo-artérielle gauche (Aortique), la ventriculo-artérielle droite (Pulmonaire) et l'atrioventriculaire droite (Tricuspide) possèdent chacune 3 feuillets (cusps ou sigmoïdes).\n• C (Faux) : La valve atrioventriculaire gauche est la valve mitrale, qui est bicuspide (2 feuillets).\n• E (Faux) : A, B et D sont vraies."
   },
   {
     "options": {
       "A": "anneau fibreux",
       "B": "cusps proprement dites (valves)",
-      "C": "appareil sous valvulaire",
+      "C": "appareil sous-valvulaire",
       "D": "cordages",
-      "E": "piliers •e•"
+      "E": "piliers"
     },
     "correctAnswers": [
       "A",
@@ -5737,13 +5807,13 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Les valves auriculo-ventriculaires fonctionnent avec quels éléments ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) anneau fibreux ; B) cusps proprement dites (valves) ; C) appareil sous valvulaire ; D) cordages ; E) piliers •e•"
+    "explanation": "Correction détaillée :\n• A, B, C, D, E (Vrai) : Les valves auriculo-ventriculaires (mitrale et tricuspide) possèdent une machinerie complexe comprenant l'anneau fibreux, les cusps (feuillets valvulaires), et un appareil sous-valvulaire constitué des cordages tendineux arrimés aux piliers musculaires (muscles papillaires) empêchant le prolapsus en systole."
   },
   {
     "options": {
       "A": "anneau fibreux",
       "B": "cusps proprement dites (valves)",
-      "C": "appareil sous valvulaire",
+      "C": "appareil sous-valvulaire",
       "D": "cordages",
       "E": "piliers"
     },
@@ -5752,49 +5822,52 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Les valves ventriculo-artérielles fonctionnent avec quels éléments ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) cusps proprement dites (valves)"
+    "explanation": "Correction détaillée :\n• B (Vrai) : À l'inverse des valves auriculo-ventriculaires, les valves ventriculo-artérielles (aortique et pulmonaire) sont des valves sigmoïdes en « nids de pigeon » qui fonctionnent uniquement grâce à leurs 3 cusps, sans appareil sous-valvulaire (ni cordages ni piliers).\n• C, D, E (Faux) : Propres aux valves auriculo-ventriculaires."
   },
   {
     "options": {
-      "A": "100/0",
-      "B": "200/0",
-      "D": "600/0"
+      "A": "10 %",
+      "B": "20 %",
+      "C": "40 %",
+      "D": "60 %",
+      "E": "90 %"
     },
     "correctAnswers": [
       "D"
     ],
-    "text": "quelle est la fraction d'éjection ventriculaire gauche normale ?",
+    "text": "Quelle est la fraction d'éjection ventriculaire gauche normale ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) 600/0"
+    "explanation": "Correction détaillée :\n• D (Vrai) : La fraction d'éjection ventriculaire gauche (FEVG = VES / VTD) normale au repos est de l'ordre de 60 % (normale ≥ 50-55 %).\n• A, B, C (Faux) : Correspondent à une dysfonction systolique du VG (insuffisance cardiaque à FEVG réduite si ≤ 40 %).\n• E (Faux) : Valeur supranormale non physiologique au repos."
   },
   {
     "options": {
-      "A": "120/80",
-      "B": "30/15",
-      "C": "120/0à8",
-      "D": "30/ 0à5",
-      "E": "3à5"
+      "A": "120 / 80",
+      "B": "30 / 15",
+      "C": "120 / 0 à 8",
+      "D": "30 / 0 à 5",
+      "E": "3 à 5"
     },
     "correctAnswers": [
       "C"
     ],
-    "text": "La pression artérielle ventriculaire gauche est habituellement (mmHg) ?",
+    "text": "La pression ventriculaire gauche est habituellement (mmHg) ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-17",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) 120/0à8"
+    "explanation": "Correction détaillée :\n• C (Vrai) : La pression à l'intérieur du ventricule gauche passe d'environ 120 mmHg au pic de la systole pour redescendre très bas, entre 0 et 8 mmHg, lors de la diastole.\n• A (Faux) : 120/80 mmHg correspond à la pression dans l'aorte (la fermeture de la valve aortique maintient la pression diastolique aortique à 80 mmHg).\n• B (Faux) : 30/15 mmHg correspond à la pression dans l'artère pulmonaire.\n• D (Faux) : 30 / 0 à 5 mmHg correspond à la pression dans le ventricule droit.\n• E (Faux) : Correspond à la pression dans l'oreillette droite."
   },
   {
     "options": {
-      "A": "120/80",
-      "B": "30/15",
-      "C": "120/0 à 8",
-      "D": "30/0à5X"
+      "A": "120 / 80",
+      "B": "30 / 15",
+      "C": "120 / 0 à 8",
+      "D": "30 / 0 à 5",
+      "E": "3 à 5"
     },
     "correctAnswers": [
       "B"
     ],
-    "text": "la pression dans l'artère pulmonaire est habituellement (mmHg) ?",
+    "text": "La pression dans l'artère pulmonaire est habituellement (mmHg) ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-18",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) 30/15"
+    "explanation": "Correction détaillée :\n• B (Vrai) : La circulation pulmonaire étant à basse pression, la pression habituelle dans l'artère pulmonaire est d'environ 25-30 mmHg en systole et 10-15 mmHg en diastole (30/15 mmHg).\n• A (Faux) : Pression aortique.\n• C (Faux) : Pression du ventricule gauche.\n• D (Faux) : Pression du ventricule droit (la diastole tombe près de 0 mmHg dans le ventricule)."
   },
   {
     "options": {
@@ -5807,9 +5880,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "text": "La veine grande Azygos se jette dans",
+    "text": "La veine grande Azygos se jette dans :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-19",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) la veine cave supérieure"
+    "explanation": "Correction détaillée :\n• C (Vrai) : La grande veine azygos monte dans le médiastin postérieur et décrit une crosse au-dessus du pédicule pulmonaire droit pour se jeter à la face postérieure de la veine cave supérieure.\n• A, B, D, E (Faux) : Terminaisons anatomiquement fausses."
   },
   {
     "options": {
@@ -5823,9 +5896,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
       "A",
       "B"
     ],
-    "text": "Lorsque l'on réalise une sternotomie, quels sont les éléments que l'on voit apparaitre en avant ?",
+    "text": "Lorsque l'on réalise une sternotomie, quels sont les éléments que l'on voit apparaître en avant ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-20",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le ventricule droit ; B) L'oreillette droite"
+    "explanation": "Correction détaillée :\n• A, B (Vrai) : En vue antérieure (après sternotomie médiane), la face antérieure (sterno-costale) du cœur est constituée essentiellement par le ventricule droit et l'oreillette droite.\n• C (Faux) : L'oreillette gauche est la cavité la plus postérieure (en rapport avec l'œsophage).\n• D (Faux) : Le ventricule gauche est situé principalement à gauche et en arrière.\n• E (Faux) : L'artère rénale droite est rétropéritonéale dans l'abdomen."
   },
   {
     "options": {
@@ -5838,9 +5911,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "B"
     ],
-    "text": "quelle est la première cause de mortalité à la Réunion ?",
+    "text": "Quelle est la première cause de mortalité à La Réunion ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-21",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Maladies cardiovasculaires"
+    "explanation": "Correction détaillée :\n• B (Vrai) : À La Réunion, du fait de la forte prévalence du diabète, de l'HTA et de l'insuffisance rénale, les maladies cardiovasculaires constituent la première cause de décès.\n• A, C, D, E (Faux) : Ne sont pas au premier rang à La Réunion."
   },
   {
     "options": {
@@ -5853,9 +5926,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "quelle est la première cause de mortalité en métropole ?",
+    "text": "Quelle est la première cause de mortalité en métropole ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-22",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Cancer"
+    "explanation": "Correction détaillée :\n• A (Vrai) : En France métropolitaine, la première cause globale de mortalité est d'origine cancéreuse (devant les maladies cardiovasculaires, qui restent la 1re cause chez la femme).\n• B, C, D, E (Faux) : Ne sont pas la 1re cause globale en métropole."
   },
   {
     "options": {
@@ -5870,7 +5943,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Quelle artère vascularise habituellement le plus grand territoire ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-23",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'IVA"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'Artère Inter-Ventriculaire Antérieure (IVA) vascularise la paroi antérieure du VG, l'apex et les 2/3 antérieurs du septum interventriculaire, soit environ 45 à 50 % de la masse myocardique du VG.\n• B, C, D, E (Faux) : Territoires myocardiques plus restreints."
   },
   {
     "options": {
@@ -5885,7 +5958,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Un patient présente un pouls fémoral droit, fémoral gauche, poplité droit, pédieux droit, tibial postérieur droit, mais pas poplité gauche ni pédieux gauche, ni tibial postérieur gauche. Vous suspectez une sténose serrée ou une occlusion de quelle(s) artère(s) ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-24",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Fémorale superficielle gauche"
+    "explanation": "Correction détaillée :\n• D (Vrai) : Le pouls fémoral gauche (au pli de l'aine) est présent mais le pouls poplité gauche (creux poplité) et les pouls distaux gauches sont abolis : l'obstacle se situe donc entre l'artère fémorale commune gauche et l'artère poplitée gauche, c'est-à-dire sur l'artère fémorale superficielle gauche.\n• B (Faux) : Une occlusion iliaque externe gauche abolirait également le pouls fémoral gauche.\n• A, C, E (Faux) : Les pouls du membre inférieur droit sont tous présents."
   },
   {
     "options": {
@@ -5901,23 +5974,25 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Un patient présente un pouls fémoral droit, poplité droit, pédieux droit, tibial postérieur droit, mais pas fémoral gauche ni poplité gauche, ni pédieux gauche, ni tibial postérieur gauche. Vous suspectez une sténose serrée ou une occlusion de quelle(s) artère(s) ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-25",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Iliaque externe gauche ; D) Fémorale commune gauche"
+    "explanation": "Correction détaillée :\n• B, D (Vrai) : L'abolition du pouls fémoral gauche et de tous les pouls d'aval du membre inférieur gauche signe un obstacle artériel haut situé, au niveau de l'axe ilio-fémoral gauche (artère iliaque externe gauche ou artère fémorale commune gauche).\n• A, C, E (Faux) : Les pouls du membre inférieur droit sont normaux."
   },
   {
     "options": {
       "A": "Diabète",
       "B": "Tabac",
       "C": "Pratique régulière du sport",
-      "E": "Insuffisance rénale v'"
+      "D": "Hypercholestérolémie",
+      "E": "Insuffisance rénale"
     },
     "correctAnswers": [
       "A",
       "B",
+      "D",
       "E"
     ],
-    "text": "partiellement correct Quels sont les facteurs de risques cardiovasculaires (athérome) ?",
+    "text": "Quels sont les facteurs de risque cardiovasculaires (athérome) ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-26",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Diabète ; B) Tabac ; E) Insuffisance rénale v'"
+    "explanation": "Correction détaillée :\n• A, B, D, E (Vrai) : Le diabète, le tabagisme, la dyslipidémie (hypercholestérolémie LDL) et l'insuffisance rénale chronique (ainsi que l'HTA, l'âge, le sexe et l'hérédité) sont des facteurs de risque majeurs d'athérosclérose.\n• C (Faux) : La pratique régulière d'une activité physique est au contraire un facteur protecteur cardiovasculaire."
   },
   {
     "options": {
@@ -5930,9 +6005,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "Un patient présente une douleur medio thoracique à l'effort, constrictive, cédant à l'arrêt de l'effort; Cela évoque",
+    "text": "Un patient présente une douleur médio-thoracique à l'effort, constrictive, cédant à l'arrêt de l'effort ; cela évoque :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-27",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un angor"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Une douleur rétrosternale/médio-thoracique constrictive survenant à l'effort et cédant rapidement à l'arrêt de l'effort (ou sous trinitrine) est la définition sémiologique typique de l'angor d'effort (angine de poitrine).\n• B (Faux) : Douleur ischémique des membres inférieurs à la marche.\n• C (Faux) : Douleur abdominale post-prandiale."
   },
   {
     "options": {
@@ -5945,9 +6020,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "B"
     ],
-    "text": "Un patient présente une douleur medio thoracique à l'effort, constrictive, cédant à l'arrêt de l'effort; Cela évoque un problème sur quelle artère ?",
+    "text": "Un patient présente une douleur médio-thoracique à l'effort, constrictive, cédant à l'arrêt de l'effort ; cela évoque un problème sur quelle artère ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-28",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Coronaire"
+    "explanation": "Correction détaillée :\n• B (Vrai) : L'angor d'effort traduit une ischémie myocardique par sténose athéromateuse d'une ou plusieurs artères coronaires.\n• A, C, D, E (Faux) : Ne vascularisent pas le myocarde."
   },
   {
     "options": {
@@ -5960,9 +6035,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "Un patient présente une douleur à l'alimentation, il a maigri de 20 Kg en 6 mois, il ne mange presque plus. Cela évoque un problème sur l'artère",
+    "text": "Un patient présente une douleur à l'alimentation, il a maigri de 20 kg en 6 mois, il ne mange presque plus. Cela évoque un problème sur l'artère :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-29",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Mésentérique"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La triade douleur abdominale post-prandiale précoce, peur de manger (sitophobie) et amaigrissement massif caractérise l'angor mésentérique (ischémie intestinale chronique par sténose des artères digestives, notamment l'artère mésentérique supérieure).\n• B, C, D, E (Faux) : N'assurent pas la vascularisation digestive."
   },
   {
     "options": {
@@ -5977,7 +6052,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Un patient présente une douleur du mollet à l'effort, cédant à l'arrêt de l'effort. Cela évoque un problème sur l'artère :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-30",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Artère fémorale"
+    "explanation": "Correction détaillée :\n• D (Vrai) : Il s'agit d'une claudication intermittente artérielle du mollet (AOMI stade II de Leriche et Fontaine), traduisant une lésion sténosante ou occlusive en amont, typiquement sur l'artère fémorale (superficielle).\n• A, B, C, E (Faux) : Ne vascularisent pas le membre inférieur."
   },
   {
     "options": {
@@ -5990,9 +6065,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "text": "L'artère du nœud sinusal nait dans 2/3 des cas de",
+    "text": "L'artère du nœud sinusal naît dans 2/3 des cas de :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-31",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) La coronaire droite"
+    "explanation": "Correction détaillée :\n• C (Vrai) : L'artère du nœud sinusal (nœud sino-atrial de Keith et Flack) naît dans environ 60 à 65 % (2/3) des cas de l'artère coronaire droite (et dans 1/3 des cas de l'artère circonflexe).\n• A, B, D, E (Faux) : Ne sont pas l'origine majoritaire."
   },
   {
     "options": {
@@ -6007,7 +6082,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "La thrombose veineuse des membres inférieurs peut être responsable (habituellement) :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-32",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) d'embolie pulmonaire"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Un thrombus veineux profond des membres inférieurs migre par la veine cave inférieure vers les cavités cardiaques droites (OD puis VD) pour se bloquer dans l'arbre artériel pulmonaire, provoquant une embolie pulmonaire.\n• B, C, D (Faux) : Ce sont des embolies systémiques artérielles (issues du cœur gauche), impossibles à partir d'une TVP sauf foramen ovale perméable (embolie paradoxale exceptionnelle)."
   },
   {
     "options": {
@@ -6020,9 +6095,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "text": "Lors d'une plaie antéro postérieure de l'aire cardiaque pénétrante de 8 cm (couteau), quelle est la structure fréquemment touchée",
+    "text": "Lors d'une plaie antéro-postérieure de l'aire cardiaque pénétrante de 8 cm (couteau), quelle est la structure fréquemment touchée ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-33",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Ventricule droit"
+    "explanation": "Correction détaillée :\n• C (Vrai) : Le ventricule droit constituant la majeure partie de la face antérieure (sterno-costale) du cœur immédiatement derrière le plastron sterno-costal, il est la cavité la plus fréquemment atteinte lors d'une plaie pénétrante antérieure.\n• A, B, D, E (Faux) : Situés plus en arrière ou dans l'abdomen."
   },
   {
     "options": {
@@ -6041,7 +6116,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI1.pdf"] = [
     ],
     "text": "Du liquide dans le péricarde en quantité importante et de constitution brutale peut provoquer :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI1-34",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une tamponnade ; B) Un arrêt cardiaque par défaut de remplissage ; C) Un malaise ; D) Une baisse brutale du débit cardiaque ; E) Le décès"
+    "explanation": "Correction détaillée :\n• A, B, C, D, E (Vrai) : Un épanchement péricardique abondant et de constitution rapide dépasse la compliance du sac péricardique et comprime les cavités cardiaques droites (tamponnade), empêchant le remplissage diastolique (adiastolie), ce qui entraîne une chute brutale du débit cardiaque, un malaise/syncope, un arrêt circulatoire par désamorçage et le décès en l'absence de drainage d'urgence."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI2.pdf"] = [
@@ -6049,7 +6124,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI2.pdf"] = [
     "options": {
       "A": "est une structure épicardique située à la jonction de l'oreillette droite et du ventricule.",
       "B": "s'appelle aussi le nœud sinusal.",
-      "C": "est le centre d'automatismes primaire.",
+      "C": "est le centre d'automatisme primaire.",
       "D": "Son activité automatique se situe entre 40 et 60 par minute.",
       "E": "est modulé par le système nerveux sympathique et parasympathique."
     },
@@ -6058,9 +6133,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI2.pdf"] = [
       "C",
       "E"
     ],
-    "text": "s Le Nœud de Keith et Flack",
+    "text": "Le Nœud de Keith et Flack :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI2-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) s'appelle aussi le nœud sinusal. ; C) est le centre d'automatismes primaire. ; E) est modulé par le système nerveux sympathique et parasympathique."
+    "explanation": "Correction détaillée :\n• A (Faux) : Il est localisé dans la paroi supérieure de l'oreillette droite, près de l'abouchement de la veine cave supérieure (et non à la jonction auriculo-ventriculaire où se situe le nœud d'Aschoff-Tawara).\n• B (Vrai) : C'est l'autre nomenclature du nœud sinusal (ou sino-atrial).\n• C (Vrai) : Il impose son rythme au cœur (pacemaker physiologique) car il possède la fréquence de dépolarisation spontanée la plus rapide.\n• D (Faux) : Sa fréquence de décharge se situe entre 60 et 100 battements par minute (40 à 60 bpm correspond au nœud AV).\n• E (Vrai) : Le sympathique l'accélère (chronotrope positif) et le parasympathique le ralentit (chronotrope négatif)."
   },
   {
     "options": {
@@ -6077,12 +6152,12 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI2.pdf"] = [
     ],
     "text": "Les dérivations bipolaires de l'ECG :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI2-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) sont représentées par les dérivations D1, D2, D3. ; D) D1 enregistre le vecteur électrique entre le bras droit et le bras gauche. ; E) constituent le triangle d'Einthoven."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les dérivations standards des membres explorent le plan frontal, et non horizontal (qui est exploré par les dérivations précordiales V1 à V6).\n• B (Faux) : Ce sont les dérivations unipolaires qui exploitent la borne centrale de Wilson comme référence nulle.\n• C (Vrai) : D1, D2 et D3 mesurent des différences de potentiel entre deux électrodes actives.\n• D (Vrai) : D1 a son pôle négatif sur le bras droit et son pôle positif sur le bras gauche.\n• E (Vrai) : Elles modélisent le célèbre triangle d'Einthoven."
   },
   {
     "options": {
-      "A": "Le nerf récurrentiel est une branche du nerf Vague (X).",
-      "B": "Le nerf récurrentiel gauche passe sous la crosse aortique alors que le nerf récurrentiel droit passe sous le TABC.",
+      "A": "Le nerf récurrent est une branche du nerf Vague (X).",
+      "B": "Le nerf récurrent gauche passe sous la crosse aortique alors que le nerf récurrent droit passe sous le TABC.",
       "C": "Le nœud auriculo-ventriculaire ne reçoit aucune afférence nerveuse extrinsèque.",
       "D": "Le système orthosympathique gauche est inotrope négatif.",
       "E": "Le système parasympathique cardiaque est représenté par le nerf Vague (X)."
@@ -6092,16 +6167,16 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI2.pdf"] = [
       "B",
       "E"
     ],
-    "text": "Concernant l'innervation cardiaque",
+    "text": "Concernant l'innervation cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI2-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le nerf récurrentiel est une branche du nerf Vague (X). ; B) Le nerf récurrentiel gauche passe sous la crosse aortique alors que le nerf récurrentiel droit passe sous le TABC. ; E) Le système parasympathique cardiaque est représenté par le nerf Vague (X)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le nerf laryngé récurrent naît du nerf vague (X).\n• B (Vrai) : Cette asymétrie de trajet (sous la crosse de l'aorte à gauche, sous l'artère sous-clavière droite/bifurcation du TABC à droite) est une conséquence du remaniement embryologique des arcs aortiques.\n• C (Faux) : Le nœud AV est très richement innervé par le système nerveux autonome (effet dromotrope).\n• D (Faux) : L'orthosympathique est toujours inotrope positif (il augmente la contractilité myocardique).\n• E (Vrai) : Le nerf Vague (X) est le principal vecteur du parasympathique vers le cœur."
   },
   {
     "options": {
       "A": "La fréquence cardiaque au repos est dite normale, entre 60 et 100 battements par minute (bpm).",
       "B": "L'intervalle PR est dit allongé si supérieur à 200 ms.",
-      "C": "L'axe normal des QRS est compris entre -300et -900.",
-      "D": "Les complexes QRS sont dit élargis s'ils sont supérieurs à 90 ms.",
+      "C": "L'axe normal des QRS est compris entre -30° et -90°.",
+      "D": "Les complexes QRS sont dits élargis s'ils sont supérieurs à 90 ms.",
       "E": "L'onde P sinusale est normalement positive dans la dérivation aVR."
     },
     "correctAnswers": [
@@ -6110,7 +6185,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI2.pdf"] = [
     ],
     "text": "Concernant l'ECG :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI2-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La fréquence cardiaque au repos est dite normale, entre 60 et 100 battements par minute (bpm). ; B) L'intervalle PR est dit allongé si supérieur à 200 ms."
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est la norme physiologique retenue chez l'adulte au repos (en dessous de 60 bpm : bradycardie ; au-dessus de 100 bpm : tachycardie).\n• B (Vrai) : Un PR > 200 ms (0,20 s) définit un bloc auriculo-ventriculaire (BAV) du 1er degré.\n• C (Faux) : L'axe normal des QRS se situe entre -30° et +90° (entre -30° et -90°, il s'agit d'une déviation axiale gauche).\n• D (Faux) : Un complexe QRS est considéré comme élargi s'il est supérieur à 120 ms (0,12 s).\n• E (Faux) : L'influx de dépolarisation auriculaire fuyant l'épaule droite, l'onde P sinusale est toujours négative en aVR."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI3.pdf"] = [
@@ -6119,38 +6194,39 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI3.pdf"] = [
       "A": "Ouverture valve auriculo-ventriculaire",
       "B": "Fermeture valve auriculo-ventriculaire",
       "C": "Ouverture valve pulmonaire",
-      "D": "Ouverture valve Aortique",
-      "E": "Fermeture de la valve Aortique ou pulmonaire"
+      "D": "Ouverture valve aortique",
+      "E": "Fermeture de la valve aortique ou pulmonaire"
     },
     "correctAnswers": [
       "B"
     ],
-    "text": "S Concernant les bruits du cœur, le bruit BI correspond à",
+    "text": "Concernant les bruits du cœur, le bruit B1 correspond à :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI3-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Fermeture valve auriculo-ventriculaire"
+    "explanation": "Correction détaillée :\n• B (Vrai) : Le bruit B1 marque le début de la systole ventriculaire. Il est généré par le claquement de la fermeture des valves auriculo-ventriculaires (mitrale et tricuspide).\n• A, C, D (Faux) : L'ouverture d'une valve normale est silencieuse.\n• E (Faux) : La fermeture des valves sigmoïdes (aortique et pulmonaire) correspond au deuxième bruit du cœur (B2), au début de la diastole."
   },
   {
     "options": {
       "A": "se compose de 6 étapes.",
-      "B": "",
+      "B": "se compose de 4 étapes.",
       "C": "Parmi les étapes, il y a la contraction isovolumétrique.",
       "D": "Parmi les étapes, il y a l'éjection ventriculaire.",
       "E": "L'éjection ventriculaire fait partie de la diastole."
     },
     "correctAnswers": [
+      "B",
       "C",
       "D"
     ],
-    "text": "Le cycle cardiaque .",
+    "text": "Le cycle cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI3-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Parmi les étapes, il y a la contraction isovolumétrique. ; D) Parmi les étapes, il y a l'éjection ventriculaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : Il se compose de 4 phases hémodynamiques et non 6.\n• B (Vrai) : Il se décompose traditionnellement en 4 phases hémodynamiques : Contraction isovolumétrique, Éjection ventriculaire (systole), Relaxation isovolumétrique et Remplissage ventriculaire (diastole).\n• C (Vrai) : Phase initiale de la systole de mise en tension du ventricule avec toutes les valves fermées.\n• D (Vrai) : Phase systolique d'expulsion sanguine dans la circulation systémique et pulmonaire.\n• E (Faux) : L'éjection se produit pendant la systole, pas la diastole."
   },
   {
     "options": {
-      "A": "Le cœur d'un nouveau né bat à une fréquence, au repos, de l'ordre de 1 50 battements par minute.",
+      "A": "Le cœur d'un nouveau-né bat à une fréquence, au repos, de l'ordre de 150 battements par minute.",
       "B": "Sont à l'origine de cet automatisme, des cellules musculaires cardiaques particulières dont l'ensemble forme le tissu nodal.",
-      "C": "Sont à l'origine de cet automatisme, des cellules musculaires cardiaques particulières dont l'ensemble forme le x tissu conjonctif.",
-      "D": "Du nœud AV naît le tronc du faisceau de Hiss qui se divise ensuite en deux branches, droite et gauche, puis se distribue grâce au réseau de Purkinje jusqu'au contact des cellules myocardiques.",
+      "C": "Sont à l'origine de cet automatisme, des cellules musculaires cardiaques particulières dont l'ensemble forme le tissu conjonctif.",
+      "D": "Du nœud AV naît le tronc du faisceau de His qui se divise ensuite en deux branches, droite et gauche, puis se distribue grâce au réseau de Purkinje jusqu'au contact des cellules myocardiques.",
       "E": "Aucune de ces propositions n'est exacte."
     },
     "correctAnswers": [
@@ -6158,13 +6234,13 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI3.pdf"] = [
       "B",
       "D"
     ],
-    "text": "A propos de l'automatisme cardiaque :",
+    "text": "À propos de l'automatisme cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI3-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le cœur d'un nouveau né bat à une fréquence, au repos, de l'ordre de 1 50 battements par minute. ; B) Sont à l'origine de cet automatisme, des cellules musculaires cardiaques particulières dont l'ensemble forme le tissu nodal. ; D) Du nœud AV naît le tronc du faisceau de Hiss qui se divise ensuite en deux branches, droite et gauche, puis se distribue grâce au réseau de Purkinje jusqu'au contact des cellules myocardiques. — Remarques : faute de frappe involontaire (HIS et non Hiss)"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La fréquence cardiaque de base est physiologiquement beaucoup plus élevée chez le nouveau-né (~140-150 bpm).\n• B (Vrai) : Ce sont des cardiomyocytes spécialisés capables de dépolarisation diastolique spontanée formant le tissu nodal.\n• C (Faux) : C'est bien du tissu musculaire spécialisé (nodal), et non du tissu conjonctif.\n• D (Vrai) : Le faisceau de His fait suite au nœud AV, chemine dans le septum interventriculaire et se divise en branches droite et gauche jusqu'au réseau de Purkinje.\n• E (Faux) : Les propositions A, B et D sont exactes."
   },
   {
     "options": {
-      "A": "Il est constitué de 2 pompes parallèles fonctionnant en séries à débit constant.",
+      "A": "Il est constitué de 2 pompes parallèles fonctionnant en série à débit constant.",
       "B": "L'éjection s'effectue dans un système artériel résistif.",
       "C": "Le circuit de retour vers le cœur (les veines) est un système vasculaire résistif.",
       "D": "Il est composé de myocytes (cellules musculaires autonomes).",
@@ -6176,15 +6252,15 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI3.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Le cœur \"pompe\"",
+    "text": "Le cœur « pompe » :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI3-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il est constitué de 2 pompes parallèles fonctionnant en séries à débit constant. ; B) L'éjection s'effectue dans un système artériel résistif. ; D) Il est composé de myocytes (cellules musculaires autonomes). ; E) Il a un lien étroit avec l'appareil respiratoire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le cœur droit et le cœur gauche sont anatomiquement accolés mais branchés en série sur le plan circulatoire et assurent le même débit moyen.\n• B (Vrai) : Le système artériel (post-charge) oppose une résistance à l'écoulement du sang.\n• C (Faux) : Le système veineux est un système capacitif (à basse pression, servant de réservoir sanguin), et non résistif.\n• D (Vrai) : Le myocarde est composé de cardiomyocytes dotés d'automatisme et de contractilité.\n• E (Vrai) : Cœur droit et cœur gauche sont couplés fonctionnellement par la petite circulation pulmonaire (hématose)."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI4.pdf"] = [
   {
     "options": {
-      "A": "Le cœur est un des premiers organes fonctionnels durant l'embryogénèse. Il permet les échanges gazeux et le transport de éléments essentiels au développement de l'embryon.",
+      "A": "Le cœur est un des premiers organes fonctionnels durant l'embryogénèse. Il permet les échanges gazeux et le transport des éléments essentiels au développement de l'embryon.",
       "B": "Le myocarde dérive du mésoderme et des cellules des crêtes neurales.",
       "C": "L'unique tube cardiaque latéral gauche est à l'origine du cœur.",
       "D": "Le tube cardiaque primitif décrit des renflements qui correspondent successivement, de haut en bas, au tronc artériel, au conus, au ventricule primitif et à l'oreillette primitive.",
@@ -6196,13 +6272,13 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI4.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Durant le développement de l'embryon .",
+    "text": "Durant le développement de l'embryon :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI4-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le cœur est un des premiers organes fonctionnels durant l'embryogénèse. Il permet les échanges gazeux et le transport de éléments essentiels au développement de l'embryon. ; B) Le myocarde dérive du mésoderme et des cellules des crêtes neurales. ; D) Le tube cardiaque primitif décrit des renflements qui correspondent successivement, de haut en bas, au tronc artériel, au conus, au ventricule primitif et à l'oreillette primitive. ; E) Le tube cardiaque primitif va s'infléchir selon une courbure à convexité droite et antérieure."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il bat dès les premières semaines (env. J21-J22) pour assurer la perfusion des nutriments et les échanges gazeux vitaux.\n• B (Vrai) : Le développement implique le mésoderme splanchnique et une migration des cellules des crêtes neurales.\n• C (Faux) : Le cœur primitif résulte de la fusion médiane de deux tubes endocardiques primordiaux (droit et gauche), et non d'un tube gauche unique.\n• D (Vrai) : Cette séquence anatomique de haut en bas (crânio-caudale) est caractéristique du tube cardiaque primitif rectiligne.\n• E (Vrai) : Cette courbure forme la boucle cardiaque (D-Loop) qui commence à latéraliser les structures."
   },
   {
     "options": {
-      "A": "Le tube cardiaque primitif a une localisation rostrale et se dispose selon une orientation cranio-caudale.",
+      "A": "Le tube cardiaque primitif a une localisation rostrale et se dispose selon une orientation crânio-caudale.",
       "B": "L'extrémité céphalique est dévolue à la connexion artérielle avec les gros vaisseaux.",
       "C": "L'extrémité caudale correspond au sinus veineux qui reçoit les veines cardinales, vitellines et ombilicales qui sont au départ symétriques.",
       "D": "Après la boucle normale à droite (D-Loop), le ventricule droit se positionne en avant et à droite et l'autre ventricule en arrière et à gauche.",
@@ -6215,16 +6291,16 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI4.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Au cours de la mise en place des structures cardiovasculaires",
+    "text": "Au cours de la mise en place des structures cardiovasculaires :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI4-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le tube cardiaque primitif a une localisation rostrale et se dispose selon une orientation cranio-caudale. ; B) L'extrémité céphalique est dévolue à la connexion artérielle avec les gros vaisseaux. ; C) L'extrémité caudale correspond au sinus veineux qui reçoit les veines cardinales, vitellines et ombilicales qui sont au départ symétriques. ; D) Après la boucle normale à droite (D-Loop), le ventricule droit se positionne en avant et à droite et l'autre ventricule en arrière et à gauche. ; E) Après la boucle normale, les oreillettes communiquent avec le ventricule gauche par le canal atrioventriculaire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il présente une orientation céphalo-caudale initiale stricte.\n• B (Vrai) : Le pôle artériel (efférent) est crânial.\n• C (Vrai) : Le pôle veineux (afférent caudal) reçoit initialement les 3 paires de veines (cardinales, vitellines, ombilicales) de façon parfaitement symétrique.\n• D (Vrai) : C'est la conséquence spatiale de la courbure en D-Loop.\n• E (Vrai) : Le canal atrioventriculaire primitif fait initialement communiquer les oreillettes primitives avec le futur ventricule gauche avant le réalignement (convergence)."
   },
   {
     "options": {
       "A": "La boucle cardiaque est la première manifestation de la latéralisation gauche-droite chez l'embryon.",
       "B": "Au cours de la convergence qui suit la boucle cardiaque, la voie d'éjection (conus et tronc artériel) s'aligne avec les septa interventriculaire et interatrial en formation.",
       "C": "Le premier septum interatrial à se mettre en place est le septum primum qui croît d'arrière en avant et de haut en bas.",
-      "D": "La deuxième membrane qui vient cloisonner les oreillettes est le septum secondum.",
+      "D": "La deuxième membrane qui vient cloisonner les oreillettes est le septum secundum.",
       "E": "Il reste normalement toujours une communication entre les oreillettes droite et gauche permettant la circulation du sang de l'oreillette gauche à l'oreillette droite."
     },
     "correctAnswers": [
@@ -6232,7 +6308,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI4.pdf"] = [
     ],
     "text": "Quelle proposition est fausse concernant l'embryogénèse cardiaque ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI4-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) Il reste normalement toujours une communication entre les oreillettes droite et gauche permettant la circulation du sang de l'oreillette gauche à l'oreillette droite."
+    "explanation": "Correction détaillée (question portant sur la proposition FAUSSE) :\n• A (Vraie) : La boucle cardiaque rompt la symétrie bilatérale initiale de l'embryon.\n• B (Vraie) : Cet alignement (convergence/wedging) est une étape indispensable à la bonne septation.\n• C (Vraie) : Le septum primum croît d'abord vers les bourrelets endocardiques.\n• D (Vraie) : Le septum secundum se forme à droite du septum primum pour parfaire le cloisonnement.\n• E (FAUSSE — bonne réponse à cocher) : In utero, le sang circule de l'oreillette DROITE vers l'oreillette GAUCHE via le foramen ovale (trou de Botal) pour court-circuiter la circulation pulmonaire non fonctionnelle, et non l'inverse."
   },
   {
     "options": {
@@ -6249,50 +6325,50 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI4.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Pendant l'embryogénèse cardiaque, le pole veineux du tube cardiaque reçoit les veines cardinales, vitellines et ombilicales. Au moment de la convergence, les veines se déplacent vers la droite et s'incorporent à l'oreillette droite. Parmi les propositions suivantes, lesquelles sont vraies ?",
+    "text": "Pendant l'embryogénèse cardiaque, le pôle veineux du tube cardiaque reçoit les veines cardinales, vitellines et ombilicales. Au moment de la convergence, les veines se déplacent vers la droite et s'incorporent à l'oreillette droite. Parmi les propositions suivantes, lesquelles sont vraies ?",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI4-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La veine ombilicale transporte le sang oxygéné par le placenta vers le cœur. ; B) Certaines veines cardinales vont involuer complètement et disparaître. ; C) Les veines cardinales droites vont être à l'origine des veines caves. ; D) La malformation veineuse la plus fréquente est la persistance de la veine cave supérieure gauche. ; E) Une autre malformation veineuse connue est l'interruption de la veine cave inférieure. Le drainage veineux cave inférieur se fait par la veine azygos."
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est la veine ombilicale (gauche) qui amène le sang riche en oxygène depuis le placenta.\n• B (Vrai) : Le système veineux primitif subit un intense remodelage asymétrique avec régression de plusieurs segments gauches.\n• C (Vrai) : Le réseau cardinal droit persiste pour former le système veineux cave supérieur.\n• D (Vrai) : La persistance de la VCS gauche (se jetant souvent dans le sinus coronaire) est la variante/malformation veineuse thoracique la plus fréquente et le plus souvent asymptomatique.\n• E (Vrai) : En cas d'agénésie/interruption du segment rétro-hépatique de la veine cave inférieure, le système azygos prend le relais (continuation azygos de la VCI)."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI5.pdf"] = [
   {
     "options": {
-      "A": "L'aspirine agit sur l'hémostase primaire v'",
-      "B": "Les inhibiteurs de la voie de l'ADP inhibent l'agrégation plaquettaire",
-      "C": "Les Anti vitamine K (AVK) inhibent les facteurs de coagulation",
-      "D": "L'aspirine a un effet anti-agrégant plaquettaire uniquement à partir de 300 mg par jour",
-      "E": "Le fondaparinux exerce une action thrombolytique"
+      "A": "L'aspirine agit sur l'hémostase primaire.",
+      "B": "Les inhibiteurs de la voie de l'ADP inhibent l'agrégation plaquettaire.",
+      "C": "Les Anti-vitamine K (AVK) inhibent les facteurs de coagulation.",
+      "D": "L'aspirine a un effet antiagrégant plaquettaire uniquement à partir de 300 mg par jour.",
+      "E": "Le fondaparinux exerce une action thrombolytique."
     },
     "correctAnswers": [
       "A",
       "B",
       "C"
     ],
-    "text": "Concernant les médicaments de l'hémostase .",
+    "text": "Concernant les médicaments de l'hémostase :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI5-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'aspirine agit sur l'hémostase primaire v' ; B) Les inhibiteurs de la voie de l'ADP inhibent l'agrégation plaquettaire ; C) Les Anti vitamine K (AVK) inhibent les facteurs de coagulation"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'aspirine est un antiagrégant qui empêche l'activation plaquettaire, première étape de l'hémostase.\n• B (Vrai) : Les inhibiteurs du récepteur P2Y12 (comme le clopidogrel) bloquent la voie de l'ADP.\n• C (Vrai) : Les Anti-Vitamine K (AVK) empêchent la synthèse hépatique des facteurs de coagulation vitamine K-dépendants (II, VII, IX, X).\n• D (Faux) : L'aspirine possède un puissant effet antiagrégant dès de très faibles doses (75 à 100 mg/jour).\n• E (Faux) : Le fondaparinux est un anticoagulant (inhibiteur sélectif du facteur Xa), et non un thrombolytique ou fibrinolytique."
   },
   {
     "options": {
-      "A": "L'effet anti-agrégant plaquettaire de l'aspirine est dû à son action inhibiteur de la COX2.",
-      "B": "Le prasugrel est un antagoniste réversible du récepteur GPllbllla",
-      "C": "Le clopidogrel est un inhibiteur du récepteur GPllbllla plaquettaire.",
-      "D": "Le Clopidogrel est un pro-médicament activé par métabolisation hépatique.",
-      "E": "L'aspirine a un effet anti-agrégant plaquettaire à faible dose."
+      "A": "L'effet antiagrégant plaquettaire de l'aspirine est dû à son action inhibitrice de la COX-2.",
+      "B": "Le prasugrel est un antagoniste réversible du récepteur GPIIbIIIa.",
+      "C": "Le clopidogrel est un inhibiteur du récepteur GPIIbIIIa plaquettaire.",
+      "D": "Le clopidogrel est un pro-médicament activé par métabolisation hépatique.",
+      "E": "L'aspirine a un effet antiagrégant plaquettaire à faible dose."
     },
     "correctAnswers": [
       "D",
       "E"
     ],
-    "text": "Concernant les antiagrégants plaquettaires .",
+    "text": "Concernant les antiagrégants plaquettaires :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI5-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Le Clopidogrel est un pro-médicament activé par métabolisation hépatique. ; E) L'aspirine a un effet anti-agrégant plaquettaire à faible dose."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'effet est dû à l'inhibition irréversible de la COX-1 plaquettaire, ce qui bloque la production de thromboxane A2 (TXA2).\n• B (Faux) : Le prasugrel est un antagoniste irréversible du récepteur P2Y12 (voie de l'ADP), et non GPIIbIIIa.\n• C (Faux) : Le clopidogrel est également un inhibiteur du récepteur à l'ADP (P2Y12).\n• D (Vrai) : Le clopidogrel est un pro-médicament nécessitant une biotransformation hépatique (cytochromes P450) pour devenir actif.\n• E (Vrai) : L'aspirine est efficace en prévention cardiovasculaire dès les faibles doses (75-160 mg/j)."
   },
   {
     "options": {
-      "A": "Le Rivaroxaban fait partie des anticoagulants oraux directs",
+      "A": "Le Rivaroxaban fait partie des anticoagulants oraux directs.",
       "B": "Les héparines de bas poids moléculaire sont administrées par voie orale.",
-      "C": "Les anti vitamine K (AVK) empêchent l'activation de plusieurs facteurs de coagulation",
+      "C": "Les anti-vitamine K (AVK) empêchent l'activation de plusieurs facteurs de coagulation.",
       "D": "Le Clopidogrel est un anticoagulant par voie orale.",
       "E": "Le fondaparinux inhibe sélectivement le facteur Xa."
     },
@@ -6301,15 +6377,15 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI5.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Concernant les anticoagulants",
+    "text": "Concernant les anticoagulants :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI5-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le Rivaroxaban fait partie des anticoagulants oraux directs ; C) Les anti vitamine K (AVK) empêchent l'activation de plusieurs facteurs de coagulation ; E) Le fondaparinux inhibe sélectivement le facteur Xa."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le rivaroxaban fait partie de la classe des AOD (anticoagulants oraux directs, anti-Xa).\n• B (Faux) : Les Héparines de Bas Poids Moléculaire (HBPM) s'administrent par voie parentérale (injections sous-cutanées).\n• C (Vrai) : Les AVK inhibent la gamma-carboxylation hépatique de plusieurs facteurs de la coagulation (II, VII, IX, X).\n• D (Faux) : Le clopidogrel est un antiagrégant plaquettaire, et non un anticoagulant.\n• E (Vrai) : Le fondaparinux est un inhibiteur sélectif et indirect (via l'antithrombine) du facteur Xa."
   },
   {
     "options": {
       "A": "Ils exercent un effet vasodilatateur.",
-      "B": "Ils peuvent entrainer comme effet indésirable une toux.",
-      "C": "Ils sont imputés dans la survenue d'angioedèmes bradykiniques.",
+      "B": "Ils peuvent entraîner comme effet indésirable une toux.",
+      "C": "Ils sont imputés dans la survenue d'angioœdèmes bradykiniques.",
       "D": "Ils sont hypokaliémiants.",
       "E": "Ils sont hypotenseurs."
     },
@@ -6319,15 +6395,15 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI5.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Concernant des Inhibiteurs de l'Enzyme de Conversion (IEC) •",
+    "text": "Concernant les Inhibiteurs de l'Enzyme de Conversion (IEC) :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI5-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils exercent un effet vasodilatateur. ; B) Ils peuvent entrainer comme effet indésirable une toux. ; C) Ils sont imputés dans la survenue d'angioedèmes bradykiniques. ; E) Ils sont hypotenseurs."
+    "explanation": "Correction détaillée :\n• A (Vrai) : En bloquant la formation d'angiotensine II, ils suppriment son puissant effet vasoconstricteur.\n• B (Vrai) : Cet effet indésirable fréquent (toux sèche) est lié à l'accumulation de bradykinine au niveau bronchique.\n• C (Vrai) : L'excès de bradykinine peut provoquer des angioœdèmes bradykiniques potentiellement graves.\n• D (Faux) : Ils sont hyperkaliémiants car ils diminuent la sécrétion d'aldostérone (dont le rôle est d'excréter le potassium dans les urines).\n• E (Vrai) : Ce sont des antihypertenseurs (hypotenseurs) majeurs de première ligne."
   },
   {
     "options": {
       "A": "Ils sont hyperkaliémiants.",
-      "B": "Ils augmentent la concentration plasmatique de l'angiotensine Il.",
-      "C": "Ils sont imputés dans la survenue d'angioedèmes bradykiniques.",
+      "B": "Ils augmentent la concentration plasmatique de l'angiotensine II.",
+      "C": "Ils sont imputés dans la survenue d'angioœdèmes bradykiniques.",
       "D": "Ils se fixent de façon non compétitive au récepteur à l'aldostérone.",
       "E": "Ils induisent une diminution du débit de filtration glomérulaire."
     },
@@ -6336,17 +6412,17 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI5.pdf"] = [
       "B",
       "E"
     ],
-    "text": "A propos des antagonistes des récepteurs ATI de l'angiotensine Il :",
+    "text": "À propos des antagonistes des récepteurs AT1 de l'angiotensine II :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI5-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils sont hyperkaliémiants. ; B) Ils augmentent la concentration plasmatique de l'angiotensine Il. ; E) Ils induisent une diminution du débit de filtration glomérulaire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Comme les IEC, la baisse de stimulation de l'aldostérone induit une rétention de potassium (risque d'hyperkaliémie).\n• B (Vrai) : Le blocage du récepteur AT1 lève le rétrocontrôle négatif sur la rénine, entraînant une hausse compensatrice de l'angiotensine II circulante.\n• C (Faux) : Contrairement aux IEC, les ARA II (sartans) n'inhibent pas la dégradation de la bradykinine et ne causent pas d'angioœdèmes bradykiniques.\n• D (Faux) : Ils se fixent de manière sélective sur le récepteur AT1 de l'angiotensine II, pas sur celui de l'aldostérone.\n• E (Vrai) : Par vasodilatation de l'artériole efférente glomérulaire, ils diminuent la pression hydrostatique intraglomérulaire et le débit de filtration glomérulaire."
   },
   {
     "options": {
       "A": "Ils ont un effet natriurétique.",
       "B": "Ce sont les diurétiques les plus efficaces.",
       "C": "Ils sont indiqués pour traiter les hyponatrémies sévères.",
-      "D": "Le chef de file est le furosemide.",
-      "E": "Ils peuvent être associés à des médicaments ciblant le système Rénine Angiotensine Aldostérone."
+      "D": "Le chef de file est le furosémide.",
+      "E": "Ils peuvent être associés à des médicaments ciblant le système Rénine-Angiotensine-Aldostérone."
     },
     "correctAnswers": [
       "A",
@@ -6354,9 +6430,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 1/SQI5.pdf"] = [
       "D",
       "E"
     ],
-    "text": "A propos des diurétiques de l'anse :",
+    "text": "À propos des diurétiques de l'anse :",
     "id": "ANN-UE4-UE4S3-Cardio1-SQI5-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils ont un effet natriurétique. ; B) Ce sont les diurétiques les plus efficaces. ; D) Le chef de file est le furosemide. ; E) Ils peuvent être associés à des médicaments ciblant le système Rénine Angiotensine Aldostérone."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ils forcent l'élimination urinaire du sodium (natriurèse) en inhibant le cotransporteur Na+/K+/2Cl- (NKCC2).\n• B (Vrai) : Agissant sur la branche ascendante large de l'anse de Henlé (où 25 % du Na+ filtré est réabsorbé), ils ont la plus forte capacité natriurétique.\n• C (Faux) : Induisant une perte de sodium, ils peuvent au contraire provoquer ou aggraver une hyponatrémie de déplétion.\n• D (Vrai) : Le furosémide (Lasilix) en est le représentant de référence.\n• E (Vrai) : Ils sont fréquemment associés aux IEC ou ARA II, notamment dans la prise en charge de l'insuffisance cardiaque."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Braunberger.pdf"] = [
@@ -6365,29 +6441,31 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Braunberger.pdf"] = [
       "A": "3 cusps",
       "B": "2 cusps",
       "C": "1 cusp",
-      "D": "4 cusps 6 cusps"
+      "D": "4 cusps",
+      "E": "6 cusps"
     },
     "correctAnswers": [
       "A",
       "B"
     ],
-    "text": "Les valves auriculo ventriculaires peuvent comporter:",
+    "text": "Les valves auriculo-ventriculaires peuvent comporter :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIBraunberger-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) 3 cusps ; B) 2 cusps"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La valve atrio-ventriculaire droite (valve tricuspide) comporte 3 cusps (ou feuillets/valvules).\n• B (Vrai) : La valve atrio-ventriculaire gauche (valve mitrale) comporte 2 cusps (elle est bicuspide).\n• C (Faux) : Aucune valve auriculo-ventriculaire normale ne comporte qu'une seule cusp.\n• D (Faux) : Elles ne comportent pas 4 cusps.\n• E (Faux) : Elles ne comportent pas 6 cusps."
   },
   {
     "options": {
       "A": "1 cusp",
       "B": "2 cusps",
       "C": "3 cusps",
-      "D": "4 cusps 6 cusps"
+      "D": "4 cusps",
+      "E": "6 cusps"
     },
     "correctAnswers": [
       "C"
     ],
-    "text": "Habituellement, Les valves ventriculo-artérielles ont :",
+    "text": "Habituellement, les valves ventriculo-artérielles ont :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIBraunberger-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) 3 cusps"
+    "explanation": "Correction détaillée :\n• A (Faux) : Elles ne sont pas unicuspides.\n• B (Faux) : La bicuspidie aortique est une malformation congénitale ; habituellement, les valves ventriculo-artérielles n'ont pas 2 cusps.\n• C (Vrai) : Les deux valves ventriculo-artérielles (valve aortique à gauche et valve pulmonaire à droite) sont physiologiquement tricuspides : elles comportent chacune 3 cusps (valvules semi-lunaires ou sigmoïdes).\n• D (Faux) : Elles ne comportent pas 4 cusps.\n• E (Faux) : Elles ne comportent pas 6 cusps."
   },
   {
     "options": {
@@ -6401,9 +6479,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Braunberger.pdf"] = [
       "A",
       "E"
     ],
-    "text": "Les branches de l'IVA sont",
+    "text": "Les branches de l'IVA sont :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIBraunberger-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les diagonales ; E) Les artères septales"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'artère interventriculaire antérieure (IVA) donne des branches diagonales qui courent à la surface antéro-latérale du ventricule gauche.\n• B (Faux) : L'artère interventriculaire postérieure (IVP) naît habituellement de la coronaire droite (dans la majorité des cas, réseau dominant droit) ou parfois de la circonflexe, mais pas de l'IVA.\n• C (Faux) : Les artères marginales gauches (du bord gauche) sont des branches de l'artère circonflexe (Cx).\n• D (Faux) : Les artères marginales droites (du bord droit) sont des branches de l'artère coronaire droite.\n• E (Vrai) : L'IVA donne des artères septales (perforantes antérieures) qui plongent dans le septum interventriculaire pour en vasculariser les 2/3 antérieurs."
   },
   {
     "options": {
@@ -6411,22 +6489,22 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Braunberger.pdf"] = [
       "B": "La carotide commune droite",
       "C": "La carotide commune gauche",
       "D": "La vertébrale droite",
-      "E": "La sous clavière gauche"
+      "E": "La sous-clavière gauche"
     },
     "correctAnswers": [
       "A",
       "C",
       "E"
     ],
-    "text": "L'arche aortique (ou crosse de l'aorte) donne comme collatérale directe",
+    "text": "L'arche aortique (ou crosse de l'aorte) donne comme collatérale directe :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIBraunberger-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le TABC ; C) La carotide commune gauche ; E) La sous clavière gauche"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le tronc artériel brachio-céphalique (TABC) est la première collatérale directe naissant de la crosse aortique (à droite).\n• B (Faux) : La carotide commune (primitive) droite ne naît pas directement de la crosse de l'aorte, mais de la bifurcation du TABC.\n• C (Vrai) : L'artère carotide commune gauche est la deuxième collatérale directe de la crosse de l'aorte.\n• D (Faux) : L'artère vertébrale droite est une branche collatérale de l'artère sous-clavière droite.\n• E (Vrai) : L'artère sous-clavière gauche est la troisième collatérale directe de la crosse de l'aorte."
   },
   {
     "options": {
       "A": "un anneau fibreux",
       "B": "des cusps",
-      "C": "un appareil sous valvulaire",
+      "C": "un appareil sous-valvulaire",
       "D": "des cordages",
       "E": "des piliers"
     },
@@ -6434,25 +6512,25 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Braunberger.pdf"] = [
       "A",
       "B"
     ],
-    "text": "Les valves ventriculo-artérielles fonctionnent avec",
+    "text": "Les valves ventriculo-artérielles fonctionnent avec :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIBraunberger-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) un anneau fibreux ; B) des cusps"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elles possèdent une base d'insertion fibreuse (anneau fibreux) et des cusps (Note d'annales : dans ce QCM, « un anneau fibreux » est compté Vrai, tandis que dans une variante de SQI1 seules « les cusps proprement dites » sont cochées ; l'élément distinctif majeur par rapport aux valves AV est l'absence totale d'appareil sous-valvulaire, de cordages et de piliers).\n• B (Vrai) : Elles fonctionnent grâce à leurs 3 cusps (valvules semi-lunaires en nid de pigeon) qui s'affrontent passivement en diastole.\n• C (Faux) : Contrairement aux valves auriculo-ventriculaires, les valves ventriculo-artérielles (aortique et pulmonaire) sont dépourvues d'appareil sous-valvulaire.\n• D (Faux) : Elles n'ont pas de cordages tendineux (réservés aux valves mitrale et tricuspide).\n• E (Faux) : Elles n'ont pas de piliers musculaires (muscles papillaires ventriculaires réservés aux valves AV)."
   },
   {
     "options": {
       "A": "naissent de l'aorte",
-      "B": "naissent de l'artére pulmonaire",
+      "B": "naissent de l'artère pulmonaire",
       "C": "naissent du sinus veineux coronaire",
-      "D": "naissent des sinus de valsalva",
+      "D": "naissent des sinus de Valsalva",
       "E": "naissent de l'oreillette droite"
     },
     "correctAnswers": [
       "A",
       "D"
     ],
-    "text": "Les artères coronaires:",
+    "text": "Les artères coronaires :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIBraunberger-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) naissent de l'aorte ; D) naissent des sinus de valsalva"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les artères coronaires droite et gauche sont les premières branches collatérales naissant de l'aorte initiale (aorte ascendante).\n• B (Faux) : Elles ne naissent pas de l'artère pulmonaire (sauf malformation congénitale exceptionnelle).\n• C (Faux) : Le sinus veineux coronaire assure le drainage veineux du cœur vers l'oreillette droite, et non la naissance des artères.\n• D (Vrai) : Elles prennent naissance précisément au niveau des dilatations initiales de la racine aortique situées juste au-dessus des cusps de la valve aortique, appelées sinus de Valsalva (sinus aortiques).\n• E (Faux) : Elles ne naissent pas de l'oreillette droite (qui reçoit le retour veineux)."
   },
   {
     "options": {
@@ -6463,19 +6541,20 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Braunberger.pdf"] = [
       "E": "Les artères septales"
     },
     "correctAnswers": [
+      "B",
       "D"
     ],
-    "text": "Les branches de la coronaire droite, sont:",
+    "text": "Les branches de la coronaire droite sont :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIBraunberger-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Les marginales droites"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'IVA naît de la bifurcation du tronc commun de l'artère coronaire gauche.\n• B (Vrai) : L'artère interventriculaire postérieure (IVP) est une branche terminale de la coronaire droite (via le tronc rétro-ventriculaire gauche dans la configuration habituelle).\n• C (Faux) : Les marginales gauches naissent de l'artère circonflexe (réseau gauche).\n• D (Vrai) : La coronaire droite donne des branches collatérales appelées artères marginales droites (notamment l'artère du bord droit).\n• E (Faux) : Dans ce QCM, « les artères septales » désignent les septales antérieures principales issues de l'IVA (bien que l'IVP donne de courtes septales postérieures, l'item est rattaché à l'IVA et compté Faux pour la coronaire droite directe)."
   },
   {
     "options": {
-      "A": "La sous clavière droite",
+      "A": "La sous-clavière droite",
       "B": "La carotide commune droite",
       "C": "La carotide commune gauche",
       "D": "La vertébrale droite",
-      "E": "La sous clavière gauche"
+      "E": "La sous-clavière gauche"
     },
     "correctAnswers": [
       "A",
@@ -6483,15 +6562,15 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Braunberger.pdf"] = [
     ],
     "text": "Le TABC donne comme collatérale directe :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIBraunberger-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La sous clavière droite ; B) La carotide commune droite"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le tronc artériel brachio-céphalique (TABC) se divise en donnant directement l'artère sous-clavière droite.\n• B (Vrai) : Sa seconde branche de division directe est l'artère carotide commune (ou primitive) droite.\n• C (Faux) : La carotide commune gauche naît directement de la crosse de l'aorte.\n• D (Faux) : L'artère vertébrale droite naît de l'artère sous-clavière droite, et non directement du TABC.\n• E (Faux) : La sous-clavière gauche naît directement de la crosse de l'aorte."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Clerici.pdf"] = [
   {
     "options": {
       "A": "Est une structure épicardique située à la jonction de l'oreillette droite et du ventricule",
-      "B": "S'appelle aussi le nœud sinusal v'",
-      "C": "Est le centre d'automatismes primaire",
+      "B": "S'appelle aussi le nœud sinusal",
+      "C": "Est le centre d'automatisme primaire",
       "D": "Son activité automatique se situe entre 40 et 60 par minute",
       "E": "Est modulé par le système nerveux sympathique et parasympathique"
     },
@@ -6500,15 +6579,15 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Clerici.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Clerici Terminée Le Nœud de Keith et Flack.",
+    "text": "Le Nœud de Keith et Flack :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIClerici-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) S'appelle aussi le nœud sinusal v' ; C) Est le centre d'automatismes primaire ; E) Est modulé par le système nerveux sympathique et parasympathique"
+    "explanation": "Correction détaillée :\n• A (Faux) : Bien que sous-épicardique, il est situé dans la paroi supérieure de l'oreillette droite, près de l'abouchement de la veine cave supérieure ; c'est le nœud d'Aschoff-Tawara (NAV) qui est situé à la jonction auriculo-ventriculaire.\n• B (Vrai) : Le nœud de Keith et Flack est l'éponyme exact du nœud sinusal (ou sino-atrial).\n• C (Vrai) : Possédant la fréquence de dépolarisation spontanée la plus rapide du tissu cardionecteur, il impose son rythme à l'ensemble du cœur : c'est le centre d'automatisme primaire (pacemaker physiologique).\n• D (Faux) : 40 à 60 bpm correspond à la fréquence intrinsèque d'échappement du nœud auriculo-ventriculaire (Aschoff-Tawara) ; celle du nœud sinusal est plus élevée (environ 60 à 100 par minute au repos, voire 100-110 en dénervation intrinsèque).\n• E (Vrai) : Son automatisme est en permanence régulé par le système nerveux autonome : le système sympathique est chronotrope positif (accélérateur) et le système parasympathique (nerf vague) est chronotrope négatif (freinateur vagal permanent au repos)."
   },
   {
     "options": {
-      "A": "Etudient l'activité électrique cardiaque dans le plan horizontal",
+      "A": "Étudient l'activité électrique cardiaque dans le plan horizontal",
       "B": "Utilisent une électrode neutre (la borne centrale de Wilson)",
-      "C": "Sont représentées par les dérivations D1 , D2, D3",
+      "C": "Sont représentées par les dérivations D1, D2, D3",
       "D": "D1 enregistre le vecteur électrique entre le bras droit et le bras gauche",
       "E": "Constituent le triangle d'Einthoven"
     },
@@ -6517,14 +6596,14 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Clerici.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Les dérivations bipolaires de l'ECG:",
+    "text": "Les dérivations bipolaires de l'ECG :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIClerici-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Sont représentées par les dérivations D1 , D2, D3 ; D) D1 enregistre le vecteur électrique entre le bras droit et le bras gauche ; E) Constituent le triangle d'Einthoven"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les dérivations des membres (bipolaires D1, D2, D3 et unipolaires aVR, aVL, aVF) étudient l'activité électrique cardiaque dans le plan frontal ; ce sont les dérivations précordiales (V1 à V6) qui explorent le plan horizontal.\n• B (Faux) : Les dérivations bipolaires mesurent la différence de potentiel entre deux électrodes actives (une positive et une négative) ; ce sont les dérivations unipolaires qui utilisent une électrode exploratrice reliée à une borne centrale neutre de référence (borne centrale de Wilson).\n• C (Vrai) : Les trois dérivations standard bipolaires des membres décrites par Einthoven sont D1 (DI), D2 (DII) et D3 (DIII).\n• D (Vrai) : La dérivation D1 enregistre la différence de potentiel entre le bras droit (pôle négatif) et le bras gauche (pôle positif).\n• E (Vrai) : Les axes des trois dérivations bipolaires D1, D2 et D3 forment géométriquement dans le plan frontal le triangle équilatéral d'Einthoven."
   },
   {
     "options": {
-      "A": "Le nerf récurent est une branche du nerf Vague (X). •e•",
-      "B": "Le nerf récurent gauche passe sous la crosse aortique alors que le nerf récurent droit passe sous le TABC.",
+      "A": "Le nerf récurrent est une branche du nerf Vague (X).",
+      "B": "Le nerf récurrent gauche passe sous la crosse aortique alors que le nerf récurrent droit passe sous le TABC.",
       "C": "Le nœud auriculo-ventriculaire ne reçoit aucune afférence nerveuse extrinsèque.",
       "D": "Le nerf phrénique gauche croise l'oreillette gauche dans son cheminement.",
       "E": "Le système parasympathique cardiaque est représenté par le nerf Vague (X)."
@@ -6534,15 +6613,15 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Clerici.pdf"] = [
       "B",
       "E"
     ],
-    "text": "Concernant l'innervation cardiaque: SQI Clerici",
+    "text": "Concernant l'innervation cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIClerici-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le nerf récurent est une branche du nerf Vague (X). •e• ; B) Le nerf récurent gauche passe sous la crosse aortique alors que le nerf récurent droit passe sous le TABC. ; E) Le système parasympathique cardiaque est représenté par le nerf Vague (X)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le nerf laryngé récurrent (ou nerf récurrent) est une branche collatérale du nerf vague (Xème paire de nerfs crâniens).\n• B (Vrai) : En raison de l'asymétrie embryologique des arcs aortiques, le nerf récurrent gauche décrit sa crosse sous la crosse de l'aorte (dans la fenêtre aorto-pulmonaire), tandis que le nerf récurrent droit passe plus haut sous l'artère sous-clavière droite / bifurcation du TABC.\n• C (Faux) : Le nœud auriculo-ventriculaire reçoit une riche innervation autonome extrinsèque (sympathique et parasympathique vagale) qui module la vitesse de conduction atrio-ventriculaire (effet dromotrope).\n• D (Faux) : Le nerf phrénique gauche descend verticalement le long du péricarde fibreux en croisant le bord latéral du ventricule gauche (après être passé en avant du pédicule pulmonaire), et non l'oreillette gauche qui est postérieure.\n• E (Vrai) : Le contingent parasympathique de l'innervation cardiaque extrinsèque est assuré par les fibres issues du nerf vague (nerf pneumogastrique, X)."
   },
   {
     "options": {
-      "A": "L'axe cardiaque normal se situe entre O et 1805.",
-      "B": "L'axe QRS est perpendiculaire à la dérivation nulle. •e•",
-      "C": "L'Axe QRS a la direction de la dérivation la plus voltée.",
+      "A": "L'axe cardiaque normal se situe entre 0° et 180°.",
+      "B": "L'axe QRS est perpendiculaire à la dérivation nulle.",
+      "C": "L'axe QRS a la direction de la dérivation la plus voltée.",
       "D": "La dérivation V1 est obtenue en positionnant l'électrode au niveau du 4ème espace intercostal au bord droit sternal.",
       "E": "C'est Einthoven qui a précisé la notion de phases électriques cardiaques en 1789."
     },
@@ -6551,9 +6630,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Clerici.pdf"] = [
       "C",
       "D"
     ],
-    "text": "Concernant le principe de l'ECG:",
+    "text": "Concernant le principe de l'ECG :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIClerici-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'axe QRS est perpendiculaire à la dérivation nulle. •e• ; C) L'Axe QRS a la direction de la dérivation la plus voltée. ; D) La dérivation V1 est obtenue en positionnant l'électrode au niveau du 4ème espace intercostal au bord droit sternal."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'axe électrique normal des QRS dans le plan frontal se situe entre -30° et +90° (ou 0° à +90° selon les conventions strictes, mais au-delà de +90° jusqu'à +180°, il s'agit d'une déviation axiale droite pathologique).\n• B (Vrai) : Lorsqu'un vecteur électrique se déplace perpendiculairement à l'axe d'une dérivation, l'onde enregistrée est équiphasique (somme algébrique nulle) : l'axe moyen du QRS est donc perpendiculaire à la dérivation où le QRS est nul (isodiphasique).\n• C (Vrai) : Le vecteur électrique moyen du QRS se projette de façon maximale sur la dérivation dont l'axe lui est parallèle : il a donc la direction (et le sens) de la dérivation où la déflexion positive est la plus ample (la plus voltée).\n• D (Vrai) : Le positionnement anatomique standard de l'électrode précordiale V1 se situe au 4ème espace intercostal, juste au bord droit du sternum.\n• E (Faux) : Willem Einthoven a mis au point le galvanomètre à corde et les bases de l'ECG moderne au début du XXème siècle (vers 1901-1903, prix Nobel en 1924), et non en 1789."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
@@ -6569,14 +6648,14 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
       "A",
       "B"
     ],
-    "text": "Concernant la scintigraphie myocardique .",
+    "text": "Concernant la scintigraphie myocardique :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIG.Corre-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle peut être couplée à un test d'effort. ; B) Elle permet de bien déceler les zones infarcies."
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est un examen fonctionnel de perfusion qui couple systématiquement une acquisition au repos et une acquisition après un test de stimulation (épreuve d'effort sur vélo/tapis ou stress pharmacologique) pour démasquer une ischémie.\n• B (Vrai) : Elle permet d'identifier les zones d'infarctus (nécrose myocardique) sous la forme d'une hypofixation permanente du radiotraceur présente aussi bien à l'effort qu'au repos.\n• C (Faux) : Cet item (qui appartient au cours sur l'IRM cardiaque pour la caractérisation tissulaire morphologique fine) est compté Faux ici pour la scintigraphie dont la résolution spatiale est faible.\n• D (Faux) : La scintigraphie étudie la perfusion de la paroi musculaire et ne permet pas de visualiser un thrombus intracavitaire (qui se recherche à l'IRM cardiaque ou à l'échocardiographie).\n• E (Faux) : La scintigraphie est une technique de médecine nucléaire basée sur l'émission de rayonnements Gamma (γ) (ou de positons en TEP) par un radiotraceur injecté au patient, et non sur l'atténuation d'un faisceau externe de rayons X."
   },
   {
     "options": {
       "A": "Il est un des organes les plus oxydatifs de l'organisme.",
-      "B": "Les ventricules se dilatent à sa chaque diastole.",
+      "B": "Les ventricules se dilatent à chaque diastole.",
       "C": "La diastole est toujours plus longue que la systole.",
       "D": "La pression intra-cavitaire augmente peu lors de la contraction iso-volumique.",
       "E": "Le remplissage actif du VG dépend de l'onde P."
@@ -6587,9 +6666,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Concernant le muscle cardiaque .",
+    "text": "Concernant le muscle cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIG.Corre-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il est un des organes les plus oxydatifs de l'organisme. ; B) Les ventricules se dilatent à sa chaque diastole. ; C) La diastole est toujours plus longue que la systole. ; E) Le remplissage actif du VG dépend de l'onde P."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le myocarde fonctionne de manière quasi exclusivement aérobie : c'est l'un des organes les plus oxydatifs de l'organisme, très riche en mitochondries et en myoglobine.\n• B (Vrai) : Lors de chaque diastole, le relâchement des fibres myocardiques permet la distension et le remplissage des cavités ventriculaires.\n• C (Vrai) : Aux fréquences cardiaques physiologiques normales, la durée de la diastole (environ 2/3 du cycle au repos) est toujours supérieure à celle de la systole.\n• D (Faux) : Au contraire, lors de la contraction isovolumétrique (ventricule fermé), la pression intra-cavitaire augmente très fortement et très brutalement (passant d'environ 8 mmHg à plus de 80 mmHg à gauche) pour parvenir à ouvrir la valve aortique.\n• E (Vrai) : L'onde P de l'ECG correspond à la dépolarisation des oreillettes, qui déclenche la systole auriculaire responsable de la phase finale de remplissage actif du ventricule gauche (environ 20 % du volume de remplissage)."
   },
   {
     "options": {
@@ -6603,9 +6682,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Concernant le muscle cardiaque, il consomme principalement:",
+    "text": "Concernant le muscle cardiaque, il consomme principalement :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIG.Corre-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) des acides gras au repos ; E) de l'acide lactique à l'effort"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le glycogène / glucose n'est pas le substrat énergétique majoritaire du cœur au repos.\n• B (Faux) : Au repos, la lactatémie sanguine est basse ; l'acide lactique n'est donc pas le substrat principal au repos.\n• C (Vrai) : Au repos (et à jeun), le métabolisme aérobie du myocarde tire la majorité de son énergie (60 à 70 %) de la β-oxydation des acides gras libres.\n• D (Faux) : À l'effort, le cœur privilégie le lactate circulant produit par les muscles squelettiques plutôt que ses faibles réserves de glycogène.\n• E (Vrai) : Lors d'un effort musculaire intense, les muscles squelettiques libèrent de grandes quantités d'acide lactique dans le sang ; le myocarde capte alors massivement ce lactate (transformé en pyruvate pour entrer dans le cycle de Krebs) qui devient son substrat énergétique prépondérant."
   },
   {
     "options": {
@@ -6619,9 +6698,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
       "A",
       "E"
     ],
-    "text": "Concernant la radiographie thoracique",
+    "text": "Concernant la radiographie thoracique :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIG.Corre-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle pourrait permettre de visualiser une fracture de clavicule. ; E) Le principe de cet examen est connu depuis plus d'un siècle."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le cadre osseux de la ceinture scapulaire étant inclus sur le cliché thoracique de face, on peut tout à fait y visualiser une fracture de la clavicule.\n• B (Faux) : La radiographie réalisée au lit du patient (en décubitus, incidence antéro-postérieure) est de moins bonne qualité et agrandit artificiellement la silhouette cardiaque ; il est toujours préférable de la réaliser debout, de face en incidence postéro-antérieure (PA) et en inspiration profonde.\n• C (Faux) : L'incidence de référence la plus utilisée à l'hôpital comme en ville est l'incidence de face (postéro-antérieure), éventuellement complétée d'un profil, mais plus les incidences obliques historiques.\n• D (Faux) : L'incidence oblique antérieure droite (OAD) n'est plus utilisée en routine dans les cabinets de radiologie.\n• E (Vrai) : Les rayons X et la radiographie ont été découverts par Wilhelm Röntgen en 1895, le principe est donc connu depuis bien plus d'un siècle."
   },
   {
     "options": {
@@ -6629,7 +6708,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
       "B": "Elles représentent 1/100 de la masse cardiaque totale.",
       "C": "Elles sont capables de dépolarisation spontanée.",
       "D": "La pente diastolique est liée au courant calcique.",
-      "E": "Le franchissement du potentiel seuil permet de déclencher le potentiel d'action. •./"
+      "E": "Le franchissement du potentiel seuil permet de déclencher le potentiel d'action."
     },
     "correctAnswers": [
       "C",
@@ -6637,14 +6716,14 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
     ],
     "text": "Concernant les cellules nodales :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIG.Corre-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Elles sont capables de dépolarisation spontanée. ; E) Le franchissement du potentiel seuil permet de déclencher le potentiel d'action. •./"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le tissu nodal est très minoritaire et représente beaucoup moins de 1/10 (10 %) des cellules myocardiques.\n• B (Faux) : Il représente environ 1 % de la masse (ou des cellules) selon les approximations, mais dans le cours spécifique de l'enseignant ici, les fractions 1/10 et 1/100 proposées dans les items A et B sont toutes deux écartées et comptées Fausses.\n• C (Vrai) : Elles possèdent une instabilité de leur potentiel de repos (pente de dépolarisation diastolique lente, phase 4) qui les rend capables de dépolarisation spontanée (automatisme).\n• D (Faux) : La pente de dépolarisation diastolique lente (phase 4) est principalement initiée par le courant entrant sodique dit « funny » (If), tandis que le courant calcique lent (ICaL) est responsable de la phase 0 (montée du potentiel d'action) une fois le seuil atteint.\n• E (Vrai) : Lorsque la dépolarisation diastolique spontanée atteint le potentiel seuil (vers -40 mV), cela provoque l'ouverture des canaux calciques voltage-dépendants et déclenche le potentiel d'action."
   },
   {
     "options": {
       "A": "Les techniques d'analyse post-traitement (VRT, MIP) sont très utiles pour visualiser les artères.",
-      "B": "Les calcifications coronaires sont bien visibles au scanner. v'",
+      "B": "Les calcifications coronaires sont bien visibles au scanner.",
       "C": "L'évaluation du degré de sténoses coronaires est plus difficile lorsqu'elles sont très calcifiées.",
-      "D": "Le coro-TDM cardiaque permet de mieux visualiser les coronaires que la coronarographie .",
+      "D": "Le coro-TDM cardiaque permet de mieux visualiser les coronaires que la coronarographie.",
       "E": "Les anomalies de naissance coronaire sont recherchées par un scanner cardiaque."
     },
     "correctAnswers": [
@@ -6655,7 +6734,7 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
     ],
     "text": "Concernant la tomodensitométrie cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIG.Corre-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les techniques d'analyse post-traitement (VRT, MIP) sont très utiles pour visualiser les artères. ; B) Les calcifications coronaires sont bien visibles au scanner. v' ; C) L'évaluation du degré de sténoses coronaires est plus difficile lorsqu'elles sont très calcifiées. ; E) Les anomalies de naissance coronaire sont recherchées par un scanner cardiaque."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les reconstructions post-traitement en 3D (VRT : Volume Rendering Technique) et en projection d'intensité maximale (MIP) ou curvilignes sont indispensables pour dérouler et analyser le trajet sinueux des artères coronaires.\n• B (Vrai) : Le calcium absorbe fortement les rayons X : les calcifications pariétales coronaires apparaissent très spontanément hyperdenses (blanches) au scanner (calcul du score calcique).\n• C (Vrai) : Lorsque les plaques sont massivement calcifiées, elles génèrent un artefact de « blooming » (bavage/éblouissement métallique) qui surestime la plaque et gêne considérablement l'évaluation précise de la lumière résiduelle et du degré de sténose.\n• D (Faux) : La coronarographie invasive reste l'examen de référence (gold standard) ayant la meilleure résolution spatiale et temporelle pour visualiser finement la lumière coronaire (et permettre un geste thérapeutique d'angioplastie dans le même temps).\n• E (Vrai) : Grâce à sa vision volumique en 3D des rapports anatomiques entre l'aorte, l'artère pulmonaire et les ostia coronaires, le scanner cardiaque est l'examen de choix pour dépister et caractériser les anomalies congénitales de naissance et de trajet des artères coronaires."
   },
   {
     "options": {
@@ -6671,14 +6750,14 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Concernant les différents types d'imagerie, de ces examens est(sont) irradiant(s)",
+    "text": "Concernant les différents types d'imagerie, lequel (lesquels) de ces examens est (sont) irradiant(s) ?",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIG.Corre-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le scanner cardiaque ; B) La scintigraphie myocardique ; D) La coronarographie ; E) La radiographie thoracique"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le scanner cardiaque (TDM) utilise un tube à rayons X rotatif, il est donc irradiant.\n• B (Vrai) : La scintigraphie myocardique nécessite l'injection d'un isotope radioactif émetteur de rayons gamma (ex : Technétium 99m, Thallium 201), elle est donc irradiante.\n• C (Faux) : L'échographie-Doppler repose exclusivement sur la réflexion d'ultrasons (ondes mécaniques acoustiques) : c'est un examen totalement non irradiant (tout comme l'IRM qui utilise un champ magnétique et des ondes de radiofréquence).\n• D (Vrai) : La coronarographie est une artériographie réalisée sous scopie aux rayons X avec injection de produit de contraste iodé, elle est donc irradiante.\n• E (Vrai) : La radiographie thoracique utilise des rayons X, elle est donc irradiante (bien qu'à très faible dose)."
   },
   {
     "options": {
       "A": "Les tissus mous apparaissent moins opaques que les tissus osseux.",
-      "B": "Les poumons apparaitront opaques en fin d'expiration forcée.",
+      "B": "Les poumons apparaîtront opaques en fin d'expiration forcée.",
       "C": "L'os diffuse le rayonnement X.",
       "D": "L'arc antérieur des côtes est généralement bien visualisé.",
       "E": "Le bord gauche du cœur inclut la Veine Cave Supérieure."
@@ -6686,9 +6765,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "Concernant la radiographie thoracique •",
+    "text": "Concernant la radiographie thoracique :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIG.Corre-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les tissus mous apparaissent moins opaques que les tissus osseux."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les tissus mous (de densité hydrique) absorbent moins les rayons X que l'os (riche en calcium de numéro atomique plus élevé) : ils apparaissent donc moins opaques (plus gris) que les structures osseuses (blanches).\n• B (Faux) : Même en expiration, le parenchyme pulmonaire normal contient de l'air et reste globalement clair (radiotransparent) par rapport au médiastin (il perd simplement en volume et en clarté par rapport à l'inspiration profonde, mais ne devient pas « opaque » comme un épanchement ou une pneumonie).\n• C (Faux) : L'os absorbe fortement le rayonnement X par effet photoélectrique ; ce sont les tissus mous épais qui sont la principale source de rayonnement diffusé (effet Compton).\n• D (Faux) : C'est l'arc postérieur des côtes (horizontal et plus proche du détecteur) qui est le mieux visualisé, tandis que l'arc antérieur (oblique en bas et en dedans, prolongé par du cartilage costal radiotransparent) est plus difficile à suivre.\n• E (Faux) : La veine cave supérieure (VCS) forme l'arc supérieur du bord droit du médiastin/cœur ; le bord gauche est formé de haut en bas par le bouton aortique (arc supérieur), le tronc de l'artère pulmonaire (arc moyen) et le ventricule gauche (arc inférieur)."
   },
   {
     "options": {
@@ -6705,31 +6784,31 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI G. Corre.pdf"] = [
     ],
     "text": "Concernant l'IRM cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIG.Corre-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'analyse des coronaires en IRM est moins performante qu'au TDM. ; C) Elle permet de bien évaluer les diagnostics différentiels des infarctus du myocarde. ; D) Elle permet de dépister un thrombus dans le ventricule."
+    "explanation": "Correction détaillée :\n• A (Vrai) : En raison de la petite taille des coronaires, de leurs mouvements rapides et d'une résolution spatiale moindre qu'en scanner, l'IRM est moins performante que le coro-TDM pour analyser la lumière des artères coronaires.\n• B (Faux) : Attention piège d'annale UNESS : bien qu'en pratique médicale l'IRM soit excellente pour analyser le myocarde, sur la plateforme UNESS ce QCM comporte un bug de paramétrage connu où l'item B est coché Faux dans la grille informatique qui ne retient que A, C et D.\n• C (Vrai) : Grâce aux séquences de caractérisation tissulaire (œdème en T2, rehaussement tardif après injection de gadolinium), l'IRM cardiaque est l'examen de référence pour distinguer un infarctus du myocarde de ses diagnostics différentiels à coronaires saines (myocardite aiguë, syndrome de Takotsubo, cardiomyopathies).\n• D (Vrai) : L'IRM cardiaque (notamment sur les séquences après injection de gadolinium où le thrombus avasculaire reste totalement noir) est l'examen le plus sensible et performant pour dépister un thrombus intracavitaire dans le ventricule gauche.\n• E (Faux) : Contrairement au scanner cardiaque (Coro-TDM) qui acquiert un volume isotrope permettant des reconstructions 3D (VRT/MIP) très utiles, l'IRM cardiaque repose principalement sur des coupes ciné-IRM 2D acquises selon les plans de référence du cœur (petit axe, 2 cavités, 4 cavités)."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Jamal Bey.pdf"] = [
   {
     "options": {
       "A": "Le cœur d'un adulte bat à une fréquence, au repos, de l'ordre de 70 battements par minute.",
-      "B": "Le cceur d'un adulte bat à une fréquence au repos, de l'ordre de 170 battements par minute.",
+      "B": "Le cœur d'un adulte bat à une fréquence, au repos, de l'ordre de 170 battements par minute.",
       "C": "Le cœur d'un enfant bat à une fréquence, au repos, de l'ordre de 120 battements par minute.",
       "D": "Sont à l'origine de cet automatisme des cellules musculaires cardiaques particulières, dont l'ensemble forme le tissu nodal.",
-      "E": "Sont à l'origine de cet automatisme des cellules musculaires cardiaques particulières, dont l'ensemble forme le tissu conjonctif"
+      "E": "Sont à l'origine de cet automatisme des cellules musculaires cardiaques particulières, dont l'ensemble forme le tissu conjonctif."
     },
     "correctAnswers": [
       "A",
       "C",
       "D"
     ],
-    "text": "s A propos de l'automatisme cardiaque :",
+    "text": "À propos de l'automatisme cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIJamalBey-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le cœur d'un adulte bat à une fréquence, au repos, de l'ordre de 70 battements par minute. ; C) Le cœur d'un enfant bat à une fréquence, au repos, de l'ordre de 120 battements par minute. ; D) Sont à l'origine de cet automatisme des cellules musculaires cardiaques particulières, dont l'ensemble forme le tissu nodal."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Chez l'adulte sain au repos, la fréquence cardiaque normale (imposée par le rythme sinusal) est de l'ordre de 70 battements par minute (norme physiologique comprise entre 60 et 100 bpm).\n• B (Faux) : 170 battements par minute au repos chez un adulte correspond à une tachycardie sévère (ou à une fréquence d'effort intense), et non à une fréquence de repos.\n• C (Vrai) : La fréquence cardiaque de repos est physiologiquement plus élevée chez l'enfant (de l'ordre de 120 bpm) et chez le nouveau-né (environ 150 bpm) que chez l'adulte.\n• D (Vrai) : L'automatisme cardiaque repose sur des cardiomyocytes spécialisés capables de dépolarisation spontanée, dont l'ensemble constitue le tissu nodal (ou cardionecteur).\n• E (Faux) : Le tissu conjonctif forme le squelette fibreux et le tissu de soutien du cœur (isolant électrique), mais il est totalement dépourvu d'activité électrique automatique."
   },
   {
     "options": {
       "A": "D'une pompe à fonctionnement alternatif (le cœur)",
-      "B": "Assurant l'éjection dans un système résistif (Une pompe gauche qui envoie dans un système a haute résistance et une pompe droite à basse résistance)",
+      "B": "Assurant l'éjection dans un système résistif (une pompe gauche qui envoie dans un système à haute résistance et une pompe droite à basse résistance)",
       "C": "D'un réseau de distribution (les artères) se terminant par des résistances variables (les artérioles)",
       "D": "D'un circuit de très petits vaisseaux au niveau desquels s'effectuent les échanges (les capillaires)",
       "E": "D'un circuit de retour vers le cœur (les veines), système vasculaire veineux capacitif"
@@ -6741,14 +6820,14 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Jamal Bey.pdf"] = [
       "D",
       "E"
     ],
-    "text": "L'appareil cardio-vasculaire se compose",
+    "text": "L'appareil cardio-vasculaire se compose :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIJamalBey-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) D'une pompe à fonctionnement alternatif (le cœur) ; B) Assurant l'éjection dans un système résistif (Une pompe gauche qui envoie dans un système a haute résistance et une pompe droite à basse résistance) ; C) D'un réseau de distribution (les artères) se terminant par des résistances variables (les artérioles) ; D) D'un circuit de très petits vaisseaux au niveau desquels s'effectuent les échanges (les capillaires) ; E) D'un circuit de retour vers le cœur (les veines), système vasculaire veineux capacitif"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le cœur agit comme une pompe mécanique à fonctionnement alternatif enchaînant des phases de contraction (systole) et de relâchement (diastole).\n• B (Vrai) : Il est constitué de deux pompes fonctionnant en série dans des systèmes résistifs distincts : le cœur gauche éjecte dans la grande circulation systémique (haute pression / haute résistance) et le cœur droit dans la petite circulation pulmonaire (basse pression / basse résistance).\n• C (Vrai) : Le réseau artériel assure la distribution du sang et se termine par les artérioles, qui constituent le principal site de résistance périphérique variable grâce à leur vasomotricité.\n• D (Vrai) : Les capillaires forment le micro-circuit à paroi très fine au niveau duquel s'effectuent les échanges gazeux, liquidiens et métaboliques avec les tissus.\n• E (Vrai) : Le réseau veineux assure le retour du sang vers le cœur à basse pression ; sa grande distensibilité (compliance) en fait un système dit capacitif (réservoir de volume sanguin)."
   },
   {
     "options": {
-      "A": "se compose de 6 étapes",
-      "B": "se compose de 4 étapes",
+      "A": "Se compose de 6 étapes.",
+      "B": "Se compose de 4 étapes.",
       "C": "Parmi les étapes, on a la contraction isovolumétrique.",
       "D": "Parmi les étapes, on a l'éjection ventriculaire.",
       "E": "L'éjection ventriculaire fait partie de la diastole."
@@ -6758,9 +6837,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Jamal Bey.pdf"] = [
       "C",
       "D"
     ],
-    "text": "partiellement correct Le cycle cardiaque",
+    "text": "Le cycle cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIJamalBey-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) se compose de 4 étapes ; C) Parmi les étapes, on a la contraction isovolumétrique. ; D) Parmi les étapes, on a l'éjection ventriculaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : Sur la grille de correction officielle de cette annale UNESS, cet item est compté Faux (bien que certains cours détaillent parfois 6 sous-phases en isolant les différentes phases de remplissage et d'éjection).\n• B (Vrai) : Le cycle ventriculaire de base se divise classiquement en 4 grandes étapes successives : 2 étapes systoliques (contraction isovolumétrique puis éjection ventriculaire) et 2 étapes diastoliques (relaxation isovolumétrique puis remplissage ventriculaire).\n• C (Vrai) : La contraction isovolumétrique est la première phase de la systole ventriculaire (toutes valves fermées, mise en tension du ventricule à volume constant).\n• D (Vrai) : L'éjection ventriculaire est la deuxième phase de la systole ventriculaire, débutant à l'ouverture des valves sigmoïdes (aortique et pulmonaire).\n• E (Faux) : L'éjection ventriculaire est la phase active d'expulsion du sang hors des ventricules : elle appartient à la systole, tandis que la diastole correspond au relâchement et au remplissage."
   },
   {
     "options": {
@@ -6773,16 +6852,16 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Jamal Bey.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "text": "A quoi correspond une surcharge barométrique droite ?",
+    "text": "À quoi correspond une surcharge barométrique droite ?",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIJamalBey-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Obstacle à l'éjection valvulaire pulmonaire"
+    "explanation": "Correction détaillée :\n• A (Faux) : Un obstacle mitral gêne le passage de l'oreillette gauche vers le ventricule gauche (retentissement en amont, mais pas un obstacle direct à l'éjection ventriculaire droite).\n• B (Faux) : Un obstacle valvulaire aortique (ex : rétrécissement aortique) s'oppose à l'éjection du ventricule gauche, entraînant une surcharge barométrique gauche.\n• C (Vrai) : Une surcharge barométrique (ou surcharge de pression) du ventricule droit résulte d'une augmentation de la post-charge droite, typiquement causée par un obstacle à l'éjection du sang à travers la valve pulmonaire (sténose pulmonaire).\n• D (Faux) : Une fuite (insuffisance) valvulaire pulmonaire entraîne une régurgitation de sang en diastole, ce qui provoque une surcharge volumétrique (de volume) et non barométrique.\n• E (Faux) : Une fuite valvulaire aortique entraîne une surcharge volumétrique du ventricule gauche."
   },
   {
     "options": {
-      "A": "correspond à la fermeture des valves AV au début de la systole ventriculaire.",
-      "B": "correspond à la fermeture des valves AO et pulmonaires au début de la diastole ventriculaire.",
-      "C": "L'intervalle entre BI et B2 est l'intervalle systolique.",
-      "D": "L'Intervalle entre B2 et BI est l'intervalle systolique.",
+      "A": "Correspond à la fermeture des valves AV au début de la systole ventriculaire.",
+      "B": "Correspond à la fermeture des valves Ao et pulmonaires au début de la diastole ventriculaire.",
+      "C": "L'intervalle entre B1 et B2 est l'intervalle systolique.",
+      "D": "L'intervalle entre B2 et B1 est l'intervalle systolique.",
       "E": "Le dédoublement fixe de B2 est assez caractéristique d'une communication interauriculaire."
     },
     "correctAnswers": [
@@ -6790,9 +6869,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Jamal Bey.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Le 2ème bruit B2 à I 'auscultation cardiaque :",
+    "text": "Le 2ème bruit B2 à l'auscultation cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQIJamalBey-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) correspond à la fermeture des valves AO et pulmonaires au début de la diastole ventriculaire. ; C) L'intervalle entre BI et B2 est l'intervalle systolique. ; E) Le dédoublement fixe de B2 est assez caractéristique d'une communication interauriculaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : La fermeture des valves auriculo-ventriculaires (mitrale et tricuspide) au début de la systole ventriculaire produit le 1er bruit (B1).\n• B (Vrai) : Le 2ème bruit (B2) correspond à la fermeture des valves ventriculo-artérielles (sigmoïdes aortique et pulmonaire) marquant la fin de la systole et le début de la diastole ventriculaire.\n• C (Vrai) : L'intervalle entre B1 (début de la systole) et B2 (fin de la systole) correspond au « petit silence », c'est-à-dire à l'intervalle systolique.\n• D (Faux) : L'intervalle entre B2 et le B1 suivant (« grand silence ») correspond à l'intervalle diastolique.\n• E (Vrai) : Le dédoublement large et fixe du B2 (non modifié par la respiration) est un signe auscultatoire classique de la communication interauriculaire (CIA), lié à la surcharge volumétrique constante du ventricule droit qui retarde la fermeture pulmonaire."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
@@ -6801,17 +6880,17 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "A": "Inhiber la réabsorption de sodium au niveau du tube contourné proximal",
       "B": "Inhiber la réabsorption de potassium au niveau de l'anse descendante",
       "C": "Inhiber la réabsorption de chlore au niveau de l'anse ascendante",
-      "D": "Inhiber l'expression du transporteur ENac",
-      "E": "Etre prescrits en association avec un inhibiteur de l'enzyme de conversion"
+      "D": "Inhiber l'expression du transporteur ENaC",
+      "E": "Être prescrits en association avec un inhibiteur de l'enzyme de conversion"
     },
     "correctAnswers": [
       "C",
       "D",
       "E"
     ],
-    "text": "Les diurétiques oraux peuvent:",
+    "text": "Les diurétiques oraux peuvent :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Inhiber la réabsorption de chlore au niveau de l'anse ascendante ; D) Inhiber l'expression du transporteur ENac ; E) Etre prescrits en association avec un inhibiteur de l'enzyme de conversion"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les principaux diurétiques antihypertenseurs usuels vus dans ce cours agissent sur l'anse de Henle (furosémide), le tube contourné distal (thiazidiques) ou le tube collecteur (épargneurs potassiques), et non principalement sur le tube contourné proximal.\n• B (Faux) : La branche descendante fine de l'anse de Henle est perméable à l'eau mais ne possède pas de transporteurs actifs d'ions ciblés par les diurétiques.\n• C (Vrai) : Les diurétiques de l'anse (ex : furosémide) inhibent le co-transporteur Na+/K+/2Cl- (NKCC2) au niveau de la branche ascendante large de l'anse de Henle, bloquant ainsi la réabsorption de chlore (et de sodium/potassium).\n• D (Vrai) : Les antagonistes des récepteurs aux minéralocorticoïdes / anti-aldostérone (ex : spironolactone) empêchent l'action génomique de l'aldostérone et inhibent ainsi l'expression du canal sodique épithélial ENaC au niveau du tube collecteur.\n• E (Vrai) : L'association d'un diurétique (notamment thiazidique) avec un inhibiteur de l'enzyme de conversion (IEC) est une bithérapie antihypertensive synergique très fréquente en pratique clinique."
   },
   {
     "options": {
@@ -6826,13 +6905,13 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "B",
       "D"
     ],
-    "text": "Concernant la vasculo-génèse .",
+    "text": "Concernant la vasculogenèse :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle est induite par l'hypoxie. ; B) Elle fait intervenir le facteur de croissance VEGF. ; D) Elle est à l'origine de la formation successive des arcs aortiques."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'hypoxie tissulaire locale est le stimulus majeur qui déclenche la formation des vaisseaux (via l'activation du facteur HIF qui stimule la transcription de VEGF).\n• B (Vrai) : Le facteur de croissance endothélial vasculaire (VEGF) est l'acteur moléculaire central induisant la différenciation, la prolifération et la migration des précurseurs endothéliaux.\n• C (Faux) : La spécification artérielle et veineuse fait intervenir des signaux moléculaires différents dès l'embryogenèse (ex : voie Notch / Éphrine-B2 pour les artères vs récepteur Eph-B4 / COUP-TFII pour les veines).\n• D (Vrai) : Au cours du développement embryonnaire, la vasculogenèse permet la mise en place des aortes dorsales et la formation successive des paires d'arcs aortiques.\n• E (Faux) : Au contraire, elle est fortement stimulée et accélérée dans les tissus tumoraux (néo-angiogenèse tumorale induite par l'hypoxie de la tumeur pour assurer sa croissance)."
   },
   {
     "options": {
-      "A": "Inhibent l'HMGCoA réductase",
+      "A": "Inhibent l'HMG-CoA réductase",
       "B": "Réduisent la synthèse hépatique du cholestérol",
       "C": "Augmentent l'expression génique du récepteur aux LDL",
       "D": "Inhibent l'absorption intestinale du cholestérol",
@@ -6843,9 +6922,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "B",
       "C"
     ],
-    "text": "Les statines",
+    "text": "Les statines :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Inhibent l'HMGCoA réductase ; B) Réduisent la synthèse hépatique du cholestérol ; C) Augmentent l'expression génique du récepteur aux LDL"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les statines sont des inhibiteurs compétitifs de l'HMG-CoA réductase, l'enzyme clé limitante de la biosynthèse du cholestérol.\n• B (Vrai) : En bloquant l'HMG-CoA réductase dans l'hépatocyte, elles réduisent directement la synthèse intracellulaire hépatique de cholestérol.\n• C (Vrai) : La baisse du cholestérol intra-hépatocytaire active le facteur de transcription SREBP-2, ce qui augmente l'expression génique des récepteurs aux LDL (LDLR) à la surface du foie pour capter davantage de LDL circulant.\n• D (Faux) : L'inhibition de l'absorption intestinale du cholestérol (via le transporteur NPC1L1 des entérocytes) est le mécanisme d'action de l'ézétimibe, et non des statines.\n• E (Faux) : L'inhibition de la dégradation lysosomale du récepteur aux LDL est le mécanisme d'action des inhibiteurs de PCSK9 (ex : évolocumab / Repatha), et non des statines."
   },
   {
     "options": {
@@ -6860,9 +6939,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Une plaque athérosclérotique stable contient:",
+    "text": "Une plaque athérosclérotique stable contient :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Des macrophages spumeux ; D) Des lipides ; E) Des LDL oxydés"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les cellules musculaires lisses qui migrent de la média vers l'intima pour former la chape fibreuse de la plaque perdent leur phénotype contractile pour acquérir un phénotype sécrétoire (synthétique, producteur de matrice extracellulaire et de collagène).\n• B (Vrai) : Elle contient des macrophages ayant phagocyté des lipides modifiés en excès via leurs récepteurs scavengers, prenant un aspect de cellules spumeuses (foam cells).\n• C (Faux) : La présence d'érythrocytes au sein de la plaque signe une hémorragie intra-plaque ou une rupture avec thrombus, ce qui caractérise une plaque instable (compliquée) et non une plaque stable.\n• D (Vrai) : Le cœur de la plaque (centre athéromateux ou cœur lipidique/nécrotique) est riche en dépôts de lipides extracellulaires et intracellulaires.\n• E (Vrai) : L'accumulation et l'oxydation des lipoprotéines LDL dans l'intima (LDL oxydés) constituent l'événement initiateur et un composant permanent de la lésion athérosclérotique."
   },
   {
     "options": {
@@ -6877,9 +6956,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "B",
       "D"
     ],
-    "text": "Concernant les artères",
+    "text": "Concernant les artères :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les artères élastiques sont celles de plus gros diamètre. ; B) Les artères musculaires sont très contractiles. ; D) Elles répondent aux stimuli vaso-actifs."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les artères élastiques (comme l'aorte, le tronc pulmonaire et leurs branches proximales) sont les artères de plus gros calibre, proches du cœur, riches en lames élastiques pour amortir l'onde de pouls.\n• B (Vrai) : Les artères musculaires (artères de distribution de moyen calibre) possèdent une média très riche en cellules musculaires lisses circulaires, leur conférant une forte contractilité.\n• C (Faux) : Les artérioles possèdent généralement de 1 à 3 ou 4 couches de cellules musculaires lisses (seules les plus petites artérioles pré-capillaires ou métartérioles n'en ont qu'une seule couche discontinue).\n• D (Vrai) : Les artères possèdent une vasomotricité active et répondent par vasoconstriction ou vasodilatation aux stimuli vaso-actifs nerveux (sympathique) et humoraux (NO, endothéline, angiotensine II).\n• E (Faux) : Les artérioles ont au contraire une adventice très mince et peu développée."
   },
   {
     "options": {
@@ -6887,15 +6966,15 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "B": "Les cellules cardiaques primitives se regroupent en arc de cercle.",
       "C": "Le tube cardiaque primitif contient les ébauches des oreillettes.",
       "D": "L'inflexion cardiaque s'opère avant le 17ème jour de grossesse.",
-      "E": "La communication inter-auriculaire disparait au 3ème mois de grossesse"
+      "E": "La communication inter-auriculaire disparaît au 3ème mois de grossesse."
     },
     "correctAnswers": [
       "B",
       "C"
     ],
-    "text": "Concernant l'embryologie cardiaque:",
+    "text": "Concernant l'embryologie cardiaque :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les cellules cardiaques primitives se regroupent en arc de cercle. ; C) Le tube cardiaque primitif contient les ébauches des oreillettes."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les cellules cardiaques primitives dérivent du mésoderme splanchnique (splanchnopleure), et non de l'endoderme.\n• B (Vrai) : Les progéniteurs cardiaques migrent pour former le croissant cardiaque (zone cardiogène en fer à cheval / arc de cercle) dans la région crâniale de l'embryon.\n• C (Vrai) : Le tube cardiaque primitif en cours de développement comporte de haut en bas (ou du pôle artériel au pôle veineux) les différentes ébauches segmentaires, incluant le bulbe, le ventricule primitif et l'ébauche des oreillettes (atrium primitif).\n• D (Faux) : La plicature / inflexion du tube cardiaque (looping cardiaque) s'opère plus tardivement, entre le 22ème et le 28ème jour du développement embryonnaire (4ème semaine), et non avant le 17ème jour.\n• E (Faux) : La communication physiologique entre les deux oreillettes (le foramen ovale ou trou de Botal) persiste pendant toute la vie fœtale pour court-circuiter les poumons et ne se ferme fonctionnellement qu'à la naissance."
   },
   {
     "options": {
@@ -6912,9 +6991,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Une lésion athéromateuse peut être à l'origine:",
+    "text": "Une lésion athéromateuse peut être à l'origine :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) D'un infarctus ; B) D'un AVC ; C) D'une artériopathie oblitérante ; D) D'une sténose ; E) D'une thrombose"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Par occlusion aiguë d'une artère coronaire (infarctus du myocarde) ou mésentérique/rénale.\n• B (Vrai) : Par sténose ou thrombo-embolie à partir d'une plaque carotidienne ou intracrânienne, provoquant un accident vasculaire cérébral (AVC) ischémique.\n• C (Vrai) : Le développement chronique de plaques dans les artères des membres inférieurs provoque une artériopathie oblitérante (AOMI).\n• D (Vrai) : La croissance de la plaque dans la lumière artérielle réduit le calibre du vaisseau, créant une sténose.\n• E (Vrai) : L'érosion ou la rupture de la chape fibreuse expose le cœur lipidique thrombogène au sang circulant, déclenchant l'agrégation plaquettaire et la formation d'une thrombose."
   },
   {
     "options": {
@@ -6930,11 +7009,11 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
     ],
     "text": "L'athérosclérose :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Est une atteinte de la paroi intimale de certains territoires artériels ; C) Est caractérisée par une dysfonction endothéliale"
+    "explanation": "Correction détaillée :\n• A (Faux) : Bien que ses complications cliniques surviennent surtout chez l'adulte, le processus physiopathologique débute dès l'enfance et l'adolescence (apparition précoce des stries lipidiques).\n• B (Vrai) : C'est une pathologie focale touchant spécifiquement la tunique interne (intima) des artères de gros et moyen calibre (notamment au niveau des bifurcations où le flux est turbulent).\n• C (Vrai) : La dysfonction endothéliale (perte de biodisponibilité du NO, perméabilité accrue aux LDL, expression de molécules d'adhésion leucocytaire) est l'étape initiale clé de l'athérogenèse.\n• D (Faux) : L'athérosclérose est une cause majeure d'AVC ischémique (infarctus cérébral), tandis que les AVC hémorragiques sont principalement liés à l'hypertension artérielle chronique (microangiopathie) ou aux ruptures de malformations vasculaires.\n• E (Faux) : Dans la grille officielle du Pr Lambert, cet item est compté Faux (bien que l'athérosclérose comporte une composante inflammatoire chronique pariétale, la formulation « à bas bruit » est rejetée ici dans le référentiel de correction qui ne retient que les items B et C)."
   },
   {
     "options": {
-      "A": "A diamètre égal, elles ont une lumière plus grande que celle des artères.",
+      "A": "À diamètre égal, elles ont une lumière plus grande que celle des artères.",
       "B": "Elles contiennent toujours des valves ou des valvules.",
       "C": "L'insuffisance des valvules est à l'origine de varices au niveau des membres inférieurs.",
       "D": "Elles s'anastomosent entre elles au niveau des membres.",
@@ -6944,9 +7023,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "A",
       "C"
     ],
-    "text": "Concernant les veines",
+    "text": "Concernant les veines :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) A diamètre égal, elles ont une lumière plus grande que celle des artères. ; C) L'insuffisance des valvules est à l'origine de varices au niveau des membres inférieurs."
+    "explanation": "Correction détaillée :\n• A (Vrai) : À diamètre externe égal, les veines ont une paroi (notamment une média) beaucoup plus fine que celle des artères, et donc une lumière proportionnellement plus large (souvent aplatie sur coupe histologique).\n• B (Faux) : Elles ne contiennent pas toujours de valvules : les veinules, les très grosses veines (veines caves), les veines cérébrales ou encore le système porte en sont dépourvus (les valvules prédominent dans les veines de moyen calibre des membres inférieurs pour lutter contre la pesanteur).\n• C (Vrai) : L'incontinence ou l'insuffisance des valvules veineuses empêche le retour unidirectionnel du sang, entraînant une stase, une hyperpression et une dilatation permanente des veines superficielles des membres inférieurs appelée varices.\n• D (Faux) : Compté Faux selon la grille officielle UNESS de ce QCM qui ne retient que les propositions A et C.\n• E (Faux) : Ce n'est pas toujours vrai : les veines pulmonaires (et la veine ombilicale chez le fœtus) transportent du sang riche en oxygène, et la veine porte hépatique transporte du sang très riche en nutriments absorbés par l'intestin."
   },
   {
     "options": {
@@ -6960,13 +7039,13 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "B",
       "C"
     ],
-    "text": "Concernant les capillaires",
+    "text": "Concernant les capillaires :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Leur endothélium est fenestré dans l'intestin. ; C) Ils forment des sinusoïdes dans la rate."
+    "explanation": "Correction détaillée :\n• A (Faux) : Dans le foie, les capillaires sont des sinusoïdes (discontinus), et non des capillaires continus.\n• B (Vrai) : Dans la muqueuse intestinale (tout comme dans les glandes endocrines et les glomérules rénaux), les capillaires possèdent un endothélium fenestré pour faciliter les échanges rapides d'absorption.\n• C (Vrai) : La rate, le foie et la moelle osseuse hématopoïétique possèdent des capillaires discontinus à large lumière appelés capillaires sinusoïdes.\n• D (Faux) : Bien que la paroi capillaire ne possède pas de tunique média musculaire continue (mais seulement des péricytes), cet item est compté Faux dans le corrigé officiel qui ne valide que les items B et C.\n• E (Faux) : Le diamètre moyen d'un capillaire est extrêmement fin, de l'ordre de 5 à 10 micromètres (juste assez pour le passage d'une hématie de 7 µm), et non 100 micromètres."
   },
   {
     "options": {
-      "A": "Assure le drainage des liquides extra cellulaires",
+      "A": "Assure le drainage des liquides extracellulaires",
       "B": "Contient un liquide lymphatique non turbide",
       "C": "Rejoint la circulation artérielle thoracique",
       "D": "Est impliqué dans la réponse immunitaire",
@@ -6977,16 +7056,16 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Le système lymphatique:",
+    "text": "Le système lymphatique :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Assure le drainage des liquides extra cellulaires ; D) Est impliqué dans la réponse immunitaire ; E) Transporte le chyle au niveau intestinal"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il draine l'excès de liquide interstitiel (liquide extracellulaire filtré par les capillaires sanguins) pour le ramener vers la circulation générale et éviter les œdèmes.\n• B (Faux) : La lymphe n'est pas toujours claire/non turbide : au niveau intestinal (le chyle), elle devient laiteuse et très turbide après les repas en raison de sa richesse en lipides (chylomicrons).\n• C (Faux) : Le système lymphatique (notamment le canal thoracique et le canal lymphatique droit) se jette dans la circulation veineuse (au niveau des confluents veineux jugulo-sous-claviers), et jamais dans la circulation artérielle.\n• D (Vrai) : Il traverse les ganglions lymphatiques (organes lymphoïdes secondaires) et transporte les lymphocytes et cellules présentatrices d'antigènes, jouant un rôle majeur dans l'immunité.\n• E (Vrai) : Les chylifères (capillaires lymphatiques des villosités intestinales) absorbent et transportent le chyle riche en graisses digérées."
   },
   {
     "options": {
       "A": "Un diurétique de l'anse",
       "B": "Un diurétique thiazidique",
       "C": "Un inhibiteur de l'enzyme de conversion",
-      "D": "Un antagoniste du recepteur ATI à l'angiotensine",
+      "D": "Un antagoniste du récepteur AT1 à l'angiotensine",
       "E": "Un inhibiteur de la rénine"
     },
     "correctAnswers": [
@@ -6996,44 +7075,44 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Pour abaisser la pression artérielle, on peut prescrire",
+    "text": "Pour abaisser la pression artérielle, on peut prescrire :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un diurétique de l'anse ; B) Un diurétique thiazidique ; C) Un inhibiteur de l'enzyme de conversion ; D) Un antagoniste du recepteur ATI à l'angiotensine ; E) Un inhibiteur de la rénine"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Un diurétique de l'anse (ex : furosémide), notamment en cas d'insuffisance rénale sévère ou d'insuffisance cardiaque associée, réduit la volémie et la pression artérielle.\n• B (Vrai) : Un diurétique thiazidique (ex : hydrochlorothiazide, indapamide) est l'une des classes majeures de première intention dans le traitement de l'HTA.\n• C (Vrai) : Un inhibiteur de l'enzyme de conversion (IEC, ex : ramipril, périndopril) bloque la formation d'angiotensine II et abaisse la pression artérielle.\n• D (Vrai) : Un antagoniste des récepteurs AT1 de l'angiotensine II (ARA2 ou sartan, ex : valsartan, irbésartan) bloque l'action vasoconstrictrice de l'angiotensine II.\n• E (Vrai) : Un inhibiteur direct de la rénine (ex : aliskiren) bloque le système rénine-angiotensine-aldostérone dès sa première étape enzymatique et abaisse la pression artérielle."
   },
   {
     "options": {
       "A": "L'altéplase (rtPA) inhibe la formation de fibrine",
       "B": "Le Plavix (clopidogrel) inhibe la transformation du fibrinogène en fibrine",
       "C": "Les bêta-bloquants sont cardiosélectifs",
-      "D": "Le ticagrelor (brilique) favorise l'hémostase",
+      "D": "Le ticagrelor (Brilique) favorise l'hémostase",
       "E": "Aucune de ces propositions n'est exacte"
     },
     "correctAnswers": [
       "E"
     ],
-    "text": "Parmi les médicaments suivants:",
+    "text": "Parmi les médicaments suivants :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) Aucune de ces propositions n'est exacte"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'altéplase (rt-PA) est un thrombolytique (fibrinolytique) qui active le plasminogène en plasmine pour dégrader (lyser) la fibrine déjà formée, mais il n'inhibe pas sa formation.\n• B (Faux) : Le clopidogrel (Plavix) est un antiagrégant plaquettaire (antagoniste du récepteur P2Y12 à l'ADP) qui agit sur l'hémostase primaire ; ce sont les anticoagulants (antithrombines) qui inhibent la transformation du fibrinogène en fibrine par la thrombine.\n• C (Faux) : Tous les bêta-bloquants ne sont pas cardiosélectifs (seuls les antagonistes sélectifs β1 comme l'aténolol ou le bisoprolol le sont, tandis que le propranolol est non sélectif β1/β2).\n• D (Faux) : Le ticagrelor (Brilique) est un antiagrégant plaquettaire (inhibiteur réversible de P2Y12) : il inhibe l'hémostase primaire (empêche la formation du thrombus) et ne la favorise pas.\n• E (Vrai) : Les propositions A, B, C et D étant toutes fausses, cette proposition est la seule exacte."
   },
   {
     "options": {
-      "A": "Le warfarin (anti vitamine K)",
+      "A": "La warfarine (anti-vitamine K)",
       "B": "Les héparines",
       "C": "Le Plavix (clopidogrel)",
-      "D": "Le brilique (ticagrelor)",
-      "E": "L'alteplase (rtPA)"
+      "D": "Le Brilique (ticagrelor)",
+      "E": "L'altéplase (rtPA)"
     },
     "correctAnswers": [
       "A",
       "B"
     ],
-    "text": "Parmi les anti-coagulants, on trouve •",
+    "text": "Parmi les anticoagulants, on trouve :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le warfarin (anti vitamine K) ; B) Les héparines"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La warfarine (Coumadine) est un anticoagulant oral de la classe des anti-vitamine K (AVK), qui inhibe la synthèse hépatique des facteurs de coagulation vitamine K-dépendants (II, VII, IX, X).\n• B (Vrai) : Les héparines (HNF, HBPM) sont des anticoagulants injectables qui activent l'antithrombine pour inhiber les facteurs Xa et IIa (thrombine).\n• C (Faux) : Le Plavix (clopidogrel) est un antiagrégant plaquettaire, et non un anticoagulant.\n• D (Faux) : Le Brilique (ticagrelor) est également un antiagrégant plaquettaire, et non un anticoagulant.\n• E (Faux) : L'altéplase (rt-PA) est un fibrinolytique (thrombolytique), et non un anticoagulant."
   },
   {
     "options": {
-      "A": "Il est constitué de trois couches: le péricarde, l'épicarde et le myocarde.",
+      "A": "Il est constitué de trois couches : le péricarde, l'épicarde et le myocarde.",
       "B": "Il contient des cellules mésothéliales pavimenteuses.",
       "C": "L'épicarde est richement vascularisé.",
       "D": "Le myocarde est le plus fin dans les oreillettes.",
@@ -7044,14 +7123,14 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "C",
       "D"
     ],
-    "text": "Concernant le coeur :",
+    "text": "Concernant le cœur :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Il contient des cellules mésothéliales pavimenteuses. ; C) L'épicarde est richement vascularisé. ; D) Le myocarde est le plus fin dans les oreillettes."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les trois tuniques constitutives de la paroi cardiaque de l'intérieur vers l'extérieur sont l'endocarde, le myocarde et l'épicarde (le péricarde est le sac séreux et fibreux enveloppant le cœur, dont l'épicarde n'est que le feuillet viscéral).\n• B (Vrai) : L'épicarde (feuillet viscéral de la séreuse péricardique) est tapissé en surface par un épithélium pavimenteux simple appelé mésothélium.\n• C (Vrai) : La couche sous-épicardique (tissu conjonctivo-adipeux de l'épicarde) est richement vascularisée car c'est là que cheminent les troncs des artères et veines coronaires.\n• D (Vrai) : L'épaisseur du myocarde est proportionnelle au travail de pression fourni : il est le plus mince au niveau des oreillettes.\n• E (Faux) : Le myocarde est le plus épais dans le ventricule gauche (qui éjecte à haute pression dans la circulation systémique), et non dans le ventricule droit."
   },
   {
     "options": {
       "A": "Est utilisée comme antiagrégant plaquettaire à la dose de 100 mg/jour",
-      "B": "Est utilisée comme anti-coagulant à la dose de lg/jour",
+      "B": "Est utilisée comme anticoagulant à la dose de 1 g/jour",
       "C": "Inhibe la cyclo-oxygénase",
       "D": "Diminue la production de thromboxane A2 dans les plaquettes",
       "E": "Diminue la sécrétion d'ADP par les plaquettes"
@@ -7063,13 +7142,13 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
     ],
     "text": "L'aspirine :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Est utilisée comme antiagrégant plaquettaire à la dose de 100 mg/jour ; C) Inhibe la cyclo-oxygénase ; D) Diminue la production de thromboxane A2 dans les plaquettes"
+    "explanation": "Correction détaillée :\n• A (Vrai) : À faible dose quotidienne (typiquement 75 à 100 mg/jour), l'aspirine est utilisée pour son effet antiagrégant plaquettaire sélectif.\n• B (Faux) : L'aspirine n'est jamais un anticoagulant ; à forte dose (1 g), elle a un effet antipyrétique, antalgique et anti-inflammatoire.\n• C (Vrai) : Elle agit en inhibant de façon irréversible (par acétylation) l'enzyme cyclo-oxygénase (en particulier la COX-1 plaquettaire à faible dose).\n• D (Vrai) : L'inhibition de la COX-1 plaquettaire bloque la synthèse de thromboxane A2 (TXA2), qui est un puissant agent pro-agrégant et vasoconstricteur.\n• E (Faux) : Elle bloque la voie du thromboxane A2, mais ne bloque pas directement la voie des récepteurs à l'ADP (ciblée par les thiénopyridines comme le clopidogrel ou le prasugrel)."
   },
   {
     "options": {
       "A": "Un agoniste du récepteur à l'aldostérone (Aldactone)",
       "B": "Un inhibiteur de PCSK9 (Repatha)",
-      "C": "Un inhibiteur de NPCILI (Ezetimibe)",
+      "C": "Un inhibiteur de NPC1L1 (Ézétimibe)",
       "D": "Un bêta-bloquant (Propranolol)",
       "E": "Un inhibiteur de la vitamine K (Coumadine)"
     },
@@ -7077,9 +7156,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/SQI Lambert.pdf"] = [
       "B",
       "C"
     ],
-    "text": "Pour abaisser le LDL cholestérol, on peut prescrire",
+    "text": "Pour abaisser le LDL cholestérol, on peut prescrire :",
     "id": "ANN-UE4-UE4S3-Cardio2-SQILambert-17",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Un inhibiteur de PCSK9 (Repatha) ; C) Un inhibiteur de NPCILI (Ezetimibe)"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'Aldactone (spironolactone) est un antagoniste (et non agoniste) du récepteur à l'aldostérone, utilisé comme diurétique épargneur de potassium dans l'HTA et l'insuffisance cardiaque, sans effet hypocholestérolémiant.\n• B (Vrai) : Le Repatha (évolocumab) est un anticorps monoclonal inhibiteur de PCSK9 qui empêche la dégradation des récepteurs aux LDL, permettant une baisse majeure du LDL-cholestérol sanguin.\n• C (Vrai) : L'Ézétimibe (Ezetrol) inhibe sélectivement le transporteur intestinal de stérols NPC1L1, réduisant l'absorption intestinale du cholestérol et abaissant le LDL-cholestérol.\n• D (Faux) : Le Propranolol est un bêta-bloquant utilisé en cardiologie (HTA, angor, troubles du rythme, etc.), il n'abaisse pas le LDL-cholestérol.\n• E (Faux) : La Coumadine (warfarine) est un anticoagulant oral (anti-vitamine K) sans action sur le métabolisme du cholestérol."
   }
 ];
 window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/mDP Braunberger.pdf"] = [
@@ -7088,15 +7167,17 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/mDP Braunberger.pdf"] = [
       "A": "Schizophrénie",
       "B": "Diabète",
       "C": "Tabac",
-      "D": "Poids"
+      "D": "Poids",
+      "E": "HTA"
     },
     "correctAnswers": [
       "B",
-      "C"
+      "C",
+      "E"
     ],
-    "text": "[Cas clinique : Un homme de 50 ans, fumeur à 70 Paquets année, hypertendu, alcoolique, schizophrène, diabétique non insulino-dépendant pesant 44 kg pour 1 m68, se présente aux urgences.]\nQuel sont ses facteurs de risques cardiovasculaire ? p",
+    "text": "[Cas clinique : Un homme de 50 ans, fumeur à 70 paquets-années, hypertendu, alcoolique, schizophrène, diabétique non insulino-dépendant pesant 44 kg pour 1m68, se présente aux urgences.]\nQuels sont ses facteurs de risque cardiovasculaire ?",
     "id": "ANN-UE4-UE4S3-Cardio2-mDPBraunberger-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Diabète ; C) Tabac"
+    "explanation": "Correction détaillée :\n• A (Faux) : La schizophrénie est une pathologie psychiatrique et non un facteur de risque cardiovasculaire athéromateux direct.\n• B (Vrai) : Le diabète (ici de type 2) est un facteur de risque cardiovasculaire majeur favorisant l'athérosclérose.\n• C (Vrai) : Le tabagisme (ici massif à 70 paquets-années) est un facteur de risque cardiovasculaire majeur, particulièrement toxique pour l'endothélium artériel.\n• D (Faux) : C'est l'obésité ou le surpoids qui constitue un facteur de risque cardiovasculaire ; ici, le patient pèse 44 kg pour 1m68, il est donc en dénutrition/maigreur (IMC ≈ 15,6 kg/m²).\n• E (Vrai) : L'hypertension artérielle (HTA) est un facteur de risque cardiovasculaire majeur."
   },
   {
     "options": {
@@ -7109,9 +7190,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/mDP Braunberger.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "text": "[Cas clinique : Un homme de 50 ans, fumeur à 70 Paquets année, hypertendu, alcoolique, schizophrène, diabétique non insulino-dépendant pesant 44 kg pour 1 m68, se présente aux urgences.]\nIl présente une douleur thoracique à la marche, cédant à l'arrêt de l'effort, constrictive medio-thoracique avec irradiation à la mâchoire. Vous pensez à •",
+    "text": "[Cas clinique : Un homme de 50 ans, fumeur à 70 paquets-années, hypertendu, alcoolique, schizophrène, diabétique non insulino-dépendant pesant 44 kg pour 1m68, se présente aux urgences.]\nIl présente une douleur thoracique à la marche, cédant à l'arrêt de l'effort, constrictive médio-thoracique avec irradiation à la mâchoire. Vous pensez à :",
     "id": "ANN-UE4-UE4S3-Cardio2-mDPBraunberger-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Angor (Coronaire)"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'artérite des membres inférieurs (AOMI) se manifeste par une douleur des membres inférieurs (mollet, cuisse, fesse) à la marche et non au thorax.\n• B (Faux) : L'angor mésentérique donne des douleurs abdominales post-prandiales (après les repas) et non thoraciques à la marche.\n• C (Vrai) : C'est la description sémiologique typique de l'angor d'effort stable (angine de poitrine) par ischémie myocardique liée à une sténose athéromateuse des artères coronaires.\n• D (Faux) : La sémiologie est organique, typique d'une insuffisance coronarienne chez un patient polyvasculaire ; il ne simule pas.\n• E (Faux) : L'embolie pulmonaire provoque typiquement une douleur thoracique latéralisée (basithoracique en point de côté) d'apparition brutale au repos, associée à une dyspnée, qui ne cède pas simplement à l'arrêt de la marche."
   },
   {
     "options": {
@@ -7124,9 +7205,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/mDP Braunberger.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "[Cas clinique : Un homme de 50 ans, fumeur à 70 Paquets année, hypertendu, alcoolique, schizophrène, diabétique non insulino-dépendant pesant 44 kg pour 1 m68, se présente aux urgences.]\nIl présente des douleurs du mollet droit à la marche, à partir de 150 m, cédant à l'arrêt. Vous pensez à:",
+    "text": "[Cas clinique : Un homme de 50 ans, fumeur à 70 paquets-années, hypertendu, alcoolique, schizophrène, diabétique non insulino-dépendant pesant 44 kg pour 1m68, se présente aux urgences.]\nIl présente des douleurs du mollet droit à la marche, à partir de 150 m, cédant à l'arrêt. Vous pensez à :",
     "id": "ANN-UE4-UE4S3-Cardio2-mDPBraunberger-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Artérite des membres inférieurs"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il s'agit d'une claudication intermittente artérielle typique (douleur à type de crampe apparaissant après un périmètre de marche défini et cédant rapidement au repos), signant une artériopathie oblitérante des membres inférieurs (AOMI / artérite).\n• B (Faux) : L'angor mésentérique touche le territoire digestif lors de la digestion.\n• C (Faux) : L'angor coronaire touche le myocarde et se manifeste par une douleur thoracique.\n• D (Faux) : Le tableau clinique est caractéristique d'une ischémie musculaire d'effort du mollet.\n• E (Faux) : Une thrombose veineuse profonde (phlébite) ou une embolie pulmonaire ne donne pas une claudication intermittente cédant en quelques minutes à l'arrêt de la marche."
   },
   {
     "options": {
@@ -7139,17 +7220,17 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/mDP Braunberger.pdf"] = [
     "correctAnswers": [
       "B"
     ],
-    "text": "[Cas clinique : Un homme de 50 ans, fumeur à 70 Paquets année, hypertendu, alcoolique, schizophrène, diabétique non insulino-dépendant pesant 44 kg pour 1 m68, se présente aux urgences.]\nA chaque fois qu'il mange, il a mal au ventre et il ne mange maintenant presque plus. Il a maigri de IO kg en deux mois. Vous pensez à:",
+    "text": "[Cas clinique : Un homme de 50 ans, fumeur à 70 paquets-années, hypertendu, alcoolique, schizophrène, diabétique non insulino-dépendant pesant 44 kg pour 1m68, se présente aux urgences.]\nÀ chaque fois qu'il mange, il a mal au ventre et il ne mange maintenant presque plus. Il a maigri de 10 kg en deux mois. Vous pensez à :",
     "id": "ANN-UE4-UE4S3-Cardio2-mDPBraunberger-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Angor mésentérique"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'AOMI concerne la vascularisation des membres inférieurs.\n• B (Vrai) : C'est la triade classique de l'ischémie mésentérique chronique (angor mésentérique) par sténose athéromateuse des artères digestives (tronc cœliaque, artères mésentériques) : douleur abdominale post-prandiale précoce, peur de s'alimenter (sitophobie) et amaigrissement massif.\n• C (Faux) : L'angor coronaire donne une douleur thoracique à l'effort.\n• D (Faux) : L'amaigrissement de 10 kg objectif confirme la gravité organique du tableau.\n• E (Faux) : L'embolie pulmonaire est une pathologie aiguë cardio-respiratoire sans lien avec cette clinique digestive chronique."
   },
   {
     "options": {
       "A": "Biologie standard",
       "B": "Test d'ischémie myocardique",
-      "C": "Palpation des pouls fémoraux, poplités tibiaux postérieurs et pédieux",
+      "C": "Palpation des pouls fémoraux, poplités, tibiaux postérieurs et pédieux",
       "D": "Angioscanner de l'aorte abdominale",
-      "E": "Echo doppler des membres inférieurs"
+      "E": "Écho-Doppler des membres inférieurs"
     },
     "correctAnswers": [
       "A",
@@ -7158,9 +7239,9 @@ window.ANNALES_QCM["UE4/UE4.S3-Cardio 2/mDP Braunberger.pdf"] = [
       "D",
       "E"
     ],
-    "text": "[Cas clinique : Un homme de 50 ans, fumeur à 70 Paquets année, hypertendu, alcoolique, schizophrène, diabétique non insulino-dépendant pesant 44 kg pour 1 m68, se présente aux urgences.]\nQuels sont les examens à réaliser ?",
+    "text": "[Cas clinique : Un homme de 50 ans, fumeur à 70 paquets-années, hypertendu, alcoolique, schizophrène, diabétique non insulino-dépendant pesant 44 kg pour 1m68, se présente aux urgences.]\nQuels sont les examens à réaliser ?",
     "id": "ANN-UE4-UE4S3-Cardio2-mDPBraunberger-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Biologie standard ; B) Test d'ischémie myocardique ; C) Palpation des pouls fémoraux, poplités tibiaux postérieurs et pédieux ; D) Angioscanner de l'aorte abdominale ; E) Echo doppler des membres inférieurs"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le bilan biologique standard est indispensable pour évaluer le terrain (bilan lipidique, glycémie/HbA1c, fonction rénale avant injection de produit de contraste, NFS).\n• B (Vrai) : Indispensable pour explorer son angor d'effort et objectiver l'ischémie myocardique coronaire.\n• C (Vrai) : L'examen clinique vasculaire complet avec palpation comparative de tous les pouls périphériques est systématique devant une AOMI et un patient polyvasculaire.\n• D (Vrai) : L'angioscanner de l'aorte abdominale et de ses branches est l'examen de référence pour visualiser les sténoses des artères digestives (tronc cœliaque, mésentériques) responsables de l'angor mésentérique, ainsi que l'axe aorto-iliaque.\n• E (Vrai) : L'écho-Doppler artériel des membres inférieurs est l'examen de première intention pour confirmer et cartographier l'artérite des membres inférieurs (AOMI)."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/DP1.pdf"] = [
@@ -7169,52 +7250,53 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/DP1.pdf"] = [
       "A": "Syndrome hémolytique et urémique",
       "B": "Syndrome néphrotique pur",
       "C": "Syndrome de glomérulonéphrite chronique",
-      "D": "Syndrome d'hématurie macroscopique récidivant",
+      "D": "Syndrome d'hématurie macroscopique récidivante",
       "E": "Syndrome de glomérulonéphrite rapidement progressive"
     },
     "correctAnswers": [
       "E"
     ],
-    "text": "[Cas clinique : Un patient âgé de 23 ans consulte aux urgences pour altération de l'état général depuis une semaine. Il n'a pas d'antécédent médicaux particulier. Il présentait une fonction rénale et une NFS normale lors d'un bilan biologique datant d'il y a un an. . TA 155/85 mmHg • FC95 bpm • Sat 93% en air ambiant Il est polypnéique et présente une pâleur cutanéo-muqueuse. L'examen cutané ne montre pas de lésions. L'auscultation cardio-pulmonaire révèle des crépitants aux bases pulmonaires. Vous faites réaliser un bilan biologique qui montre : . Hb:7g/dl • VGM: 70fl • Plaquettes: 370 G/L • Créatininémie: 350 pmol/L • Kaliémie: 4,5 mmol/L • Réserve alcaline: 13 mmol/L L'ionogramme urinaire montre : • Natriurèse: 25 mmol/L • Kaliurèse: 7 mmol/L • Protéinurie: 4 grammes/L • Rapport protéinurie/créatininurie: 300 mg/mmol • Rapport albuminurie/créatininurie: 250 mg/mmol L'ECBU montre : 250 hématies/mm3 • Leucocytes: 5/ mm • Culture stérile]\n: Parmi les syndromes glomérulaires suivants, quel est celui qui correspond au patient ?",
+    "text": "[Cas clinique : Un patient âgé de 23 ans consulte aux urgences pour altération de l'état général depuis une semaine. Il n'a pas d'antécédent médical particulier. Il présentait une fonction rénale et une NFS normales lors d'un bilan biologique datant d'il y a un an. • TA : 155/85 mmHg • FC : 95 bpm • Sat : 93 % en air ambiant. Il est polypnéique et présente une pâleur cutanéo-muqueuse. L'examen cutané ne montre pas de lésions. L'auscultation cardio-pulmonaire révèle des crépitants aux bases pulmonaires. Vous faites réaliser un bilan biologique qui montre : • Hb : 7 g/dL • VGM : 70 fL • Plaquettes : 370 G/L • Créatininémie : 350 µmol/L • Kaliémie : 4,5 mmol/L • Réserve alcaline : 13 mmol/L. L'ionogramme urinaire montre : • Natriurèse : 25 mmol/L • Kaliurèse : 7 mmol/L • Protéinurie : 4 g/L • Rapport protéinurie/créatininurie : 300 mg/mmol • Rapport albuminurie/créatininurie : 250 mg/mmol. L'ECBU montre : 250 hématies/mm³ • Leucocytes : 5/mm³ • Culture stérile]\nParmi les syndromes glomérulaires suivants, quel est celui qui correspond au patient ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-DP1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) Syndrome de glomérulonéphrite rapidement progressive"
+    "explanation": "Correction détaillée :\n• A (Faux) : Il n'y a pas de thrombopénie (plaquettes normales à 370 G/L) ni d'arguments pour une microangiopathie thrombotique.\n• B (Faux) : La présence d'une insuffisance rénale aiguë sévère, d'une HTA et d'une hématurie importante exclut un syndrome néphrotique pur.\n• C (Faux) : L'installation est rapide (bilan normal un an auparavant, symptômes depuis une semaine).\n• D (Faux) : Il ne s'agit pas d'épisodes isolés d'hématurie macroscopique récidivante.\n• E (Vrai) : L'association d'une insuffisance rénale sévère d'installation rapide (quelques jours à semaines), d'une protéinurie glomérulaire abondante et d'une hématurie active (250 hématies/mm³) définit le syndrome de glomérulonéphrite rapidement progressive (GNRP)."
   },
   {
     "options": {
       "A": "Vascularite à ANCA",
       "B": "Glomérulonéphrite diabétique",
       "C": "Vascularite anti-MBG (anti-membrane basale glomérulaire) (ou maladie de Goodpasture)",
-      "D": "Vascularite à dépôts de complexe immuns",
+      "D": "Vascularite à dépôts de complexes immuns",
       "E": "Artérite à cellules géantes (anciennement maladie de Horton)"
     },
     "correctAnswers": [
       "C"
     ],
-    "text": "[Cas clinique : Un patient âgé de 23 ans consulte aux urgences pour altération de l'état général depuis une semaine. Il n'a pas d'antécédent médicaux particulier. Il présentait une fonction rénale et une NFS normale lors d'un bilan biologique datant d'il y a un an. . TA 155/85 mmHg • FC95 bpm • Sat 93% en air ambiant Il est polypnéique et présente une pâleur cutanéo-muqueuse. L'examen cutané ne montre pas de lésions. L'auscultation cardio-pulmonaire révèle des crépitants aux bases pulmonaires. Vous faites réaliser un bilan biologique qui montre : . Hb:7g/dl • VGM: 70fl • Plaquettes: 370 G/L • Créatininémie: 350 pmol/L • Kaliémie: 4,5 mmol/L • Réserve alcaline: 13 mmol/L L'ionogramme urinaire montre : • Natriurèse: 25 mmol/L • Kaliurèse: 7 mmol/L • Protéinurie: 4 grammes/L • Rapport protéinurie/créatininurie: 300 mg/mmol • Rapport albuminurie/créatininurie: 250 mg/mmol L'ECBU montre : 250 hématies/mm3 • Leucocytes: 5/ mm • Culture stérile]\nLe patient est hospitalisé en néphrologie. Vous réalisez en urgence une biopsie rénale. L'anatomopathologie retrouve en microscopie optique : glomérulonéphrite proliférative extra capillaire. En immunofluorescence : dépôts linéaires d'anticorps IgG le long de la membrane basale glomérulaire (Cf. image associée). Parmi les réponses suivantes, quel est le diagnostic exact (QRIJ) ?",
+    "text": "[Cas clinique : Un patient âgé de 23 ans consulte aux urgences pour altération de l'état général depuis une semaine. Il n'a pas d'antécédent médical particulier. Il présentait une fonction rénale et une NFS normales lors d'un bilan biologique datant d'il y a un an. • TA : 155/85 mmHg • FC : 95 bpm • Sat : 93 % en air ambiant. Il est polypnéique et présente une pâleur cutanéo-muqueuse. L'examen cutané ne montre pas de lésions. L'auscultation cardio-pulmonaire révèle des crépitants aux bases pulmonaires. Vous faites réaliser un bilan biologique qui montre : • Hb : 7 g/dL • VGM : 70 fL • Plaquettes : 370 G/L • Créatininémie : 350 µmol/L • Kaliémie : 4,5 mmol/L • Réserve alcaline : 13 mmol/L. L'ionogramme urinaire montre : • Natriurèse : 25 mmol/L • Kaliurèse : 7 mmol/L • Protéinurie : 4 g/L • Rapport protéinurie/créatininurie : 300 mg/mmol • Rapport albuminurie/créatininurie : 250 mg/mmol. L'ECBU montre : 250 hématies/mm³ • Leucocytes : 5/mm³ • Culture stérile]\nLe patient est hospitalisé en néphrologie. Vous réalisez en urgence une biopsie rénale. L'anatomopathologie retrouve en microscopie optique : glomérulonéphrite proliférative extracapillaire. En immunofluorescence : dépôts linéaires d'anticorps IgG le long de la membrane basale glomérulaire (Cf. image associée). Parmi les réponses suivantes, quel est le diagnostic exact (QRU) ?",
     "image": "data/images/annales/UE5-Nephro1-DP1-p2-xref37.jpeg",
     "id": "ANN-UE5-UE5S3Nephrologie1-DP1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Vascularite anti-MBG (anti-membrane basale glomérulaire) (ou maladie de Goodpasture)"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les vascularites à ANCA sont dites « pauci-immunes » (absence de dépôts d'immunoglobulines en immunofluorescence).\n• B (Faux) : Il ne s'agit pas d'une glomérulosclérose diabétique.\n• C (Vrai) : L'association d'une prolifération extracapillaire (croissants) en microscopie optique et de dépôts linéaires continus d'IgG le long de la membrane basale glomérulaire en immunofluorescence est pathognomonique de la vascularite à anticorps anti-MBG (maladie de Goodpasture).\n• D (Faux) : Les vascularites à complexes immuns (ex : lupus, cryoglobulinémie, purpura rhumatoïde) donnent des dépôts granuleux et non linéaires.\n• E (Faux) : L'artérite à cellules géantes est une vascularite des gros troncs artériels du sujet âgé qui ne donne pas de GNRP."
   },
   {
     "options": {
-      "A": "Hémorragie intra alvéolaire, Œdème aigue pulmonaire",
-      "B": "Œdème aigue pulmonaire",
+      "A": "Hémorragie intra-alvéolaire",
+      "B": "Œdème aigu pulmonaire",
       "C": "Pneumothorax",
       "D": "Pneumonie bilatérale",
       "E": "Œdème de Quincke"
     },
     "correctAnswers": [
       "A",
+      "B",
       "D"
     ],
-    "text": "[Cas clinique : Un patient âgé de 23 ans consulte aux urgences pour altération de l'état général depuis une semaine. Il n'a pas d'antécédent médicaux particulier. Il présentait une fonction rénale et une NFS normale lors d'un bilan biologique datant d'il y a un an. . TA 155/85 mmHg • FC95 bpm • Sat 93% en air ambiant Il est polypnéique et présente une pâleur cutanéo-muqueuse. L'examen cutané ne montre pas de lésions. L'auscultation cardio-pulmonaire révèle des crépitants aux bases pulmonaires. Vous faites réaliser un bilan biologique qui montre : . Hb:7g/dl • VGM: 70fl • Plaquettes: 370 G/L • Créatininémie: 350 pmol/L • Kaliémie: 4,5 mmol/L • Réserve alcaline: 13 mmol/L L'ionogramme urinaire montre : • Natriurèse: 25 mmol/L • Kaliurèse: 7 mmol/L • Protéinurie: 4 grammes/L • Rapport protéinurie/créatininurie: 300 mg/mmol • Rapport albuminurie/créatininurie: 250 mg/mmol L'ECBU montre : 250 hématies/mm3 • Leucocytes: 5/ mm • Culture stérile]\n: Dans la nuit, l'interne de garde est appelé car le patient présente des crachats sanglants. En regardant les constantes, vous constatez qu'il est subfébrile, qu'il nécessite désormais une oxygénothérapie à 3 litres/minutes et qu'il n'a presque pas uriné depuis environ 8 heures. L'auscultation retrouve désormais des crépitants bilatéraux sur l'ensemble des 2 champs pulmonaires. Vous faites réaliser un scanner qui montre l'image suivante. Parmi les réponses suivantes, quels sont les diagnostics compatibles avec le tableau clinique et scannographique du patient (QRM) ?",
+    "text": "[Cas clinique : Un patient âgé de 23 ans consulte aux urgences pour altération de l'état général depuis une semaine. Il n'a pas d'antécédent médical particulier. Il présentait une fonction rénale et une NFS normales lors d'un bilan biologique datant d'il y a un an. • TA : 155/85 mmHg • FC : 95 bpm • Sat : 93 % en air ambiant. Il est polypnéique et présente une pâleur cutanéo-muqueuse. L'examen cutané ne montre pas de lésions. L'auscultation cardio-pulmonaire révèle des crépitants aux bases pulmonaires. Vous faites réaliser un bilan biologique qui montre : • Hb : 7 g/dL • VGM : 70 fL • Plaquettes : 370 G/L • Créatininémie : 350 µmol/L • Kaliémie : 4,5 mmol/L • Réserve alcaline : 13 mmol/L. L'ionogramme urinaire montre : • Natriurèse : 25 mmol/L • Kaliurèse : 7 mmol/L • Protéinurie : 4 g/L • Rapport protéinurie/créatininurie : 300 mg/mmol • Rapport albuminurie/créatininurie : 250 mg/mmol. L'ECBU montre : 250 hématies/mm³ • Leucocytes : 5/mm³ • Culture stérile]\nDans la nuit, l'interne de garde est appelé car le patient présente des crachats sanglants. En regardant les constantes, vous constatez qu'il est subfébrile, qu'il nécessite désormais une oxygénothérapie à 3 litres/minute et qu'il n'a presque pas uriné depuis environ 8 heures. L'auscultation retrouve désormais des crépitants bilatéraux sur l'ensemble des 2 champs pulmonaires. Vous faites réaliser un scanner qui montre l'image suivante. Parmi les réponses suivantes, quels sont les diagnostics compatibles avec le tableau clinique et scannographique du patient (QRM) ?",
     "image": "data/images/annales/UE5-Nephro1-DP1-p3-xref62.jpeg",
     "id": "ANN-UE5-UE5S3Nephrologie1-DP1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Hémorragie intra alvéolaire, Œdème aigue pulmonaire ; D) Pneumonie bilatérale"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Devant des hémoptysies (crachats sanglants), une anémie microcytaire et des condensations alvéolaires bilatérales dans un contexte de maladie de Goodpasture, l'hémorragie intra-alvéolaire (syndrome pneumo-rénal par attaque des capillaires alvéolaires par les anticorps anti-MBG) est le premier diagnostic à évoquer.\n• B (Vrai) : Devant l'oligo-anurie (quasi-absence de diurèse depuis 8 h), l'insuffisance rénale sévère et les crépitants bilatéraux, un œdème aigu du poumon (OAP de surcharge hydrosodée) est également compatible.\n• C (Faux) : Le scanner montre un comblement alvéolaire parenchymateux bilatéral et non un décollement pleural aérique.\n• D (Vrai) : Le caractère subfébrile et les condensations alvéolaires bilatérales rendent également compatible une pneumonie infectieuse bilatérale (ou surinfection).\n• E (Faux) : L'œdème de Quincke est un angioœdème laryngé/ORL donnant une dyspnée inspiratoire haute, sans rapport avec ce tableau alvéolaire."
   },
   {
     "options": {
-      "A": "Dans 25% des cas, la poussée de la maladie évolue vers une rémission spontanée, c'est-à-dire sans traitement.",
+      "A": "Dans 25 % des cas, la poussée de la maladie évolue vers une rémission spontanée, c'est-à-dire sans traitement.",
       "B": "La récupération rénale se fait « ad integrum » après la poussée, c'est-à-dire sans séquelle.",
       "C": "Lors d'une poussée de la maladie, il existe un risque vital pour le patient.",
       "D": "La mise en dialyse permet dans la majorité des cas la rémission de la maladie.",
@@ -7224,9 +7306,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/DP1.pdf"] = [
       "C",
       "E"
     ],
-    "text": "[Cas clinique : Un patient âgé de 23 ans consulte aux urgences pour altération de l'état général depuis une semaine. Il n'a pas d'antécédent médicaux particulier. Il présentait une fonction rénale et une NFS normale lors d'un bilan biologique datant d'il y a un an. . TA 155/85 mmHg • FC95 bpm • Sat 93% en air ambiant Il est polypnéique et présente une pâleur cutanéo-muqueuse. L'examen cutané ne montre pas de lésions. L'auscultation cardio-pulmonaire révèle des crépitants aux bases pulmonaires. Vous faites réaliser un bilan biologique qui montre : . Hb:7g/dl • VGM: 70fl • Plaquettes: 370 G/L • Créatininémie: 350 pmol/L • Kaliémie: 4,5 mmol/L • Réserve alcaline: 13 mmol/L L'ionogramme urinaire montre : • Natriurèse: 25 mmol/L • Kaliurèse: 7 mmol/L • Protéinurie: 4 grammes/L • Rapport protéinurie/créatininurie: 300 mg/mmol • Rapport albuminurie/créatininurie: 250 mg/mmol L'ECBU montre : 250 hématies/mm3 • Leucocytes: 5/ mm • Culture stérile]\nLe diagnostic de vascularite à anticorps anti-MBG (ou maladie de Goodpasture) est évoqué. Concernant le pronostic de la maladie de Goodpasture, quelles sont les réponses exactes (QRM) ?",
+    "text": "[Cas clinique : Un patient âgé de 23 ans consulte aux urgences pour altération de l'état général depuis une semaine. Il n'a pas d'antécédent médical particulier. Il présentait une fonction rénale et une NFS normales lors d'un bilan biologique datant d'il y a un an. • TA : 155/85 mmHg • FC : 95 bpm • Sat : 93 % en air ambiant. Il est polypnéique et présente une pâleur cutanéo-muqueuse. L'examen cutané ne montre pas de lésions. L'auscultation cardio-pulmonaire révèle des crépitants aux bases pulmonaires. Vous faites réaliser un bilan biologique qui montre : • Hb : 7 g/dL • VGM : 70 fL • Plaquettes : 370 G/L • Créatininémie : 350 µmol/L • Kaliémie : 4,5 mmol/L • Réserve alcaline : 13 mmol/L. L'ionogramme urinaire montre : • Natriurèse : 25 mmol/L • Kaliurèse : 7 mmol/L • Protéinurie : 4 g/L • Rapport protéinurie/créatininurie : 300 mg/mmol • Rapport albuminurie/créatininurie : 250 mg/mmol. L'ECBU montre : 250 hématies/mm³ • Leucocytes : 5/mm³ • Culture stérile]\nLe diagnostic de vascularite à anticorps anti-MBG (ou maladie de Goodpasture) est évoqué. Concernant le pronostic de la maladie de Goodpasture, quelles sont les réponses exactes (QRM) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-DP1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Lors d'une poussée de la maladie, il existe un risque vital pour le patient. ; E) Il existe un risque de rechute."
+    "explanation": "Correction détaillée :\n• A (Faux) : Il n'y a pas de rémission spontanée ; sans traitement agressif d'urgence (échanges plasmatiques, corticoïdes, immunosuppresseurs), l'évolution est rapidement fatale ou mène à l'insuffisance rénale terminale.\n• B (Faux) : La destruction glomérulaire est très rapide et laisse très souvent de lourdes séquelles rénales (insuffisance rénale chronique ou terminale), surtout lorsque la créatininémie initiale est déjà élevée ou en cas d'oligo-anurie.\n• C (Vrai) : Le pronostic vital est engagé à court terme, principalement du fait du risque d'hémorragie intra-alvéolaire fulgurante et des complications de l'insuffisance rénale aiguë sévère.\n• D (Faux) : La dialyse est un traitement de suppléance de la fonction rénale mais ne traite pas le processus auto-immun causal.\n• E (Vrai) : Bien que les rechutes soient nettement plus rares que dans les vascularites à ANCA, un risque de rechute existe (notamment en cas de poursuite d'une exposition aux toxiques inhalés comme le tabac) et justifie une surveillance."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
@@ -7244,37 +7326,37 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
     ],
     "text": "Concernant les diurétiques de l'anse, quel(s) est(sont) leur(s) effet(s) parmi les suivants ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils provoquent une calciurie importante. ; B) Ils provoquent une natriurèse importante."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ils inhibent le cotransporteur NKCC2 dans la branche ascendante large de l'anse de Henlé, ce qui abolit le gradient transépithélial électropositif de la lumière tubulaire et diminue la réabsorption paracellulaire du calcium (et du magnésium), entraînant une hypercalciurie.\n• B (Vrai) : Ils bloquent la réabsorption de 20 à 25 % du sodium filtré, provoquant une natriurèse puissante.\n• C (Faux) : Ils provoquent une alcalose métabolique (de contraction volémique et par stimulation de l'excrétion distale de H+), et non une acidose.\n• D (Faux) : L'afflux accru de sodium et d'eau dans le tube collecteur stimule l'échange Na+/K+ aldostérone-dépendant, provoquant une fuite urinaire de potassium et donc une hypokaliémie.\n• E (Faux) : La gynécomastie est un effet indésirable endocrinien classique de la spironolactone (antagoniste des récepteurs aux minéralocorticoïdes), et non des diurétiques de l'anse."
   },
   {
     "options": {
       "A": "Un scanner abdominopelvien avec injection de produit de contraste",
       "B": "Une scintigraphie rénale",
       "C": "Une échographie réno-vésicale",
-      "D": "Une biopsie rénale s'il ne présente pas de contre indication.",
+      "D": "Une biopsie rénale s'il ne présente pas de contre-indication",
       "E": "Des hémocultures"
     },
     "correctAnswers": [
       "C"
     ],
-    "text": "Vous suivez un patient, de 70 ans, qui a présenté il y a 5 ans une vascularite à ANCA avec des Anti-PR3 au diagnostic positif à 1200 Ui/mL (normale < 20). Il avait été traité par RITUXIMAB 4 injections à l'induction puis un entretien tous les 6 mois par RITUXIMAB. Une biopsie avait été réalisée il y a 1 an devant la persistance d'une insuffisance rénale chronique avec une créatinine à 130 micromol/l et une protéinurie à 80mg/mmol. Celle-ci n'avait retrouvé que des lésions chroniques avec quelques lésions de hyalinose segmentaire et focale. Il n'y avait pas d'argument pour une activlté de la maladie. Les derniers ac anti-PR3 étaient négatifs. L'entretien par Rituximab a donc a été interrompu. Vous recevez son bilan trimestriel qui retrouve une créatinine à 400 micromol/l sans trouble ionique. Le bilan urinaire retrouve une protéinurie à 90 mg/mmol avec absence d'hématurie ou leucocyturie. Vous l'appelez et il se plaint de douleurs hypogastriques et dysurie. Quel examen devez vous réaliser en urgence (1 seule réponse) ?",
+    "text": "Vous suivez un patient de 70 ans qui a présenté il y a 5 ans une vascularite à ANCA avec des anti-PR3 au diagnostic positifs à 1200 UI/mL (normale < 20). Il avait été traité par RITUXIMAB 4 injections à l'induction puis un entretien tous les 6 mois par RITUXIMAB. Une biopsie avait été réalisée il y a 1 an devant la persistance d'une insuffisance rénale chronique avec une créatinine à 130 µmol/L et une protéinurie à 80 mg/mmol. Celle-ci n'avait retrouvé que des lésions chroniques avec quelques lésions de hyalinose segmentaire et focale. Il n'y avait pas d'argument pour une activité de la maladie. Les derniers Ac anti-PR3 étaient négatifs. L'entretien par Rituximab a donc été interrompu. Vous recevez son bilan trimestriel qui retrouve une créatinine à 400 µmol/L sans trouble ionique. Le bilan urinaire retrouve une protéinurie à 90 mg/mmol avec absence d'hématurie ou leucocyturie. Vous l'appelez et il se plaint de douleurs hypogastriques et dysurie. Quel examen devez-vous réaliser en urgence (1 seule réponse) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Une échographie réno-vésicale"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le scanner injecté est contre-indiqué en urgence chez un patient présentant une insuffisance rénale aiguë sévère (créatinine à 400 µmol/L) en raison de la néphrotoxicité des produits de contraste iodés.\n• B (Faux) : La scintigraphie rénale n'a aucun intérêt en urgence dans ce contexte.\n• C (Vrai) : Devant des douleurs hypogastriques, une dysurie et une dégradation aiguë de la fonction rénale chez un homme de 70 ans (sans réapparition d'hématurie orientant vers une rechute glomérulaire), on suspecte avant tout une IRA obstructive sur obstacle sous-vésical (globe vésical). L'échographie réno-vésicale est l'examen de première intention devant toute IRA pour rechercher un globe vésical et une dilatation des cavités pyélocalicielles.\n• D (Faux) : La ponction-biopsie rénale est formellement contre-indiquée tant qu'un obstacle sur les voies urinaires n'a pas été éliminé, et le sédiment urinaire calme (absence d'hématurie, protéinurie stable) n'évoque pas une poussée de vascularite.\n• E (Faux) : En l'absence de fièvre, de frissons ou de leucocyturie, les hémocultures ne sont pas l'examen prioritaire."
   },
   {
     "options": {
       "A": "Une bandelette urinaire",
-      "B": "Un dosage de la protéinurie avec calcul du rapport protéinurie/Créatininurie",
+      "B": "Un dosage de la protéinurie avec calcul du rapport Protéinurie/Créatininurie",
       "C": "Un dosage de la créatinine sanguine",
       "D": "Un examen cytobactériologique des urines",
-      "E": "Un test à l'eau Oxygéné"
+      "E": "Un test à l'eau oxygénée"
     },
     "correctAnswers": [
       "D"
     ],
-    "text": "Un patient, de 35 ans, consulte pour des épisodes d'hématuries répétés. Il ne présente pas d'antécédent et ne prend pas de traitement. Ces épisodes surviennent sans facteurs déclenchant identifiés et sont résolutifs spontanément. Vous souhaitez confirmer le diagnostic d'hématurie. Quel examen réalisez vous (1 seule réponse) ?",
+    "text": "Un patient de 35 ans consulte pour des épisodes d'hématuries répétés. Il ne présente pas d'antécédent et ne prend pas de traitement. Ces épisodes surviennent sans facteur déclenchant identifié et sont résolutifs spontanément. Vous souhaitez confirmer le diagnostic d'hématurie. Quel examen réalisez-vous (1 seule réponse) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Un examen cytobactériologique des urines"
+    "explanation": "Correction détaillée :\n• A (Faux) : La bandelette urinaire n'est qu'un examen de dépistage (détection de l'activité peroxydasique de l'hème) exposé à des faux positifs (myoglobinurie, hémoglobinurie).\n• B (Faux) : Le rapport protéinurie/créatininurie quantifie la protéinurie mais ne permet pas d'affirmer une hématurie.\n• C (Faux) : La créatininémie évalue la fonction rénale (DFG), mais ne confirme pas la présence d'hématies dans les urines.\n• D (Vrai) : L'ECBU est l'examen de référence obligatoire pour confirmer positivement une hématurie par l'examen cytologique quantitatif (définie par ≥ 10 hématies/mm³ ou ≥ 10 000/mL).\n• E (Faux) : Le test à l'eau oxygénée n'est pas un examen diagnostique d'hématurie."
   },
   {
     "options": {
@@ -7282,14 +7364,14 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
       "B": "Gliflozine",
       "C": "Antagoniste du récepteur à l'angiotensine 2",
       "D": "Diurétiques du tube collecteur",
-      "E": "Il ny a pas dindication à rajouter un autre traitement"
+      "E": "Il n'y a pas d'indication à rajouter un autre traitement"
     },
     "correctAnswers": [
       "B"
     ],
-    "text": "Un patient, de 65 ans, se présente à votre cabinet pour suivi de son diabète de type 2. Celui-ci est connu depuis IO ans et est compliqué de rétinopathie diabétique. Il a par ailleurs de l'hypertension. Il prend comme traitement: • Metformine 750 mg x 2 par jour (antidiabétique oral) • Ramipril IOmg/jour (IEC à dose maximale) Il vous ramène son bilan qui retrouve: • HbAICà • NFS normale • Créatinine: 70 micromol/l avec un DFG à 96mL/min • Ionogramme normal Le bilan urinaire retrouve un rapport Albuminurie/Créatininurie à 40mg/mmol sans hématurie ni leucocyturie associé. Quelle classe médicamenteuse ajoutez vous à son traitement (1 seule réponse) ?",
+    "text": "Un patient de 65 ans se présente à votre cabinet pour suivi de son diabète de type 2. Celui-ci est connu depuis 10 ans et est compliqué de rétinopathie diabétique. Il a par ailleurs de l'hypertension. Il prend comme traitement : • Metformine 750 mg x 2 par jour (antidiabétique oral) • Ramipril 10 mg/jour (IEC à dose maximale). Il vous ramène son bilan qui retrouve : • NFS normale • Créatinine : 70 µmol/L avec un DFG à 96 mL/min • Ionogramme normal. Le bilan urinaire retrouve un rapport Albuminurie/Créatininurie à 40 mg/mmol sans hématurie ni leucocyturie associée. Quelle classe médicamenteuse ajoutez-vous à son traitement (1 seule réponse) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Gliflozine"
+    "explanation": "Correction détaillée :\n• A (Faux) : Il n'y a pas d'indication systématique à l'aspirine en prévention primaire en l'absence d'événement cardiovasculaire athéromateux documenté.\n• B (Vrai) : Les gliflozines (inhibiteurs du cotransporteur SGLT2, ex : dapagliflozine, empagliflozine) ont une indication formelle de néphroprotection et de cardioprotection chez le patient diabétique de type 2 présentant une maladie rénale chronique (ici attestée par un RAC élevé à 40 mg/mmol > 30 mg/mmol), en association avec un bloqueur du SRAA à dose maximale tolérée.\n• C (Faux) : Le patient reçoit déjà un IEC à pleine dose (Ramipril 10 mg/j) ; l'association IEC + ARA2 (double blocage du SRAA) est formellement contre-indiquée (risque d'hyperkaliémie et d'insuffisance rénale aiguë).\n• D (Faux) : Il n'y a pas d'indication de première intention aux diurétiques épargneurs potassiques classiques ici.\n• E (Faux) : La persistance d'une macroalbuminurie (RAC à 40 mg/mmol) sous IEC à dose maximale impose d'optimiser la néphroprotection par l'ajout d'un inhibiteur de SGLT2 (gliflozine)."
   },
   {
     "options": {
@@ -7302,16 +7384,16 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
     "correctAnswers": [
       "B"
     ],
-    "text": "Vous recevez un patient, de 67 ans, diabétique depuis 20 ans. Dans le cadre de son diabète, vous prescrivez une analyse urinaire pour rechercher une atteinte rénale de son diabète. Vous récupérez les résultats : • Na IJ : 65mmol/l • KU : 25mmol/l • Urée : 200mmol/l • Albuminurie 25mg/l Créatininurie : 5mmol/l Quelle est la proposition juste concernant l'atteinte rénale (1 seule réponse) ?",
+    "text": "Vous recevez un patient de 67 ans, diabétique depuis 20 ans. Dans le cadre de son diabète, vous prescrivez une analyse urinaire pour rechercher une atteinte rénale de son diabète. Vous récupérez les résultats : • NaU : 65 mmol/L • KU : 25 mmol/L • Urée : 200 mmol/L • Albuminurie : 25 mg/L • Créatininurie : 5 mmol/L. Quelle est la proposition juste concernant l'atteinte rénale (1 seule réponse) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Il existe une Albuminurie A2."
+    "explanation": "Correction détaillée :\nCalcul du Rapport Albuminurie/Créatininurie (RAC) = 25 mg/L / 5 mmol/L = 5 mg/mmol.\n• A (Faux) : Le stade A1 (albuminurie normale à légèrement élevée) correspond à un RAC < 3 mg/mmol (< 30 mg/g).\n• B (Vrai) : Un RAC à 5 mg/mmol est compris entre 3 et 30 mg/mmol (30 à 300 mg/g), ce qui définit une albuminurie de stade A2 (anciennement appelée microalbuminurie).\n• C (Faux) : Le stade A3 (macroalbuminurie) correspond à un RAC > 30 mg/mmol (> 300 mg/g).\n• D (Faux) : Le stade A4 n'existe pas dans la classification KDIGO.\n• E (Faux) : La présence d'une albuminurie de stade A2 témoigne d'une atteinte rénale débutante."
   },
   {
     "options": {
       "A": "Il peut s'agir d'une GEM secondaire à une maladie auto-immune de type Lupus.",
       "B": "L'atteinte peut être satellite d'un cancer mammaire.",
       "C": "L'atteinte peut être secondaire à la prise d'AINS.",
-      "D": "L'atteinte peut être secondaire à une néphropathie à lgA.",
+      "D": "L'atteinte peut être secondaire à une néphropathie à IgA.",
       "E": "Cette atteinte doit faire rechercher une atteinte pulmonaire (syndrome pneumo-rénal)."
     },
     "correctAnswers": [
@@ -7319,15 +7401,15 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
       "B",
       "C"
     ],
-    "text": "Vous récupérez les résultats d'une biopsie rénale faite chez une patiente de 50 ans pour l'exploration d'un syndrome néphrotique. La patiente ne prend pas de traitement particulier hormis des AINS pour des céphalées et n'a pas d'antécédent. La biopsie retrouve une Glomérulonéphrite extra membraneuse Ac anti-PLA2R négative. Parmi ces propositions, quelles sont les 3 réponses exactes (QRP) ? — 3 réponses sont attendues —",
+    "text": "Vous récupérez les résultats d'une biopsie rénale faite chez une patiente de 50 ans pour l'exploration d'un syndrome néphrotique. La patiente ne prend pas de traitement particulier hormis des AINS pour des céphalées et n'a pas d'antécédent. La biopsie retrouve une Glomérulonéphrite extra-membraneuse Ac anti-PLA2R négative. Parmi ces propositions, quelles sont les 3 réponses exactes (QRP) ? — 3 réponses sont attendues —",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il peut s'agir d'une GEM secondaire à une maladie auto-immune de type Lupus. ; B) L'atteinte peut être satellite d'un cancer mammaire. ; C) L'atteinte peut être secondaire à la prise d'AINS."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Une glomérulonéphrite extra-membraneuse (GEM), a fortiori anti-PLA2R négative chez une femme, peut être secondaire à un lupus érythémateux disséminé (néphropathie lupique de classe V).\n• B (Vrai) : Les GEM secondaires sont fréquemment paranéoplasiques, satellites d'une tumeur solide (cancer du sein, du poumon, du côlon, de la prostate).\n• C (Vrai) : La prise d'anti-inflammatoires non stéroïdiens (AINS) est une cause médicamenteuse classique de GEM secondaire (ou de LGM).\n• D (Faux) : La néphropathie à IgA (maladie de Berger) est une glomérulopathie à dépôts mésangiaux d'IgA distincte de la GEM.\n• E (Faux) : Le syndrome pneumo-rénal s'observe dans les glomérulonéphrites rapidement progressives (vascularites à ANCA, maladie de Goodpasture), et non dans la GEM."
   },
   {
     "options": {
       "A": "Hémoglobinémie",
       "B": "Intensité de l'insuffisance rénale",
-      "C": "Taille des reins •e•",
+      "C": "Taille des reins",
       "D": "Présence d'une hyperparathyroïdie",
       "E": "Absence d'hématurie"
     },
@@ -7335,43 +7417,43 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
       "A",
       "C"
     ],
-    "text": "Parmi les critères suivants, permet(tent) de différencier une insuffisance rénale aigue d'une insuffisance rénale chronique ?",
+    "text": "Parmi les critères suivants, lequel (lesquels) permet(tent) de différencier une insuffisance rénale aiguë d'une insuffisance rénale chronique ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Hémoglobinémie ; C) Taille des reins •e•"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La présence d'une anémie normochrome normocytaire arégénérative (baisse de l'hémoglobinémie par défaut de synthèse rénale d'EPO) est un argument classique en faveur du caractère chronique de l'insuffisance rénale.\n• B (Faux) : La profondeur de l'élévation de la créatininémie ou de la baisse du DFG ne préjuge pas du caractère aigu ou chronique.\n• C (Vrai) : L'atrophie rénale bilatérale à l'échographie (petits reins < 10 cm avec perte de la différenciation cortico-médullaire) signe le caractère chronique de l'insuffisance rénale.\n• D (Faux) : L'hyperparathyroïdie secondaire n'est pas retenue comme critère discriminant fiable (une hypocalcémie avec élévation réactionnelle de la PTH peut parfois s'observer en aigu ; les deux critères cardinaux en complément de l'hypocalcémie sont l'anémie et l'atrophie rénale).\n• E (Faux) : La présence ou l'absence d'hématurie renseigne sur le mécanisme (glomérulaire/urologique) mais pas sur l'ancienneté de l'insuffisance rénale."
   },
   {
     "options": {
-      "A": "Insuffisance rénale aigue par emboles de cristaux de cholestérol",
-      "B": "Insuffisance rénale aigue sur poussée de Néphropathie à lgA",
-      "C": "Insuffisance rénale aigue par nécrose tubulaire aigue",
-      "D": "Insuffisance rénale aigue par néphrite immuno-allergique",
-      "E": "Insuffisance rénale aigue par syndrome néphritique aigue"
+      "A": "Insuffisance rénale aiguë par emboles de cristaux de cholestérol",
+      "B": "Insuffisance rénale aiguë sur poussée de Néphropathie à IgA",
+      "C": "Insuffisance rénale aiguë par nécrose tubulaire aiguë",
+      "D": "Insuffisance rénale aiguë par néphrite immuno-allergique",
+      "E": "Insuffisance rénale aiguë par syndrome néphritique aigu"
     },
     "correctAnswers": [
       "C"
     ],
-    "text": "Situation clinique: • Homme de 65 ans, sous inhibiteur de l'enzyme de conversion pour une hypertension artérielle Diarrhées et vomissements profus pendant 5 jours • A perdu 5 kg • TA: 80/50 mmHg • FC: 98 bpm • Créatinine: 500 pmol/l • Urée: 25 mmol/l Kaliémie: 4,2 mmol/l Echographie rénale sans particularité • Na IJ: 35 mmol/l • KU: 25 mmol/l Protéinurie: 0,8 g/l • Albuminurie: 0,1 g/l 3 Hématies: 8/mm • Leucocytes: 5/ mm Quel est le diagnostic le plus probable ( 1 seule réponse) ?",
+    "text": "Situation clinique : • Homme de 65 ans, sous inhibiteur de l'enzyme de conversion pour une hypertension artérielle • Diarrhées et vomissements profus pendant 5 jours • A perdu 5 kg • TA : 80/50 mmHg • FC : 98 bpm • Créatinine : 500 µmol/L • Urée : 25 mmol/L • Kaliémie : 4,2 mmol/L • Échographie rénale sans particularité • NaU : 35 mmol/L • KU : 25 mmol/L • Protéinurie : 0,8 g/L • Albuminurie : 0,1 g/L • Hématies : 8/mm³ • Leucocytes : 5/mm³. Quel est le diagnostic le plus probable (1 seule réponse) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Insuffisance rénale aigue par nécrose tubulaire aigue"
+    "explanation": "Correction détaillée :\n• A (Faux) : Il n'y a ni geste endovasculaire récent ni signes cutanés d'emboles de cholestérol (livedo, orteils pourpres).\n• B (Faux) : Il n'y a pas de syndrome glomérulaire (absence d'hématurie significative < 10/mm³, albuminurie très faible à 0,1 g/L).\n• C (Vrai) : À la suite d'une déshydratation extracellulaire sévère sur pertes digestives prolongées (5 jours, perte de 5 kg, hypotension à 80/50 mmHg) aggravée par la prise d'IEC, l'hypoperfusion rénale sévère a évolué vers une nécrose tubulaire aiguë (NTA) ischémique, confirmée par la natriurèse non effondrée (NaU > 20 mmol/L avec rapport NaU/KU > 1) et une protéinurie de profil tubulaire (0,8 g/L dont seulement 0,1 g/L d'albumine).\n• D (Faux) : Pas d'introduction médicamenteuse récente ni de leucocyturie aseptique.\n• E (Faux) : Absence d'HTA, d'œdèmes, d'hématurie et de protéinurie glomérulaire."
   },
   {
     "options": {
-      "A": "Insuffisance rénale aigue par emboles de cristaux de cholestérol",
-      "B": "Insuffisance rénale aigue sur poussée de Néphropathie à lgA",
-      "C": "Insuffisance rénale aigue par nécrose tubulaire aigue",
-      "D": "Insuffisance rénale aigue par néphrite immuno-allergique",
-      "E": "Insuffisance rénale aigue par syndrome néphritique aigue"
+      "A": "Insuffisance rénale aiguë par emboles de cristaux de cholestérol",
+      "B": "Insuffisance rénale aiguë sur poussée de Néphropathie à IgA",
+      "C": "Insuffisance rénale aiguë par nécrose tubulaire aiguë",
+      "D": "Insuffisance rénale aiguë par néphrite immuno-allergique",
+      "E": "Insuffisance rénale aiguë par syndrome néphritique aigu"
     },
     "correctAnswers": [
       "A"
     ],
-    "text": "Cas clinique: • Femme de 70 ans, suivie pour une hypertension artérielle, diabète, deux accidents vasculaires cérébraux, une dyslipidémie, une artérite oblitérante des membres inférieurs. Elle a bénéficié d'une coronarographie diagnostique 1 5 jours auparavant. • Elle est à 170/95 mmHg, FC 80 bpm Apyrétique. Apparition récente d'un livedo • Créatininémie: 350 pmol/l • Bandelette urinaire : Protéinurie 1 + Hématurie 1+ Leucocyturie — • Echographie rénale normale Quel est le diagnostic le plus probable (1 seule réponse) ?",
+    "text": "Cas clinique : • Femme de 70 ans, suivie pour une hypertension artérielle, diabète, deux accidents vasculaires cérébraux, une dyslipidémie, une artérite oblitérante des membres inférieurs. Elle a bénéficié d'une coronarographie diagnostique 15 jours auparavant. • Elle est à 170/95 mmHg, FC 80 bpm, apyrétique. Apparition récente d'un livedo • Créatininémie : 350 µmol/L • Bandelette urinaire : Protéinurie 1+, Hématurie 1+, Leucocyturie - • Échographie rénale normale. Quel est le diagnostic le plus probable (1 seule réponse) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Insuffisance rénale aigue par emboles de cristaux de cholestérol"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La survenue d'une insuffisance rénale aiguë associée à un livedo (et une poussée hypertensive) de façon retardée (quelques jours à quelques semaines, ici 15 jours) après un cathétérisme artériel (coronarographie) chez une patiente polyvasculaire athéromateuse est caractéristique de la maladie des emboles de cristaux de cholestérol.\n• B, C, D, E (Faux) : Le terrain polyvasculaire, le facteur déclenchant endovasculaire avec intervalle libre de 15 jours et le livedo signent la maladie des emboles de cholestérol (la néphrotoxicité directe des produits de contraste iodés survient plus précocement, dans les 24 à 72 h, par NTA sans livedo)."
   },
   {
     "options": {
-      "A": "La première cause de mortalité du patient insuffisant rénale chronique est l'hyperkaliémie.",
+      "A": "La première cause de mortalité du patient insuffisant rénal chronique est l'hyperkaliémie.",
       "B": "L'hypocalcémie est fréquente du fait d'une hypoparathyroïdie.",
       "C": "L'hypophosphatémie est fréquente du fait de l'hyperparathyroïdie secondaire.",
       "D": "Un régime pauvre en calcium est nécessaire.",
@@ -7380,15 +7462,15 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
     "correctAnswers": [
       "E"
     ],
-    "text": "Concernant les complications de la maladie rénale chronique dans les stades les plus avancés. Quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
+    "text": "Concernant les complications de la maladie rénale chronique dans les stades les plus avancés, quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) Un régime pauvre en phosphore est nécessaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : La première cause de mortalité chez le patient atteint de maladie rénale chronique est cardiovasculaire (infarctus, AVC, insuffisance cardiaque).\n• B (Faux) : L'hypocalcémie de l'IRC est due au déficit de 1α-hydroxylation rénale de la vitamine D (carence en calcitriol) et à la rétention de phosphore, ce qui provoque une hyperparathyroïdie secondaire réactionnelle (et non une hypoparathyroïdie).\n• C (Faux) : Aux stades avancés de la MRC, la chute du DFG entraîne un défaut d'excrétion urinaire du phosphate et donc une hyperphosphatémie.\n• D (Faux) : Le patient étant exposé à l'hypocalcémie, on ne restreint pas le calcium (une supplémentation calcique et en vitamine D active est au contraire souvent nécessaire).\n• E (Vrai) : La restriction alimentaire en phosphore (associée si besoin à des chélateurs du phosphore) est indispensable aux stades avancés pour lutter contre l'hyperphosphatémie, l'hyperparathyroïdie secondaire et les calcifications vasculaires."
   },
   {
     "options": {
       "A": "Elle est le plus souvent normochrome normocytaire arégénérative.",
       "B": "Elle s'accompagne le plus souvent d'hémolyse mécanique.",
-      "C": "Les objectifs biologiques concernant le stock martial chez le patient insuffisant rénal est plus bas que la population générale pour éviter la surcharge en fer.",
+      "C": "Les objectifs biologiques concernant le stock martial chez le patient insuffisant rénal sont plus bas que dans la population générale pour éviter la surcharge en fer.",
       "D": "Le recours à la transfusion doit être favorisé chez le patient insuffisant rénal en raison de son risque cardiovasculaire.",
       "E": "Un traitement par érythropoïétine injectable est envisageable pour corriger l'anémie."
     },
@@ -7398,7 +7480,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
     ],
     "text": "Concernant l'anémie du patient insuffisant rénal chronique, quelle(s) est(sont) la(les) réponse(s) correcte(s) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle est le plus souvent normochrome normocytaire arégénérative. ; E) Un traitement par érythropoïétine injectable est envisageable pour corriger l'anémie."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'anémie de l'IRC est principalement liée au défaut de synthèse rénale d'érythropoïétine (EPO) : c'est une anémie centrale, normochrome, normocytaire et arégénérative.\n• B (Faux) : Elle n'est pas liée à une hémolyse mécanique (qui caractérise les microangiopathies thrombotiques comme le SHU).\n• C (Faux) : Les cibles de ferritinémie (> 100 à 200 ng/mL) et de coefficient de saturation de la transferrine (> 20 %) sont au contraire plus élevées chez l'IRC pour assurer l'efficacité de l'érythropoïèse et du traitement par EPO.\n• D (Faux) : Les transfusions sanguines doivent être évitées autant que possible afin de prévenir l'allo-immunisation anti-HLA qui compromettrait une future transplantation rénale.\n• E (Vrai) : Après correction d'une éventuelle carence martiale, l'administration d'agents stimulant l'érythropoïèse (EPO recombinante injectable) est le traitement spécifique de référence."
   },
   {
     "options": {
@@ -7406,20 +7488,20 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
       "B": "Vaccination contre l'hépatite B",
       "C": "Réaliser les prises de sang sur le membre supérieur droit",
       "D": "Inscription sur liste de greffe",
-      "E": "Création de la voie d'abord pour dialyse de type Fistule artérioveineuse x"
+      "E": "Création de la voie d'abord pour dialyse de type fistule artérioveineuse"
     },
     "correctAnswers": [
       "A",
       "B",
       "C"
     ],
-    "text": "partiellement correct Vous suivez un patient, de 50 ans, pour une maladie rénale chronique diabétique avec un DFG à 40 ml/min. Il est père de 3 enfants, cadre dans la fonction publique. Il pratique le tennis de façon occasionnelle, il est droitier. Quelle(s) est(sont) la(les) mesure(s) à mettre en place ?",
+    "text": "Vous suivez un patient de 50 ans pour une maladie rénale chronique diabétique avec un DFG à 40 mL/min. Il est père de 3 enfants, cadre dans la fonction publique. Il pratique le tennis de façon occasionnelle, il est droitier. Quelle(s) est(sont) la(les) mesure(s) à mettre en place ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Contrôle tensionnel avec un IEC ; B) Vaccination contre l'hépatite B ; C) Réaliser les prises de sang sur le membre supérieur droit"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le contrôle tensionnel strict avec un bloqueur du SRAA (IEC en première intention chez le diabétique) est un pilier de la néphroprotection pour ralentir la progression de la MRC.\n• B (Vrai) : La vaccination contre le virus de l'hépatite B doit être réalisée précocement (dès le stade 3B, quand la réponse vaccinale est encore bonne) en prévision d'une éventuelle suppléance future.\n• C (Vrai) : Le patient étant droitier, il faut impérativement préserver le capital veineux du membre supérieur non dominant (bras gauche) pour une éventuelle fistule artério-veineuse (FAV) ultérieure, et donc réaliser les ponctions veineuses à droite.\n• D (Faux) : L'inscription sur liste de transplantation rénale ne s'envisage qu'au stade 5 ou fin de stade 4 (DFG < 20 mL/min/1,73 m²).\n• E (Faux) : La création chirurgicale de la FAV ne s'anticipe qu'à un stade beaucoup plus avancé (généralement lorsque le DFG descend sous 15 à 20 mL/min)."
   },
   {
     "options": {
-      "A": "Le risque de transmission de la maladie à ses enfants est de 50% par enfant.",
+      "A": "Le risque de transmission de la maladie à ses enfants est de 50 % par enfant.",
       "B": "Si Léa présente trois kystes rénaux à droite et aucun à gauche, on peut affirmer qu'elle est atteinte de PKRAD.",
       "C": "Si Léa n'a pas de kyste à l'échographie, on peut exclure chez elle le diagnostic de PKRAD.",
       "D": "Seuls ses garçons sont potentiellement atteints.",
@@ -7429,9 +7511,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
       "A",
       "B"
     ],
-    "text": "Vous recevez en consultation, monsieur P, âgé de 54 ans, que vous suivez pour une PKRAD lié à un variant pathogène documenté situé sur le gène PKDI. Il a amené son épouse et ses 3 enfants : Léa 19 ans, Karim 16 ans, et Thimoté 14 ans car il s'inquiète de leur avoir transmis sa maladie. Quelles informations pouvez-vous lui donner ?",
+    "text": "Vous recevez en consultation monsieur P., âgé de 54 ans, que vous suivez pour une PKRAD liée à un variant pathogène documenté situé sur le gène PKD1. Il a amené son épouse et ses 3 enfants : Léa 19 ans, Karim 16 ans, et Thimoté 14 ans car il s'inquiète de leur avoir transmis sa maladie. Quelles informations pouvez-vous lui donner ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le risque de transmission de la maladie à ses enfants est de 50% par enfant. ; B) Si Léa présente trois kystes rénaux à droite et aucun à gauche, on peut affirmer qu'elle est atteinte de PKRAD."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La polykystose rénale autosomique dominante (PKRAD) se transmet sur le mode autosomique dominant : chaque enfant d'un parent atteint a un risque de 50 % (1 sur 2) d'hériter du variant pathogène.\n• B (Vrai) : Selon les critères échographiques de Pei/Ravine chez un sujet apparenté au 1er degré âgé de 15 à 39 ans, la présence d'au moins 3 kystes rénaux (unilatéraux ou bilatéraux) suffit à affirmer le diagnostic de PKRAD.\n• C (Faux) : À 19 ans, une échographie normale ne permet pas d'exclure formellement le diagnostic (les kystes pouvant apparaître plus tardivement ; l'exclusion échographique n'est fiable qu'après 40 ans).\n• D (Faux) : La transmission étant autosomique (non liée au sexe), les filles et les garçons sont atteints avec la même fréquence.\n• E (Faux) : Le dépistage familial repose sur l'échographie (et la mesure de la PA), et non sur un test génétique systématique chez tous les enfants (notamment mineurs asymptomatiques)."
   },
   {
     "options": {
@@ -7439,27 +7521,29 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
       "B": "Hyperparathyroïdie secondaire",
       "C": "Sarcoïdose",
       "D": "Hypercalcémie d'immobilisation",
-      "E": "Mutation activatrice de CaSR (Calcium Sensor Receptor)"
+      "E": "Mutation de CaSR (Calcium Sensor Receptor)"
     },
     "correctAnswers": [
       "A",
       "E"
     ],
-    "text": "Vous prenez en charge un patient pour hypercalcémie à 2,95 mmol/l. Vous notez une Parathormone à 3 fois la normale. Quel(s) est(sont) le(les) diagnostic(s) possible(s) ?",
+    "text": "Vous prenez en charge un patient pour hypercalcémie à 2,95 mmol/L. Vous notez une Parathormone à 3 fois la normale. Quel(s) est(sont) le(les) diagnostic(s) possible(s) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Hyperparathyroïdie primaire ; E) Mutation activatrice de CaSR (Calcium Sensor Receptor)"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Une hypercalcémie associée à une PTH élevée (ou inappropriée/normale haute) signe une hypercalcémie PTH-dépendante, dont la cause principale est l'hyperparathyroïdie primaire (le plus souvent par adénome parathyroïdien).\n• B (Faux) : L'hyperparathyroïdie secondaire est réactionnelle à une hypocalcémie chronique (insuffisance rénale chronique, carence en vitamine D) ; la calcémie y est basse ou normale, mais pas élevée.\n• C (Faux) : L'hypercalcémie de la sarcoïdose (granulomatose produisant du calcitriol) est PTH-indépendante : la PTH y est freinée (basse/effondrée) par rétrocontrôle négatif.\n• D (Faux) : L'hypercalcémie d'immobilisation (résorption osseuse directe) freine également la sécrétion de PTH.\n• E (Vrai) : Une mutation (inactivatrice dans l'hypercalcémie hypocalciurique familiale bénigne ; N.B. libellée « activatrice » par coquille dans l'énoncé original de l'annale) du récepteur sensible au calcium (CaSR) déplace le seuil de sensibilité au calcium et donne une hypercalcémie PTH-dépendante."
   },
   {
     "options": {
       "A": "Calcémie ionisée",
       "B": "Phosphate sérique",
       "C": "Magnésémie",
-      "D": "Electrophorèse des protéines sériques",
-      "E": "25 OH Vitamine D",
-      "F": "Parathormone (P TH) plasmatique",
-      "G": "Parathormone (PT H) urinaire",
+      "D": "Électrophorèse des protéines sériques",
+      "E": "25-OH Vitamine D",
+      "F": "Parathormone (PTH) plasmatique",
+      "G": "Parathormone (PTH) urinaire",
       "H": "Calciurie des 24h",
-      "I": "Phosphaturie des 24h Ostéodensitométrie k. Scintigraphie osseuse Vous en avez sélectionné correctement 3."
+      "I": "Phosphaturie des 24h",
+      "J": "Ostéodensitométrie",
+      "K": "Scintigraphie osseuse"
     },
     "correctAnswers": [
       "A",
@@ -7468,31 +7552,32 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
       "F",
       "H"
     ],
-    "text": "Vous prenez en charge une patiente qui vous est adressée pour hypocalcémie à 2,05 mmol/l. Quels sont les 5 examens complémentaires utiles en première intention ? — 5 réponses sont attendues —",
+    "text": "Vous prenez en charge une patiente qui vous est adressée pour hypocalcémie à 2,05 mmol/L. Quels sont les 5 examens complémentaires utiles en première intention ? — 5 réponses sont attendues —",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Calcémie ionisée ; B) Phosphate sérique ; E) 25 OH Vitamine D ; F) Parathormone (P TH) plasmatique ; H) Calciurie des 24h"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le dosage du calcium ionisé (fraction libre biologiquement active) est indispensable pour confirmer une vraie hypocalcémie et éliminer une fausse hypocalcémie liée à une hypoalbuminémie.\n• B (Vrai) : La phosphatémie oriente immédiatement l'étiologie (élevée dans l'hypoparathyroïdie et l'insuffisance rénale chronique ; basse dans la carence en vitamine D).\n• C (Faux) : Bien qu'une hypomagnésémie sévère puisse induire une hypocalcémie, elle ne fait pas partie des 5 examens systématiques de première intention retenus dans cette grille.\n• D (Faux) : L'électrophorèse des protéines sériques est surtout utile dans le bilan d'une hypercalcémie (recherche de myélome).\n• E (Vrai) : Le dosage de la 25-OH vitamine D recherche une carence martiale/vitaminique, cause très fréquente d'hypocalcémie.\n• F (Vrai) : Le dosage de la PTH plasmatique est l'examen clé pour distinguer une hypocalcémie parathyroïdienne (PTH basse ou inadaptée) d'une cause extra-parathyroïdienne avec réponse parathyroïdienne adaptée (PTH élevée).\n• G (Faux) : La PTH ne se dose pas dans les urines.\n• H (Vrai) : La calciurie des 24 heures permet d'évaluer le comportement rénal face à l'hypocalcémie (basse si la réponse rénale est adaptée, inappropriée/haute en cas d'hypoparathyroïdie ou de tubulopathie).\n• I, J, K (Faux) : La phosphaturie, l'ostéodensitométrie et la scintigraphie osseuse n'ont pas d'intérêt diagnostique en première intention devant une hypocalcémie."
   },
   {
     "options": {
-      "A": "2g de chlorure de potassium dans 50 cl de G5% en 2h sur voie veineuse périphérique",
-      "B": "2g de chlorure de potassium dans 500 ml de NaCl en 2h sur voie veineuse périphérique",
-      "C": "4g de chlorure de potassium dans 250 ml de Ringer Lactate en 4h sur voie veineuse périphérique",
-      "D": "3g de chlorure de potassium dans 75 cl de G5% en 1h sur voie veineuse centrale",
+      "A": "2 g de chlorure de potassium dans 50 cl de G5 % en 2 h sur voie veineuse périphérique",
+      "B": "2 g de chlorure de potassium dans 500 mL de NaCl en 2 h sur voie veineuse périphérique",
+      "C": "4 g de chlorure de potassium dans 250 mL de Ringer Lactate en 4 h sur voie veineuse périphérique",
+      "D": "3 g de chlorure de potassium dans 75 cl de G5 % en 1 h sur voie veineuse centrale",
       "E": "Aucune de ces propositions"
     },
     "correctAnswers": [
-      "A"
+      "A",
+      "B"
     ],
-    "text": "Vous êtes amené à prendre en charge une patiente avec une kaliémie à 2,5 mmol/l. Parmi les propositions suivantes, la(les)quelle(s) respecte(nt) les règles de bonne prescription de potassium ?",
+    "text": "Vous êtes amené à prendre en charge une patiente avec une kaliémie à 2,5 mmol/L. Parmi les propositions suivantes, la(les)quelle(s) respecte(nt) les règles de bonne prescription de potassium ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) 2g de chlorure de potassium dans 50 cl de G5% en 2h sur voie veineuse périphérique"
+    "explanation": "Correction détaillée :\nLes règles de sécurité pour la perfusion de KCl sur voie veineuse périphérique (VVP) imposent une concentration maximale de 4 g/L (veinotoxicité au-delà) et un débit maximal de 1 g/h (risque d'arrêt cardiaque par trouble du rythme au-delà) :\n• A et B (Vrai) : 2 g de KCl dilués dans 50 cL (= 500 mL) correspondent à une concentration de 4 g/L, perfusés en 2 heures soit un débit de 1 g/h. En pratique clinique, le sérum physiologique (NaCl 0,9 %, item B) est préféré au glucosé 5 % (item A) car l'apport de glucose stimule la sécrétion d'insuline qui fait entrer le K+ dans les cellules (à noter que la grille Moodle initiale validait A et/ou B selon le respect strict de la concentration ≤ 4 g/L et du débit ≤ 1 g/h).\n• C (Faux) : 4 g dans 250 mL équivaut à une concentration de 16 g/L (beaucoup trop concentré pour une VVP, limité à 4 g/L), et le Ringer Lactate contient déjà du potassium.\n• D (Faux) : Le débit de 3 g en 1 heure (3 g/h) est excessif et dangereux (risque d'arythmie ventriculaire fatale, débit maximal recommandé ≤ 1 à 1,5 g/h sous scope).\n• E (Faux) : Les règles de concentration (4 g/L) et de débit (1 g/h) sont respectées en A et B."
   },
   {
     "options": {
       "A": "Syndrome néphrotique explosif chez un enfant de 8 ans sans antécédent",
       "B": "Hématuries macroscopiques récidivantes chez un homme de 30 ans dans des contextes d'infection ORL",
       "C": "OAP flash chez un homme de 60 ans, polyvasculaire",
-      "D": "Dégradation de fonction rénale importante après introduction de RAMIPRIL (IEC) chez une femme de 75 ans coronanenne",
+      "D": "Dégradation de fonction rénale importante après introduction de RAMIPRIL (IEC) chez une femme de 75 ans coronarienne",
       "E": "Asymétrie de la taille des reins chez un homme de 55 ans, fumeur"
     },
     "correctAnswers": [
@@ -7502,14 +7587,14 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
     ],
     "text": "Parmi les situations suivantes, quelles sont celles évocatrices d'une sténose athéromateuse des artères rénales ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-17",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) OAP flash chez un homme de 60 ans, polyvasculaire ; D) Dégradation de fonction rénale importante après introduction de RAMIPRIL (IEC) chez une femme de 75 ans coronanenne ; E) Asymétrie de la taille des reins chez un homme de 55 ans, fumeur"
+    "explanation": "Correction détaillée :\n• A (Faux) : Un syndrome néphrotique pur explosif chez un enfant de 8 ans évoque une néphrose idiopathique (lésions glomérulaires minimes, LGM).\n• B (Faux) : Des épisodes d'hématurie macroscopique récidivante contemporains d'épisodes infectieux ORL chez un adulte jeune sont caractéristiques d'une néphropathie à IgA (maladie de Berger).\n• C (Vrai) : La survenue d'œdèmes aigus du poumon dits « flash » (brutaux et récidivants) chez un patient polyvasculaire est un mode de révélation classique d'une sténose athéromateuse des artères rénales (souvent bilatérale).\n• D (Vrai) : Une élévation aiguë de la créatininémie (> 20-30 %) après l'introduction d'un bloqueur du SRAA (IEC ou ARA2) chez un sujet athéromateux doit faire rechercher une sténose bilatérale des artères rénales (ou sur rein unique fonctionnel).\n• E (Vrai) : Une asymétrie de taille des reins (> 1,5 cm) sur terrain athéromateux évoque une atrophie rénale ischémique en aval d'une sténose serrée de l'artère rénale."
   },
   {
     "options": {
       "A": "Elle est la principale cause de syndrome néphrotique chez l'enfant.",
-      "B": "Son diagnostic ne peut-être affirmé qu'avec une biopsie rénale.",
+      "B": "Son diagnostic ne peut être affirmé qu'avec une biopsie rénale.",
       "C": "Elle est responsable d'un syndrome néphrotique d'apparition brutale.",
-      "D": "Le syndrome néphrotique est impur dans 400/0 des cas.",
+      "D": "Le syndrome néphrotique est impur dans 40 % des cas.",
       "E": "Dans la majorité des cas, la corticothérapie permet d'obtenir une rémission."
     },
     "correctAnswers": [
@@ -7519,15 +7604,15 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
     ],
     "text": "Concernant la glomérulopathie à lésions glomérulaires minimes, quelle(s) est(sont) la(les) affirmation(s) exacte(s) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-18",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle est la principale cause de syndrome néphrotique chez l'enfant. ; C) Elle est responsable d'un syndrome néphrotique d'apparition brutale. ; E) Dans la majorité des cas, la corticothérapie permet d'obtenir une rémission."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La néphropathie à lésions glomérulaires minimes (LGM) représente 80 à 90 % des syndromes néphrotiques de l'enfant.\n• B (Faux) : Chez l'enfant entre 1 et 10 ans présentant un syndrome néphrotique pur typique, le diagnostic est présomptif et la corticothérapie est débutée d'emblée sans biopsie rénale (contrairement à l'adulte où la PBR est systématique).\n• C (Vrai) : Le début est typiquement brutal (« explosif »), souvent au décours d'un épisode infectieux viral ou allergique, avec constitution rapide d'un syndrome œdémateux.\n• D (Faux) : Le syndrome néphrotique de la LGM est classiquement pur dans la grande majorité des cas (sans hématurie, sans HTA et sans insuffisance rénale organique).\n• E (Vrai) : Plus de 90 % des LGM de l'enfant (et la majorité chez l'adulte) sont corticosensibles et entrent en rémission complète sous corticothérapie."
   },
   {
     "options": {
-      "A": "Il répond à une définition biologique associant une anémie hémolytique et un thrombopénie auto immune.",
-      "B": "L'haptoglobine et les LDH y sont souvent très augmentés.",
+      "A": "Il répond à une définition biologique associant une anémie hémolytique et une thrombopénie auto-immune.",
+      "B": "L'haptoglobine et les LDH y sont souvent très augmentées.",
       "C": "Sur le plan histologique, on peut remarquer une altération de l'endothélium des capillaires glomérulaires et une impression d'obstruction des lumières capillaires.",
       "D": "Les causes de MAT sont exclusivement les maladies dysimmunitaires.",
-      "E": "Le syndrome de Moschowitz (purpura thrombotique thrombocytopénique) caractérisé par une atteinte cérébrale au premier plan, touche préférentiellement les adultes."
+      "E": "Le syndrome de Moschcowitz (purpura thrombotique thrombocytopénique), caractérisé par une atteinte cérébrale au premier plan, touche préférentiellement les adultes."
     },
     "correctAnswers": [
       "C",
@@ -7535,7 +7620,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/SQI1.pdf"] = [
     ],
     "text": "Concernant le syndrome de microangiopathie thrombotique (MAT), quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-SQI1-19",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Sur le plan histologique, on peut remarquer une altération de l'endothélium des capillaires glomérulaires et une impression d'obstruction des lumières capillaires. ; E) Le syndrome de Moschowitz (purpura thrombotique thrombocytopénique) caractérisé par une atteinte cérébrale au premier plan, touche préférentiellement les adultes."
+    "explanation": "Correction détaillée :\n• A (Faux) : La MAT associe une anémie hémolytique mécanique (présence de schizocytes sur le frottis, test de Coombs négatif) et une thrombopénie périphérique de consommation (et non auto-immune ; l'association anémie hémolytique auto-immune + thrombopénie auto-immune définit le syndrome d'Evans).\n• B (Faux) : Lors de l'hémolyse intravasculaire, les LDH sont très augmentées, mais l'haptoglobine est effondrée (indosable).\n• C (Vrai) : Histologiquement, la MAT se caractérise par une souffrance endothéliale (turgescence, décollement sous-endothélial) et des microthrombi fibrino-plaquettaires obstruant la lumière des capillaires glomérulaires et des artérioles.\n• D (Faux) : Les étiologies sont multiples : infectieuses (SHU typique post-diarrhéique à E. coli producteur de shigatoxines), génétiques (anomalies de la voie alterne du complément dans le SHU atypique), déficits enzymatiques (ADAMTS13), médicamenteuses, HTA maligne ou pré-éclampsie.\n• E (Vrai) : Le purpura thrombotique thrombocytopénique (PTT ou maladie de Moschcowitz, lié à un déficit sévère en ADAMTS13) touche préférentiellement l'adulte et se manifeste par des signes neurologiques centraux au premier plan."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/mDP1.pdf"] = [
@@ -7544,17 +7629,17 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/mDP1.pdf"] = [
       "A": "La prise d'hydrochlorothiazide pourrait expliquer l'hypokaliémie par pertes rénales de potassium.",
       "B": "Une acidose métabolique est fréquemment associée à l'hypokaliémie liée aux thiazidiques.",
       "C": "Une hypomagnésémie peut aggraver l'hypokaliémie en favorisant les pertes urinaires de K+.",
-      "D": "Il est probable que le losartan participe à l'hypokaliémie",
-      "E": "L'ECG pourrait montrer des ondes T aplaties et des ondes U. •e•"
+      "D": "Il est probable que le losartan participe à l'hypokaliémie.",
+      "E": "L'ECG pourrait montrer des ondes T aplaties et des ondes U."
     },
     "correctAnswers": [
       "A",
       "C",
       "E"
     ],
-    "text": "[Cas clinique : Un patient, de 32 ans, hypertendu traité par losartan/hydrochlorothiazide, consulte aux urgences pour une asthénie progressive. À l'examen : • TAI 130/80 mmHg • FC: 98/min • Réflexes ostéotendineux (ROT) faibles Biologie . • Na+: 138 mmol/L • K+: 2,7 mmol/L • Créatinine: 110 umol/L (DFG 45 mL/min) Glycémie 5,8 mmol/L]\nQuelle(s) proposition(s) est(sont) exacte(s) concernant ce patient ?",
+    "text": "[Cas clinique : Un patient de 32 ans, hypertendu traité par losartan/hydrochlorothiazide, consulte aux urgences pour une asthénie progressive. À l'examen : • TA : 130/80 mmHg • FC : 98/min • Réflexes ostéotendineux (ROT) faibles. Biologie : • Na+ : 138 mmol/L • K+ : 2,7 mmol/L • Créatinine : 110 µmol/L (DFG 45 mL/min) • Glycémie : 5,8 mmol/L]\nQuelle(s) proposition(s) est(sont) exacte(s) concernant ce patient ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-mDP1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La prise d'hydrochlorothiazide pourrait expliquer l'hypokaliémie par pertes rénales de potassium. ; C) Une hypomagnésémie peut aggraver l'hypokaliémie en favorisant les pertes urinaires de K+. ; E) L'ECG pourrait montrer des ondes T aplaties et des ondes U. •e•"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'hydrochlorothiazide (diurétique thiazidique) inhibe le cotransporteur Na+/Cl- au tube contourné distal, augmentant la charge sodée délivrée au tube collecteur et stimulant la sécrétion tubulaire de K+, ce qui entraîne une hypokaliémie par fuite rénale.\n• B (Faux) : Les diurétiques thiazidiques (comme les diurétiques de l'anse) s'accompagnent d'une alcalose métabolique, et non d'une acidose.\n• C (Vrai) : L'hypomagnésémie (également favorisée par les thiazidiques) lève le frein intracellulaire sur les canaux potassiques luminaux ROMK du tube collecteur, aggravant la fuite urinaire de potassium et rendant l'hypokaliémie réfractaire tant que le magnésium n'est pas corrigé.\n• D (Faux) : Le losartan est un antagoniste des récepteurs AT1 de l'angiotensine II (ARA2) ; en diminuant l'aldostérone, il est au contraire hyperkaliémiant (épargneur potassique).\n• E (Vrai) : L'hypokaliémie ralentit la repolarisation ventriculaire, ce qui se traduit à l'ECG par un sous-décalage du segment ST, un aplatissement voire une inversion de l'onde T, l'apparition d'une onde U physiologique proéminente et un allongement de l'intervalle QU."
   },
   {
     "options": {
@@ -7562,32 +7647,32 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/mDP1.pdf"] = [
       "B": "Ionogramme urinaire (K+ urinaire)",
       "C": "Cortisol libre urinaire",
       "D": "ECG immédiat",
-      "E": "Dosage de la créatine kinase (CK) Vous en avez sélectionné correctement 1"
+      "E": "Dosage de la créatine kinase (CK)"
     },
     "correctAnswers": [
       "B",
       "D"
     ],
-    "text": "[Cas clinique : Un patient, de 32 ans, hypertendu traité par losartan/hydrochlorothiazide, consulte aux urgences pour une asthénie progressive. À l'examen : • TAI 130/80 mmHg • FC: 98/min • Réflexes ostéotendineux (ROT) faibles Biologie . • Na+: 138 mmol/L • K+: 2,7 mmol/L • Créatinine: 110 umol/L (DFG 45 mL/min) Glycémie 5,8 mmol/L]\n1 . Quels sont les 2 examens à demander en priorité (QRP) ? — 2 réponses sont attendues —",
+    "text": "[Cas clinique : Un patient de 32 ans, hypertendu traité par losartan/hydrochlorothiazide, consulte aux urgences pour une asthénie progressive. À l'examen : • TA : 130/80 mmHg • FC : 98/min • Réflexes ostéotendineux (ROT) faibles. Biologie : • Na+ : 138 mmol/L • K+ : 2,7 mmol/L • Créatinine : 110 µmol/L (DFG 45 mL/min) • Glycémie : 5,8 mmol/L]\nQuels sont les 2 examens à demander en priorité (QRP) ? — 2 réponses sont attendues —",
     "id": "ANN-UE5-UE5S3Nephrologie1-mDP1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Ionogramme urinaire (K+ urinaire) ; D) ECG immédiat"
+    "explanation": "Correction détaillée :\n• A, C (Faux) : Les dosages hormonaux (rénine/aldostérone, cortisolurie) ne sont pas des examens d'urgence immédiate (et sont de plus ininterprétables sous traitement par ARA2 et thiazidique).\n• B (Vrai) : L'ionogramme urinaire avec dosage de la kaliurèse permet de confirmer le mécanisme rénal de la perte potassique (kaliurèse inadaptée > 20 mmol/L).\n• D (Vrai) : Devant une hypokaliémie sévère (< 3,0 mmol/L, ici à 2,7 mmol/L), la réalisation d'un ECG est une urgence absolue pour rechercher des signes de gravité électrique et prévenir les troubles du rythme ventriculaire (torsades de pointes).\n• E (Faux) : Le dosage des CK n'est pas l'examen prioritaire de première intention."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/mDP2.pdf"] = [
   {
     "options": {
-      "A": "il existe une hyperhydratation extracellulaire.",
-      "B": "il existe une hyperhydratation intracellulaire.",
-      "C": "il existe une déshydratation extracellulaire.",
-      "D": "il existe une déshydratation intracellulaire.",
+      "A": "Il existe une hyperhydratation extracellulaire.",
+      "B": "Il existe une hyperhydratation intracellulaire.",
+      "C": "Il existe une déshydratation extracellulaire.",
+      "D": "Il existe une déshydratation intracellulaire.",
       "E": "Aucune de ces propositions n'est exacte."
     },
     "correctAnswers": [
       "B"
     ],
-    "text": "[Cas clinique : Un jeune homme, de 33 ans, est adressé aux urgences pour malaise. Il n'a pas d'antécédent particulier. Il travaille de temps en temps comme ingénieur du son dans de petits festivals. Il est qualifié de plus en plus « bizarre » par ses amis avec, depuis plusieurs mois, des phrases sans queue ni tête prononcées à haute voix et une grande hygiène des mains. Il mange de moins en moins et compense par une hydratation abondante avec des « eaux minérales pures » afin de nettoyer son corps. Aux urgences, l'examen clinique est normal. La PA est à 135/85 mmHg, FC 62/mn, Température 36.20C. En 4 heures aux urgences, il s'est déjà levé 3 fois pour aller uriner et décrit fièrement « uriner au moins 1 5 litres par jour », signe de la bonne épuration de son corps. Un ionogramme fait en urgence retrouve : • Natrémie 118 mOsmol/L • K: 3,5 mmol/L • HC03-: 24 mmol/L • Glycémie: 1.12g/L • Bilan lipidique sans particularité Protidémie normale]\nQuelle(s) est(sont) la(les) proposition(s) vraies ?",
+    "text": "[Cas clinique : Un jeune homme de 33 ans est adressé aux urgences pour malaise. Il n'a pas d'antécédent particulier. Il travaille de temps en temps comme ingénieur du son dans de petits festivals. Il est qualifié de plus en plus « bizarre » par ses amis avec, depuis plusieurs mois, des phrases sans queue ni tête prononcées à haute voix et une grande hygiène des mains. Il mange de moins en moins et compense par une hydratation abondante avec des « eaux minérales pures » afin de nettoyer son corps. Aux urgences, l'examen clinique est normal. La PA est à 135/85 mmHg, FC 62/min, Température 36,2°C. En 4 heures aux urgences, il s'est déjà levé 3 fois pour aller uriner et décrit fièrement « uriner au moins 15 litres par jour », signe de la bonne épuration de son corps. Un ionogramme fait en urgence retrouve : • Natrémie : 118 mmol/L • K+ : 3,5 mmol/L • HCO3- : 24 mmol/L • Glycémie : 1,12 g/L • Bilan lipidique sans particularité • Protidémie normale]\nQuelle(s) est(sont) la(les) proposition(s) vraie(s) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-mDP2-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) il existe une hyperhydratation intracellulaire."
+    "explanation": "Correction détaillée :\n• A, C (Faux) : L'examen clinique étant strictement normal (PA 135/85 mmHg, absence d'œdèmes, absence de pli cutané ou d'hypotension orthostatique, protidémie normale), le secteur extracellulaire est normal (euvolémie).\n• B (Vrai) : L'hyponatrémie profonde à 118 mmol/L (avec glycémie, protidémie et bilan lipidique normaux) entraîne une hypo-osmolalité plasmatique efficace, provoquant un mouvement osmotique d'eau du secteur extracellulaire vers l'intérieur des cellules, ce qui définit une hyperhydratation intracellulaire pure.\n• D (Faux) : La déshydratation intracellulaire est définie par une hypernatrémie (hyperosmolalité).\n• E (Faux) : La proposition B est exacte."
   },
   {
     "options": {
@@ -7600,9 +7685,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/mDP2.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "[Cas clinique : Un jeune homme, de 33 ans, est adressé aux urgences pour malaise. Il n'a pas d'antécédent particulier. Il travaille de temps en temps comme ingénieur du son dans de petits festivals. Il est qualifié de plus en plus « bizarre » par ses amis avec, depuis plusieurs mois, des phrases sans queue ni tête prononcées à haute voix et une grande hygiène des mains. Il mange de moins en moins et compense par une hydratation abondante avec des « eaux minérales pures » afin de nettoyer son corps. Aux urgences, l'examen clinique est normal. La PA est à 135/85 mmHg, FC 62/mn, Température 36.20C. En 4 heures aux urgences, il s'est déjà levé 3 fois pour aller uriner et décrit fièrement « uriner au moins 1 5 litres par jour », signe de la bonne épuration de son corps. Un ionogramme fait en urgence retrouve : • Natrémie 118 mOsmol/L • K: 3,5 mmol/L • HC03-: 24 mmol/L • Glycémie: 1.12g/L • Bilan lipidique sans particularité Protidémie normale]\nL'ionogramme urinaire retrouve: • Na urinaire: 20 mmol/L • K urinaire: 5 mmol/L • Urée: 40 mmol/L Quel est le diagnostic le plus probable de son hyponatrémie (1 seule réponse) ?",
+    "text": "[Cas clinique : Un jeune homme de 33 ans est adressé aux urgences pour malaise. Il n'a pas d'antécédent particulier. Il travaille de temps en temps comme ingénieur du son dans de petits festivals. Il est qualifié de plus en plus « bizarre » par ses amis avec, depuis plusieurs mois, des phrases sans queue ni tête prononcées à haute voix et une grande hygiène des mains. Il mange de moins en moins et compense par une hydratation abondante avec des « eaux minérales pures » afin de nettoyer son corps. Aux urgences, l'examen clinique est normal. La PA est à 135/85 mmHg, FC 62/min, Température 36,2°C. En 4 heures aux urgences, il s'est déjà levé 3 fois pour aller uriner et décrit fièrement « uriner au moins 15 litres par jour », signe de la bonne épuration de son corps. Un ionogramme fait en urgence retrouve : • Natrémie : 118 mmol/L • K+ : 3,5 mmol/L • HCO3- : 24 mmol/L • Glycémie : 1,12 g/L • Bilan lipidique sans particularité • Protidémie normale]\nL'ionogramme urinaire retrouve : • Na urinaire : 20 mmol/L • K urinaire : 5 mmol/L • Urée : 40 mmol/L. Quel est le diagnostic le plus probable de son hyponatrémie (1 seule réponse) ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-mDP2-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Potomanie"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'osmolalité urinaire estimée par 2 × (NaU + KU) + UréeU = 2 × (20 + 5) + 40 = 90 mOsm/kg est effondrée (< 100 mOsm/kg). La réponse rénale est donc parfaitement adaptée (freination complète de l'ADH et dilution maximale des urines), mais les capacités d'excrétion d'eau libre du rein sont débordées par des apports hydriques massifs (> 15 L/j d'eau pauvre en osmoles) associé à de faibles apports osmolaire alimentaires : il s'agit d'une potomanie (dans un contexte psychiatrique).\n• B, D (Faux) : Dans le SIADH ou l'hypothyroïdie, la dilution des urines est altérée avec une osmolalité urinaire inappropriée (> 100 mOsm/kg) et des urines peu abondantes.\n• C (Faux) : L'insuffisance cardiaque donne une hyponatrémie avec hyperhydratation extracellulaire (œdèmes).\n• E (Faux) : Le patient est cliniquement euvolémique et son ADH est totalement freinée (urines diluées au maximum)."
   },
   {
     "options": {
@@ -7615,9 +7700,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/mDP2.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "[Cas clinique : Un jeune homme, de 33 ans, est adressé aux urgences pour malaise. Il n'a pas d'antécédent particulier. Il travaille de temps en temps comme ingénieur du son dans de petits festivals. Il est qualifié de plus en plus « bizarre » par ses amis avec, depuis plusieurs mois, des phrases sans queue ni tête prononcées à haute voix et une grande hygiène des mains. Il mange de moins en moins et compense par une hydratation abondante avec des « eaux minérales pures » afin de nettoyer son corps. Aux urgences, l'examen clinique est normal. La PA est à 135/85 mmHg, FC 62/mn, Température 36.20C. En 4 heures aux urgences, il s'est déjà levé 3 fois pour aller uriner et décrit fièrement « uriner au moins 1 5 litres par jour », signe de la bonne épuration de son corps. Un ionogramme fait en urgence retrouve : • Natrémie 118 mOsmol/L • K: 3,5 mmol/L • HC03-: 24 mmol/L • Glycémie: 1.12g/L • Bilan lipidique sans particularité Protidémie normale]\nParmi ces mesures, laquelle vous semble la plus adaptée ?",
+    "text": "[Cas clinique : Un jeune homme de 33 ans est adressé aux urgences pour malaise. Il n'a pas d'antécédent particulier. Il travaille de temps en temps comme ingénieur du son dans de petits festivals. Il est qualifié de plus en plus « bizarre » par ses amis avec, depuis plusieurs mois, des phrases sans queue ni tête prononcées à haute voix et une grande hygiène des mains. Il mange de moins en moins et compense par une hydratation abondante avec des « eaux minérales pures » afin de nettoyer son corps. Aux urgences, l'examen clinique est normal. La PA est à 135/85 mmHg, FC 62/min, Température 36,2°C. En 4 heures aux urgences, il s'est déjà levé 3 fois pour aller uriner et décrit fièrement « uriner au moins 15 litres par jour », signe de la bonne épuration de son corps. Un ionogramme fait en urgence retrouve : • Natrémie : 118 mmol/L • K+ : 3,5 mmol/L • HCO3- : 24 mmol/L • Glycémie : 1,12 g/L • Bilan lipidique sans particularité • Protidémie normale]\nParmi ces mesures, laquelle vous semble la plus adaptée ?",
     "id": "ANN-UE5-UE5S3Nephrologie1-mDP2-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Restriction hydrique"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Dans la potomanie, le rein éliminant déjà très rapidement l'eau libre (polyurie hypotonique à 15 L/j), la simple restriction hydrique suffit à corriger rapidement la natrémie (en surveillant étroitement la vitesse de correction pour éviter une myélinolyse centropontine).\n• B (Faux) : La perfusion de NaCl hypertonique est dangereuse ici car l'ADH étant effondrée, la débâcle urinaire d'eau libre associée au NaCl hypertonique provoquerait une correction trop rapide de la natrémie (risque majeur de myélinolyse osmolaire).\n• C, D, E (Faux) : Ces traitements (urée, antagoniste des récepteurs V2 de l'ADH comme le tolvaptan) relèvent du SIADH et non de la potomanie."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/mDP3.pdf"] = [
@@ -7627,41 +7712,46 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 1/mDP3.pdf"] = [
       "B": "Bilan hépatique",
       "C": "Urée, créatinine plasmatique",
       "D": "Dosage HCG plasmatique",
-      "E": "Electrocardiogramme",
+      "E": "Électrocardiogramme",
       "F": "Examen cytobactériologique des urines systématique",
       "G": "Bandelette urinaire",
-      "H": "Calcémie l. Parathormone = P TH . Magnésémie k. Scanner abdomino-pelvien injecté associé à une radiographie Abdomen Sans Préparation l. Scintigraphie rénale Vous en avez sélectionné correctement 2."
+      "H": "Calcémie",
+      "I": "Parathormone = PTH",
+      "J": "Magnésémie",
+      "K": "Scanner abdomino-pelvien injecté associé à une radiographie Abdomen Sans Préparation",
+      "L": "Scintigraphie rénale"
     },
     "correctAnswers": [
       "A",
       "C",
-      "G"
+      "G",
+      "H"
     ],
-    "text": "[Cas clinique : Un jeune homme, de 34 ans, se présente aux urgences pour douleur aigue intense lombaire gauche. C'est le premier épisode de ce type. A l'examen, la pression artérielle est de 138/86 mmHg, fréquence cardiaque 88 bpm, température 37.30C, EVA 7/10. Vous suspectez une colique néphrétique aigue gauche.]\nQuelles sont les 4 réponses exactes au sujet des examens à prescrire à ce patient ? (QRP) — 4 réponses sont attendues —",
+    "text": "[Cas clinique : Un jeune homme de 34 ans se présente aux urgences pour douleur aiguë intense lombaire gauche. C'est le premier épisode de ce type. À l'examen, la pression artérielle est de 138/86 mmHg, fréquence cardiaque 88 bpm, température 37,3°C, EVA 7/10. Vous suspectez une colique néphrétique aiguë gauche.]\nQuelles sont les 4 réponses exactes au sujet des examens à prescrire à ce patient ? (QRP) — 4 réponses sont attendues —",
     "id": "ANN-UE5-UE5S3Nephrologie1-mDP3-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) NFS ; C) Urée, créatinine plasmatique ; G) Bandelette urinaire"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La NFS fait partie du bilan biologique standard aux urgences (recherche d'hyperleucocytose ou d'anémie).\n• B (Faux) : Le bilan hépatique n'est pas indiqué devant une colique néphrétique typique.\n• C (Vrai) : Le dosage de l'urée et de la créatininémie est indispensable pour évaluer la fonction rénale (recherche d'une colique néphrétique compliquée d'insuffisance rénale aiguë obstructive et vérification avant administration d'AINS).\n• D (Faux) : Le dosage des β-hCG ne concerne que la femme en âge de procréer (pour éliminer une grossesse extra-utérine et avant imagerie irradiante).\n• E (Faux) : L'ECG n'est pas systématique chez un homme jeune sans trouble ionique.\n• F (Faux) : L'ECBU n'est pas systématique d'emblée si la bandelette urinaire est négative pour les leucocytes et les nitrites et que le patient est apyrétique.\n• G (Vrai) : La bandelette urinaire est systématique au lit du malade : elle recherche une hématurie microscopique (présente dans > 80-90 % des coliques néphrétiques) et élimine une infection urinaire associée (leucocytes, nitrites).\n• H (Vrai) : Le dosage de la calcémie fait partie du bilan étiologique de première intention d'une lithiase urinaire (recherche d'une hypercalcémie / hyperparathyroïdie primaire).\n• I, J, K, L (Faux) : La PTH et la magnésémie ne sont pas demandées en première intention ; l'imagerie de référence est le scanner abdomino-pelvien basse dose SANS injection (ou le couple échographie réno-vésicale + ASP), et non un scanner injecté ni une scintigraphie."
   },
   {
     "options": {
       "A": "Hospitalisation en service de chirurgie",
-      "B": "Appel de l'urologue de garde et consultation anesthésie en urgence",
+      "B": "Appel de l'urologue de garde et consultation d'anesthésie en urgence",
       "C": "Restriction hydrique",
       "D": "Hydratation abondante",
-      "E": "Administration d'anti-inflammatoires non stéroïdiens par voie intra veineuse",
+      "E": "Administration d'anti-inflammatoires non stéroïdiens par voie intraveineuse",
       "F": "Pose de sonde urinaire",
       "G": "Pose de sonde JJ",
-      "H": "Lithotripsie extra corporelle",
+      "H": "Lithotripsie extracorporelle",
       "I": "Recueil et tamisage des urines",
-      "J": "Antibiothérapie probabiliste par CEFTRIAXONE Vous en avez sélectionné correctement 1"
+      "J": "Antibiothérapie probabiliste par CEFTRIAXONE"
     },
     "correctAnswers": [
       "C",
       "E",
       "I"
     ],
-    "text": "[Cas clinique : Un jeune homme, de 34 ans, se présente aux urgences pour douleur aigue intense lombaire gauche. C'est le premier épisode de ce type. A l'examen, la pression artérielle est de 138/86 mmHg, fréquence cardiaque 88 bpm, température 37.30C, EVA 7/10. Vous suspectez une colique néphrétique aigue gauche.]\nVos examens confirment votre diagnostic de colique néphrétique aigue gauche sans complication associée. Quels sont les 3 éléments de votre prise en charge ? (QRP) — 3 réponses sont attendues —",
+    "text": "[Cas clinique : Un jeune homme de 34 ans se présente aux urgences pour douleur aiguë intense lombaire gauche. C'est le premier épisode de ce type. À l'examen, la pression artérielle est de 138/86 mmHg, fréquence cardiaque 88 bpm, température 37,3°C, EVA 7/10. Vous suspectez une colique néphrétique aiguë gauche.]\nVos examens confirment votre diagnostic de colique néphrétique aiguë gauche sans complication associée. Quels sont les 3 éléments de votre prise en charge ? (QRP) — 3 réponses sont attendues —",
     "id": "ANN-UE5-UE5S3Nephrologie1-mDP3-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Restriction hydrique ; E) Administration d'anti-inflammatoires non stéroïdiens par voie intra veineuse ; I) Recueil et tamisage des urines"
+    "explanation": "Correction détaillée :\n• A, B, G (Faux) : La colique néphrétique simple (non fébrile, non anurique, non hyperalgique rebelle, sur terrain normal) relève d'un traitement médical et ambulatoire ; le drainage chirurgical des urines en urgence (sonde JJ) et l'hospitalisation sont réservés aux coliques néphrétiques compliquées.\n• C (Vrai) : En période douloureuse aiguë, une restriction hydrique (ou boissons adaptées à la soif sans hyperhydratation) est recommandée pour diminuer la diurèse et donc la pression dans les cavités pyélocalicielles en amont du calcul.\n• D (Faux) : L'hydratation abondante en crise aiguë augmente la pression en amont de l'obstacle et aggrave la douleur (elle ne sera recommandée qu'à distance de la crise en prévention secondaire des récidives).\n• E (Vrai) : Les AINS par voie IV (ex : kétoprofène / Profénid), en l'absence de contre-indication, constituent le traitement de référence de 1ère intention (ils diminuent l'œdème urétéral et la filtration glomérulaire par inhibition de la synthèse des prostaglandines).\n• F (Faux) : L'obstacle étant urétéral (haut appareil), une sonde vésicale n'a aucune utilité.\n• H (Faux) : La lithotripsie extracorporelle ne se réalise jamais en urgence lors de la crise aiguë.\n• I (Vrai) : Le tamisage de toutes les urines (à travers un filtre à café ou une compresse) est indispensable pour récupérer le calcul lors de son expulsion spontanée et permettre son analyse morpho-constitutionnelle par spectrophotométrie infrarouge.\n• J (Faux) : En l'absence de pyélonéphrite aiguë obstructive associée, aucune antibiothérapie n'est indiquée."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
@@ -7679,7 +7769,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "La filtration glomérulaire :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) est un processus physique par lequel l'eau et les solutés dissous dans le plasma passent vers l'espace urinaire. ; D) se fait au travers de la membrane basale glomérulaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : Elle est unidirectionnelle, du sang capillaire (plasma) vers l'espace urinaire (chambre de Bowman).\n• B (Vrai) : C'est un processus purement physique (ultrafiltration) passif, gouverné par la loi de Starling (équilibre des pressions hydrostatiques et oncotiques de part et d'autre de la membrane).\n• C (Faux) : Elle aboutit à la formation de l'urine primitive (ou ultrafiltrat). L'urine définitive n'est formée qu'après de multiples processus de réabsorption et de sécrétion le long du tubule rénal.\n• D (Vrai) : La barrière de filtration est composée de trois couches : l'endothélium fenestré du capillaire, la membrane basale glomérulaire, et les fentes de filtration entre les pédicelles des podocytes.\n• E (Faux) : Les propositions B et D sont correctes."
   },
   {
     "options": {
@@ -7695,24 +7785,24 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Concernant la protéinurie .",
+    "text": "Concernant la protéinurie :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La bandelette urinaire permet la détection d'albumine. ; B) L'albuminurie physiologique est inférieure à 30 mg/24h. ; C) La présence d'une microalbuminurie est associée à une majoration du risque cardiovasculaire chez le diabétique de type 2. ; E) Elle doit être recherchée au minimum tous les ans chez le diabétique de type 2."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La bandelette urinaire (réactif colorimétrique) est spécifiquement sensible à l'albumine, mais détecte mal les autres protéines (comme les chaînes légères d'immunoglobulines).\n• B (Vrai) : À l'état physiologique, l'excrétion d'albumine est minime, strictement inférieure à 30 mg/24h.\n• C (Vrai) : La microalbuminurie (entre 30 et 300 mg/24h) est un marqueur précoce de dysfonction endothéliale et signale un fort risque de morbi-mortalité cardiovasculaire, en particulier chez le patient diabétique.\n• D (Faux) : La protéinurie physiologique (toutes protéines confondues) est inférieure à 150 mg/j.\n• E (Vrai) : Le dépistage de la néphropathie diabétique par recherche d'albuminurie est recommandé au moins une fois par an."
   },
   {
     "options": {
-      "A": "Il peut s'agir de présence de protéine de l'urothélium.",
-      "B": "Il peut s'agir de présence de protéine de Tamm Horsfall dans les urines.",
+      "A": "Il peut s'agir de présence de protéines de l'urothélium.",
+      "B": "Il peut s'agir de présence de protéine de Tamm-Horsfall dans les urines.",
       "C": "Il peut s'agir de présence d'albumine dans les urines.",
-      "D": "Il peut s'agir de présence de chaines légères d'immunoglobuline dans les urines.",
+      "D": "Il peut s'agir de présence de chaînes légères d'immunoglobulines dans les urines.",
       "E": "Une confirmation par un ECBU est nécessaire."
     },
     "correctAnswers": [
       "C"
     ],
-    "text": "Lors d'une visite médicale, vous réalisez une bandelette urinaire qui revient positive « 3 croix » pour la protéinurie",
+    "text": "Lors d'une visite médicale, vous réalisez une bandelette urinaire qui revient positive « 3 croix » pour la protéinurie :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Il peut s'agir de présence d'albumine dans les urines."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les protéines physiologiques de l'urothélium sont sécrétées en trop faible quantité pour positiver une bandelette à ce niveau.\n• B (Faux) : La protéine de Tamm-Horsfall (uromoduline sécrétée par l'anse de Henlé) est une protéine tubulaire normale non détectée par la bandelette.\n• C (Vrai) : La bandelette cible spécifiquement l'albumine. Un résultat « 3 croix » correspond à une macroalbuminurie massive (faisant souvent suspecter un syndrome néphrotique).\n• D (Faux) : La bandelette ne détecte pas les chaînes légères d'immunoglobulines (retrouvées dans le myélome multiple). Pour celles-ci, une électrophorèse des protéines urinaires est nécessaire.\n• E (Faux) : Un ECBU sert à rechercher une infection ou quantifier une hématurie/leucocyturie. La confirmation et la quantification d'une protéinurie se font par un dosage biochimique au laboratoire (rapport protéinurie/créatininurie ou protéinurie des 24h)."
   },
   {
     "options": {
@@ -7720,7 +7810,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "B": "Potomanie",
       "C": "Hyperglycémie",
       "D": "Hyperlipidémie",
-      "E": "Tea and toast syndrom"
+      "E": "Tea and toast syndrome"
     },
     "correctAnswers": [
       "A",
@@ -7729,12 +7819,12 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "Parmi les situations suivantes, quelles sont celles qui peuvent engendrer une hyponatrémie iso-osmolaire ou une hyponatrémie hyperosmolaire ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Hyperprotidémie ; C) Hyperglycémie ; D) Hyperlipidémie"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les hyperprotidémies majeures (ex : macroglobulinémie de Waldenström, myélome) causent une fausse hyponatrémie (iso-osmolaire) due à un artefact de mesure par photométrie/potentiométrie indirecte lié à l'augmentation de la phase solide du plasma.\n• B (Faux) : La potomanie (ingestion d'eau excédant les capacités d'excrétion) entraîne une véritable hyponatrémie hypo-osmolaire (par dilution).\n• C (Vrai) : L'hyperglycémie provoque une hyponatrémie hyperosmolaire (par transfert/translocation) : le glucose, osmole active, attire l'eau du milieu intracellulaire vers le plasma, diluant le sodium plasmatique.\n• D (Vrai) : Comme l'hyperprotidémie, les hyperlipidémies majeures (hypertriglycéridémies) causent une fausse hyponatrémie iso-osmolaire.\n• E (Faux) : Le syndrome « tea and toast » (dénutrition, apport hydrique avec très faible apport d'osmoles) provoque une vraie hyponatrémie hypo-osmolaire."
   },
   {
     "options": {
-      "B": "L'existence de brûlures urinaires",
       "A": "L'existence de douleurs lombaires",
+      "B": "L'existence de brûlures urinaires",
       "C": "La présence de GR déformés",
       "D": "La présence de caillots",
       "E": "La présence de cylindres hématiques"
@@ -7744,16 +7834,17 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "B",
       "D"
     ],
-    "text": "",
+    "text": "Quels sont les éléments orientant vers une hématurie d'origine urologique ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'existence de douleurs lombaires ; B) L'existence de brûlures urinaires ; D) La présence de caillots"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les douleurs lombaires unilatérales (ex : colique néphrétique) orientent vers un obstacle ou une pathologie urologique (lithiase, caillot, tumeur).\n• B (Vrai) : Les brûlures mictionnelles traduisent une irritation ou une infection du bas appareil urinaire (cystite, urétrite, tumeur vésicale), d'origine urologique.\n• C (Faux) : La présence d'hématies déformées (acanthocytes) traduit un passage traumatique à travers la membrane basale glomérulaire, signant une origine néphrologique.\n• D (Vrai) : La présence de caillots signe une hématurie urologique. L'hématurie glomérulaire ne coagule jamais grâce à l'action fibrinolytique de l'urokinase tubulaire.\n• E (Faux) : Les cylindres hématiques résultent du moulage d'hématies dans la lumière tubulaire au sein d'une matrice de protéine de Tamm-Horsfall, signant de façon pathognomonique l'origine glomérulaire (néphrologique) du saignement."
   },
   {
     "options": {
-      "A": "Protéinurie = 4 g/l, Electrophorèse des protéines urinaires = 80% d'albumine",
+      "A": "Protéinurie = 4 g/L, Électrophorèse des protéines urinaires = 80 % d'albumine",
+      "B": "Protéinurie = 2 mg/mmol",
       "C": "Protéinurie = 40 mg/mmol, Bandelette urinaire négative pour les « PROT »",
       "D": "Albuminurie = 3500 mg/g",
-      "E": "Protéinurie = 400 mg/mmol , Albuminurie = 50 mg/mmol"
+      "E": "Protéinurie = 400 mg/mmol, Albuminurie = 50 mg/mmol"
     },
     "correctAnswers": [
       "A",
@@ -7761,7 +7852,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "Parmi ces différentes situations proposées, quelles sont celles évocatrices d'une pathologie glomérulaire ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Protéinurie = 4 g/l, Electrophorèse des protéines urinaires = 80% d'albumine ; D) Albuminurie = 3500 mg/g"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Une forte protéinurie (4 g/L) composée à ≥ 80 % d'albumine signe une protéinurie glomérulaire sélective, typique d'une lésion de la barrière de filtration glomérulaire.\n• B (Faux) : Une protéinurie à 2 mg/mmol est strictement physiologique (normale < 15 à 20 mg/mmol).\n• C (Faux) : Une discordance entre une protéinurie significative au laboratoire (40 mg/mmol) et une bandelette urinaire négative évoque une protéinurie de surcharge non albuminique (chaînes légères libres d'immunoglobulines dans le myélome).\n• D (Vrai) : Une albuminurie massive (3500 mg/g, soit 3,5 g/g) est la signature même d'une atteinte glomérulaire d'ordre néphrotique.\n• E (Faux) : Si l'albuminurie ne représente qu'une faible part de la protéinurie totale (50 mg/mmol sur 400 mg/mmol, soit 12,5 %), il s'agit d'une protéinurie tubulaire ou de surcharge et non glomérulaire."
   },
   {
     "options": {
@@ -7778,14 +7869,14 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "Concernant le tubule contourné distal :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On l'appelle également le segment de dilution. ; C) Il est imperméable à l'eau. ; E) En cas d'inhibition, l'osmolarité urinaire a tendance à augmenter."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il est appelé « segment cortical de dilution » car en réabsorbant du NaCl sans eau, il abaisse l'osmolarité du fluide tubulaire.\n• B (Faux) : Il réabsorbe activement le NaCl via le cotransporteur apical Na+/Cl- (NCC).\n• C (Vrai) : Il est constitutivement imperméable à l'eau.\n• D (Faux) : Le cotransporteur NCC du tubule contourné distal est inhibé par les diurétiques thiazidiques. Les diurétiques épargneurs de potassium agissent plus en aval, sur le tube collecteur cortical.\n• E (Vrai) : Si l'on inhibe la réabsorption de NaCl dans ce segment (par un thiazidique), le sel reste dans la lumière tubulaire, ce qui empêche la dilution maximale des urines et augmente l'osmolarité urinaire."
   },
   {
     "options": {
-      "A": "Syndrome de sécrétion inapproprié d'ADH (SIADH)",
+      "A": "Syndrome de sécrétion inappropriée d'ADH (SIADH)",
       "B": "Hypothyroïdie",
       "C": "Potomanie",
-      "D": "Syndrome des buveurs de bières",
+      "D": "Syndrome des buveurs de bière",
       "E": "Il existe une hyperhydratation intracellulaire."
     },
     "correctAnswers": [
@@ -7793,14 +7884,14 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Vous prenez en charge un patient de 38 ans, il pèse 70 kg, il n'a pas d'antécédent connu. Voici son bilan • [Na+l = 128 mmol/l • Osmolarité plasmatique mesurée: 268 mosmol/l Vous calculez son osmolarité urinaire que vous estimez à 85 mosmol/l. Cliniquement, il semble euvolémique, sans signe de déshydratation ou d'hyperhydratation extracellulaire. Quelles sont vos hypothèses diagnostiques ?",
+    "text": "Vous prenez en charge un patient de 38 ans, il pèse 70 kg, il n'a pas d'antécédent connu. Voici son bilan : • [Na+] = 128 mmol/L • Osmolarité plasmatique mesurée : 268 mOsmol/L. Vous calculez son osmolarité urinaire que vous estimez à 85 mOsmol/L. Cliniquement, il semble euvolémique, sans signe de déshydratation ou d'hyperhydratation extracellulaire. Quelles sont vos hypothèses diagnostiques ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Potomanie ; D) Syndrome des buveurs de bières ; E) Il existe une hyperhydratation intracellulaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : Dans un SIADH, l'ADH est sécrétée de manière inappropriée, ce qui concentre les urines (osmolarité urinaire inappropriée > 100 mOsmol/L).\n• B (Faux) : L'hypothyroïdie donne également une hyponatrémie à osmolarité urinaire élevée (> 100 mOsmol/L).\n• C (Vrai) : Une osmolarité urinaire effondrée (< 100 mOsmol/L, ici 85 mOsmol/L) indique que la réponse rénale de dilution est normale (ADH freinée) mais dépassée par un apport hydrique massif : c'est la potomanie.\n• D (Vrai) : Dans le syndrome des buveurs de bière (ou « tea and toast »), l'apport massif de liquide hypotonique couplé à une carence d'apport en osmoles (sel, protéines) limite le volume d'eau libre que le rein peut excréter malgré une dilution urinaire maximale (< 100 mOsmol/L).\n• E (Vrai) : Toute hyponatrémie hypo-osmolaire (ici 268 mOsmol/L < 280 mOsmol/L) entraîne un transfert osmotique d'eau vers les cellules, définissant une hyperhydratation intracellulaire."
   },
   {
     "options": {
       "A": "Les diurétiques de l'anse sont les plus utilisés en situation de surcharge hydrosodée.",
-      "B": "Les diurétiques thiazidiques font partie des traitements anti-hypertenseurs de première intention.",
+      "B": "Les diurétiques thiazidiques font partie des traitements antihypertenseurs de première intention.",
       "C": "Les principaux diurétiques disponibles inhibent la réabsorption proximale du sodium.",
       "D": "L'augmentation de la diurèse est liée à une inhibition directe par le diurétique de la réabsorption d'eau tubulaire.",
       "E": "Ils augmentent la diurèse en augmentant la filtration glomérulaire."
@@ -7811,11 +7902,11 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "Concernant les diurétiques :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les diurétiques de l'anse sont les plus utilisés en situation de surcharge hydrosodée. ; B) Les diurétiques thiazidiques font partie des traitements anti-hypertenseurs de première intention."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les diurétiques de l'anse (furosémide) ont la plus forte efficacité natriurétique et restent actifs même en cas d'insuffisance rénale : ils constituent le traitement de référence des surcharges hydrosodées (OAP, syndrome œdémateux).\n• B (Vrai) : Les diurétiques thiazidiques (et apparentés) font partie des classes majeures recommandées en première intention dans l'HTA essentielle non compliquée.\n• C (Faux) : Les diurétiques les plus utilisés agissent sur l'anse de Henlé (furosémide), le tubule distal (thiazidiques) ou le tube collecteur (épargneurs potassiques), et non sur le tube proximal.\n• D (Faux) : Ce sont des salidiurétiques : ils inhibent directement les transporteurs tubulaires de sodium, et l'eau accompagne secondairement le sodium par effet osmotique.\n• E (Faux) : Ils agissent en diminuant la réabsorption tubulaire de sodium, et n'augmentent pas le DFG."
   },
   {
     "options": {
-      "A": "est favorisée par l'inhibition du système rénine angiotensine aldostérone.",
+      "A": "est favorisée par l'inhibition du système rénine-angiotensine-aldostérone.",
       "B": "est en lien avec une rétention hydrosodée, notamment dans l'insuffisance rénale.",
       "C": "est en lien avec l'activation du système nerveux sympathique.",
       "D": "a une prévalence qui diminue avec l'âge.",
@@ -7828,23 +7919,23 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "L'HTA :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) est en lien avec une rétention hydrosodée, notamment dans l'insuffisance rénale. ; C) est en lien avec l'activation du système nerveux sympathique. ; E) est favorisée par la rigidité artérielle."
+    "explanation": "Correction détaillée :\n• A (Faux) : C'est l'activation du SRAA qui provoque l'HTA ; son inhibition (par IEC ou ARA2) abaisse la pression artérielle.\n• B (Vrai) : Dans l'insuffisance rénale, le défaut d'excrétion rénale du sodium entraîne une inflation hydrosodée et une HTA volo-dépendante.\n• C (Vrai) : L'hyperactivité sympathique augmente le débit cardiaque et les résistances vasculaires périphériques.\n• D (Faux) : La prévalence de l'HTA augmente fortement avec l'âge.\n• E (Vrai) : La rigidité des gros troncs artériels (artériosclérose liée à l'âge) diminue la compliance aortique et favorise l'HTA (notamment systolique isolée)."
   },
   {
     "options": {
-      "A": "Le trou anionique de ce patient est strictement inférieur 12 mmol/L.",
-      "B": "Le trou anionique de ce patient est compris entre 12 et 18 mmol/l.",
-      "C": "Le trou anionique de ce patient est compris entre 18 et 24 mmol/l.",
-      "D": "Le trou anionique de ce patient est compris entre 24 et 30 mmol/l.",
+      "A": "Le trou anionique de ce patient est strictement inférieur à 12 mmol/L.",
+      "B": "Le trou anionique de ce patient est compris entre 12 et 18 mmol/L.",
+      "C": "Le trou anionique de ce patient est compris entre 18 et 24 mmol/L.",
+      "D": "Le trou anionique de ce patient est compris entre 24 et 30 mmol/L.",
       "E": "Le trou anionique de ce patient est augmenté."
     },
     "correctAnswers": [
       "D",
       "E"
     ],
-    "text": "Vous prenez en charge un patient de 45 ans pour une acidose métabolique simple. Voici les résultats biologiques • [Na+] = 136 mmol/l • [K+l 4 mmol/l • [CI-I = 106 mmol/l • [HC03-1 = 8 mmol/l • Osmolarité plasmatique: 285 mosmol/l • Lactatémie: 1,5 mmol/l • [Ca++l = 2,5 mmol/l • [Phosphore] = 1,5 mmol/l • Hématocrite 45% Quelle est la valeur du trou anionique plasmatique de ce patient (avec la formule prenant en compte le potassium)",
+    "text": "Vous prenez en charge un patient de 45 ans pour une acidose métabolique simple. Voici les résultats biologiques : • [Na+] = 136 mmol/L • [K+] = 4 mmol/L • [Cl-] = 106 mmol/L • [HCO3-] = 8 mmol/L • Osmolarité plasmatique : 285 mOsmol/L • Lactatémie : 1,5 mmol/L • [Ca2+] = 2,5 mmol/L • [Phosphore] = 1,5 mmol/L • Hématocrite : 45 %. Quelle est la valeur du trou anionique plasmatique de ce patient (avec la formule prenant en compte le potassium) ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) Le trou anionique de ce patient est compris entre 24 et 30 mmol/l. ; E) Le trou anionique de ce patient est augmenté."
+    "explanation": "Correction détaillée :\nCalcul du trou anionique (TA) plasmatique avec K+ : TA = (Na+ + K+) − (Cl- + HCO3-) = (136 + 4) − (106 + 8) = 140 − 114 = 26 mmol/L.\n• A, B, C (Faux) : Le TA est égal à 26 mmol/L.\n• D (Vrai) : 26 mmol/L est bien compris entre 24 et 30 mmol/L.\n• E (Vrai) : La valeur normale du TA (en incluant le potassium) étant de 16 ± 4 mmol/L (soit < 20 mmol/L), un TA à 26 mmol/L est augmenté, signant une acidose métabolique à trou anionique élevé."
   },
   {
     "options": {
@@ -7862,31 +7953,31 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "Concernant la régulation des échanges hydrosodés trans-capillaires et la genèse des œdèmes :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle est dépendante de la pression hydrostatique de part et d'autre de la paroi capillaire. ; B) Le delta normal de pression oncotique trans-capillaire est en faveur d'un passage liquidien de l'interstitium vers la lumière capillaire. ; C) Le coefficient de perméabilité varie en fonction des vaisseaux concernés. ; D) La rétention rénale hydrosodée est toujours présente en cas d'apparition d'œdèmes étendus."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Selon la loi de Starling, le flux transcapillaire dépend du gradient de pression hydrostatique entre le capillaire et l'interstitium (qui favorise la filtration vers l'interstitium).\n• B (Vrai) : La pression oncotique capillaire (liée aux protéines plasmatiques, notamment l'albumine) étant supérieure à celle de l'interstitium, le gradient oncotique tend à retenir ou rappeler l'eau de l'interstitium vers la lumière capillaire.\n• C (Vrai) : Le coefficient de filtration/perméabilité (Kf) varie fortement selon les lits capillaires (très élevé dans les glomérules ou sinusoïdes hépatiques, très faible dans le cerveau).\n• D (Vrai) : La constitution d'œdèmes généralisés (plusieurs litres dans le secteur interstitiel) implique obligatoirement un bilan hydrosodé positif entretenu par une rétention rénale d'eau et de sodium.\n• E (Faux) : Un œdème localisé sur thrombose veineuse profonde relève d'une anticoagulation curative et d'une contention veineuse, jamais de diurétiques (qui risqueraient d'induire une hypovolémie et d'aggraver la thrombose)."
   },
   {
     "options": {
       "A": "est le compartiment de stockage du calcium.",
       "B": "est sous 3 formes : ionisé, complexé, lié aux protéines.",
       "C": "La fraction active est mieux appréciée par la calcémie corrigée que la calcémie totale.",
-      "D": "La fraction active est mieux apprécié par la calcémie ionisée que la calcémie totale.",
-      "E": "représente 50% du calcium de l'organisme."
+      "D": "La fraction active est mieux appréciée par la calcémie ionisée que la calcémie totale.",
+      "E": "représente 50 % du calcium de l'organisme."
     },
     "correctAnswers": [
       "B",
       "C",
       "D"
     ],
-    "text": "Le calcium plasmatique",
+    "text": "Le calcium plasmatique :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) est sous 3 formes : ionisé, complexé, lié aux protéines. ; C) La fraction active est mieux appréciée par la calcémie corrigée que la calcémie totale. ; D) La fraction active est mieux apprécié par la calcémie ionisée que la calcémie totale."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le compartiment de stockage du calcium est le tissu osseux (> 99 % du calcium total de l'organisme).\n• B (Vrai) : Le calcium plasmatique circule sous 3 formes : calcium ionisé libre (~50 %), calcium lié aux protéines principalement à l'albumine (~40 %) et calcium complexé aux anions (~10 %).\n• C (Vrai) : En cas de variation de l'albuminémie, la calcémie corrigée estime mieux la fraction active que la calcémie totale brute.\n• D (Vrai) : Le dosage direct du calcium ionisé est la mesure de référence de la fraction biologiquement active.\n• E (Faux) : Le calcium extracellulaire/plasmatique représente moins de 1 % (environ 0,1 %) du calcium total de l'organisme (c'est le calcium ionisé qui représente 50 % du calcium plasmatique)."
   },
   {
     "options": {
       "A": "Chez ce patient, l'hématurie oriente en premier lieu vers une cause urologique.",
       "B": "La protéinurie évoque une pathologie rénale tubulaire.",
-      "C": "La présence de l'hématurie rend le syndrome néphrotique impur. •e•",
-      "D": "L'association de ce tableau à un dosage des Ac anti PLA2R positif rend très probable le diagnostic de GEM primitive.",
+      "C": "La présence de l'hématurie rend le syndrome néphrotique impur.",
+      "D": "L'association de ce tableau à un dosage des Ac anti-PLA2R positif rend très probable le diagnostic de GEM primitive.",
       "E": "L'association de ce tableau à un purpura vasculaire et des arthralgies peut faire évoquer un purpura rhumatoïde."
     },
     "correctAnswers": [
@@ -7894,9 +7985,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Vous recevez en consultation un patient âgé de 53 ans qui vous montre le bilan biologique suivant • Natrémie 138 mmol/L (135-145) • Kaliémie 4 mmol/L (3,5-5) • Créatininémie 110 pmol/L (60-115) • Albuminémie 25 g/L (35-45) • Protidémie 59 g/L (60-80) • Protéinurie 4.2 g/24 h avec 85% d'albumine ECBU : Leucocytes < 5 /mm3 • Hématies 110 /mm3 Culture stérile Parmi les propositions suivantes, lesquelles sont exactes ?",
+    "text": "Vous recevez en consultation un patient âgé de 53 ans qui vous montre le bilan biologique suivant : • Natrémie : 138 mmol/L (135-145) • Kaliémie : 4 mmol/L (3,5-5) • Créatininémie : 110 µmol/L (60-115) • Albuminémie : 25 g/L (35-45) • Protidémie : 59 g/L (60-80) • Protéinurie : 4,2 g/24 h avec 85 % d'albumine • ECBU : Leucocytes < 5/mm³ • Hématies : 110/mm³ • Culture stérile. Parmi les propositions suivantes, lesquelles sont exactes ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) La présence de l'hématurie rend le syndrome néphrotique impur. •e• ; D) L'association de ce tableau à un dosage des Ac anti PLA2R positif rend très probable le diagnostic de GEM primitive. ; E) L'association de ce tableau à un purpura vasculaire et des arthralgies peut faire évoquer un purpura rhumatoïde. — Remarques : item neutralisé car à la limite du programme du 1er semestre : la GEM est abordé au second semestre item neutralisé car à la limite du programme du 1er semestre : les néphropathies glomérulaire et vasculaire sont abordés au deuxième semestre"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'association d'une hématurie microscopique et d'une protéinurie glomérulaire d'ordre néphrotique (4,2 g/24h) signe une origine glomérulaire (néphrologique) et non urologique.\n• B (Faux) : Une protéinurie abondante composée à 85 % d'albumine (> 80 %) est d'origine glomérulaire et non tubulaire.\n• C (Vrai) : Le patient présente un syndrome néphrotique (protéinurie > 3 g/24h et albuminémie < 30 g/L) ; la présence d'une hématurie microscopique (110/mm³ ≥ 10/mm³) suffit à le qualifier de syndrome néphrotique impur.\n• D (Vrai) : La positivité des anticorps anti-PLA2R au cours d'un syndrome néphrotique de l'adulte est très spécifique de la glomérulonéphrite extra-membraneuse (GEM) primitive.\n• E (Vrai) : L'association d'un syndrome glomérulaire (protéinurie, hématurie) à un purpura vasculaire et des arthralgies évoque un purpura rhumatoïde (vascularite à IgA)."
   },
   {
     "options": {
@@ -7904,20 +7995,20 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "B": "La réabsorption de sel au niveau du tube contourné proximal se fait sous l'action de l'Aldostérone.",
       "C": "La réabsorption de sel au niveau du tube contourné proximal se fait sous l'action de l'ADH.",
       "D": "La réabsorption d'eau au niveau du tube collecteur se fait sous l'action de l'ADH.",
-      "E": "La réabsorption d'eau est plus quantitativement importante au niveau du tube contourné distal qu'au niveau du tube collecteur ."
+      "E": "La réabsorption d'eau est plus quantitativement importante au niveau du tube contourné distal qu'au niveau du tube collecteur."
     },
     "correctAnswers": [
       "D"
     ],
     "text": "Concernant la physiologie tubulaire :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) La réabsorption d'eau au niveau du tube collecteur se fait sous l'action de l'ADH."
+    "explanation": "Correction détaillée :\n• A (Faux) : La réabsorption d'eau et de NaCl est quantitativement maximale au niveau du tube contourné proximal (environ 65 % du filtrat glomérulaire).\n• B, C (Faux) : L'aldostérone et l'ADH agissent sur le néphron distal (tube collecteur), et non sur le tube contourné proximal.\n• D (Vrai) : L'hormone antidiurétique (ADH ou vasopressine) permet la réabsorption facultative d'eau au niveau du tube collecteur en induisant l'insertion membranaire apicale des canaux hydriques aquaporine-2 (AQP2).\n• E (Faux) : Le tube contourné distal (segment de dilution) est imperméable à l'eau."
   },
   {
     "options": {
       "A": "Elle comporte une membrane basale composée de 3 filtres en série.",
-      "B": "Elle est composée d'un épithélium capillaire fenestré, d'une membrane basale glomérulaire et d'une couche de cellules endothéliales ou podocytes. Item neutralisé : jugé comme vrai par le rédacteur mais fausse. La barrière de filtration glomérulaire est faite de 3 couches : endothélium capillaire fenestré + membrane basale glomérulaire + les prolongements cytoplasmiques des podocytes Item neutralisé : jugé comme vrai par le rédacteur mais fausse. La barrière de filtration glomérulaire est faite de 3 couches : endothélium capillaire fenestré + membrane basale glomérulaire + les prolongements cytoplasmiques des podocytes",
-      "C": "Les podocytes présentent des fins prolongements ou pédicelles formant les fentes de filtration.",
+      "B": "Elle est composée d'un épithélium capillaire fenestré, d'une membrane basale glomérulaire et d'une couche de cellules endothéliales ou podocytes.",
+      "C": "Les podocytes présentent de fins prolongements ou pédicelles formant les fentes de filtration.",
       "D": "Elle comporte du collagène de type 4.",
       "E": "Aucune de ces propositions n'est juste."
     },
@@ -7927,13 +8018,13 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "text": "Concernant la paroi de filtration glomérulaire",
+    "text": "Concernant la paroi de filtration glomérulaire :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle comporte une membrane basale composée de 3 filtres en série. ; B) Elle est composée d'un épithélium capillaire fenestré, d'une membrane basale glomérulaire et d'une couche de cellules endothéliales ou podocytes. Item neutralisé : jugé comme vrai par le rédacteur mais fausse. La barrière de filtration glomérulaire est faite de 3 couches : endothélium capillaire fenestré + membrane basale glomérulaire + les prolongements cytoplasmiques des podocytes Item neutralisé : jugé comme vrai par le rédacteur mais fausse. La barrière de filtration glomérulaire est faite de 3 couches : endothélium capillaire fenestré + membrane basale glomérulaire + les prolongements cytoplasmiques des podocytes ; C) Les podocytes présentent des fins prolongements ou pédicelles formant les fentes de filtration. ; D) Elle comporte du collagène de type 4."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La barrière de filtration glomérulaire agit comme une succession de 3 filtres disposés en série.\n• B (Vrai — item neutralisé à l'examen) : La barrière comprend bien 3 couches (endothélium capillaire fenestré, membrane basale glomérulaire et podocytes), mais le rédacteur avait inversé les termes « épithélium » et « cellules endothéliales » (les podocytes sont des cellules épithéliales viscérales et le capillaire est tapissé d'un endothélium fenestré), raison pour laquelle l'item a été neutralisé après coup.\n• C (Vrai) : Les podocytes émettent de fins prolongements pédiculés (pédicelles) dont l'entrecroisement délimite les fentes de filtration (reliées par le diaphragme de fente contenant la néphrine).\n• D (Vrai) : La membrane basale glomérulaire est riche en réseau de collagène de type IV (impliqué dans le syndrome d'Alport et la maladie de Goodpasture).\n• E (Faux) : Les propositions précédentes sont exactes."
   },
   {
     "options": {
-      "A": "a une demi vie plasmatique courte de quelques minutes.",
+      "A": "a une demi-vie plasmatique courte de quelques minutes.",
       "B": "Sa sécrétion est stimulée par l'hypocalcémie.",
       "C": "stimule la résorption osseuse.",
       "D": "stimule la réabsorption tubulaire du calcium.",
@@ -7946,31 +8037,31 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "La PTH (parathormone)",
+    "text": "La PTH (parathormone) :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-17",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) a une demi vie plasmatique courte de quelques minutes. ; B) Sa sécrétion est stimulée par l'hypocalcémie. ; C) stimule la résorption osseuse. ; D) stimule la réabsorption tubulaire du calcium. ; E) est composée de 84 acides aminés."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La PTH intacte a une demi-vie plasmatique très courte (< 5 minutes), permettant une régulation très rapide de la calcémie.\n• B (Vrai) : La baisse du calcium ionisé plasmatique est détectée par le récepteur sensible au calcium (CaSR) des cellules principales parathyroïdiennes, ce qui lève l'inhibition et stimule la sécrétion de PTH.\n• C (Vrai) : La PTH est une hormone hypercalcémiante qui stimule la résorption osseuse pour mobiliser le calcium et le phosphate de l'os.\n• D (Vrai) : Elle stimule la réabsorption active du calcium dans le tubule contourné distal (tout en inhibant la réabsorption proximale du phosphate).\n• E (Vrai) : La PTH biologiquement active est un polypeptide monocaténaire de 84 acides aminés."
   },
   {
     "options": {
       "A": "Il permet une réabsorption importante d'albumine.",
-      "B": "Il permet une réabsorption importante d'acide aminés.",
+      "B": "Il permet une réabsorption importante d'acides aminés.",
       "C": "Il permet à lui seul la réabsorption complète du glucose filtré.",
       "D": "Il permet à lui seul la réabsorption complète du bicarbonate.",
-      "E": "Il permet une réabsorption de sel adapté aux besoins de l'organisme."
+      "E": "Il permet une réabsorption de sel adaptée aux besoins de l'organisme."
     },
     "correctAnswers": [
       "B",
       "C",
       "D"
     ],
-    "text": "Concernant le tube contourné proximal en situation physiologique",
+    "text": "Concernant le tube contourné proximal en situation physiologique :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-18",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Il permet une réabsorption importante d'acide aminés. ; C) Il permet à lui seul la réabsorption complète du glucose filtré. ; D) Il permet à lui seul la réabsorption complète du bicarbonate."
+    "explanation": "Correction détaillée :\n• A (Faux) : En situation physiologique, l'albumine n'est quasiment pas filtrée par le glomérule (seules quelques traces et les protéines de bas poids moléculaire sont réabsorbées par endocytose).\n• B (Vrai) : Le tube contourné proximal réabsorbe la quasi-totalité (≈ 100 %) des acides aminés filtrés.\n• C (Vrai) : En normoglycémie (en dessous du taux maximal de transport tubulaire TmG ≈ 10 mmol/L), le TCP réabsorbe 100 % du glucose filtré via les cotransporteurs SGLT2 et SGLT1.\n• D (Vrai) : Il assure l'essentiel (80 à 90 %) de la réabsorption des bicarbonates filtrés.\n• E (Faux) : Le TCP réabsorbe massivement une fraction iso-osmotique de sel et d'eau (~65 %), mais l'ajustement fin de l'excrétion sodée aux besoins de l'organisme est assuré plus en aval par le tube collecteur sous le contrôle de l'aldostérone."
   },
   {
     "options": {
       "A": "L'unité fonctionnelle rénale est le glomérule.",
-      "B": "Le néphron est composé du glomérule et du tubule rénal",
+      "B": "Le néphron est composé du glomérule et du tubule rénal.",
       "C": "Le tubule rénal est composé de 4 portions.",
       "D": "Le tubule est responsable de la formation de l'ultrafiltrat glomérulaire ou urine primitive.",
       "E": "Le glomérule modifie la composition de l'urine primitive pour aboutir à l'urine définitive."
@@ -7981,7 +8072,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "Quelles sont les propositions justes :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-19",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Le néphron est composé du glomérule et du tubule rénal ; C) Le tubule rénal est composé de 4 portions."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'unité fonctionnelle du rein est le néphron tout entier (et non le seul glomérule).\n• B (Vrai) : Chaque néphron est constitué d'un corpuscule rénal (glomérule + capsule de Bowman) et d'un tubule rénal.\n• C (Vrai) : Le tubule rénal comprend 4 grands segments successifs : le tube contourné proximal, l'anse de Henlé, le tube contourné distal et le tube collecteur.\n• D (Faux) : C'est le glomérule qui forme l'ultrafiltrat glomérulaire (urine primitive).\n• E (Faux) : C'est le tubule rénal (par réabsorption et sécrétion) qui transforme l'urine primitive en urine définitive."
   },
   {
     "options": {
@@ -7998,38 +8089,38 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "Quels sont les éléments en faveur d'une cause rénale à des œdèmes ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-20",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Indolores ; D) Prenant le godet ; E) Mobiles selon la position prolongée du patient"
+    "explanation": "Correction détaillée :\n• A (Faux) : En position debout prolongée, les œdèmes déclives prédominent aux membres inférieurs (chevilles, jambes) ; la prédominance aux lombes (et aux paupières le matin) s'observe après le décubitus prolongé.\n• B (Faux) : Les œdèmes d'origine rénale (généralisés) sont bilatéraux et symétriques.\n• C (Vrai) : Ce sont des œdèmes blancs, mous et indolores (contrairement aux œdèmes inflammatoires ou thrombotiques).\n• D (Vrai) : Ils prennent le godet (persistance de l'empreinte du doigt à la pression).\n• E (Vrai) : Ils sont déclives et mobiles, se redistribuant selon la pesanteur et la position du patient."
   },
   {
     "options": {
       "A": "Sa valeur est dépendante de la masse musculaire.",
       "B": "Son dosage est facile à réaliser en routine.",
       "C": "Il s'agit du produit de dégradation de la carnitine.",
-      "D": "Son élimination est pour hépatique.",
-      "E": "Son dosage permet de mesurer la fonction rénale par le DFG"
+      "D": "Son élimination est hépatique.",
+      "E": "Son dosage permet de mesurer la fonction rénale par le DFG."
     },
     "correctAnswers": [
       "A",
       "B"
     ],
-    "text": "Concernant la créatininémie",
+    "text": "Concernant la créatininémie :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-21",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Sa valeur est dépendante de la masse musculaire. ; B) Son dosage est facile à réaliser en routine."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La production quotidienne de créatinine dépend directement de la masse musculaire squelettique (variant selon l'âge, le sexe, l'état nutritionnel).\n• B (Vrai) : C'est un dosage sanguin simple, rapide, reproductible et peu coûteux en pratique courante.\n• C (Faux) : La créatinine est le produit du catabolisme non enzymatique de la créatine et de la phosphocréatine musculaires (et non de la carnitine).\n• D (Faux) : Son élimination est quasi exclusivement rénale (par filtration glomérulaire et faible sécrétion tubulaire proximale).\n• E (Faux) : Piège classique : la créatininémie permet seulement d'ESTIMER le DFG (via les formules CKD-EPI ou MDRD), tandis que la MESURE exacte du DFG nécessite la clairance d'un traceur exogène (inuline, iohexol, EDTA-Cr51)."
   },
   {
     "options": {
-      "A": "L'osmolarité plasmatique calculée est inférieure à 250 mosmol/l.",
-      "B": "L'osmolarité plasmatique calculée est comprise entre 250 et 255 mosmol/l.",
-      "C": "L'osmolarité plasmatique calculée est comprise entre 256 et 260 mosmol/l.",
-      "D": "L'osmolarité plasmatique calculée est comprise entre 261 et 265 mosmol/l.",
-      "E": "L'osmolarité plasmatique calculée est supérieur à 266 mosmol/l."
+      "A": "L'osmolarité plasmatique calculée est inférieure à 250 mOsmol/L.",
+      "B": "L'osmolarité plasmatique calculée est comprise entre 250 et 255 mOsmol/L.",
+      "C": "L'osmolarité plasmatique calculée est comprise entre 256 et 260 mOsmol/L.",
+      "D": "L'osmolarité plasmatique calculée est comprise entre 261 et 265 mOsmol/L.",
+      "E": "L'osmolarité plasmatique calculée est supérieure à 266 mOsmol/L."
     },
     "correctAnswers": [
       "B"
     ],
-    "text": "Vous prenez en charge un patient de 75 ans, hypertendu et diabétique. Son bilan sanguin est le suivant : • [Na+] = 125 mmol/l • [K+l 5,0 mmol/l • [CI-I = 108 mmol/l • [HC03-1 = 23 mrnol/l • Lactatémie 1,5 mmol/l Glycémie = 4 mmol/l • Urée = 12 mmol/l • Créatinine = 80 umol/l • [Ca++l = 2,4 mmol/l • [Phosphore] = mmol/l • Hématocrite 45% Concernant l'osmolarité plasmatique calculée de ce patient ?",
+    "text": "Vous prenez en charge un patient de 75 ans, hypertendu et diabétique. Son bilan sanguin est le suivant : • [Na+] = 125 mmol/L • [K+] = 5,0 mmol/L • [Cl-] = 108 mmol/L • [HCO3-] = 23 mmol/L • Lactatémie : 1,5 mmol/L • Glycémie = 4 mmol/L • Urée = 12 mmol/L • Créatinine = 80 µmol/L • [Ca2+] = 2,4 mmol/L • [Phosphore] = 1,2 mmol/L • Hématocrite : 45 %. Concernant l'osmolarité plasmatique calculée de ce patient :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-22",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'osmolarité plasmatique calculée est comprise entre 250 et 255 mosmol/l."
+    "explanation": "Correction détaillée :\nFormule de l'osmolarité plasmatique efficace (tonicité) retenue dans le cours : Osmolarité calculée = 2 × [Na+] + Glycémie (mmol/L) = (2 × 125) + 4 = 250 + 4 = 254 mOsmol/L (l'urée diffusant librement à travers les membranes cellulaires est une osmole inefficace et n'est pas comptée dans la tonicité).\n• B (Vrai) : 254 mOsmol/L est compris entre 250 et 255 mOsmol/L.\n• A, C, D, E (Faux)."
   },
   {
     "options": {
@@ -8044,17 +8135,17 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "B",
       "D"
     ],
-    "text": "La régulation du débit de filtration glomérulaire •",
+    "text": "La régulation du débit de filtration glomérulaire :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-23",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) fait appel à des mécanismes d'autorégulation. ; B) met en jeu les résistances artériolaires. ; D) fait appel au rétrocontrôle tubulo-glomérulaire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le rein dispose d'une autorégulation intrinsèque maintenant le débit sanguin rénal et le DFG constants pour une pression artérielle moyenne comprise entre 80 et 150 mmHg.\n• B (Vrai) : Cette régulation module le tonus vasomoteur (résistances) des artérioles afférente et efférente.\n• C (Faux) : En état de choc (pression artérielle moyenne < 70-80 mmHg), les capacités d'autorégulation sont dépassées et le DFG chute (insuffisance rénale aiguë fonctionnelle puis nécrose tubulaire aiguë).\n• D (Vrai) : Elle repose sur le réflexe myogénique et sur le rétrocontrôle tubulo-glomérulaire exercé par la macula densa.\n• E (Faux) : Les propositions A, B et D sont justes."
   },
   {
     "options": {
       "A": "est habituellement présente lors du diagnostic de diabète de type 1.",
-      "B": "Elle prédit l'évolution vers une néphropathie diabétique dans le diabète de type 1",
+      "B": "Elle prédit l'évolution vers une néphropathie diabétique dans le diabète de type 1.",
       "C": "Elle est dépistée avec une bandelette urinaire.",
-      "D": "Elle peut diminuer sous l'effet d'un bloqueur du système rénine angiotensine aldostérone.",
-      "E": "Elle peut diminuer sous Inhibiteur du cotransporteur Na/glucose (Glifozines)."
+      "D": "Elle peut diminuer sous l'effet d'un bloqueur du système rénine-angiotensine-aldostérone.",
+      "E": "Elle peut diminuer sous inhibiteur du cotransporteur Na/glucose (Gliflozines)."
     },
     "correctAnswers": [
       "B",
@@ -8063,29 +8154,30 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "La microalbuminurie :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-24",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Elle prédit l'évolution vers une néphropathie diabétique dans le diabète de type 1 ; D) Elle peut diminuer sous l'effet d'un bloqueur du système rénine angiotensine aldostérone. ; E) Elle peut diminuer sous Inhibiteur du cotransporteur Na/glucose (Glifozines). — Remarques : Question annulée car abordée surtout dans le chapitre \"néphropathie diabétique\" qui est traité au 2ème semestre"
+    "explanation": "Correction détaillée :\n• A (Faux) : Dans le diabète de type 1 (dont le début est aigu et symptomatique), la microalbuminurie est absente au diagnostic et n'apparaît qu'après au moins 5 ans d'évolution (contrairement au diabète de type 2 longtemps asymptomatique où elle peut exister dès le diagnostic).\n• B (Vrai) : C'est le marqueur précoce de néphropathie diabétique débutante.\n• C (Faux) : La bandelette urinaire standard a un seuil de détection d'environ 300 mg/L et ne détecte que la macroalbuminurie ; le dépistage de la microalbuminurie (30-300 mg/j ou RAC 3-30 mg/mmol) nécessite un dosage quantitatif au laboratoire.\n• D (Vrai) : Les IEC et ARA2 diminuent la pression hydrostatique intraglomérulaire (par vasodilatation de l'artériole efférente) et réduisent l'albuminurie.\n• E (Vrai) : Les inhibiteurs de SGLT2 (gliflozines) restaurent le rétrocontrôle tubulo-glomérulaire (vasoconstriction de l'artériole afférente), réduisant l'hyperfiltration glomérulaire et l'albuminurie."
   },
   {
     "options": {
       "A": "se fait majoritairement au niveau du tubule proximal.",
       "B": "se fait majoritairement au niveau du tubule distal.",
-      "C": "est régulée par le CaSR au niveau de l'anse de Henlé. Item neutralisé car peut porter à confusion car 1) faute de frappe + 2)",
-      "D": "est régulée par la PTH et le calcitriol au niveau du tubulaire. pas de précision sur la partie du tubule",
+      "C": "est régulée par le CaSR au niveau de l'anse de Henlé.",
+      "D": "est régulée par la PTH et le calcitriol au niveau du tubule.",
       "E": "Il n'existe pas de réabsorption tubulaire du calcium filtré."
     },
     "correctAnswers": [
       "A",
-      "C"
+      "C",
+      "D"
     ],
-    "text": "partiellement correct La réabsorption du calcium filtré :",
+    "text": "La réabsorption du calcium filtré :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-25",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) se fait majoritairement au niveau du tubule proximal. ; C) est régulée par le CaSR au niveau de l'anse de Henlé. Item neutralisé car peut porter à confusion car 1) faute de frappe + 2)"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Environ 60 à 70 % du calcium filtré est réabsorbé passivement (voie paracellulaire) au niveau du tube contourné proximal.\n• B (Faux) : Le tube contourné distal ne réabsorbe qu'environ 10 % du calcium filtré (mais c'est le site de l'ajustement hormonal fin).\n• C (Vrai) : Au niveau de la branche ascendante large de l'anse de Henlé (~20 % de réabsorption), le récepteur sensible au calcium (CaSR) basolatéral module la réabsorption paracellulaire du calcium.\n• D (Vrai — item neutralisé à l'examen pour imprécision typographique) : La PTH et le calcitriol stimulent la réabsorption active transcellulaire du calcium au niveau du tube contourné distal.\n• E (Faux) : Près de 98 à 99 % du calcium filtré est réabsorbé le long du tubule rénal."
   },
   {
     "options": {
       "A": "La clairance est le volume plasmatique complètement épuré d'une substance par unité de temps.",
       "B": "Le débit de filtration glomérulaire peut être mesuré ou estimé.",
-      "C": "Le débit de filtration glomérulaire peut être estimé par la formule CKD EPI. •,e•",
+      "C": "Le débit de filtration glomérulaire peut être estimé par la formule CKD-EPI.",
       "D": "Il existe une relation linéaire entre la filtration glomérulaire et la créatinine.",
       "E": "Toutes les propositions sont justes."
     },
@@ -8096,13 +8188,13 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "Quelles sont les propositions justes ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-26",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La clairance est le volume plasmatique complètement épuré d'une substance par unité de temps. ; B) Le débit de filtration glomérulaire peut être mesuré ou estimé. ; C) Le débit de filtration glomérulaire peut être estimé par la formule CKD EPI. •,e•"
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est la définition exacte de la clairance rénale d'une substance (exprimée en mL/min).\n• B (Vrai) : Le DFG peut être mesuré (clairance d'un traceur exogène) ou estimé en routine (formules basées sur la créatininémie).\n• C (Vrai) : L'équation CKD-EPI est la formule recommandée en première intention chez l'adulte pour estimer le DFG.\n• D (Faux) : La relation entre la créatininémie et le DFG est inverse et hyperbolique (et non linéaire) : au début de la maladie rénale, une baisse importante du DFG n'entraîne qu'une faible hausse de la créatininémie.\n• E (Faux) : La proposition D est fausse."
   },
   {
     "options": {
       "A": "caractérisées par des croissants extracapillaires à la biopsie rénale.",
-      "B": "parfois secondaire à une polykystose rénale.",
-      "C": "parfois secondaire à une vascularite à ANCA.",
+      "B": "parfois secondaires à une polykystose rénale.",
+      "C": "parfois secondaires à une vascularite à ANCA.",
       "D": "une urgence thérapeutique.",
       "E": "parfois associées avec des atteintes pulmonaires."
     },
@@ -8112,30 +8204,30 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Les Glomérulonéphrites rapidement progressives (GNRP) sont",
+    "text": "Les Glomérulonéphrites rapidement progressives (GNRP) sont :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-27",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) caractérisées par des croissants extracapillaires à la biopsie rénale. ; C) parfois secondaire à une vascularite à ANCA. ; D) une urgence thérapeutique. ; E) parfois associées avec des atteintes pulmonaires. — Remarques : Question hors programme (néphropathies glomérulaires abordées au second semestre)"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La lésion histologique définissant toute GNRP est la prolifération extracapillaire avec formation de croissants dans la chambre urinaire de Bowman.\n• B (Faux) : La polykystose rénale est une néphropathie héréditaire kystique chronique et ne donne jamais de GNRP.\n• C (Vrai) : Les vascularites des petits vaisseaux associées aux ANCA (GPA, PAM) sont la cause la plus fréquente de GNRP (type 3, pauci-immune).\n• D (Vrai) : C'est une urgence diagnostique (PBR) et thérapeutique absolue pour sauver le pronostic rénal et vital.\n• E (Vrai) : Elles s'intègrent fréquemment dans un syndrome pneumo-rénal (hémorragie intra-alvéolaire associée, notamment dans la maladie de Goodpasture et les vascularites à ANCA)."
   },
   {
     "options": {
-      "A": "Un régime normo sodé",
-      "B": "La prescription d'un diurétique de l'anse (Furosemide)",
-      "C": "La prescription d'un traitement anticoagulant si l'albumine est > 25g/l",
+      "A": "Un régime normosodé",
+      "B": "La prescription d'un diurétique de l'anse (Furosémide)",
+      "C": "La prescription d'un traitement anticoagulant si l'albumine est > 25 g/L",
       "D": "La prescription d'une hémodialyse",
-      "E": "La perfusion d'albumine 20%"
+      "E": "La perfusion d'albumine 20 %"
     },
     "correctAnswers": [
       "B"
     ],
-    "text": "Le traitement du syndrome œdémateux secondaire à un syndrome néphrotique nécessite",
+    "text": "Le traitement du syndrome œdémateux secondaire à un syndrome néphrotique nécessite :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-28",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La prescription d'un diurétique de l'anse (Furosemide)"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le traitement repose sur une restriction sodée (régime hyposodé < 4-6 g/j de NaCl) et non normosodé.\n• B (Vrai) : L'association d'un régime hyposodé et d'un diurétique de l'anse (furosémide) est la base du traitement symptomatique des œdèmes du syndrome néphrotique.\n• C (Faux) : L'anticoagulation préventive n'est indiquée qu'en cas d'hypoalbuminémie profonde < 20 g/L (et ne constitue pas un traitement des œdèmes).\n• D (Faux) : L'hémodialyse n'est pas le traitement du syndrome œdémateux néphrotique.\n• E (Faux) : La perfusion d'albumine n'est pas indiquée en routine (l'albumine perfusée est rapidement fuite dans les urines)."
   },
   {
     "options": {
-      "A": "entraine une vasoconstriction de l'artériole efférente.",
+      "A": "entraîne une vasoconstriction de l'artériole efférente.",
       "B": "inhibe la réabsorption tubulaire de NaCl.",
-      "C": "entraine la sécrétion d'aldostérone.",
+      "C": "entraîne la sécrétion d'aldostérone.",
       "D": "est stimulé par les osmorécepteurs de la macula densa en cas de diminution du contenu NaCl du tubule distal par le biais de la rénine.",
       "E": "La rénine est libérée par l'appareil juxta-glomérulaire."
     },
@@ -8145,32 +8237,33 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Le système rénine angiotensine aldostérone",
+    "text": "Le système rénine-angiotensine-aldostérone :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-29",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) entraine une vasoconstriction de l'artériole efférente. ; C) entraine la sécrétion d'aldostérone. ; D) est stimulé par les osmorécepteurs de la macula densa en cas de diminution du contenu NaCl du tubule distal par le biais de la rénine. ; E) La rénine est libérée par l'appareil juxta-glomérulaire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'angiotensine II exerce une vasoconstriction préférentielle sur l'artériole efférente glomérulaire, maintenant la pression hydrostatique de filtration en cas d'hypoperfusion.\n• B (Faux) : Au contraire, le SRAA (via l'angiotensine II au tube proximal et l'aldostérone au tube collecteur) stimule puissamment la réabsorption tubulaire de NaCl.\n• C (Vrai) : L'angiotensine II stimule la synthèse et la sécrétion d'aldostérone par la zone glomérulée de la corticosurrénale.\n• D (Vrai) : La baisse de la charge en NaCl perçue par la macula densa (au début du tube distal) active la libération de rénine.\n• E (Vrai) : La rénine est sécrétée par les cellules myoépithélioïdes (granulaires) de l'appareil juxta-glomérulaire (dans la paroi de l'artériole afférente)."
   },
   {
     "options": {
+      "A": "Vous lui remettez une ordonnance pour réaliser un ECG et une échographie cardiaque transthoracique.",
       "B": "Vous lui demandez de réaliser un dosage de kaliémie, de créatininémie et de protéinurie.",
-      "A": "Vous lui remettez une ordonnance pour réaliser un ECG et une échographie cardiaque transthoracique. X Manque de précision sur le caractère symptomatique ou non du patient ce qui modifie l'indication ou non de l'échographie cardiaque",
-      "C": "Vous lui demandez de réaliser un fond d'œil. Oui car patient diabétique. Pas d'indication au fond d'oeil sur de l'HTA simple",
-      "D": "Les inhibiteurs de l'enzyme de conversion sont classiquement les traitements de 1 ère intention dans cette situation.",
+      "C": "Vous lui demandez de réaliser un fond d'œil.",
+      "D": "Les inhibiteurs de l'enzyme de conversion sont classiquement les traitements de 1ère intention dans cette situation.",
       "E": "Vous lui expliquez les règles hygiéno-diététiques."
     },
     "correctAnswers": [
       "B",
+      "C",
       "D",
       "E"
     ],
-    "text": "",
+    "text": "Vous recevez en consultation une patiente de 52 ans, diabétique, chez qui vous découvrez une HTA. Quelles sont les propositions exactes ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-30",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Vous lui demandez de réaliser un dosage de kaliémie, de créatininémie et de protéinurie. ; D) Les inhibiteurs de l'enzyme de conversion sont classiquement les traitements de 1 ère intention dans cette situation. ; E) Vous lui expliquez les règles hygiéno-diététiques."
+    "explanation": "Correction détaillée :\n• A (Faux) : Si l'ECG de repos fait partie du bilan initial systématique de toute HTA (bilan OMS), l'échocardiographie transthoracique n'est pas systématique en première intention en l'absence de symptômes cardiovasculaires ou d'anomalie ECG.\n• B (Vrai) : Kaliémie, créatininémie (avec estimation du DFG) et recherche de protéinurie/albuminurie font partie du bilan minimal systématique de toute HTA.\n• C (Vrai) : La patiente étant diabétique, le fond d'œil est indispensable au dépistage et au suivi de la rétinopathie diabétique.\n• D (Vrai) : Chez le patient diabétique hypertendu, les bloqueurs du SRAA (IEC ou ARA2) sont le traitement antihypertenseur de première intention pour leur effet néphroprotecteur.\n• E (Vrai) : Les mesures hygiéno-diététiques (activité physique, réduction pondérale, modération sodée, arrêt du tabac) sont systématiques."
   },
   {
     "options": {
       "A": "L'eau totale présente dans le corps du patient est d'environ 40 litres.",
       "B": "Le volume d'eau contenue dans les cellules est d'environ 20 litres.",
-      "C": "Le volume d'eau contenue dans l'extra cellulaire peut être déduite à partir du dosage de la natrémie.",
+      "C": "Le volume d'eau contenue dans l'extracellulaire peut être déduit à partir du dosage de la natrémie.",
       "D": "Le volume d'eau contenue dans les cellules peut être estimé à partir de l'osmolarité plasmatique.",
       "E": "La protidémie est le meilleur marqueur du volume extracellulaire."
     },
@@ -8180,31 +8273,31 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "Vous faites face à un patient de 60 ans, pesant 50 kg et mesurant 158 cm. Concernant la répartition de l'eau dans son corps :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-31",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Le volume d'eau contenue dans les cellules est d'environ 20 litres. ; D) Le volume d'eau contenue dans les cellules peut être estimé à partir de l'osmolarité plasmatique."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'eau corporelle totale représente environ 60 % du poids du corps, soit 0,60 × 50 kg = 30 litres (et non 40 litres).\n• B (Vrai) : Le compartiment intracellulaire représente 40 % du poids corporel (2/3 de l'eau totale), soit 0,40 × 50 kg = 20 litres.\n• C (Faux) : La natrémie reflète l'état d'hydratation INTRACELLULAIRE (et non extracellulaire, qui dépend du pool sodé et s'évalue cliniquement).\n• D (Vrai) : L'osmolalité plasmatique efficace (déterminée principalement par la natrémie) régit les mouvements d'eau transmembranaires et reflète donc l'état d'hydratation intracellulaire.\n• E (Faux) : Les meilleurs marqueurs du volume extracellulaire sont cliniques (variation du poids, pression artérielle, œdèmes ou pli cutané) ; la protidémie et l'hématocrite ne sont que des signes biologiques indirects d'hémoconcentration/hémodilution."
   },
   {
     "options": {
-      "A": "L'osmolarité est d'environ 1200 mosmol/l juste après la filtration glomérulaire.",
-      "B": "L'osmolarité est d'environ 300 mosmol/l au niveau du tube contourné proximal.",
-      "C": "L'osmolarité est d'environ 1200 mosmol/l au niveau de la partie la plus médullaire de l'anse de Henlé.",
-      "D": "Le tube contourné distal permet d'augmenter l'osmolarité jusqu'à 1200 mosmol/l.",
-      "E": "L'osmolarité urinaire finale (dans les urines éliminées) doit être la plus proche possible de 300 mosmol/l pour assurer l'homéostasie du bilan hydrique."
+      "A": "L'osmolarité est d'environ 1200 mOsmol/L juste après la filtration glomérulaire.",
+      "B": "L'osmolarité est d'environ 300 mOsmol/L au niveau du tube contourné proximal.",
+      "C": "L'osmolarité est d'environ 1200 mOsmol/L au niveau de la partie la plus médullaire de l'anse de Henlé.",
+      "D": "Le tube contourné distal permet d'augmenter l'osmolarité jusqu'à 1200 mOsmol/L.",
+      "E": "L'osmolarité urinaire finale (dans les urines éliminées) doit être la plus proche possible de 300 mOsmol/L pour assurer l'homéostasie du bilan hydrique."
     },
     "correctAnswers": [
       "B",
       "C"
     ],
-    "text": "Concernant l'osmolarité qui règne dans le tubule",
+    "text": "Concernant l'osmolarité qui règne dans le tubule :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-32",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) L'osmolarité est d'environ 300 mosmol/l au niveau du tube contourné proximal. ; C) L'osmolarité est d'environ 1200 mosmol/l au niveau de la partie la plus médullaire de l'anse de Henlé."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'ultrafiltrat glomérulaire est strictement iso-osmolaire au plasma (~300 mOsmol/L).\n• B (Vrai) : La réabsorption tubulaire proximale étant iso-osmotique (autant d'eau que d'osmoles), le fluide tubulaire reste à environ 300 mOsmol/L tout au long du TCP.\n• C (Vrai) : Grâce au système multiplicateur à contre-courant cortico-papillaire, l'osmolarité atteint son maximum (jusqu'à 1200 mOsmol/L) à la pointe médullaire profonde de l'anse de Henlé.\n• D (Faux) : Le tube contourné distal est le segment de dilution (imperméable à l'eau) : l'urine qui y pénètre est hypotonique (~100 mOsmol/L) et s'y dilue encore davantage.\n• E (Faux) : L'osmolarité urinaire finale varie physiologiquement dans une très large gamme (de 50 à 1200 mOsmol/L selon l'action de l'ADH) afin de maintenir constante l'osmolarité plasmatique à 300 mOsmol/L malgré des apports d'eau variables."
   },
   {
     "options": {
       "A": "dépend du débit cardiaque.",
       "B": "correspond à 20 % du débit plasmatique rénal.",
       "C": "est normalement proche de 120 mL/min.",
-      "D": "dépend des mouvements de fluides gouvernés par la loi de starling. v'",
-      "E": "est lié à la pression oncotique du capillaire glomérulaire. x"
+      "D": "dépend des mouvements de fluides gouvernés par la loi de Starling.",
+      "E": "est lié à la pression oncotique du capillaire glomérulaire."
     },
     "correctAnswers": [
       "A",
@@ -8215,39 +8308,40 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 2/SQI1.pdf"] = [
     ],
     "text": "Le débit de filtration glomérulaire :",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-33",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) dépend du débit cardiaque. ; B) correspond à 20 % du débit plasmatique rénal. ; C) est normalement proche de 120 mL/min. ; D) dépend des mouvements de fluides gouvernés par la loi de starling. v' ; E) est lié à la pression oncotique du capillaire glomérulaire. x"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le débit sanguin rénal représente ~20 % du débit cardiaque et conditionne la pression hydrostatique glomérulaire.\n• B (Vrai) : La fraction de filtration (FF = DFG / Débit Plasmatique Rénal = 120 / 600) est normalement d'environ 20 %.\n• C (Vrai) : Le DFG physiologique chez l'adulte jeune est d'environ 120 mL/min/1,73 m².\n• D (Vrai) : L'ultrafiltration glomérulaire obéit aux forces physiques de la loi de Starling.\n• E (Vrai) : La pression oncotique intracapillaire glomérulaire est la principale force qui s'oppose à la pression hydrostatique glomérulaire dans l'équation de Starling."
   },
   {
     "options": {
-      "A": "Albuminémie 35 g/l, Protéinurie 350 mg/mmol, Hématurie 35 hématies/mm3",
-      "B": "Albuminémie 24 g/l, Créatininémie 150 pmol/l, Protéinurie 80 mg/mmol",
-      "C": "Albuminémie 26 g/l, Protéinurie 4 g/g, Tension Artérielle 155/90 mmHg",
-      "D": "Albuminémie 18 g/l, Créatininémie 60 pmol/l, Tension artérielle 120/70 mmHg, Protéinurie 350 mg/mmol, Hématies 8/mm",
-      "E": "Albuminémie 22 g/l, Créatininémie 150 pmol/l, Tension artérielle 150/95 mmHg, Protéinurie 420 mg/mmol, Hématies 8/mm3"
+      "A": "Albuminémie 35 g/L, Protéinurie 350 mg/mmol, Hématurie 35 hématies/mm³",
+      "B": "Albuminémie 24 g/L, Créatininémie 150 µmol/L, Protéinurie 80 mg/mmol",
+      "C": "Albuminémie 26 g/L, Protéinurie 4 g/g, Tension Artérielle 155/90 mmHg",
+      "D": "Albuminémie 18 g/L, Créatininémie 60 µmol/L, Tension artérielle 120/70 mmHg, Protéinurie 350 mg/mmol, Hématies 8/mm³",
+      "E": "Albuminémie 22 g/L, Créatininémie 150 µmol/L, Tension artérielle 150/95 mmHg, Protéinurie 420 mg/mmol, Hématies 8/mm³"
     },
     "correctAnswers": [
-      "B",
-      "C"
+      "C",
+      "E"
     ],
-    "text": "Parmi les situations suivantes, lesquelles correspondent à syndrome néphrotique impur ?",
+    "text": "Parmi les situations suivantes, lesquelles correspondent à un syndrome néphrotique impur ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-34",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Albuminémie 24 g/l, Créatininémie 150 pmol/l, Protéinurie 80 mg/mmol ; C) Albuminémie 26 g/l, Protéinurie 4 g/g, Tension Artérielle 155/90 mmHg"
+    "explanation": "Correction détaillée :\nRappel : Le syndrome néphrotique (SN) est défini biologiquement par une protéinurie > 3 g/24h (ou > 3 g/g ou > 300 mg/mmol) ET une albuminémie < 30 g/L. Il est dit IMPUR s'il s'associe à au moins un des 3 critères suivants : hématurie (≥ 10/mm³), HTA (≥ 140/90 mmHg) ou insuffisance rénale organique.\n• A (Faux) : Albuminémie normale à 35 g/L (≥ 30 g/L) : il n'y a pas de syndrome néphrotique.\n• B (Faux) : Protéinurie à 80 mg/mmol (< 300 mg/mmol) : il n'y a pas de syndrome néphrotique.\n• C (Vrai) : SN (albuminémie 26 g/L < 30 g/L et protéinurie 4 g/g > 3 g/g) associé à une HTA (155/90 mmHg) = syndrome néphrotique impur.\n• D (Faux) : Il s'agit d'un syndrome néphrotique PUR (TA normale à 120/70, créatininémie normale à 60 µmol/L et hématies < 10/mm³).\n• E (Vrai) : SN (albuminémie 22 g/L et protéinurie 420 mg/mmol) associé à une insuffisance rénale (créatininémie 150 µmol/L) et une HTA (150/95 mmHg) = syndrome néphrotique impur."
   },
   {
     "options": {
-      "A": "PH 7,24",
-      "B": "[HC031 = 24 mmol/l",
-      "C": "[HC031 = 16 mmol/l",
-      "D": "PaC02 = 48 mmHg",
-      "E": "PaC02 = 32 mmHg"
+      "A": "pH = 7,24",
+      "B": "[HCO3-] = 24 mmol/L",
+      "C": "[HCO3-] = 16 mmol/L",
+      "D": "PaCO2 = 48 mmHg",
+      "E": "PaCO2 = 32 mmHg"
     },
     "correctAnswers": [
       "A",
+      "C",
       "E"
     ],
-    "text": "partiellement correct Lesquels de ces paramètres biologiques pourraient être observés lors d'une acidose métabolique simple ?",
+    "text": "Lesquels de ces paramètres biologiques pourraient être observés lors d'une acidose métabolique simple ?",
     "id": "ANN-UE5-UE5S3Nephrologie2-SQI1-35",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) PH 7,24 ; E) PaC02 = 32 mmHg"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Un pH artériel < 7,38 (ici 7,24) définit l'acidémie.\n• B (Faux) : Une bicarbonatémie normale à 24 mmol/L exclut une acidose métabolique.\n• C (Vrai) : La baisse primitive des bicarbonates plasmatiques (< 22 mmol/L, ici 16 mmol/L) caractérise l'origine métabolique de l'acidose.\n• D (Faux) : Une PaCO2 élevée (> 42 mmHg, ici 48 mmHg) traduirait une acidose respiratoire associée (acidose mixte).\n• E (Vrai) : Dans une acidose métabolique simple, la réponse ventilatoire compensatrice (hyperventilation alvéolaire) abaisse la PaCO2 (< 38 mmHg, ici 32 mmHg)."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 3/SQI1.pdf"] = [
@@ -8266,13 +8360,13 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 3/SQI1.pdf"] = [
     ],
     "text": "La recherche d'une maladie rénale chronique doit être dépistée annuellement chez les patients suivants :",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Insuffisants cardiaques ; D) Obèses avec un BMI supérieur à 30 ; E) Diabétiques de type 2"
+    "explanation": "Correction détaillée :\n• A, B (Faux) : Ces terrains n'entraînent pas une indication de dépistage direct systématique des urines/sang sans autre comorbidité (HTA/diabète).\n• C (Vrai) : L'insuffisance cardiaque participe aux dégradations croisées du système cardio-rénal.\n• D (Vrai) : L'obésité engendre une hyperfiltration néfaste et des lésions spécifiques.\n• E (Vrai) : Première cause mondiale d'entrée en dialyse."
   },
   {
     "options": {
       "A": "Hypertension artérielle",
       "B": "Sédentarité",
-      "C": "Ethylisme chronique",
+      "C": "Éthylisme chronique",
       "D": "Diabète",
       "E": "Tabagisme"
     },
@@ -8283,15 +8377,15 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 3/SQI1.pdf"] = [
     ],
     "text": "Parmi les items suivants, lesquels sont des causes d'aggravation de l'insuffisance rénale chronique ?",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Hypertension artérielle ; D) Diabète ; E) Tabagisme"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les fortes pressions détruisent les capillaires restants (néphroangiosclérose).\n• B (Faux) : Modifie le risque général mais n'est pas ciblée comme un accélérateur rénal direct.\n• C (Faux) : Détruit le foie, pas l'hémodynamique du rein directement (hors stade terminal).\n• D (Vrai) : L'hyperglycémie est toxique pour le glomérule.\n• E (Vrai) : Cause des sténoses artérielles et majore la protéinurie."
   },
   {
     "options": {
-      "A": "Elle concerne 7 à de la population française.",
+      "A": "Elle concerne 7 à 10 % de la population française.",
       "B": "Elle est souvent découverte à un stade évolué.",
       "C": "Elle augmente le risque de mortalité, notamment cardiovasculaire.",
-      "D": "L'atteinte du débit de filtration glomérulaire entraine une modification du métabolisme de certains médicaments.",
-      "E": "Le contrôle de l'hypertension artérielle dans ce contexte, nécessite de contrôler les apports sodés avec un objectif proche de 10 g/j."
+      "D": "L'atteinte du débit de filtration glomérulaire entraîne une modification du métabolisme de certains médicaments.",
+      "E": "Le contrôle de l'hypertension artérielle dans ce contexte nécessite de contrôler les apports sodés avec un objectif proche de 10 g/j."
     },
     "correctAnswers": [
       "A",
@@ -8299,17 +8393,17 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 3/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "text": "Concernant la maladie rénale chronique",
+    "text": "Concernant la maladie rénale chronique :",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Elle concerne 7 à de la population française. ; B) Elle est souvent découverte à un stade évolué. ; C) Elle augmente le risque de mortalité, notamment cardiovasculaire. ; D) L'atteinte du débit de filtration glomérulaire entraine une modification du métabolisme de certains médicaments."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Concerne bien de 7 à 10 % de la population française (problème majeur de santé publique).\n• B (Vrai) : Sa latence clinique retarde le diagnostic, souvent perçu brutalement aux stades pré-terminaux.\n• C (Vrai) : L'IRC calcifie les vaisseaux et majore le risque cardiovasculaire.\n• D (Vrai) : Une baisse du DFG impose un ajustement (demi-vie allongée) des antibiotiques, anticoagulants, etc.\n• E (Faux) : 10 g/jour est un apport beaucoup trop élevé ; l'objectif est proche de 5 à 6 g/jour."
   },
   {
     "options": {
       "A": "Devant un tableau de glomérulonéphrite rapidement progressive",
       "B": "Lorsque la protéinurie est supérieure à 1 g/g de créatininurie.",
-      "C": "Lors d'une HTA résistante à un traitement par bloqueur du système rénine angiotensine aldostérone",
-      "D": "Lorsque l'insuffisance rénale est aigue.",
-      "E": "Lorsque le débit de filtration glomérulaire est inférieur à 40 ml/min/l .73 rn2. x"
+      "C": "Lors d'une HTA résistante à un traitement par bloqueur du système rénine-angiotensine-aldostérone",
+      "D": "Lorsque l'insuffisance rénale est aiguë.",
+      "E": "Lorsque le débit de filtration glomérulaire est inférieur à 40 mL/min/1,73 m²."
     },
     "correctAnswers": [
       "A",
@@ -8317,23 +8411,23 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 3/SQI1.pdf"] = [
     ],
     "text": "En présence de signes d'atteinte rénale, il faut demander un avis spécialisé néphrologique en urgence :",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Devant un tableau de glomérulonéphrite rapidement progressive ; D) Lorsque l'insuffisance rénale est aigue."
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est la grande urgence organique rénale (traitements immunosuppresseurs immédiats vitaux).\n• B (Faux) : Justifie une prise en charge (bilan, biopsie), mais sans l'extrême urgence d'une GNRP.\n• C (Faux) : Bilan nécessaire mais délai ambulatoire correct.\n• D (Vrai) : L'IRA peut tuer très rapidement par asystolie (hyperkaliémie) ou OAP.\n• E (Faux) : Un stade 3B chronique nécessite un suivi planifié, pas une admission urgente."
   },
   {
     "options": {
-      "A": "La présence d'un débit de filtration glomérulaire en dessous de 60 mm/min/l ,73m2 pendant plus d'I mois.",
-      "B": "Une hématurie à l'ECBU, après élimination d'une cause urologique, à plus de IO/mm3 pendant plus de 2 mois",
+      "A": "La présence d'un débit de filtration glomérulaire en dessous de 60 mL/min/1,73 m² pendant plus d'1 mois.",
+      "B": "Une hématurie à l'ECBU, après élimination d'une cause urologique, à plus de 10/mm³ pendant plus de 2 mois",
       "C": "La découverte radiologique d'un petit rein bosselé",
-      "D": "Une hématurie à l'ECBU, après élimination d'une cause urologique, supérieure à IO/mm3 pendant plus de 3 mois",
-      "E": "Un débit de filtration glomérulaire supérieur à 120 ml/min/l. 73 m2 pendant plus de 3 mois"
+      "D": "Une hématurie à l'ECBU, après élimination d'une cause urologique, supérieure à 10/mm³ pendant plus de 3 mois",
+      "E": "Un débit de filtration glomérulaire supérieur à 120 mL/min/1,73 m² pendant plus de 3 mois"
     },
     "correctAnswers": [
-      "B",
-      "C"
+      "C",
+      "D"
     ],
-    "text": "On peut affirmer la présence d'une maladie rénale devant",
+    "text": "On peut affirmer la présence d'une maladie rénale chronique devant :",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Une hématurie à l'ECBU, après élimination d'une cause urologique, à plus de IO/mm3 pendant plus de 2 mois ; C) La découverte radiologique d'un petit rein bosselé"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le seuil de chronicité exige une anomalie s'étendant sur plus de 3 mois.\n• B (Faux) : Hématurie microscopique validée, mais la durée indiquée (2 mois) ne respecte pas le délai réglementaire des 3 mois.\n• C (Vrai) : Une modification morphologique fixée (petits reins cicatriciels) suffit à classer le patient en IRC de facto.\n• D (Vrai) : Présence d'un marqueur lésionnel sur plus de 3 mois (chronicité).\n• E (Faux) : Un DFG élevé de façon isolée (hyperfiltration) pendant 3 mois ne définit pas le diagnostic clinique validé de MRC."
   },
   {
     "options": {
@@ -8349,7 +8443,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 3/SQI1.pdf"] = [
     ],
     "text": "Le suivi d'un patient insuffisant rénal chronique doit toujours comporter, au moins annuellement :",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Un dosage de la créatininémie ; C) Un dosage du rapport albuminurie/créatininurie"
+    "explanation": "Correction détaillée :\n• A, D, E (Faux) : L'échographie, l'ionogramme (stades 1-2) ou l'urée ne sont pas les recommandations biologiques annuelles de dépistage/suivi de base prioritaires.\n• B (Vrai) : Mesure directe de la créatininémie pour calculer/estimer le DFG annuel.\n• C (Vrai) : Indispensable pour stratifier le risque rénal évolutif selon le seuil (rapport A/C)."
   },
   {
     "options": {
@@ -8366,29 +8460,30 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 3/SQI1.pdf"] = [
     ],
     "text": "Le dépistage d'une pathologie rénale chez un sujet à risque doit comporter :",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Un dosage de la créatininémie ; B) Un dosage de la créatininurie ; C) Un dosage de l'albuminurie"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Dosage du déchet pour calculer/estimer le DFG.\n• B (Vrai) : Toujours dosée pour pouvoir calculer le ratio sur un spot urinaire.\n• C (Vrai) : Dosée au numérateur du spot pour rechercher une atteinte débutante.\n• D, E (Faux) : L'imagerie et l'ionogramme ne sont pas prescrits en 1re ligne pour le simple dépistage systématique, sauf en cas d'anomalie biologique révélée."
   },
   {
     "options": {
-      "A": "Privilégier les glifozines comme traitement anti-diabétique Mieux contrôler sa tension artérielle",
-      "B": "",
+      "A": "Privilégier les gliflozines comme traitement anti-diabétique",
+      "B": "Mieux contrôler sa tension artérielle",
       "C": "Proposer comme traitement anti-hypertenseur un bloqueur du système rénine-angiotensine",
       "D": "Lui demander de limiter ses apports en protéines",
       "E": "Lui demander d'avoir des boissons supérieures à 2 litres/jour"
     },
     "correctAnswers": [
       "A",
+      "B",
       "C",
       "D"
     ],
-    "text": "Un homme de 55 ans vous consulte pour avoir votre avis sur sa fonction rénale. Il pèse 85 Kg pour 1 m 72. Il est suivi pour un diabète ancien avec des lésions rétiniennes. Sa tension artérielle est à 1 50/102 mmHg, le pouls à 74 battements/min. Le bilan biologique qu'il vous montre est le suivant : • Na : 142 mmol/L • K : 4,1 mmol/L • Cl : 102 mmol/L • C03H- : 23 mmol/L • Créatininémie : 126 umol/L • Urée sanguine : 6 mmol/L Dans les urines sur échantillon • Na : 80 mmol/l • K : 40 mmol/l_ • Cl : 100 mmol/L • Créatinine : 6 mmol/L • protéinurie : g/L Compte tenu de ces éléments, que pouvez vous lui proposer pour optimiser la durée de fonctionnement rénal ?",
+    "text": "Un homme de 55 ans vous consulte pour avoir votre avis sur sa fonction rénale. Il pèse 85 kg pour 1 m 72. Il est suivi pour un diabète ancien avec des lésions rétiniennes. Sa tension artérielle est à 150/102 mmHg, le pouls à 74 battements/min. Le bilan biologique qu'il vous montre est le suivant : • Na : 142 mmol/L • K : 4,1 mmol/L • Cl : 102 mmol/L • HCO3- : 23 mmol/L • Créatininémie : 126 µmol/L • Urée sanguine : 6 mmol/L. Dans les urines sur échantillon : • Na : 80 mmol/L • K : 40 mmol/L • Cl : 100 mmol/L • Créatinine : 6 mmol/L • Protéinurie : 2 g/L. Compte tenu de ces éléments, que pouvez-vous lui proposer pour optimiser la durée de fonctionnement rénal ?",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Privilégier les glifozines comme traitement anti-diabétique Mieux contrôler sa tension artérielle ; C) Proposer comme traitement anti-hypertenseur un bloqueur du système rénine-angiotensine ; D) Lui demander de limiter ses apports en protéines"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les gliflozines protègent le rein diabétique avec protéinurie, c'est aujourd'hui la norme.\n• B (Vrai) : Pression artérielle beaucoup trop haute (cible < 130/80 mmHg sur protéinurie).\n• C (Vrai) : Les IEC et ARA2 s'imposent en première ligne.\n• D (Vrai) : Réduire la charge osmotique liée aux protéines diminue la pression glomérulaire.\n• E (Faux) : L'hyperhydratation « forcée » est inutile pour ce contexte et potentiellement néfaste (volémie, HTA)."
   },
   {
     "options": {
       "A": "Reins de petite taille",
-      "B": "Reins avec disparition de la différentiation cortico-papillaire",
+      "B": "Reins avec disparition de la différenciation cortico-papillaire",
       "C": "Hypoperfusion rénale au doppler",
       "D": "Gros reins polykystiques",
       "E": "Asymétrie de taille entre les 2 reins"
@@ -8400,7 +8495,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 3/SQI1.pdf"] = [
     ],
     "text": "Parmi les éléments radiologiques suivants, lesquels affirment une maladie rénale chronique ?",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Reins de petite taille ; D) Gros reins polykystiques ; E) Asymétrie de taille entre les 2 reins"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Une atrophie bilatérale ou unilatérale marque l'ancienneté.\n• B, C (Faux) : Moins spécifiques ou aigus (l'hypoperfusion est présente dans l'IRA fonctionnelle par exemple).\n• D (Vrai) : Ces volumineux kystes multiples identifient d'emblée l'entité héréditaire, chronique (PKRAD).\n• E (Vrai) : Révèle le plus souvent une sténose artérielle fixée avec atrophie du rein ischémique."
   },
   {
     "options": {
@@ -8418,13 +8513,13 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 3/SQI1.pdf"] = [
     ],
     "text": "Le suivi d'un patient insuffisant rénal chronique au stade 4 doit toujours comporter, au moins tous les 6 mois :",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ionogramme sanguin ; B) Parathormone ; C) Hémoglobinémie ; D) Ferritinémie"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Dépistage de l'hyperkaliémie létale.\n• B (Vrai) : Dépistage de l'hyperparathyroïdie secondaire.\n• C (Vrai) : Contrôle de l'anémie.\n• D (Vrai) : Mesure des stocks martiaux, préalable indispensable aux injections d'érythropoïétine.\n• E (Faux) : Le bilan lipidique a un suivi annuel."
   },
   {
     "options": {
-      "A": "concerne plus de 500/0 des patients ayant un débit de filtration glomérulaire inférieur à 30 ml/min/l ,73m2.",
+      "A": "Concerne plus de 50 % des patients ayant un débit de filtration glomérulaire inférieur à 30 mL/min/1,73 m².",
       "B": "Elle est indépendante des apports sodés.",
-      "C": "doit faire privilégier un traitement par bloqueurs du système rénine angiotensine en 1 ère intention.",
+      "C": "Doit faire privilégier un traitement par bloqueurs du système rénine-angiotensine en 1re intention.",
       "D": "L'objectif de tension artérielle doit être en dessous de 140 mmHg pour la systolique et de 90 mmHg pour la diastolique.",
       "E": "En présence d'une albuminurie supérieure à 300 mg/g (ou 30 mg/mmol) de créatinine, un objectif de 120 mmHg/80 mmHg est recommandé."
     },
@@ -8434,25 +8529,26 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 3/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "L'hypertension artérielle chez l'insuffisant rénal chronique:",
+    "text": "L'hypertension artérielle chez l'insuffisant rénal chronique :",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) concerne plus de 500/0 des patients ayant un débit de filtration glomérulaire inférieur à 30 ml/min/l ,73m2. ; C) doit faire privilégier un traitement par bloqueurs du système rénine angiotensine en 1 ère intention. ; D) L'objectif de tension artérielle doit être en dessous de 140 mmHg pour la systolique et de 90 mmHg pour la diastolique. ; E) En présence d'une albuminurie supérieure à 300 mg/g (ou 30 mg/mmol) de créatinine, un objectif de 120 mmHg/80 mmHg est recommandé."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elle est même présente chez plus de 80 à 90 % des patients à ce stade 4/5.\n• B (Faux) : Au contraire, elle dépend majoritairement des volumes et du sel absorbé (volo-dépendante).\n• C (Vrai) : Ils réduisent la protéinurie et l'hyperfiltration.\n• D (Vrai) : Seuil validé pour les IRC non sévèrement protéinuriques.\n• E (Vrai) : L'objectif de la PA est intensifié en cas d'albuminurie pathologique massive."
   },
   {
     "options": {
       "A": "On peut avoir une maladie rénale chronique avec un débit de filtration glomérulaire normal.",
-      "B": "La présence, à plusieurs reprises et pendant plus de 3 mois, d'un débit de filtration glomérulaire entre 20 et 25 ml/min/l ,73m2 permet de classer l'insuffisance rénale au stade 4.",
+      "B": "La présence, à plusieurs reprises et pendant plus de 3 mois, d'un débit de filtration glomérulaire entre 20 et 25 mL/min/1,73 m² permet de classer l'insuffisance rénale au stade 4.",
       "C": "Le stade 5 d'évolution de la maladie rénale chronique est celui de l'insuffisance rénale terminale.",
-      "D": "Un débit de filtration glomérulaire inférieur à 15 ml/min/l .73m2 correspond à un stade 3B de la maladie rénale chronique.",
-      "E": "Une mesure du débit de filtration glomérulaire par iohexol est indispensable pour connaitre le stade de la maladie rénale."
+      "D": "Un débit de filtration glomérulaire inférieur à 15 mL/min/1,73 m² correspond à un stade 3B de la maladie rénale chronique.",
+      "E": "Une mesure du débit de filtration glomérulaire par iohexol est indispensable pour connaître le stade de la maladie rénale."
     },
     "correctAnswers": [
       "A",
+      "B",
       "C"
     ],
-    "text": "partiellement correct Parmi les propositions suivantes, lesquelles sont vraies ?",
+    "text": "Parmi les propositions suivantes concernant la maladie rénale chronique, lesquelles sont vraies ?",
     "id": "ANN-UE5-UE5S3Nephrologie3-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) On peut avoir une maladie rénale chronique avec un débit de filtration glomérulaire normal. ; C) Le stade 5 d'évolution de la maladie rénale chronique est celui de l'insuffisance rénale terminale."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Un stade 1 correspond à des reins anormaux morphologiquement ou biologiquement, mais un DFG normal ou élevé.\n• B (Vrai) : Le stade 4 va d'un DFG de 15 à 29 mL/min/1,73 m².\n• C (Vrai) : Terme officiel du stade 5 (IRT).\n• D (Faux) : Appartient au stade 5 (terminal).\n• E (Faux) : La clairance exacte par marqueurs isotopiques ou d'iohexol est utilisée pour valider des situations complexes ou extrêmes de musculature, où la créatinine montre ses limites."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/DP1.pdf"] = [
@@ -8467,25 +8563,25 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/DP1.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "Vous recevez aux urgences Mme P, âgée de 29 ans, pour altération de l'état général depuis plusieurs jours. Elle n'a pas d'antécédent personnel, ni familial, hormis la notion d'hypertension artérielle chez son père. Parmi toute la biologie qui a déjà été réalisée, vous retrouver les résultats des gaz du sang : pH : 7.28; HC03- : 8 mmol/l; pC02 : 22 mmHg; p02 : 105 mmHg Devant ce résultat, vous portez le diagnostic de .",
+    "text": "Vous recevez aux urgences Mme P., âgée de 29 ans, pour altération de l'état général depuis plusieurs jours. Elle n'a pas d'antécédent personnel, ni familial, hormis la notion d'hypertension artérielle chez son père. Parmi toute la biologie qui a déjà été réalisée, vous retrouvez les résultats des gaz du sang : pH : 7,28 ; HCO3- : 8 mmol/L ; pCO2 : 22 mmHg ; pO2 : 105 mmHg. Devant ce résultat, vous portez le diagnostic de :",
     "id": "ANN-UE5-UE5S3Nephrologie4-DP1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Acidose métabolique"
+    "explanation": "Correction détaillée :\n• A (Vrai — Acidose métabolique) : Le pH est acide (7,28 < 7,35). Les bicarbonates (HCO3-) sont bas (8 mmol/L), ce qui indique l'origine métabolique du trouble (avec hypocapnie compensatrice à 22 mmHg).\n• B, C, D, E (Faux) : Il s'agit d'une acidose métabolique pure avec compensation respiratoire adaptée."
   },
   {
     "options": {
-      "A": "La compensation respiratoire est adaptée. DPI :",
+      "A": "La compensation respiratoire est adaptée.",
       "B": "La compensation respiratoire est inadaptée, il existe une pathologie respiratoire surajoutée.",
       "C": "La patiente est probablement polypnéique (augmentation de la fréquence respiratoire).",
       "D": "La patiente est probablement bradypnéique (diminution de la fréquence respiratoire).",
-      "E": "La compensation respiratoire se juge avant tout sur la p02."
+      "E": "La compensation respiratoire se juge avant tout sur la pO2."
     },
     "correctAnswers": [
       "A",
       "C"
     ],
-    "text": "Concernant la compensation du trouble acido-basique:",
+    "text": "[Cas clinique : Vous recevez aux urgences Mme P., âgée de 29 ans, pour altération de l'état général depuis plusieurs jours. Elle n'a pas d'antécédent personnel, ni familial, hormis la notion d'hypertension artérielle chez son père. Gaz du sang : pH : 7,28 ; HCO3- : 8 mmol/L ; pCO2 : 22 mmHg ; pO2 : 105 mmHg.]\nConcernant la compensation du trouble acido-basique :",
     "id": "ANN-UE5-UE5S3Nephrologie4-DP1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La compensation respiratoire est adaptée. DPI : ; C) La patiente est probablement polypnéique (augmentation de la fréquence respiratoire)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : En cas d'acidose métabolique, le patient hyperventile pour évacuer le CO2 (pCO2 basse à 22 mmHg, attendue selon la formule de Winter à 1,5 × 8 + 8 = 20 ± 2 mmHg) et faire remonter le pH.\n• B (Faux) : La baisse de la pCO2 est proportionnée à celle des bicarbonates.\n• C (Vrai) : La polypnée (hyperventilation, dyspnée de Kussmaul) est le mécanisme de cette compensation respiratoire.\n• D, E (Faux) : La compensation respiratoire modifie la pCO2, pas la pO2."
   },
   {
     "options": {
@@ -8498,9 +8594,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/DP1.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "Le reste de la prise de sang montre : [Na+l : 133 mmol/l ; [K+] : 4.2 mmol/l ; [CI-I : 106 mmol/l ; [HC03-l : 8 mmol/l; Glycémie : 20 mmol/l; Créatinine : 60 gmol/l ; Albuminémie : 40 g/l Parmi les propositions suivantes, est(sont) exacte(s) :",
+    "text": "[Cas clinique : Vous recevez aux urgences Mme P., âgée de 29 ans, pour altération de l'état général depuis plusieurs jours. Elle n'a pas d'antécédent personnel, ni familial, hormis la notion d'hypertension artérielle chez son père. Gaz du sang : pH : 7,28 ; HCO3- : 8 mmol/L ; pCO2 : 22 mmHg ; pO2 : 105 mmHg.]\nLe reste de la prise de sang montre : [Na+] : 133 mmol/L ; [K+] : 4,2 mmol/L ; [Cl-] : 106 mmol/L ; [HCO3-] : 8 mmol/L ; Glycémie : 20 mmol/L ; Créatinine : 60 µmol/L ; Albuminémie : 40 g/L. Parmi les propositions suivantes, est (sont) exacte(s) :",
     "id": "ANN-UE5-UE5S3Nephrologie4-DP1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le trou anionique plasmatique de cette patiente est augmenté"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le trou anionique se calcule par la formule (Na+ + K+) - (Cl- + HCO3-). Ici : (133 + 4,2) - (106 + 8) = 137,2 - 114 = 23,2 mmol/L (ou sans K+ : 133 - 114 = 19 mmol/L). Ce trou est augmenté (normale entre 12 et 16 mmol/L avec K+), ce qui indique la présence d'un anion indosé (comme les corps cétoniques ou les lactates).\n• B, C, D, E (Faux) : Toutes les valeurs nécessaires au calcul sont présentes et le calcul du trou anionique est indispensable devant toute acidose métabolique."
   },
   {
     "options": {
@@ -8514,9 +8610,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/DP1.pdf"] = [
       "B",
       "C"
     ],
-    "text": "A ce stade, quels sont les deux éléments qui vous semblent le plus important de connaître",
+    "text": "[Cas clinique : Vous recevez aux urgences Mme P., âgée de 29 ans, pour altération de l'état général depuis plusieurs jours. Elle n'a pas d'antécédent personnel, ni familial, hormis la notion d'hypertension artérielle chez son père. Gaz du sang : pH : 7,28 ; HCO3- : 8 mmol/L ; pCO2 : 22 mmHg ; pO2 : 105 mmHg.]\nÀ ce stade (Na+ 133 mmol/L, K+ 4,2 mmol/L, Cl- 106 mmol/L, HCO3- 8 mmol/L, glycémie 20 mmol/L, créatinine 60 µmol/L), quels sont les deux éléments qu'il vous semble le plus important de connaître ?",
     "id": "ANN-UE5-UE5S3Nephrologie4-DP1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Lactatémie ; C) Cétonémie"
+    "explanation": "Correction détaillée :\n• B, C (Vrai) : Devant une acidose métabolique à trou anionique élevé et une glycémie très haute (20 mmol/L) avec fonction rénale normale (créatinine 60 µmol/L), les deux principales causes à rechercher sont l'acidocétose diabétique (cétonémie) et l'acidose lactique (lactatémie).\n• A, D, E (Faux) : Le trou anionique urinaire (Na+ + K+ - Cl- urinaires) n'est utile que dans les acidoses métaboliques à trou anionique plasmatique normal (hyperchlorémiques)."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
@@ -8525,7 +8621,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
       "A": "Son taux sanguin est dépendant de la masse musculaire.",
       "B": "Son dosage est difficile à réaliser en routine.",
       "C": "Il s'agit du produit de dégradation de la créatine.",
-      "D": "Son élimination est totalement urinaire. v'",
+      "D": "Son élimination est totalement urinaire.",
       "E": "Son dosage permet de mesurer précisément le débit de filtration glomérulaire."
     },
     "correctAnswers": [
@@ -8533,47 +8629,47 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "text": "Concernant la créatinine .",
+    "text": "Concernant la créatinine :",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Son taux sanguin est dépendant de la masse musculaire. ; C) Il s'agit du produit de dégradation de la créatine. ; D) Son élimination est totalement urinaire. v'"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Son taux sanguin dépend de la masse musculaire de l'individu.\n• B (Faux) : Son dosage sanguin (créatininémie) est un examen de routine très simple et peu coûteux.\n• C (Vrai) : La créatinine est le produit du catabolisme (dégradation) de la créatine musculaire.\n• D (Vrai) : Son élimination par l'organisme se fait de manière totalement urinaire.\n• E (Faux) : Le dosage de la créatinine permet d'estimer le débit de filtration glomérulaire (par des formules comme CKD-EPI), mais pas de le mesurer de façon stricte et précise."
   },
   {
     "options": {
-      "F": "",
-      "A": "Est le compartiment de stockage du calcium",
-      "B": "Est lié à aux protéines.",
+      "A": "Est le compartiment de stockage du calcium.",
+      "B": "Est lié aux protéines.",
       "C": "Est régulé par la Parathormone.",
       "D": "Les formes complexées et liées aux protéines correspondent au calcium ultrafiltrable.",
       "E": "Est mieux apprécié par la calcémie ionisée que corrigée."
     },
     "correctAnswers": [
+      "B",
       "C",
       "E"
     ],
-    "text": "Le calcium plasmatique .",
+    "text": "Le calcium plasmatique :",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Est régulé par la Parathormone. ; E) Est mieux apprécié par la calcémie ionisée que corrigée."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le véritable compartiment de stockage du calcium dans l'organisme est l'os, et non le plasma.\n• B (Vrai) : Dans le sang, le calcium est lié à environ 40 % aux protéines, principalement l'albumine.\n• C (Vrai) : La calcémie est finement régulée par la parathormone (PTH), qui a un effet hypercalcémiant.\n• D (Faux) : Le calcium ultrafiltrable correspond aux formes ionisées et complexées, et exclut justement la fraction liée aux protéines qui ne passe pas le filtre glomérulaire.\n• E (Vrai) : La calcémie ionisée représente la fraction active du calcium et est donc un paramètre plus précis que la calcémie corrigée."
   },
   {
     "options": {
       "A": "De 1 mL/min/mois",
-      "B": "Après 40 ans, inférieur à lmL/min/1.73m2",
-      "C": "Entre 1 et 5 mL/min/1.73m3",
-      "D": "Supérieur à 5 ml_/min/l .73m3",
-      "E": "De 0,5mL/min/mois"
+      "B": "Après 40 ans, inférieur à 1 mL/min/1,73 m²",
+      "C": "Entre 1 et 5 mL/min/1,73 m²",
+      "D": "Supérieur à 5 mL/min/1,73 m²",
+      "E": "De 0,5 mL/min/mois"
     },
     "correctAnswers": [
       "B"
     ],
-    "text": "Le déclin annuel du débit de filtration glomérulaire est considéré comme physiologique si il est •",
+    "text": "Le déclin annuel du débit de filtration glomérulaire est considéré comme physiologique s'il est :",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Après 40 ans, inférieur à lmL/min/1.73m2"
+    "explanation": "Correction détaillée :\n• A (Faux) : Un déclin de 1 mL/min/mois reviendrait à 12 mL/min/an, ce qui signerait une insuffisance rénale d'évolution exceptionnellement rapide.\n• B (Vrai) : Le déclin est considéré comme physiologique s'il est, après 40 ans, inférieur à 1 mL/min/1,73 m² par an (et non par mois).\n• C, D, E (Faux) : Ces vitesses de perte sont trop rapides pour être physiologiques ou exprimées avec une unité mensuelle incorrecte."
   },
   {
     "options": {
       "A": "Le tube rénal est composé de 3 portions : le tube proximal, l'anse de Henlé et le tube distal.",
       "B": "Le néphron se compose du glomérule et du tube rénal.",
-      "C": "Chaque rein dispose à la naissance dl million de néphrons, qui correspondent chacun à une unité fonctionnelle rénale.",
+      "C": "Chaque rein dispose à la naissance d'1 million de néphrons, qui correspondent chacun à une unité fonctionnelle rénale.",
       "D": "Le glomérule comporte un pôle urinaire et un pôle vasculaire.",
       "E": "Le filtre glomérulaire est composé de 3 couches : l'endothélium capillaire fenestré, la membrane basale glomérulaire et les podocytes."
     },
@@ -8584,9 +8680,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Indiquez quelle(s) est (sont) l(es) affirmation(s) vraie(s)",
+    "text": "Indiquez quelle(s) est (sont) l'(es) affirmation(s) vraie(s) :",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le tube rénal est composé de 3 portions : le tube proximal, l'anse de Henlé et le tube distal. ; B) Le néphron se compose du glomérule et du tube rénal. ; C) Chaque rein dispose à la naissance dl million de néphrons, qui correspondent chacun à une unité fonctionnelle rénale. ; D) Le glomérule comporte un pôle urinaire et un pôle vasculaire. ; E) Le filtre glomérulaire est composé de 3 couches : l'endothélium capillaire fenestré, la membrane basale glomérulaire et les podocytes."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le tube rénal comporte bien un tube proximal, l'anse de Henlé et le tube distal.\n• B (Vrai) : Le néphron est l'unité structurelle composée du corpuscule (glomérule) et de son système tubulaire.\n• C (Vrai) : Chaque rein possède environ 1 million de néphrons fonctionnels à la naissance.\n• D (Vrai) : Le glomérule est structuré avec un pôle vasculaire (artérioles afférente/efférente) et un pôle urinaire (début du tube proximal).\n• E (Vrai) : Le filtre comprend bien l'endothélium fenestré, la membrane basale et les prolongements des podocytes."
   },
   {
     "options": {
@@ -8603,7 +8699,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
     ],
     "text": "Parmi les situations suivantes, lesquelles sont des causes d'œdèmes généralisés ?",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Syndrome néphritique ; B) Insuffisance cardiaque ; C) Insuffisance hépatocellulaire"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le syndrome néphritique (comme le syndrome néphrotique) entraîne une rétention hydrosodée responsable d'œdèmes.\n• B (Vrai) : L'insuffisance cardiaque induit une hypovolémie efficace, activant le système rénine-angiotensine-aldostérone, causant des œdèmes.\n• C (Vrai) : L'insuffisance hépatocellulaire diminue la synthèse d'albumine, réduisant la pression oncotique, ce qui favorise les œdèmes.\n• D (Faux) : Une thrombose aortique n'est pas une cause d'œdème généralisé.\n• E (Faux) : L'insuffisance respiratoire isolée n'est pas directement responsable d'œdèmes généralisés."
   },
   {
     "options": {
@@ -8618,12 +8714,12 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
     ],
     "text": "Parmi les propositions suivantes, lesquelles sont exactes ?",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une protéinurie de 30 mg par jour est considérée comme physiologique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'élimination physiologique de protéines est très faible (< 150 mg/j, environ 30 mg/j).\n• B (Faux) : Une albuminurie à 100 mg/jour est pathologique (microalbuminurie, seuil > 30 mg/j).\n• C (Faux) : La bandelette urinaire détecte surtout l'albumine ; elle peut être négative en présence d'autres protéines (ex. : chaînes légères).\n• D (Faux) : Une bandelette négative n'élimine pas une maladie rénale.\n• E (Faux) : On utilise de plus en plus le rapport protéinurie/créatininurie sur échantillon au lieu du recueil des urines de 24h."
   },
   {
     "options": {
-      "A": "Les thiazidiques, type hydrochlorothiazide.",
-      "B": "Les diurétiques de l'anse de henlè, type furosemide",
+      "A": "Les thiazidiques, type hydrochlorothiazide",
+      "B": "Les diurétiques de l'anse de Henlé, type furosémide",
       "C": "Les anti-aldostéroniques",
       "D": "Les inhibiteurs de l'anhydrase carbonique (acétazolamide)",
       "E": "Les bloqueurs du canal sodium du tube contourné distal, type amiloride"
@@ -8635,29 +8731,29 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
     ],
     "text": "Quels sont les diurétiques qui favorisent une hypokaliémie ?",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les thiazidiques, type hydrochlorothiazide. ; B) Les diurétiques de l'anse de henlè, type furosemide ; D) Les inhibiteurs de l'anhydrase carbonique (acétazolamide)"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les thiazidiques augmentent la perte de potassium dans les urines.\n• B (Vrai) : Les diurétiques de l'anse (furosémide) favorisent la fuite de potassium (hypokaliémiants).\n• C (Faux) : Les anti-aldostéroniques épargnent le potassium (ils sont hyperkaliémiants).\n• D (Vrai) : Les inhibiteurs de l'anhydrase carbonique augmentent l'excrétion de K+.\n• E (Faux) : Les bloqueurs du canal sodique (amiloride) sont des diurétiques épargneurs de potassium."
   },
   {
     "options": {
-      "A": "Albuminémie à 25 g/l v'",
+      "A": "Albuminémie à 25 g/L",
       "B": "Une tension artérielle à 145/85 mmHg",
-      "C": "Rapport protéinurie/créatininurie à 35 mg/mmol",
-      "D": "La présence d'hématies dans les urines à 75/mm3",
+      "C": "Rapport protéinurie/créatininurie à 135 mg/mmol",
+      "D": "La présence d'hématies dans les urines à 75/mm³",
       "E": "Un œdème des paupières"
     },
     "correctAnswers": [
       "A",
       "E"
     ],
-    "text": "Parmi les éléments suivants, lesquelles peuvent être rattachés à un syndrome néphrotique pur ?",
+    "text": "Parmi les éléments suivants, lesquels peuvent être rattachés à un syndrome néphrotique pur ?",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Albuminémie à 25 g/l v' ; E) Un œdème des paupières"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le syndrome néphrotique se définit par une albuminémie < 30 g/L (associée à une protéinurie > 3 g/24h).\n• B (Faux) : Dans un syndrome néphrotique pur, il n'y a pas d'hypertension artérielle.\n• C (Faux) : Un syndrome néphrotique se définit par un rapport > 300 mg/mmol (3 g/g), ici 135 mg/mmol n'est pas de rang néphrotique.\n• D (Faux) : Un syndrome néphrotique pur ne comporte pas d'hématurie.\n• E (Vrai) : Les œdèmes (dont celui des paupières) sont typiques de la baisse de pression oncotique."
   },
   {
     "options": {
       "A": "L'existence de douleurs lombaires",
       "B": "L'existence de brûlures urinaires",
-      "C": "La présence dans les urines de Globules rouges déformés",
+      "C": "La présence dans les urines de globules rouges déformés",
       "D": "La présence dans les urines de caillots",
       "E": "La présence dans les urines de cylindres hématiques"
     },
@@ -8667,14 +8763,14 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
     ],
     "text": "Parmi les éléments suivants, lesquels orientent vers une hématurie néphrologique ?",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) La présence dans les urines de Globules rouges déformés ; E) La présence dans les urines de cylindres hématiques"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les douleurs lombaires orientent plutôt vers une cause urologique (ex. : colique néphrétique).\n• B (Faux) : Les brûlures urinaires sont le signe d'une cause urologique (ex. : infection).\n• C (Vrai) : La déformation des hématies témoigne du passage traumatique à travers le filtre glomérulaire.\n• D (Faux) : La présence de caillots signe une hématurie urologique.\n• E (Vrai) : Les cylindres hématiques sont pathognomoniques d'une atteinte glomérulaire (néphrologique)."
   },
   {
     "options": {
       "A": "Thiazidiques",
-      "B": "Diurétique de l'anse de henlè, type furosemide",
+      "B": "Diurétique de l'anse de Henlé, type furosémide",
       "C": "Anti-aldostéroniques",
-      "D": "Inhibiteurs de l'anhydrase carbonique (acetazolamide)",
+      "D": "Inhibiteurs de l'anhydrase carbonique (acétazolamide)",
       "E": "Bloqueurs du canal sodium du tube contourné distal, type amiloride"
     },
     "correctAnswers": [
@@ -8682,7 +8778,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
     ],
     "text": "Quel type de diurétique diminue la perte urinaire de calcium ?",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Thiazidiques"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les diurétiques thiazidiques augmentent la réabsorption du calcium et diminuent donc sa perte urinaire (effet hypocalciuriant).\n• B, C, D, E (Faux) : Le furosémide, à l'inverse, favorise la perte de calcium (hypercalciuriant), et les autres classes n'ont pas cet effet hypocalciuriant."
   },
   {
     "options": {
@@ -8697,16 +8793,16 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
       "B",
       "C"
     ],
-    "text": "Parmi ces critères, lesquels sont en faveur d'une Insuffisance rénale chronique ?",
+    "text": "Parmi ces critères, lesquels sont en faveur d'une insuffisance rénale chronique ?",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Présence d'une anémie normochrome normocytaire arégénérative ; B) Présence d'une hypocalcémie ; C) Diminution de la taille des reins"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Par défaut de synthèse d'érythropoïétine (EPO) par le rein malade.\n• B (Vrai) : Due au déficit de production de vitamine D active par le rein, diminuant l'absorption digestive du calcium.\n• C (Vrai) : Les reins s'atrophient généralement au cours de l'IRC.\n• D, E (Faux) : L'IRC évoluée a plutôt tendance à provoquer une hyperkaliémie et une surcharge hydrosodée."
   },
   {
     "options": {
-      "A": "La rétention sodée favorise l'apparition dcedèmes des membres inférieurs.",
+      "A": "La rétention sodée favorise l'apparition d'œdèmes des membres inférieurs.",
       "B": "Le bilan sodé est ajusté pour permettre le maintien d'une natrémie normale.",
-      "C": "L'apport de NaCl par l'alimentation doit être au moins de 8 grammes/jours.",
-      "D": "En cas de perte digestive de NaCl, le système rénine-angiotensine-Aldostérone est activé pour limiter les sorties rénales.",
+      "C": "L'apport de NaCl par l'alimentation doit être au moins de 8 grammes/jour.",
+      "D": "En cas de perte digestive de NaCl, le système rénine-angiotensine-aldostérone est activé pour limiter les sorties rénales.",
       "E": "En cas d'hypernatrémie, une suppression du sodium alimentaire permet de la corriger."
     },
     "correctAnswers": [
@@ -8715,7 +8811,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 4/SQI1.pdf"] = [
     ],
     "text": "Concernant le bilan du sodium :",
     "id": "ANN-UE5-UE5S3Nephrologie4-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La rétention sodée favorise l'apparition dcedèmes des membres inférieurs. ; D) En cas de perte digestive de NaCl, le système rénine-angiotensine-Aldostérone est activé pour limiter les sorties rénales."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La rétention de sel entraîne une rétention d'eau, générant des œdèmes déclives.\n• B (Faux) : Le bilan sodé régule le volume extracellulaire, tandis que c'est le bilan hydrique (eau) qui maintient la natrémie normale.\n• C (Faux) : Les apports conseillés n'imposent pas un « minimum » de 8 g (objectif recommandé autour de 5 à 6 g/j), la consommation normale étant souvent excessive.\n• D (Vrai) : En cas de perte de sel (diarrhée), l'hypovolémie active le SRAA pour réabsorber activement le sodium au niveau rénal.\n• E (Faux) : L'hypernatrémie est un problème de manque d'eau libre ; la suppression du sel ne corrige pas la déshydratation intracellulaire."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
@@ -8724,19 +8820,19 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
       "A": "- est le plus souvent secondaire à un apport sodé excessif.",
       "B": "- traduit une difficulté d'accès à l'eau.",
       "C": "- entraîne un œdème cérébral.",
-      "D": "- pour un homme de 50 ans, de 80 kg, se traite par un apport d'eau de 500 ml/jour.",
+      "D": "- pour un homme de 50 ans, de 80 kg, se traite par un apport d'eau de 500 mL/jour.",
       "E": "Aucune des propositions ci-dessus n'est exacte."
     },
     "correctAnswers": [
       "B"
     ],
-    "text": "L'hypernatrémie Terminée",
+    "text": "L'hypernatrémie :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) - traduit une difficulté d'accès à l'eau."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'hypernatrémie est le plus souvent secondaire à un déficit en eau libre (déshydratation intracellulaire) plutôt qu'à un apport sodé excessif.\n• B (Vrai) : Elle traduit un déficit en eau, souvent lié à une difficulté d'accès à l'eau ou à un trouble de la soif.\n• C (Faux) : L'hypernatrémie entraîne une déshydratation cellulaire (par appel d'eau vers le milieu extracellulaire hyperosmolaire). L'œdème cérébral est une complication de l'hyponatrémie (hyperhydratation intracellulaire).\n• D (Faux) : Un déficit en eau chez un homme de 80 kg nécessite une compensation calculée bien supérieure à 500 mL/jour (le déficit se compte souvent en litres).\n• E (Faux) : La proposition B est exacte."
   },
   {
     "options": {
-      "A": "Le gluconate de calcium ne modifie par le niveau d'hyperkaliémie.",
+      "A": "Le gluconate de calcium ne modifie pas le niveau d'hyperkaliémie.",
       "B": "L'administration d'insuline favorise le transfert extracellulaire de potassium.",
       "C": "L'alcalinisation favorise le transfert intracellulaire de potassium.",
       "D": "L'épuration extrarénale est le traitement de référence en cas d'hyperkaliémie sévère chez un patient oligoanurique avec nécrose tubulaire.",
@@ -8749,11 +8845,11 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
     ],
     "text": "Concernant les troubles du potassium :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le gluconate de calcium ne modifie par le niveau d'hyperkaliémie. ; C) L'alcalinisation favorise le transfert intracellulaire de potassium. ; D) L'épuration extrarénale est le traitement de référence en cas d'hyperkaliémie sévère chez un patient oligoanurique avec nécrose tubulaire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le gluconate de calcium est un antagoniste membranaire qui protège le myocarde des troubles du rythme, mais il ne fait pas baisser la kaliémie.\n• B (Faux) : L'insuline favorise le transfert intracellulaire du potassium (souvent administrée avec du glucose pour éviter l'hypoglycémie).\n• C (Vrai) : L'alcalinisation (par exemple avec du bicarbonate de sodium) favorise l'entrée du potassium dans les cellules.\n• D (Vrai) : L'hémodialyse (épuration extrarénale) est le traitement de référence pour une hyperkaliémie menaçante chez un patient anurique.\n• E (Faux) : Une hypokaliémie se traite par l'administration de chlorure de potassium (KCl), et non de chlorure de sodium (NaCl)."
   },
   {
     "options": {
-      "A": "Recherche danticorps anti-myosine",
+      "A": "Recherche d'anticorps anti-myosine",
       "B": "Recherche d'anticorps anti-DNA",
       "C": "Recherche d'anticorps anti-cytoplasme de polynucléaires",
       "D": "Recherche d'anticorps anti-membrane basale glomérulaire",
@@ -8764,45 +8860,49 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "text": "Parmi les examens suivants, permet(tent) d'orienter l'étiologie d'une glomérulonéphrite rapidement progressive",
+    "text": "Parmi les examens suivants, permet(tent) d'orienter l'étiologie d'une glomérulonéphrite rapidement progressive :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Recherche d'anticorps anti-DNA ; C) Recherche d'anticorps anti-cytoplasme de polynucléaires ; D) Recherche d'anticorps anti-membrane basale glomérulaire"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les anticorps anti-myosine ne sont pas des marqueurs des GNRP.\n• B (Vrai) : La recherche d'anticorps anti-DNA natifs permet d'orienter vers une GNRP secondaire à un lupus érythémateux systémique.\n• C (Vrai) : Les anticorps anti-cytoplasme des polynucléaires (ANCA) orientent vers une vascularite à ANCA (ex. : granulomatose avec polyangéite / Wegener, polyangéite microscopique).\n• D (Vrai) : Les anticorps anti-membrane basale glomérulaire (anti-MBG) orientent vers la maladie de Goodpasture.\n• E (Faux) : Les anticorps anti-HLA interviennent dans les bilans de greffe, pas dans l'étiologie des GNRP."
   },
   {
     "options": {
-      "A": "- est responsable dune anémie normochrome normocytaire., - est responsable de lésions osseuses et dhyperparathyroïdie secondaire ou tertiaire., - est progressivement mortelle en l'absence de traitement de suppléance.",
+      "A": "- est responsable d'une anémie normochrome normocytaire.",
       "B": "- est responsable de lésions osseuses et d'hyperparathyroïdie secondaire ou tertiaire.",
       "C": "- est progressivement mortelle en l'absence de traitement de suppléance.",
       "D": "- atteint surtout les travailleurs de force dans les pays occidentaux.",
       "E": "- est prévenue par des boissons abondantes."
     },
     "correctAnswers": [
-      "A"
+      "A",
+      "B",
+      "C"
     ],
-    "text": "L'insuffisance rénale chronique",
+    "text": "L'insuffisance rénale chronique :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - est responsable dune anémie normochrome normocytaire., - est responsable de lésions osseuses et dhyperparathyroïdie secondaire ou tertiaire., - est progressivement mortelle en l'absence de traitement de suppléance."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elle entraîne un défaut de production d'érythropoïétine (EPO) par le rein, causant une anémie normochrome normocytaire arégénérative.\n• B (Vrai) : La baisse de la synthèse de vitamine D active et la rétention phosphorée induisent une hypocalcémie et une hyperparathyroïdie secondaire, responsables de l'ostéodystrophie rénale.\n• C (Vrai) : Au stade terminal, l'absence de traitement de suppléance (dialyse ou greffe) engage le pronostic vital (urémie, hyperkaliémie, OAP).\n• D (Faux) : L'IRC dans les pays occidentaux est principalement due au diabète et à l'HTA, sans lien direct exclusif avec le travail de force.\n• E (Faux) : Les boissons abondantes ne préviennent pas l'apparition ou la progression de l'IRC de manière globale."
   },
   {
     "options": {
       "A": "- se présente sous la forme d'une insuffisance rénale fonctionnelle.",
-      "B": "- est associée à une protéinurie de rang glomérulaire., - est associée à une hématurie., - est une urgence diagnostique et thérapeutique.",
+      "B": "- est associée à une protéinurie de rang glomérulaire.",
       "C": "- est associée à une hématurie.",
       "D": "- s'associe souvent à une hypotension artérielle.",
       "E": "- est une urgence diagnostique et thérapeutique."
     },
     "correctAnswers": [
-      "B"
+      "B",
+      "C",
+      "E"
     ],
-    "text": "L'atteinte rénale des vascularites .",
+    "text": "L'atteinte rénale des vascularites :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) - est associée à une protéinurie de rang glomérulaire., - est associée à une hématurie., - est une urgence diagnostique et thérapeutique."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'atteinte rénale est organique (glomérulonéphrite) et non fonctionnelle (hémodynamique).\n• B (Vrai) : Les vascularites induisent des lésions glomérulaires (GNRP), se traduisant par une protéinurie glomérulaire.\n• C (Vrai) : L'inflammation des glomérules provoque une hématurie (souvent avec hématies déformées ou cylindres hématiques).\n• D (Faux) : Les atteintes glomérulaires s'accompagnent plus classiquement d'une hypertension artérielle, de par la rétention hydrosodée, et non d'une hypotension.\n• E (Vrai) : La destruction rapide des glomérules par les croissants extra-capillaires engage le pronostic rénal à très court terme et justifie un traitement immunosuppresseur en urgence."
   },
   {
     "options": {
-      "A": "Il y a un risque d'cedème du poumon.",
+      "A": "Il y a un risque d'œdème du poumon.",
       "B": "Il y a un risque d'hypokaliémie.",
-      "C": "Il y a un risque de sur-correction, surtout en cas d'acidose a trou anionique.",
+      "C": "Il y a un risque de sur-correction, surtout en cas d'acidose à trou anionique.",
       "D": "Il y a un risque d'hypercalcémie.",
       "E": "Aucune des propositions ci-dessus n'est exacte."
     },
@@ -8813,7 +8913,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
     ],
     "text": "Lors du traitement d'une acidose par perfusion de bicarbonate intraveineux :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il y a un risque d'cedème du poumon. ; B) Il y a un risque d'hypokaliémie. ; C) Il y a un risque de sur-correction, surtout en cas d'acidose a trou anionique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les ampoules de bicarbonate de sodium (NaHCO3) apportent une charge en sel colossale, provoquant une surcharge volumique immédiate (OAP).\n• B (Vrai) : L'augmentation artificielle du pH sanguin pousse le potassium à entrer dans les cellules, démasquant ou provoquant une hypokaliémie.\n• C (Vrai) : Si l'acidose est liée à un métabolite (ex. : cétone, lactate) qui va se retransformer naturellement en bicarbonate une fois la cause traitée, l'apport exogène va créer une alcalose toxique de rebond.\n• D (Faux) : L'alcalose fait lier davantage le calcium aux protéines plasmatiques, diminuant le calcium ionisé (risque d'hypocalcémie).\n• E (Faux) : A, B et C sont vraies."
   },
   {
     "options": {
@@ -8828,25 +8928,27 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
       "B",
       "D"
     ],
-    "text": "En cas d'hypercalcémie dorigine parathyrOidienne",
+    "text": "En cas d'hypercalcémie d'origine parathyroïdienne :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La parathormone peut être normale. ; B) Il existe une hypercalciurie. ; D) Il existe une augmentation de la résorption osseuse."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La PTH est élevée ou « normale mais inappropriée » en regard de l'hypercalcémie (absence de freination).\n• B (Vrai) : Malgré la réabsorption tubulaire accrue du calcium par la PTH, la charge filtrée élevée dépasse les capacités tubulaires et entraîne une hypercalciurie.\n• C (Faux) : L'adénome parathyroïdien unique est la cause principale d'hyperparathyroïdie primaire (~80-85 % des cas, et non 20 %).\n• D (Vrai) : La PTH stimule l'activité ostéoclastique et augmente la résorption osseuse.\n• E (Faux) : La PTH stimule la synthèse rénale de calcitriol (1,25-(OH)2-vitamine D), ce qui augmente l'absorption digestive du calcium."
   },
   {
     "options": {
-      "A": "- est secondaire au dépôt intra-rénal des chaines légères de l'immunoglobuline monoclonale.",
+      "A": "- est secondaire au dépôt intra-rénal des chaînes légères de l'immunoglobuline monoclonale.",
       "B": "- récupère, au moins partiellement, si elle est traitée rapidement.",
-      "C": "si elle est traitée rapidement., - peut nécessiter une suppléance de la fonction rénale par dialyse., - est souvent associé à une hypercalcémie.",
-      "D": "- est souvent associé à une hypercalcémie.",
+      "C": "- peut nécessiter une suppléance de la fonction rénale par dialyse.",
+      "D": "- est souvent associée à une hypercalcémie.",
       "E": "- concerne principalement des sujets âgés de 25 à 40 ans."
     },
     "correctAnswers": [
       "A",
-      "C"
+      "B",
+      "C",
+      "D"
     ],
-    "text": "L'atteinte rénale du myélome",
+    "text": "L'atteinte rénale du myélome :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - est secondaire au dépôt intra-rénal des chaines légères de l'immunoglobuline monoclonale. ; C) si elle est traitée rapidement., - peut nécessiter une suppléance de la fonction rénale par dialyse., - est souvent associé à une hypercalcémie."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La néphropathie à cylindres myélomateux (tubulopathie myélomateuse) résulte de la précipitation intratubulaire des chaînes légères libres monoclonales avec la protéine de Tamm-Horsfall.\n• B (Vrai) : C'est une urgence thérapeutique : la réhydratation alcaline et la chimiothérapie rapide permettent souvent une récupération au moins partielle.\n• C (Vrai) : Dans les formes sévères, une épuration extrarénale (dialyse) peut être nécessaire.\n• D (Vrai) : L'hypercalcémie par ostéolyse maligne est fréquemment associée et aggrave l'insuffisance rénale (déshydratation, néphrocalcinose).\n• E (Faux) : Le myélome multiple touche principalement les sujets âgés (> 65-70 ans)."
   },
   {
     "options": {
@@ -8863,27 +8965,30 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
     ],
     "text": "Parmi les éléments suivants, lesquels orientent vers une maladie rénale glomérulaire ?",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Protéinurie supérieure à 3 g par jour ; C) Présence d'un syndrome néphrotique ; E) Insuffisance rénale rapidement progressive avec HTA"
+    "explanation": "Correction détaillée :\n• A (Faux) : Signe un trouble hydrique global.\n• B (Vrai) : Une protéinurie massive de cette ampleur a obligatoirement franchi la barrière glomérulaire détruite.\n• C (Vrai) : C'est la signature syndromique même des pathologies glomérulaires sévères.\n• D (Faux) : L'hématurie glomérulaire ne forme pas de caillots (contrairement aux saignements des uretères ou de la vessie).\n• E (Vrai) : C'est le tableau classique du syndrome néphritique aigu glomérulaire (inflammation brutale)."
   },
   {
     "options": {
-      "A": "-est favorisée par les diarrhées importantes.",
-      "B": "- entraîne un risque élevé de mort subite., - est favorisée par les médicaments bloqueurs du système-rénine-angiotensine., - est traitée rapidement par l'apport de glucose avec de l'insuline., - est faussée lorsque le prélèvement sanguin est réalisé avec garrot et que le tube n'est pas traité rapidement par le laboratoire.",
-      "C": "- est favorisée par les médicaments bloqueurs du système-rénine-angiotensine.",
+      "A": "- est favorisée par les diarrhées importantes.",
+      "B": "- entraîne un risque élevé de mort subite.",
+      "C": "- est favorisée par les médicaments bloqueurs du système rénine-angiotensine.",
       "D": "- est traitée rapidement par l'apport de glucose avec de l'insuline.",
       "E": "- est faussée lorsque le prélèvement sanguin est réalisé avec garrot et que le tube n'est pas traité rapidement par le laboratoire."
     },
     "correctAnswers": [
-      "B"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
     "text": "L'hyperkaliémie :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) - entraîne un risque élevé de mort subite., - est favorisée par les médicaments bloqueurs du système-rénine-angiotensine., - est traitée rapidement par l'apport de glucose avec de l'insuline., - est faussée lorsque le prélèvement sanguin est réalisé avec garrot et que le tube n'est pas traité rapidement par le laboratoire."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les diarrhées font perdre de l'eau et du potassium (hypokaliémie).\n• B (Vrai) : Au-delà de 6,5 mmol/L, le risque de trouble du rythme ventriculaire et d'arrêt cardiaque est imminent.\n• C (Vrai) : Les IEC et ARA2 empêchent l'aldostérone d'éliminer le potassium, ils sont donc hyperkaliémiants.\n• D (Vrai) : En stimulant la pompe Na/K ATPase, l'insuline réalise un transfert rapide du potassium dans la cellule (associée au glucose pour éviter l'hypoglycémie).\n• E (Vrai) : La stase sanguine induit une destruction des globules rouges in vitro (hémolyse), relarguant leur riche contenu intracellulaire potassique dans l'échantillon."
   },
   {
     "options": {
       "A": "Une hypokaliémie avec hypertension artérielle oriente vers un hyperaldostéronisme.",
-      "B": "Une hypokaliémie avec une kaliurèse effondrée évoque une cause extra rénale.",
+      "B": "Une hypokaliémie avec une kaliurèse effondrée évoque une cause extra-rénale.",
       "C": "Une lyse cellulaire massive se traduira par une hypokaliémie.",
       "D": "L'acidose métabolique favorise le transfert extracellulaire de potassium et l'hyperkaliémie.",
       "E": "L'insuffisance rénale est une situation particulièrement à risque d'hyperkaliémie."
@@ -8896,7 +9001,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
     ],
     "text": "Concernant les étiologies de dyskaliémies :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une hypokaliémie avec hypertension artérielle oriente vers un hyperaldostéronisme. ; B) Une hypokaliémie avec une kaliurèse effondrée évoque une cause extra rénale. ; D) L'acidose métabolique favorise le transfert extracellulaire de potassium et l'hyperkaliémie. ; E) L'insuffisance rénale est une situation particulièrement à risque d'hyperkaliémie."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'excès d'aldostérone stimule la réabsorption de Na+ (HTA) et la sécrétion urinaire de K+ (hypokaliémie).\n• B (Vrai) : Une kaliurèse basse (< 20 mmol/24h) montre que le rein est adapté et retient le K+, signant une perte extra-rénale (digestive : diarrhées, vomissements).\n• C (Faux) : Le potassium étant majoritairement intracellulaire, une lyse cellulaire massive (rhabdomyolyse, syndrome de lyse tumorale, hémolyse) provoque une hyperkaliémie sévère.\n• D (Vrai) : En acidose métabolique (surtout minérale), les ions H+ entrent dans les cellules en échange de la sortie d'ions K+ vers le plasma.\n• E (Vrai) : Le rein assurant 90 % de l'excrétion du potassium, l'IRA ou l'IRC avancée expose fortement à l'hyperkaliémie."
   },
   {
     "options": {
@@ -8911,13 +9016,13 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "text": "partiellement correct Parmi les troubles suivants, lesquels sont observés en cas d'hypercalcémie ?",
+    "text": "Parmi les troubles suivants, lesquels sont observés en cas d'hypercalcémie ?",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Des troubles digestifs type nausées et vomissements ; C) Une asthénie ; D) Un tableau de polyuro-polydipsie"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'hypercalcémie entraîne fréquemment anorexie, nausées, vomissements et constipation.\n• B (Faux) : Les ondes T amples et pointues sont le signe ECG de l'hyperkaliémie (l'hypercalcémie donne un raccourcissement du segment QT).\n• C (Vrai) : Une asthénie physique et psychique marquée est classique.\n• D (Vrai) : L'hypercalcémie induit un diabète insipide néphrogénique (résistance tubulaire à l'ADH), responsable d'un syndrome polyuro-polydipsique.\n• E (Faux) : Le signe de Chvostek traduit une hyperexcitabilité neuromusculaire caractéristique de l'hypocalcémie."
   },
   {
     "options": {
-      "A": "La présence dune importante protéinurie, supérieure à 3 g par jour",
+      "A": "La présence d'une importante protéinurie, supérieure à 3 g par jour",
       "B": "La présence d'une polyurie",
       "C": "La présence d'une leucocyturie",
       "D": "La présence d'une hypoalbuminémie",
@@ -8928,9 +9033,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Les symptômes en faveur d'une néphropathie interstitielle sont",
+    "text": "Les symptômes en faveur d'une néphropathie interstitielle sont :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La présence d'une polyurie ; C) La présence d'une leucocyturie ; E) La présence d'une acidose sans trou anionique"
+    "explanation": "Correction détaillée :\n• A (Faux) : Une protéinurie interstitielle est tubulaire, donc très modérée (rarement > 1 g/jour).\n• B (Vrai) : Le tubule perd sa capacité à concentrer l'urine (inactivité de l'hormone antidiurétique sur un tissu lésé), d'où une polyurie constante.\n• C (Vrai) : Signe l'infiltrat inflammatoire des tissus interstitiels, traduit dans l'urine.\n• D (Faux) : Classique de l'atteinte glomérulaire (syndrome néphrotique).\n• E (Vrai) : L'atteinte tubulaire inhibe l'excrétion rénale des acides normaux (acidose tubulaire distale), ce qui provoque une acidose à trou anionique strictement normal."
   },
   {
     "options": {
@@ -8947,7 +9052,7 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
     ],
     "text": "Parmi ces traitements, lesquels sont pourvoyeurs d'hypokaliémie ?",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'insuline ; B) Les diurétiques thiazidiques ; C) Les diurétiques de l'anse"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Via le shift intracellulaire forcé.\n• B (Vrai) : Via la fuite urinaire de K+ causée par l'excès de sodium distal.\n• C (Vrai) : Via l'inhibition du co-transport.\n• D (Faux) : Médicaments « épargneurs » (ils augmentent la kaliémie).\n• E (Faux) : Ces molécules diminuent l'excrétion du potassium (elles augmentent la kaliémie)."
   },
   {
     "options": {
@@ -8959,48 +9064,52 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
     },
     "correctAnswers": [
       "A",
+      "B",
       "C"
     ],
-    "text": "La prise en charge d'une colique néphrétique •",
+    "text": "La prise en charge d'une colique néphrétique :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - nécessite de rechercher de la fièvre. ; C) - justifie la réalisation d'un ECBU (Examen Cytobactériologique des Urines)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La recherche de fièvre est systématique car une colique néphrétique fébrile (pyélonéphrite aiguë obstructive) est une urgence médico-chirurgicale absolue (drainage urinaire en urgence).\n• B (Vrai) : Chez la femme en âge de procréer, le terrain gravidique est un signe de gravité (colique néphrétique compliquée) et contre-indique les AINS et le scanner irradiant.\n• C (Vrai) : La bandelette urinaire et l'ECBU sont indispensables pour dépister une infection urinaire associée.\n• D (Faux) : Le traitement antalgique de première intention repose sur les AINS (kétoprofène IV) éventuellement associés à la morphine en cas de douleur sévère.\n• E (Faux) : Les propositions A, B et C sont exactes."
   },
   {
     "options": {
-      "A": "-est transmise de génération en génération, avec un risque de transmission de 25%.",
+      "A": "- est transmise de génération en génération, avec un risque de transmission de 25 %.",
       "B": "- est caractérisée par des reins augmentés de taille avec de multiples kystes.",
       "C": "- est liée à la mutation de plusieurs gènes, avec une expression clinique variable.",
       "D": "- atteint souvent le foie.",
-      "E": "avec une expression clinique variable., - atteint souvent le foie., - est associée à un risque accru d'hémorragie cérébrale."
+      "E": "- est associée à un risque accru d'hémorragie cérébrale."
     },
     "correctAnswers": [
       "B",
+      "C",
+      "D",
       "E"
     ],
-    "text": "La polykystose rénale autosomique dominante •",
+    "text": "La polykystose rénale autosomique dominante :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) - est caractérisée par des reins augmentés de taille avec de multiples kystes. ; E) avec une expression clinique variable., - atteint souvent le foie., - est associée à un risque accru d'hémorragie cérébrale."
+    "explanation": "Correction détaillée :\n• A (Faux) : La transmission étant autosomique dominante, le risque de transmission à la descendance est de 50 % (et non 25 %).\n• B (Vrai) : Elle se caractérise par de gros reins bosselés siège de multiples kystes bilatéraux.\n• C (Vrai) : Elle est liée principalement aux mutations des gènes PKD1 (85 %, forme plus sévère) ou PKD2 (15 %, évolution plus lente).\n• D (Vrai) : La polykystose hépatique est la manifestation extra-rénale la plus fréquente.\n• E (Vrai) : Elle s'associe à un risque accru d'anévrismes artériels intracrâniens dont la rupture provoque une hémorragie méningée."
   },
   {
     "options": {
-      "A": "- peut toucher la femme jeune sans facteur de risque cardio-vasculaire., - doit faire réaliser une échographie doppler des artères rénales.",
-      "B": "- doit faire réaliser une échographie doppler des artères rénales.",
+      "A": "- peut toucher la femme jeune sans facteur de risque cardio-vasculaire.",
+      "B": "- doit faire réaliser une échographie-doppler des artères rénales.",
       "C": "Elle est toujours proximale.",
       "D": "Elle doit faire réaliser une angiographie en urgence pour revascularisation.",
-      "E": "Elle peut entrainer une HTA résistante avec œdème aigu pulmonaire (OAP) flash."
+      "E": "Elle peut entraîner une HTA résistante avec œdème aigu pulmonaire (OAP) flash."
     },
     "correctAnswers": [
       "A",
+      "B",
       "E"
     ],
-    "text": "La sténose d'artère rénale",
+    "text": "La sténose d'artère rénale :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-17",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - peut toucher la femme jeune sans facteur de risque cardio-vasculaire., - doit faire réaliser une échographie doppler des artères rénales. ; E) Elle peut entrainer une HTA résistante avec œdème aigu pulmonaire (OAP) flash."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Par dysplasie fibromusculaire chez la femme jeune sans facteur de risque cardiovasculaire (contrairement à la sténose athéromateuse du sujet âgé).\n• B (Vrai) : L'écho-doppler des artères rénales est l'examen de dépistage de première intention.\n• C (Faux) : Les sténoses athéromateuses sont volontiers proximales/ostiales, mais la dysplasie fibromusculaire touche typiquement les deux tiers distaux du tronc de l'artère rénale.\n• D (Faux) : L'artériographie pour angioplastie n'est pas systématique en urgence et a des indications ciblées (dysplasie fibromusculaire, OAP flash récidivant, dégradation rénale).\n• E (Vrai) : Une sténose bilatérale (ou sur rein unique fonctionnel) expose à une HTA sévère/résistante et à des OAP « flash »."
   },
   {
     "options": {
-      "A": "Une hyponatrémie à 1 16mmol/L est une hyponatrémie sévère. •e•",
-      "B": "Les vomissements dans un contexte d'hyponatrémie est un signe de sévérité de l'hyponatrémie.",
+      "A": "Une hyponatrémie à 116 mmol/L est une hyponatrémie sévère.",
+      "B": "Les vomissements dans un contexte d'hyponatrémie sont un signe de sévérité de l'hyponatrémie.",
       "C": "Une hypernatrémie avec une polyurie est évocatrice d'un diabète insipide.",
       "D": "Une hyponatrémie correspond à une déshydratation extracellulaire.",
       "E": "Une hypernatrémie avec signes neurologiques est une hypernatrémie sévère."
@@ -9013,52 +9122,59 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
     ],
     "text": "Concernant les troubles de la natrémie :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-18",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une hyponatrémie à 1 16mmol/L est une hyponatrémie sévère. •e• ; B) Les vomissements dans un contexte d'hyponatrémie est un signe de sévérité de l'hyponatrémie. ; C) Une hypernatrémie avec une polyurie est évocatrice d'un diabète insipide. ; E) Une hypernatrémie avec signes neurologiques est une hypernatrémie sévère."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Une natrémie < 120 mmol/L définit biologiquement une hyponatrémie profonde/sévère.\n• B (Vrai) : Les vomissements peuvent traduire une hypertension intracrânienne par œdème cérébral (signe de gravité clinique d'une hyponatrémie).\n• C (Vrai) : Une perte rénale d'eau libre (polyurie hypotonique) responsable d'une hypernatrémie évoque un diabète insipide (central ou néphrogénique).\n• D (Faux) : L'hyponatrémie définit toujours une hyperhydratation intracellulaire (le secteur extracellulaire pouvant être diminué, normal ou augmenté).\n• E (Vrai) : L'apparition de signes neurologiques (obnubilation, confusion, coma) signe la gravité de la déshydratation intracellulaire."
   },
   {
     "options": {
-      "A": "- doit être traitée en urgence., - récupère souvent si elle est prise en charge rapidement., - à de multiples étiologies., - est une conséquence de la déshydratation extracellulaire.",
+      "A": "- doit être traitée en urgence.",
       "B": "- récupère souvent si elle est prise en charge rapidement.",
-      "C": "-à de multiples étiologies.",
+      "C": "- a de multiples étiologies.",
       "D": "- nécessite le plus souvent des séances de dialyse.",
-      "E": "-est une conséquence de la déshydratation extracellulaire."
+      "E": "- est une conséquence de la déshydratation extracellulaire."
     },
     "correctAnswers": [
-      "A"
+      "A",
+      "B",
+      "C",
+      "E"
     ],
-    "text": "L'insuffisance rénale aiguë",
+    "text": "L'insuffisance rénale aiguë :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-19",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - doit être traitée en urgence., - récupère souvent si elle est prise en charge rapidement., - à de multiples étiologies., - est une conséquence de la déshydratation extracellulaire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est une urgence diagnostique et thérapeutique (recherche d'obstacle, d'hyperkaliémie, d'OAP, d'hypovolémie).\n• B (Vrai) : Contrairement à l'IRC, l'IRA est habituellement réversible après traitement rapide de sa cause.\n• C (Vrai) : Elle regroupe des causes pré-rénales (fonctionnelles), rénales parenchymateuses (organiques : NTA, GNRP, NIA, vasculaires) et post-rénales (obstructives).\n• D (Faux) : Seule une minorité d'IRA sévères ou compliquées nécessite le recours à l'épuration extrarénale.\n• E (Vrai) : La déshydratation extracellulaire (hypovolémie) est la cause principale d'IRA fonctionnelle."
   },
   {
     "options": {
-      "A": "- comporte une diminution du bicarbonate sanguin., - favorise l'apparition d'une hyperkaliémie., - est une des complications de l'insuffisance rénale et comporte alors un trou anionique sanguin.",
+      "A": "- comporte une diminution du bicarbonate sanguin.",
       "B": "- favorise l'apparition d'une hyperkaliémie.",
-      "C": "- est une des complications de l'insuffisance rénale et comporte alors un trou anionique sanguin.",
+      "C": "- est une des complications de l'insuffisance rénale et comporte alors un trou anionique sanguin augmenté.",
       "D": "- est une des complications des vomissements.",
-      "E": "- nécessite un apport de bicarbonate intraveineux, surtout en cas d'acido-cétose."
+      "E": "- nécessite un apport de bicarbonate intraveineux, surtout en cas d'acidocétose."
     },
     "correctAnswers": [
-      "A"
+      "A",
+      "B",
+      "C"
     ],
-    "text": "Une acidose métabolique •",
+    "text": "Une acidose métabolique :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-20",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - comporte une diminution du bicarbonate sanguin., - favorise l'apparition d'une hyperkaliémie., - est une des complications de l'insuffisance rénale et comporte alors un trou anionique sanguin."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elle se définit par une baisse de la bicarbonatémie (HCO3- < 22 mmol/L).\n• B (Vrai) : Par transfert extracellulaire de K+ en échange de l'entrée cellulaire d'ions H+.\n• C (Vrai) : L'insuffisance rénale avancée entraîne une acidose métabolique à trou anionique augmenté par rétention d'anions indosés (phosphates, sulfates).\n• D (Faux) : Les vomissements font perdre du HCl gastrique et provoquent une alcalose métabolique (ce sont les diarrhées qui donnent une acidose métabolique).\n• E (Faux) : Dans l'acidocétose diabétique, le traitement repose sur l'insulinothérapie et la réhydratation (qui permettent de régénérer les bicarbonates à partir des corps cétoniques) ; le bicarbonate IV est très rarement indiqué."
   },
   {
     "options": {
-      "A": "- augmentent leur débit de filtration glomérulaire., - sont responsables d'une baisse de l'uricémie., - voient leur débit sanguin augmenter.",
-      "B": "- sont responsables dune baisse de l'uricémie.",
-      "C": "-diminuent de taille.",
+      "A": "- augmentent leur débit de filtration glomérulaire.",
+      "B": "- sont responsables d'une baisse de l'uricémie.",
+      "C": "- diminuent de taille.",
       "D": "- voient leur débit sanguin augmenter.",
       "E": "Toutes les réponses ci-dessus sont fausses."
     },
     "correctAnswers": [
-      "A"
+      "A",
+      "B",
+      "D"
     ],
-    "text": "Les reins lors de la grossesse normale",
+    "text": "Les reins lors de la grossesse normale :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-21",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - augmentent leur débit de filtration glomérulaire., - sont responsables d'une baisse de l'uricémie., - voient leur débit sanguin augmenter."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Au cours de la grossesse normale, l'hypervolémie et la vasodilatation rénale augmentent le DFG d'environ 40 à 50 % (avec baisse physiologique de la créatininémie).\n• B (Vrai) : L'hyperfiltration glomérulaire augmente la clairance de l'acide urique et abaisse l'uricémie (une hyperuricémie chez la femme enceinte est un signe d'alerte de pré-éclampsie).\n• C (Faux) : Les reins augmentent physiologiquement de taille (~1 cm) pendant la grossesse.\n• D (Vrai) : Le débit sanguin rénal augmente d'environ 50 % dès le premier trimestre.\n• E (Faux) : Les propositions A, B et D sont vraies."
   },
   {
     "options": {
@@ -9066,61 +9182,68 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
       "B": "Son taux sanguin est augmenté en cas d'insuffisance rénale.",
       "C": "Son taux sanguin est élevé en cas d'insuffisance hépatique.",
       "D": "Son élévation est inversement proportionnelle au débit de filtration glomérulaire.",
-      "E": "-est éliminée principalement par sécrétion tubulaire rénale."
+      "E": "- est éliminée principalement par sécrétion tubulaire rénale."
     },
     "correctAnswers": [
       "A",
       "B",
       "D"
     ],
-    "text": "La créatinine •",
+    "text": "La créatinine :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-22",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - est un produit de dégradation du métabolisme musculaire. ; B) Son taux sanguin est augmenté en cas d'insuffisance rénale. ; D) Son élévation est inversement proportionnelle au débit de filtration glomérulaire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elle provient du catabolisme de la créatine musculaire.\n• B (Vrai) : Lorsque le DFG diminue, la créatinine est moins filtrée et s'accumule dans le sang.\n• C (Faux) : Dans l'insuffisance hépatocellulaire (souvent associée à une dénutrition et une fonte musculaire), la créatininémie est au contraire basse.\n• D (Vrai) : La relation entre créatininémie et DFG est inverse (hyperbolique).\n• E (Faux) : Elle est éliminée essentiellement par filtration glomérulaire libre (la sécrétion tubulaire proximale est très minoritaire)."
   },
   {
     "options": {
       "A": "- ne concerne que les diabétiques de type 1.",
-      "B": "- est associée à une protéinurie. , - est une maladie glomérulaire., - est précédée par l'apparition d'une HTA., - peut être stabilisée par un bon équilibre glycémique et un traitement par bloqueurs du système rénine- angiotensine.",
+      "B": "- est associée à une protéinurie.",
       "C": "- est une maladie glomérulaire.",
       "D": "- est précédée par l'apparition d'une HTA.",
-      "E": "- peut être stabilisée par un bon équilibre glycémique et un traitement par bloqueurs du système rénine- angiotensine."
+      "E": "- peut être stabilisée par un bon équilibre glycémique et un traitement par bloqueurs du système rénine-angiotensine."
     },
     "correctAnswers": [
-      "B"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
-    "text": "La néphropathie diabétique",
+    "text": "La néphropathie diabétique :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-23",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) - est associée à une protéinurie. , - est une maladie glomérulaire., - est précédée par l'apparition d'une HTA., - peut être stabilisée par un bon équilibre glycémique et un traitement par bloqueurs du système rénine- angiotensine."
+    "explanation": "Correction détaillée :\n• A (Faux) : Elle touche aussi bien les diabétiques de type 1 que de type 2 (le DT2 étant la première cause d'IRT en raison de sa forte prévalence).\n• B (Vrai) : Elle évolue classiquement du stade de microalbuminurie (30-300 mg/j) vers la macroalbuminurie/protéinurie (> 300 mg/j).\n• C (Vrai) : Il s'agit d'une glomérulopathie (glomérulosclérose diabétique de Kimmelstiel-Wilson).\n• D (Vrai) : L'HTA est quasi constante (souvent présente dès le diagnostic dans le DT2 ou apparaissant avec la microalbuminurie dans le DT1).\n• E (Vrai) : Le contrôle glycémique et tensionnel strict par IEC/ARA2 (et gliflozines) ralentit significativement sa progression."
   },
   {
     "options": {
       "A": "- peut générer une rétinopathie hypertensive, une encéphalopathie hypertensive.",
       "B": "- peut générer une insuffisance rénale rapidement progressive.",
       "C": "- n'est pas associée à une protéinurie.",
-      "D": "- peut se présenter comme un syndrome de Microangiopathie Thrombotique (MAT) avec anémie hémolytique mécamque.",
+      "D": "- peut se présenter comme un syndrome de Microangiopathie Thrombotique (MAT) avec anémie hémolytique mécanique.",
       "E": "- se définit par une pression artérielle systolique > 130 mmHg."
     },
     "correctAnswers": [
-      "A"
+      "A",
+      "B",
+      "D"
     ],
-    "text": "L'hypertension artérielle (HTA) maligne",
+    "text": "L'hypertension artérielle (HTA) maligne :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-24",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - peut générer une rétinopathie hypertensive, une encéphalopathie hypertensive."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Urgence hypertensive caractérisée par une PA très élevée (souvent PAD > 130 mmHg) avec souffrance viscérale ischémique (rétinopathie stade III/IV au fond d'œil, encéphalopathie hypertensive).\n• B (Vrai) : La néphroangiosclérose maligne provoque une dégradation rapide de la fonction rénale.\n• C (Faux) : Elle s'accompagne d'une protéinurie souvent abondante.\n• D (Vrai) : Les lésions endothéliales artériolaires entraînent fréquemment une microangiopathie thrombotique (anémie hémolytique mécanique avec schizocytes et thrombopénie).\n• E (Faux) : Elle se définit par une élévation tensionnelle sévère (> 180/120 mmHg, classiquement PAD ≥ 130 mmHg) associée à une atteinte d'organe cible."
   },
   {
     "options": {
       "A": "- est responsable d'œdèmes des membres inférieurs.",
-      "B": "- entraîne un retentissement cérébral proportionnel à sa vitesse d'installation., - ne doit pas être corrigée rapidement., - est traitée en première intention par une restriction hydrique.",
+      "B": "- entraîne un retentissement cérébral proportionnel à sa vitesse d'installation.",
       "C": "- ne doit pas être corrigée rapidement.",
       "D": "- est principalement secondaire à une perte de sodium.",
       "E": "- est traitée en première intention par une restriction hydrique."
     },
     "correctAnswers": [
-      "B"
+      "B",
+      "C",
+      "E"
     ],
-    "text": "L'hyponatrémie",
+    "text": "L'hyponatrémie :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-25",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) - entraîne un retentissement cérébral proportionnel à sa vitesse d'installation., - ne doit pas être corrigée rapidement., - est traitée en première intention par une restriction hydrique."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les œdèmes traduisent une surcharge hydrosodée extracellulaire (bilan sodé positif), alors que l'hyponatrémie traduit un excès relatif d'eau libre (hyperhydratation intracellulaire).\n• B (Vrai) : Plus l'hyponatrémie s'installe rapidement (< 48 h), moins les neurones ont le temps de s'adapter et plus le risque d'œdème cérébral est élevé.\n• C (Vrai) : Une correction trop rapide d'une hyponatrémie chronique expose au risque redoutable de myélinolyse centropontine (démyélinisation osmotique).\n• D (Faux) : Elle résulte avant tout d'un excès d'eau libre par défaut d'excrétion rénale de l'eau (sécrétion d'ADH).\n• E (Vrai) : La restriction hydrique est la mesure de première intention dans les hyponatrémies par excès d'eau (normo- ou hypervolémiques)."
   },
   {
     "options": {
@@ -9138,88 +9261,94 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 5/SQI1.pdf"] = [
     ],
     "text": "La lithiase urinaire peut se manifester par :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-26",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Une colique néphrétique ; B) Une pyélonéphrite aiguë ; C) Une insuffisance rénale chronique ; D) Aucun symptôme et être asymptomatique"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La mise en tension brutale des voies excrétrices en amont d'un calcul enclavé donne la crise de colique néphrétique.\n• B (Vrai) : La stase urinaire en amont de l'obstacle favorise l'infection parenchymateuse (pyélonéphrite aiguë obstructive).\n• C (Vrai) : Des calculs bilatéraux, coralliformes ou récidivants négligés peuvent détruire le parenchyme rénal (néphropathie interstitielle chronique obstructive/infectieuse).\n• D (Vrai) : Un calcul caliciel ou pyélique non obstructif est souvent découvert fortuitement à l'imagerie chez un patient asymptomatique.\n• E (Faux) : Les propositions A, B, C et D sont exactes."
   },
   {
     "options": {
-      "A": "- nécessite un traitement immunosuppresseur au long court.",
+      "A": "- nécessite un traitement immunosuppresseur au long cours.",
       "B": "Le donneur décédé doit avoir donné son accord de son vivant.",
-      "C": "La principale situation permettant le don dorgane en France est celle de la mort cérébrale.",
+      "C": "La principale situation permettant le don d'organe en France est celle de la mort cérébrale.",
       "D": "Le donneur en mort cérébrale ne pourra être prélevé qu'après la mort cardiaque.",
       "E": "- concerne plusieurs milliers de patients en France."
     },
     "correctAnswers": [
       "A",
-      "C"
+      "C",
+      "E"
     ],
-    "text": "La transplantation rénale",
+    "text": "La transplantation rénale :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-27",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - nécessite un traitement immunosuppresseur au long court. ; C) La principale situation permettant le don dorgane en France est celle de la mort cérébrale."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Un traitement immunosuppresseur à vie est indispensable tant que le greffon est fonctionnel pour prévenir le rejet.\n• B (Faux) : En France, la loi repose sur le principe du consentement présumé (tout individu est présumé donneur sauf inscription sur le registre national des refus ou opposition exprimée de son vivant).\n• C (Vrai) : La majorité des greffons rénaux provient de donneurs décédés en état de mort encéphalique (mort cérébrale).\n• D (Faux) : Chez un donneur en état de mort encéphalique, la circulation et l'oxygénation des organes sont maintenues artificiellement jusqu'au clampage chirurgical au bloc opératoire.\n• E (Vrai) : Plus de 3 500 transplantations rénales sont réalisées chaque année en France et plusieurs dizaines de milliers de patients vivent avec un greffon fonctionnel."
   },
   {
     "options": {
       "A": "Le diabète en est une des causes principales en France.",
-      "B": "Son meilleur traitement de suppléance est la transplantation rénale., - retentit sur le système neurologique., - peut être retardée avec un traitement néphroprotecteur bien conduit., - est associée à une hypertension artérielle par surcharge extracellulaire.",
+      "B": "Son meilleur traitement de suppléance est la transplantation rénale.",
       "C": "- retentit sur le système neurologique.",
       "D": "- peut être retardée avec un traitement néphroprotecteur bien conduit.",
-      "E": "-est associée à une hypertension artérielle par surcharge extracellulaire."
+      "E": "- est associée à une hypertension artérielle par surcharge extracellulaire."
     },
     "correctAnswers": [
       "A",
-      "B"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
-    "text": "L'insuffisance rénale terminale •",
+    "text": "L'insuffisance rénale terminale :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-28",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Le diabète en est une des causes principales en France. ; B) Son meilleur traitement de suppléance est la transplantation rénale., - retentit sur le système neurologique., - peut être retardée avec un traitement néphroprotecteur bien conduit., - est associée à une hypertension artérielle par surcharge extracellulaire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les néphropathies diabétiques et vasculaires (hypertensives) représentent près de la moitié des causes d'incidence de l'IRT en France.\n• B (Vrai) : Lorsqu'elle est possible, la transplantation rénale offre la meilleure survie et la meilleure qualité de vie par rapport à la dialyse.\n• C (Vrai) : L'urémie terminale provoque des atteintes neurologiques centrales (encéphalopathie urémique) et périphériques (polynévrite).\n• D (Vrai) : Le contrôle tensionnel, les IEC/ARA2, les gliflozines et la prise en charge des facteurs de progression retardent l'arrivée au stade 5.\n• E (Vrai) : L'HTA au stade terminal est présente dans plus de 80 % des cas et est principalement volo-dépendante (surcharge hydrosodée)."
   },
   {
     "options": {
       "A": "Glomérulaire",
       "B": "Tubulaire",
       "C": "Constituée d'albumine",
-      "D": "Constituée de chaines légères des immunoglobulines",
+      "D": "Constituée de chaînes légères des immunoglobulines",
       "E": "Détectable par la bandelette urinaire"
     },
     "correctAnswers": [
       "B",
       "D"
     ],
-    "text": "Concernant la protéinurie dans la néphropathie à cylindres myélomateux, elle est",
+    "text": "Concernant la protéinurie dans la néphropathie à cylindres myélomateux, elle est :",
     "id": "ANN-UE5-UE5S3Nephrologie5-SQI1-29",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Tubulaire ; D) Constituée de chaines légères des immunoglobulines"
+    "explanation": "Correction détaillée :\n• A, C (Faux) : Il ne s'agit pas d'une protéinurie glomérulaire constituée d'albumine.\n• B, D (Vrai) : C'est une protéinurie de surcharge pré-rénale / tubulaire (protéinurie de Bence-Jones), constituée de chaînes légères libres monoclonales d'immunoglobulines filtrées par le glomérule sain et précipitant dans le tubule.\n• E (Faux) : La bandelette urinaire réagit uniquement à l'albumine et reste donc négative devant des chaînes légères isolées (dissociation bandelette négative / protéinurie pondérale élevée)."
   }
 ];
 window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 6/SQI1.pdf"] = [
   {
     "options": {
-      "A": "- est arégénérative., - peut être importante",
+      "A": "- est arégénérative.",
       "B": "- peut être importante, avec une hémoglobinémie < 6 g/dL.",
       "C": "- est responsable d'une augmentation du débit cardiaque.",
       "D": "- doit être traitée par érythropoïétine lorsque l'hémoglobine est < 11 g/dL.",
-      "E": "-a pour cible une hémoglobine > 12 g/dL."
+      "E": "- a pour cible une hémoglobine > 12 g/dL."
     },
     "correctAnswers": [
       "A",
+      "B",
       "C"
     ],
     "text": "L'anémie liée à l'insuffisance rénale chronique :",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - est arégénérative., - peut être importante ; C) - est responsable d'une augmentation du débit cardiaque."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'anémie de l'insuffisance rénale chronique (IRC) est classiquement normochrome, normocytaire et arégénérative, en raison d'un défaut de production d'érythropoïétine (EPO) par le rein malade.\n• B (Vrai) : En l'absence de prise en charge, la baisse de l'hémoglobine peut être sévère et descendre en dessous de 6 g/dL.\n• C (Vrai) : L'anémie provoque un syndrome hyperkinétique (adaptation physiologique pour maintenir l'oxygénation tissulaire), ce qui augmente le débit cardiaque et fatigue le cœur.\n• D (Faux) : Le recours à l'érythropoïétine injectable est indiqué (généralement lorsque l'Hb est < 10 g/dL après correction martiale), le seuil de 11 g/dL ne correspond pas à l'indication d'instauration.\n• E (Faux) : La cible d'hémoglobine sous traitement n'est jamais de dépasser 12 g/dL (elle se situe généralement entre 10 et 11,5 g/dL) car des taux plus élevés augmentent le risque d'événements cardiovasculaires et de thromboses."
   },
   {
     "options": {
       "A": "- sont liés principalement à une perte rénale de bicarbonates.",
       "B": "- sont associés à une diminution du trou anionique sanguin.",
-      "C": "- participent au catabolisme musculaire exagéré des patients insuffisants rénaux., - doivent être traités avec l'objectif d'une réserve alcaline plasmatique supérieure à 22 mmol/L.",
+      "C": "- participent au catabolisme musculaire exagéré des patients insuffisants rénaux.",
       "D": "- doivent être traités avec l'objectif d'une réserve alcaline plasmatique supérieure à 22 mmol/L.",
       "E": "- sont associés à une acidocétose."
     },
     "correctAnswers": [
-      "C"
+      "C",
+      "D"
     ],
     "text": "Les troubles acidobasiques en situation d'insuffisance rénale chronique :",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) - participent au catabolisme musculaire exagéré des patients insuffisants rénaux., - doivent être traités avec l'objectif d'une réserve alcaline plasmatique supérieure à 22 mmol/L."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'acidose métabolique n'est pas due principalement à une perte de bicarbonates, mais à un défaut d'excrétion rénale des ions H+ (acides fixes quotidiens) et d'ammoniogenèse.\n• B (Faux) : Au stade avancé, l'acidose est associée à une augmentation du trou anionique sanguin en raison de l'accumulation d'anions indosés (sulfates, phosphates).\n• C (Vrai) : L'acidose métabolique stimule la dégradation des protéines, favorisant la fonte et le catabolisme musculaire chez ces patients.\n• D (Vrai) : Le traitement (souvent par apport de bicarbonate de sodium) a pour objectif de maintenir une réserve alcaline plasmatique au-dessus de 22 mmol/L pour éviter les complications osseuses et musculaires.\n• E (Faux) : L'acidocétose est une complication du diabète (carence en insuline), pas de l'insuffisance rénale chronique."
   },
   {
     "options": {
@@ -9234,9 +9363,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 6/SQI1.pdf"] = [
       "B",
       "D"
     ],
-    "text": "Parmi les signes suivants, lesquels peuvent être rattachés à l'insuffisance rénale chronique",
+    "text": "Parmi les signes suivants, lesquels peuvent être rattachés à l'insuffisance rénale chronique ?",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Crampes ; B) Anorexie ; D) Dyspnée"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les crampes sont un symptôme très fréquent, souvent liées aux désordres hydro-électrolytiques et à l'urémie.\n• B (Vrai) : L'anorexie (perte d'appétit) est un signe majeur de l'imprégnation urémique au stade avancé.\n• C (Faux) : La paralysie faciale est une atteinte neurologique spécifique qui n'est pas imputable à l'IRC.\n• D (Vrai) : La dyspnée (essoufflement) peut résulter d'une anémie sévère ou d'une surcharge hydrosodée menant à un œdème pulmonaire.\n• E (Faux) : Les reins sont globalement insensibles à la douleur dans l'IRC (sauf pathologies spécifiques comme la polykystose ou l'obstruction), les douleurs lombaires ne sont donc pas un signe d'IRC."
   },
   {
     "options": {
@@ -9247,20 +9376,19 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 6/SQI1.pdf"] = [
       "E": "Vous vérifiez l'absence de carence en vitamine D, qui aggrave les complications osseuses de l'urémie."
     },
     "correctAnswers": [
-      "B",
       "C",
       "E"
     ],
     "text": "Afin de limiter les complications de l'insuffisance rénale chronique :",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Vous vérifiez l'uricémie qui est souvent responsable de crises de goutte chez ces patients. ; C) Vous contrôlez l'apport sodé qui joue un rôle majeur dans l'hypertension artérielle associée. ; E) Vous vérifiez l'absence de carence en vitamine D, qui aggrave les complications osseuses de l'urémie."
+    "explanation": "Correction détaillée :\n• A (Faux) : On ne conseille pas de forcer les boissons à 2 litres/jour, car l'incapacité du rein à excréter l'eau entraînerait un risque de surcharge hydrosodée.\n• B (Faux) : L'hyperuricémie asymptomatique est fréquente en IRC mais ne nécessite pas de traitement systématique (elle ne cause pas directement de crises de goutte supplémentaires sans autres facteurs).\n• C (Vrai) : L'hypertension artérielle de l'IRC est volo-dépendante ; le contrôle de l'apport sodé est donc crucial pour maîtriser la tension et éviter les œdèmes.\n• D (Faux) : On n'interdit pas les légumes frais, mais on conseille des méthodes de préparation (comme la cuisson dans deux eaux) pour en extraire le potassium et éviter l'hyperkaliémie.\n• E (Vrai) : Le rein ne parvient plus à hydroxyler la vitamine D en sa forme active. Il faut supplémenter pour éviter d'aggraver l'hyperparathyroïdie secondaire et les lésions osseuses."
   },
   {
     "options": {
-      "A": "Vous demandez un dosage de la vitamine BI 2 sérique.",
+      "A": "Vous demandez un dosage de la vitamine B12 sérique.",
       "B": "Vous demandez un dosage du taux de folates sanguins.",
       "C": "Vous demandez une électrophorèse de l'hémoglobine.",
-      "D": "Votre objectif de stock martial est d'obtenir une ferritinémie > 200 ng/mL avec un coefficient de saturation de la transferrine > 200/0.",
+      "D": "Votre objectif de stock martial est d'obtenir une ferritinémie > 200 ng/mL avec un coefficient de saturation de la transferrine > 20 %.",
       "E": "Vous recherchez un syndrome inflammatoire."
     },
     "correctAnswers": [
@@ -9269,14 +9397,14 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 6/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Lorsque vous découvrez une anémie chez un patient en insuffisance rénale terminale",
+    "text": "Lorsque vous découvrez une anémie chez un patient en insuffisance rénale terminale :",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Vous demandez un dosage de la vitamine BI 2 sérique. ; B) Vous demandez un dosage du taux de folates sanguins. ; D) Votre objectif de stock martial est d'obtenir une ferritinémie > 200 ng/mL avec un coefficient de saturation de la transferrine > 200/0. ; E) Vous recherchez un syndrome inflammatoire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il faut impérativement réaliser un bilan étiologique standard, incluant la vitamine B12, avant de conclure à une anémie purement rénale.\n• B (Vrai) : Le dosage des folates (vitamine B9) fait également partie du bilan de base d'une anémie.\n• C (Faux) : L'électrophorèse n'a pas d'intérêt en première intention, sauf si l'on suspecte une hémoglobinopathie génétique sous-jacente.\n• D (Vrai) : L'utilisation d'EPO consomme beaucoup de fer. L'objectif martial est donc strict : ferritinémie > 200 ng/mL et CST > 20 %.\n• E (Vrai) : Un syndrome inflammatoire chronique entraîne une résistance à l'EPO et séquestre le fer ; il doit être dépisté."
   },
   {
     "options": {
       "A": "Vous le perfusez avec 3 litres de sérum physiologique afin d'éliminer une cause fonctionnelle surajoutée.",
-      "B": "Vous le transfusez si son hémoglobinémie est inférieure à IO g/dL.",
+      "B": "Vous le transfusez si son hémoglobinémie est inférieure à 10 g/dL.",
       "C": "Vous vérifiez sa kaliémie.",
       "D": "Vous demandez une échographie rénale.",
       "E": "Vous vérifiez qu'il ne présente pas d'œdème pulmonaire."
@@ -9286,31 +9414,32 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 6/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "partiellement correct Vous prenez en charge un patient aux urgences pour une insuffisance rénale terminale :",
+    "text": "Vous prenez en charge un patient aux urgences pour une insuffisance rénale terminale :",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Vous vérifiez sa kaliémie. ; D) Vous demandez une échographie rénale. ; E) Vous vérifiez qu'il ne présente pas d'œdème pulmonaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : Perfuser 3 litres de sérum physiologique à un patient en insuffisance rénale terminale (souvent oligurique) risque de provoquer un œdème aigu du poumon (OAP) fatal.\n• B (Faux) : On ne transfuse pas systématiquement à < 10 g/dL (notamment pour éviter l'allo-immunisation HLA avant greffe), mais seulement en cas de mauvaise tolérance clinique ou de taux d'hémoglobine beaucoup plus critiques (< 7 g/dL).\n• C (Vrai) : L'hyperkaliémie est une urgence absolue chez l'insuffisant rénal, elle expose à un risque de mort subite par trouble du rythme cardiaque.\n• D (Vrai) : L'échographie rénale permet d'évaluer la morphologie, la taille des reins et d'éliminer un obstacle des voies urinaires.\n• E (Vrai) : L'évaluation de l'état d'hydratation, notamment la recherche d'une surcharge pulmonaire (OAP), est une priorité."
   },
   {
     "options": {
-      "A": "- est liée à l'hyperparathyroïdie., - se manifeste par des douleurs osseuses et des fractures pathologiques., - est responsable",
+      "A": "- est liée à l'hyperparathyroïdie.",
       "B": "- se manifeste par des douleurs osseuses et des fractures pathologiques.",
       "C": "- est évoquée devant une baisse de la PTH.",
       "D": "- est responsable, sur le plan radiologique, de la résorption des extrémités osseuses.",
-      "E": "-est liée à une baisse du taux de renouvellement osseux."
+      "E": "- est liée à une baisse du taux de renouvellement osseux."
     },
     "correctAnswers": [
       "A",
+      "B",
       "D"
     ],
-    "text": "L'ostéite fibreuse observée chez les insuffisants rénaux",
+    "text": "L'ostéite fibreuse observée chez les insuffisants rénaux :",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - est liée à l'hyperparathyroïdie., - se manifeste par des douleurs osseuses et des fractures pathologiques., - est responsable ; D) - est responsable, sur le plan radiologique, de la résorption des extrémités osseuses."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elle est la conséquence directe d'une sécrétion excessive de parathormone (hyperparathyroïdie secondaire).\n• B (Vrai) : Elle fragilise l'os et se manifeste cliniquement par des douleurs intenses et des fractures pathologiques.\n• C (Faux) : Elle est évoquée au contraire devant une hausse importante de la PTH.\n• D (Vrai) : La résorption sous-périostée (des houppes phalangiennes et des extrémités claviculaires) en est le signe radiologique pathognomonique.\n• E (Faux) : Elle se caractérise par un os à haut niveau de remodelage (accélération du turn-over osseux), et non par une baisse (qui caractérise l'ostéopathie adynamique)."
   },
   {
     "options": {
       "A": "Hypocalcémie",
       "B": "Acidose",
-      "C": "Déficit en 1,25-Dihydroxy-Vitamin D",
+      "C": "Déficit en 1,25-Dihydroxy-Vitamine D",
       "D": "Déficit en phosphate",
       "E": "Hyperkaliémie"
     },
@@ -9319,36 +9448,39 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 6/SQI1.pdf"] = [
       "B",
       "C"
     ],
-    "text": "Quels sont les facteurs biologiques qui participent à l'altération du métabolisme osseux chez les patients insuffisants rénaux",
+    "text": "Quels sont les facteurs biologiques qui participent à l'altération du métabolisme osseux chez les patients insuffisants rénaux ?",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Hypocalcémie ; B) Acidose ; C) Déficit en 1,25-Dihydroxy-Vitamin D"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'hypocalcémie (due au manque de vitamine D active) stimule continuellement les glandes parathyroïdes, déclenchant l'hyperparathyroïdie.\n• B (Vrai) : L'acidose chronique oblige l'organisme à utiliser l'os comme « système tampon », entraînant sa déminéralisation.\n• C (Vrai) : Le rein malade ne produit plus l'enzyme (1-alpha-hydroxylase) nécessaire pour synthétiser la vitamine D active (calcitriol).\n• D (Faux) : C'est la rétention de phosphate (hyperphosphatémie) qui aggrave les lésions, en chélatant le calcium et en stimulant la PTH, et non son déficit.\n• E (Faux) : Le métabolisme du potassium n'intervient pas dans la régulation osseuse."
   },
   {
     "options": {
       "A": "Anémie",
       "B": "Anomalies phosphocalciques",
       "C": "Hyperhomocystéinémie",
-      "D": "Toxines urémiques"
+      "D": "Toxines urémiques",
+      "E": "Hypertension artérielle"
     },
     "correctAnswers": [
       "A",
       "B",
       "C",
-      "D"
+      "D",
+      "E"
     ],
     "text": "Quels sont les facteurs qui participent aux lésions cardiovasculaires des patients insuffisants rénaux ?",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Anémie ; B) Anomalies phosphocalciques ; C) Hyperhomocystéinémie ; D) Toxines urémiques"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'anémie entraîne une hypertrophie ventriculaire gauche (HVG) adaptative qui fatigue le myocarde.\n• B (Vrai) : Le déséquilibre calcium/phosphate induit de graves calcifications de la paroi des vaisseaux (médiacalcose).\n• C (Vrai) : L'hyperhomocystéinémie est fréquente en IRC et constitue un facteur de risque athéromateux reconnu.\n• D (Vrai) : L'accumulation de toxines urémiques induit une inflammation chronique et une dysfonction endothéliale.\n• E (Vrai) : L'HTA (présente chez la majorité des patients) est le facteur de stress mécanique principal sur le système cardiovasculaire."
   },
   {
     "options": {
-      "A": "Cceur",
+      "A": "Cœur",
       "B": "Cerveau",
       "C": "Système digestif",
       "D": "Système immunitaire",
       "E": "Système nerveux périphérique"
     },
     "correctAnswers": [
+      "A",
       "B",
       "C",
       "D",
@@ -9356,52 +9488,58 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 6/SQI1.pdf"] = [
     ],
     "text": "Quels sont les secteurs de l'organisme altérés par l'insuffisance rénale chronique évoluée ?",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Cerveau ; C) Système digestif ; D) Système immunitaire ; E) Système nerveux périphérique"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le cœur (hypertrophie ventriculaire gauche, insuffisance cardiaque, péricardite urémique, troubles du rythme).\n• B (Vrai) : Le cerveau (encéphalopathie urémique avec troubles cognitifs et confusion).\n• C (Vrai) : Le système digestif (nausées, vomissements, anorexie, gastrites et ulcères gastro-intestinaux).\n• D (Vrai) : Le système immunitaire (déficit immunitaire fonctionnel entraînant une sensibilité accrue aux infections et une moindre réponse vaccinale).\n• E (Vrai) : Le système nerveux périphérique (polynévrite urémique sensitivo-motrice, syndrome des jambes sans repos)."
   },
   {
     "options": {
-      "A": "- comportent une hypocalcémie., - sont responsables de lésions osseuses et vasculaires.",
+      "A": "- comportent une hypocalcémie.",
       "B": "- comportent une hypophosphatémie.",
       "C": "- sont responsables de lésions osseuses et vasculaires.",
       "D": "- sont exceptionnels.",
       "E": "- ne sont observés qu'au stade 5 de l'insuffisance rénale."
     },
     "correctAnswers": [
-      "A"
+      "A",
+      "C"
     ],
-    "text": "Les troubles phosphocalciques secondaires à l'insuffisance rénale chronique",
+    "text": "Les troubles phosphocalciques secondaires à l'insuffisance rénale chronique :",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - comportent une hypocalcémie., - sont responsables de lésions osseuses et vasculaires."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La baisse de la vitamine D active entraîne un défaut d'absorption intestinale du calcium, causant une hypocalcémie.\n• B (Faux) : Ils comportent au contraire une hyperphosphatémie, le rein n'arrivant plus à excréter le phosphore alimentaire.\n• C (Vrai) : Ces déséquilibres provoquent la maladie osseuse rénale (TMO-MRC) et des calcifications vasculaires mortelles.\n• D (Faux) : Ils ne sont pas exceptionnels, ils sont quasi constants lors de la progression de la maladie.\n• E (Faux) : Ces troubles débutent bien avant le stade 5 (dès le stade 3, le FGF-23 et la PTH commencent à s'élever)."
   },
   {
     "options": {
-      "A": "- apparait à un stade tardif de l'insuffisance rénale.",
-      "B": "- est volo-dépendante., - aggrave l'insuffisance rénale., - est responsable d'une part de l'atteinte cardiaque de ces patients.",
+      "A": "- apparaît à un stade tardif de l'insuffisance rénale.",
+      "B": "- est volo-dépendante.",
       "C": "- aggrave l'insuffisance rénale.",
       "D": "- se présente comme une HTA secondaire avec hypokaliémie.",
       "E": "- est responsable d'une part de l'atteinte cardiaque de ces patients."
     },
     "correctAnswers": [
-      "B"
+      "B",
+      "C",
+      "E"
     ],
-    "text": "L'hypertension artérielle liée à l'insuffisance rénale chronique",
+    "text": "L'hypertension artérielle liée à l'insuffisance rénale chronique :",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) - est volo-dépendante., - aggrave l'insuffisance rénale., - est responsable d'une part de l'atteinte cardiaque de ces patients."
+    "explanation": "Correction détaillée :\n• A (Faux) : L'HTA est très précoce et constitue souvent l'un des premiers signes de la maladie rénale.\n• B (Vrai) : Elle est intimement liée à la rétention hydrosodée (incapacité à éliminer le sel et l'eau).\n• C (Vrai) : L'hypertension dans les glomérules (hypertension intra-glomérulaire) détruit le rein et accélère la progression de l'IRC.\n• D (Faux) : L'IRC s'accompagne volontiers d'une normo- ou d'une hyperkaliémie (l'HTA avec hypokaliémie évoque un hyperaldostéronisme).\n• E (Vrai) : Le travail contre des résistances élevées provoque une hypertrophie ventriculaire gauche, abîmant le cœur."
   },
   {
     "options": {
-      "A": "- est une complication grave de l'insuffisance rénale chronique., - est aggravée par une insulinorésistance liée à l'urémie., - est responsable de la mort d'un patient sur 2., - est associée à un triplement du risque d'infarctus du myocarde.",
+      "A": "- est une complication grave de l'insuffisance rénale chronique.",
       "B": "- n'est pas influencée par le tabagisme.",
       "C": "- est aggravée par une insulinorésistance liée à l'urémie.",
       "D": "- est responsable de la mort d'un patient sur 2.",
       "E": "- est associée à un triplement du risque d'infarctus du myocarde."
     },
     "correctAnswers": [
-      "A"
+      "A",
+      "C",
+      "D",
+      "E"
     ],
-    "text": "L'athérosclérose des patients dialysés",
+    "text": "L'athérosclérose des patients dialysés :",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) - est une complication grave de l'insuffisance rénale chronique., - est aggravée par une insulinorésistance liée à l'urémie., - est responsable de la mort d'un patient sur 2., - est associée à un triplement du risque d'infarctus du myocarde."
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est la complication systémique la plus redoutable et la première cause de décès.\n• B (Faux) : Le tabagisme décuple le risque vasculaire, indépendamment de la maladie rénale.\n• C (Vrai) : L'environnement urémique rend les tissus résistants à l'insuline, ce qui favorise l'athérogenèse.\n• D (Vrai) : Les complications cardiovasculaires causent environ 50 % de la mortalité chez les patients dialysés.\n• E (Vrai) : Le risque de faire un infarctus est très fortement majoré (multiplié par 3 ou plus) par rapport à la population générale."
   },
   {
     "options": {
@@ -9416,9 +9554,9 @@ window.ANNALES_QCM["UE5/UE5.S3 Néphrologie 6/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "partiellement correct Concernant les troubles digestifs de l'insuffisance rénale chronique :",
+    "text": "Concernant les troubles digestifs de l'insuffisance rénale chronique :",
     "id": "ANN-UE5-UE5S3Nephrologie6-SQI1-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les nausées sont fréquentes au stade évolué de l'insuffisance rénale. ; D) Les nausées et vomissements sont améliorés par l'épuration extrarénale. ; E) Les gastrites sont fréquentes et participent à l'anémie."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'accumulation des toxines urémiques stimule la zone gâchette (area postrema) du cerveau, causant des nausées chroniques.\n• B (Faux) : La diarrhée n'est pas un symptôme classique de l'IRC (on observe plutôt une tendance à la constipation due aux restrictions hydriques et aux chélateurs).\n• C (Faux) : L'anorexie urémique est un symptôme cardinal, très habituel au stade pré-dialytique.\n• D (Vrai) : La dialyse (épuration extrarénale), en nettoyant le sang des toxines, fait disparaître l'anorexie et les vomissements.\n• E (Vrai) : Les lésions muqueuses (gastrites, ulcères) et les troubles de l'hémostase primaire liés à l'urémie favorisent les saignements digestifs occultes, ce qui majore l'anémie."
   }
 ];
 window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
@@ -9426,17 +9564,18 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
     "options": {
       "A": "Toutes les cellules sont des lymphocytes T.",
       "B": "Toutes les cellules sont des lymphocytes B.",
-      "C": "Plus de 70% sont des lymphocytes T.",
+      "C": "Plus de 70 % sont des lymphocytes T.",
       "D": "Il y a la même proportion de lymphocytes CD4+ et CD8+.",
       "E": "Très peu de cellules expriment le CD25 et l'IL2Rbeta."
     },
     "correctAnswers": [
+      "C",
       "E"
     ],
-    "text": "Que pouvez vous dire de l'analyse de ces cellules par cytométrie en flux ? - 64.38 - 63.32 6.47 0.34 7.30 0.42 - 46.92 72.24 CD 25 (IL -2 - 17.49 2.31 0.36 0.66 6.80 0.17 7.97 0.18 7.22",
+    "text": "Que pouvez-vous dire de l'analyse de ces cellules par cytométrie en flux ?",
     "image": "data/images/annales/UE6-Immuno1-SQI1-p1-xref11.jpeg",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) Très peu de cellules expriment le CD25 et l'IL2Rbeta."
+    "explanation": "Correction détaillée :\n• A (Faux) : Tous les lymphocytes ne sont pas des lymphocytes T.\n• B (Faux) : Tous ne sont pas des lymphocytes B (le CD3 est présent sur la majorité).\n• C (Vrai) : En lisant le graphe des quadrants CD3, on observe que les cellules CD3+ (quadrants supérieurs) représentent environ 70,85 % (64,38 % + 6,47 %), ce qui confirme une majorité de lymphocytes T (> 70 %).\n• D (Faux) : Le rapport CD4/CD8 n'est pas de 1. Les cellules CD4+ sont majoritaires (~52 %) tandis que les cellules CD8+ représentent une proportion bien moindre (~17 %).\n• E (Vrai) : Sur le dernier graphe croisant IL-2Rβ et CD25 (qui est l'IL-2Rα), l'écrasante majorité des cellules se situe dans le quadrant inférieur gauche, ce qui montre que très peu de cellules co-expriment fortement les deux chaînes simultanément à l'état basal."
   },
   {
     "options": {
@@ -9450,14 +9589,14 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "text": "Les lymphocytes régulateurs (Treg)",
+    "text": "Les lymphocytes régulateurs (Treg) :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) expriment le CD25. ; D) expriment le CD3."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les Treg ne représentent qu'une petite sous-population spécialisée (environ 5 à 10 %) des lymphocytes T CD4+ périphériques.\n• B (Faux) : Les lymphocytes T régulateurs classiques appartiennent très majoritairement au compartiment CD4+, non au compartiment CD8+.\n• C (Vrai) : Les Treg constitutifs expriment de hauts niveaux du récepteur à l'IL-2 de haute affinité, notamment sa chaîne alpha (CD25).\n• D (Vrai) : En tant que lymphocytes T, ils expriment obligatoirement le complexe TCR-CD3 permettant la signalisation antigénique.\n• E (Faux) : Le CD20 est le marqueur pan-B, il n'est pas exprimé par les lymphocytes T."
   },
   {
     "options": {
       "A": "sont réversibles selon l'environnement cytokinique.",
-      "B": "ne concernent pas l'expression d'IgM et d'IgD",
+      "B": "ne concernent pas l'expression d'IgM et d'IgD.",
       "C": "ne sont pas aléatoires.",
       "D": "utilisent les mêmes mécanismes que les réarrangements somatiques.",
       "E": "n'affectent pas la région variable."
@@ -9467,9 +9606,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Les commutations de classes",
+    "text": "Les commutations de classes :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) ne concernent pas l'expression d'IgM et d'IgD ; C) ne sont pas aléatoires. ; E) n'affectent pas la région variable."
+    "explanation": "Correction détaillée :\n• A (Faux) : La commutation de classe (ou switch isotypique) implique une délétion physique d'une partie de l'ADN ; cet événement génétique est donc irréversible.\n• B (Vrai) : L'expression simultanée d'IgM et IgD sur les lymphocytes B matures naïfs se fait par épissage alternatif de l'ARN et non par commutation de classe.\n• C (Vrai) : La sélection de l'isotype n'est pas laissée au hasard, elle est strictement dirigée par le micro-environnement cytokinique qui oriente l'enzyme AID.\n• D (Faux) : Les mécanismes moléculaires diffèrent ; la commutation utilise la recombinaison de régions switch homologues via l'AID, tandis que les réarrangements somatiques initiaux utilisent les protéines RAG1/RAG2.\n• E (Vrai) : Lors de la commutation, seul le gène codant pour la région constante change ; la région variable (VDJ), déterminant la spécificité, reste strictement identique."
   },
   {
     "options": {
@@ -9483,9 +9622,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
       "A",
       "C"
     ],
-    "text": "Les Immunoglobulines de type M existent sous forme",
+    "text": "Les immunoglobulines de type M existent sous forme :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) de monomère ; C) de pentamère"
+    "explanation": "Correction détaillée :\n• A (Vrai) : À la surface des lymphocytes B naïfs (sous forme de récepteur BCR), l'IgM est présente sous forme monomérique.\n• B (Faux) : Le dimère est la forme de sécrétion caractéristique des IgA dans les muqueuses, pas des IgM.\n• C (Vrai) : Lors de sa sécrétion plasmatique, l'IgM s'assemble en une structure massive en pentamère grâce à la chaîne J.\n• D (Faux) : La pièce sécrétoire, qui protège de la digestion enzymatique dans les sécrétions, est associée à l'IgA dimérique (et parfois à l'IgM sécrétoire, mais classiquement rattachée aux IgA sécrétoires dans le cours).\n• E (Faux) : Les IgM ne forment pas de trimères."
   },
   {
     "options": {
@@ -9500,9 +9639,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
       "B",
       "E"
     ],
-    "text": "partiellement correct Un ganglion lymphatique :",
+    "text": "Un ganglion lymphatique :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) est relié au système lymphatique. ; B) est relié à la circulation sanguine. ; E) comporte une médulla, un paracortex et un cortex."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les ganglions sont connectés au réseau vasculaire lymphatique, recevant la lymphe afférente chargée d'antigènes et de cellules tissulaires.\n• B (Vrai) : Le ganglion est irrigué par la circulation sanguine, et les veinules à endothélium épais (HEV) permettent l'extravasation des lymphocytes naïfs depuis le sang.\n• C (Faux) : C'est un organe lymphoïde secondaire (ou périphérique) ; les organes primaires étant le thymus et la moelle osseuse.\n• D (Faux) : Le développement initial et la maturation indépendante de l'antigène des lymphocytes B s'effectuent dans la moelle osseuse, pas dans les ganglions.\n• E (Vrai) : Sa structure est anatomiquement cloisonnée : le cortex (zone B), le paracortex (zone T) et la médulla (plasmocytes et macrophages)."
   },
   {
     "options": {
@@ -9517,9 +9656,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
       "B",
       "D"
     ],
-    "text": "Les lgA existent sous forme",
+    "text": "Les IgA existent sous forme :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) de monomère ; B) de dimère ; D) liée à une pièce sécrétoire"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Dans la circulation sanguine systémique, les IgA circulent sous forme de monomères.\n• B (Vrai) : Au niveau des muqueuses, elles sont liées par une chaîne J pour former des dimères.\n• C (Faux) : La forme pentamérique est spécifique aux IgM.\n• D (Vrai) : Lors de leur transcytose à travers l'épithélium des muqueuses, les IgA dimériques acquièrent un fragment du récepteur pIgR appelé pièce sécrétoire.\n• E (Faux) : Les IgA ne s'assemblent pas sous forme trimérique."
   },
   {
     "options": {
@@ -9534,30 +9673,30 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
       "C",
       "D"
     ],
-    "text": "Les immunoglobulines produites par les plasmocytes ont pour fonctions principales •",
+    "text": "Les immunoglobulines produites par les plasmocytes ont pour fonctions principales :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La neutralisation de toxines bactériennes ; C) L'inhibition de l'entrée dans la cellule de virus (via des récepteurs cellulaires) ; D) L'inhibition de la liaison de bactéries à des récepteurs cellulaires"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les anticorps circulants ne peuvent pas pénétrer la membrane des cellules humaines vivantes ; ils ne peuvent agir que sur les pathogènes ou particules virales présents dans le milieu extracellulaire.\n• B (Vrai) : Ils peuvent lier et neutraliser stériquement des toxines bactériennes, bloquant ainsi leur interaction avec leurs récepteurs cibles.\n• C (Vrai) : En se liant aux protéines d'enveloppe virale, les anticorps neutralisants empêchent la fusion ou l'entrée des virus dans les cellules hôtes.\n• D (Vrai) : La neutralisation empêche également les adhésines bactériennes de se lier aux épithéliums.\n• E (Faux) : La présentation d'antigènes aux lymphocytes T repose sur les molécules du CMH ; ce mécanisme est accompli par les cellules présentatrices d'antigènes (CPA) et non par les anticorps sécrétés."
   },
   {
     "options": {
       "A": "Certaines cellules expriment le CD3 et le CD25.",
-      "B": "Elles expriment l'IL2Rbeta et le CD25 à 7.22 %.",
-      "C": "Elles expriment le CD8 et le CD25 à 0,170/0.",
-      "D": "Elles expriment le CD4 et le CD25 à 52,6",
+      "B": "Elles expriment l'IL2Rbeta et le CD25 à 7,22 %.",
+      "C": "Elles expriment le CD8 et le CD25 à 0,17 %.",
+      "D": "Elles expriment le CD4 et le CD25 à 52,6 %.",
       "E": "Elles n'expriment pas le CD5 et le CD25."
     },
     "correctAnswers": [
       "A",
       "C"
     ],
-    "text": "Que pouvez vous dire de l'analyse de ces cellules par cytométrie en flux ? 63.32 7.30 0.42 - 72.24 .66 6.80 - 2.31 0.18 7.22 CD 25 (IL-2R0t)——",
+    "text": "Que pouvez-vous dire de l'analyse de ces cellules par cytométrie en flux ?",
     "image": "data/images/annales/UE6-Immuno1-SQI1-p5-xref11.jpeg",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Certaines cellules expriment le CD3 et le CD25. ; C) Elles expriment le CD8 et le CD25 à 0,170/0."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le premier graphe (CD3 en ordonnée, CD25 en abscisse) montre que 6,47 % des cellules co-expriment le CD3 et le CD25, se trouvant dans le quadrant supérieur droit.\n• B (Faux) : Le dernier graphique révèle qu'à peine 0,18 % des cellules co-expriment IL-2Rβ et CD25 (quadrant supérieur droit), et non 7,22 %.\n• C (Vrai) : Le graphique CD8/CD25 met en évidence une très faible population de 0,17 % dans le quadrant double positif.\n• D (Faux) : Bien qu'il y ait beaucoup de cellules CD4+, le croisement CD4/CD25 indique 5,68 % de double positivité, et non 52,6 %.\n• E (Faux) : Il y a une population mineure exprimant CD5 et CD25 (7,30 % dans le quadrant supérieur droit)."
   },
   {
     "options": {
-      "A": "peuvent être masqués (inaccessible dans une protéine native).",
+      "A": "peuvent être masqués (inaccessibles dans une protéine native).",
       "B": "peuvent être présents plusieurs fois dans un antigène.",
       "C": "peuvent dépendre de la conformation de la protéine.",
       "D": "peuvent être composés d'acides aminés séquentiels.",
@@ -9570,9 +9709,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Les épitopes",
+    "text": "Les épitopes :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) peuvent être masqués (inaccessible dans une protéine native). ; B) peuvent être présents plusieurs fois dans un antigène. ; C) peuvent dépendre de la conformation de la protéine. ; D) peuvent être composés d'acides aminés séquentiels. ; E) peuvent être démasqués en dénaturant une protéine."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Un épitope situé à l'intérieur de la structure 3D d'une protéine globulaire ne sera pas physiquement accessible à un anticorps sans dénaturation.\n• B (Vrai) : Des protéines multimériques ou des motifs répétés offrent une valence élevée car un même épitope peut être présent plusieurs fois.\n• C (Vrai) : Un épitope « conformationnel » est créé par le rapprochement tridimensionnel d'acides aminés qui sont distants sur la séquence linéaire.\n• D (Vrai) : Un épitope « linéaire » est constitué d'une séquence continue et séquentielle d'acides aminés.\n• E (Vrai) : C'est le principe du Western Blot dénaturant : le dépliement de la protéine expose les épitopes linéaires initialement enfouis dans le cœur de la protéine."
   },
   {
     "options": {
@@ -9587,29 +9726,28 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
       "D",
       "E"
     ],
-    "text": "partiellement correct Chez l'homme, la moelle osseuse :",
+    "text": "Chez l'homme, la moelle osseuse :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) est un organe lymphoïde primaire. ; D) est l'organe où les lymphocytes B effectuent leur maturation. ; E) est l'organe producteur des cellules souches des cellules du système immunitaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les progéniteurs T quittent rapidement la moelle osseuse pour accomplir leur développement et acquérir leur immunocompétence dans le thymus.\n• B (Faux) : Les lymphocytes matures en attente de leur rencontre avec l'antigène s'accumulent dans les organes lymphoïdes secondaires (ganglions, rate), non dans la moelle osseuse.\n• C (Vrai) : En tant que lieu de génération des leucocytes, elle est définie comme un organe lymphoïde central (primaire).\n• D (Vrai) : Tout le processus de réarrangement des récepteurs et de maturation initiale des lymphocytes B s'y déroule.\n• E (Vrai) : Elle héberge les cellules souches hématopoïétiques multipotentes (CSH) d'où dérivent toutes les lignées immunitaires."
   },
   {
     "options": {
       "A": "sont nécessaires et suffisantes à elles seules pour les réarrangements somatiques.",
       "B": "sont exprimées par toutes les cellules.",
       "C": "sont suffisantes mais pas nécessaires pour les réarrangements somatiques.",
-      "D": "sont exprimés par les cellules stromales du thymus.",
+      "D": "sont exprimées par les cellules stromales du thymus.",
       "E": "sont nécessaires, mais d'autres enzymes sont également nécessaires pour les réarrangements somatiques."
     },
     "correctAnswers": [
-      "A",
       "E"
     ],
-    "text": "les enzymes RAGI et RAG2 (RAG : recombination-activating gene)",
+    "text": "Les enzymes RAG1 et RAG2 (RAG : recombination-activating gene) :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) sont nécessaires et suffisantes à elles seules pour les réarrangements somatiques. ; E) sont nécessaires, mais d'autres enzymes sont également nécessaires pour les réarrangements somatiques."
+    "explanation": "Correction détaillée :\n• A (Faux) : Bien que primordiales, elles seules ne suffisent pas, le complexe nécessite de multiples protéines enzymatiques (nucléases, ligases).\n• B (Faux) : L'expression de RAG est restreinte et temporaire, se limitant exclusivement aux lymphocytes en phase de développement (avant maturation) effectuant des réarrangements.\n• C (Faux) : Elles sont strictement nécessaires et indispensables. Sans elles, aucun lymphocyte B ou T fonctionnel ne peut être généré (immunodéficience combinée sévère).\n• D (Faux) : Elles sont synthétisées par les progéniteurs lymphoïdes eux-mêmes (thymocytes, pré-B), et non par les cellules épithéliales stromales de l'environnement thymique.\n• E (Vrai) : Les complexes RAG réalisent la coupure, mais la jonction des extrémités de l'ADN requiert le recrutement de complexes enzymatiques de réparation ubiquitaires (Ku70/80, DNA-PK, artémis, TdT, ligase IV)."
   },
   {
     "options": {
-      "A": "Ils favorisent l'activation des lymphocytes B pour la production danticorps.",
+      "A": "Ils favorisent l'activation des lymphocytes B pour la production d'anticorps.",
       "B": "Ils régulent l'inflammation en produisant des cytokines anti-inflammatoires.",
       "C": "Ils activent les macrophages et favorisent l'immunité cellulaire.",
       "D": "Ils inhibent la production de cytokines et réduisent la réponse immune.",
@@ -9618,9 +9756,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI1.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "text": "Les lymphocytes T CD4+ peuvent se différencier en sous-populations Thl et Th2. Quelle est la principale fonction des lymphocytes Thl ?",
+    "text": "Les lymphocytes T CD4+ peuvent se différencier en sous-populations Th1 et Th2. Quelle est la principale fonction des lymphocytes Th1 ?",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI1-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Ils activent les macrophages et favorisent l'immunité cellulaire."
+    "explanation": "Correction détaillée :\n• A (Faux) : Bien qu'ils puissent aider la production de certains isotypes, c'est principalement la sous-population Th2 (et surtout Tfh) qui excelle dans l'aide aux lymphocytes B.\n• B (Faux) : La régulation par production de cytokines anti-inflammatoires (IL-10, TGF-β) est le rôle des lymphocytes T régulateurs (Treg).\n• C (Vrai) : En produisant de l'interféron-gamma (IFN-γ), les Th1 stimulent massivement la capacité microbicide des macrophages, dirigeant l'immunité à médiation cellulaire contre les pathogènes intracellulaires.\n• D (Faux) : Cette fonction immunosuppressive correspond également au profil de certains Treg.\n• E (Faux) : Les cellules T CD4+ reconnaissent l'antigène présenté par les cellules dendritiques ou les lymphocytes B, mais elles ne présentent pas elles-mêmes d'antigènes aux lymphocytes B."
   }
 ];
 window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI2.pdf"] = [
@@ -9628,24 +9766,24 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI2.pdf"] = [
     "options": {
       "A": "Leurs effets antipyrétiques et antalgiques passent par l'inhibition de la Cyclooxygénase de type 2.",
       "B": "Les AINS sont des inhibiteurs spécifiques de la Cyclooxygénase de type 1.",
-      "C": "Les effets des AINS vis-à-vis de la cyclooxygénases de type 2 (COX2) sont à l'origine de leur indication comme antiagrégant plaquettaire.",
-      "D": "Le Celecoxib a été développé pour présenter une sélectivité vis-à-vis de la cyclooxygénases de type 2 (COX2).",
-      "E": "L'inhibition de la synthèse des prostacyclines par les Coxib peut provoquer une induction de thromboxane A2 pro- agrégant plaquettaire."
+      "C": "Les effets des AINS vis-à-vis de la cyclooxygénase de type 2 (COX2) sont à l'origine de leur indication comme antiagrégant plaquettaire.",
+      "D": "Le Célécoxib a été développé pour présenter une sélectivité vis-à-vis de la cyclooxygénase de type 2 (COX2).",
+      "E": "L'inhibition de la synthèse des prostacyclines par les Coxibs peut provoquer une induction de thromboxane A2 pro-agrégant plaquettaire."
     },
     "correctAnswers": [
       "A",
       "D",
       "E"
     ],
-    "text": "Concernant les anti-inflammatoires non stéroïdiens (AINS) .",
+    "text": "Concernant les anti-inflammatoires non stéroïdiens (AINS) :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI2-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Leurs effets antipyrétiques et antalgiques passent par l'inhibition de la Cyclooxygénase de type 2. ; D) Le Celecoxib a été développé pour présenter une sélectivité vis-à-vis de la cyclooxygénases de type 2 (COX2). ; E) L'inhibition de la synthèse des prostacyclines par les Coxib peut provoquer une induction de thromboxane A2 pro- agrégant plaquettaire."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les effets antipyrétiques et antalgiques des AINS reposent sur l'inhibition des enzymes cyclooxygénases, dont la COX2 fortement impliquée dans la réponse inflammatoire.\n• B (Faux) : La majorité des AINS traditionnels ne sont pas spécifiques et inhibent de façon non sélective la COX1 et la COX2.\n• C (Faux) : L'indication comme antiagrégant plaquettaire repose sur l'inhibition de la COX1 plaquettaire, qui bloque la production de thromboxane A2 pro-agrégant.\n• D (Vrai) : Le célécoxib appartient à la famille des « coxibs », conçus spécifiquement pour inhiber la COX2 tout en épargnant la COX1 gastrique.\n• E (Vrai) : Les inhibiteurs sélectifs de la COX2 (coxibs) diminuent la synthèse de prostacycline endothéliale (antiagrégante) tout en maintenant la production de thromboxane A2 plaquettaire (via la COX1), créant un déséquilibre pro-thrombotique."
   },
   {
     "options": {
       "A": "C'est un inhibiteur irréversible des cyclooxygénases.",
-      "B": "A faible dose (< 160 mg), c'est un anti-inflammatoire.",
-      "C": "A forte dose (> 500mg), c'est un antiagrégant plaquettaire.",
+      "B": "À faible dose (< 160 mg), c'est un anti-inflammatoire.",
+      "C": "À forte dose (> 500 mg), c'est un antiagrégant plaquettaire.",
       "D": "C'est le seul antipyrétique indiqué au cours de la grossesse.",
       "E": "L'aspirine est responsable de saignements, d'ulcères ou de perforation de la paroi de l'estomac (PUS)."
     },
@@ -9653,9 +9791,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI2.pdf"] = [
       "A",
       "E"
     ],
-    "text": "A propos de l'aspirine",
+    "text": "À propos de l'aspirine :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI2-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) C'est un inhibiteur irréversible des cyclooxygénases. ; E) L'aspirine est responsable de saignements, d'ulcères ou de perforation de la paroi de l'estomac (PUS)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Contrairement aux autres AINS, l'aspirine bloque les cyclooxygénases de manière irréversible par acétylation.\n• B (Faux) : À faible dose, l'aspirine est principalement utilisée pour son effet antiagrégant plaquettaire, et non comme anti-inflammatoire (qui requiert des doses plus élevées).\n• C (Faux) : À forte dose, l'aspirine exerce ses effets anti-inflammatoires, antalgiques et antipyrétiques, son effet purement antiagrégant étant optimal à faible dose.\n• D (Faux) : Les AINS (y compris l'aspirine à dose antalgique/antipyrétique) sont contre-indiqués au cours de la grossesse, particulièrement à partir du 6e mois ; le paracétamol est l'antipyrétique de référence.\n• E (Vrai) : En bloquant la COX1, l'aspirine inhibe la production des prostaglandines protectrices de la muqueuse gastrique, favorisant les ulcères et saignements."
   },
   {
     "options": {
@@ -9663,40 +9801,40 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI2.pdf"] = [
       "B": "Les glucocorticoïdes sont des molécules hydrophobes.",
       "C": "Les corticoïdes inhibent indirectement la production d'acide arachidonique.",
       "D": "Les corticoïdes de synthèse exercent une action antiproliférative sur certains types de leucocytes.",
-      "E": "Les glucocorticoïdes sont des inhibiteurs irréversibles de la cyclo-oxygénase 1 (COXI)."
+      "E": "Les glucocorticoïdes sont des inhibiteurs irréversibles de la cyclo-oxygénase 1 (COX1)."
     },
     "correctAnswers": [
       "B",
       "C",
       "D"
     ],
-    "text": "Concernant les anti-inflammatoires stéroïdiens •",
+    "text": "Concernant les anti-inflammatoires stéroïdiens :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI2-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les glucocorticoïdes sont des molécules hydrophobes. ; C) Les corticoïdes inhibent indirectement la production d'acide arachidonique. ; D) Les corticoïdes de synthèse exercent une action antiproliférative sur certains types de leucocytes."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les glucocorticoïdes sont des dérivés du cholestérol (structure stéroïdienne), ils sont donc liposolubles et hydrophobes.\n• B (Vrai) : De par leur nature stéroïdienne, ce sont des molécules hydrophobes capables de traverser librement la membrane plasmique.\n• C (Vrai) : Les corticoïdes bloquent la production de prostaglandines et leucotriènes en inhibant la phospholipase A2 (via l'induction de la lipocortine-1 / annexine-1), empêchant ainsi la libération d'acide arachidonique membranaire.\n• D (Vrai) : Ils induisent une action antiproliférative et pro-apoptotique sur plusieurs types de leucocytes, expliquant leur action immunosuppressive.\n• E (Faux) : Ils n'inhibent pas irréversiblement la COX1 ; leur action se situe en amont (sur la phospholipase A2) et par répression transcriptionnelle de la COX2."
   },
   {
     "options": {
       "A": "Les corticoïdes de synthèse présentent une activité anti-inflammatoire équivalente à celle du cortisol endogène.",
-      "B": "Les corticostéroïdes de synthèse visent à être moins sélectifs du récepteur aux minéralo-corticoïdes.",
-      "C": "Les corticoides de synthèse ont une demi-vie plasmatique très courte h).",
-      "D": "Les corticoïdes entrainent des troubles de la répartition des graisses.",
+      "B": "Les corticostéroïdes de synthèse visent à être moins sélectifs du récepteur aux minéralocorticoïdes.",
+      "C": "Les corticoïdes de synthèse ont une demi-vie plasmatique très courte (< 1 h).",
+      "D": "Les corticoïdes entraînent des troubles de la répartition des graisses.",
       "E": "Les corticoïdes de synthèse agissent uniquement sur la phase précoce de l'inflammation."
     },
     "correctAnswers": [
       "B",
       "D"
     ],
-    "text": "Concernant les antiinflammatoires stéroïdiens",
+    "text": "Concernant les anti-inflammatoires stéroïdiens :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI2-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les corticostéroïdes de synthèse visent à être moins sélectifs du récepteur aux minéralo-corticoïdes. ; D) Les corticoïdes entrainent des troubles de la répartition des graisses."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les corticoïdes de synthèse ont été développés pour présenter une activité anti-inflammatoire bien supérieure à celle du cortisol endogène (4 à 25 fois plus élevée).\n• B (Vrai) : L'objectif de la synthèse est de minimiser l'affinité pour le récepteur minéralocorticoïde afin de réduire les effets indésirables de rétention hydrosodée.\n• C (Faux) : La demi-vie des corticoïdes de synthèse est modifiée pour être plus longue que celle du cortisol naturel, assurant une couverture prolongée.\n• D (Vrai) : Un des effets indésirables métaboliques majeurs est la lipodystrophie, entraînant une redistribution facio-tronculaire des graisses (aspect cushingoïde).\n• E (Faux) : Ils agissent à de multiples niveaux et sur diverses cellules, impactant non seulement la phase vasculaire précoce, mais aussi les phases cellulaires et tardives de l'inflammation."
   },
   {
     "options": {
-      "A": "La ciclosporine inhibe l'interaction entre la cyclophiline et la calcineurine",
-      "B": "Le tacrolimus inhibe l'interaction entre FKBP12 et calcineurine",
-      "C": "Le belatacept est un inhibiteur des récepteurs CD80/CD86 de costimulation de la voie du CD28.",
+      "A": "La ciclosporine inhibe l'interaction entre la cyclophiline et la calcineurine.",
+      "B": "Le tacrolimus inhibe l'interaction entre FKBP12 et calcineurine.",
+      "C": "Le bélatacept est un inhibiteur des récepteurs CD80/CD86 de costimulation de la voie du CD28.",
       "D": "Le mycophénolate mofétil inhibe la prolifération des lymphocytes en bloquant la synthèse des bases de l'ADN.",
-      "E": "Le methotrexate inhibe la prolifération des lymphocytes en bloquant la synthèse des bases de l'ADN."
+      "E": "Le méthotrexate inhibe la prolifération des lymphocytes en bloquant la synthèse des bases de l'ADN."
     },
     "correctAnswers": [
       "A",
@@ -9705,9 +9843,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI2.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Concernant le mécanisme d'action des immunosuppresseurs •",
+    "text": "Concernant le mécanisme d'action des immunosuppresseurs :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI2-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La ciclosporine inhibe l'interaction entre la cyclophiline et la calcineurine ; B) Le tacrolimus inhibe l'interaction entre FKBP12 et calcineurine ; C) Le belatacept est un inhibiteur des récepteurs CD80/CD86 de costimulation de la voie du CD28. ; D) Le mycophénolate mofétil inhibe la prolifération des lymphocytes en bloquant la synthèse des bases de l'ADN. ; E) Le methotrexate inhibe la prolifération des lymphocytes en bloquant la synthèse des bases de l'ADN."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La ciclosporine se lie à son immunophiline (la cyclophiline) pour former un complexe qui inhibe la calcineurine, bloquant la déphosphorylation de NFAT et l'activation des lymphocytes T.\n• B (Vrai) : Le tacrolimus se lie à la FKBP12 et ce complexe inhibe également l'activité phosphatase de la calcineurine.\n• C (Vrai) : Le bélatacept est une protéine de fusion (CTLA4-Ig) qui se lie à CD80/CD86 sur les cellules présentatrices d'antigène, bloquant le signal de costimulation normalement transmis au CD28.\n• D (Vrai) : Le mycophénolate mofétil inhibe l'inosine monophosphate déshydrogénase (IMPDH), bloquant la synthèse de novo des bases puriques (guanosine) de l'ADN.\n• E (Vrai) : Le méthotrexate est un antimétabolite (antifolique inhibiteur de la DHFR) qui inhibe la synthèse des acides nucléiques nécessaires à la prolifération lymphocytaire."
   }
 ];
 window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
@@ -9716,7 +9854,7 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
       "A": "Les macrophages résidents participent à l'homéostasie tissulaire.",
       "B": "Ils appartiennent au système phagocytaire polynucléé.",
       "C": "Ce sont des cellules intervenant dans les mécanismes de l'ADCC (cytotoxicité cellulaire anticorps dépendante).",
-      "D": "Les macrophages de type Ml sont caractérisée par un phénotype anti-inflammatoire.",
+      "D": "Les macrophages de type M1 sont caractérisés par un phénotype anti-inflammatoire.",
       "E": "Ce sont des cellules présentatrices d'antigène."
     },
     "correctAnswers": [
@@ -9724,32 +9862,32 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Concernant les macrophages .",
+    "text": "Concernant les macrophages :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les macrophages résidents participent à l'homéostasie tissulaire. ; C) Ce sont des cellules intervenant dans les mécanismes de l'ADCC (cytotoxicité cellulaire anticorps dépendante). ; E) Ce sont des cellules présentatrices d'antigène."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les macrophages résidents (comme les cellules de Kupffer ou la microglie) nettoient les débris et régulent l'homéostasie des tissus.\n• B (Faux) : Ils possèdent un seul noyau, ils appartiennent au système phagocytaire mononucléé (à la différence des granulocytes « polynucléaires »).\n• C (Vrai) : Les macrophages possèdent des récepteurs Fc (comme CD64 ou CD16) leur permettant de participer à l'ADCC.\n• D (Faux) : Les macrophages de type M1 ont un profil pro-inflammatoire et microbicide ; ce sont les M2 qui sont anti-inflammatoires et réparateurs.\n• E (Vrai) : Grâce à l'expression du CMH de classe II et de molécules de costimulation, ce sont des cellules présentatrices d'antigène professionnelles."
   },
   {
     "options": {
       "A": "Ce sont des glycoprotéines sécrétées à la suite d'une stimulation.",
       "B": "Elles ont une action principalement autocrine et paracrine.",
       "C": "Elles sont produites uniquement par certains leucocytes tels que les macrophages.",
-      "D": "L'effet d'une cytokine est toujours la même quel que soit le type cellulaire sur lequel elle agit.",
-      "E": "La plupart des récepteurs des cytokines appartiennent à la famille des récepteurs des hématopoiétines (récepteurs des cytokines de classe l)."
+      "D": "L'effet d'une cytokine est toujours le même quel que soit le type cellulaire sur lequel elle agit.",
+      "E": "La plupart des récepteurs des cytokines appartiennent à la famille des récepteurs des hématopoïétines (récepteurs des cytokines de classe I)."
     },
     "correctAnswers": [
       "A",
       "B",
       "E"
     ],
-    "text": "Concernant les cytokines .",
+    "text": "Concernant les cytokines :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ce sont des glycoprotéines sécrétées à la suite d'une stimulation. ; B) Elles ont une action principalement autocrine et paracrine. ; E) La plupart des récepteurs des cytokines appartiennent à la famille des récepteurs des hématopoiétines (récepteurs des cytokines de classe l)."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ce sont des protéines ou glycoprotéines libérées transitoirement par les cellules suite à un stimulus infectieux ou inflammatoire.\n• B (Vrai) : Elles agissent préférentiellement à courte distance sur la cellule émettrice (autocrine) ou sur les cellules adjacentes (paracrine).\n• C (Faux) : De nombreuses cellules non leucocytaires, telles que les cellules endothéliales, épithéliales ou fibroblastiques, produisent des cytokines.\n• D (Faux) : Les cytokines sont pléiotropes ; une même cytokine peut induire des effets différents selon le type de cellule cible.\n• E (Vrai) : La majorité des interleukines utilise des récepteurs de classe I (famille des récepteurs aux hématopoïétines)."
   },
   {
     "options": {
       "A": "Ce sont des récepteurs transmembranaires.",
       "B": "Les récepteurs éboueurs (Scavenger) en font partie.",
-      "C": "Le MMR (macrophage mannose recepteur) est impliqué dans la reconnaissance de certains virus comme le VIH.",
+      "C": "Le MMR (macrophage mannose receptor) est impliqué dans la reconnaissance de certains virus comme le VIH.",
       "D": "Ils appartiennent à une seule famille, celle des lectines.",
       "E": "Leur domaine TIR intracellulaire présente des homologies avec celui du récepteur de l'IL-1."
     },
@@ -9758,26 +9896,26 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
       "B",
       "C"
     ],
-    "text": "Concernant les PRR (Pathogens Recognition Receptors) endocytiques",
+    "text": "Concernant les PRR (Pathogen Recognition Receptors) endocytiques :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ce sont des récepteurs transmembranaires. ; B) Les récepteurs éboueurs (Scavenger) en font partie. ; C) Le MMR (macrophage mannose recepteur) est impliqué dans la reconnaissance de certains virus comme le VIH. — Remarques : Question possiblement piègeuse et mal comprise, le domaine TIR est associé aux PRR de signalisation et non endocytiques (Cf. Enoncé)"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ce sont des récepteurs transmembranaires ancrés à la surface cellulaire pour capturer les micro-organismes et favoriser leur phagocytose.\n• B (Vrai) : Les récepteurs éboueurs (Scavenger Receptors) capturent diverses molécules modifiées (LDL oxydées, PAMPs) pour les internaliser.\n• C (Vrai) : Le récepteur au mannose (MMR) permet la reconnaissance de structures glycaniques présentes sur divers pathogènes dont le VIH.\n• D (Faux) : La famille des PRR endocytiques est diverse et comprend des lectines de type C, mais aussi des récepteurs éboueurs (Scavenger).\n• E (Faux) : Le domaine TIR intracellulaire homologue au récepteur de l'IL-1 est la caractéristique structurale des PRR de signalisation (TLR), pas des récepteurs endocytiques."
   },
   {
     "options": {
-      "A": "Ils représentent 50% des lymphocytes.",
+      "A": "Elles représentent 50 % des lymphocytes.",
       "B": "Ce sont des cellules CD3+ ne possédant pas de TCR.",
-      "C": "Ils expriment des récepteurs de type immunoglobuline.",
+      "C": "Elles expriment des récepteurs de type immunoglobuline.",
       "D": "Elles ont un mode d'activation basé sur une balance entre signaux activateurs et signaux inhibiteurs.",
-      "E": "Elles peuvent être dépendante des Anticorps pour exercer leur cytotoxicité."
+      "E": "Elles peuvent être dépendantes des anticorps pour exercer leur cytotoxicité."
     },
     "correctAnswers": [
       "C",
       "D",
       "E"
     ],
-    "text": "partiellement correct Concernant les cellules NK •",
+    "text": "Concernant les cellules NK :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) Ils expriment des récepteurs de type immunoglobuline. ; D) Elles ont un mode d'activation basé sur une balance entre signaux activateurs et signaux inhibiteurs. ; E) Elles peuvent être dépendante des Anticorps pour exercer leur cytotoxicité."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les cellules NK représentent une minorité des lymphocytes circulants (généralement 5 à 15 %), les lymphocytes T et B formant la majorité.\n• B (Faux) : Les cellules NK ne possèdent pas de récepteur TCR et n'expriment pas le CD3 (elles sont CD3- CD56+ CD16+).\n• C (Vrai) : Elles expriment des récepteurs ayant des domaines extracellulaires de type immunoglobuline, comme les KIR.\n• D (Vrai) : Leur activité est étroitement régulée par la somme des signaux provenant de leurs récepteurs activateurs (KAR) et inhibiteurs (KIR).\n• E (Vrai) : Elles détruisent efficacement les cellules recouvertes d'IgG en engageant leur récepteur FcγRIII (CD16) lors de l'ADCC."
   },
   {
     "options": {
@@ -9792,17 +9930,17 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
       "C",
       "E"
     ],
-    "text": "Concernant les sélectines impliqués dans l'interaction leucocyte-endothélium",
+    "text": "Concernant les sélectines impliquées dans l'interaction leucocyte-endothélium :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) La P-sélectine n'est exprimée à la surface des cellules endothéliales vasculaires qu'après l'activation de ces dernières. ; C) La L-sélectine est exprimée par la plupart des leucocytes circulants. ; E) Les sélectines interagissent notamment avec des ligands sialylés portés par des mucines."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les sélectines interviennent dans l'étape initiale et réversible du roulement (rolling), tandis que les intégrines gèrent l'adhésion ferme.\n• B (Vrai) : Bien que pré-stockée, la P-sélectine n'est exprimée à la surface membranaire qu'après l'activation de la cellule endothéliale.\n• C (Vrai) : La L-sélectine (CD62L) est exprimée de manière constitutive sur la majorité des leucocytes circulants naïfs.\n• D (Faux) : C'est la P-sélectine qui est pré-stockée (dans les corps de Weibel-Palade) ; la E-sélectine nécessite une activation génique et une synthèse de novo.\n• E (Vrai) : Les sélectines sont des lectines qui reconnaissent spécifiquement des résidus glucidiques sialylés (comme le Sialyl-Lewis X) portés par les mucines."
   },
   {
     "options": {
-      "A": "L'ILI-beta est un facteur pyrogène endogène.",
+      "A": "L'IL-1-bêta est un facteur pyrogène endogène.",
       "B": "Le TNF-alpha est produit exclusivement par les phagocytes mononucléés.",
       "C": "L'interleukine 12 est un puissant activateur des cellules NK et NKT.",
-      "D": "A forte concentration (Concentration plasmatique > IT 7 M), l'IL-6 induit des thromboses intravasculaires.",
-      "E": "La CRP (C Reactive Protein) est une cytokine d'origine hépatique."
+      "D": "À forte concentration (concentration plasmatique > 10^-7 M), l'IL-6 induit des thromboses intravasculaires.",
+      "E": "La CRP (C-Reactive Protein) est une cytokine d'origine hépatique."
     },
     "correctAnswers": [
       "A",
@@ -9810,13 +9948,13 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
     ],
     "text": "Concernant les cytokines :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) L'ILI-beta est un facteur pyrogène endogène. ; C) L'interleukine 12 est un puissant activateur des cellules NK et NKT."
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'IL-1β (avec le TNF-α et l'IL-6) est un puissant pyrogène endogène déclenchant la fièvre au niveau hypothalamique.\n• B (Faux) : Le TNF-α est produit par les macrophages, mais aussi par les cellules NK, les lymphocytes T et certaines cellules non immunitaires.\n• C (Vrai) : L'IL-12, produite par les CPA, est le signal majeur induisant la prolifération et la production d'IFN-γ par les cellules NK, NKT et T.\n• D (Faux) : C'est une caractéristique majeure du TNF-α (et non de l'IL-6) qui, à très forte concentration systémique (> 10^-7 M), peut induire un choc septique et une CIVD.\n• E (Faux) : La CRP est synthétisée par le foie sous l'action de l'IL-6, mais ce n'est pas une cytokine : c'est une protéine opsonisante de la phase aiguë de l'inflammation."
   },
   {
     "options": {
       "A": "Tous les agents infectieux sauf les virus.",
       "B": "Les cellules apoptotiques",
-      "C": "Les complexes immuns circulant",
+      "C": "Les complexes immuns circulants",
       "D": "Les cellules cancéreuses",
       "E": "Les cellules opsonisées par le complément"
     },
@@ -9826,9 +9964,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Les cellules de l'immunité innée ont la capacité de reconnaitre et de réagir contre :",
+    "text": "Les cellules de l'immunité innée ont la capacité de reconnaître et de réagir contre :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les cellules apoptotiques ; C) Les complexes immuns circulant ; D) Les cellules cancéreuses ; E) Les cellules opsonisées par le complément"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le système inné est parfaitement capable de détecter et de combattre les virus (notamment via les TLR intracellulaires, les interférons de type I et les cellules NK).\n• B (Vrai) : Les phagocytes possèdent des récepteurs (Scavenger, récepteurs à la phosphatidylsérine) pour reconnaître et éliminer les cellules apoptotiques (efférocytose).\n• C (Vrai) : Les complexes immuns sont pris en charge par les cellules phagocytaires via leurs récepteurs aux fragments Fc et au complément.\n• D (Vrai) : Les cellules NK patrouillent et détectent l'absence de signaux du « Soi » (diminution du CMH I) ou les signaux de stress fréquents sur les cellules tumorales.\n• E (Vrai) : L'opsonisation par des facteurs du complément comme C3b facilite l'interaction avec les récepteurs du complément (CR1, CR3) des phagocytes de l'immunité innée."
   },
   {
     "options": {
@@ -9836,33 +9974,33 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
       "B": "Ils activent la phagocytose.",
       "C": "Ils inhibent l'expression des molécules de costimulation (CD80 et CD86).",
       "D": "Ils inhibent la réponse immunitaire adaptative en bloquant la présentation antigénique des cellules dendritiques.",
-      "E": "Ils stimulent l'expression des facteurs d'adhésion cellulaire"
+      "E": "Ils stimulent l'expression des facteurs d'adhésion cellulaire."
     },
     "correctAnswers": [
       "A",
       "B",
       "E"
     ],
-    "text": "Concernant les fonctions associées aux TLRs",
+    "text": "Concernant les fonctions associées aux TLRs :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ils induisent la production de cytokines pro-inflammatoires. ; B) Ils activent la phagocytose. ; E) Ils stimulent l'expression des facteurs d'adhésion cellulaire"
+    "explanation": "Correction détaillée :\n• A (Vrai) : L'activation de la voie NF-κB via les TLR déclenche l'expression de nombreuses cytokines pro-inflammatoires (TNF-α, IL-1, IL-6).\n• B (Vrai) : La détection de PAMPs par certains TLR stimule et potentialise l'activité de phagocytose.\n• C (Faux) : Au contraire, les TLR stimulent la maturation des cellules dendritiques, ce qui augmente l'expression des molécules de costimulation CD80/CD86.\n• D (Faux) : En induisant la maturation des CPA, les TLR préparent et favorisent la mise en place de la réponse adaptative.\n• E (Vrai) : L'activation des TLR favorise l'expression des molécules d'adhésion sur les cellules endothéliales et leucocytaires pour guider la migration."
   },
   {
     "options": {
       "A": "C'est une opsonine.",
-      "B": "est un PRR endocytique. MBL est un PRR secrété et ne peut donc être un PRR endocytique, ces derniers étant essentiellement de nature membranaire",
-      "C": "appartient à la famille des collectines.",
-      "D": "est synthétisée principalement par les cardiomyocytes.",
-      "E": "joue un rôle important dans la reconnaissance des déterminants glucidiques portés par les agents infectieux."
+      "B": "Est un PRR endocytique.",
+      "C": "Appartient à la famille des collectines.",
+      "D": "Est synthétisée principalement par les cardiomyocytes.",
+      "E": "Joue un rôle important dans la reconnaissance des déterminants glucidiques portés par les agents infectieux."
     },
     "correctAnswers": [
       "A",
       "C",
       "E"
     ],
-    "text": "La lectine liant le mannose (MBL)",
+    "text": "La lectine liant le mannose (MBL) :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) C'est une opsonine. ; C) appartient à la famille des collectines. ; E) joue un rôle important dans la reconnaissance des déterminants glucidiques portés par les agents infectieux."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La MBL se lie aux sucres microbiens, active le complément (voie des lectines) et sert d'opsonine pour les phagocytes.\n• B (Faux) : C'est un PRR soluble (sécrété dans le sérum), et non un PRR endocytique membranaire.\n• C (Vrai) : C'est une protéine soluble appartenant à la famille des collectines, caractérisée par une structure de type collagène et des domaines lectine.\n• D (Faux) : Comme de nombreuses protéines de la phase aiguë et du complément, la MBL est synthétisée par le foie (hépatocytes).\n• E (Vrai) : Ses domaines de reconnaissance se fixent spécifiquement sur des résidus mannose ou fucose terminaux à la surface des agents infectieux."
   },
   {
     "options": {
@@ -9875,9 +10013,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
     "correctAnswers": [
       "C"
     ],
-    "text": "Concernant la phagocytose, remettez dans l'ordre chronologique la séquence suivante 1- Le phagosome fusionne avec des lysosomes. 2- Les produits de digestion sont libérés des cellules. 3- Les bactéries sont ingérées formant un phagosome. 4- Les enzymes lysosomales digèrent le matériel ingéré. 5- Les bactéries sont attachées aux évaginations membranaires appelées pseudopodes.",
+    "text": "Concernant la phagocytose, remettez dans l'ordre chronologique la séquence suivante :\n1- Le phagosome fusionne avec des lysosomes.\n2- Les produits de digestion sont libérés des cellules.\n3- Les bactéries sont ingérées formant un phagosome.\n4- Les enzymes lysosomales digèrent le matériel ingéré.\n5- Les bactéries sont attachées aux évaginations membranaires appelées pseudopodes.",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) 53142"
+    "explanation": "Correction détaillée :\n• C (Vrai — Ordre 5-3-1-4-2) : L'attachement aux pseudopodes via les récepteurs (5) initie l'ingestion et la formation du phagosome (3). Le phagosome fusionne ensuite avec un lysosome (1), formant le phagolysosome où les enzymes lysosomiales digèrent la cible (4). Enfin, les déchets sont expulsés par exocytose (2)."
   },
   {
     "options": {
@@ -9894,32 +10032,32 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
     ],
     "text": "Quel est le rôle de la C3 convertase alterne dans la cascade d'activation du complément ?",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Elle conduit à l'activation de la voie terminale. ; C) Elle permet d'opsoniser des bactéries. ; D) Elle permet de générer les anaphylatoxines C3a et C5a."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le clivage du C4 est spécifique aux voies classique et des lectines. La voie alterne n'utilise pas le C4.\n• B (Vrai) : En permettant d'amplifier la production de C3b, elle conduit à la formation de la C5 convertase alterne (C3bBb3b), porte d'entrée de la voie terminale lytique.\n• C (Vrai) : Sa fonction enzymatique dépose massivement du C3b sur les pathogènes, une opsonine majeure facilitant la phagocytose.\n• D (Vrai) : En clivant le C3 puis en formant la C5 convertase, l'activation libère les petits fragments C3a et C5a qui agissent comme de puissantes anaphylatoxines.\n• E (Faux) : La C3 convertase alterne est composée du complexe C3bBb. Le complexe C4b2a est la C3 convertase des voies classique et des lectines."
   },
   {
     "options": {
       "A": "Il permet la destruction des microbes par lyse osmotique.",
-      "B": "C'est un complexe formé entre-autre de plusieurs molécules de C9.",
+      "B": "C'est un complexe formé entre autres de plusieurs molécules de C9.",
       "C": "C'est un complexe de plus d'une dizaine de protéines distinctes.",
       "D": "C'est un élément clef contribuant à la lyse des agents infectieux.",
-      "E": "Cest le facteur C6b qui initie sa formation."
+      "E": "C'est le facteur C6b qui initie sa formation."
     },
     "correctAnswers": [
       "A",
       "B",
       "D"
     ],
-    "text": "Concernant le complexe d'attaque membranaire ?",
+    "text": "Concernant le complexe d'attaque membranaire (MAC) :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il permet la destruction des microbes par lyse osmotique. ; B) C'est un complexe formé entre-autre de plusieurs molécules de C9. ; D) C'est un élément clef contribuant à la lyse des agents infectieux."
+    "explanation": "Correction détaillée :\n• A (Vrai) : La formation du pore hydrophobe altère l'équilibre membranaire, causant une entrée d'eau et d'ions massive et la mort par lyse osmotique du microbe.\n• B (Vrai) : L'étape finale est la polymérisation de 10 à 16 molécules de C9 pour former le large pore transmembranaire.\n• C (Faux) : Le MAC est formé de 5 protéines terminales distinctes du complément (C5b, C6, C7, C8 et de multiples sous-unités identiques de C9).\n• D (Vrai) : Il constitue l'effecteur lytique ultime du complément pour détruire directement les bactéries (notamment les Neisseria à Gram négatif).\n• E (Faux) : C'est le clivage de C5 en C5b (et non C6b) qui initie l'assemblage du complexe d'attaque membranaire."
   },
   {
     "options": {
-      "A": "Les lymphocytes T gamma-delta sont des cellules cytotoxiques de l'immunité innée présent notamment au niveau des épithéliums.",
-      "B": "Les lymphocytes NKT possèdent un TCR invariant qui reconnait des dérivés glucidiques présentés par les CPA",
-      "C": "Les éosinophiles sont des granulocytes non phagocytaires ayant une action principalement antiparasitaire. X Même si les PNE ont des propriétés phagocytaires considérées comme faibles (au regard des PNN et phagocytes mononucléés), ils n'en demeurent pas moins des cellules granulocytaires de type phagocytaires",
-      "D": "Les mastocytes sont des cellules mononuclées productrices de prostanoïdes.",
-      "E": "En cas d'infection parasitaire, les neutrophiles exprimer les récepteurs Fc-epsilon."
+      "A": "Les lymphocytes T gamma-delta sont des cellules cytotoxiques de l'immunité innée présentes notamment au niveau des épithéliums.",
+      "B": "Les lymphocytes NKT possèdent un TCR invariant qui reconnaît des dérivés glycolipidiques présentés par les CPA.",
+      "C": "Les éosinophiles sont des granulocytes non phagocytaires ayant une action principalement antiparasitaire.",
+      "D": "Les mastocytes sont des cellules mononucléées productrices de prostanoïdes.",
+      "E": "En cas d'infection parasitaire, les neutrophiles peuvent exprimer les récepteurs Fc-epsilon."
     },
     "correctAnswers": [
       "A",
@@ -9927,9 +10065,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 1/SQI3.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Sélectionner la ou les proposition(s) correcte (s)",
+    "text": "Sélectionner la ou les proposition(s) correcte(s) :",
     "id": "ANN-UE6-UE6S3Immunologie1-SQI3-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les lymphocytes T gamma-delta sont des cellules cytotoxiques de l'immunité innée présent notamment au niveau des épithéliums. ; B) Les lymphocytes NKT possèdent un TCR invariant qui reconnait des dérivés glucidiques présentés par les CPA ; D) Les mastocytes sont des cellules mononuclées productrices de prostanoïdes. ; E) En cas d'infection parasitaire, les neutrophiles exprimer les récepteurs Fc-epsilon."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les lymphocytes T γδ résident préférentiellement dans les tissus épithéliaux et possèdent des fonctions cytotoxiques innées rapides sans restriction classique par le CMH.\n• B (Vrai) : Les cellules NKT portent un TCR semi-invariant qui détecte des antigènes lipidiques ou glycolipidiques présentés par la molécule CD1d.\n• C (Faux) : Bien qu'ils soient primordiaux pour l'action antiparasitaire extracellulaire, les polynucléaires éosinophiles restent des granulocytes dotés de capacités phagocytaires (même si plus faibles que celles des PNN et macrophages).\n• D (Vrai) : Les mastocytes (cellules mononucléées tissulaires) synthétisent de novo d'importants médiateurs lipidiques pro-inflammatoires (prostanoïdes : prostaglandines, thromboxanes, ainsi que leucotriènes).\n• E (Vrai) : Dans un contexte inflammatoire parasitaire, divers leucocytes, dont les éosinophiles et les neutrophiles, peuvent voir leur expression de récepteurs aux IgE (FcεRI/FcεRII) induite."
   }
 ];
 window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI A. Olichon.pdf"] = [
@@ -9938,22 +10076,22 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI A. Olichon.pdf"] = [
       "A": "Le Tacrolimus est un inhibiteur de la synthèse des purines et pyrimidines.",
       "B": "Le Sirolimus est un antagoniste du récepteur à l'IL-2.",
       "C": "La Ciclosporine est un inhibiteur de la calcineurine.",
-      "D": "La Rapamycine est un inhibiteur de mTor.",
-      "E": "Le Mycofénolate mofétil est un antagoniste du récepteur CD80."
+      "D": "La Rapamycine est un inhibiteur de mTOR.",
+      "E": "Le Mycophénolate mofétil est un antagoniste du récepteur CD80."
     },
     "correctAnswers": [
       "C",
       "D"
     ],
-    "text": "s Concernant les immunosuppresseurs :",
+    "text": "Concernant les immunosuppresseurs :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIA.Olichon-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) La Ciclosporine est un inhibiteur de la calcineurine. ; D) La Rapamycine est un inhibiteur de mTor."
+    "explanation": "Correction détaillée :\n• A (Faux) : Le Tacrolimus est un inhibiteur de la calcineurine (en se liant à la FKBP12, comme la Ciclosporine), tandis que le mycophénolate mofétil inhibe la synthèse des purines.\n• B (Faux) : Le Sirolimus (Rapamycine) inhibe la voie de signalisation intracellulaire mTOR, il n'est pas un antagoniste du récepteur à l'IL-2.\n• C (Vrai) : La Ciclosporine bloque la calcineurine, empêchant l'activation du facteur de transcription NFAT et bloquant la production d'IL-2.\n• D (Vrai) : La Rapamycine (Sirolimus) est l'inhibiteur pharmacologique spécifique de la protéine kinase mTOR (en complexe avec FKBP12).\n• E (Faux) : Le Mycophénolate mofétil est un inhibiteur de la synthèse des bases puriques, pas un antagoniste de CD80 (contrairement au Bélatacept ou à l'Abatacept)."
   },
   {
     "options": {
       "A": "Les corticoïdes de synthèse présentent une activité anti-inflammatoire supérieure à celle du cortisol endogène.",
       "B": "Les corticoïdes inhibent indirectement la production d'acide arachidonique.",
-      "C": "Les corticoïdes entrainent des troubles de la répartition des graisses.",
+      "C": "Les corticoïdes entraînent des troubles de la répartition des graisses.",
       "D": "Les corticoïdes provoquent de l'ostéoporose.",
       "E": "Les corticoïdes sont hyperglycémiants et diabétogènes."
     },
@@ -9964,15 +10102,15 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI A. Olichon.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Concernant les anti-inflammatoires stéroidiens :",
+    "text": "Concernant les anti-inflammatoires stéroïdiens :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIA.Olichon-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les corticoïdes de synthèse présentent une activité anti-inflammatoire supérieure à celle du cortisol endogène. ; B) Les corticoïdes inhibent indirectement la production d'acide arachidonique. ; C) Les corticoïdes entrainent des troubles de la répartition des graisses. ; D) Les corticoïdes provoquent de l'ostéoporose. ; E) Les corticoïdes sont hyperglycémiants et diabétogènes."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les molécules synthétiques ont été optimisées pour maximiser l'effet anti-inflammatoire et limiter l'effet minéralocorticoïde par rapport au cortisol endogène.\n• B (Vrai) : Ils inhibent la libération d'acide arachidonique en induisant la synthèse de lipocortine, qui bloque l'action de la phospholipase A2.\n• C (Vrai) : Leur usage chronique entraîne une redistribution facio-tronculaire des graisses (syndrome cushingoïde, bosse de bison, faciès lunaire).\n• D (Vrai) : Ils diminuent l'absorption intestinale du calcium, favorisent la résorption osseuse et freinent les ostéoblastes, induisant une ostéoporose cortisonique.\n• E (Vrai) : Ils stimulent la néoglucogenèse hépatique et l'insulinorésistance, ce qui les rend hyperglycémiants et diabétogènes."
   },
   {
     "options": {
       "A": "Les leucotriènes",
       "B": "Les prostaglandines",
-      "C": "Les tromboxanes",
+      "C": "Les thromboxanes",
       "D": "Les prostacyclines",
       "E": "Les interleukines 2 et 6"
     },
@@ -9981,9 +10119,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI A. Olichon.pdf"] = [
       "C",
       "D"
     ],
-    "text": "",
+    "text": "Parmi les molécules suivantes, lesquelles sont diminuées par l'action de l'aspirine ?",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIA.Olichon-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Les prostaglandines ; C) Les tromboxanes ; D) Les prostacyclines"
+    "explanation": "Correction détaillée :\n• A (Faux) : Les leucotriènes sont synthétisés via la voie de la lipoxygénase (LOX), sur laquelle l'aspirine n'a pas d'effet inhibiteur.\n• B (Vrai) : L'aspirine bloque les cyclooxygénases (COX), inhibant ainsi directement la production de prostaglandines.\n• C (Vrai) : Les thromboxanes (impliqués dans l'agrégation plaquettaire) dépendent de la COX1 plaquettaire et sont diminués.\n• D (Vrai) : La synthèse de prostacyclines par l'endothélium est bloquée par l'inhibition des COX.\n• E (Faux) : Les interleukines sont des cytokines peptidiques, leur synthèse primaire ne dépend pas de l'activité enzymatique des COX."
   }
 ];
 window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
@@ -9991,8 +10129,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
     "options": {
       "A": "ne sont pas actifs",
       "B": "expriment à leur surface des IgM et des IgD",
+      "C": "expriment un récepteur de l'IL-2 de haute affinité",
       "D": "expriment à leur surface des IgG",
-      "E": "Aucunes des propositions"
+      "E": "Aucune des propositions"
     },
     "correctAnswers": [
       "A",
@@ -10000,7 +10139,7 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
     ],
     "text": "Les lymphocytes B naïfs matures :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) ne sont pas actifs ; B) expriment à leur surface des IgM et des IgD"
+    "explanation": "Correction détaillée :\n• A (Vrai) : N'ayant pas encore rencontré leur antigène spécifique, ils sont au stade de repos (non actifs).\n• B (Vrai) : Ils co-expriment à leur surface des IgM et des IgD grâce à un mécanisme d'épissage alternatif de l'ARN.\n• C (Faux) : Le récepteur à l'IL-2 de forte affinité (avec la chaîne alpha CD25) n'est exprimé qu'après l'activation lymphocytaire.\n• D (Faux) : L'expression des IgG nécessite une commutation de classe isotypique, qui a lieu après l'activation.\n• E (Faux) : Deux propositions (A, B) sont correctes."
   },
   {
     "options": {
@@ -10008,31 +10147,31 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
       "B": "peuvent être activés par 2 signaux",
       "C": "expriment un récepteur de l'IL-2 d'affinité modérée",
       "D": "ne sont pas actifs",
-      "E": "Aucunes des propositions"
+      "E": "Aucune des propositions"
     },
     "correctAnswers": [
       "B",
       "C",
       "D"
     ],
-    "text": "Les lymphocytes T naifs matures :",
+    "text": "Les lymphocytes T naïfs matures :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) peuvent être activés par 2 signaux ; C) expriment un récepteur de l'IL-2 d'affinité modérée ; D) ne sont pas actifs"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'activation d'un lymphocyte T naïf nécessite toujours deux signaux (un seul signal entraîne l'anergie).\n• B (Vrai) : Il faut le signal 1 (reconnaissance TCR/CMH-peptide) et le signal 2 (costimulation, ex. : CD28/CD80-CD86).\n• C (Vrai) : Au stade naïf, ils expriment un récepteur à l'IL-2 d'affinité modérée (dimère βγ, la chaîne alpha CD25 apparaissant post-activation pour former le complexe trimérique de haute affinité).\n• D (Vrai) : Ils sont quiescents (non actifs) dans l'attente de la rencontre antigénique.\n• E (Faux) : Plusieurs propositions (B, C, D) sont exactes."
   },
   {
     "options": {
       "A": "ne concernent que les lymphocytes T",
       "B": "permettent de générer de la diversité pour les récepteurs aux antigènes",
-      "C": "permettent toujours davoir des Immunoglobulines ou des TCR fonctionnelles",
+      "C": "permettent toujours d'avoir des immunoglobulines ou des TCR fonctionnels",
       "D": "sont réversibles",
-      "E": "aucune des propositions"
+      "E": "Aucune des propositions"
     },
     "correctAnswers": [
       "B"
     ],
     "text": "Les recombinaisons somatiques :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) permettent de générer de la diversité pour les récepteurs aux antigènes"
+    "explanation": "Correction détaillée :\n• A (Faux) : Elles concernent les lymphocytes T (TCR) et les lymphocytes B (immunoglobulines).\n• B (Vrai) : C'est le mécanisme moléculaire central permettant de générer la diversité des répertoires antigéniques.\n• C (Faux) : L'addition aléatoire de nucléotides génère souvent des décalages du cadre de lecture (réarrangements non productifs), aboutissant à des protéines non fonctionnelles.\n• D (Faux) : Impliquant des coupures et délétions physiques de l'ADN, elles sont strictement irréversibles.\n• E (Faux) : La proposition B est exacte."
   },
   {
     "options": {
@@ -10049,15 +10188,15 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
     ],
     "text": "Le développement des lymphocytes B (avant le passage dans la circulation) :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) se situe dans la moelle osseuse et dans la bourse de Fabricius chez les oiseaux ; C) nécessite des signaux de survie ; D) permet l'expression d'immunoglobulines fonctionnelles par le lymphocyte B"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La lymphopoïèse B se déroule dans la moelle osseuse chez les mammifères, et dans la bourse de Fabricius chez les oiseaux.\n• B (Faux) : Le thymus est l'organe lymphoïde primaire dédié à la maturation des lymphocytes T.\n• C (Vrai) : La survie des progéniteurs B nécessite des signaux cytokiniques et stromaux stricts dans la moelle.\n• D (Vrai) : Le processus aboutit à l'expression d'un récepteur B (IgM) membranaire fonctionnel.\n• E (Faux) : Les propositions A, C et D sont exactes."
   },
   {
     "options": {
-      "A": "Les antigènes T indépendants n'induisent pas de mémoire immunitaire",
+      "A": "Les antigènes T-indépendants n'induisent pas de mémoire immunitaire",
       "B": "Les lipides sont faiblement immunogènes",
       "C": "Un lymphocyte B reconnaît l'antigène apprêté par une cellule présentatrice d'antigène",
-      "D": "Un lymphocyte T naif nécessite deux signaux pour être activé",
-      "E": "aucune des propositions"
+      "D": "Un lymphocyte T naïf nécessite deux signaux pour être activé",
+      "E": "Aucune des propositions"
     },
     "correctAnswers": [
       "A",
@@ -10066,23 +10205,25 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
     ],
     "text": "Parmi la (les) proposition(s) suivante(s), laquelle (lesquelles) est (sont) exacte(s) ?",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les antigènes T indépendants n'induisent pas de mémoire immunitaire ; B) Les lipides sont faiblement immunogènes ; D) Un lymphocyte T naif nécessite deux signaux pour être activé"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les antigènes thymo-indépendants (qui activent directement les LB sans aide des LT) ne génèrent globalement pas de mémoire immunitaire.\n• B (Vrai) : La nature biochimique des lipides (et des glucides) les rend faiblement immunogènes par rapport aux protéines.\n• C (Faux) : Le lymphocyte B reconnaît l'antigène sous sa forme native (tridimensionnelle), contrairement au lymphocyte T qui nécessite un antigène apprêté et présenté par une CPA.\n• D (Vrai) : L'activation d'un lymphocyte T naïf requiert l'interaction TCR-CMH (signal 1) et l'interaction de costimulation (signal 2, ex. : CD28-B7).\n• E (Faux) : Les propositions A, B et D sont exactes."
   },
   {
     "options": {
       "A": "Des lymphocytes vont être éliminés par apoptose",
-      "B": "Des lymphocytes T vont être sélectionnés pour reconnaitre le CMH du soi",
-      "C": "Des lymphocytes B vont être sélectionnés pour reconnaitre le CMH du soi",
-      "D": "Les lymphocytes T reconnaissant trop fortement le soi sont éliminés par apoptose Les lymphocytes B reconnaissant trop fortement le soi sont éliminés par apoptose ou édités"
+      "B": "Des lymphocytes T vont être sélectionnés pour reconnaître le CMH du soi",
+      "C": "Des lymphocytes B vont être sélectionnés pour reconnaître le CMH du soi",
+      "D": "Les lymphocytes T reconnaissant trop fortement le soi sont éliminés par apoptose",
+      "E": "Les lymphocytes B reconnaissant trop fortement le soi sont éliminés par apoptose ou édités"
     },
     "correctAnswers": [
       "A",
       "B",
-      "D"
+      "D",
+      "E"
     ],
-    "text": "partiellement correct Au cours du développement des lymphocytes (avant le passage dans la circulation) :",
+    "text": "Au cours du développement des lymphocytes (avant le passage dans la circulation) :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Des lymphocytes vont être éliminés par apoptose ; B) Des lymphocytes T vont être sélectionnés pour reconnaitre le CMH du soi ; D) Les lymphocytes T reconnaissant trop fortement le soi sont éliminés par apoptose Les lymphocytes B reconnaissant trop fortement le soi sont éliminés par apoptose ou édités"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les lymphocytes non fonctionnels ou fortement auto-réactifs sont éliminés par apoptose.\n• B (Vrai) : C'est la sélection positive thymique, qui assure la restriction au CMH du soi pour les lymphocytes T.\n• C (Faux) : Les lymphocytes B ne sont pas sélectionnés pour reconnaître le CMH, ils reconnaissent directement l'antigène natif.\n• D (Vrai) : C'est le processus de sélection négative thymique qui prévient l'auto-immunité.\n• E (Vrai) : Un lymphocyte B auto-réactif subit l'apoptose (délétion clonale) ou une édition de récepteur (nouveaux réarrangements des chaînes légères) pour modifier sa spécificité."
   },
   {
     "options": {
@@ -10098,7 +10239,7 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
     ],
     "text": "L'avidité d'un anticorps :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) est la résultante de l'affinité et des valences de l'anticorps ; C) mesure la force de liaison entre un anticorps et son antigène"
+    "explanation": "Correction détaillée :\n• A (Faux) : L'avidité dépend directement de la force de chaque liaison individuelle (affinité) multipliée par le nombre de ces liaisons.\n• B (Vrai) : Elle est la force d'interaction globale, combinant l'affinité intrinsèque de l'anticorps et sa valence (le nombre de sites de liaison engageant l'antigène).\n• C (Vrai) : Tandis que l'affinité concerne un seul site, l'avidité mesure la force globale de liaison biochimique entre l'anticorps et sa cible polyvalente.\n• D (Faux) : Au contraire, l'augmentation des valences (ex. : pentamère d'IgM décavalent) majore considérablement la force globale d'avidité.\n• E (Faux) : Deux propositions (B, C) sont exactes."
   },
   {
     "options": {
@@ -10113,7 +10254,7 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
     ],
     "text": "En réponse à une exposition à un antigène étranger :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) La réponse immune innée est nécessaire pour la réponse immune adaptative."
+    "explanation": "Correction détaillée :\n• A (Faux) : Si l'antigène est bloqué par les barrières naturelles ou éliminé rapidement par l'immunité innée (ou en l'absence de signal de danger), la réponse adaptative n'est pas nécessairement déclenchée.\n• B (Faux) : Grâce à la mémoire immunologique, les réexpositions au même antigène induisent une réponse adaptative beaucoup plus rapide, intense et spécialisée.\n• C (Faux) : Les effecteurs innés sont immédiats, tandis que la réponse adaptative met plusieurs jours à générer son expansion clonale.\n• D (Vrai) : La présentation de l'antigène et les signaux de costimulation envoyés par les cellules de l'immunité innée (CPA) sont le prérequis indispensable pour initier et activer la réponse adaptative.\n• E (Faux) : La proposition D est juste."
   },
   {
     "options": {
@@ -10127,13 +10268,13 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
       "A",
       "B"
     ],
-    "text": "Les souris SCID (severe combined immunideficiency) :",
+    "text": "Les souris SCID (severe combined immunodeficiency) :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) n'ont pas de lymphocytes T matures ; B) n'ont pas de lymphocytes B matures"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Le déficit immunitaire combiné sévère (lié à un défaut de recombinaison V(D)J comme une mutation de DNA-PKcs ou des gènes RAG) bloque la formation des récepteurs antigéniques, empêchant la maturation des lymphocytes T.\n• B (Vrai) : Par le même mécanisme, il n'y a pas de lymphocytes B matures.\n• C (Faux) : Les cellules myéloïdes, dont les macrophages, ne nécessitant pas de réarrangements somatiques, sont présentes.\n• D (Faux) : Le thymus (l'organe en lui-même) est anatomiquement présent bien qu'il soit dépourvu de thymocytes matures (ce sont les souris Nude qui sont athymiques).\n• E (Faux) : Les propositions A et B sont exactes."
   },
   {
     "options": {
-      "A": "est une cellule qui peut présenter des Antigènes",
+      "A": "est une cellule qui peut présenter des antigènes",
       "B": "est capable de capter les antigènes en périphérie",
       "C": "lorsqu'elle est activée exprime les molécules de costimulation",
       "D": "exprime le CMH de classe I",
@@ -10147,12 +10288,12 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
     ],
     "text": "Une cellule dendritique :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) est une cellule qui peut présenter des Antigènes ; B) est capable de capter les antigènes en périphérie ; C) lorsqu'elle est activée exprime les molécules de costimulation ; D) exprime le CMH de classe I"
+    "explanation": "Correction détaillée :\n• A (Vrai) : C'est la cellule présentatrice d'antigènes professionnelle par excellence.\n• B (Vrai) : Elle réside dans les tissus périphériques au stade immature pour surveiller et capter les antigènes.\n• C (Vrai) : L'activation et la migration vers les ganglions induisent la maturation et l'expression massive des molécules de costimulation (CD80/CD86).\n• D (Vrai) : En tant que cellule nucléée, elle exprime le CMH de classe I (et également de classe II pour la présentation aux lymphocytes T CD4+).\n• E (Faux) : Les propositions A, B, C et D sont exactes."
   },
   {
     "options": {
       "A": "se font de manière aléatoire",
-      "B": "dépendent de l'environnement en cytokine",
+      "B": "dépendent de l'environnement en cytokines",
       "C": "sont réversibles",
       "D": "ont des séquences de reconnaissance spécifiques",
       "E": "Aucune des propositions"
@@ -10163,7 +10304,7 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI C. Lefebvre.pdf"] = [
     ],
     "text": "Les commutations de classe :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIC.Lefebvre-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) dépendent de l'environnement en cytokine ; D) ont des séquences de reconnaissance spécifiques"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le changement de classe n'est pas un processus aléatoire, il obéit strictement au profil cytokinique environnant induit par le pathogène.\n• B (Vrai) : Les cytokines produites (par ex. par les lymphocytes T helper) orientent la cellule B vers la production d'un isotype spécifique (ex. : l'IL-4 favorise la commutation vers l'IgE).\n• C (Faux) : C'est un événement de recombinaison génétique de l'ADN aboutissant à la suppression physique des séquences intercalaires ; il est donc irréversible.\n• D (Vrai) : Le processus requiert des zones d'ADN non codantes riches en motifs spécifiques, appelées « régions switch » (régions de commutation), situées en amont des gènes de régions constantes.\n• E (Faux) : Les propositions B et D sont correctes."
   }
 ];
 window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
@@ -10173,16 +10314,16 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
       "B": "Leurs granules cytoplasmiques sont riches en histamine et héparine.",
       "C": "Comme les mastocytes, ils contribuent à la réponse allergique dépendante des IgE.",
       "D": "Ce sont des phagocytes à activité antiparasitaire.",
-      "E": "Ce sont des cellules essentiellement circulantes à durée de vie longue (plusieurs semaines à plusieurs mois)"
+      "E": "Ce sont des cellules essentiellement circulantes à durée de vie longue (plusieurs semaines à plusieurs mois)."
     },
     "correctAnswers": [
       "A",
       "B",
       "C"
     ],
-    "text": "Concernant les polynucléaires basophiles (PNB)",
+    "text": "Concernant les polynucléaires basophiles (PNB) :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-01",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ce sont les moins nombreux des granulocytes. ; B) Leurs granules cytoplasmiques sont riches en histamine et héparine. ; C) Comme les mastocytes, ils contribuent à la réponse allergique dépendante des IgE."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ils représentent moins de 1 % des leucocytes circulants, ce qui en fait les granulocytes les plus rares.\n• B (Vrai) : Leurs granules sont très riches en médiateurs vasoactifs, principalement l'histamine, et en protéoglycanes comme l'héparine.\n• C (Vrai) : Ils possèdent des récepteurs FcεRI et jouent un rôle très similaire à celui des mastocytes tissulaires lors des réactions d'hypersensibilité de type I.\n• D (Faux) : Contrairement aux éosinophiles, ils n'ont pas d'activité phagocytaire antiparasitaire.\n• E (Faux) : Ce sont des cellules circulantes avec une durée de vie très courte (quelques jours), contrairement aux mastocytes résidents."
   },
   {
     "options": {
@@ -10195,16 +10336,16 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
     "correctAnswers": [
       "D"
     ],
-    "text": "Remettez dans l'ordre chronologique la séquence du modèle unificateur de la signalisation des cytokines 1. Phosphorylation du récepteur et STAT (Signal transducer and activator of transcription) 2. Translocation de STAT phosphorylé dans le noyau. 3. Activation de JAK (Janus activated kinase) 4. Activation de la transcription des gènes de la réponse immune 5. Dimérisation du récepteur.",
+    "text": "Remettez dans l'ordre chronologique la séquence du modèle unificateur de la signalisation des cytokines :\n1. Phosphorylation du récepteur et STAT (Signal transducer and activator of transcription)\n2. Translocation de STAT phosphorylé dans le noyau\n3. Activation de JAK (Janus activated kinase)\n4. Activation de la transcription des gènes de la réponse immune\n5. Dimérisation du récepteur",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-02",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : D) 53124"
+    "explanation": "Correction détaillée :\n• D (Vrai — Ordre 5-3-1-2-4) : Le ligand induit d'abord la dimérisation du récepteur (5), ce qui rapproche et active les kinases JAK (3). Les JAK phosphorylent le récepteur puis les facteurs STAT (1). Les protéines STAT phosphorylées migrent vers le noyau (translocation) (2) pour agir comme facteurs de transcription et activer les gènes cibles (4)."
   },
   {
     "options": {
-      "A": "Les NKR de type lectine reconnaissent davantage des protéines que des carbohydrates",
+      "A": "Les NKR de type lectine reconnaissent davantage des protéines que des carbohydrates.",
       "B": "Les NKR de type KIR sont des récepteurs de type Immunoglobuline.",
-      "C": "Les NKR de type lectine interagissent avec les molécules HLA de classe l.",
-      "D": "Les NKR de type KIR interagissent avec les molécules HLA de classe Il.",
+      "C": "Les NKR de type lectine interagissent avec les molécules HLA de classe I.",
+      "D": "Les NKR de type KIR interagissent avec les molécules HLA de classe II.",
       "E": "Les NKR peuvent être de type activateur ou inhibiteur."
     },
     "correctAnswers": [
@@ -10212,26 +10353,26 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
       "B",
       "E"
     ],
-    "text": "partiellement correct Concernant les récepteurs des cellules NK (NKR):",
+    "text": "Concernant les récepteurs des cellules NK (NKR) :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-03",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Les NKR de type lectine reconnaissent davantage des protéines que des carbohydrates ; B) Les NKR de type KIR sont des récepteurs de type Immunoglobuline. ; E) Les NKR peuvent être de type activateur ou inhibiteur."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Bien qu'appelés « type lectine », certains récepteurs NK (comme CD94/NKG2) lient majoritairement des ligands protéiques (comme HLA-E) plutôt que de simples carbohydrates.\n• B (Vrai) : Les récepteurs de type KIR (Killer-cell immunoglobulin-like receptors) possèdent des domaines de type immunoglobuline dans leur structure extracellulaire.\n• C (Faux) : Les récepteurs de type lectine interagissent généralement avec le CMH non classique (HLA-E), tandis que ce sont principalement les KIR qui reconnaissent les molécules HLA de classe I polymorphes.\n• D (Faux) : Les récepteurs KIR interagissent avec les molécules HLA de classe I pour contrôler l'activation des cellules NK, et non avec les molécules HLA de classe II.\n• E (Vrai) : Il existe des sous-types de récepteurs NK activateurs (KAR) et inhibiteurs (KIR) qui régulent la balance d'activation de la cellule."
   },
   {
     "options": {
-      "A": "La liaison croisée entre IgE et Fc-epsilon Récepteur l.",
-      "B": "par la liaison entre IgE et Fc-epsilon Récepteur Il",
-      "C": "par la liaison entre IgG et Fc-epsilon Récepteur I",
-      "D": "par l'action de l'anaphylatoxine C3a",
-      "E": "par certains médicaments tel que la codéine"
+      "A": "par la liaison croisée entre IgE et Fc-epsilon Récepteur I.",
+      "B": "par la liaison entre IgE et Fc-epsilon Récepteur II.",
+      "C": "par la liaison entre IgG et Fc-epsilon Récepteur I.",
+      "D": "par l'action de l'anaphylatoxine C3a.",
+      "E": "par certains médicaments tels que la codéine."
     },
     "correctAnswers": [
       "A",
       "D",
       "E"
     ],
-    "text": "Concernant les mécanismes pouvant induire la dégranulation des mastocytes, il peut être déclenché par:",
+    "text": "Concernant les mécanismes pouvant induire la dégranulation des mastocytes, elle peut être déclenchée :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-04",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) La liaison croisée entre IgE et Fc-epsilon Récepteur l. ; D) par l'action de l'anaphylatoxine C3a ; E) par certains médicaments tel que la codéine"
+    "explanation": "Correction détaillée :\n• A (Vrai) : La dégranulation classique nécessite une liaison croisée (pontage) entre un allergène et au moins deux IgE préalablement fixées aux récepteurs FcεRI de haute affinité.\n• B (Faux) : La dégranulation dépend du récepteur FcεRI (haute affinité), et non du récepteur FcεRII (CD23, basse affinité).\n• C (Faux) : Les mastocytes dégranulent principalement suite à l'engagement des IgE sur le FcεRI, et non des IgG.\n• D (Vrai) : Il existe une voie indépendante des IgE utilisant les anaphylatoxines du complément (comme C3a et C5a) se liant à leurs RCPG spécifiques pour induire la dégranulation.\n• E (Vrai) : Certains médicaments (morphine, codéine, curares) peuvent induire une dégranulation directe de manière non spécifique et indépendante des IgE."
   },
   {
     "options": {
@@ -10247,50 +10388,51 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
       "C",
       "E"
     ],
-    "text": "L'immunité innée •",
+    "text": "L'immunité innée :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-05",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) se caractérise par la reconnaissance de motifs moléculaires partagés par des familles d'agents pathogènes. ; B) n'induit aucune mémoire immunitaire. ; C) prépare le déclenchement de l'immunité adaptative. ; E) permet la défense de l'organisme contre les agents infectieux de façon immédiate."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Elle est basée sur la reconnaissance de PAMPs, qui sont des motifs moléculaires partagés et conservés au sein de familles d'agents pathogènes.\n• B (Vrai) : Contrairement au système adaptatif, l'immunité innée n'induit pas de mémoire immunitaire ; sa réponse reste stéréotypée lors de contacts répétés.\n• C (Vrai) : La réponse inflammatoire et la présentation de l'antigène par les cellules innées sont indispensables à la mise en place de la réponse adaptative.\n• D (Faux) : Elle implique de nombreuses autres cellules non phagocytaires comme les cellules NK, les basophiles et les mastocytes, ainsi que des facteurs solubles.\n• E (Vrai) : Constituant la première ligne de défense, ses mécanismes préexistants agissent de façon immédiate."
   },
   {
     "options": {
       "A": "sont produits par l'organisme-hôte en réponse à une infection par des microbes.",
       "B": "sont exprimés à la surface des cellules apoptotiques.",
       "C": "sont communs à de grandes classes d'agents infectieux.",
-      "D": "mutent constamment pour échapper aux systèmes de reconnaissance immunitaire",
+      "D": "mutent constamment pour échapper aux systèmes de reconnaissance immunitaire.",
       "E": "Certains PAMPs peuvent être liés par des opsonines."
     },
     "correctAnswers": [
       "C",
       "E"
     ],
-    "text": "Les PAMPs (motifs moléculaires associés aux pathogènes)",
+    "text": "Les PAMPs (motifs moléculaires associés aux pathogènes) :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-06",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) sont communs à de grandes classes d'agents infectieux. ; E) Certains PAMPs peuvent être liés par des opsonines."
+    "explanation": "Correction détaillée :\n• A (Faux) : Les PAMPs sont des motifs constitutifs des agents pathogènes (bactéries, virus), ils ne sont pas produits par l'organisme-hôte.\n• B (Faux) : Les cellules apoptotiques de l'hôte expriment des DAMPs (signaux de danger/altération) et non des PAMPs, qui sont strictement associés aux pathogènes.\n• C (Vrai) : Ces motifs invariants sont conservés et partagés par de grandes classes de micro-organismes (ex. : LPS chez les bactéries à Gram négatif).\n• D (Faux) : Ce sont des structures essentielles à la survie du pathogène, ce qui limite fortement leur capacité à muter sans conséquence.\n• E (Vrai) : Divers PAMPs peuvent être reconnus et liés par des molécules solubles de l'immunité (opsonines comme la MBL) pour faciliter la phagocytose."
   },
   {
     "options": {
-      "A": "",
+      "A": "Cellule NK",
       "B": "Monocyte",
       "C": "Neutrophile",
-      "D": "Eosinophile",
+      "D": "Éosinophile",
       "E": "Macrophage"
     },
     "correctAnswers": [
+      "A",
       "B",
       "C",
       "D",
       "E"
     ],
-    "text": "Parmi ces leucocytes, est(sont) impliqué(s) dans le processus de cytotoxicité dépendant des anticorps ?",
+    "text": "Parmi ces leucocytes, lequel (lesquels) est (sont) impliqué(s) dans le processus de cytotoxicité dépendante des anticorps (ADCC) ?",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-07",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : B) Monocyte ; C) Neutrophile ; D) Eosinophile ; E) Macrophage"
+    "explanation": "Correction détaillée :\n• A, B, C, D, E (Vrai) : L'ADCC est médiée par la liaison d'un récepteur Fc sur les cellules effectrices avec un anticorps opsonisant une cible. Les cellules NK (lyse directe via CD16), les macrophages, monocytes, neutrophiles et éosinophiles possèdent tous des récepteurs Fc et participent à ce mécanisme."
   },
   {
     "options": {
-      "A": "Il est produit par les phagocytes mononuclées, les lymphocytes T et les lymphocytes NK.",
+      "A": "Il est produit par les phagocytes mononucléés, les lymphocytes T et les lymphocytes NK.",
       "B": "Le TNF retrouvé dans le sang est produit principalement par les glandes surrénales.",
       "C": "Il induit l'adhésion des plaquettes à l'endothélium vasculaire.",
-      "D": "C'est le principal médiateur de la réponse aux infections bactériennes à bacilles et à bactéries gram négatif.",
+      "D": "C'est le principal médiateur de la réponse aux infections bactériennes à bacilles et à bactéries Gram négatif.",
       "E": "Les effets systémiques du TNF peuvent conduire à des hémorragies et à des défaillances multi-viscérales."
     },
     "correctAnswers": [
@@ -10299,13 +10441,13 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
       "D",
       "E"
     ],
-    "text": "Au sujet du TNF alpha",
+    "text": "Au sujet du TNF-alpha :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-08",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Il est produit par les phagocytes mononuclées, les lymphocytes T et les lymphocytes NK. ; C) Il induit l'adhésion des plaquettes à l'endothélium vasculaire. ; D) C'est le principal médiateur de la réponse aux infections bactériennes à bacilles et à bactéries gram négatif. ; E) Les effets systémiques du TNF peuvent conduire à des hémorragies et à des défaillances multi-viscérales."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Il est puissamment sécrété par les macrophages activés, mais aussi par d'autres cellules effectrices de l'immunité (LT, NK).\n• B (Faux) : Il n'est pas d'origine surrénalienne (contrairement au cortisol).\n• C (Vrai) : Il modifie l'endothélium vasculaire, favorisant l'expression de facteurs pro-coagulants et l'adhésion plaquettaire.\n• D (Vrai) : C'est le principal orchestrateur de la cascade inflammatoire suite à la reconnaissance du LPS des bactéries à Gram négatif.\n• E (Vrai) : En excès, le TNF-alpha provoque une vasodilatation généralisée, une perte de perméabilité et une CIVD, menant au choc septique, à des hémorragies et à des défaillances multi-viscérales."
   },
   {
     "options": {
-      "A": "PECAM est une molécule dadhésion cellulaire à liaison homotypique.",
+      "A": "PECAM est une molécule d'adhésion cellulaire à liaison homotypique.",
       "B": "Leur expression est restreinte aux leucocytes et aux cellules de l'endothélium vasculaire.",
       "C": "Elles appartiennent à 5 familles de protéines (Sélectines, Mucines, Intégrines, Plasmines et Superfamille des Immunoglobulines).",
       "D": "Leur fonction est d'immobiliser les leucocytes au niveau de l'endothélium vasculaire.",
@@ -10314,32 +10456,32 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
     "correctAnswers": [
       "A"
     ],
-    "text": "Concernant les molécules d'adhésion cellulaire (MAC):",
+    "text": "Concernant les molécules d'adhésion cellulaire (MAC) :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-09",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) PECAM est une molécule dadhésion cellulaire à liaison homotypique."
+    "explanation": "Correction détaillée :\n• A (Vrai) : PECAM (CD31) permet des liaisons homotypiques (PECAM-PECAM) cruciales pour l'étape de diapédèse (passage trans-endothélial).\n• B (Faux) : Bien qu'essentielles pour les leucocytes, on les retrouve sur de très nombreux autres tissus (épithéliums, neurones).\n• C (Faux) : Les plasmines ne sont pas une famille de MAC. Les principales familles sont les Intégrines, Sélectines, Mucines, Cadhérines et la superfamille des Immunoglobulines.\n• D (Faux) : Elles n'immobilisent pas définitivement les leucocytes, elles assurent aussi le roulement et l'extravasation (diapédèse).\n• E (Faux) : Le complexe d'attaque membranaire (MAC en anglais) est lié au système du complément, il ne s'agit pas des molécules d'adhésion."
   },
   {
     "options": {
       "A": "dont la spécificité est liée à la nature de l'agent infectieux.",
-      "B": "dont l'intensité croit avec la répétition des infections.",
+      "B": "dont l'intensité croît avec la répétition des infections.",
       "C": "qui peut être impliqué dans l'élimination des cellules tumorales.",
       "D": "qui fait appel uniquement à des agents chimiques non spécifiques.",
-      "E": "dont l'efficacité croit avec l'âge."
+      "E": "dont l'efficacité croît avec l'âge."
     },
     "correctAnswers": [
       "C"
     ],
-    "text": "L'immunité innée est un mécanisme de défense:",
+    "text": "L'immunité innée est un mécanisme de défense :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-10",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : C) qui peut être impliqué dans l'élimination des cellules tumorales."
+    "explanation": "Correction détaillée :\n• A (Faux) : Sa spécificité est large (PAMPs), non spécifique d'un épitope ou d'une souche infectieuse isolée.\n• B (Faux) : La réponse reste d'intensité stable lors des réinfections (absence de mémoire immunitaire classique).\n• C (Vrai) : Elle surveille et élimine les cellules tumorales (principalement via les cellules NK et les macrophages).\n• D (Faux) : Elle implique de très nombreuses cellules (phagocytes, NK, mastocytes) en plus des facteurs chimiques.\n• E (Faux) : L'efficacité de l'immunité a tendance à décliner avec l'âge (immunosénescence)."
   },
   {
     "options": {
       "A": "sont majoritairement CD4-/CD8-.",
-      "B": "L'activation de leur TCR est restreinte au CMH de classe l.",
-      "C": "expriment des récepteurs NK inhibiteur tel que le NKG2D.",
-      "D": "correspondent à une sous population rare (moins de 1 00/0) de lymphocytes T.",
-      "E": "sont non-cytotoxique."
+      "B": "L'activation de leur TCR est restreinte au CMH de classe I.",
+      "C": "expriment des récepteurs NK inhibiteurs tels que le NKG2D.",
+      "D": "correspondent à une sous-population rare (moins de 10 %) de lymphocytes T.",
+      "E": "sont non-cytotoxiques."
     },
     "correctAnswers": [
       "A",
@@ -10347,7 +10489,7 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
     ],
     "text": "Les lymphocytes T gamma/delta :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-11",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) sont majoritairement CD4-/CD8-. ; D) correspondent à une sous population rare (moins de 1 00/0) de lymphocytes T."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Contrairement aux T alpha/bêta, ils sont classiquement doubles négatifs (CD4- et CD8-).\n• B (Faux) : Leur TCR ne nécessite pas une reconnaissance restreinte aux molécules classiques du CMH I ou II.\n• C (Faux) : Le NKG2D est un récepteur activateur très important pour leur cytotoxicité (reconnaissant des molécules de stress MICA/MICB), et non un récepteur inhibiteur.\n• D (Vrai) : Ils représentent une sous-population minoritaire (< 10 %) dans le sang circulant (majoritairement résidents des épithéliums et muqueuses).\n• E (Faux) : Ce sont des cellules hautement cytotoxiques."
   },
   {
     "options": {
@@ -10355,7 +10497,7 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
       "B": "Cytotoxicité",
       "C": "Présentation de l'antigène",
       "D": "Sécrétion de médiateurs agissant sur les lymphocytes",
-      "E": "Sécrétion d'histamines"
+      "E": "Sécrétion d'histamine"
     },
     "correctAnswers": [
       "A",
@@ -10363,13 +10505,13 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
       "C",
       "D"
     ],
-    "text": "J-J. Hoarau Quelle(s) est(sont) la(les) fonction(s) associée(s) au macrophage ?",
+    "text": "Quelle(s) est (sont) la (les) fonction(s) associée(s) au macrophage ?",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-12",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Phagocytose ; B) Cytotoxicité ; C) Présentation de l'antigène ; D) Sécrétion de médiateurs agissant sur les lymphocytes"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les macrophages sont des phagocytes professionnels essentiels à l'élimination des microbes.\n• B (Vrai) : Ils interviennent notamment via le mécanisme de cytotoxicité dépendante des anticorps (ADCC) pour détruire les cibles.\n• C (Vrai) : Ce sont d'importantes cellules présentatrices d'antigène capables d'initier la réponse adaptative.\n• D (Vrai) : Ils sécrètent de nombreuses cytokines et chimiokines (IL-1, IL-6, IL-12, TNF-α) pour attirer et moduler les lymphocytes.\n• E (Faux) : Les mastocytes et les basophiles sont les principaux producteurs et sécréteurs d'histamine."
   },
   {
     "options": {
-      "A": "Ce sont majoritairement des petits polypeptides solubles (10-30kDa).",
+      "A": "Ce sont majoritairement des petits polypeptides solubles (10-30 kDa).",
       "B": "Leur seule fonction est d'induire le chimiotactisme.",
       "C": "Elles agissent par l'intermédiaire de récepteurs de la famille des RCPG.",
       "D": "Elles sont classées en fonction de leur mode d'action.",
@@ -10379,17 +10521,17 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
       "A",
       "C"
     ],
-    "text": "Concernant les chimiokines",
+    "text": "Concernant les chimiokines :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-13",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) Ce sont majoritairement des petits polypeptides solubles (10-30kDa). ; C) Elles agissent par l'intermédiaire de récepteurs de la famille des RCPG."
+    "explanation": "Correction détaillée :\n• A (Vrai) : Ce sont de petits polypeptides solubles de faible poids moléculaire (généralement 10-30 kDa).\n• B (Faux) : Bien que le chimiotactisme soit leur fonction première, elles régulent aussi l'adhésion cellulaire, l'angiogenèse et l'organogenèse lymphoïde.\n• C (Vrai) : Les récepteurs aux chimiokines (ex. : CCR5, CXCR4) sont des Récepteurs Couplés aux Protéines G (RCPG).\n• D (Faux) : Elles sont classiquement catégorisées selon leur structure en acides aminés et la position de leurs résidus cystéine (CC, CXC, CX3C, C).\n• E (Faux) : L'IL-8 (CXCL8) recrute les neutrophiles, mais elle est produite par de nombreux types cellulaires incluant les macrophages et les cellules endothéliales, et non exclusivement par les neutrophiles."
   },
   {
     "options": {
       "A": "nécessite des protéines adaptatrices qui interagissent avec le domaine TIR.",
-      "B": "L'adaptateur le plus commun des TLRs est MyD88 qui en formant un complexe avec IRF3 conduit à la production d'interferon alpha.",
+      "B": "L'adaptateur le plus commun des TLRs est MyD88 qui en formant un complexe avec IRF3 conduit à la production d'interféron alpha.",
       "C": "fait intervenir des protéines kinases.",
       "D": "permet d'activer la voie des MAP kinases.",
-      "E": "Permet d'induire une réponse immunitaire innée immédiate"
+      "E": "permet d'induire une réponse immunitaire innée immédiate."
     },
     "correctAnswers": [
       "A",
@@ -10397,9 +10539,9 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
       "D",
       "E"
     ],
-    "text": "La signalisation intracellulaire des TLRs",
+    "text": "La signalisation intracellulaire des TLRs :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-14",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) nécessite des protéines adaptatrices qui interagissent avec le domaine TIR. ; C) fait intervenir des protéines kinases. ; D) permet d'activer la voie des MAP kinases. ; E) Permet d'induire une réponse immunitaire innée immédiate"
+    "explanation": "Correction détaillée :\n• A (Vrai) : Les TLR possèdent un domaine intracellulaire TIR qui recrute des protéines adaptatrices (comme MyD88 ou TRIF) pour initier la cascade de signalisation.\n• B (Faux) : Bien que MyD88 soit le principal adaptateur (conduisant à NF-κB), la voie activant IRF3 dépend de l'adaptateur TRIF (notamment via TLR3/TLR4).\n• C (Vrai) : La cascade fait intervenir plusieurs kinases successives (ex. : IRAK) pour transmettre le signal vers le noyau.\n• D (Vrai) : L'activation des TLR déclenche plusieurs voies de signalisation majeures, dont la voie des MAP kinases et NF-κB.\n• E (Vrai) : Cette signalisation rapide mène à l'expression de gènes pro-inflammatoires, induisant une réponse immunitaire innée immédiate."
   },
   {
     "options": {
@@ -10410,27 +10552,29 @@ window.ANNALES_QCM["UE6/UE6.S3 Immunologie 2/SQI J-J. Hoarau.pdf"] = [
       "E": "CD56"
     },
     "correctAnswers": [
+      "D",
       "E"
     ],
     "text": "Concernant les cellules NK, elles expriment :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-15",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : E) CD56"
+    "explanation": "Correction détaillée :\n• A (Faux) : Le complexe CD3 est le marqueur de lignage exclusif des lymphocytes T.\n• B (Faux) : Le CD19 est un marqueur spécifique des lymphocytes B.\n• C (Faux) : Le CD14 est un récepteur au LPS principalement exprimé par les monocytes et macrophages.\n• D (Vrai) : Les cellules NK expriment fortement le CD16 (FcγRIII), qui leur permet de réaliser l'ADCC.\n• E (Vrai) : Le CD56 (NCAM) est un marqueur phénotypique canonique des cellules NK humaines."
   },
   {
     "options": {
       "A": "CXCL8",
-      "B": "Interferon-beta",
-      "C": "TGF-beta RANTES",
-      "E": "MIP-I"
+      "B": "Interféron-bêta",
+      "C": "TGF-bêta",
+      "D": "RANTES",
+      "E": "MIP-1"
     },
     "correctAnswers": [
       "A",
-      "C",
+      "D",
       "E"
     ],
-    "text": "J-J. Hoarau Parmi les cytokines suivantes, indiquez celle(s) qui appartient(ennent) au groupe des chimiokines",
+    "text": "Parmi les cytokines suivantes, indiquez celle(s) qui appartient (appartiennent) au groupe des chimiokines :",
     "id": "ANN-UE6-UE6S3Immunologie2-SQIJJ.Hoarau-16",
-    "explanation": "Correction officielle de l'annale — bonnes réponses : A) CXCL8 ; C) TGF-beta RANTES ; E) MIP-I"
+    "explanation": "Correction détaillée :\n• A (Vrai) : CXCL8 (anciennement IL-8) est la principale chimiokine recrutant les neutrophiles.\n• B (Faux) : L'interféron-bêta appartient à la famille des interférons de type I (cytokines antivirales).\n• C (Faux) : Le TGF-bêta est une cytokine immunorégulatrice et profibrosante, non une chimiokine.\n• D (Vrai) : RANTES (CCL5) est une chimiokine recrutant les lymphocytes T, les éosinophiles et les basophiles.\n• E (Vrai) : MIP-1 (CCL3/CCL4) est une chimiokine recrutant les leucocytes mononucléés vers les sites d'inflammation."
   }
 ];
 // Les questions d'annales alimentent aussi le Cimetière des Erreurs, le Carnet et les statistiques.
