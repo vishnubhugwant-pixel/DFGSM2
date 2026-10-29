@@ -10,11 +10,11 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Le Grimoire">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=21">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png?v=21">
-    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png?v=21">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png?v=21">
-    <link rel="manifest" href="manifest.json?v=21">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=22">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png?v=22">
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png?v=22">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png?v=22">
+    <link rel="manifest" href="manifest.json?v=22">
 
     <script>
         window.onerror = function (message, source, lineno, colno, error) {
@@ -476,20 +476,20 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://unpkg.com/framer-motion@11.0.8/dist/framer-motion.js"></script>
 
-    <script src="data/ue1.js?v=21"></script>
-    <script src="data/ue2.js?v=21"></script>
-    <script src="data/ue3.js?v=21"></script>
-    <script src="data/ue4.js?v=21"></script>
-    <script src="data/ue5.js?v=21"></script>
-    <script src="data/ue6.js?v=21"></script>
-    <script src="data/ue7.js?v=21"></script>
-    <script src="data/ue8.js?v=21"></script>
-    <script src="data/ue9.js?v=21"></script>
-    <script src="data/ue10.js?v=21"></script>
-    <script src="data/ue11.js?v=21"></script>
-    <script src="data/ue12.js?v=21"></script>
-    <script src="data/annales.js?v=21"></script>
-    <script src="data/annales_qcm.js?v=21"></script>
+    <script src="data/ue1.js?v=22"></script>
+    <script src="data/ue2.js?v=22"></script>
+    <script src="data/ue3.js?v=22"></script>
+    <script src="data/ue4.js?v=22"></script>
+    <script src="data/ue5.js?v=22"></script>
+    <script src="data/ue6.js?v=22"></script>
+    <script src="data/ue7.js?v=22"></script>
+    <script src="data/ue8.js?v=22"></script>
+    <script src="data/ue9.js?v=22"></script>
+    <script src="data/ue10.js?v=22"></script>
+    <script src="data/ue11.js?v=22"></script>
+    <script src="data/ue12.js?v=22"></script>
+    <script src="data/annales.js?v=22"></script>
+    <script src="data/annales_qcm.js?v=22"></script>
 </head>
 
 <body>
@@ -2467,50 +2467,108 @@ const StandStatsRadar = ({ progress, totalQcmsInDb, pressureScore = 0 }) => {
             );
         };
 
-        const SubMenu = ({ course, progress, onSelectPart, onBack }) => {
+        const SubMenu = ({ course, progress, onSelectPart, onBack, selectedCours, setSelectedCours }) => {
             const [isLoading, setIsLoading] = useState(false);
+            const [loadError, setLoadError] = useState(null);
             const [loadedQuestions, setLoadedQuestions] = useState((ALL_QCM_DATA && ALL_QCM_DATA[course.code]) || (window.ALL_QCM_DATA && window.ALL_QCM_DATA[course.code]) || []);
+            // selectedCours (cours ouvert dans l'UE) est géré dans App pour persister après une session de QCM
 
             useEffect(() => {
                 if (loadedQuestions.length > 0) return;
                 setIsLoading(true);
+                setLoadError(null);
                 chargerDonneesUE(course.code)
                     .then(data => {
                         setLoadedQuestions(data || []);
                         setIsLoading(false);
                     })
-                    .catch(() => setIsLoading(false));
+                    .catch(err => {
+                        setLoadError(err.message);
+                        setIsLoading(false);
+                    });
             }, [course.code]);
 
             const allQuestions = loadedQuestions.length > 0
                 ? loadedQuestions
                 : ((ALL_QCM_DATA && ALL_QCM_DATA[course.code]) || (window.ALL_QCM_DATA && window.ALL_QCM_DATA[course.code]) || []);
 
-            const lancerPart = (p) => {
+            const lancerPart = (p, coursTitle) => {
+                if (isLoading) return;
+                const fullTitle = coursTitle ? `${coursTitle} • ${p.title}` : p.title;
                 const partQs = allQuestions.slice(p.start, p.end);
                 if (allQuestions.length === 0 || partQs.length === 0) {
                     setIsLoading(true);
                     chargerDonneesUE(course.code)
                         .then(data => {
+                            setLoadedQuestions(data || []);
                             setIsLoading(false);
-                            const qs = (data || []).slice(p.start, p.end);
-                            onSelectPart(p.title, qs);
+                            onSelectPart(fullTitle, (data || []).slice(p.start, p.end));
                         })
-                        .catch(() => setIsLoading(false));
+                        .catch(err => {
+                            setLoadError(err.message);
+                            setIsLoading(false);
+                        });
                 } else {
-                    onSelectPart(p.title, partQs);
+                    onSelectPart(fullTitle, partQs);
                 }
             };
 
-            const parts = (course.parts && course.parts.length > 0)
-                ? course.parts
-                : (course.modules ? course.modules.flatMap(m => (m.cours || []).flatMap(c => (c.series || []).map(s => ({ ...s, title: c.title ? `${c.title} • ${s.title}` : s.title })))) : []);
+            const hasModules = !!(course.modules && course.modules.length > 0);
+            const coursList = hasModules
+                ? course.modules.flatMap(mod => (mod.cours || []).map(c => ({ ...c, moduleTitle: mod.title })))
+                : [];
+            const parts = course.parts || [];
+
+            const scoreOf = (qs) => {
+                let answered = 0;
+                let correct = 0;
+                qs.forEach(q => {
+                    if (progress && progress[q.id] !== undefined) {
+                        answered++;
+                        if (progress[q.id]) correct++;
+                    }
+                });
+                return { answered, correct };
+            };
+
+            const renderCard = ({ key, title, prof, qs, footer, onClick }) => {
+                const { answered, correct } = scoreOf(qs);
+                return (
+                    <motion.div key={key} whileHover={{ scale: 1.05 }} onClick={onClick} className="glass-card p-8 rounded-[2rem] cursor-pointer flex flex-col justify-between group border border-white/10 hover:border-ghibli-accent/50 relative overflow-hidden">
+                        {answered > 0 && (
+                            <div className="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-md px-3 py-1.5 rounded-xl border border-white/10 flex items-center shadow-lg">
+                                <span className={`text-sm font-bold ${correct === qs.length ? 'text-emerald-400' : (correct >= qs.length / 2 ? 'text-amber-400' : 'text-rose-400')}`}>
+                                    {correct}/{qs.length}
+                                </span>
+                            </div>
+                        )}
+                        <div className="mt-2 mb-6">
+                            <h3 className="text-xl font-serif font-bold text-slate-100 group-hover:text-ghibli-accent transition-colors leading-tight pr-14">{title}</h3>
+                            {prof && (
+                                <p className="text-xs font-mono text-emerald-400 font-semibold mt-3">👨‍⚕️ {prof}</p>
+                            )}
+                        </div>
+                        <div className="mt-auto">
+                            <span className="inline-block text-sm font-mono font-bold bg-white/5 border border-white/10 px-4 py-2 rounded-xl text-center group-hover:bg-ghibli-accent group-hover:text-amber-950 transition-all w-full">{footer}</span>
+                        </div>
+                    </motion.div>
+                );
+            };
 
             return (
                 <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }} className="max-w-6xl mx-auto py-12 px-4 flex flex-col min-h-screen">
-                    <button onClick={onBack} className="text-slate-400 hover:text-white mb-8 text-left w-max flex items-center gap-2">← Retour à la Bibliothèque</button>
-                    <h2 className="text-4xl md:text-5xl font-serif mb-6 text-center magic-text">{course.titre}</h2>
-                    <p className="text-center text-lg font-serif italic text-slate-300 mb-12">Choisis ton chapitre d'entraînement.</p>
+                    {selectedCours ? (
+                        <button onClick={() => setSelectedCours(null)} className="text-amber-400 hover:text-amber-300 mb-8 text-left w-max flex items-center gap-2 font-medium">← Retour aux cours</button>
+                    ) : (
+                        <button onClick={onBack} className="text-slate-400 hover:text-white mb-8 text-left w-max flex items-center gap-2">← Retour à la Bibliothèque</button>
+                    )}
+                    <h2 className="text-4xl md:text-5xl font-serif mb-6 text-center magic-text">{selectedCours ? selectedCours.title : course.titre}</h2>
+                    {selectedCours && selectedCours.prof && (
+                        <p className="text-center text-sm font-mono text-emerald-400 font-semibold mb-3">👨‍⚕️ Enseignant : {selectedCours.prof}</p>
+                    )}
+                    <p className="text-center text-lg font-serif italic text-slate-300 mb-12">
+                        {selectedCours ? "Choisis ta série d'entraînement." : (hasModules ? "Choisis ton cours." : "Choisis ton chapitre d'entraînement.")}
+                    </p>
 
                     {isLoading && (
                         <div className="flex flex-col items-center justify-center py-20 gap-6">
@@ -2522,37 +2580,55 @@ const StandStatsRadar = ({ progress, totalQcmsInDb, pressureScore = 0 }) => {
                         </div>
                     )}
 
-                    {!isLoading && (
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {parts.map(p => {
-                                const partQs = allQuestions.slice(p.start, p.end);
-                                let correct = 0;
-                                let answered = 0;
-                                partQs.forEach(q => {
-                                    if (progress && progress[q.id] !== undefined) {
-                                        answered++;
-                                        if (progress[q.id]) correct++;
-                                    }
-                                });
+                    {!isLoading && loadError && (
+                        <div className="glass-card p-8 rounded-2xl border border-rose-500/30 text-center">
+                            <p className="text-rose-400 text-lg mb-2">⚠️ Impossible d'ouvrir ce cours</p>
+                            <p className="text-slate-400 text-sm">{loadError}</p>
+                        </div>
+                    )}
 
-                                return (
-                                    <motion.div key={p.id} whileHover={{ scale: 1.05 }} onClick={() => lancerPart(p)} className="glass-card p-8 rounded-[2rem] cursor-pointer flex flex-col justify-between group border border-white/10 hover:border-ghibli-accent/50 relative overflow-hidden">
-                                        {answered > 0 && (
-                                            <div className="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-md px-3 py-1.5 rounded-xl border border-white/10 flex items-center shadow-lg">
-                                                <span className={`text-sm font-bold ${correct === partQs.length ? 'text-emerald-400' : (correct >= partQs.length / 2 ? 'text-amber-400' : 'text-rose-400')}`}>
-                                                    {correct}/{partQs.length}
-                                                </span>
-                                            </div>
-                                        )}
-                                        <div className="mt-2 mb-6">
-                                            <h3 className="text-xl font-serif font-bold text-slate-100 group-hover:text-ghibli-accent transition-colors leading-tight pr-14">{p.title}</h3>
-                                        </div>
-                                        <div className="mt-auto">
-                                            <span className="inline-block text-sm font-mono font-bold bg-white/5 border border-white/10 px-4 py-2 rounded-xl text-center group-hover:bg-ghibli-accent group-hover:text-amber-950 transition-all w-full">{partQs.length || (p.end - p.start)} QCM</span>
-                                        </div>
-                                    </motion.div>
-                                );
+                    {/* VUE 1 : séries du cours sélectionné */}
+                    {!isLoading && !loadError && selectedCours && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {(selectedCours.series || []).map(s => renderCard({
+                                key: s.id,
+                                title: s.title,
+                                qs: allQuestions.slice(s.start, s.end),
+                                footer: `${s.end - s.start} QCM`,
+                                onClick: () => lancerPart(s, selectedCours.title)
+                            }))}
+                        </div>
+                    )}
+
+                    {/* VUE 2 : liste des cours de l'UE */}
+                    {!isLoading && !loadError && !selectedCours && hasModules && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {coursList.map(c => {
+                                const series = c.series || [];
+                                const total = series.reduce((sum, s) => sum + (s.end - s.start), 0);
+                                const qs = series.flatMap(s => allQuestions.slice(s.start, s.end));
+                                return renderCard({
+                                    key: c.id,
+                                    title: c.title,
+                                    prof: c.prof,
+                                    qs,
+                                    footer: `${series.length} série${series.length > 1 ? 's' : ''} • ${total} QCM`,
+                                    onClick: () => setSelectedCours(c)
+                                });
                             })}
+                        </div>
+                    )}
+
+                    {/* VUE 3 : UE sans cours (parties classiques) */}
+                    {!isLoading && !loadError && !selectedCours && !hasModules && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {parts.map(p => renderCard({
+                                key: p.id,
+                                title: p.title,
+                                qs: allQuestions.slice(p.start, p.end),
+                                footer: `${allQuestions.slice(p.start, p.end).length || (p.end - p.start)} QCM`,
+                                onClick: () => lancerPart(p)
+                            }))}
                         </div>
                     )}
                 </motion.div>
