@@ -10,11 +10,11 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Le Grimoire">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=13">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png?v=13">
-    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png?v=13">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png?v=13">
-    <link rel="manifest" href="manifest.json?v=13">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=14">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png?v=14">
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png?v=14">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png?v=14">
+    <link rel="manifest" href="manifest.json?v=14">
 
     <script>
         window.onerror = function (message, source, lineno, colno, error) {
@@ -476,20 +476,20 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://unpkg.com/framer-motion@11.0.8/dist/framer-motion.js"></script>
 
-    <script src="data/ue1.js?v=13"></script>
-    <script src="data/ue2.js?v=13"></script>
-    <script src="data/ue3.js?v=13"></script>
-    <script src="data/ue4.js?v=13"></script>
-    <script src="data/ue5.js?v=13"></script>
-    <script src="data/ue6.js?v=13"></script>
-    <script src="data/ue7.js?v=13"></script>
-    <script src="data/ue8.js?v=13"></script>
-    <script src="data/ue9.js?v=13"></script>
-    <script src="data/ue10.js?v=13"></script>
-    <script src="data/ue11.js?v=13"></script>
-    <script src="data/ue12.js?v=13"></script>
-    <script src="data/annales.js?v=13"></script>
-    <script src="data/annales_qcm.js?v=13"></script>
+    <script src="data/ue1.js?v=14"></script>
+    <script src="data/ue2.js?v=14"></script>
+    <script src="data/ue3.js?v=14"></script>
+    <script src="data/ue4.js?v=14"></script>
+    <script src="data/ue5.js?v=14"></script>
+    <script src="data/ue6.js?v=14"></script>
+    <script src="data/ue7.js?v=14"></script>
+    <script src="data/ue8.js?v=14"></script>
+    <script src="data/ue9.js?v=14"></script>
+    <script src="data/ue10.js?v=14"></script>
+    <script src="data/ue11.js?v=14"></script>
+    <script src="data/ue12.js?v=14"></script>
+    <script src="data/annales.js?v=14"></script>
+    <script src="data/annales_qcm.js?v=14"></script>
 </head>
 
 <body>
@@ -1166,21 +1166,39 @@
             console.log("ℹ️ Clés Firebase non configurées. Fonctionnement en MODE DÉMO (test@ufr-sante.fr / password123).");
         }
 
-        const StandStatsRadar = ({ attemptedCount = 0, correctCount = 0, weightedPoints = 0, polyvalenceCount = 0, totalQcmsInDb = 1106, pressureScore = 0 }) => {
-            const enduranceRaw = attemptedCount;
-            const savoirRaw = correctCount;
-            const precisionRaw = enduranceRaw > 0 ? (weightedPoints / enduranceRaw) * 100 : 0;
-            const polyvalenceRaw = polyvalenceCount;
-            const vitesseRaw = enduranceRaw > 0 ? Math.min(100, (pressureScore / enduranceRaw) * 100) : 0;
-            const progressionRaw = totalQcmsInDb > 0 ? (enduranceRaw / totalQcmsInDb) * 100 : 0;
+const StandStatsRadar = ({ progress, totalQcmsInDb, pressureScore = 0 }) => {
+            // 1. Calcul des Stats Brutes
+            const attemptedIds = Object.keys(progress);
+            const correctIds = attemptedIds.filter(id => progress[id] === true);
 
+            const enduranceRaw = attemptedIds.length;
+            const savoirRaw = correctIds.length;
+            const precisionRaw = enduranceRaw > 0 ? (savoirRaw / enduranceRaw) * 100 : 0;
+
+            // Pour la polyvalence, on vérifie quels modules ont au moins 1 QCM répondu
+            let polyvalenceRaw = 0;
+            Object.values(window.ALL_QCM_DATA || ALL_QCM_DATA || {}).forEach(courseQcms => {
+                if (courseQcms.some(q => progress[q.id] !== undefined)) {
+                    polyvalenceRaw++;
+                }
+            });
+
+            // Vitesse (Pression) : pourcentage de QCM tentés sous la pression du chronomètre
+            const vitesseRaw = enduranceRaw > 0 ? (pressureScore / enduranceRaw) * 100 : 0;
+
+            const potentielRaw = totalQcmsInDb - savoirRaw;
+
+            // Progression globale au lieu de Potentiel (qui baissait)
+            const progressionRaw = totalQcmsInDb > 0 ? (savoirRaw / totalQcmsInDb) * 100 : 0;
+
+            // 2. Conversion en Niveaux (0.2 à 5.0 pour que le Radar grandisse de façon fluide)
             const calcContinuous = (val, t) => {
                 if (val >= t[4]) return 5;
                 if (val >= t[3]) return 4 + (val - t[3]) / (t[4] - t[3]);
                 if (val >= t[2]) return 3 + (val - t[2]) / (t[3] - t[2]);
                 if (val >= t[1]) return 2 + (val - t[1]) / (t[2] - t[1]);
                 if (val >= t[0]) return 1 + (val - t[0]) / (t[1] - t[0]);
-                return 0.2 + 0.8 * (val / t[0]);
+                return 0.2 + 0.8 * (val / t[0]); // Ne tombe jamais à 0 complet
             };
 
             const getLetter = (val, t) => {
@@ -1191,12 +1209,12 @@
                 return 'E';
             };
 
-            const savoirT = [20, 100, 250, 500, 850];
-            const vitesseT = [5, 15, 30, 50, 75];
-            const polyT = [1, 3, 5, 8, 10];
-            const endT = [25, 100, 300, 600, 950];
+            const savoirT = [20, 100, 300, 600, 1000];
+            const vitesseT = [5, 10, 15, 20, 25];
+            const polyT = [2, 5, 10, 15, 25];
+            const endT = [30, 150, 400, 800, 1200];
             const precT = [30, 50, 70, 85, 95];
-            const progT = [5, 15, 35, 60, 85];
+            const progT = [5, 15, 30, 50, 80];
 
             const stats = [
                 { name: 'Savoir', value: calcContinuous(savoirRaw, savoirT), letter: getLetter(savoirRaw, savoirT) },
@@ -1207,9 +1225,10 @@
                 { name: 'Progression', value: calcContinuous(progressionRaw, progT), letter: getLetter(progressionRaw, progT) }
             ];
 
+            // 3. Dessin du SVG
             const size = 300;
             const center = size / 2;
-            const radius = 92;
+            const radius = 100;
             const angleStep = (Math.PI * 2) / 6;
 
             const getPoint = (value, index) => {
@@ -1220,24 +1239,25 @@
 
             const polygonPoints = stats.map((stat, i) => getPoint(stat.value, i)).join(' ');
 
+            // Lignes de fond
             const backgroundPolygons = [1, 2, 3, 4, 5].map(level => {
                 return stats.map((_, i) => getPoint(level, i)).join(' ');
             });
 
             return (
-                <div className="flex flex-col items-center justify-between p-5 bg-slate-900/50 rounded-2xl border border-white/10 shadow-2xl relative overflow-hidden w-full h-full">
+                <div className="flex flex-col items-center justify-center p-6 bg-slate-900/50 rounded-2xl border border-white/10 shadow-2xl relative overflow-hidden">
                     <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
-                    <div className="text-center z-10">
-                        <h3 className="text-xl font-serif font-bold text-amber-400 drop-shadow-md">Stand Stats</h3>
-                        <p className="text-xs text-slate-400">Grimoire Médical Level</p>
-                    </div>
+                    <h3 className="text-2xl font-serif font-bold text-amber-400 mb-2 drop-shadow-md z-10">Stand Stats</h3>
+                    <p className="text-sm text-slate-300 mb-6 z-10">Grimoire Médical Level</p>
 
-                    <div className="relative z-10 w-full flex justify-center my-2">
-                        <svg viewBox="-55 -10 410 320" className="w-full max-w-[330px] h-auto overflow-visible">
+                    <div className="relative z-10">
+                        <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+                            {/* Grille de fond */}
                             {backgroundPolygons.map((points, i) => (
                                 <polygon key={i} points={points} fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="1" />
                             ))}
 
+                            {/* Axes */}
                             {stats.map((_, i) => (
                                 <line
                                     key={i}
@@ -1248,6 +1268,7 @@
                                 />
                             ))}
 
+                            {/* Polygone de Stats avec gradient ! */}
                             <defs>
                                 <linearGradient id="radarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                                     <stop offset="0%" stopColor="rgba(245, 158, 11, 0.7)" />
@@ -1262,17 +1283,20 @@
                                 className="drop-shadow-[0_0_15px_rgba(245,158,11,0.6)]"
                             />
 
+                            {/* Labels */}
                             {stats.map((stat, i) => {
-                                const labelR = radius + 34;
+                                const labelR = radius + 35;
                                 const theta = i * angleStep - Math.PI / 2;
                                 const x = center + labelR * Math.cos(theta);
                                 const y = center + labelR * Math.sin(theta);
 
-                                let letterColor = "fill-slate-500";
+                                // Couleur des lettres en fonction du niveau
+                                let letterColor = "text-slate-400";
                                 if (stat.letter === 'A') letterColor = "fill-amber-400 font-black drop-shadow-[0_0_8px_rgba(245,158,11,0.8)]";
                                 if (stat.letter === 'B') letterColor = "fill-emerald-400 font-bold";
                                 if (stat.letter === 'C') letterColor = "fill-blue-400";
                                 if (stat.letter === 'D') letterColor = "fill-rose-400";
+                                if (stat.letter === 'E') letterColor = "fill-slate-500";
 
                                 return (
                                     <g key={i} className="text-xs font-bold drop-shadow-md" fill="#f8fafc" textAnchor="middle" dominantBaseline="middle">
@@ -1284,14 +1308,14 @@
                         </svg>
                     </div>
 
-                    <div className="grid grid-cols-2 gap-3 w-full z-10">
-                        <div className="bg-black/40 p-3 rounded-xl border border-white/5 flex flex-col items-center">
-                            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-0.5">Missions (QCM)</div>
-                            <div className="text-xl font-bold text-white">{enduranceRaw} <span className="text-xs text-slate-500 font-normal">/ {totalQcmsInDb}</span></div>
+                    <div className="mt-6 grid grid-cols-2 gap-4 w-full z-10">
+                        <div className="bg-black/40 p-4 rounded-xl border border-white/5 flex flex-col items-center">
+                            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">Missions (QCM)</div>
+                            <div className="text-2xl font-bold text-white">{enduranceRaw} <span className="text-xs text-slate-500 font-normal">/ {totalQcmsInDb}</span></div>
                         </div>
-                        <div className="bg-black/40 p-3 rounded-xl border border-white/5 flex flex-col items-center">
-                            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-0.5">Précision</div>
-                            <div className={`text-xl font-bold ${precisionRaw >= 70 ? 'text-emerald-400' : (precisionRaw >= 50 ? 'text-amber-400' : 'text-rose-400')}`}>
+                        <div className="bg-black/40 p-4 rounded-xl border border-white/5 flex flex-col items-center">
+                            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">Précision</div>
+                            <div className={`text-2xl font-bold ${precisionRaw >= 70 ? 'text-emerald-400' : (precisionRaw >= 50 ? 'text-amber-400' : 'text-rose-400')}`}>
                                 {precisionRaw.toFixed(1)}%
                             </div>
                         </div>
@@ -1300,287 +1324,156 @@
             );
         };
 
-        const DashboardStats = ({ progress = {}, progressScores = {}, pressureScore = 0, onResetStats }) => {
-            const getQuestionPoints = (qId) => {
-                if (progressScores && progressScores[qId] !== undefined) {
-                    return Number(progressScores[qId]) || 0;
-                }
-                return progress[qId] === true ? 1 : 0;
-            };
+        const DashboardStats = ({ progress, pressureScore = 0, onResetStats }) => {
+            if (!progress || Object.keys(progress).length === 0) return (
+                <div className="text-center text-slate-400 py-10">Aucune donnée pour le moment. Commencez à vous entraîner !</div>
+            );
 
-            // 1. Statistiques des UE de Cours & TD (hors ANNALES)
+            const allQcmArrays = Object.values(window.ALL_QCM_DATA || ALL_QCM_DATA || {});
+            const totalQcmsInDb = allQcmArrays.reduce((acc, arr) => acc + (Array.isArray(arr) ? arr.length : 0), 0) || 1106;
+
             const courseStats = COURSES_DATA.map(course => {
-                const qcms = (ALL_QCM_DATA && ALL_QCM_DATA[course.code]) || [];
+                const qcms = (ALL_QCM_DATA && ALL_QCM_DATA[course.code]) || (window.ALL_QCM_DATA && window.ALL_QCM_DATA[course.code]) || [];
                 let attempted = 0;
                 let correct = 0;
-                let points = 0;
                 qcms.forEach(q => {
-                    if (q && progress[q.id] !== undefined) {
+                    if (progress[q.id] !== undefined) {
                         attempted++;
                         if (progress[q.id] === true) correct++;
-                        points += getQuestionPoints(q.id);
                     }
                 });
-                const weightedPct = attempted > 0 ? (points / attempted) * 100 : 0;
-                const note20 = attempted > 0 ? (points / attempted) * 20 : 0;
                 return {
                     code: course.code,
                     titre: course.titre,
-                    category: 'COURS',
                     total: qcms.length,
                     attempted,
                     correct,
-                    points: Math.round(points * 100) / 100,
-                    accuracy: weightedPct,
-                    strictAccuracy: attempted > 0 ? (correct / attempted) * 100 : 0,
-                    note20,
+                    accuracy: attempted > 0 ? (correct / attempted) * 100 : 0,
                     completion: qcms.length > 0 ? (attempted / qcms.length) * 100 : 0
                 };
-            }).filter(s => s.total > 0);
+            }).filter(stat => stat.attempted > 0).sort((a, b) => a.accuracy - b.accuracy);
 
-            // 2. Statistiques des UE d'Annales Officielles (window.ANNALES_DATA & window.ANNALES_QCM)
-            const annalesData = window.ANNALES_DATA || [];
-            const annalesQcmMap = window.ANNALES_QCM || {};
-            const annalesStats = annalesData.map(ue => {
-                let qcms = [];
-                (ue.groupes || []).forEach(g => {
-                    (g.fichiers || []).forEach(f => {
-                        const tag = `${ue.code}/${g.dir}/${f}`;
-                        if (annalesQcmMap[tag]) {
-                            qcms.push(...annalesQcmMap[tag]);
-                        }
-                    });
-                });
-                let attempted = 0;
-                let correct = 0;
-                let points = 0;
-                qcms.forEach(q => {
-                    if (q && progress[q.id] !== undefined) {
-                        attempted++;
-                        if (progress[q.id] === true) correct++;
-                        points += getQuestionPoints(q.id);
+            // Annales incluses si entamées
+            const annQcms = (window.ALL_QCM_DATA && window.ALL_QCM_DATA['ANNALES']) || (window.ANNALES_QCM ? Object.values(window.ANNALES_QCM).flat() : []);
+            if (annQcms.length > 0) {
+                let annAtt = 0, annCorr = 0;
+                annQcms.forEach(q => {
+                    if (progress[q.id] !== undefined) {
+                        annAtt++;
+                        if (progress[q.id] === true) annCorr++;
                     }
                 });
-                const weightedPct = attempted > 0 ? (points / attempted) * 100 : 0;
-                const note20 = attempted > 0 ? (points / attempted) * 20 : 0;
-                return {
-                    code: `ANN-${ue.code}`,
-                    titre: `📚 Annales — ${ue.titre}`,
-                    category: 'ANNALES',
-                    total: qcms.length,
-                    attempted,
-                    correct,
-                    points: Math.round(points * 100) / 100,
-                    accuracy: weightedPct,
-                    strictAccuracy: attempted > 0 ? (correct / attempted) * 100 : 0,
-                    note20,
-                    completion: qcms.length > 0 ? (attempted / qcms.length) * 100 : 0
-                };
-            }).filter(s => s.total > 0);
+                if (annAtt > 0) {
+                    courseStats.push({
+                        code: 'ANNALES',
+                        titre: '📚 Annales — Sujets Officiels',
+                        total: annQcms.length,
+                        attempted: annAtt,
+                        correct: annCorr,
+                        accuracy: (annCorr / annAtt) * 100,
+                        completion: (annAtt / annQcms.length) * 100
+                    });
+                }
+            }
 
-            const allStats = [...courseStats, ...annalesStats];
-            const totalQcmsInDb = allStats.reduce((acc, s) => acc + s.total, 0);
-            const globalAttempted = allStats.reduce((acc, s) => acc + s.attempted, 0);
-            const globalCorrect = allStats.reduce((acc, s) => acc + s.correct, 0);
-            const globalPoints = Math.round(allStats.reduce((acc, s) => acc + s.points, 0) * 100) / 100;
-            const globalAccuracy = globalAttempted > 0 ? (globalPoints / globalAttempted) * 100 : 0;
-            const globalStrictAccuracy = globalAttempted > 0 ? (globalCorrect / globalAttempted) * 100 : 0;
-            const globalNote20 = globalAttempted > 0 ? (globalPoints / globalAttempted) * 20 : 0;
+            const globalAttempted = courseStats.reduce((acc, stat) => acc + stat.attempted, 0);
+            const globalCorrect = courseStats.reduce((acc, stat) => acc + stat.correct, 0);
+            const globalAccuracy = globalAttempted > 0 ? (globalCorrect / globalAttempted) * 100 : 0;
 
-            const coursTotal = courseStats.reduce((acc, s) => acc + s.total, 0);
-            const coursAttempted = courseStats.reduce((acc, s) => acc + s.attempted, 0);
-            const annalesTotal = annalesStats.reduce((acc, s) => acc + s.total, 0);
-            const annalesAttempted = annalesStats.reduce((acc, s) => acc + s.attempted, 0);
-
-            const startedModulesCount = allStats.filter(s => s.attempted > 0).length;
-            const priorities = allStats
-                .filter(s => s.attempted >= 3 && s.accuracy < 60)
-                .sort((a, b) => a.accuracy - b.accuracy)
-                .slice(0, 3);
+            const priorities = courseStats.filter(s => s.accuracy < 60 && s.attempted >= 5).slice(0, 3);
 
             return (
                 <div className="w-full mx-auto animate-fade-in text-white p-4">
-                    <div className="flex flex-wrap items-center justify-between gap-4 mb-6 border-b border-white/10 pb-4">
-                        <div>
-                            <h2 className="text-2xl md:text-3xl font-serif font-bold text-white">
-                                📊 Bilan de Compétences
-                            </h2>
-                            <p className="text-xs text-slate-400 mt-1">
-                                Calculé sur les {totalQcmsInDb} QCM officiels ({coursTotal} Cours/TD + {annalesTotal} Annales) au barème aux discordances
-                            </p>
-                        </div>
-                        {globalAttempted > 0 && onResetStats && (
+                    <div className="flex justify-between items-center mb-8 border-b border-white/10 pb-4">
+                        <h2 className="text-3xl font-serif font-bold text-white">
+                            📊 Bilan de Compétences
+                        </h2>
+                        {onResetStats && (
                             <button
                                 onClick={onResetStats}
-                                className="px-3.5 py-1.5 rounded-xl text-xs font-mono font-semibold bg-rose-950/50 hover:bg-rose-900/70 text-rose-300 border border-rose-500/30 transition-all"
+                                className="text-xs font-mono px-3 py-1.5 rounded-lg bg-rose-500/10 text-rose-400 border border-rose-500/30 hover:bg-rose-500 hover:text-white transition-all flex items-center gap-1.5"
+                                title="Réinitialiser toutes les statistiques"
                             >
-                                🗑️ Réinitialiser
+                                <span>🗑️</span>
+                                <span>Remettre à zéro</span>
                             </button>
                         )}
                     </div>
 
                     {/* OVERVIEW CARDS & RADAR */}
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-8 items-stretch">
-                        <div className="lg:col-span-5 flex justify-center items-center">
-                            <StandStatsRadar
-                                attemptedCount={globalAttempted}
-                                correctCount={globalCorrect}
-                                weightedPoints={globalPoints}
-                                polyvalenceCount={startedModulesCount}
-                                totalQcmsInDb={totalQcmsInDb}
-                                pressureScore={pressureScore}
-                            />
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+                        <div className="lg:col-span-1 flex justify-center items-center bg-[#1e293b]/40 rounded-2xl p-4 border border-slate-600/30">
+                            <StandStatsRadar progress={progress} totalQcmsInDb={totalQcmsInDb} pressureScore={pressureScore} />
                         </div>
-
-                        <div className="lg:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-4">
-                            <div className="bg-[#1e293b]/60 border border-amber-500/30 rounded-2xl p-4 text-center flex flex-col justify-center">
-                                <div className="text-amber-300/80 text-[11px] font-mono uppercase tracking-wider mb-1">Moyenne (/20)</div>
-                                <div className="text-3xl md:text-4xl font-black text-amber-400">
-                                    {globalNote20.toFixed(1).replace('.', ',')}
-                                    <span className="text-sm font-normal text-slate-400"> /20</span>
-                                </div>
-                                <div className="text-[11px] text-slate-400 mt-1">Barème discordances</div>
-                            </div>
-
-                            <div className="bg-[#1e293b]/60 border border-slate-600/30 rounded-2xl p-4 text-center flex flex-col justify-center">
-                                <div className="text-slate-400 text-[11px] font-mono uppercase tracking-wider mb-1">Précision Pondérée</div>
-                                <div className={`text-3xl md:text-4xl font-bold ${globalAccuracy >= 70 ? 'text-emerald-400' : (globalAccuracy >= 50 ? 'text-amber-400' : 'text-rose-400')}`}>
-                                    {globalAccuracy.toFixed(1)}%
-                                </div>
-                                <div className="text-[11px] text-slate-400 mt-1">Strict : {globalStrictAccuracy.toFixed(0)}%</div>
-                            </div>
-
-                            <div className="bg-[#1e293b]/60 border border-slate-600/30 rounded-2xl p-4 text-center flex flex-col justify-center">
-                                <div className="text-slate-400 text-[11px] font-mono uppercase tracking-wider mb-1">Questions Traitées</div>
-                                <div className="text-3xl md:text-4xl font-bold text-purple-400">{globalAttempted}</div>
-                                <div className="text-[11px] text-slate-400 mt-1">sur {totalQcmsInDb} QCM</div>
-                            </div>
-
-                            <div className="bg-[#1e293b]/60 border border-slate-600/30 rounded-2xl p-4 text-center flex flex-col justify-center">
-                                <div className="text-slate-400 text-[11px] font-mono uppercase tracking-wider mb-1">Sans Faute (1 pt)</div>
-                                <div className="text-3xl md:text-4xl font-bold text-emerald-400">{globalCorrect}</div>
-                                <div className="text-[11px] text-slate-400 mt-1">{globalPoints.toString().replace('.', ',')} pts cumulés</div>
-                            </div>
-
-                            <div className="bg-[#1e293b]/60 border border-slate-600/30 rounded-2xl p-4 text-center flex flex-col justify-center">
-                                <div className="text-slate-400 text-[11px] font-mono uppercase tracking-wider mb-1">📚 Annales</div>
-                                <div className="text-2xl md:text-3xl font-bold text-amber-300">
-                                    {annalesAttempted} <span className="text-sm font-normal text-slate-400">/ {annalesTotal}</span>
-                                </div>
-                                <div className="text-[11px] text-slate-400 mt-1">58 sujets officiels</div>
-                            </div>
-
-                            <div className="bg-[#1e293b]/60 border border-slate-600/30 rounded-2xl p-4 text-center flex flex-col justify-center">
-                                <div className="text-slate-400 text-[11px] font-mono uppercase tracking-wider mb-1">🎓 Cours & TD</div>
-                                <div className="text-2xl md:text-3xl font-bold text-indigo-300">
-                                    {coursAttempted} <span className="text-sm font-normal text-slate-400">/ {coursTotal}</span>
-                                </div>
-                                <div className="text-[11px] text-slate-400 mt-1">{startedModulesCount} / {allStats.length} UE actives</div>
-                            </div>
+                        <div className="bg-[#1e293b]/60 border border-slate-600/30 rounded-2xl p-4 text-center flex flex-col justify-center">
+                            <div className="text-slate-400 text-xs uppercase tracking-wider mb-2">Précision Globale</div>
+                            <div className="text-4xl font-bold text-amber-500">{globalAccuracy.toFixed(1)}%</div>
+                        </div>
+                        <div className="bg-[#1e293b]/60 border border-slate-600/30 rounded-2xl p-4 text-center flex flex-col justify-center">
+                            <div className="text-slate-400 text-xs uppercase tracking-wider mb-2">Questions Traitées</div>
+                            <div className="text-4xl font-bold text-purple-400">{globalAttempted}</div>
+                        </div>
+                        <div className="bg-[#1e293b]/60 border border-slate-600/30 rounded-2xl p-4 text-center flex flex-col justify-center">
+                            <div className="text-slate-400 text-xs uppercase tracking-wider mb-2">Réponses Justes</div>
+                            <div className="text-4xl font-bold text-emerald-400">{globalCorrect}</div>
+                        </div>
+                        <div className="bg-[#1e293b]/60 border border-slate-600/30 rounded-2xl p-4 text-center flex flex-col justify-center">
+                            <div className="text-slate-400 text-xs uppercase tracking-wider mb-2">Modules Entamés</div>
+                            <div className="text-4xl font-bold text-amber-400">{courseStats.length}</div>
                         </div>
                     </div>
 
                     {/* PRIORITIES */}
-                    {priorities.length > 0 && (
-                        <div className="mb-8">
-                            <h3 className="text-lg font-bold text-rose-400 mb-3 flex items-center gap-2">
-                                🚨 Priorités d'Entraînement
-                            </h3>
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                                {priorities.map((stat, i) => (
-                                    <div key={i} className="bg-rose-950/40 border border-rose-500/30 rounded-xl p-4 relative overflow-hidden">
-                                        <div className="absolute top-0 left-0 w-1 h-full bg-rose-500"></div>
-                                        <h4 className="font-bold text-white text-sm mb-2 truncate" title={stat.titre}>{stat.titre}</h4>
-                                        <div className="flex justify-between items-end">
-                                            <div>
-                                                <div className="text-2xl font-bold text-rose-400">{stat.accuracy.toFixed(0)}%</div>
-                                                <div className="text-[10px] text-rose-300/60 uppercase">Note : {stat.note20.toFixed(1).replace('.', ',')}/20</div>
+                    {
+                        priorities.length > 0 && (
+                            <div className="mb-10">
+                                <h3 className="text-xl font-bold text-rose-400 mb-4 flex items-center gap-2">
+                                    🚨 Priorités d'Entraînement
+                                </h3>
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                    {priorities.map((stat, i) => (
+                                        <div key={i} className="bg-rose-950/40 border border-rose-500/30 rounded-xl p-4 relative overflow-hidden">
+                                            <div className="absolute top-0 left-0 w-1 h-full bg-rose-500"></div>
+                                            <h4 className="font-bold text-white mb-2 truncate" title={stat.titre}>{stat.titre}</h4>
+                                            <div className="flex justify-between items-end">
+                                                <div>
+                                                    <div className="text-2xl font-bold text-rose-400">{stat.accuracy.toFixed(0)}%</div>
+                                                    <div className="text-[10px] text-rose-300/60 uppercase">de réussite</div>
+                                                </div>
+                                                <div className="text-right">
+                                                    <div className="text-sm text-slate-300">{stat.attempted}/{stat.total} QCM</div>
+                                                </div>
                                             </div>
-                                            <div className="text-right">
-                                                <div className="text-xs font-mono text-slate-300">{stat.attempted}/{stat.total} QCM</div>
-                                            </div>
                                         </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    )}
-
-                    {/* PROGRESSION ANNALES */}
-                    <div className="mb-8">
-                        <h3 className="text-lg font-bold text-amber-400 mb-3">📚 Progression par UE — Annales Officielles</h3>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                            {annalesStats.map((stat, i) => (
-                                <div key={i} className="bg-[#1e293b]/40 border border-white/5 rounded-xl p-3.5 flex flex-col gap-2 transition-colors hover:bg-[#1e293b]/60">
-                                    <div className="flex justify-between items-center gap-2">
-                                        <span className="font-medium text-sm text-slate-200 truncate">{stat.titre}</span>
-                                        <div className="flex items-center gap-2 shrink-0">
-                                            {stat.attempted > 0 && (
-                                                <span className="text-[11px] font-mono text-slate-400">
-                                                    {stat.note20.toFixed(1).replace('.', ',')}/20
-                                                </span>
-                                            )}
-                                            <span className={`text-xs font-bold px-2 py-0.5 rounded ${
-                                                stat.attempted === 0
-                                                    ? 'bg-white/5 text-slate-400'
-                                                    : stat.accuracy >= 70
-                                                    ? 'bg-emerald-500/20 text-emerald-400'
-                                                    : stat.accuracy >= 50
-                                                    ? 'bg-amber-500/20 text-amber-400'
-                                                    : 'bg-rose-500/20 text-rose-400'
-                                            }`}>
-                                                {stat.attempted > 0 ? `${stat.accuracy.toFixed(0)}%` : 'Non entamé'}
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div className="flex items-center gap-2">
-                                        <div className="flex-1 h-1.5 bg-slate-800 rounded-full overflow-hidden">
-                                            <div className="h-full bg-amber-500 rounded-full transition-all" style={{ width: `${stat.completion}%` }}></div>
-                                        </div>
-                                        <span className="text-[11px] font-mono text-slate-400 w-16 text-right">{stat.attempted}/{stat.total}</span>
-                                    </div>
+                                    ))}
                                 </div>
-                            ))}
-                        </div>
-                    </div>
+                            </div>
+                        )
+                    }
 
-                    {/* PROGRESSION COURS & TD */}
+                    {/* ALL COURSES */}
                     <div>
-                        <h3 className="text-lg font-bold text-slate-200 mb-3">🎓 Progression par UE — Cours & TD</h3>
+                        <h3 className="text-xl font-bold text-slate-200 mb-4">Progression par Module</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                             {courseStats.map((stat, i) => (
-                                <div key={i} className="bg-[#1e293b]/40 border border-white/5 rounded-xl p-3.5 flex flex-col gap-2 transition-colors hover:bg-[#1e293b]/60">
-                                    <div className="flex justify-between items-center gap-2">
-                                        <span className="font-medium text-sm text-slate-200 truncate">{stat.titre}</span>
-                                        <div className="flex items-center gap-2 shrink-0">
-                                            {stat.attempted > 0 && (
-                                                <span className="text-[11px] font-mono text-slate-400">
-                                                    {stat.note20.toFixed(1).replace('.', ',')}/20
-                                                </span>
-                                            )}
-                                            <span className={`text-xs font-bold px-2 py-0.5 rounded ${
-                                                stat.attempted === 0
-                                                    ? 'bg-white/5 text-slate-400'
-                                                    : stat.accuracy >= 70
-                                                    ? 'bg-emerald-500/20 text-emerald-400'
-                                                    : stat.accuracy >= 50
-                                                    ? 'bg-amber-500/20 text-amber-400'
-                                                    : 'bg-rose-500/20 text-rose-400'
-                                            }`}>
-                                                {stat.attempted > 0 ? `${stat.accuracy.toFixed(0)}%` : 'Non entamé'}
-                                            </span>
-                                        </div>
+                                <div key={i} className="bg-[#1e293b]/40 border border-white/5 rounded-lg p-3 flex flex-col gap-2 transition-colors hover:bg-[#1e293b]/60">
+                                    <div className="flex justify-between items-center">
+                                        <span className="font-medium text-sm text-slate-200 truncate pr-4">{stat.titre}</span>
+                                        <span className={`text-xs font-bold px-2 py-0.5 rounded ${stat.accuracy >= 70 ? 'bg-emerald-500/20 text-emerald-400' : (stat.accuracy >= 50 ? 'bg-amber-500/20 text-amber-400' : 'bg-rose-500/20 text-rose-400')}`}>
+                                            {stat.accuracy.toFixed(0)}%
+                                        </span>
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <div className="flex-1 h-1.5 bg-slate-800 rounded-full overflow-hidden">
-                                            <div className="h-full bg-indigo-400 rounded-full transition-all" style={{ width: `${stat.completion}%` }}></div>
+                                            <div className="h-full bg-amber-500 rounded-full" style={{ width: `${stat.completion}%` }}></div>
                                         </div>
-                                        <span className="text-[11px] font-mono text-slate-400 w-16 text-right">{stat.attempted}/{stat.total}</span>
+                                        <span className="text-[10px] text-slate-400 w-10 text-right">{stat.attempted}/{stat.total}</span>
                                     </div>
                                 </div>
                             ))}
                         </div>
                     </div>
+
                 </div>
             );
         };
@@ -2216,12 +2109,9 @@
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center max-w-6xl mx-auto">
 
                         {COURSES_DATA.map(course => {
-                            let diffColor = "bg-amber-500/15 text-amber-300 border-amber-500/30";
-                            if (course.difficulte === "Très difficile" || course.difficulte === "Difficile") {
-                                diffColor = "bg-rose-600/20 text-rose-300 border-rose-600/30 shadow-[0_0_10px_rgba(225,29,72,0.15)]";
-                            } else if (course.difficulte === "Facile" || course.difficulte === "Pratique") {
-                                diffColor = "bg-emerald-600/20 text-emerald-300 border-emerald-600/30";
-                            }
+                            let diffColor = "bg-slate-700/40 text-slate-300 border-slate-600/30";
+                            if (course.difficulte === "Très difficile" || course.difficulte === "Difficile") diffColor = "bg-rose-600/20 text-rose-300 border-rose-600/30";
+                            if (course.difficulte === "Facile") diffColor = "bg-emerald-600/20 text-emerald-300 border-emerald-600/30";
 
                             const allQuestions = (ALL_QCM_DATA && ALL_QCM_DATA[course.code]) || (window.ALL_QCM_DATA && window.ALL_QCM_DATA[course.code]) || [];
                             const correctCount = allQuestions.filter(q => progress && progress[q.id] === true).length;
@@ -2231,49 +2121,47 @@
                             if (pct >= 80) pctColor = "text-emerald-400 bg-emerald-500/10";
                             else if (pct >= 50) pctColor = "text-amber-400 bg-amber-500/10";
 
+                            const isSpecial = course.titre.includes("Annales") || course.titre.includes("Colle");
+
                             return (
                                 <motion.div
                                     key={course.code}
-                                    whileHover={{ scale: 1.025, y: -4 }}
+                                    whileHover={{ scale: 1.03, y: -5, boxShadow: isSpecial ? '0 15px 30px -10px rgba(245, 158, 11, 0.15)' : undefined }}
                                     onClick={() => onSelectCourse(course)}
-                                    className="glass-card p-5 md:p-6 rounded-2xl cursor-pointer group flex flex-col justify-between h-[195px]"
+                                    className="glass-card p-6 rounded-[2rem] cursor-pointer group flex flex-col justify-between"
+                                    style={isSpecial ? {
+                                        borderColor: 'rgba(245, 158, 11, 0.25)',
+                                        background: 'linear-gradient(145deg, rgba(245, 158, 11, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%)'
+                                    } : {}}
                                 >
                                     <div>
-                                        <div className="flex justify-between items-center mb-3">
-                                            <span className={`whitespace-nowrap text-xs font-semibold px-2.5 py-0.5 rounded-full border ${diffColor}`}>
+                                        <div className="flex justify-between items-start mb-4">
+                                            <span className={`whitespace-nowrap text-xs font-semibold px-3 py-1 rounded-full border ${diffColor}`}>
                                                 {course.ects ? `${course.ects} ECTS • ` : ''}{course.difficulte}
                                             </span>
-                                            <div className="flex gap-1.5 items-center">
-                                                <span className={`text-xs font-bold px-2 py-0.5 rounded-md ${pctColor}`}>
-                                                    {pct}% acquis
-                                                </span>
-                                                <SparklesIcon style={{ color: pct === 0 ? '#475569' : '#10b981' }} />
+                                            <div className="flex gap-2 items-center">
+                                                <span className={`text-xs font-bold px-2 py-1 rounded-md ${pctColor}`}>{pct}% acquis</span>
+                                                <SparklesIcon style={{ color: pct === 0 ? '#475569' : `rgb(245, ${158 + (pct / 100) * 60}, ${11 + (pct / 100) * 80})`, opacity: pct === 0 ? 0.3 : 0.5 + (pct / 100) * 0.5, filter: pct === 0 ? 'none' : `drop-shadow(0 0 ${10 + (pct / 100) * 30}px rgba(250, 200, 50, ${0.4 + (pct / 100) * 0.6}))`, transform: `scale(${pct === 0 ? 0.8 : 0.9 + (pct / 100) * 0.35})`, transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)' }} className="" />
                                             </div>
                                         </div>
-                                        <div className="h-14 flex items-center">
-                                            <h3 className="text-lg md:text-xl font-serif font-bold text-slate-100 group-hover:text-amber-300 transition-colors leading-snug line-clamp-2">
-                                                {course.titre}
-                                            </h3>
-                                        </div>
+                                        <h3 className="text-xl font-serif font-bold mb-3 text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug">{course.titre}</h3>
                                     </div>
-                                    <div className="pt-3 flex justify-between items-center text-[10px] md:text-xs border-t border-white/5 mt-auto">
+                                    <div className="pt-3 flex justify-between items-center text-[10px] uppercase text-slate-400 border-t border-white/10 mt-6">
                                         {course.volumeHoraire ? (
-                                            <span className="font-mono text-slate-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/5 flex items-center gap-1.5">
+                                            <span className="font-mono text-slate-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/10 flex items-center gap-1.5">
                                                 <span>⏱</span>
                                                 <span>{course.volumeHoraire}</span>
                                             </span>
                                         ) : (
-                                            <span className="font-mono text-slate-400">{course.code}</span>
+                                            <span className="font-mono">{course.code}</span>
                                         )}
-                                        <span className="text-ghibli-accent font-bold bg-amber-500/10 px-2.5 py-1 rounded-md border border-amber-500/20">
-                                            {course.totalQcm} QCM
-                                        </span>
+                                        <span className="text-ghibli-accent font-bold bg-amber-500/10 px-2.5 py-1 rounded-md border border-amber-500/20">{course.totalQcm} QCM</span>
                                     </div>
                                 </motion.div>
                             );
                         })}
 
-                        {/* 📚 MODULE ANNALES (QCM & PDF) */}
+                        {/* 📚 MODULE ANNALES */}
                         {(window.ANNALES_DATA || []).length > 0 && (() => {
                             const annAllQs = (window.ALL_QCM_DATA && window.ALL_QCM_DATA['ANNALES']) || (window.ANNALES_QCM ? Object.values(window.ANNALES_QCM).flat() : []);
                             const annCorrect = annAllQs.filter(q => progress && progress[q.id] === true).length;
@@ -2285,47 +2173,39 @@
                             return (
                                 <motion.div
                                     key="annales-card"
-                                    whileHover={{ scale: 1.025, y: -4 }}
+                                    whileHover={{ scale: 1.03, y: -5, boxShadow: '0 15px 30px -10px rgba(245, 158, 11, 0.15)' }}
                                     onClick={onShowAnnales}
-                                    className="glass-card p-5 md:p-6 rounded-2xl cursor-pointer group flex flex-col justify-between h-[195px]"
+                                    className="glass-card p-6 rounded-[2rem] cursor-pointer group flex flex-col justify-between"
                                     style={{
                                         borderColor: 'rgba(245, 158, 11, 0.25)',
-                                        background: 'linear-gradient(145deg, rgba(245, 158, 11, 0.04) 0%, rgba(13, 22, 19, 0.7) 100%)'
+                                        background: 'linear-gradient(145deg, rgba(245, 158, 11, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%)'
                                     }}
                                 >
                                     <div>
-                                        <div className="flex justify-between items-center mb-3">
-                                            <span className="whitespace-nowrap text-xs font-semibold px-2.5 py-0.5 rounded-full border border-amber-500/30 bg-amber-500/15 text-amber-300">
+                                        <div className="flex justify-between items-start mb-4">
+                                            <span className="whitespace-nowrap text-xs font-semibold px-3 py-1 rounded-full border border-amber-500/30 bg-amber-500/15 text-amber-300">
                                                 Annales • 58 Sujets
                                             </span>
-                                            <div className="flex gap-1.5 items-center">
-                                                <span className={`text-xs font-bold px-2 py-0.5 rounded-md ${annPctColor}`}>
-                                                    {annPct}% acquis
-                                                </span>
-                                                <SparklesIcon style={{ color: annPct === 0 ? '#475569' : '#10b981' }} />
+                                            <div className="flex gap-2 items-center">
+                                                <span className={`text-xs font-bold px-2 py-1 rounded-md ${annPctColor}`}>{annPct}% acquis</span>
+                                                <SparklesIcon style={{ color: annPct === 0 ? '#475569' : `rgb(245, ${158 + (annPct / 100) * 60}, ${11 + (annPct / 100) * 80})`, opacity: annPct === 0 ? 0.3 : 0.5 + (annPct / 100) * 0.5, filter: annPct === 0 ? 'none' : `drop-shadow(0 0 ${10 + (annPct / 100) * 30}px rgba(250, 200, 50, ${0.4 + (annPct / 100) * 0.6}))`, transform: `scale(${annPct === 0 ? 0.8 : 0.9 + (annPct / 100) * 0.35})`, transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)' }} className="" />
                                             </div>
                                         </div>
-                                        <div className="h-14 flex items-center">
-                                            <h3 className="text-lg md:text-xl font-serif font-bold text-slate-100 group-hover:text-amber-300 transition-colors leading-snug line-clamp-2">
-                                                📚 Annales — Sujets Officiels
-                                            </h3>
-                                        </div>
+                                        <h3 className="text-xl font-serif font-bold mb-3 text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug">📚 Annales — Sujets Officiels</h3>
                                     </div>
-                                    <div className="pt-3 flex justify-between items-center text-[10px] md:text-xs border-t border-white/5 mt-auto">
-                                        <span className="font-mono text-slate-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/5 flex items-center gap-1.5">
+                                    <div className="pt-3 flex justify-between items-center text-[10px] uppercase text-slate-400 border-t border-white/10 mt-6">
+                                        <span className="font-mono text-slate-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/10 flex items-center gap-1.5">
                                             <span>⏱</span>
                                             <span>{(window.ANNALES_DATA || []).length} UE • SQI & DP</span>
                                         </span>
-                                        <span className="text-ghibli-accent font-bold bg-amber-500/10 px-2.5 py-1 rounded-md border border-amber-500/20">
-                                            {annAllQs.length || 625} QCM
-                                        </span>
+                                        <span className="text-ghibli-accent font-bold bg-amber-500/10 px-2.5 py-1 rounded-md border border-amber-500/20">{annAllQs.length || 625} QCM</span>
                                     </div>
                                 </motion.div>
                             );
                         })()}
                     </div>
 
-                    <Footer />
+                                        <Footer />
                 </motion.div>
             );
         };
@@ -2589,89 +2469,51 @@
             );
         };
 
-        const SubMenu = ({ course, progress, onSelectPart, onBack, selectedCours, setSelectedCours }) => {
+        const SubMenu = ({ course, progress, onSelectPart, onBack }) => {
             const [isLoading, setIsLoading] = useState(false);
-            const [loadedQuestions, setLoadedQuestions] = useState(window.ALL_QCM_DATA[course.code] || []);
-            const [loadError, setLoadError] = useState(null);
-            // selectedCours (cours sélectionné à l'intérieur de l'UE) est géré dans App pour persister après une session de QCM
+            const [loadedQuestions, setLoadedQuestions] = useState((ALL_QCM_DATA && ALL_QCM_DATA[course.code]) || (window.ALL_QCM_DATA && window.ALL_QCM_DATA[course.code]) || []);
 
-            // Charger les données à l'affichage si elles ne sont pas encore en mémoire
             useEffect(() => {
                 if (loadedQuestions.length > 0) return;
                 setIsLoading(true);
-                setLoadError(null);
                 chargerDonneesUE(course.code)
                     .then(data => {
                         setLoadedQuestions(data || []);
                         setIsLoading(false);
                     })
-                    .catch(err => {
-                        setLoadError(err.message);
-                        setIsLoading(false);
-                    });
+                    .catch(() => setIsLoading(false));
             }, [course.code]);
 
-            const lancerPart = (part, coursTitle) => {
-                if (isLoading) return;
-                const partQs = loadedQuestions.slice(part.start, part.end);
-                const fullTitle = coursTitle ? `${coursTitle} • ${part.title}` : part.title;
-                if (loadedQuestions.length === 0 || partQs.length === 0) {
+            const allQuestions = loadedQuestions.length > 0
+                ? loadedQuestions
+                : ((ALL_QCM_DATA && ALL_QCM_DATA[course.code]) || (window.ALL_QCM_DATA && window.ALL_QCM_DATA[course.code]) || []);
+
+            const lancerPart = (p) => {
+                const partQs = allQuestions.slice(p.start, p.end);
+                if (allQuestions.length === 0 || partQs.length === 0) {
                     setIsLoading(true);
                     chargerDonneesUE(course.code)
                         .then(data => {
-                            const qs = (data || []).slice(part.start, part.end);
-                            setLoadedQuestions(data || []);
                             setIsLoading(false);
-                            onSelectPart(fullTitle, qs);
+                            const qs = (data || []).slice(p.start, p.end);
+                            onSelectPart(p.title, qs);
                         })
-                        .catch(err => {
-                            setLoadError(err.message);
-                            setIsLoading(false);
-                        });
+                        .catch(() => setIsLoading(false));
                 } else {
-                    onSelectPart(fullTitle, partQs);
+                    onSelectPart(p.title, partQs);
                 }
             };
 
-            const hasModules = course.modules && course.modules.length > 0;
+            const parts = (course.parts && course.parts.length > 0)
+                ? course.parts
+                : (course.modules ? course.modules.flatMap(m => (m.cours || []).flatMap(c => (c.series || []).map(s => ({ ...s, title: c.title ? `${c.title} • ${s.title}` : s.title })))) : []);
 
             return (
                 <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }} className="max-w-6xl mx-auto py-12 px-4 flex flex-col min-h-screen">
-                    {/* Bouton de navigation retour */}
-                    {selectedCours ? (
-                        <button onClick={() => setSelectedCours(null)} className="text-amber-400 hover:text-amber-300 mb-8 text-left w-max flex items-center gap-2 font-medium">
-                            ← Retour aux Cours du Module
-                        </button>
-                    ) : (
-                        <button onClick={onBack} className="text-slate-400 hover:text-white mb-8 text-left w-max flex items-center gap-2">
-                            ← Retour aux Unités d'Enseignement
-                        </button>
-                    )}
+                    <button onClick={onBack} className="text-slate-400 hover:text-white mb-8 text-left w-max flex items-center gap-2">← Retour à la Bibliothèque</button>
+                    <h2 className="text-4xl md:text-5xl font-serif mb-6 text-center magic-text">{course.titre}</h2>
+                    <p className="text-center text-lg font-serif italic text-slate-300 mb-12">Choisis ton chapitre d'entraînement.</p>
 
-                    {/* En-tête */}
-                    <div className="text-center mb-2">
-                        <span className="inline-block px-3.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/25 text-[11px] font-mono font-bold tracking-widest text-amber-400 uppercase">
-                            {selectedCours ? "Cours Sélectionné" : "Unité d'Enseignement"}
-                        </span>
-                    </div>
-
-                    <h2 className="text-4xl md:text-5xl font-serif mb-4 text-center magic-text">
-                        {selectedCours ? selectedCours.title : course.titre}
-                    </h2>
-
-                    {selectedCours && selectedCours.prof && (
-                        <p className="text-center text-sm font-mono text-emerald-400 font-semibold mb-2 flex items-center justify-center gap-1.5">
-                            <span>👨‍⚕️ Enseignant : {selectedCours.prof}</span>
-                        </p>
-                    )}
-
-                    <p className="text-center text-base font-serif italic text-slate-300 mb-12">
-                        {selectedCours
-                            ? "Choisissez une série de QCM pour démarrer l'entraînement de ce cours."
-                            : "Sélectionnez un cours pour accéder à ses séries d'entraînement et annales."}
-                    </p>
-
-                    {/* Indicateur de chargement */}
                     {isLoading && (
                         <div className="flex flex-col items-center justify-center py-20 gap-6">
                             <svg className="animate-spin h-12 w-12 text-amber-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -2682,182 +2524,34 @@
                         </div>
                     )}
 
-                    {/* Erreur de chargement */}
-                    {!isLoading && loadError && (
-                        <div className="glass-card p-8 rounded-2xl border border-rose-500/30 text-center">
-                            <p className="text-rose-400 text-lg mb-2">⚠️ Impossible d'ouvrir ce cours</p>
-                            <p className="text-slate-400 text-sm">{loadError}</p>
-                        </div>
-                    )}
-
-                    {/* VUE 1 : SÉRIES DU COURS SÉLECTIONNÉ */}
-                    {!isLoading && !loadError && selectedCours && (
+                    {!isLoading && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {selectedCours.series.map(s => {
-                                const sQs = loadedQuestions.slice(s.start, s.end);
+                            {parts.map(p => {
+                                const partQs = allQuestions.slice(p.start, p.end);
                                 let correct = 0;
                                 let answered = 0;
-                                sQs.forEach(q => {
+                                partQs.forEach(q => {
                                     if (progress && progress[q.id] !== undefined) {
                                         answered++;
                                         if (progress[q.id]) correct++;
                                     }
                                 });
-                                const count = s.end - s.start;
-                                const sPct = sQs.length > 0 ? Math.round((correct / sQs.length) * 100) : 0;
-                                let sPctColor = "text-slate-400 bg-white/5";
-                                if (sPct >= 80) sPctColor = "text-emerald-400 bg-emerald-500/10";
-                                else if (sPct >= 50) sPctColor = "text-amber-400 bg-amber-500/10";
 
                                 return (
-                                    <motion.div
-                                        key={s.id}
-                                        whileHover={{ scale: 1.04 }}
-                                        onClick={() => lancerPart(s, selectedCours.title)}
-                                        className="glass-card p-7 rounded-2xl flex flex-col justify-between group border border-white/10 hover:border-amber-500/50 relative overflow-hidden cursor-pointer"
-                                    >
-                                        <div>
-                                            <div className="flex justify-between items-start mb-3">
-                                                <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300 text-[10px] font-mono uppercase tracking-wider">
-                                                    <span>🎯 Série d'entraînement</span>
-                                                </div>
-                                                <div className="flex gap-2 items-center">
-                                                    <span className={`text-xs font-bold px-2 py-1 rounded-md ${sPctColor}`}>{sPct}% acquis</span>
-                                                    <SparklesIcon style={{
-                                                        color: sPct === 0 ? '#475569' : `rgb(245, ${158 + (sPct / 100) * 60}, ${11 + (sPct / 100) * 80})`,
-                                                        opacity: sPct === 0 ? 0.3 : 0.5 + (sPct / 100) * 0.5,
-                                                        filter: sPct === 0 ? 'none' : `drop-shadow(0 0 ${10 + (sPct / 100) * 30}px rgba(250, 200, 50, ${0.4 + (sPct / 100) * 0.6}))`,
-                                                        transform: `scale(${sPct === 0 ? 0.8 : 0.9 + (sPct / 100) * 0.35})`,
-                                                        transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)'
-                                                    }} />
-                                                </div>
-                                            </div>
-                                            <h3 className="text-xl font-serif font-bold text-slate-100 mb-2 group-hover:text-amber-400 transition-colors leading-tight">{s.title}</h3>
-                                            <p className="text-sm text-slate-400 mb-6 leading-relaxed">{s.desc}</p>
-                                        </div>
-                                        <div className="mt-auto flex justify-between items-center pt-3 border-t border-white/10">
-                                            <span className="text-xs font-mono text-slate-400">{answered > 0 ? `${correct}/${sQs.length} réussis` : `${count} QCMs`}</span>
-                                            <span className="text-xs font-mono font-bold bg-white/5 border border-white/10 px-3 py-1.5 rounded-xl group-hover:bg-amber-500 group-hover:text-slate-950 transition-all">
-                                                Démarrer →
-                                            </span>
-                                        </div>
-                                    </motion.div>
-                                );
-                            })}
-                        </div>
-                    )}
-
-                    {/* VUE 2 : LISTE DES COURS DE L'UE */}
-                    {!isLoading && !loadError && !selectedCours && hasModules && (
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto w-full">
-                            {course.modules.flatMap(mod => (mod.cours || []).map(c => ({ ...c, moduleTitle: mod.title }))).map(c => {
-                                const totalSeries = c.series ? c.series.length : 0;
-                                const totalCourseQcms = c.series ? c.series.reduce((sum, s) => sum + (s.end - s.start), 0) : 0;
-                                let courseQs = [];
-                                if (c.series && loadedQuestions.length > 0) {
-                                    c.series.forEach(s => {
-                                        courseQs.push(...loadedQuestions.slice(s.start, s.end));
-                                    });
-                                }
-                                const cCorrect = courseQs.filter(q => progress && progress[q.id] === true).length;
-                                const cPct = courseQs.length > 0 ? Math.round((cCorrect / courseQs.length) * 100) : 0;
-                                let cPctColor = "text-slate-400 bg-white/5";
-                                if (cPct >= 80) cPctColor = "text-emerald-400 bg-emerald-500/10";
-                                else if (cPct >= 50) cPctColor = "text-amber-400 bg-amber-500/10";
-
-                                return (
-                                    <motion.div
-                                        key={c.id}
-                                        whileHover={{ scale: 1.025, y: -4 }}
-                                        onClick={() => setSelectedCours(c)}
-                                        className="glass-card p-6 md:p-7 rounded-2xl flex flex-col justify-between group border border-white/10 hover:border-amber-500/50 relative overflow-hidden cursor-pointer bg-gradient-to-br from-slate-900/50 to-slate-950/70 min-h-[220px]"
-                                    >
-                                        <div>
-                                            <div className="flex items-center justify-between mb-4">
-                                                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-emerald-500/10 border border-emerald-500/25 text-emerald-300 text-[11px] font-mono font-semibold uppercase">
-                                                    📝 {c.moduleTitle && c.moduleTitle !== c.title ? c.moduleTitle : "Cours"}
+                                    <motion.div key={p.id} whileHover={{ scale: 1.05 }} onClick={() => lancerPart(p)} className="glass-card p-8 rounded-[2rem] cursor-pointer flex flex-col justify-between group border border-white/10 hover:border-ghibli-accent/50 relative overflow-hidden">
+                                        {answered > 0 && (
+                                            <div className="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-md px-3 py-1.5 rounded-xl border border-white/10 flex items-center shadow-lg">
+                                                <span className={`text-sm font-bold ${correct === partQs.length ? 'text-emerald-400' : (correct >= partQs.length / 2 ? 'text-amber-400' : 'text-rose-400')}`}>
+                                                    {correct}/{partQs.length}
                                                 </span>
-                                                <div className="flex gap-2 items-center">
-                                                    <span className={`text-xs font-bold px-2 py-1 rounded-md ${cPctColor}`}>{cPct}% acquis</span>
-                                                    <SparklesIcon style={{
-                                                        color: cPct === 0 ? '#475569' : `rgb(245, ${158 + (cPct / 100) * 60}, ${11 + (cPct / 100) * 80})`,
-                                                        opacity: cPct === 0 ? 0.3 : 0.5 + (cPct / 100) * 0.5,
-                                                        filter: cPct === 0 ? 'none' : `drop-shadow(0 0 ${10 + (cPct / 100) * 30}px rgba(250, 200, 50, ${0.4 + (cPct / 100) * 0.6}))`,
-                                                        transform: `scale(${cPct === 0 ? 0.8 : 0.9 + (cPct / 100) * 0.35})`,
-                                                        transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)'
-                                                    }} />
-                                                </div>
                                             </div>
-
-                                            <h4 className="text-xl md:text-2xl font-serif font-bold text-slate-100 mb-2 group-hover:text-amber-400 transition-colors leading-tight line-clamp-2">
-                                                {c.title}
-                                            </h4>
-
-                                            {c.prof && (
-                                                <p className="text-xs font-mono text-emerald-400 font-semibold mb-3 flex items-center gap-1.5">
-                                                    <span>👨‍⚕️ Enseignant : {c.prof}</span>
-                                                </p>
-                                            )}
-
-                                            <p className="text-xs md:text-sm text-slate-400 mb-6 leading-relaxed line-clamp-3">{c.desc}</p>
-                                        </div>
-
-                                        <div className="pt-3 flex justify-between items-center text-[10px] md:text-xs uppercase text-slate-400 border-t border-white/10 mt-auto">
-                                            <span className="font-mono text-amber-400 bg-amber-500/10 px-2.5 py-1 rounded-lg border border-amber-500/20">
-                                                {totalSeries} série{totalSeries > 1 ? 's' : ''} • {totalCourseQcms} QCMs
-                                            </span>
-                                            <span className="text-xs font-semibold text-slate-300 group-hover:text-amber-400 transition-colors">
-                                                Ouvrir les Séries →
-                                            </span>
-                                        </div>
-                                    </motion.div>
-                                );
-                            })}
-                        </div>
-                    )}
-
-                    {/* VUE 3 : RÉTROCOMPATIBILITÉ (si l'UE n'a que des parts classiques) */}
-                    {!isLoading && !loadError && !selectedCours && !hasModules && course.parts && (
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {course.parts.map(p => {
-                                const partQs = loadedQuestions.slice(p.start, p.end);
-                                const pCorrect = partQs.filter(q => progress && progress[q.id] === true).length;
-                                const pPct = partQs.length > 0 ? Math.round((pCorrect / partQs.length) * 100) : 0;
-                                let pPctColor = "text-slate-400 bg-white/5";
-                                if (pPct >= 80) pPctColor = "text-emerald-400 bg-emerald-500/10";
-                                else if (pPct >= 50) pPctColor = "text-amber-400 bg-amber-500/10";
-                                const isEmpty = loadedQuestions.length === 0;
-
-                                return (
-                                    <motion.div
-                                        key={p.id}
-                                        whileHover={{ scale: isEmpty ? 1 : 1.05 }}
-                                        onClick={() => lancerPart(p)}
-                                        className={`glass-card p-8 rounded-2xl flex flex-col justify-between group border border-white/10 hover:border-amber-500/50 relative overflow-hidden ${isEmpty ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer'}`}
-                                    >
-                                        <div>
-                                            <div className="flex justify-between items-start mb-4">
-                                                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-amber-500/10 border border-amber-500/25 text-amber-300 text-[11px] font-mono font-semibold uppercase">
-                                                    Partie {p.id}
-                                                </span>
-                                                <div className="flex gap-2 items-center">
-                                                    <span className={`text-xs font-bold px-2 py-1 rounded-md ${pPctColor}`}>{pPct}% acquis</span>
-                                                    <SparklesIcon style={{
-                                                        color: pPct === 0 ? '#475569' : `rgb(245, ${158 + (pPct / 100) * 60}, ${11 + (pPct / 100) * 80})`,
-                                                        opacity: pPct === 0 ? 0.3 : 0.5 + (pPct / 100) * 0.5,
-                                                        filter: pPct === 0 ? 'none' : `drop-shadow(0 0 ${10 + (pPct / 100) * 30}px rgba(250, 200, 50, ${0.4 + (pPct / 100) * 0.6}))`,
-                                                        transform: `scale(${pPct === 0 ? 0.8 : 0.9 + (pPct / 100) * 0.35})`,
-                                                        transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)'
-                                                    }} />
-                                                </div>
-                                            </div>
-                                            <h3 className="text-2xl font-serif font-bold text-slate-100 mb-4 group-hover:text-amber-400 transition-colors leading-tight">{p.title}</h3>
-                                            <p className="text-sm text-slate-400 mb-6 leading-relaxed">{p.desc || "Série d'entraînement QCM."}</p>
+                                        )}
+                                        <div className="mt-2">
+                                            <h3 className="text-2xl font-serif font-bold text-slate-100 mb-4 group-hover:text-ghibli-accent transition-colors leading-tight pr-14">{p.title}</h3>
+                                            <p className="text-sm text-slate-400 mb-6 leading-relaxed">{p.desc}</p>
                                         </div>
                                         <div className="mt-auto">
-                                            <span className="inline-block text-sm font-mono font-bold bg-white/5 border border-white/10 px-4 py-2 rounded-xl text-center group-hover:bg-amber-500 group-hover:text-slate-950 transition-all w-full">
-                                                {p.end - p.start} QCM
-                                            </span>
+                                            <span className="inline-block text-sm font-mono font-bold bg-white/5 border border-white/10 px-4 py-2 rounded-xl text-center group-hover:bg-ghibli-accent group-hover:text-amber-950 transition-all w-full">{p.end - p.start} QCM</span>
                                         </div>
                                     </motion.div>
                                 );
@@ -2865,7 +2559,7 @@
                         </div>
                     )}
                 </motion.div>
-            );
+            )
         };
 
         const Session = ({ course, questionsSubset, onFinish, onBack, hasTimer, onUpdateProgress, pinnedQuestions = [], togglePin }) => {
