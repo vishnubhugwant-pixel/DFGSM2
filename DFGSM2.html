@@ -10,11 +10,11 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Le Grimoire">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=18">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png?v=18">
-    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png?v=18">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png?v=18">
-    <link rel="manifest" href="manifest.json?v=18">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=19">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png?v=19">
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png?v=19">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png?v=19">
+    <link rel="manifest" href="manifest.json?v=19">
 
     <script>
         window.onerror = function (message, source, lineno, colno, error) {
@@ -476,20 +476,20 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://unpkg.com/framer-motion@11.0.8/dist/framer-motion.js"></script>
 
-    <script src="data/ue1.js?v=18"></script>
-    <script src="data/ue2.js?v=18"></script>
-    <script src="data/ue3.js?v=18"></script>
-    <script src="data/ue4.js?v=18"></script>
-    <script src="data/ue5.js?v=18"></script>
-    <script src="data/ue6.js?v=18"></script>
-    <script src="data/ue7.js?v=18"></script>
-    <script src="data/ue8.js?v=18"></script>
-    <script src="data/ue9.js?v=18"></script>
-    <script src="data/ue10.js?v=18"></script>
-    <script src="data/ue11.js?v=18"></script>
-    <script src="data/ue12.js?v=18"></script>
-    <script src="data/annales.js?v=18"></script>
-    <script src="data/annales_qcm.js?v=18"></script>
+    <script src="data/ue1.js?v=19"></script>
+    <script src="data/ue2.js?v=19"></script>
+    <script src="data/ue3.js?v=19"></script>
+    <script src="data/ue4.js?v=19"></script>
+    <script src="data/ue5.js?v=19"></script>
+    <script src="data/ue6.js?v=19"></script>
+    <script src="data/ue7.js?v=19"></script>
+    <script src="data/ue8.js?v=19"></script>
+    <script src="data/ue9.js?v=19"></script>
+    <script src="data/ue10.js?v=19"></script>
+    <script src="data/ue11.js?v=19"></script>
+    <script src="data/ue12.js?v=19"></script>
+    <script src="data/annales.js?v=19"></script>
+    <script src="data/annales_qcm.js?v=19"></script>
 </head>
 
 <body>
@@ -2136,8 +2136,8 @@ const StandStatsRadar = ({ progress, totalQcmsInDb, pressureScore = 0 }) => {
                                                 <SparklesIcon style={{ color: pct === 0 ? '#475569' : `rgb(245, ${158 + (pct / 100) * 60}, ${11 + (pct / 100) * 80})`, opacity: pct === 0 ? 0.3 : 0.5 + (pct / 100) * 0.5, filter: pct === 0 ? 'none' : `drop-shadow(0 0 ${10 + (pct / 100) * 30}px rgba(250, 200, 50, ${0.4 + (pct / 100) * 0.6}))`, transform: `scale(${pct === 0 ? 0.8 : 0.9 + (pct / 100) * 0.35})`, transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)' }} className="" />
                                             </div>
                                         </div>
-                                        <div className="min-h-[3rem] flex items-center mb-3">
-                                            <h3 className="text-base font-sans font-semibold text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug line-clamp-1">{course.titre}</h3>
+                                        <div className="min-h-[3.5rem] flex items-center mb-3">
+                                            <h3 className="text-xl font-sans font-bold text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug line-clamp-2">{course.titre}</h3>
                                         </div>
                                     </div>
                                     <div className="pt-3 flex justify-between items-center text-[10px] uppercase text-slate-400 border-t border-white/10 mt-6">
@@ -2185,8 +2185,8 @@ const StandStatsRadar = ({ progress, totalQcmsInDb, pressureScore = 0 }) => {
                                                 <SparklesIcon style={{ color: annPct === 0 ? '#475569' : `rgb(245, ${158 + (annPct / 100) * 60}, ${11 + (annPct / 100) * 80})`, opacity: annPct === 0 ? 0.3 : 0.5 + (annPct / 100) * 0.5, filter: annPct === 0 ? 'none' : `drop-shadow(0 0 ${10 + (annPct / 100) * 30}px rgba(250, 200, 50, ${0.4 + (annPct / 100) * 0.6}))`, transform: `scale(${annPct === 0 ? 0.8 : 0.9 + (annPct / 100) * 0.35})`, transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)' }} className="" />
                                             </div>
                                         </div>
-                                        <div className="min-h-[3rem] flex items-center mb-3">
-                                            <h3 className="text-base font-sans font-semibold text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug line-clamp-1">📚 Annales — Sujets Officiels</h3>
+                                        <div className="min-h-[3.5rem] flex items-center mb-3">
+                                            <h3 className="text-xl font-sans font-bold text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug line-clamp-2">📚 Annales — Sujets Officiels</h3>
                                         </div>
                                     </div>
                                     <div className="pt-3 flex justify-between items-center text-[10px] uppercase text-slate-400 border-t border-white/10 mt-6">
@@ -2282,7 +2282,7 @@ const StandStatsRadar = ({ progress, totalQcmsInDb, pressureScore = 0 }) => {
                                                 </div>
                                             </div>
                                             <div className="min-h-[3.5rem] flex items-center mb-3">
-                                                <h3 className="text-base font-sans font-semibold text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug line-clamp-2">{ue.titre}</h3>
+                                                <h3 className="text-xl font-sans font-bold text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug line-clamp-2">{ue.titre}</h3>
                                             </div>
                                         </div>
                                         <div className="pt-3 flex justify-between items-center text-[10px] uppercase text-slate-400 border-t border-white/10 mt-6">
@@ -2342,7 +2342,7 @@ const StandStatsRadar = ({ progress, totalQcmsInDb, pressureScore = 0 }) => {
                                                                     {pct}% acquis
                                                                 </span>
                                                             </div>
-                                                            <h4 className="text-sm md:text-base font-sans font-semibold text-slate-100 group-hover:text-amber-400 transition-colors mb-1">
+                                                            <h4 className="text-base md:text-lg font-sans font-bold text-slate-100 group-hover:text-amber-400 transition-colors mb-1">
                                                                 {cleanTitle}
                                                             </h4>
                                                             <div className="flex items-center justify-between text-xs text-slate-400 mb-4">
@@ -2545,7 +2545,7 @@ const StandStatsRadar = ({ progress, totalQcmsInDb, pressureScore = 0 }) => {
                                             </div>
                                         )}
                                         <div className="mt-2 mb-6">
-                                            <h3 className="text-sm md:text-base font-sans font-semibold text-slate-100 group-hover:text-ghibli-accent transition-colors leading-snug pr-10">{p.title}</h3>
+                                            <h3 className="text-2xl font-sans font-bold text-slate-100 group-hover:text-ghibli-accent transition-colors leading-tight pr-14">{p.title}</h3>
                                         </div>
                                         <div className="mt-auto">
                                             <span className="inline-block text-sm font-mono font-bold bg-white/5 border border-white/10 px-4 py-2 rounded-xl text-center group-hover:bg-ghibli-accent group-hover:text-amber-950 transition-all w-full">{partQs.length || (p.end - p.start)} QCM</span>
